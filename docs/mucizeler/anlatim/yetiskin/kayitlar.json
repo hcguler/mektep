@@ -1,0 +1,83 @@
+{
+ "_aciklama": "mucizeler sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Kur’an’dan Mucizeler: tam anlatım",
+   "sure": 1140.13,
+   "imza": "0736c47f0b56dcfc"
+  },
+  "giris": {
+   "baslik": "Kur’an’dan Mucizeler",
+   "sure": 52.01,
+   "imza": "ab586f021f5bdf4a"
+  },
+  "01-rum": {
+   "baslik": "Rumların zaferi",
+   "sure": 90.48,
+   "imza": "4b51fd6f16557112"
+  },
+  "02-ebuleheb": {
+   "baslik": "Ebu Leheb",
+   "sure": 77.96,
+   "imza": "026f18e73e8868e9"
+  },
+  "03-bedir": {
+   "baslik": "Bedir’deki bozgun",
+   "sure": 60.91,
+   "imza": "0319f0722c94570b"
+  },
+  "04-mescid": {
+   "baslik": "Mescid-i Haram’a giriş",
+   "sure": 85.06,
+   "imza": "5944573326c02560"
+  },
+  "05-koruma": {
+   "baslik": "Kur’an’ın korunması",
+   "sure": 57.81,
+   "imza": "455dada050a0c4ec"
+  },
+  "06-benzeri": {
+   "baslik": "Benzeri getirilemez",
+   "sure": 94.98,
+   "imza": "ffae6ca9fe30a2b9"
+  },
+  "07-yaratilis": {
+   "baslik": "Ana rahminde yaratılış",
+   "sure": 99.76,
+   "imza": "d07d9ce28979fede"
+  },
+  "08-ay": {
+   "baslik": "Ay’ın evreleri ve yörüngeler",
+   "sure": 112.59,
+   "imza": "1ecc089034ee098a"
+  },
+  "09-daglar": {
+   "baslik": "Dağların hareketi",
+   "sure": 91.78,
+   "imza": "a0e86c13e4e44dc9"
+  },
+  "10-genisleme": {
+   "baslik": "Evrenin genişlemesi",
+   "sure": 61.34,
+   "imza": "ff84d822e7eba5a1"
+  },
+  "11-denizler": {
+   "baslik": "İki deniz arasındaki engel",
+   "sure": 99.99,
+   "imza": "11e54798d4937c54"
+  },
+  "12-ayrilma": {
+   "baslik": "Göklerin ve yerin ayrılması",
+   "sure": 79.45,
+   "imza": "3d72c28cbe6e9f4e"
+  },
+  "olcu": {
+   "baslik": "Ölçü",
+   "sure": 69.51,
+   "imza": "5fa852b13323b564"
+  }
+ }
+}

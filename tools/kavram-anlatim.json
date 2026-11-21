@@ -1,0 +1,1976 @@
+{
+ "_aciklama": "İslam'da Kavram Haritası sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt, sırayla seslendirilen parçalardan oluşur. Parça ya bir metindir ya da [metin, duraklama] çiftidir; duraklama o parçadan sonraki sessizliktir (saniye). Arapça metin seslendirilmez; ayetlerin meali okunur. Bu dosya tools/kavram-anlatim.mjs ile docs/kavram/data.js ve ayetler.js içeriğinden üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "İslam'da Kavram Haritası: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "kuran",
+   "sunnet-kaynak",
+   "icma",
+   "kiyas",
+   "farz",
+   "vacip",
+   "sunnet",
+   "mustehab",
+   "mubah",
+   "mekruh-tenzihen",
+   "mekruh-tahrimen",
+   "haram",
+   "helal",
+   "supheli",
+   "niyet",
+   "ibaha",
+   "guc",
+   "ruhsat",
+   "zaruret"
+  ],
+  "parcalar": [
+   [
+    "İslam'da Kavram Haritası.",
+    1.2
+   ],
+   [
+    "Kur'an. Dinin ilk ve temel kaynağı.",
+    0.7
+   ],
+   "Kur'an, Allah'ın Peygamberimize indirdiği ve bize eksiksiz ulaşan sözüdür.",
+   "Dinî hükümlerin ilk ve en temel kaynağıdır; bir meselenin hükmü aranırken önce Kur'an'a bakılır.",
+   "Kur'an'daki hükümlerin bir kısmı ayrıntılıdır, içkinin ve faizin yasaklanması gibi, bir kısmı ise genel bir emir hâlindedir, namazın kılınması gibi; ayrıntıyı Sünnet açıklar.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Nahl Suresi, seksen dokuzuncu ayetin anlamı şöyledir.",
+   "O gün her ümmetten bir kişiyi onlara şahit tutarız.",
+   "Seni de ümmetine şahit getiririz.",
+   [
+    "Sana her şeyi açıklayan ve Müslümanlara doğruyu gösteren bir rehber, rahmet ve müjde olarak Kuran'ı indirdik.",
+    0.6
+   ],
+   "İsrâ Suresi, dokuzuncu ve onuncu ayetlerin anlamı şöyledir.",
+   [
+    "Doğrusu bu Kuran en doğru yola götürür ve yararlı iş yapan müminlere büyük ecir olduğunu, ahirete inanmayanlara can yakıcı bir azap hazırladığımızı müjdeler.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Namazın kılınması, orucun tutulması ve zekâtın verilmesi Kur’an’da açıkça emredilir.",
+   "İçki, kumar, faiz ve gıybetin yasak oluşu Kur’an’da açıkça bildirilir.",
+   "Kur’an namazı emreder; kaç rekât olduğunu ve nasıl kılınacağını ise Sünnet öğretir.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Hükmün ilk adresi Kur’an’dır.",
+    1.6
+   ],
+   [
+    "Sünnet. Peygamberimizin söz, davranış ve onayları.",
+    0.7
+   ],
+   "Sünnet, Peygamberimizin sözleri, davranışları ve gördüğü bir şeye karşı çıkmayarak verdiği onaylardır.",
+   "Kur'an'dan sonra ikinci kaynaktır: Kur'an'ın genel bıraktığını açıklar, nasıl uygulanacağını gösterir.",
+   "Burada sünnet kaynak anlamındadır; hüküm terazisindeki sünnet ise ayrı bir derecedir.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Haşr Suresi, yedinci ayetin anlamı şöyledir.",
+   "Allah'ın, fethedilen memleketler halkının mallarından Peygamberine verdikleri; Allah, Peygamber, yakınlar, yetimler, yoksullar ve yolda kalmışlar içindir; ta ki içinizdeki zenginler arasında elden ele dolaşan bir devlet olmasın.",
+   [
+    "Peygamber size ne verirse onu alın, sizi neden menederse ondan geri durun; Allah'tan sakının, doğrusu Allah'ın cezalandırması çetindir.",
+    0.6
+   ],
+   "Nisâ Suresi, sekseninci ayetin anlamı şöyledir.",
+   "Peygamber'e itaat eden, Allah'a itaat etmiş olur.",
+   [
+    "Kim yüz çevirirse bilsin ki, Biz seni onlara bekçi göndermedik.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Beni nasıl namaz kılarken gördüyseniz öyle kılın.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Namazların vakitleri, rekât sayıları ve kılınışı Peygamberimizin uygulamasıyla öğrenilir.",
+   "Zekâtın hangi mallardan ve hangi oranda verileceği Sünnet’le belirlenmiştir.",
+   "Haccın nasıl yapılacağı Peygamberimizin Veda haccındaki uygulamasından öğrenilir.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Kur’an emreder, Sünnet nasıl yapılacağını gösterir.",
+    1.6
+   ],
+   [
+    "İcmâ. Âlimlerin bir hükümde birleşmesi.",
+    0.7
+   ],
+   "İcmâ, Peygamberimizin vefatından sonra bir dönemdeki müctehid âlimlerin, dinî bir meselenin hükmünde birleşmesidir.",
+   "İcmâ Kur'an ve Sünnet'e dayanır; âlimlerin üzerinde birleştiği bir hüküm, ümmetin ortak anlayışını gösterir ve bağlayıcıdır.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Nisâ Suresi, yüz on beşinci ayetin anlamı şöyledir.",
+   "Doğru yol kendisine apaçık belli olduktan sonra, Peygamberden ayrılıp, inananların yolundan başkasına uyan kimseyi, döndüğü yöne döndürür ve onu cehenneme sokarız.",
+   "Orası ne kötü bir dönüş yeridir.",
+   [
+    "Âlimler bu ayeti, müminlerin ortak yolundan ayrılmamanın gerekliliğine ve icmâın delil oluşuna dayanak göstermiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Kur’an, Hz. Ebû Bekir döneminde sahâbenin ittifakıyla tek bir mushafta toplandı.",
+   "Beş vakit namazın rekât sayıları, ümmetin kesintisiz uygulaması ve âlimlerin ittifakıyla bilinir.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "İcmâın türleri ve şartları hakkında ayrıntılı görüşler vardır; ancak icmâın bir delil olduğunda Ehl-i sünnet mezhepleri birleşir.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Âlimlerin birleştiği yerde ümmetin ortak sesi vardır.",
+    1.6
+   ],
+   [
+    "Kıyas. Ortak gerekçeyle hükmü yeni duruma taşımak.",
+    0.7
+   ],
+   "Kıyas, hakkında Kur'an ve Sünnet'te açık hüküm bulunmayan bir meseleyi, hükmü bilinen bir meseleye aralarındaki ortak gerekçe, illet, sebebiyle benzeterek hükme bağlamaktır.",
+   "Böylece yeni ortaya çıkan durumlar da dinin ölçüleriyle değerlendirilir.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Haşr Suresi, ikinci ayetin anlamı şöyledir.",
+   "Kitap ehlinden inkarcı olanları ilk sürgünde yurtlarından çıkaran O'dur.",
+   "Oysa ey inananlar!",
+   "Çıkacaklarını sanmamıştınız, onlar da, kalelerinin kendilerini Allah'tan koruyacağını sanmışlardı.",
+   "Ama Allah'ın azabı onlara beklemedikleri yerden geldi, kalblerine korku saldı; evlerini kendi elleriyle ve inananların elleriyle yıkıyorlardı.",
+   "Ey akıl sahipleri!",
+   "Ders alın.",
+   [
+    "Ayetin sonundaki Ders alın emri, âlimlerin kıyasa delil gösterdiği ifadelerdendir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Sarhoşluk veren her şey içkidir, hamr, ve sarhoşluk veren her şey haramdır.",
+   "Bu hadisi Müslim rivayet etmiştir.",
+   [
+    "Hükmün gerekçesi sarhoşluk vermesidir; bu gerekçeyi taşıyan her şey aynı hükmü alır.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Kur’an içkiyi yasaklar; sarhoşluk veren uyuşturucu maddeler de aynı gerekçeyle haramdır.",
+   "Cuma ezanı okunurken alışverişi bırakmak emredilir; âlimler namaza engel olan başka meşguliyetleri de aynı gerekçeyle bu emrin kapsamında görmüştür.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Dört mezhep kıyası delil kabul eder; Zâhirîler kabul etmez.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Gerekçe aynıysa hüküm de aynıdır.",
+    1.6
+   ],
+   [
+    "Farz. Yapılması kesin olarak istenen.",
+    0.7
+   ],
+   "Farz, yapılması Kur'an ya da kesin sünnet gibi şüphe taşımayan bir delille istenen davranıştır.",
+   "Farz olduğu kesin olan bir şeyi inkâr etmek kişiyi dinden çıkarır.",
+   "Herkesin bizzat yapması gereken farza farz-ı ayn, namaz gibi, bir kısım Müslümanın yapmasıyla diğerlerinden düşen farza farz-ı kifâye, cenaze namazı gibi, denir.",
+   "Yaparsan, sevap kazanırsın.",
+   [
+    "Yapmazsan, özürsüz terk etmek günahtır.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Bakara Suresi, kırk üçüncü ayetin anlamı şöyledir.",
+   [
+    "Namazı kılın, zekatı verin, rüku edenlerle birlikte rüku edin.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+   "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+   "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+   "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+   [
+    "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Allah buyurur ki: Kulum bana, kendisine farz kıldığım şeylerden daha sevimli bir şeyle yaklaşamaz.",
+   "Kulum nafilelerle de bana yaklaşmaya devam eder; sonunda onu severim.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Beş vakit namaz kılmak.",
+   "Ramazan orucunu tutmak.",
+   "Namaz kılmak için abdest almak.",
+   "Malı nisaba ulaşan kimsenin zekât vermesi.",
+   "Emaneti sahibine geri vermek.",
+   "Cenaze namazı kılmak, farz-ı kifâye.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Hanefîler, kesin delille sabit olanı farz, kesinliği daha az olan delille sabit olanı vacip diye ayırır.",
+   "Diğer mezhepler farz ile vacibi çoğunlukla aynı anlamda kullanır.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Farz kulluğun temelidir; nafileler onun üstüne kurulur.",
+    1.6
+   ],
+   [
+    "Vacip. Farza yakın, yapılması gereken.",
+    0.7
+   ],
+   "Vacip, Hanefî mezhebine göre yapılması istenen, ancak delili farzın delili kadar kesin olmayan davranıştır.",
+   "Uygulamada farz gibi yerine getirilir; fark, inkâr edenin durumundadır: Vacibi inkâr eden, farzı inkâr eden gibi dinden çıkmaz.",
+   "Yaparsan, sevap kazanırsın.",
+   [
+    "Yapmazsan, özürsüz terk etmek günahtır.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Kevser Suresi, ikinci ayetin anlamı şöyledir.",
+   "Öyleyse Rabbin için namaz kıl, kurban kes.",
+   [
+    "Hanefîler bu ayeti, imkânı olanın kurban kesmesinin vacip oluşuna delil gösterir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Vitir namazı kılmak, Hanefî.",
+   "İmkânı olanın Kurban Bayramı’nda kurban kesmesi, Hanefî.",
+   "Bayram namazlarını kılmak, Hanefî.",
+   "Fıtır sadakası vermek, Hanefî.",
+   "Namazda Fâtiha suresini okumak, Hanefî.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Şâfiî, Mâlikî ve Hanbelî mezheplerinde ayrı bir vacip derecesi yoktur.",
+   "Bu örneklerin hükmü o mezheplerde farklıdır: Vitir ve kurban sünnet; fıtır sadakası ve namazda Fâtiha okumak farz kabul edilir.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Vacip farzın hemen yanındadır; terk edilmez.",
+    1.6
+   ],
+   [
+    "Sünnet. Peygamberimizin yaptığı ve tavsiye ettiği.",
+    0.7
+   ],
+   "Hüküm olarak sünnet, Peygamberimizin farz ve vacip dışında yaptığı ya da yapılmasını tavsiye ettiği davranışlardır.",
+   "Peygamberimizin devamlı yapıp nadiren terk ettiklerine sünnet-i müekkede, ara sıra yaptıklarına sünnet-i gayr-i müekkede denir.",
+   "Yaparsan, sevap kazanırsın.",
+   [
+    "Yapmazsan, günah olmaz; ancak müekked sünneti alışkanlık hâlinde terk etmek kınanmayı gerektirir.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Ahzâb Suresi, yirmi birinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "And olsun ki, sizin için, Allah'a ve ahiret gününe kavuşmayı umanlar ve Allah'ı çok anan kimseler için Resulullah, Allah'ın Elçisi, en güzel örnektir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Ümmetime zor gelmeyecek olsaydı, onlara her namazda misvak kullanmalarını emrederdim.",
+   "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+   "Peygamberimiz misvakı ümmetine zor gelmesin diye emir hâline getirmemiş, tavsiye olarak bırakmıştır.",
+   [
+    "Emir ile tavsiye arasındaki fark, farz ile sünnet arasındaki farktır.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Sabah namazının farzından önce iki rekât sünnet kılmak, müekked.",
+   "Öğle namazının sünnetlerini kılmak, müekked.",
+   "İkindi ve yatsı namazlarının ilk sünnetlerini kılmak, gayr-i müekked.",
+   "Misvak kullanmak, dişleri temizlemek.",
+   "Karşılaştığı Müslümana selam vermek.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Şâfiî ve Hanbelî mezheplerinde sünnet, mendup, müstehab ve nâfile çoğunlukla aynı anlamda kullanılır.",
+   "Hanefîler sünneti, özellikle müekked olanını, müstehabdan daha kuvvetli görür.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Sünnet, Peygamberimizi örnek alarak yaşamaktır.",
+    1.6
+   ],
+   [
+    "Müstehab. Yapılması güzel ve sevaplı olan.",
+    0.7
+   ],
+   "Müstehab, mendup, Peygamberimizin bazen yaptığı ya da yapılmasını teşvik ettiği davranışlardır.",
+   "Farzların dışında kılınan nâfile namazlar, tutulan nâfile oruçlar ve verilen sadakalar bu türdendir.",
+   "Nâfile, tatavvu ve mendup kelimeleri de benzer anlamda kullanılır.",
+   "Yaparsan, sevap kazanırsın.",
+   [
+    "Yapmazsan, günah olmaz.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Allah buyurur ki: Kulum bana, kendisine farz kıldığım şeylerden daha sevimli bir şeyle yaklaşamaz.",
+   "Kulum nafilelerle de bana yaklaşmaya devam eder; sonunda onu severim.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "İyilikten hiçbir şeyi küçük görme; kardeşini güler yüzle karşılamak bile olsa.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Kuşluk, duhâ, namazı kılmak.",
+   "Pazartesi ve perşembe günleri nâfile oruç tutmak.",
+   "Zekâtın dışında, gönülden sadaka vermek.",
+   "Kardeşini güler yüzle karşılamak.",
+   "Namaz dışında, nâfile olarak Kur’an okumak.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Şâfiî ve Hanbelî mezheplerinde müstehab, mendup, sünnet ve nâfile çoğunlukla aynı anlamda kullanılır.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "İyiliğin küçüğü yoktur.",
+    1.6
+   ],
+   [
+    "Mubah. Yapıp yapmamakta serbest olunan.",
+    0.7
+   ],
+   "Mubah, yapılıp yapılmaması kişinin tercihine bırakılan davranıştır.",
+   "Gündelik hayatın büyük bölümü mubahtır: yemek, uyumak, gezmek, alışveriş yapmak gibi.",
+   "Mubah bir iş güzel bir niyetle yapılırsa sevaba vesile olur.",
+   "Yaparsan, sevap da günah da yoktur; güzel bir niyetle sevaba dönüşür.",
+   [
+    "Yapmazsan, sevap da günah da yoktur.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Mâide Suresi, ikinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Allah'ın nişanelerine, hürmet edilen aya, hediye olan kurbanlığa, gerdanlıklar takılan hayvanlara, Rab'lerinden bol nimet ve rıza talep ederek Beyt-i Haram'a gelenlere sakın hürmetsizlik etmeyin.",
+   "İhramdan çıktığınız zaman avlanabilirsiniz.",
+   "Sizi Mescid-i Haram'dan menettiği için bir topluluğa olan kininiz, aşırı gitmenize sebep olmasın; iyilikte ve fenalıktan sakınmakta yardımlaşın, günah işlemek ve aşırı gitmekte yardımlaşmayın.",
+   "Allah'tan sakının, Allah'ın cezası şiddetlidir.",
+   "İhram sırasında yasak olan avlanma, ihramdan çıkınca serbest bırakılmıştır.",
+   [
+    "Âlimlere göre yasaktan sonra gelen bu tür emirler yapabilirsiniz anlamındadır.",
+    0.6
+   ],
+   "Cuma Suresi, onuncu ayetin anlamı şöyledir.",
+   "Namaz bitince yeryüzüne yayılın; Allah'ın lütfundan rızık isteyin; Allah'ı çok anın ki saadete erişesiniz.",
+   [
+    "Cuma namazı bitince işe ve rızık aramaya dönmek serbesttir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Helal yiyeceklerden canının istediğini seçip yemek.",
+   "Alışveriş yapmak, ticaretle uğraşmak.",
+   "Yürüyüş yapmak, spor yapmak.",
+   "Uyumak, dinlenmek.",
+   "Giyeceği kıyafetin rengini seçmek.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Bütün mezhepler mubahı aynı anlamda kullanır.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Serbest olan çoktur; niyet onu ibadete çevirir.",
+    1.6
+   ],
+   [
+    "Mekruh, tenzîhen. Yapılmaması daha iyi olan.",
+    0.7
+   ],
+   "Tenzîhen mekruh, yapılmaması yapılmasından daha iyi olan davranıştır; helale daha yakındır.",
+   "Yapan günaha girmez, fakat güzel olanı kaçırmış olur.",
+   "Diğer mezheplerde mekruh denince genellikle bu anlam kastedilir.",
+   "Yaparsan, günah olmaz; ama güzel olanı kaçırırsın.",
+   [
+    "Yapmazsan, sevap kazanırsın.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Sarımsak ya da soğan yiyen kimse bizden ve mescidimizden uzak dursun, evinde otursun.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   "A‘râf Suresi, otuz birinci ayetin anlamı şöyledir.",
+   "Ey Ademoğulları!",
+   [
+    "Her mescide güzel elbiselerinizi giyinerek gidin; yiyin için fakat israf etmeyin, çünkü Allah müsrifleri sevmez.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Abdest alırken suyu israf etmek.",
+   "Çiğ soğan ya da sarımsak yiyip ağız kokusuyla camiye gitmek.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Tenzîhen ve tahrîmen ayrımı Hanefî mezhebine aittir.",
+   "Diğer mezheplerde mekruh, terk edilmesi daha iyi olan ve yapana günah yazılmayan davranıştır.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Mekruhtan uzak duran, güzel olanı seçmiş olur.",
+    1.6
+   ],
+   [
+    "Mekruh, tahrîmen. Harama yakın, kaçınılması gereken.",
+    0.7
+   ],
+   "Tahrîmen mekruh, Hanefî mezhebine göre yapılmaması kesin olmayan bir delille istenen davranıştır; harama yakındır.",
+   "Vacibin karşıtıdır: Vacip yapılması, tahrîmen mekruh ise terk edilmesi gereken davranıştır.",
+   "Haramın aksine, bunu inkâr eden dinden çıkmaz.",
+   "Yaparsan, günah olur.",
+   [
+    "Yapmazsan, sevap kazanırsın.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Cuma Suresi, dokuzuncu ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "Cuma günü namaz için ezan okunduğu zaman Allah'ı anmaya koşun; alım satımı bırakın; bilseniz, bu sizin için daha iyidir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Resûlullah üç vakitte namaz kılmamızı ve ölülerimizi defnetmemizi yasaklardı: Güneş doğarken yükselinceye kadar, güneş tam tepedeyken batıya kayıncaya kadar ve güneş batmaya yaklaştığında batıncaya kadar.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Cuma ezanı okunurken alışverişe devam etmek.",
+   "Güneş doğarken, tam tepedeyken ya da batarken namaz kılmak, kerahat vakitleri.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Bu derece yalnız Hanefî mezhebinde vardır.",
+   "Diğer mezhepler bu örneklerin bir kısmını haram, bir kısmını mekruh sayar; örneğin Cuma ezanı okunurken yapılan alışveriş diğer üç mezhepte haramdır.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Harama yakın olandan uzak dur.",
+    1.6
+   ],
+   [
+    "Haram. Yapılmaması kesin olarak istenen.",
+    0.7
+   ],
+   "Haram, yapılmaması Kur'an ya da kesin sünnet gibi şüphe taşımayan bir delille istenen davranıştır.",
+   "Allah rızası için haramdan kaçınan sevap kazanır.",
+   "Haram olduğu kesin olarak bilinen bir şeyi helal saymak kişiyi dinden çıkarır.",
+   "Yaparsan, günah olur.",
+   [
+    "Yapmazsan, allah rızası için kaçınırsan sevap kazanırsın.",
+    0.6
+   ],
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Mâide Suresi, doksanıncı ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   [
+    "İçki, kumar, putlar ve fal okları şüphesiz şeytan işi pisliklerdir, bunlardan kaçının ki saadete eresiniz.",
+    0.6
+   ],
+   "Bakara Suresi, yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+   "Şüphesiz size ölü hayvan etini, kanı, domuz etini, Allah'tan başkası için kesilen hayvanı haram kılmıştır; fakat, darda kalana, başkasının payına el uzatmamak ve zaruret miktarını aşmamak üzere günah sayılmaz.",
+   [
+    "Çünkü Allah bağışlayandır, merhamet edendir.",
+    0.6
+   ],
+   "Hucurât Suresi, on ikinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Zannın çoğundan sakının, zira zannın bir kısmı günahtır.",
+   "Birbirinizin suçunu araştırmayın; kimse kimseyi çekiştirmesin; hangi biriniz ölü kardeşinin etini yemekten hoşlanır?",
+   [
+    "Ondan tiksinirsiniz; Allah'tan sakının, şüphesiz Allah tevbeleri daima kabul edendir, acıyandır.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Kanlarınız, mallarınız ve namuslarınız; bu gününüz, bu ayınız ve bu şehriniz nasıl dokunulmazsa, birbirinize karşı öyle dokunulmazdır.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "İçki içmek, kumar oynamak.",
+   "Domuz eti, leş ya da kan yemek.",
+   "Faiz almak.",
+   "Gıybet etmek, insanların kusurlarını araştırmak.",
+   "Başkasının malını haksız yere almak, hırsızlık yapmak.",
+   "Yalan söylemek.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Kesin delille sabit olan haramlarda mezhepler arasında görüş ayrılığı yoktur.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Haram, Allah’ın çizdiği sınırdır; sınıra yaklaşma.",
+    1.6
+   ],
+   [
+    "Helal. Dinin izin verdiği her şey.",
+    0.7
+   ],
+   "Helal, dinin yasaklamadığı ve yapılmasında sakınca bulunmayan şeydir.",
+   "Geniş anlamıyla haramın dışındaki bütün davranışları içine alır: Farzdan mubaha kadar uzanan geniş bir alandır.",
+   "Bir şeyi helal ya da haram kılma yetkisi yalnızca Allah’a aittir; kimse kendi görüşüyle helali haram, haramı helal sayamaz.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz altmış sekizinci ayetin anlamı şöyledir.",
+   "Ey İnsanlar!",
+   [
+    "Yeryüzündeki temiz ve helal şeylerden yiyin, şeytana ayak uydurmayın, zira o sizin için apaçık bir düşmandır.",
+    0.6
+   ],
+   "Mâide Suresi, seksen yedinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   [
+    "Allah'ın size helal ettiği temiz şeyleri haram kılmayın, hududu da aşmayın, doğrusu Allah aşırı gidenleri sevmez.",
+    0.6
+   ],
+   "Nahl Suresi, yüz on altıncı ayetin anlamı şöyledir.",
+   "Diliniz yalana alışmış olduğu için, şu haram, bu helaldir demeyin, zira Allah'a karşı yalan uydurmuş olursunuz.",
+   [
+    "Allah'a karşı yalan uyduranlar ise, saadete şüphesiz erişemezler.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Temiz ve helal yiyeceklerden yemek.",
+   "Karşılıklı rızayla alışveriş yapmak.",
+   "Helal kazanç için çalışmak.",
+   "Allah’ın helal kıldığı bir şeyi kendi kendine haram saymamak.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Helalin alanı geniştir; haram sınırlı ve bellidir.",
+    1.6
+   ],
+   [
+    "Şüpheli. Helal mi haram mı olduğu belli olmayan.",
+    0.7
+   ],
+   "Şüpheli şeyler, helal mi haram mı olduğu kişiye açıkça belli olmayan şeylerdir.",
+   "Peygamberimiz bunlardan sakınmayı, dinini ve namusunu korumanın yolu olarak göstermiştir.",
+   "Şüphe, araştırarak ve bilen birine sorarak giderilir; giderilemiyorsa sakınmak takvadır.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Helal bellidir, haram da bellidir.",
+   "Bu ikisinin arasında insanların çoğunun bilmediği şüpheli şeyler vardır.",
+   "Şüpheli şeylerden sakınan dinini ve namusunu korumuş olur.",
+   "Şüpheli şeylere düşen ise korunun çevresinde hayvan otlatan çobana benzer; her an koruya girebilir.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "İçindekileri bilinmeyen bir yiyeceği, ne olduğunu öğrenmeden yememek.",
+   "Kazancının helal olup olmadığından emin olunamayan bir işe girmemek.",
+   "Hükmünü bilmediğin bir konuyu bir din âlimine ya da güvenilir bir kaynağa sormak.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Şüpheden sakınan, dinini korur.",
+    1.6
+   ],
+   [
+    "Niyet. Bir işi hangi amaçla yaptığını bilmek.",
+    0.7
+   ],
+   "Niyet, bir işi hangi amaçla yaptığını kalben bilmek ve istemektir.",
+   "Namaz ve oruç gibi ibadetler niyetle geçerli olur.",
+   "Mubah işler de güzel bir niyetle yapıldığında sevaba dönüşür; aynı davranış, niyete göre ibadet ya da sıradan bir iş olur.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Ameller niyetlere göredir; herkese ancak niyet ettiği şey vardır.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   "Beyyine Suresi, beşinci ayetin anlamı şöyledir.",
+   "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı.",
+   [
+    "Dosdoğru olan din de budur.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Kişi, sevabını Allah’tan umarak ailesinin geçimi için harcadığında, bu onun için bir sadaka olur.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Ailesinin geçimi için çalışan kimse, Allah rızasını umarsa sevap kazanır.",
+   "Namaza başlarken hangi namazı kıldığını kalben bilmek.",
+   "Spor yapmayı, sağlıklı kalıp ibadetlerini yerine getirebilmek niyetiyle yapmak.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Hanefîlere göre abdestte niyet sünnettir; diğer mezheplere göre farzdır.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Niyet, sıradan bir işi ibadete çevirir.",
+    1.6
+   ],
+   [
+    "Asıl olan serbestliktir. Yasak delil ister, serbestlik asıldır.",
+    0.7
+   ],
+   "Âlimlerin çoğunluğuna göre, hakkında yasak bulunmayan eşya ve davranışlarda asıl olan serbestliktir, ibâha.",
+   "Yani bir şeyin haram olduğunu göstermek için delil gerekir; serbest olduğunu göstermek için ayrıca delil aranmaz.",
+   "İbadetlerde ise durum farklıdır: İbadet ancak dinin bildirdiği şekilde yapılır; kimse kendiliğinden yeni bir ibadet ortaya koyamaz.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Bakara Suresi, yirmi dokuzuncu ayetin anlamı şöyledir.",
+   "Yerde olanların hepsini; sizin için yaratan O'dur.",
+   "Sonra, göğe doğru yönelerek yedi gök olarak onları düzenlemiştir.",
+   [
+    "O her şeyi bilir.",
+    0.6
+   ],
+   "Câsiye Suresi, on üçüncü ayetin anlamı şöyledir.",
+   "Göklerde olanları, yerde olanları, hepsini sizin buyruğunuz altına vermiştir.",
+   [
+    "Doğrusu bunlarda, düşünen kimseler için dersler vardır.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Yeni çıkan bir yiyeceği, içinde haram bir madde yoksa yemek serbesttir.",
+   "Telefon ve bilgisayar gibi yeni araçlar kendiliğinden serbesttir; hükümleri nasıl kullanıldıklarına göre belirlenir.",
+   "Namaza yeni bir rekât eklemek ya da yeni bir ibadet şekli uydurmak caiz değildir; ibadet dinin bildirdiği gibi yapılır.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Âlimlerin çoğunluğu bu ilkeyi benimser; bir kısım âlim ise delil bulununcaya kadar hüküm vermemeyi, tevakkuf, tercih etmiştir.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Yasak delil ister; ibadet ise dinin bildirdiği gibi yapılır.",
+    1.6
+   ],
+   [
+    "Güç yetirme ve sorumluluk. Allah kimseye gücünün üstünde yük yüklemez.",
+    0.7
+   ],
+   "Dinin emir ve yasaklarından sorumlu olan kişiye mükellef denir: Akıllı ve ergenlik çağına girmiş her Müslüman mükelleftir.",
+   "Allah kimseyi gücünün yetmediği bir şeyle sorumlu tutmaz.",
+   "Emirler güç yettiği ölçüde yerine getirilir; yasaklardan ise kaçınılır.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz seksen altıncı ayetin anlamı şöyledir.",
+   "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir.",
+   "Rabbimiz!",
+   "Eğer unutacak veya yanılacak olursak bizi sorumlu tutma.",
+   "Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme.",
+   "Rabbimiz!",
+   "Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı.",
+   [
+    "Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+    0.6
+   ],
+   "Teğâbün Suresi, on altıncı ayetin anlamı şöyledir.",
+   [
+    "Allah'a karşı gelmekten gücünüzün yettiği kadar sakının, buyruklarını dinleyin, itaat edin; kendinizin iyiliğine olarak mallarınızdan sarfedin; nefsinin tamahkarlığından korunan kimseler, işte onlar saadete erenlerdir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Size bir şeyi yasakladığımda ondan kaçının; bir şeyi emrettiğimde de onu gücünüz yettiği kadar yapın.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Çocuklar mükellef değildir; ama namaza ve güzel davranışlara küçük yaşta alıştırılır.",
+   "Akıl hastası olan kimse ibadetlerden sorumlu tutulmaz.",
+   "Malı nisaba ulaşmayan zekâtla, yolculuğa gücü yetmeyen hacla yükümlü değildir.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Allah, gücün yetmeyeni istemez.",
+    1.6
+   ],
+   [
+    "Ruhsat ve azimet. Zorlukta tanınan kolaylık.",
+    0.7
+   ],
+   "Azimet, dinin asıl ve genel hükmüdür.",
+   "Ruhsat ise hastalık, yolculuk ya da zorlama gibi bir zorluk sebebiyle tanınan kolaylıktır.",
+   "Dinde kolaylık esastır; ruhsatı kullanmak da Allah’ın bir lütfudur.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+   "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+   "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+   "Allah size kolaylık ister, zorluk istemez.",
+   [
+    "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Namazı ayakta kıl; gücün yetmezse oturarak, ona da gücün yetmezse yan üstü kıl.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Hasta ya da yolcu olan, Ramazan’da tutamadığı oruçları sonra kaza eder.",
+   "Su bulamayan ya da suyun zarar vereceği kimse teyemmüm eder.",
+   "Ayakta duramayan oturarak, oturamayan yan yatarak namaz kılar.",
+   "Yolcu, dört rekâtlı farz namazları iki rekât kılar.",
+   [
+    "Mezhep notu.",
+    0.4
+   ],
+   "Hanefîlere göre yolculukta dört rekâtlı farzları iki kılmak ruhsat değil, uyulması gereken bir hükümdür, azimet.",
+   "Diğer mezheplere göre bu bir ruhsattır; dileyen tam kılabilir.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Dinde zorluk değil, kolaylık esastır.",
+    1.6
+   ],
+   [
+    "Zaruret. Başka çaresi olmayan zorunlu durum.",
+    0.7
+   ],
+   "Zaruret, kişinin hayatını ya da sağlığını tehlikeye sokan ve başka çaresi olmayan zorunlu durumdur.",
+   "Böyle bir durumda haram olan bir şey, tehlikeyi giderecek kadarıyla mubah olur.",
+   "Sınır aşılmaz; zaruret bitince yasak geri döner.",
+   "Mecelle’deki külli kaideler bunu şöyle özetler: Zaruretler yasakları mubah kılar ve Zaruretler kendi miktarlarınca takdir olunur.",
+   [
+    "Delilleri şöyledir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+   "Şüphesiz size ölü hayvan etini, kanı, domuz etini, Allah'tan başkası için kesilen hayvanı haram kılmıştır; fakat, darda kalana, başkasının payına el uzatmamak ve zaruret miktarını aşmamak üzere günah sayılmaz.",
+   [
+    "Çünkü Allah bağışlayandır, merhamet edendir.",
+    0.6
+   ],
+   "En‘âm Suresi, yüz on dokuzuncu ayetin anlamı şöyledir.",
+   "Size ne oluyor ki, Allah size darda kalmanızın dışında, haram olanları genişçe anlatmışken adının üzerine anıldığı şeyden yemiyorsunuz?",
+   "Doğrusu çoğunluk, heva ve heveslerine uyarak, bilmeden sapıtıyorlar.",
+   [
+    "Aşırı gidenleri en iyi bilen Rabbindir.",
+    0.6
+   ],
+   [
+    "Günlük hayattan örnekler.",
+    0.6
+   ],
+   "Açlıktan ölmek üzere olan ve başka yiyeceği bulunmayan kimse, hayatını kurtaracak kadar haram yiyecekten yiyebilir.",
+   "Canın çekmesi, merak ya da sıradan bir kolaylık zaruret sayılmaz.",
+   [
+    "Akılda kalsın.",
+    0.6
+   ],
+   [
+    "Zaruret, yasağı ancak gerektiği kadar kaldırır.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "kuran",
+   "baslik": "Kur'an",
+   "tur": "Kaynaklar",
+   "parcalar": [
+    [
+     "Kur'an. Dinin ilk ve temel kaynağı.",
+     0.7
+    ],
+    "Kur'an, Allah'ın Peygamberimize indirdiği ve bize eksiksiz ulaşan sözüdür.",
+    "Dinî hükümlerin ilk ve en temel kaynağıdır; bir meselenin hükmü aranırken önce Kur'an'a bakılır.",
+    "Kur'an'daki hükümlerin bir kısmı ayrıntılıdır, içkinin ve faizin yasaklanması gibi, bir kısmı ise genel bir emir hâlindedir, namazın kılınması gibi; ayrıntıyı Sünnet açıklar.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Nahl Suresi, seksen dokuzuncu ayetin anlamı şöyledir.",
+    "O gün her ümmetten bir kişiyi onlara şahit tutarız.",
+    "Seni de ümmetine şahit getiririz.",
+    [
+     "Sana her şeyi açıklayan ve Müslümanlara doğruyu gösteren bir rehber, rahmet ve müjde olarak Kuran'ı indirdik.",
+     0.6
+    ],
+    "İsrâ Suresi, dokuzuncu ve onuncu ayetlerin anlamı şöyledir.",
+    [
+     "Doğrusu bu Kuran en doğru yola götürür ve yararlı iş yapan müminlere büyük ecir olduğunu, ahirete inanmayanlara can yakıcı bir azap hazırladığımızı müjdeler.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Namazın kılınması, orucun tutulması ve zekâtın verilmesi Kur’an’da açıkça emredilir.",
+    "İçki, kumar, faiz ve gıybetin yasak oluşu Kur’an’da açıkça bildirilir.",
+    "Kur’an namazı emreder; kaç rekât olduğunu ve nasıl kılınacağını ise Sünnet öğretir.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Hükmün ilk adresi Kur’an’dır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "sunnet-kaynak",
+   "baslik": "Sünnet",
+   "tur": "Kaynaklar",
+   "parcalar": [
+    [
+     "Sünnet. Peygamberimizin söz, davranış ve onayları.",
+     0.7
+    ],
+    "Sünnet, Peygamberimizin sözleri, davranışları ve gördüğü bir şeye karşı çıkmayarak verdiği onaylardır.",
+    "Kur'an'dan sonra ikinci kaynaktır: Kur'an'ın genel bıraktığını açıklar, nasıl uygulanacağını gösterir.",
+    "Burada sünnet kaynak anlamındadır; hüküm terazisindeki sünnet ise ayrı bir derecedir.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Haşr Suresi, yedinci ayetin anlamı şöyledir.",
+    "Allah'ın, fethedilen memleketler halkının mallarından Peygamberine verdikleri; Allah, Peygamber, yakınlar, yetimler, yoksullar ve yolda kalmışlar içindir; ta ki içinizdeki zenginler arasında elden ele dolaşan bir devlet olmasın.",
+    [
+     "Peygamber size ne verirse onu alın, sizi neden menederse ondan geri durun; Allah'tan sakının, doğrusu Allah'ın cezalandırması çetindir.",
+     0.6
+    ],
+    "Nisâ Suresi, sekseninci ayetin anlamı şöyledir.",
+    "Peygamber'e itaat eden, Allah'a itaat etmiş olur.",
+    [
+     "Kim yüz çevirirse bilsin ki, Biz seni onlara bekçi göndermedik.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Beni nasıl namaz kılarken gördüyseniz öyle kılın.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Namazların vakitleri, rekât sayıları ve kılınışı Peygamberimizin uygulamasıyla öğrenilir.",
+    "Zekâtın hangi mallardan ve hangi oranda verileceği Sünnet’le belirlenmiştir.",
+    "Haccın nasıl yapılacağı Peygamberimizin Veda haccındaki uygulamasından öğrenilir.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Kur’an emreder, Sünnet nasıl yapılacağını gösterir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "icma",
+   "baslik": "İcmâ",
+   "tur": "Kaynaklar",
+   "parcalar": [
+    [
+     "İcmâ. Âlimlerin bir hükümde birleşmesi.",
+     0.7
+    ],
+    "İcmâ, Peygamberimizin vefatından sonra bir dönemdeki müctehid âlimlerin, dinî bir meselenin hükmünde birleşmesidir.",
+    "İcmâ Kur'an ve Sünnet'e dayanır; âlimlerin üzerinde birleştiği bir hüküm, ümmetin ortak anlayışını gösterir ve bağlayıcıdır.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Nisâ Suresi, yüz on beşinci ayetin anlamı şöyledir.",
+    "Doğru yol kendisine apaçık belli olduktan sonra, Peygamberden ayrılıp, inananların yolundan başkasına uyan kimseyi, döndüğü yöne döndürür ve onu cehenneme sokarız.",
+    "Orası ne kötü bir dönüş yeridir.",
+    [
+     "Âlimler bu ayeti, müminlerin ortak yolundan ayrılmamanın gerekliliğine ve icmâın delil oluşuna dayanak göstermiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Kur’an, Hz. Ebû Bekir döneminde sahâbenin ittifakıyla tek bir mushafta toplandı.",
+    "Beş vakit namazın rekât sayıları, ümmetin kesintisiz uygulaması ve âlimlerin ittifakıyla bilinir.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "İcmâın türleri ve şartları hakkında ayrıntılı görüşler vardır; ancak icmâın bir delil olduğunda Ehl-i sünnet mezhepleri birleşir.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Âlimlerin birleştiği yerde ümmetin ortak sesi vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "kiyas",
+   "baslik": "Kıyas",
+   "tur": "Kaynaklar",
+   "parcalar": [
+    [
+     "Kıyas. Ortak gerekçeyle hükmü yeni duruma taşımak.",
+     0.7
+    ],
+    "Kıyas, hakkında Kur'an ve Sünnet'te açık hüküm bulunmayan bir meseleyi, hükmü bilinen bir meseleye aralarındaki ortak gerekçe, illet, sebebiyle benzeterek hükme bağlamaktır.",
+    "Böylece yeni ortaya çıkan durumlar da dinin ölçüleriyle değerlendirilir.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Haşr Suresi, ikinci ayetin anlamı şöyledir.",
+    "Kitap ehlinden inkarcı olanları ilk sürgünde yurtlarından çıkaran O'dur.",
+    "Oysa ey inananlar!",
+    "Çıkacaklarını sanmamıştınız, onlar da, kalelerinin kendilerini Allah'tan koruyacağını sanmışlardı.",
+    "Ama Allah'ın azabı onlara beklemedikleri yerden geldi, kalblerine korku saldı; evlerini kendi elleriyle ve inananların elleriyle yıkıyorlardı.",
+    "Ey akıl sahipleri!",
+    "Ders alın.",
+    [
+     "Ayetin sonundaki Ders alın emri, âlimlerin kıyasa delil gösterdiği ifadelerdendir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Sarhoşluk veren her şey içkidir, hamr, ve sarhoşluk veren her şey haramdır.",
+    "Bu hadisi Müslim rivayet etmiştir.",
+    [
+     "Hükmün gerekçesi sarhoşluk vermesidir; bu gerekçeyi taşıyan her şey aynı hükmü alır.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Kur’an içkiyi yasaklar; sarhoşluk veren uyuşturucu maddeler de aynı gerekçeyle haramdır.",
+    "Cuma ezanı okunurken alışverişi bırakmak emredilir; âlimler namaza engel olan başka meşguliyetleri de aynı gerekçeyle bu emrin kapsamında görmüştür.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Dört mezhep kıyası delil kabul eder; Zâhirîler kabul etmez.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Gerekçe aynıysa hüküm de aynıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "farz",
+   "baslik": "Farz",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Farz. Yapılması kesin olarak istenen.",
+     0.7
+    ],
+    "Farz, yapılması Kur'an ya da kesin sünnet gibi şüphe taşımayan bir delille istenen davranıştır.",
+    "Farz olduğu kesin olan bir şeyi inkâr etmek kişiyi dinden çıkarır.",
+    "Herkesin bizzat yapması gereken farza farz-ı ayn, namaz gibi, bir kısım Müslümanın yapmasıyla diğerlerinden düşen farza farz-ı kifâye, cenaze namazı gibi, denir.",
+    "Yaparsan, sevap kazanırsın.",
+    [
+     "Yapmazsan, özürsüz terk etmek günahtır.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Bakara Suresi, kırk üçüncü ayetin anlamı şöyledir.",
+    [
+     "Namazı kılın, zekatı verin, rüku edenlerle birlikte rüku edin.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+    "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+    "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+    "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+    [
+     "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Allah buyurur ki: Kulum bana, kendisine farz kıldığım şeylerden daha sevimli bir şeyle yaklaşamaz.",
+    "Kulum nafilelerle de bana yaklaşmaya devam eder; sonunda onu severim.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Beş vakit namaz kılmak.",
+    "Ramazan orucunu tutmak.",
+    "Namaz kılmak için abdest almak.",
+    "Malı nisaba ulaşan kimsenin zekât vermesi.",
+    "Emaneti sahibine geri vermek.",
+    "Cenaze namazı kılmak, farz-ı kifâye.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Hanefîler, kesin delille sabit olanı farz, kesinliği daha az olan delille sabit olanı vacip diye ayırır.",
+    "Diğer mezhepler farz ile vacibi çoğunlukla aynı anlamda kullanır.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Farz kulluğun temelidir; nafileler onun üstüne kurulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "vacip",
+   "baslik": "Vacip",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Vacip. Farza yakın, yapılması gereken.",
+     0.7
+    ],
+    "Vacip, Hanefî mezhebine göre yapılması istenen, ancak delili farzın delili kadar kesin olmayan davranıştır.",
+    "Uygulamada farz gibi yerine getirilir; fark, inkâr edenin durumundadır: Vacibi inkâr eden, farzı inkâr eden gibi dinden çıkmaz.",
+    "Yaparsan, sevap kazanırsın.",
+    [
+     "Yapmazsan, özürsüz terk etmek günahtır.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Kevser Suresi, ikinci ayetin anlamı şöyledir.",
+    "Öyleyse Rabbin için namaz kıl, kurban kes.",
+    [
+     "Hanefîler bu ayeti, imkânı olanın kurban kesmesinin vacip oluşuna delil gösterir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Vitir namazı kılmak, Hanefî.",
+    "İmkânı olanın Kurban Bayramı’nda kurban kesmesi, Hanefî.",
+    "Bayram namazlarını kılmak, Hanefî.",
+    "Fıtır sadakası vermek, Hanefî.",
+    "Namazda Fâtiha suresini okumak, Hanefî.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Şâfiî, Mâlikî ve Hanbelî mezheplerinde ayrı bir vacip derecesi yoktur.",
+    "Bu örneklerin hükmü o mezheplerde farklıdır: Vitir ve kurban sünnet; fıtır sadakası ve namazda Fâtiha okumak farz kabul edilir.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Vacip farzın hemen yanındadır; terk edilmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "sunnet",
+   "baslik": "Sünnet",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Sünnet. Peygamberimizin yaptığı ve tavsiye ettiği.",
+     0.7
+    ],
+    "Hüküm olarak sünnet, Peygamberimizin farz ve vacip dışında yaptığı ya da yapılmasını tavsiye ettiği davranışlardır.",
+    "Peygamberimizin devamlı yapıp nadiren terk ettiklerine sünnet-i müekkede, ara sıra yaptıklarına sünnet-i gayr-i müekkede denir.",
+    "Yaparsan, sevap kazanırsın.",
+    [
+     "Yapmazsan, günah olmaz; ancak müekked sünneti alışkanlık hâlinde terk etmek kınanmayı gerektirir.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Ahzâb Suresi, yirmi birinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "And olsun ki, sizin için, Allah'a ve ahiret gününe kavuşmayı umanlar ve Allah'ı çok anan kimseler için Resulullah, Allah'ın Elçisi, en güzel örnektir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Ümmetime zor gelmeyecek olsaydı, onlara her namazda misvak kullanmalarını emrederdim.",
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    "Peygamberimiz misvakı ümmetine zor gelmesin diye emir hâline getirmemiş, tavsiye olarak bırakmıştır.",
+    [
+     "Emir ile tavsiye arasındaki fark, farz ile sünnet arasındaki farktır.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Sabah namazının farzından önce iki rekât sünnet kılmak, müekked.",
+    "Öğle namazının sünnetlerini kılmak, müekked.",
+    "İkindi ve yatsı namazlarının ilk sünnetlerini kılmak, gayr-i müekked.",
+    "Misvak kullanmak, dişleri temizlemek.",
+    "Karşılaştığı Müslümana selam vermek.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Şâfiî ve Hanbelî mezheplerinde sünnet, mendup, müstehab ve nâfile çoğunlukla aynı anlamda kullanılır.",
+    "Hanefîler sünneti, özellikle müekked olanını, müstehabdan daha kuvvetli görür.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Sünnet, Peygamberimizi örnek alarak yaşamaktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "mustehab",
+   "baslik": "Müstehab",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Müstehab. Yapılması güzel ve sevaplı olan.",
+     0.7
+    ],
+    "Müstehab, mendup, Peygamberimizin bazen yaptığı ya da yapılmasını teşvik ettiği davranışlardır.",
+    "Farzların dışında kılınan nâfile namazlar, tutulan nâfile oruçlar ve verilen sadakalar bu türdendir.",
+    "Nâfile, tatavvu ve mendup kelimeleri de benzer anlamda kullanılır.",
+    "Yaparsan, sevap kazanırsın.",
+    [
+     "Yapmazsan, günah olmaz.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Allah buyurur ki: Kulum bana, kendisine farz kıldığım şeylerden daha sevimli bir şeyle yaklaşamaz.",
+    "Kulum nafilelerle de bana yaklaşmaya devam eder; sonunda onu severim.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "İyilikten hiçbir şeyi küçük görme; kardeşini güler yüzle karşılamak bile olsa.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Kuşluk, duhâ, namazı kılmak.",
+    "Pazartesi ve perşembe günleri nâfile oruç tutmak.",
+    "Zekâtın dışında, gönülden sadaka vermek.",
+    "Kardeşini güler yüzle karşılamak.",
+    "Namaz dışında, nâfile olarak Kur’an okumak.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Şâfiî ve Hanbelî mezheplerinde müstehab, mendup, sünnet ve nâfile çoğunlukla aynı anlamda kullanılır.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "İyiliğin küçüğü yoktur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "mubah",
+   "baslik": "Mubah",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Mubah. Yapıp yapmamakta serbest olunan.",
+     0.7
+    ],
+    "Mubah, yapılıp yapılmaması kişinin tercihine bırakılan davranıştır.",
+    "Gündelik hayatın büyük bölümü mubahtır: yemek, uyumak, gezmek, alışveriş yapmak gibi.",
+    "Mubah bir iş güzel bir niyetle yapılırsa sevaba vesile olur.",
+    "Yaparsan, sevap da günah da yoktur; güzel bir niyetle sevaba dönüşür.",
+    [
+     "Yapmazsan, sevap da günah da yoktur.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Mâide Suresi, ikinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Allah'ın nişanelerine, hürmet edilen aya, hediye olan kurbanlığa, gerdanlıklar takılan hayvanlara, Rab'lerinden bol nimet ve rıza talep ederek Beyt-i Haram'a gelenlere sakın hürmetsizlik etmeyin.",
+    "İhramdan çıktığınız zaman avlanabilirsiniz.",
+    "Sizi Mescid-i Haram'dan menettiği için bir topluluğa olan kininiz, aşırı gitmenize sebep olmasın; iyilikte ve fenalıktan sakınmakta yardımlaşın, günah işlemek ve aşırı gitmekte yardımlaşmayın.",
+    "Allah'tan sakının, Allah'ın cezası şiddetlidir.",
+    "İhram sırasında yasak olan avlanma, ihramdan çıkınca serbest bırakılmıştır.",
+    [
+     "Âlimlere göre yasaktan sonra gelen bu tür emirler yapabilirsiniz anlamındadır.",
+     0.6
+    ],
+    "Cuma Suresi, onuncu ayetin anlamı şöyledir.",
+    "Namaz bitince yeryüzüne yayılın; Allah'ın lütfundan rızık isteyin; Allah'ı çok anın ki saadete erişesiniz.",
+    [
+     "Cuma namazı bitince işe ve rızık aramaya dönmek serbesttir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Helal yiyeceklerden canının istediğini seçip yemek.",
+    "Alışveriş yapmak, ticaretle uğraşmak.",
+    "Yürüyüş yapmak, spor yapmak.",
+    "Uyumak, dinlenmek.",
+    "Giyeceği kıyafetin rengini seçmek.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Bütün mezhepler mubahı aynı anlamda kullanır.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Serbest olan çoktur; niyet onu ibadete çevirir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "mekruh-tenzihen",
+   "baslik": "Mekruh (tenzîhen)",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Mekruh, tenzîhen. Yapılmaması daha iyi olan.",
+     0.7
+    ],
+    "Tenzîhen mekruh, yapılmaması yapılmasından daha iyi olan davranıştır; helale daha yakındır.",
+    "Yapan günaha girmez, fakat güzel olanı kaçırmış olur.",
+    "Diğer mezheplerde mekruh denince genellikle bu anlam kastedilir.",
+    "Yaparsan, günah olmaz; ama güzel olanı kaçırırsın.",
+    [
+     "Yapmazsan, sevap kazanırsın.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Sarımsak ya da soğan yiyen kimse bizden ve mescidimizden uzak dursun, evinde otursun.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    "A‘râf Suresi, otuz birinci ayetin anlamı şöyledir.",
+    "Ey Ademoğulları!",
+    [
+     "Her mescide güzel elbiselerinizi giyinerek gidin; yiyin için fakat israf etmeyin, çünkü Allah müsrifleri sevmez.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Abdest alırken suyu israf etmek.",
+    "Çiğ soğan ya da sarımsak yiyip ağız kokusuyla camiye gitmek.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Tenzîhen ve tahrîmen ayrımı Hanefî mezhebine aittir.",
+    "Diğer mezheplerde mekruh, terk edilmesi daha iyi olan ve yapana günah yazılmayan davranıştır.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Mekruhtan uzak duran, güzel olanı seçmiş olur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "mekruh-tahrimen",
+   "baslik": "Mekruh (tahrîmen)",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Mekruh, tahrîmen. Harama yakın, kaçınılması gereken.",
+     0.7
+    ],
+    "Tahrîmen mekruh, Hanefî mezhebine göre yapılmaması kesin olmayan bir delille istenen davranıştır; harama yakındır.",
+    "Vacibin karşıtıdır: Vacip yapılması, tahrîmen mekruh ise terk edilmesi gereken davranıştır.",
+    "Haramın aksine, bunu inkâr eden dinden çıkmaz.",
+    "Yaparsan, günah olur.",
+    [
+     "Yapmazsan, sevap kazanırsın.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Cuma Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Cuma günü namaz için ezan okunduğu zaman Allah'ı anmaya koşun; alım satımı bırakın; bilseniz, bu sizin için daha iyidir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Resûlullah üç vakitte namaz kılmamızı ve ölülerimizi defnetmemizi yasaklardı: Güneş doğarken yükselinceye kadar, güneş tam tepedeyken batıya kayıncaya kadar ve güneş batmaya yaklaştığında batıncaya kadar.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Cuma ezanı okunurken alışverişe devam etmek.",
+    "Güneş doğarken, tam tepedeyken ya da batarken namaz kılmak, kerahat vakitleri.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Bu derece yalnız Hanefî mezhebinde vardır.",
+    "Diğer mezhepler bu örneklerin bir kısmını haram, bir kısmını mekruh sayar; örneğin Cuma ezanı okunurken yapılan alışveriş diğer üç mezhepte haramdır.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Harama yakın olandan uzak dur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "haram",
+   "baslik": "Haram",
+   "tur": "Hüküm terazisi",
+   "parcalar": [
+    [
+     "Haram. Yapılmaması kesin olarak istenen.",
+     0.7
+    ],
+    "Haram, yapılmaması Kur'an ya da kesin sünnet gibi şüphe taşımayan bir delille istenen davranıştır.",
+    "Allah rızası için haramdan kaçınan sevap kazanır.",
+    "Haram olduğu kesin olarak bilinen bir şeyi helal saymak kişiyi dinden çıkarır.",
+    "Yaparsan, günah olur.",
+    [
+     "Yapmazsan, allah rızası için kaçınırsan sevap kazanırsın.",
+     0.6
+    ],
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Mâide Suresi, doksanıncı ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    [
+     "İçki, kumar, putlar ve fal okları şüphesiz şeytan işi pisliklerdir, bunlardan kaçının ki saadete eresiniz.",
+     0.6
+    ],
+    "Bakara Suresi, yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+    "Şüphesiz size ölü hayvan etini, kanı, domuz etini, Allah'tan başkası için kesilen hayvanı haram kılmıştır; fakat, darda kalana, başkasının payına el uzatmamak ve zaruret miktarını aşmamak üzere günah sayılmaz.",
+    [
+     "Çünkü Allah bağışlayandır, merhamet edendir.",
+     0.6
+    ],
+    "Hucurât Suresi, on ikinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Zannın çoğundan sakının, zira zannın bir kısmı günahtır.",
+    "Birbirinizin suçunu araştırmayın; kimse kimseyi çekiştirmesin; hangi biriniz ölü kardeşinin etini yemekten hoşlanır?",
+    [
+     "Ondan tiksinirsiniz; Allah'tan sakının, şüphesiz Allah tevbeleri daima kabul edendir, acıyandır.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Kanlarınız, mallarınız ve namuslarınız; bu gününüz, bu ayınız ve bu şehriniz nasıl dokunulmazsa, birbirinize karşı öyle dokunulmazdır.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "İçki içmek, kumar oynamak.",
+    "Domuz eti, leş ya da kan yemek.",
+    "Faiz almak.",
+    "Gıybet etmek, insanların kusurlarını araştırmak.",
+    "Başkasının malını haksız yere almak, hırsızlık yapmak.",
+    "Yalan söylemek.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Kesin delille sabit olan haramlarda mezhepler arasında görüş ayrılığı yoktur.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Haram, Allah’ın çizdiği sınırdır; sınıra yaklaşma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "helal",
+   "baslik": "Helal",
+   "tur": "Helal, haram ve şüpheli",
+   "parcalar": [
+    [
+     "Helal. Dinin izin verdiği her şey.",
+     0.7
+    ],
+    "Helal, dinin yasaklamadığı ve yapılmasında sakınca bulunmayan şeydir.",
+    "Geniş anlamıyla haramın dışındaki bütün davranışları içine alır: Farzdan mubaha kadar uzanan geniş bir alandır.",
+    "Bir şeyi helal ya da haram kılma yetkisi yalnızca Allah’a aittir; kimse kendi görüşüyle helali haram, haramı helal sayamaz.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz altmış sekizinci ayetin anlamı şöyledir.",
+    "Ey İnsanlar!",
+    [
+     "Yeryüzündeki temiz ve helal şeylerden yiyin, şeytana ayak uydurmayın, zira o sizin için apaçık bir düşmandır.",
+     0.6
+    ],
+    "Mâide Suresi, seksen yedinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    [
+     "Allah'ın size helal ettiği temiz şeyleri haram kılmayın, hududu da aşmayın, doğrusu Allah aşırı gidenleri sevmez.",
+     0.6
+    ],
+    "Nahl Suresi, yüz on altıncı ayetin anlamı şöyledir.",
+    "Diliniz yalana alışmış olduğu için, şu haram, bu helaldir demeyin, zira Allah'a karşı yalan uydurmuş olursunuz.",
+    [
+     "Allah'a karşı yalan uyduranlar ise, saadete şüphesiz erişemezler.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Temiz ve helal yiyeceklerden yemek.",
+    "Karşılıklı rızayla alışveriş yapmak.",
+    "Helal kazanç için çalışmak.",
+    "Allah’ın helal kıldığı bir şeyi kendi kendine haram saymamak.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Helalin alanı geniştir; haram sınırlı ve bellidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "supheli",
+   "baslik": "Şüpheli",
+   "tur": "Helal, haram ve şüpheli",
+   "parcalar": [
+    [
+     "Şüpheli. Helal mi haram mı olduğu belli olmayan.",
+     0.7
+    ],
+    "Şüpheli şeyler, helal mi haram mı olduğu kişiye açıkça belli olmayan şeylerdir.",
+    "Peygamberimiz bunlardan sakınmayı, dinini ve namusunu korumanın yolu olarak göstermiştir.",
+    "Şüphe, araştırarak ve bilen birine sorarak giderilir; giderilemiyorsa sakınmak takvadır.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Helal bellidir, haram da bellidir.",
+    "Bu ikisinin arasında insanların çoğunun bilmediği şüpheli şeyler vardır.",
+    "Şüpheli şeylerden sakınan dinini ve namusunu korumuş olur.",
+    "Şüpheli şeylere düşen ise korunun çevresinde hayvan otlatan çobana benzer; her an koruya girebilir.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "İçindekileri bilinmeyen bir yiyeceği, ne olduğunu öğrenmeden yememek.",
+    "Kazancının helal olup olmadığından emin olunamayan bir işe girmemek.",
+    "Hükmünü bilmediğin bir konuyu bir din âlimine ya da güvenilir bir kaynağa sormak.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Şüpheden sakınan, dinini korur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "niyet",
+   "baslik": "Niyet",
+   "tur": "İlkeler",
+   "parcalar": [
+    [
+     "Niyet. Bir işi hangi amaçla yaptığını bilmek.",
+     0.7
+    ],
+    "Niyet, bir işi hangi amaçla yaptığını kalben bilmek ve istemektir.",
+    "Namaz ve oruç gibi ibadetler niyetle geçerli olur.",
+    "Mubah işler de güzel bir niyetle yapıldığında sevaba dönüşür; aynı davranış, niyete göre ibadet ya da sıradan bir iş olur.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Ameller niyetlere göredir; herkese ancak niyet ettiği şey vardır.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    "Beyyine Suresi, beşinci ayetin anlamı şöyledir.",
+    "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı.",
+    [
+     "Dosdoğru olan din de budur.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Kişi, sevabını Allah’tan umarak ailesinin geçimi için harcadığında, bu onun için bir sadaka olur.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Ailesinin geçimi için çalışan kimse, Allah rızasını umarsa sevap kazanır.",
+    "Namaza başlarken hangi namazı kıldığını kalben bilmek.",
+    "Spor yapmayı, sağlıklı kalıp ibadetlerini yerine getirebilmek niyetiyle yapmak.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Hanefîlere göre abdestte niyet sünnettir; diğer mezheplere göre farzdır.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Niyet, sıradan bir işi ibadete çevirir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "ibaha",
+   "baslik": "Asıl olan serbestliktir",
+   "tur": "İlkeler",
+   "parcalar": [
+    [
+     "Asıl olan serbestliktir. Yasak delil ister, serbestlik asıldır.",
+     0.7
+    ],
+    "Âlimlerin çoğunluğuna göre, hakkında yasak bulunmayan eşya ve davranışlarda asıl olan serbestliktir, ibâha.",
+    "Yani bir şeyin haram olduğunu göstermek için delil gerekir; serbest olduğunu göstermek için ayrıca delil aranmaz.",
+    "İbadetlerde ise durum farklıdır: İbadet ancak dinin bildirdiği şekilde yapılır; kimse kendiliğinden yeni bir ibadet ortaya koyamaz.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Bakara Suresi, yirmi dokuzuncu ayetin anlamı şöyledir.",
+    "Yerde olanların hepsini; sizin için yaratan O'dur.",
+    "Sonra, göğe doğru yönelerek yedi gök olarak onları düzenlemiştir.",
+    [
+     "O her şeyi bilir.",
+     0.6
+    ],
+    "Câsiye Suresi, on üçüncü ayetin anlamı şöyledir.",
+    "Göklerde olanları, yerde olanları, hepsini sizin buyruğunuz altına vermiştir.",
+    [
+     "Doğrusu bunlarda, düşünen kimseler için dersler vardır.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Yeni çıkan bir yiyeceği, içinde haram bir madde yoksa yemek serbesttir.",
+    "Telefon ve bilgisayar gibi yeni araçlar kendiliğinden serbesttir; hükümleri nasıl kullanıldıklarına göre belirlenir.",
+    "Namaza yeni bir rekât eklemek ya da yeni bir ibadet şekli uydurmak caiz değildir; ibadet dinin bildirdiği gibi yapılır.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Âlimlerin çoğunluğu bu ilkeyi benimser; bir kısım âlim ise delil bulununcaya kadar hüküm vermemeyi, tevakkuf, tercih etmiştir.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Yasak delil ister; ibadet ise dinin bildirdiği gibi yapılır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "guc",
+   "baslik": "Güç yetirme ve sorumluluk",
+   "tur": "İlkeler",
+   "parcalar": [
+    [
+     "Güç yetirme ve sorumluluk. Allah kimseye gücünün üstünde yük yüklemez.",
+     0.7
+    ],
+    "Dinin emir ve yasaklarından sorumlu olan kişiye mükellef denir: Akıllı ve ergenlik çağına girmiş her Müslüman mükelleftir.",
+    "Allah kimseyi gücünün yetmediği bir şeyle sorumlu tutmaz.",
+    "Emirler güç yettiği ölçüde yerine getirilir; yasaklardan ise kaçınılır.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz seksen altıncı ayetin anlamı şöyledir.",
+    "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir.",
+    "Rabbimiz!",
+    "Eğer unutacak veya yanılacak olursak bizi sorumlu tutma.",
+    "Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme.",
+    "Rabbimiz!",
+    "Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı.",
+    [
+     "Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+     0.6
+    ],
+    "Teğâbün Suresi, on altıncı ayetin anlamı şöyledir.",
+    [
+     "Allah'a karşı gelmekten gücünüzün yettiği kadar sakının, buyruklarını dinleyin, itaat edin; kendinizin iyiliğine olarak mallarınızdan sarfedin; nefsinin tamahkarlığından korunan kimseler, işte onlar saadete erenlerdir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Size bir şeyi yasakladığımda ondan kaçının; bir şeyi emrettiğimde de onu gücünüz yettiği kadar yapın.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Çocuklar mükellef değildir; ama namaza ve güzel davranışlara küçük yaşta alıştırılır.",
+    "Akıl hastası olan kimse ibadetlerden sorumlu tutulmaz.",
+    "Malı nisaba ulaşmayan zekâtla, yolculuğa gücü yetmeyen hacla yükümlü değildir.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Allah, gücün yetmeyeni istemez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "ruhsat",
+   "baslik": "Ruhsat ve azimet",
+   "tur": "İlkeler",
+   "parcalar": [
+    [
+     "Ruhsat ve azimet. Zorlukta tanınan kolaylık.",
+     0.7
+    ],
+    "Azimet, dinin asıl ve genel hükmüdür.",
+    "Ruhsat ise hastalık, yolculuk ya da zorlama gibi bir zorluk sebebiyle tanınan kolaylıktır.",
+    "Dinde kolaylık esastır; ruhsatı kullanmak da Allah’ın bir lütfudur.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+    "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+    "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+    "Allah size kolaylık ister, zorluk istemez.",
+    [
+     "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Kolaylaştırın, zorlaştırmayın; müjdeleyin, nefret ettirmeyin.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Namazı ayakta kıl; gücün yetmezse oturarak, ona da gücün yetmezse yan üstü kıl.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Hasta ya da yolcu olan, Ramazan’da tutamadığı oruçları sonra kaza eder.",
+    "Su bulamayan ya da suyun zarar vereceği kimse teyemmüm eder.",
+    "Ayakta duramayan oturarak, oturamayan yan yatarak namaz kılar.",
+    "Yolcu, dört rekâtlı farz namazları iki rekât kılar.",
+    [
+     "Mezhep notu.",
+     0.4
+    ],
+    "Hanefîlere göre yolculukta dört rekâtlı farzları iki kılmak ruhsat değil, uyulması gereken bir hükümdür, azimet.",
+    "Diğer mezheplere göre bu bir ruhsattır; dileyen tam kılabilir.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Dinde zorluk değil, kolaylık esastır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "zaruret",
+   "baslik": "Zaruret",
+   "tur": "İlkeler",
+   "parcalar": [
+    [
+     "Zaruret. Başka çaresi olmayan zorunlu durum.",
+     0.7
+    ],
+    "Zaruret, kişinin hayatını ya da sağlığını tehlikeye sokan ve başka çaresi olmayan zorunlu durumdur.",
+    "Böyle bir durumda haram olan bir şey, tehlikeyi giderecek kadarıyla mubah olur.",
+    "Sınır aşılmaz; zaruret bitince yasak geri döner.",
+    "Mecelle’deki külli kaideler bunu şöyle özetler: Zaruretler yasakları mubah kılar ve Zaruretler kendi miktarlarınca takdir olunur.",
+    [
+     "Delilleri şöyledir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+    "Şüphesiz size ölü hayvan etini, kanı, domuz etini, Allah'tan başkası için kesilen hayvanı haram kılmıştır; fakat, darda kalana, başkasının payına el uzatmamak ve zaruret miktarını aşmamak üzere günah sayılmaz.",
+    [
+     "Çünkü Allah bağışlayandır, merhamet edendir.",
+     0.6
+    ],
+    "En‘âm Suresi, yüz on dokuzuncu ayetin anlamı şöyledir.",
+    "Size ne oluyor ki, Allah size darda kalmanızın dışında, haram olanları genişçe anlatmışken adının üzerine anıldığı şeyden yemiyorsunuz?",
+    "Doğrusu çoğunluk, heva ve heveslerine uyarak, bilmeden sapıtıyorlar.",
+    [
+     "Aşırı gidenleri en iyi bilen Rabbindir.",
+     0.6
+    ],
+    [
+     "Günlük hayattan örnekler.",
+     0.6
+    ],
+    "Açlıktan ölmek üzere olan ve başka yiyeceği bulunmayan kimse, hayatını kurtaracak kadar haram yiyecekten yiyebilir.",
+    "Canın çekmesi, merak ya da sıradan bir kolaylık zaruret sayılmaz.",
+    [
+     "Akılda kalsın.",
+     0.6
+    ],
+    [
+     "Zaruret, yasağı ancak gerektiği kadar kaldırır.",
+     1
+    ]
+   ]
+  }
+ ]
+}

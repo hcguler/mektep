@@ -1,0 +1,108 @@
+{
+ "_aciklama": "kavram sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "İslam'da Kavram Haritası: tam anlatım",
+   "sure": 1799.07,
+   "imza": "5d0ab54901de5b6d"
+  },
+  "kuran": {
+   "baslik": "Kur'an",
+   "sure": 81.48,
+   "imza": "753a7839fc62343e"
+  },
+  "sunnet-kaynak": {
+   "baslik": "Sünnet",
+   "sure": 96.91,
+   "imza": "95af038c5e9bcfd6"
+  },
+  "icma": {
+   "baslik": "İcmâ",
+   "sure": 74.73,
+   "imza": "df405ea1358f572d"
+  },
+  "kiyas": {
+   "baslik": "Kıyas",
+   "sure": 98.75,
+   "imza": "ced885776f333179"
+  },
+  "farz": {
+   "baslik": "Farz",
+   "sure": 123.69,
+   "imza": "07b5941f36e34650"
+  },
+  "vacip": {
+   "baslik": "Vacip",
+   "sure": 77.71,
+   "imza": "7434eeaeee54a743"
+  },
+  "sunnet": {
+   "baslik": "Sünnet",
+   "sure": 107.64,
+   "imza": "6dad0202d37f8129"
+  },
+  "mustehab": {
+   "baslik": "Müstehab",
+   "sure": 81.94,
+   "imza": "18c1f15304fafa5f"
+  },
+  "mubah": {
+   "baslik": "Mubah",
+   "sure": 112.94,
+   "imza": "1d98371d1031cbbd"
+  },
+  "mekruh-tenzihen": {
+   "baslik": "Mekruh (tenzîhen)",
+   "sure": 76.39,
+   "imza": "fbd3ace0a0a62092"
+  },
+  "mekruh-tahrimen": {
+   "baslik": "Mekruh (tahrîmen)",
+   "sure": 89.14,
+   "imza": "7d64f94deb48b702"
+  },
+  "haram": {
+   "baslik": "Haram",
+   "sure": 129.12,
+   "imza": "fdceae71cc85b674"
+  },
+  "helal": {
+   "baslik": "Helal",
+   "sure": 85.19,
+   "imza": "1daa4dcabfddf9a5"
+  },
+  "supheli": {
+   "baslik": "Şüpheli",
+   "sure": 65.22,
+   "imza": "cfeb2121a69f5068"
+  },
+  "niyet": {
+   "baslik": "Niyet",
+   "sure": 85.29,
+   "imza": "b73376124fba6a8d"
+  },
+  "ibaha": {
+   "baslik": "Asıl olan serbestliktir",
+   "sure": 95.35,
+   "imza": "37d8752aa4a6551e"
+  },
+  "guc": {
+   "baslik": "Güç yetirme ve sorumluluk",
+   "sure": 106.12,
+   "imza": "0cc769a614f24628"
+  },
+  "ruhsat": {
+   "baslik": "Ruhsat ve azimet",
+   "sure": 108.66,
+   "imza": "686832fb1ba8e580"
+  },
+  "zaruret": {
+   "baslik": "Zaruret",
+   "sure": 90.98,
+   "imza": "578a09c9ffe6d3f4"
+  }
+ }
+}

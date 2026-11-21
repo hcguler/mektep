@@ -1,0 +1,703 @@
+{
+ "_aciklama": "Namaz Yolculuğu sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Her kayıt, sırayla seslendirilen parçalardan oluşur. Parça ya bir metindir ya da [metin, duraklama] çiftidir; duraklama o parçadan sonraki sessizliktir (saniye). 'dosya' değeri docs/namaz-audio/ altındaki kaydın adıdır: erkek/… yetişkin temasının erkek sesi (yetişkinlere özel metin), 01–11 ve nafile-01–08 yetişkin temasının kadın sesi, cocuk/01–11 çocuk temasının durakları.",
+ "ses": "F2",
+ "duraklar": [
+  {
+   "dosya": "01-niyet",
+   "parcalar": [
+    [
+     "Birinci durak: Niyet.",
+     0.7
+    ],
+    "Her ibadet, kalbin yönelişiyle başlar. Namaza durmadan önce abdestimizi almış, kıbleye dönmüşüzdür.",
+    "Niyet, hangi namazı kılacağımızı kalbimizle belirlemektir. Dil ile söylemek kalbe yardımcı olur, ama asıl olan kalbin bilmesidir.",
+    [
+     "Peygamberimiz, amellerin niyetlere göre değer kazandığını bildirir.",
+     0.6
+    ],
+    "Zihnimizi meşgul eden her şeyi geride bırakır, Rabbimizin huzuruna durmaya hazırlanırız."
+   ]
+  },
+  {
+   "dosya": "02-tekbir",
+   "parcalar": [
+    [
+     "İkinci durak: İftitah tekbiri.",
+     0.7
+    ],
+    "Ellerimizi kaldırır ve Allahu Ekber deriz. Yani, Allah en büyüktür.",
+    [
+     "Bu tekbir namazın farzıdır, namaz onunla başlar.",
+     0.6
+    ],
+    "Alimler bu anı, dünyanın kapısını kapatıp Allah'ın huzuruna girmek olarak anlatır.",
+    "Artık konuşmak, başka bir şeyle ilgilenmek yoktur. Dışarıda ne varsa, selam verinceye kadar bekleyecektir."
+   ]
+  },
+  {
+   "dosya": "03-kiyam",
+   "parcalar": [
+    [
+     "Üçüncü durak: Kıyam.",
+     0.7
+    ],
+    "Kıyam, Allah'ın huzurunda ayakta durmaktır. Kur'an, O'na gönülden boyun eğerek ayakta durmamızı ister.",
+    "Eller bağlanır, gözler secde edilecek yere bakar. Bu bakış, kalbin dağılmamasına yardım eder.",
+    "İlk okuduğumuz dua Sübhaneke'dir. Namaza, Rabbimizi her türlü eksiklikten uzak tutarak ve O'na hamd ederek başlarız."
+   ]
+  },
+  {
+   "dosya": "04-kiraat",
+   "parcalar": [
+    [
+     "Dördüncü durak: Kıraat.",
+     0.7
+    ],
+    "Ayakta Kur'an okuruz. Önce Fatiha, ardından bir sure ya da birkaç ayet.",
+    "Fatiha her rekatta okunur. Kudsi bir hadiste Allah, kulunun okuduğu her ayete karşılık verdiğini bildirir.",
+    [
+     "Bu yüzden Fatiha, yalnızca okunan bir metin değil, kul ile Rabbi arasında bir konuşmadır.",
+     0.6
+    ],
+    "Acele etmeden, her kelimenin hakkını vererek okumak gerekir."
+   ]
+  },
+  {
+   "dosya": "05-ruku",
+   "parcalar": [
+    [
+     "Beşinci durak: Rüku.",
+     0.7
+    ],
+    "Allahu Ekber diyerek eğiliriz. Eller dizleri kavrar, sırt ve baş aynı hizada dümdüz durur.",
+    "Rüku, büyüklük karşısında saygıyla eğilmektir. Bu yüzden burada Rabbimizin büyüklüğünü anarız.",
+    "En az üç kere tesbih eder, beden yerine oturup sakinleşmeden doğrulmayız."
+   ]
+  },
+  {
+   "dosya": "06-kavme",
+   "parcalar": [
+    [
+     "Altıncı durak: Kavme.",
+     0.7
+    ],
+    "Rükudan doğrulurken söylediğimiz sözün anlamı şudur: Allah, kendisine hamd edeni işitir.",
+    [
+     "Dimdik durunca karşılık veririz: Rabbimiz, hamd yalnız sanadır.",
+     0.6
+    ],
+    "Peygamberimiz, namazını aceleyle kılan birine her hareketi sakinleşerek ve tam doğrularak yapmayı öğretmiştir.",
+    "Bu yüzden tam doğrulmadan secdeye inilmez."
+   ]
+  },
+  {
+   "dosya": "07-secde",
+   "parcalar": [
+    [
+     "Yedinci durak: Secde.",
+     0.7
+    ],
+    "Alın, eller, dizler ve ayak parmakları yere değer. İnsan, bedeninin en değerli yerini yere koyar.",
+    [
+     "Peygamberimiz, kulun Rabbine en yakın olduğu anın secde anı olduğunu bildirir.",
+     0.6
+    ],
+    "İnsan secdede en alçak haldedir. Bu yüzden burada Rabbimizin en yüce olduğunu söyleriz.",
+    "Kul ne kadar alçalırsa, Rabbinin yüceliğini o kadar iyi hisseder."
+   ]
+  },
+  {
+   "dosya": "08-celse",
+   "parcalar": [
+    [
+     "Sekizinci durak: Celse.",
+     0.7
+    ],
+    "İki secde arasındaki kısa oturuştur. Baş secdeden kaldırılır ve tam olarak oturulur.",
+    "Kısa olması, önemsiz olduğu anlamına gelmez. Peygamberimiz, rükusunu ve secdesini tam yapmayanı, namazından çalan kişiye benzetmiştir.",
+    "Burada bir an durur, sükunet bulur ve bağışlanma dileriz. Sonra yeniden secdeye varırız."
+   ]
+  },
+  {
+   "dosya": "09-ikinci-secde",
+   "parcalar": [
+    [
+     "Dokuzuncu durak: İkinci secde.",
+     0.7
+    ],
+    "Bir kez daha secdeye varırız. Her rekatta bir rüku ve iki secde vardır.",
+    [
+     "Bunun asıl sebebi, Peygamberimizin namazı böyle kılmış olmasıdır.",
+     0.6
+    ],
+    "Bir hadise göre, Allah için yapılan her secde kulu bir derece yükseltir ve bir günahını siler.",
+    "İkinci secdeden sonra ya yeni rekata kalkılır ya da oturulur."
+   ]
+  },
+  {
+   "dosya": "10-kade",
+   "parcalar": [
+    [
+     "Onuncu durak: Oturuş.",
+     0.7
+    ],
+    "İkinci rekatın ve son rekatın sonunda otururuz. Burada Tahiyyat okunur.",
+    "Tahiyyat'ta Peygamberimize, kendimize ve Allah'ın bütün salih kullarına selam veririz. Bu selam, gökte ve yerde bütün salih kullara ulaşır.",
+    "Son oturuşta Peygamberimize salavat getirir, kendimiz, anne babamız ve bütün müminler için dua ederiz."
+   ]
+  },
+  {
+   "dosya": "11-selam",
+   "parcalar": [
+    [
+     "On birinci durak: Selam.",
+     0.7
+    ],
+    "Başımızı önce sağa, sonra sola çevirerek selam veririz. Namaz selamla tamamlanır.",
+    "Tekbirle kapanan kapı, selamla yeniden açılır. Huzurdan, herkes için esenlik ve rahmet dileyerek ayrılırız.",
+    "Kur'an, namazın insanı hayasızlıktan ve kötülükten alıkoyduğunu bildirir. Namaz biter, ama etkisi gün boyu sürer."
+   ]
+  },
+  {
+   "dosya": "nafile-01-genel",
+   "parcalar": [
+    [
+     "Nafile namazlar bölümüne hoş geldiniz.",
+     0.7
+    ],
+    "Nafile, farz ve vaciplerin dışında, Allah'a yakınlaşmak için gönüllü olarak kılınan namazdır.",
+    "Kudsi bir hadiste Allah şöyle buyurur: Kulum bana nafilelerle yaklaşmaya devam eder, sonunda onu severim.",
+    [
+     "Peygamberimiz, amellerin Allah'a en sevimlisinin, az da olsa devamlı olanı olduğunu bildirir.",
+     0.6
+    ],
+    "Bu bölümde, Kur'an'da ve en güvenilir hadis kaynaklarında yer alan nafile namazları bulacaksınız."
+   ]
+  },
+  {
+   "dosya": "nafile-02-teheccud",
+   "parcalar": [
+    [
+     "Teheccüd, yani gece namazı.",
+     0.7
+    ],
+    "Kur'an'da adıyla anılan nafile namazdır. İsra suresinde şöyle buyrulur: Gecenin bir kısmında, sana özgü bir nafile olarak teheccüd namazı kıl.",
+    [
+     "Yatsıdan sonra bir süre uyuyup kalkarak, ikişer rekat halinde kılınır.",
+     0.6
+    ],
+    "Peygamberimiz, farz namazlardan sonra en faziletli namazın gece namazı olduğunu bildirir.",
+    "Gecenin son üçte biri, duaların karşılık bulduğu vakittir."
+   ]
+  },
+  {
+   "dosya": "nafile-03-sunnetler",
+   "parcalar": [
+    [
+     "Vakit sünnetleri.",
+     0.7
+    ],
+    "Beş vakit namazın farzlarından önce ya da sonra kılınan sünnetlerdir.",
+    "Bir hadise göre, her gün farzların dışında on iki rekat nafile kılan kişi için cennette bir ev hazırlanır.",
+    "Bunların içinde en çok özen gösterileni, sabah namazının iki rekat sünnetidir. Peygamberimiz onu, dünyadan ve dünyadaki her şeyden daha hayırlı saymıştır."
+   ]
+  },
+  {
+   "dosya": "nafile-04-kusluk",
+   "parcalar": [
+    [
+     "Kuşluk namazı.",
+     0.7
+    ],
+    "Güneş doğup yükseldikten sonra, öğle vaktine kadar kılınan nafile namazdır.",
+    "Ebu Hüreyre, Peygamberimizin kendisine iki rekat kuşluk namazı kılmayı tavsiye ettiğini anlatır.",
+    "Bir başka hadise göre, bedenimizdeki her eklem için her sabah bir sadaka gerekir. Kuşluk vakti kılınan iki rekat, bunların hepsinin yerini tutar.",
+    "İki, dört ya da sekiz rekat olarak kılınabilir."
+   ]
+  },
+  {
+   "dosya": "nafile-05-mescid",
+   "parcalar": [
+    [
+     "Tahiyyetül mescid, yani mescidi selamlama namazı.",
+     0.7
+    ],
+    "Peygamberimiz şöyle buyurur: Biriniz mescide girdiğinde, oturmadan önce iki rekat namaz kılsın.",
+    "Mescide girer girmez farz ya da sünnet kılan kişi için, o namaz bunun yerine de geçer."
+   ]
+  },
+  {
+   "dosya": "nafile-06-abdest",
+   "parcalar": [
+    [
+     "Abdest namazı.",
+     0.7
+    ],
+    "Abdest aldıktan sonra kılınan iki rekatlık nafile namazdır.",
+    "Hazreti Bilal, ne zaman abdest alsa o abdestle nasip olduğu kadar namaz kıldığını söylemiş, Peygamberimiz de cennette onun ayak seslerini duyduğunu haber vermiştir.",
+    "Bir başka hadiste, güzelce abdest alıp aklından başka bir şey geçirmeden iki rekat namaz kılan kişinin geçmiş günahlarının bağışlanacağı bildirilir."
+   ]
+  },
+  {
+   "dosya": "nafile-07-istihare",
+   "parcalar": [
+    [
+     "İstihare namazı.",
+     0.7
+    ],
+    "İstihare, bir işte Allah'tan hayırlı olanı dilemektir.",
+    "Sahabeden Cabir anlatır: Peygamberimiz bize istihareyi, Kur'an'dan bir sure öğretir gibi öğretirdi.",
+    [
+     "Bir işe niyetlenen kişi iki rekat nafile namaz kılar, ardından istihare duasını okur.",
+     0.6
+    ],
+    "Duada kul, bilginin ve gücün Allah'a ait olduğunu söyler. O iş hayırlıysa kolaylaştırılmasını, değilse kendisinden uzaklaştırılmasını ister."
+   ]
+  },
+  {
+   "dosya": "nafile-08-teravih",
+   "parcalar": [
+    [
+     "Teravih namazı.",
+     0.7
+    ],
+    "Ramazan ayına özgü gece namazıdır. Yatsı namazından sonra, vitirden önce kılınır.",
+    "Peygamberimiz şöyle buyurur: Kim inanarak ve karşılığını Allah'tan umarak Ramazan gecelerini ibadetle geçirirse, geçmiş günahları bağışlanır.",
+    "Peygamberimiz bu namazı birkaç gece mescidde kılmış, sonra farz kılınmasından endişe ettiği için mescide çıkmamıştır.",
+    "Hanefi mezhebine göre yirmi rekattır."
+   ]
+  },
+  {
+   "dosya": "cocuk/01-niyet",
+   "parcalar": [
+    [
+     "Merhaba yol arkadaşım! İlk durağımıza hoş geldin: Niyet.",
+     0.7
+    ],
+    "Her güzel yolculuk, nereye gittiğini bilmekle başlar. Namaz da öyle.",
+    "Abdestini aldın, kıbleye döndün. Şimdi bir an dur ve kalbine sor: Ben hangi namazı kılacağım?",
+    [
+     "İşte niyet, bu sorunun cevabıdır.",
+     0.6
+    ],
+    "Dilinle söylemek kalbine yardımcı olur, ama niyetin asıl evi kalptir.",
+    "Aklını dağıtan her şeyi geride bırak. Hazırsan, Rabbinle buluşmaya gidiyoruz!"
+   ]
+  },
+  {
+   "dosya": "cocuk/02-tekbir",
+   "parcalar": [
+    [
+     "İkinci durağımız: Tekbir.",
+     0.7
+    ],
+    "Şimdi namazın kapısını açıyoruz. Ellerini kaldır ve söyle: Allahu Ekber!",
+    [
+     "Bu söz, Allah en büyüktür demek.",
+     0.6
+    ],
+    "Onu söylediğin anda, dünyanın kapısı arkandan usulca kapanır.",
+    "Oyunlar, dersler, ekranlar, hepsi dışarıda bekleyecek. Artık konuşmak yok, etrafa bakmak yok.",
+    "Çünkü şu an, her şeyden büyük olanın huzurundasın."
+   ]
+  },
+  {
+   "dosya": "cocuk/03-kiyam",
+   "parcalar": [
+    [
+     "Üçüncü durağımız: Kıyam.",
+     0.7
+    ],
+    "Kıyam, ayakta durmak demek. Ama sıradan bir duruş değil bu.",
+    "Ellerini bağla, dimdik ve sakin dur. Gözlerin, birazdan alnını koyacağın yere baksın. Böylece kalbin de dağılmaz.",
+    "İlk sözümüz bir övgü: Sübhaneke duası. Yani namaza, Rabbimizi överek başlıyoruz.",
+    "Tıpkı çok sevdiğin birini görünce, önce ona güzel bir söz söylemen gibi."
+   ]
+  },
+  {
+   "dosya": "cocuk/04-kiraat",
+   "parcalar": [
+    [
+     "Dördüncü durağımız: Kıraat.",
+     0.7
+    ],
+    "Hala ayaktayız ve şimdi Kur'an okuma zamanı. Önce Fatiha suresini okuyoruz.",
+    "Biliyor musun? Fatiha sıradan bir okuma değildir, bir sohbettir. Sen bir ayet okursun, Allah sana cevap verir.",
+    "Bu yüzden hiç acele etme. Her kelimeyi tane tane, duyarak oku.",
+    "Fatiha'dan sonra kısa bir sure daha okuyoruz.",
+    "Kartları kaydır, o sohbetin cevaplarını birlikte keşfedelim!"
+   ]
+  },
+  {
+   "dosya": "cocuk/05-ruku",
+   "parcalar": [
+    [
+     "Beşinci durağımız: Rüku.",
+     0.7
+    ],
+    "Allahu Ekber diyerek eğiliyoruz. Ellerin dizlerinde, sırtın bir masa gibi dümdüz.",
+    "İnsan, saygı duyduğu büyüklerin karşısında eğilir ya. Biz de en büyük olanın karşısında eğiliyoruz.",
+    "Bu yüzden rükuda, Rabbimizin büyüklüğünü anıyoruz.",
+    "Hemen doğrulma. Bedenin sakinleşsin, kalbin de onunla birlikte eğilsin."
+   ]
+  },
+  {
+   "dosya": "cocuk/06-kavme",
+   "parcalar": [
+    [
+     "Altıncı durağımız: Kavme.",
+     0.7
+    ],
+    "Rükudan doğruluyoruz. Doğrulurken söylediğimiz sözün anlamı ne kadar güzel: Allah, kendisine hamd edeni işitir.",
+    "Düşünsene, sen hamd ediyorsun ve Rabbin seni duyuyor!",
+    "Dimdik durunca biz de karşılık veriyoruz: Rabbimiz, hamd sana mahsustur.",
+    "Burada hiç acele yok. Yarım doğrulup secdeye gitmek olmaz. Önce bir ağaç gibi dimdik dur."
+   ]
+  },
+  {
+   "dosya": "cocuk/07-secde",
+   "parcalar": [
+    [
+     "Yedinci durağımız: Secde.",
+     0.7
+    ],
+    "Namazın en özel anına geldik. Alnımız, bedenimizin en değerli yeri. Ve onu şimdi yere koyuyoruz.",
+    "Ellerin, dizlerin, ayak parmakların da yerde.",
+    "İnsan secdedeyken en alçak yerdedir. Ama tam da o an, Rabbine en yakın olduğu andır.",
+    "Bu yüzden secdede, O'nun en yüce olduğunu söylüyoruz.",
+    "Ne kadar eğilirsen, O'nun yüceliğini o kadar iyi hissedersin. Sakin ol, hiç acele etme."
+   ]
+  },
+  {
+   "dosya": "cocuk/08-celse",
+   "parcalar": [
+    [
+     "Sekizinci durağımız: Celse.",
+     0.7
+    ],
+    "İki secdenin arasında kısacık bir oturuş. Başını kaldır ve tam otur, ellerin uyluklarının üzerinde dinlensin.",
+    "Kısa ama kıymetli bir an bu. Çünkü Peygamberimiz, namazın her hareketini sakince ve tam yapmayı öğretti.",
+    "Otur, bir nefes al ve içinden, Rabbim beni bağışla, de. Sonra yeniden secdeye."
+   ]
+  },
+  {
+   "dosya": "cocuk/09-ikinci-secde",
+   "parcalar": [
+    [
+     "Dokuzuncu durağımız: İkinci secde.",
+     0.7
+    ],
+    "Bir kez daha yere kapanıyoruz. Neden iki kere? Çünkü Peygamberimiz bize böyle öğretti.",
+    "Her rekatta bir kere eğilir, iki kere secde ederiz. İlk secdede ne yaptıysan aynısını yap.",
+    "Sonra ya yeni bir rekat için ayağa kalkacağız, ya da oturacağız.",
+    "Aklında kalsın: Bir eğil, iki kapan!"
+   ]
+  },
+  {
+   "dosya": "cocuk/10-kade",
+   "parcalar": [
+    [
+     "Onuncu durağımız: Oturuş.",
+     0.7
+    ],
+    "İkinci rekatın ve son rekatın sonunda sakince oturuyoruz. Burada okuduğumuz duanın adı Tahiyyat.",
+    "İçinde çok güzel selamlar var. Peygamberimize selam, bize selam ve Allah'ın bütün iyi kullarına selam.",
+    "Yani tek başına bile kılsan, o an gökteki ve yerdeki bütün iyi kullara selam gönderiyorsun.",
+    "Son oturuşta, Peygamberimiz için dualar da ediyoruz."
+   ]
+  },
+  {
+   "dosya": "cocuk/11-selam",
+   "parcalar": [
+    [
+     "On birinci durağımız: Selam.",
+     0.7
+    ],
+    "İşte son durak! Başını önce sağa çevir, sonra sola. Ve her iki yana selam ver.",
+    "Bu selamla, herkes için barış ve rahmet diliyoruz.",
+    "Namaz burada bitiyor ama güzelliği bitmiyor. Çünkü namaz, insanı kötülükten uzak tutar.",
+    "Hemen kalkma, biraz da tesbih çek.",
+    "Tebrikler yol arkadaşım, bütün durakları tamamladın!"
+   ]
+  },
+  {
+   "dosya": "erkek/01-niyet",
+   "parcalar": [
+    [
+     "Namazın ilk durağı niyettir.",
+     0.7
+    ],
+    "Gün boyu zihnimiz işlerle, hesaplarla, yarının kaygısıyla doludur. Niyet, bütün bunların arasında durup kalbi tek bir yöne çevirmektir.",
+    "Hangi namazı kılacağımızı kalbimizle biliriz. Dil ile söylemek yardımcıdır, ama asıl olan kalbin yönelişidir.",
+    [
+     "Peygamberimizin haber verdiği gibi, ameller niyetlere göredir.",
+     0.6
+    ],
+    "Aynı hareketi ibadete dönüştüren şey, işte bu yöneliştir. Şimdi her şeyi geride bırakıp Rabbimizin huzuruna duruyoruz."
+   ]
+  },
+  {
+   "dosya": "erkek/02-tekbir",
+   "parcalar": [
+    [
+     "İkinci durak, iftitah tekbiridir.",
+     0.7
+    ],
+    "Eller kaldırılır ve Allahu Ekber denir. Yani, Allah en büyüktür; zihnimizi meşgul eden her şeyden büyüktür.",
+    [
+     "Bu tekbir namazın farzıdır ve namaz onunla başlar.",
+     0.6
+    ],
+    "Alimler bu anı, dünyanın kapısını kapatıp Allah'ın huzuruna girmek diye anlatır.",
+    "Telefon, iş, bekleyen sorumluluklar; hepsi selam verinceye kadar kapının dışında kalır."
+   ]
+  },
+  {
+   "dosya": "erkek/03-kiyam",
+   "parcalar": [
+    [
+     "Üçüncü durak kıyamdır.",
+     0.7
+    ],
+    "Kıyam, Allah'ın huzurunda ayakta durmaktır. Kur'an, O'na gönülden boyun eğerek ayakta durmamızı ister.",
+    "Eller bağlanır, bakışlar secde yerine iner. Beden sakinleşince kalp de toparlanır.",
+    [
+     "Kur'an, kurtuluşa eren müminleri, namazlarında huşu içinde olanlar diye tanıtır.",
+     0.6
+    ],
+    "İlk okuduğumuz dua Sübhaneke'dir. Namaza kendi derdimizle değil, Rabbimizi överek başlarız."
+   ]
+  },
+  {
+   "dosya": "erkek/04-kiraat",
+   "parcalar": [
+    [
+     "Dördüncü durak kıraattir.",
+     0.7
+    ],
+    "Ayakta Kur'an okuruz. Önce Fatiha, ardından bir sure ya da birkaç ayet.",
+    "Fatiha her rekatta okunur. Peygamberimiz, onu okumayanın namazının olmayacağını bildirmiştir.",
+    "Kudsi bir hadise göre Allah, kulunun okuduğu her ayete karşılık verir. Yani Fatiha, ezberden geçilen bir metin değil, karşılığı olan bir hitaptır.",
+    "Bunu bilen, kelimeleri aceleye getirmez."
+   ]
+  },
+  {
+   "dosya": "erkek/05-ruku",
+   "parcalar": [
+    [
+     "Beşinci durak rükudur.",
+     0.7
+    ],
+    "Allahu Ekber diyerek eğiliriz. Eller dizleri kavrar, sırt ve baş aynı hizada dümdüz durur.",
+    "Rüku, büyüklük karşısında saygıyla eğilmektir. Gerçek büyüklük yalnızca Allah'a aittir; bu yüzden burada O'nun büyüklüğünü anarız.",
+    "En az üç kere tesbih eder, beden yerine oturup sakinleşmeden doğrulmayız."
+   ]
+  },
+  {
+   "dosya": "erkek/06-kavme",
+   "parcalar": [
+    [
+     "Altıncı durak kavmedir.",
+     0.7
+    ],
+    "Rükudan doğrulurken söylediğimiz sözün anlamı şudur: Allah, kendisine hamd edeni işitir.",
+    [
+     "Tam doğrulunca karşılık veririz: Rabbimiz, hamd yalnız sanadır.",
+     0.6
+    ],
+    "Peygamberimiz, namazını aceleyle kılan birine, dön ve yeniden kıl, çünkü sen namaz kılmadın, demiş; sonra ona her hareketi sakinleşerek yapmayı öğretmiştir.",
+    "Kavme kısa bir geçiş gibi görünür, ama namazın bütünlüğü bu duruşlarla tamamlanır."
+   ]
+  },
+  {
+   "dosya": "erkek/07-secde",
+   "parcalar": [
+    [
+     "Yedinci durak secdedir.",
+     0.7
+    ],
+    "Alın, eller, dizler ve ayak parmakları yere değer. İnsan, en değerli uzvunu yere koyar.",
+    [
+     "Peygamberimiz şöyle buyurur: Kulun Rabbine en yakın olduğu an, secdede olduğu andır.",
+     0.6
+    ],
+    "Alimlerin dikkat çektiği bir incelik vardır: İnsan secdede bedenen en alçak haldedir; bu yüzden orada Allah'ın en yüce oluşunu dile getirir.",
+    "Kul ne kadar alçalırsa, Rabbinin yüceliğini o kadar iyi hisseder."
+   ]
+  },
+  {
+   "dosya": "erkek/08-celse",
+   "parcalar": [
+    [
+     "Sekizinci durak, iki secde arasındaki kısa oturuştur.",
+     0.7
+    ],
+    "Buna celse denir. Baş secdeden kaldırılır ve tam olarak oturulur.",
+    "Peygamberimiz, hırsızlığın en kötüsünün namazdan çalmak olduğunu söylemiş; bunu da rükuyu ve secdeyi tam yapmamak diye açıklamıştır.",
+    "Celse, bu aceleye karşı konulmuş bir duraktır. Bir an durur, sükunet bulur ve bağışlanma dileriz."
+   ]
+  },
+  {
+   "dosya": "erkek/09-ikinci-secde",
+   "parcalar": [
+    [
+     "Dokuzuncu durak ikinci secdedir.",
+     0.7
+    ],
+    "Bir kez daha secdeye varırız. Her rekatta bir rüku ve iki secde vardır; bunun asıl sebebi Peygamberimizin namazı böyle kılmış olmasıdır.",
+    "Bazı alimler şu ayete işaret eder: Sizi topraktan yarattık, oraya döndüreceğiz ve bir kez daha oradan çıkaracağız.",
+    [
+     "Buna göre ilk secde yaratılışı, ikinci secde toprağa dönüşü hatırlatır.",
+     0.6
+    ],
+    "Bir hadise göre de, Allah için yapılan her secde kulu bir derece yükseltir ve bir günahını siler."
+   ]
+  },
+  {
+   "dosya": "erkek/10-kade",
+   "parcalar": [
+    [
+     "Onuncu durak oturuştur.",
+     0.7
+    ],
+    "İkinci rekatın ve son rekatın sonunda otururuz ve Tahiyyat okuruz.",
+    "İbni Mesud'un anlattığına göre Peygamberimiz Tahiyyat'ı ona, Kur'an'dan bir sure öğretir gibi, eli elinin içindeyken öğretmiştir.",
+    "Bu duada Peygamberimize, kendimize ve Allah'ın bütün salih kullarına selam veririz. Tek başına kılan kişi bile, gökte ve yerde bütün salih kullara selam vermiş olur.",
+    "Son oturuşta salavat getirir; kendimiz, anne babamız ve bütün müminler için bağışlanma dileriz."
+   ]
+  },
+  {
+   "dosya": "erkek/11-selam",
+   "parcalar": [
+    [
+     "On birinci ve son durak selamdır.",
+     0.7
+    ],
+    "Baş önce sağa, sonra sola çevrilir ve selam verilir.",
+    "Peygamberimiz namazın anahtarının temizlik, başlangıcının tekbir, bitişinin ise selam olduğunu bildirir.",
+    [
+     "Tekbirle girdiğimiz huzurdan, herkes için esenlik ve rahmet dileyerek çıkarız.",
+     0.6
+    ],
+    "Kur'an, namazın insanı hayasızlıktan ve kötülükten alıkoyduğunu haber verir. Asıl soru, selamdan sonra hayatımıza ne taşıdığımızdır."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-01-genel",
+   "parcalar": [
+    [
+     "Nafile namazlar bölümüne hoş geldiniz.",
+     0.7
+    ],
+    "Farzlar kulluğun temelidir. Nafileler ise bu temelin üzerine gönüllü olarak eklenen ibadetlerdir.",
+    "Kudsi bir hadiste Allah şöyle buyurur: Kulum bana nafilelerle yaklaşmaya devam eder, sonunda onu severim.",
+    [
+     "Peygamberimiz, Allah'a en sevimli amelin, az da olsa devamlı olanı olduğunu bildirir.",
+     0.6
+    ],
+    "Bu yüzden ölçü çokluk değil, sürekliliktir. Bu bölümde, Kur'an'da ve en güvenilir hadis kaynaklarında yer alan nafile namazları bulacaksınız."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-02-teheccud",
+   "parcalar": [
+    [
+     "Teheccüd, gece namazıdır.",
+     0.7
+    ],
+    "Kur'an'da adıyla anılır. İsra suresinde şöyle buyrulur: Gecenin bir kısmında, sana özgü bir nafile olarak teheccüd namazı kıl.",
+    "Yatsıdan sonra bir süre uyuyup kalkarak, ikişer rekat halinde kılınır.",
+    [
+     "Peygamberimiz, farz namazdan sonra en faziletli namazın gece namazı olduğunu bildirir.",
+     0.6
+    ],
+    "Kur'an, geceleri az uyuyan ve seher vakitlerinde bağışlanma dileyen kulları över. Herkesin uyuduğu saatte kılınan iki rekat, insanın Rabbiyle baş başa kaldığı andır."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-03-sunnetler",
+   "parcalar": [
+    [
+     "Vakit sünnetleri, farzlarla birlikte kılınan nafilelerdir.",
+     0.7
+    ],
+    "Beş vakit namazın farzlarından önce ya da sonra kılınır.",
+    "Bir hadise göre, her gün farzların dışında on iki rekat nafile kılan kişi için cennette bir ev hazırlanır.",
+    "Hazreti Aişe, Peygamberimizin nafileler içinde en çok sabah namazının iki rekat sünnetine özen gösterdiğini anlatır.",
+    "Peygamberimiz bu iki rekatı, dünyadan ve dünyadaki her şeyden daha hayırlı saymıştır."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-04-kusluk",
+   "parcalar": [
+    [
+     "Kuşluk namazı, günün ilk saatlerinde kılınır.",
+     0.7
+    ],
+    "Güneş doğup yükseldikten sonra başlar ve öğle vaktine kadar sürer.",
+    "Ebu Hüreyre, Peygamberimizin kendisine iki rekat kuşluk namazı kılmayı tavsiye ettiğini anlatır.",
+    "Bir başka hadise göre, bedenimizdeki her eklem için her sabah bir sadaka gerekir; kuşluk vakti kılınan iki rekat bunların hepsinin yerini tutar.",
+    "İki, dört ya da sekiz rekat olarak kılınabilir. İşlerin en yoğun olduğu saatlerde ayrılan birkaç dakika, günün geri kalanına da yön verir."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-05-mescid",
+   "parcalar": [
+    [
+     "Tahiyyetül mescid, yani mescidi selamlama namazı.",
+     0.7
+    ],
+    "Peygamberimiz şöyle buyurur: Biriniz mescide girdiğinde, oturmadan önce iki rekat namaz kılsın.",
+    "Mescide girer girmez farz ya da sünnet kılan kişi için, o namaz bunun yerine de geçer.",
+    "Bu iki rekat, mescide girişin sıradan bir giriş olmadığını hatırlatır."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-06-abdest",
+   "parcalar": [
+    [
+     "Abdest namazı, abdestin ardından kılınır.",
+     0.7
+    ],
+    "İki rekatlık bir nafile namazdır.",
+    "Hazreti Bilal, ne zaman abdest alsa o abdestle nasip olduğu kadar namaz kıldığını söylemiş; Peygamberimiz de cennette onun ayak seslerini duyduğunu haber vermiştir.",
+    "Bir başka hadiste, güzelce abdest alıp aklından başka bir şey geçirmeden iki rekat kılan kişinin geçmiş günahlarının bağışlanacağı bildirilir.",
+    "Buradaki ölçü rekat sayısı değil, zihnin namazda olmasıdır."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-07-istihare",
+   "parcalar": [
+    [
+     "İstihare, bir işte Allah'tan hayırlı olanı dilemektir.",
+     0.7
+    ],
+    "Sahabeden Cabir anlatır: Peygamberimiz bize istihareyi, Kur'an'dan bir sure öğretir gibi öğretirdi.",
+    [
+     "Bir işe niyetlenen kişi iki rekat nafile kılar, ardından istihare duasını okur.",
+     0.6
+    ],
+    "Duada kul şunu söyler: Sen bilirsin, ben bilemem; sen güç yetirirsin, ben yetiremem.",
+    "O iş hayırlıysa kolaylaştırılmasını, değilse kendisinden uzaklaştırılmasını ister. İstihareden sonra rüya görmek şart değildir; kul kararını Allah'a havale eder."
+   ]
+  },
+  {
+   "dosya": "erkek/nafile-08-teravih",
+   "parcalar": [
+    [
+     "Teravih, Ramazan gecelerinin namazıdır.",
+     0.7
+    ],
+    "Yatsı namazından sonra, vitirden önce kılınır.",
+    "Peygamberimiz şöyle buyurur: Kim inanarak ve karşılığını Allah'tan umarak Ramazan gecelerini ibadetle geçirirse, geçmiş günahları bağışlanır.",
+    "Peygamberimiz bu namazı birkaç gece mescidde kılmış, sonra farz kılınmasından endişe ettiği için mescide çıkmamıştır.",
+    "Hanefi mezhebine göre yirmi rekattır; cemaatle de tek başına da kılınabilir."
+   ]
+  }
+ ],
+ "sesler": {
+  "erkek/": "M5",
+  "": "F2",
+  "cocuk/": "F2"
+ }
+}

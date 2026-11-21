@@ -1,0 +1,28 @@
+{
+ "_aciklama": "Quranic Arabic Corpus v0.4 çözümlemesinde ayetin anlamıyla açıkça çelişen etiketlerin düzeltmesi. Anahtar sure:ayet:kelime:parça, değer Corpus biçiminde etiket dizisi (lemma ve kök değişmez).",
+ "duzeltme": {
+  "4:105:10:1": "PERF|VF:4|ROOT:رأي|LEM:رَأَى|3MS",
+  "4:105:13:1": "IMPF|VF:1|ROOT:كون|LEM:كانَ|FAM:كَان|2MS|MOOD:JUS",
+  "5:31:7:2": "IMPF|VF:4|ROOT:رأي|LEM:أَرَيْ|3MS|MOOD:SUBJ",
+  "5:31:22:1": "ROOT:أخو|LEM:أَخ|MS|GEN",
+  "5:41:39:1": "IMPF|VF:4|PASS|ROOT:أتي|LEM:آتَى|2MP|MOOD:JUS",
+  "4:171:4:1": "IMPF|VF:1|ROOT:غلو|LEM:تَغْلُو|2MP|MOOD:JUS",
+  "4:171:4:2": "PRON|SUFF|2MP",
+  "5:77:5:1": "IMPF|VF:1|ROOT:غلو|LEM:تَغْلُو|2MP|MOOD:JUS",
+  "5:77:5:2": "PRON|SUFF|2MP",
+  "4:159:11:2": "ROOT:قوم|LEM:قِيامَة|F|GEN",
+  "5:104:4:1": "IMPV|VF:6|ROOT:علو|LEM:تَعالَ|2MP",
+  "5:106:45:1": "IMPF|VF:1|ROOT:كتم|LEM:كَتَمَ|1P|MOOD:IND",
+  "6:50:20:1": "IMPF|VF:4|PASS|ROOT:وحي|LEM:أَوْحَى|3MS|MOOD:IND",
+  "6:80:4:2": "IMPF|VF:3|ROOT:حجج|LEM:حاجَّ|2MP|MOOD:IND",
+  "7:38:21:1": "PERF|VF:6|ROOT:درك|LEM:ادّارَكَ|3MP",
+  "7:38:21:2": "PRON|SUFF|3MP",
+  "6:160:11:1": "IMPF|VF:1|PASS|ROOT:جزي|LEM:جَزَى|3MS|MOOD:IND",
+  "6:160:16:1": "IMPF|VF:1|PASS|ROOT:ظلم|LEM:ظَلَمَ|3MP|MOOD:IND",
+  "6:163:8:2": "ACT_PCPL|VF:4|ROOT:سلم|LEM:مُسْلِم|MP|GEN",
+  "7:17:2:2": "IMPF|VF:1|ROOT:أتي|LEM:أَتَى|1S|MOOD:IND",
+  "7:23:9:2": "IMPF|VF:1|ROOT:رحم|LEM:رَحِمَ|2MS|MOOD:JUS",
+  "7:27:14:2": "IMPF|VF:4|ROOT:رأي|LEM:أَرَيْ|3MS|MOOD:SUBJ",
+  "6:151:2:1": "IMPV|VF:6|ROOT:علو|LEM:تَعالَ|2MP"
+ }
+}

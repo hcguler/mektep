@@ -1,0 +1,2442 @@
+{
+ "_aciklama": "Kur'an Duaları sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça metin ve okunuş seslendirilmez, duanın Diyanet meali okunur. Bu dosya tools/dualar-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Kur'an Duaları: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-adem",
+   "02-nuh-ilim",
+   "03-nuh-menzil",
+   "04-nuh-bagis",
+   "05-ibrahim-kabul",
+   "06-ibrahim-ummet",
+   "07-ibrahim-namaz",
+   "08-ibrahim-hikmet",
+   "09-ibrahim-salih",
+   "10-ibrahim-tevekkul",
+   "11-yusuf",
+   "12-eyyub",
+   "13-musa-sadr",
+   "14-musa-zulm",
+   "15-musa-hayr",
+   "16-suleyman",
+   "17-yunus",
+   "18-zekeriyya-soy",
+   "19-zekeriyya-tek",
+   "20-ilim",
+   "21-sidk",
+   "22-seytan",
+   "23-rahmet",
+   "24-hasbiyallah",
+   "25-dunya-ahiret",
+   "26-talut",
+   "27-bakara-son",
+   "28-kalp",
+   "29-ates",
+   "30-havari",
+   "31-sebat",
+   "32-tefekkur",
+   "33-hasbunallah",
+   "34-sihirbazlar",
+   "35-musa-kavmi",
+   "36-anne-baba",
+   "37-kehf",
+   "38-cehennem",
+   "39-aile",
+   "40-kardesler",
+   "41-nur",
+   "42-asiye",
+   "43-melekler"
+  ],
+  "parcalar": [
+   [
+    "Kur'an Duaları.",
+    0.8
+   ],
+   [
+    "Kur’an’da peygamberlerin ve müminlerin ettiği kırk üç dua.",
+    0.6
+   ],
+   "Her duanın kim tarafından, hangi durumda edildiğini ve anlamını dinleyeceksiniz.",
+   [
+    "Arapçasını ve okunuşunu ekranda bulabilirsiniz.",
+    1.6
+   ],
+   [
+    "Peygamberlerin duaları.",
+    0.8
+   ],
+   [
+    "Birinci dua. Hatayı kabul edip bağışlanma dilemek.",
+    0.6
+   ],
+   "Bu duayı Hazreti Âdem ve eşi etmiştir.",
+   [
+    "Âdem ve eşi, şeytana uyup yasak ağaca yaklaştıktan sonra hatalarını kabul ettiler ve böyle dua ettiler.",
+    0.8
+   ],
+   "A‘râf Suresi, yirmi üçüncü ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hatayı kabul etmek, dönüşün ilk adımıdır.",
+    1.6
+   ],
+   [
+    "İkinci dua. Bilmediği şeyi istemekten Allah’a sığınmak.",
+    0.6
+   ],
+   "Bu duayı Hazreti Nûh etmiştir.",
+   "Tufanda oğlu boğulunca Nûh, onun kurtarılmasını istemişti.",
+   [
+    "Allah ona bilmediği şeyi istememesini öğütleyince böyle dua etti.",
+    0.8
+   ],
+   "Hûd Suresi, kırk yedinci ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Bilmediğim şeyi Senden istemekten Sana sığınırım.",
+   [
+    "Beni bağışlamaz ve bana merhamet etmezsen kaybedenlerden olurum.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her istediğim hayır olmayabilir; hayrı bilen Allah’tır.",
+    1.6
+   ],
+   [
+    "Üçüncü dua. Yeni bir yere bereketle varmak.",
+    0.6
+   ],
+   "Bu duayı Hazreti Nûh etmiştir.",
+   [
+    "Allah, Nûh’a beraberindekilerle gemiye yerleştiğinde şükretmesini ve bu duayı okumasını öğretti.",
+    0.8
+   ],
+   "Mü’minûn Suresi, yirmi dokuzuncu ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Beni mübarek bir yere indir.",
+   [
+    "Sen indirenlerin en iyisisin.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nereye varırsan var, bereketi Allah’tan iste.",
+    1.6
+   ],
+   [
+    "Dördüncü dua. Kendisi, anne babası ve bütün müminler için.",
+    0.6
+   ],
+   "Bu duayı Hazreti Nûh etmiştir.",
+   [
+    "Nûh, kavmini uzun yıllar gece gündüz davet ettikten sonra kendisi, anne babası, evine inanarak giren ve bütün müminler için bağışlanma diledi.",
+    0.8
+   ],
+   "Nûh Suresi, yirmi sekizinci ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Beni, anamı, babamı, evime inanmış olarak gireni, inanan erkek ve kadınları bağışla.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Duana başkalarını da kat; dua paylaştıkça genişler.",
+    1.6
+   ],
+   [
+    "Beşinci dua. Yapılan işin kabulünü istemek.",
+    0.6
+   ],
+   "Bu duayı Hazreti İbrâhîm ve Hazreti İsmâil etmiştir.",
+   [
+    "İbrâhîm ve oğlu İsmâil, Kâbe’nin temellerini yükseltirken böyle dua ediyorlardı.",
+    0.8
+   ],
+   "Bakara Suresi, yüz yirmi yedinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   "Yaptığımızı kabul buyur.",
+   [
+    "Şüphesiz ki, Sen hem işitir hem bilirsin.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İşini yap, sonra kabulünü iste.",
+    1.6
+   ],
+   [
+    "Altıncı dua. Kendisi ve soyu için teslimiyet.",
+    0.6
+   ],
+   "Bu duayı Hazreti İbrâhîm ve Hazreti İsmâil etmiştir.",
+   [
+    "Kâbe’yi yükselten İbrâhîm ve İsmâil, kendilerinin ve soylarının Allah’a teslim olmasını istediler.",
+    0.8
+   ],
+   "Bakara Suresi, yüz yirmi sekizinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   "İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir.",
+   [
+    "Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sadece kendin için değil, senden sonrakiler için de dua et.",
+    1.6
+   ],
+   [
+    "Yedinci dua. Namaz, aile ve anne baba için.",
+    0.6
+   ],
+   "Bu duayı Hazreti İbrâhîm etmiştir.",
+   [
+    "İbrâhîm, ailesinden bazılarını Kâbe’nin yanına yerleştirdikten sonra ettiği duada kendisi ve çocukları için namaz, anne babası ve müminler için bağışlanma istedi.",
+    0.8
+   ],
+   "İbrâhîm Suresi, kırkıncı ve kırk birinci ayetler. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Beni ve çocuklarımı namaz kılanlardan eyle.",
+   "Rabbimiz!",
+   "Duamı kabul buyur.",
+   "Rabbimiz!",
+   [
+    "Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Namazı ve iyiliği kendinden sonrakilere miras bırak.",
+    1.6
+   ],
+   [
+    "Sekizinci dua. Hikmet, iyi bir ad ve cennet.",
+    0.6
+   ],
+   "Bu duayı Hazreti İbrâhîm etmiştir.",
+   [
+    "İbrâhîm, kavmine taptıkları putların bir şey yapamadığını, kendisini yaratıp doyuran ve iyileştirenin Allah olduğunu anlattıktan sonra böyle dua etti.",
+    0.8
+   ],
+   "Şuarâ Suresi, seksen üçüncü ile seksen beşinci ayetler. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Bana hikmet ver ve beni iyiler arasına kat.",
+   "Sonrakilerin beni güzel şekilde anmalarını sağla.",
+   [
+    "Beni nimet cennetine varis olanlardan kıl.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Arkanda güzel bir söz bırakmak da duaya değer.",
+    1.6
+   ],
+   [
+    "Dokuzuncu dua. Salih bir evlat istemek.",
+    0.6
+   ],
+   "Bu duayı Hazreti İbrâhîm etmiştir.",
+   [
+    "İbrâhîm, kavminden ayrılıp Rabbine yöneldiğinde salih bir evlat istedi; Allah da ona yumuşak huylu bir oğul müjdeledi.",
+    0.8
+   ],
+   "Sâffât Suresi, yüzüncü ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Bana iyilerden olacak bir çocuk ver.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Evladın iyisi, salih olanıdır.",
+    1.6
+   ],
+   [
+    "Onuncu dua. Allah’a güvenmek ve O’na yönelmek.",
+    0.6
+   ],
+   "Bu duayı Hazreti İbrâhîm ve beraberindekiler etmiştir.",
+   "İbrâhîm ve onunla birlikte olanlar, Allah’tan başkasına tapan kavimlerinden ayrıldıklarında böyle dua ettiler.",
+   [
+    "Kur’an onları müminlere güzel bir örnek olarak gösterir.",
+    0.8
+   ],
+   "Mümtehine Suresi, dördüncü ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Sana güvendik, Sana yöneldik; dönüş Sanadır.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yolun sonu O’na çıkar; yola da O’na güvenerek çık.",
+    1.6
+   ],
+   [
+    "On birinci dua. Nimete şükür ve güzel bir son.",
+    0.6
+   ],
+   "Bu duayı Hazreti Yûsuf etmiştir.",
+   [
+    "Yûsuf, yıllar sonra anne babası ve kardeşleriyle kavuştuğunda Allah’ın verdiği nimetleri anıp böyle dua etti.",
+    0.8
+   ],
+   "Yûsuf Suresi, yüz birinci ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Bana hükümranlık verdin, rüyaların yorumunu öğrettin.",
+   "Ey göklerin ve yerin yaradanı!",
+   [
+    "Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Mutluluğun en büyük anında bile güzel bir son iste.",
+    1.6
+   ],
+   [
+    "On ikinci dua. Sıkıntıda Allah’ın merhametine sığınmak.",
+    0.6
+   ],
+   "Bu duayı Hazreti Eyyûb etmiştir.",
+   "Eyyûb, başına gelen sıkıntıda Rabbine böyle seslendi.",
+   [
+    "Allah duasını kabul etti ve sıkıntısını giderdi.",
+    0.8
+   ],
+   "Enbiyâ Suresi, seksen üçüncü ayet. Duanın anlamı şöyledir.",
+   [
+    "Başıma bir bela geldi, Sana sığındım, Sen merhametlilerin merhametlisisin.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Derdini O’na söyle; O, merhamet edenlerin en merhametlisidir.",
+    1.6
+   ],
+   [
+    "On üçüncü dua. Göğsün genişlemesi, işin kolaylaşması.",
+    0.6
+   ],
+   "Bu duayı Hazreti Mûsâ etmiştir.",
+   [
+    "Allah, Mûsâ’yı Firavun’a gönderdiğinde Mûsâ bu ağır görevi yerine getirebilmek için böyle dua etti.",
+    0.8
+   ],
+   "Tâhâ Suresi, yirmi beşinci ile yirmi sekizinci ayetler. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zor bir işe başlarken önce kalbinin genişlemesini iste.",
+    1.6
+   ],
+   [
+    "On dördüncü dua. Hatadan hemen sonra bağışlanma.",
+    0.6
+   ],
+   "Bu duayı Hazreti Mûsâ etmiştir.",
+   [
+    "Mûsâ, istemeden bir adamın ölümüne sebep olunca hemen Rabbine dönüp bağışlanma diledi; Allah da onu bağışladı.",
+    0.8
+   ],
+   "Kasas Suresi, on altıncı ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Doğrusu kendime yazık ettim, beni bağışla.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hatanın ardından geciktirmeden dön.",
+    1.6
+   ],
+   [
+    "On beşinci dua. Allah’ın vereceği hayra muhtaç olmak.",
+    0.6
+   ],
+   "Bu duayı Hazreti Mûsâ etmiştir.",
+   [
+    "Mısır’dan çıkıp Medyen’e varan Mûsâ, iki kızın hayvanlarını suladıktan sonra gölgeye çekilip böyle dua etti.",
+    0.8
+   ],
+   "Kasas Suresi, yirmi dördüncü ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Doğrusu bana indireceğin hayra muhtacım.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Elinden geleni yap, sonra hayrı O’ndan bekle.",
+    1.6
+   ],
+   [
+    "On altıncı dua. Nimete şükretmeyi başarabilmek.",
+    0.6
+   ],
+   "Bu duayı Hazreti Süleyman etmiştir.",
+   [
+    "Süleyman, bir karıncanın arkadaşlarını uyaran sözünü duyunca gülümsedi ve Rabbine şükredip böyle dua etti.",
+    0.8
+   ],
+   "Neml Suresi, on dokuzuncu ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl.",
+   [
+    "Rahmetinle, beni iyi kullarının arasına koy.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şükretmek de bir nimettir; onu da Allah’tan iste.",
+    1.6
+   ],
+   [
+    "On yedinci dua. Karanlıkların içinden yapılan dua.",
+    0.6
+   ],
+   "Bu duayı Hazreti Yûnus etmiştir.",
+   "Yûnus, karanlıklar içindeyken böyle seslendi.",
+   [
+    "Allah onu kurtardı ve Müminleri de böyle kurtarırız buyurdu.",
+    0.8
+   ],
+   "Enbiyâ Suresi, seksen yedinci ayet. Duanın anlamı şöyledir.",
+   [
+    "Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "En derin karanlıkta bile O’nu an.",
+    1.6
+   ],
+   [
+    "On sekizinci dua. Temiz bir soy istemek.",
+    0.6
+   ],
+   "Bu duayı Hazreti Zekeriyyâ etmiştir.",
+   [
+    "Zekeriyyâ, Meryem’in yanında Allah katından gelen rızkı görünce kendisi için de temiz bir evlat istedi.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, otuz sekizinci ayet. Duanın anlamı şöyledir.",
+   "Ya Rabbi!",
+   [
+    "Bana kendi katından temiz bir soy bahşet, doğrusu Sen duayı işitirsin.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah’ın ikramını görünce sen de iste.",
+    1.6
+   ],
+   [
+    "On dokuzuncu dua. Yalnız bırakılmamak.",
+    0.6
+   ],
+   "Bu duayı Hazreti Zekeriyyâ etmiştir.",
+   [
+    "Yaşlanmış olan Zekeriyyâ, kendisinden sonra yalnız kalmamak için Rabbine seslendi; Allah ona Yahyâ’yı bağışladı.",
+    0.8
+   ],
+   "Enbiyâ Suresi, seksen dokuzuncu ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Beni tek Başıma bırakma, Sen varislerin en hayırlısısın.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Umudun bittiği yerde dua başlar.",
+    1.6
+   ],
+   [
+    "Yirminci dua. İlmin artması.",
+    0.6
+   ],
+   "Allah bu duayı Peygamberimize öğretmiştir.",
+   [
+    "Allah, Peygamberimize vahiy tamamlanmadan acele etmemesini söyledi ve bu kısa duayı öğretti.",
+    0.8
+   ],
+   "Tâhâ Suresi, yüz on dördüncü ayet. Duanın anlamı şöyledir.",
+   [
+    "Rabbim! ilmimi artır.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Peygambere bile Daha fazlasını iste denen tek şey ilimdir.",
+    1.6
+   ],
+   [
+    "Yirmi birinci dua. Her girişin ve çıkışın doğrulukla olması.",
+    0.6
+   ],
+   "Allah bu duayı Peygamberimize öğretmiştir.",
+   [
+    "Allah bu duayı Peygamberimize De ki diyerek öğretti: girdiği ve çıktığı her yerde doğruluk ve kendisini destekleyen bir güç istemek.",
+    0.8
+   ],
+   "İsrâ Suresi, sekseninci ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et; çıkaracağın yerden de hoşnutluk ve esenlikle çıkar.",
+   [
+    "Katından beni destekleyecek bir kuvvet ver.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nereye girersen gir, doğrulukla gir.",
+    1.6
+   ],
+   [
+    "Yirmi ikinci dua. Şeytanın kışkırtmasından sığınmak.",
+    0.6
+   ],
+   "Allah bu duayı Peygamberimize öğretmiştir.",
+   [
+    "Allah, kötülüğe iyilikle karşılık vermeyi emrettikten sonra Peygamberimize şeytanların kışkırtmalarından kendisine sığınmayı öğretti.",
+    0.8
+   ],
+   "Mü’minûn Suresi, doksan yedinci ve doksan sekizinci ayetler. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   "Şeytanların kışkırtmalarından Sana sığınırım.",
+   "Rabbim!",
+   [
+    "Yanımda bulunmalarından da Sana sığınırım.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Öfke yükselince sığınağın O olsun.",
+    1.6
+   ],
+   [
+    "Yirmi üçüncü dua. Bağışlanma ve merhamet.",
+    0.6
+   ],
+   "Allah bu duayı Peygamberimize öğretmiştir.",
+   "Mü’minûn suresi bu duayla biter.",
+   [
+    "Allah, Peygamberimize bağışlanma ve merhamet istemeyi öğretti.",
+    0.8
+   ],
+   "Mü’minûn Suresi, yüz on sekizinci ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Bağışla, merhamet et, Sen merhamet edenlerin en hayırlısısın.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kısa bir dua, uzun bir umut.",
+    1.6
+   ],
+   [
+    "Yirmi dördüncü dua. Allah’ın yettiğine güvenmek.",
+    0.6
+   ],
+   "Allah bu duayı Peygamberimize öğretmiştir.",
+   [
+    "Tevbe suresinin son ayetinde Allah, insanlar yüz çevirdiğinde Peygamberimize bu sözü söylemesini öğretti.",
+    0.8
+   ],
+   "Tevbe Suresi, yüz yirmi dokuzuncu ayet. Duanın anlamı şöyledir.",
+   [
+    "Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Herkes yüz çevirse de Allah yeter.",
+    1.6
+   ],
+   [
+    "Müminlerin duaları.",
+    0.8
+   ],
+   [
+    "Yirmi beşinci dua. Dünyada da ahirette de iyilik.",
+    0.6
+   ],
+   "Bu duayı Hac ibadetini yapan müminler etmiştir.",
+   "Hac ayetlerinde Allah, yalnız dünyayı isteyenlerle dünyayı da ahireti de isteyenleri anlatır.",
+   [
+    "Bu, ikincilerin duasıdır.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz birinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dünyayı da ahireti de iste; ikisinin de sahibi O’dur.",
+    1.6
+   ],
+   [
+    "Yirmi altıncı dua. Zor anda sabır ve sebat.",
+    0.6
+   ],
+   "Bu duayı Tâlût’un askerleri etmiştir.",
+   [
+    "Tâlût’un az sayıdaki askerleri, Câlût’un ordusuna karşı çıktıklarında böyle dua ettiler; Allah’ın izniyle onları yendiler.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz ellinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Bize sabır ver, sebatımızı artır, inkar eden millete karşı bize yardım et.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sabrı Allah’tan iste; kalbe O döker.",
+    1.6
+   ],
+   [
+    "Yirmi yedinci dua. Unutma ve yanılmalarda affedilmek.",
+    0.6
+   ],
+   "Bu duayı Müminler etmiştir.",
+   "Bakara suresinin son ayetidir.",
+   [
+    "Allah kişiye ancak gücünün yeteceği kadar yükler dedikten sonra müminlerin duasını öğretir.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz seksen altıncı ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   "Eğer unutacak veya yanılacak olursak bizi sorumlu tutma.",
+   "Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme.",
+   "Rabbimiz!",
+   "Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı.",
+   [
+    "Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gücünün yetmediği yerde O’nun affına sığın.",
+    1.6
+   ],
+   [
+    "Yirmi sekizinci dua. Kalbin doğru yolda kalması.",
+    0.6
+   ],
+   "Bu duayı İlimde derinleşmiş olanlar etmiştir.",
+   [
+    "Kur’an’ın hepsinin Rablerinden geldiğine inanan ilimde derinleşmiş kimselerin duasıdır.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, sekizinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğru yolu bulmak kadar, onda kalmak için de dua et.",
+    1.6
+   ],
+   [
+    "Yirmi dokuzuncu dua. İmanla bağışlanma istemek.",
+    0.6
+   ],
+   "Bu duayı Seher vakti bağışlanma dileyenler etmiştir.",
+   [
+    "Kur’an bu duayı; sabreden, doğru olan, gönülden kulluk eden, hayra harcayan ve seher vakitlerinde bağışlanma dileyen kulların sözü olarak anlatır.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, on altıncı ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Seherin sessizliği, bağışlanma dilemenin vaktidir.",
+    1.6
+   ],
+   [
+    "Otuzuncu dua. İmanı ilan etmek ve sebat istemek.",
+    0.6
+   ],
+   "Bu duayı Havârîler, Hazreti Îsâ’nın yardımcıları etmiştir.",
+   [
+    "Îsâ, Allah yolunda yardımcılarım kim? diye sorunca havârîler Biz Allah’ın yardımcılarıyız dediler ve böyle dua ettiler.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, elli üçüncü ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İnandığını söyle, sonra sözünün arkasında dur.",
+    1.6
+   ],
+   [
+    "Otuz birinci dua. Hatalarla birlikte sebat istemek.",
+    0.6
+   ],
+   "Bu duayı Peygamberlerle birlikte mücadele edenler etmiştir.",
+   [
+    "Önceki peygamberlerle birlikte mücadele eden nice inanan, başlarına gelen zorluklar karşısında gevşemedi; söyledikleri yalnızca bu duaydı.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, yüz kırk yedinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zorlukta önce kendi hatanı an, sonra sebat iste.",
+    1.6
+   ],
+   [
+    "Otuz ikinci dua. Yaratılışı düşünenlerin duası.",
+    0.6
+   ],
+   "Bu duayı Akıl sahipleri, ulu’l-elbâb etmiştir.",
+   [
+    "Ayakta, otururken ve yan yatarken Allah’ı anan, göklerin ve yerin yaratılışını düşünen akıl sahiplerinin duasıdır.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, yüz doksan birinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   "Sen bunu boşuna yaratmadın, Sen münezzehsin.",
+   [
+    "Bizi ateşin azabından koru.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gökyüzüne bak, düşün ve dua et.",
+    1.6
+   ],
+   [
+    "Otuz üçüncü dua. Korku anında Allah’a güvenmek.",
+    0.6
+   ],
+   "Bu duayı Peygamberin çağrısına uyan müminler etmiştir.",
+   "Yaralı oldukları hâlde Allah’ın ve Peygamberin çağrısına uyan müminlere Size karşı ordu toplandı, onlardan korkun denildi.",
+   [
+    "Bu, onların imanını artırdı ve bu sözü söylediler.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, yüz yetmiş üçüncü ayet. Duanın anlamı şöyledir.",
+   "Allah bize yeter.",
+   [
+    "O ne güzel Vekil'dir.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Korkutulduğunda imanın artsın.",
+    1.6
+   ],
+   [
+    "Otuz dördüncü dua. Tehdit karşısında imanda sebat.",
+    0.6
+   ],
+   "Bu duayı Firavun’un iman eden sihirbazları etmiştir.",
+   "Firavun’un sihirbazları Mûsâ’nın mucizesini görüp iman ettiler.",
+   [
+    "Firavun onları ağır cezayla tehdit edince böyle dua ettiler.",
+    0.8
+   ],
+   "A‘râf Suresi, yüz yirmi altıncı ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Bize sabır ver ve canımızı müslim olarak al.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İman bir kez kalbe girince tehdit onu söküp atamaz.",
+    1.6
+   ],
+   [
+    "Otuz beşinci dua. Zulümden kurtuluş istemek.",
+    0.6
+   ],
+   "Bu duayı Hazreti Mûsâ’nın kavminden inananlar etmiştir.",
+   [
+    "Mûsâ’nın kavminden iman eden gençler, Firavun’un baskısından korktukları hâlde Allah’a güvendik dediler ve böyle dua ettiler.",
+    0.8
+   ],
+   "Yûnus Suresi, seksen beşinci ve seksen altıncı ayetler. Duanın anlamı şöyledir.",
+   "Ey Rabbimiz!",
+   [
+    "Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Önce güven, sonra iste.",
+    1.6
+   ],
+   [
+    "Otuz altıncı dua. Anne baba için merhamet.",
+    0.6
+   ],
+   "Bu duayı Kur’an öğretir.",
+   [
+    "Allah, anne babaya iyilik etmeyi emrettiği ayetlerde onlara karşı alçak gönüllü olmayı ve onlar için bu duayı etmeyi öğretir.",
+    0.8
+   ],
+   "İsrâ Suresi, yirmi dördüncü ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sana küçükken bakanlar için dua et.",
+    1.6
+   ],
+   [
+    "Otuz yedinci dua. Çıkış yolu ve doğru karar.",
+    0.6
+   ],
+   "Bu duayı Mağaraya sığınan gençler, Ashâb-ı Kehf etmiştir.",
+   [
+    "İnançları yüzünden mağaraya sığınan birkaç genç böyle dua etti.",
+    0.8
+   ],
+   "Kehf Suresi, onuncu ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yol görünmediğinde doğruyu O’ndan iste.",
+    1.6
+   ],
+   [
+    "Otuz sekizinci dua. Cehennemden korunmak.",
+    0.6
+   ],
+   "Bu duayı Rahmân’ın kulları etmiştir.",
+   [
+    "Furkân suresi, Rahmân’ın kullarını anlatırken onların bu duayı ettiklerini bildirir.",
+    0.8
+   ],
+   "Furkān Suresi, altmış beşinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Korunmayı iste; korunan kurtulmuştur.",
+    1.6
+   ],
+   [
+    "Otuz dokuzuncu dua. Gözümüzün aydınlığı bir aile.",
+    0.6
+   ],
+   "Bu duayı Rahmân’ın kulları etmiştir.",
+   [
+    "Rahmân’ın kullarının eşleri ve çocukları için ettikleri duadır.",
+    0.8
+   ],
+   "Furkān Suresi, yetmiş dördüncü ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ailen gözünün aydınlığı olsun; sen de iyiliğe örnek ol.",
+    1.6
+   ],
+   [
+    "Kırkıncı dua. Önceki müminler için ve kinsiz bir kalp.",
+    0.6
+   ],
+   "Bu duayı Sonra gelen müminler etmiştir.",
+   [
+    "Muhacirlerden ve ensardan sonra gelen müminlerin, kendilerinden önce iman edenler için ettikleri duadır.",
+    0.8
+   ],
+   "Haşr Suresi, onuncu ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   "Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz!",
+   [
+    "Şüphesiz Sen şefkatlisin, merhametlisin.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kalbinde hiçbir mümine kin bırakma.",
+    1.6
+   ],
+   [
+    "Kırk birinci dua. Ahirette ışığın tamamlanması.",
+    0.6
+   ],
+   "Bu duayı Ahirette müminler etmiştir.",
+   [
+    "Ahirette ışıkları önlerinde ve sağlarında koşan müminlerin duasıdır.",
+    0.8
+   ],
+   "Tahrîm Suresi, sekizinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bugünkü iyiliğin, yarınki ışığındır.",
+    1.6
+   ],
+   [
+    "Kırk ikinci dua. Zulüm altında Allah katında bir ev.",
+    0.6
+   ],
+   "Bu duayı Firavun’un eşi etmiştir.",
+   [
+    "Allah, Firavun’un eşini müminlere örnek gösterir; o, Firavun’un sarayında yaşarken böyle dua etmişti.",
+    0.8
+   ],
+   "Tahrîm Suresi, on birinci ayet. Duanın anlamı şöyledir.",
+   "Rabbim!",
+   [
+    "Katından bana cennette bir ev yap; beni Firavun'dan ve onun işlediklerinden kurtar; beni zalim milletten kurtar.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Asıl ev, Allah katındaki evdir.",
+    1.6
+   ],
+   [
+    "Kırk üçüncü dua. Meleklerin müminler için duası.",
+    0.6
+   ],
+   "Bu duayı Arşı taşıyan melekler etmiştir.",
+   [
+    "Arşı taşıyan melekler ve çevresindekiler, Rablerini överek tesbih eder ve müminler için böyle bağışlanma dilerler.",
+    0.8
+   ],
+   "Mü’min Suresi, yedinci ayet. Duanın anlamı şöyledir.",
+   "Rabbimiz!",
+   "İlmin ve rahmetin herşeyi içine almıştır.",
+   [
+    "Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru.",
+    1
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Melekler bile tövbe edenler için dua ediyor; sen de tövbe et.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Kur'an Duaları",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Kur'an Duaları.",
+     0.8
+    ],
+    [
+     "Kur’an’da peygamberlerin ve müminlerin ettiği kırk üç dua.",
+     0.6
+    ],
+    "Her duanın kim tarafından, hangi durumda edildiğini ve anlamını dinleyeceksiniz.",
+    [
+     "Arapçasını ve okunuşunu ekranda bulabilirsiniz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-adem",
+   "baslik": "Rabbenâ zalemnâ",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Peygamberlerin duaları.",
+     0.8
+    ],
+    [
+     "Birinci dua. Hatayı kabul edip bağışlanma dilemek.",
+     0.6
+    ],
+    "Bu duayı Hazreti Âdem ve eşi etmiştir.",
+    [
+     "Âdem ve eşi, şeytana uyup yasak ağaca yaklaştıktan sonra hatalarını kabul ettiler ve böyle dua ettiler.",
+     0.8
+    ],
+    "A‘râf Suresi, yirmi üçüncü ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hatayı kabul etmek, dönüşün ilk adımıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-nuh-ilim",
+   "baslik": "Rabbi innî eûzü bike",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "İkinci dua. Bilmediği şeyi istemekten Allah’a sığınmak.",
+     0.6
+    ],
+    "Bu duayı Hazreti Nûh etmiştir.",
+    "Tufanda oğlu boğulunca Nûh, onun kurtarılmasını istemişti.",
+    [
+     "Allah ona bilmediği şeyi istememesini öğütleyince böyle dua etti.",
+     0.8
+    ],
+    "Hûd Suresi, kırk yedinci ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Bilmediğim şeyi Senden istemekten Sana sığınırım.",
+    [
+     "Beni bağışlamaz ve bana merhamet etmezsen kaybedenlerden olurum.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her istediğim hayır olmayabilir; hayrı bilen Allah’tır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-nuh-menzil",
+   "baslik": "Rabbi enzilnî münzelen mübâraken",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Üçüncü dua. Yeni bir yere bereketle varmak.",
+     0.6
+    ],
+    "Bu duayı Hazreti Nûh etmiştir.",
+    [
+     "Allah, Nûh’a beraberindekilerle gemiye yerleştiğinde şükretmesini ve bu duayı okumasını öğretti.",
+     0.8
+    ],
+    "Mü’minûn Suresi, yirmi dokuzuncu ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Beni mübarek bir yere indir.",
+    [
+     "Sen indirenlerin en iyisisin.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nereye varırsan var, bereketi Allah’tan iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-nuh-bagis",
+   "baslik": "Rabbiğfir lî ve li-vâlideyye",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Dördüncü dua. Kendisi, anne babası ve bütün müminler için.",
+     0.6
+    ],
+    "Bu duayı Hazreti Nûh etmiştir.",
+    [
+     "Nûh, kavmini uzun yıllar gece gündüz davet ettikten sonra kendisi, anne babası, evine inanarak giren ve bütün müminler için bağışlanma diledi.",
+     0.8
+    ],
+    "Nûh Suresi, yirmi sekizinci ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Beni, anamı, babamı, evime inanmış olarak gireni, inanan erkek ve kadınları bağışla.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Duana başkalarını da kat; dua paylaştıkça genişler.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-ibrahim-kabul",
+   "baslik": "Rabbenâ tekabbel minnâ",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Beşinci dua. Yapılan işin kabulünü istemek.",
+     0.6
+    ],
+    "Bu duayı Hazreti İbrâhîm ve Hazreti İsmâil etmiştir.",
+    [
+     "İbrâhîm ve oğlu İsmâil, Kâbe’nin temellerini yükseltirken böyle dua ediyorlardı.",
+     0.8
+    ],
+    "Bakara Suresi, yüz yirmi yedinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    "Yaptığımızı kabul buyur.",
+    [
+     "Şüphesiz ki, Sen hem işitir hem bilirsin.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İşini yap, sonra kabulünü iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-ibrahim-ummet",
+   "baslik": "Rabbenâ vec‘alnâ müslimeyni lek",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Altıncı dua. Kendisi ve soyu için teslimiyet.",
+     0.6
+    ],
+    "Bu duayı Hazreti İbrâhîm ve Hazreti İsmâil etmiştir.",
+    [
+     "Kâbe’yi yükselten İbrâhîm ve İsmâil, kendilerinin ve soylarının Allah’a teslim olmasını istediler.",
+     0.8
+    ],
+    "Bakara Suresi, yüz yirmi sekizinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    "İkimizi Sana teslim olanlardan kıl, soyumuzdan da Sana teslim olanlardan bir ümmet yetiştir.",
+    [
+     "Bize ibadet yollarımızı göster, tevbemizi kabul buyur, çünkü tevbeleri daima kabul eden, merhametli olan ancak Sensin.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sadece kendin için değil, senden sonrakiler için de dua et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-ibrahim-namaz",
+   "baslik": "Rabbic‘alnî mukîme’s-salâti",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Yedinci dua. Namaz, aile ve anne baba için.",
+     0.6
+    ],
+    "Bu duayı Hazreti İbrâhîm etmiştir.",
+    [
+     "İbrâhîm, ailesinden bazılarını Kâbe’nin yanına yerleştirdikten sonra ettiği duada kendisi ve çocukları için namaz, anne babası ve müminler için bağışlanma istedi.",
+     0.8
+    ],
+    "İbrâhîm Suresi, kırkıncı ve kırk birinci ayetler. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Beni ve çocuklarımı namaz kılanlardan eyle.",
+    "Rabbimiz!",
+    "Duamı kabul buyur.",
+    "Rabbimiz!",
+    [
+     "Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Namazı ve iyiliği kendinden sonrakilere miras bırak.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-ibrahim-hikmet",
+   "baslik": "Rabbi heb lî hukmen",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Sekizinci dua. Hikmet, iyi bir ad ve cennet.",
+     0.6
+    ],
+    "Bu duayı Hazreti İbrâhîm etmiştir.",
+    [
+     "İbrâhîm, kavmine taptıkları putların bir şey yapamadığını, kendisini yaratıp doyuran ve iyileştirenin Allah olduğunu anlattıktan sonra böyle dua etti.",
+     0.8
+    ],
+    "Şuarâ Suresi, seksen üçüncü ile seksen beşinci ayetler. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Bana hikmet ver ve beni iyiler arasına kat.",
+    "Sonrakilerin beni güzel şekilde anmalarını sağla.",
+    [
+     "Beni nimet cennetine varis olanlardan kıl.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Arkanda güzel bir söz bırakmak da duaya değer.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-ibrahim-salih",
+   "baslik": "Rabbi heb lî mine’s-sâlihîn",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Dokuzuncu dua. Salih bir evlat istemek.",
+     0.6
+    ],
+    "Bu duayı Hazreti İbrâhîm etmiştir.",
+    [
+     "İbrâhîm, kavminden ayrılıp Rabbine yöneldiğinde salih bir evlat istedi; Allah da ona yumuşak huylu bir oğul müjdeledi.",
+     0.8
+    ],
+    "Sâffât Suresi, yüzüncü ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Bana iyilerden olacak bir çocuk ver.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Evladın iyisi, salih olanıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-ibrahim-tevekkul",
+   "baslik": "Rabbenâ aleyke tevekkelnâ",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Onuncu dua. Allah’a güvenmek ve O’na yönelmek.",
+     0.6
+    ],
+    "Bu duayı Hazreti İbrâhîm ve beraberindekiler etmiştir.",
+    "İbrâhîm ve onunla birlikte olanlar, Allah’tan başkasına tapan kavimlerinden ayrıldıklarında böyle dua ettiler.",
+    [
+     "Kur’an onları müminlere güzel bir örnek olarak gösterir.",
+     0.8
+    ],
+    "Mümtehine Suresi, dördüncü ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Sana güvendik, Sana yöneldik; dönüş Sanadır.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yolun sonu O’na çıkar; yola da O’na güvenerek çık.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-yusuf",
+   "baslik": "Teveffenî müslimen",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On birinci dua. Nimete şükür ve güzel bir son.",
+     0.6
+    ],
+    "Bu duayı Hazreti Yûsuf etmiştir.",
+    [
+     "Yûsuf, yıllar sonra anne babası ve kardeşleriyle kavuştuğunda Allah’ın verdiği nimetleri anıp böyle dua etti.",
+     0.8
+    ],
+    "Yûsuf Suresi, yüz birinci ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Bana hükümranlık verdin, rüyaların yorumunu öğrettin.",
+    "Ey göklerin ve yerin yaradanı!",
+    [
+     "Dünya ve ahirette işlerimi yoluna koyan sensin; benim canımı müslüman olarak al ve beni iyilere kat.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mutluluğun en büyük anında bile güzel bir son iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-eyyub",
+   "baslik": "Ennî messeniye’d-durr",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On ikinci dua. Sıkıntıda Allah’ın merhametine sığınmak.",
+     0.6
+    ],
+    "Bu duayı Hazreti Eyyûb etmiştir.",
+    "Eyyûb, başına gelen sıkıntıda Rabbine böyle seslendi.",
+    [
+     "Allah duasını kabul etti ve sıkıntısını giderdi.",
+     0.8
+    ],
+    "Enbiyâ Suresi, seksen üçüncü ayet. Duanın anlamı şöyledir.",
+    [
+     "Başıma bir bela geldi, Sana sığındım, Sen merhametlilerin merhametlisisin.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Derdini O’na söyle; O, merhamet edenlerin en merhametlisidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-musa-sadr",
+   "baslik": "Rabbişrah lî sadrî",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On üçüncü dua. Göğsün genişlemesi, işin kolaylaşması.",
+     0.6
+    ],
+    "Bu duayı Hazreti Mûsâ etmiştir.",
+    [
+     "Allah, Mûsâ’yı Firavun’a gönderdiğinde Mûsâ bu ağır görevi yerine getirebilmek için böyle dua etti.",
+     0.8
+    ],
+    "Tâhâ Suresi, yirmi beşinci ile yirmi sekizinci ayetler. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Göğsümü genişlet, işimi kolaylaştır, dilimin düğümünü çöz ki sözümü iyi anlasınlar.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zor bir işe başlarken önce kalbinin genişlemesini iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-musa-zulm",
+   "baslik": "Rabbi innî zalemtü nefsî",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On dördüncü dua. Hatadan hemen sonra bağışlanma.",
+     0.6
+    ],
+    "Bu duayı Hazreti Mûsâ etmiştir.",
+    [
+     "Mûsâ, istemeden bir adamın ölümüne sebep olunca hemen Rabbine dönüp bağışlanma diledi; Allah da onu bağışladı.",
+     0.8
+    ],
+    "Kasas Suresi, on altıncı ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Doğrusu kendime yazık ettim, beni bağışla.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hatanın ardından geciktirmeden dön.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-musa-hayr",
+   "baslik": "Rabbi innî limâ enzelte",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On beşinci dua. Allah’ın vereceği hayra muhtaç olmak.",
+     0.6
+    ],
+    "Bu duayı Hazreti Mûsâ etmiştir.",
+    [
+     "Mısır’dan çıkıp Medyen’e varan Mûsâ, iki kızın hayvanlarını suladıktan sonra gölgeye çekilip böyle dua etti.",
+     0.8
+    ],
+    "Kasas Suresi, yirmi dördüncü ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Doğrusu bana indireceğin hayra muhtacım.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Elinden geleni yap, sonra hayrı O’ndan bekle.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "16-suleyman",
+   "baslik": "Rabbi evzi‘nî en eşküra",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On altıncı dua. Nimete şükretmeyi başarabilmek.",
+     0.6
+    ],
+    "Bu duayı Hazreti Süleyman etmiştir.",
+    [
+     "Süleyman, bir karıncanın arkadaşlarını uyaran sözünü duyunca gülümsedi ve Rabbine şükredip böyle dua etti.",
+     0.8
+    ],
+    "Neml Suresi, on dokuzuncu ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl.",
+    [
+     "Rahmetinle, beni iyi kullarının arasına koy.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şükretmek de bir nimettir; onu da Allah’tan iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "17-yunus",
+   "baslik": "Lâ ilâhe illâ ente sübhâneke",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On yedinci dua. Karanlıkların içinden yapılan dua.",
+     0.6
+    ],
+    "Bu duayı Hazreti Yûnus etmiştir.",
+    "Yûnus, karanlıklar içindeyken böyle seslendi.",
+    [
+     "Allah onu kurtardı ve Müminleri de böyle kurtarırız buyurdu.",
+     0.8
+    ],
+    "Enbiyâ Suresi, seksen yedinci ayet. Duanın anlamı şöyledir.",
+    [
+     "Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "En derin karanlıkta bile O’nu an.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "18-zekeriyya-soy",
+   "baslik": "Rabbi heb lî min ledünke zürriyyeten",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On sekizinci dua. Temiz bir soy istemek.",
+     0.6
+    ],
+    "Bu duayı Hazreti Zekeriyyâ etmiştir.",
+    [
+     "Zekeriyyâ, Meryem’in yanında Allah katından gelen rızkı görünce kendisi için de temiz bir evlat istedi.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, otuz sekizinci ayet. Duanın anlamı şöyledir.",
+    "Ya Rabbi!",
+    [
+     "Bana kendi katından temiz bir soy bahşet, doğrusu Sen duayı işitirsin.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ın ikramını görünce sen de iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "19-zekeriyya-tek",
+   "baslik": "Rabbi lâ tezernî ferden",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "On dokuzuncu dua. Yalnız bırakılmamak.",
+     0.6
+    ],
+    "Bu duayı Hazreti Zekeriyyâ etmiştir.",
+    [
+     "Yaşlanmış olan Zekeriyyâ, kendisinden sonra yalnız kalmamak için Rabbine seslendi; Allah ona Yahyâ’yı bağışladı.",
+     0.8
+    ],
+    "Enbiyâ Suresi, seksen dokuzuncu ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Beni tek Başıma bırakma, Sen varislerin en hayırlısısın.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Umudun bittiği yerde dua başlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "20-ilim",
+   "baslik": "Rabbi zidnî ilmâ",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Yirminci dua. İlmin artması.",
+     0.6
+    ],
+    "Allah bu duayı Peygamberimize öğretmiştir.",
+    [
+     "Allah, Peygamberimize vahiy tamamlanmadan acele etmemesini söyledi ve bu kısa duayı öğretti.",
+     0.8
+    ],
+    "Tâhâ Suresi, yüz on dördüncü ayet. Duanın anlamı şöyledir.",
+    [
+     "Rabbim! ilmimi artır.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Peygambere bile Daha fazlasını iste denen tek şey ilimdir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "21-sidk",
+   "baslik": "Rabbi edhılnî müdhale sıdkın",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi birinci dua. Her girişin ve çıkışın doğrulukla olması.",
+     0.6
+    ],
+    "Allah bu duayı Peygamberimize öğretmiştir.",
+    [
+     "Allah bu duayı Peygamberimize De ki diyerek öğretti: girdiği ve çıktığı her yerde doğruluk ve kendisini destekleyen bir güç istemek.",
+     0.8
+    ],
+    "İsrâ Suresi, sekseninci ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Beni dahil edeceğin yere hoşnutluk ve esenlikle dahil et; çıkaracağın yerden de hoşnutluk ve esenlikle çıkar.",
+    [
+     "Katından beni destekleyecek bir kuvvet ver.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nereye girersen gir, doğrulukla gir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "22-seytan",
+   "baslik": "Rabbi eûzü bike min hemezâti’ş-şeyâtîn",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi ikinci dua. Şeytanın kışkırtmasından sığınmak.",
+     0.6
+    ],
+    "Allah bu duayı Peygamberimize öğretmiştir.",
+    [
+     "Allah, kötülüğe iyilikle karşılık vermeyi emrettikten sonra Peygamberimize şeytanların kışkırtmalarından kendisine sığınmayı öğretti.",
+     0.8
+    ],
+    "Mü’minûn Suresi, doksan yedinci ve doksan sekizinci ayetler. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    "Şeytanların kışkırtmalarından Sana sığınırım.",
+    "Rabbim!",
+    [
+     "Yanımda bulunmalarından da Sana sığınırım.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Öfke yükselince sığınağın O olsun.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "23-rahmet",
+   "baslik": "Rabbiğfir verham",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi üçüncü dua. Bağışlanma ve merhamet.",
+     0.6
+    ],
+    "Allah bu duayı Peygamberimize öğretmiştir.",
+    "Mü’minûn suresi bu duayla biter.",
+    [
+     "Allah, Peygamberimize bağışlanma ve merhamet istemeyi öğretti.",
+     0.8
+    ],
+    "Mü’minûn Suresi, yüz on sekizinci ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Bağışla, merhamet et, Sen merhamet edenlerin en hayırlısısın.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kısa bir dua, uzun bir umut.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "24-hasbiyallah",
+   "baslik": "Hasbiyallâhü lâ ilâhe illâ hüve",
+   "tur": "Peygamberlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi dördüncü dua. Allah’ın yettiğine güvenmek.",
+     0.6
+    ],
+    "Allah bu duayı Peygamberimize öğretmiştir.",
+    [
+     "Tevbe suresinin son ayetinde Allah, insanlar yüz çevirdiğinde Peygamberimize bu sözü söylemesini öğretti.",
+     0.8
+    ],
+    "Tevbe Suresi, yüz yirmi dokuzuncu ayet. Duanın anlamı şöyledir.",
+    [
+     "Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Herkes yüz çevirse de Allah yeter.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "25-dunya-ahiret",
+   "baslik": "Rabbenâ âtinâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Müminlerin duaları.",
+     0.8
+    ],
+    [
+     "Yirmi beşinci dua. Dünyada da ahirette de iyilik.",
+     0.6
+    ],
+    "Bu duayı Hac ibadetini yapan müminler etmiştir.",
+    "Hac ayetlerinde Allah, yalnız dünyayı isteyenlerle dünyayı da ahireti de isteyenleri anlatır.",
+    [
+     "Bu, ikincilerin duasıdır.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz birinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Bize dünyada iyiyi, ahirette de iyiyi ver, bizi ateşin azabından koru.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dünyayı da ahireti de iste; ikisinin de sahibi O’dur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "26-talut",
+   "baslik": "Rabbenâ efriğ aleynâ sabran",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi altıncı dua. Zor anda sabır ve sebat.",
+     0.6
+    ],
+    "Bu duayı Tâlût’un askerleri etmiştir.",
+    [
+     "Tâlût’un az sayıdaki askerleri, Câlût’un ordusuna karşı çıktıklarında böyle dua ettiler; Allah’ın izniyle onları yendiler.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz ellinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Bize sabır ver, sebatımızı artır, inkar eden millete karşı bize yardım et.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabrı Allah’tan iste; kalbe O döker.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "27-bakara-son",
+   "baslik": "Rabbenâ lâ tüâhiznâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi yedinci dua. Unutma ve yanılmalarda affedilmek.",
+     0.6
+    ],
+    "Bu duayı Müminler etmiştir.",
+    "Bakara suresinin son ayetidir.",
+    [
+     "Allah kişiye ancak gücünün yeteceği kadar yükler dedikten sonra müminlerin duasını öğretir.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz seksen altıncı ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    "Eğer unutacak veya yanılacak olursak bizi sorumlu tutma.",
+    "Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme.",
+    "Rabbimiz!",
+    "Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı.",
+    [
+     "Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gücünün yetmediği yerde O’nun affına sığın.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "28-kalp",
+   "baslik": "Rabbenâ lâ tuziğ kulûbenâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi sekizinci dua. Kalbin doğru yolda kalması.",
+     0.6
+    ],
+    "Bu duayı İlimde derinleşmiş olanlar etmiştir.",
+    [
+     "Kur’an’ın hepsinin Rablerinden geldiğine inanan ilimde derinleşmiş kimselerin duasıdır.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, sekizinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğru yolu bulmak kadar, onda kalmak için de dua et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "29-ates",
+   "baslik": "Rabbenâ innenâ âmennâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Yirmi dokuzuncu dua. İmanla bağışlanma istemek.",
+     0.6
+    ],
+    "Bu duayı Seher vakti bağışlanma dileyenler etmiştir.",
+    [
+     "Kur’an bu duayı; sabreden, doğru olan, gönülden kulluk eden, hayra harcayan ve seher vakitlerinde bağışlanma dileyen kulların sözü olarak anlatır.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, on altıncı ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Biz şüphesiz inandık, bunun için günahlarımızı bize bağışla ve bizi ateşin azabından koru.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Seherin sessizliği, bağışlanma dilemenin vaktidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "30-havari",
+   "baslik": "Rabbenâ âmennâ bimâ enzelte",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuzuncu dua. İmanı ilan etmek ve sebat istemek.",
+     0.6
+    ],
+    "Bu duayı Havârîler, Hazreti Îsâ’nın yardımcıları etmiştir.",
+    [
+     "Îsâ, Allah yolunda yardımcılarım kim? diye sorunca havârîler Biz Allah’ın yardımcılarıyız dediler ve böyle dua ettiler.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, elli üçüncü ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "İndirdiğine inandık, Peygambere uyduk; bizi sahid olanlarla beraber yaz.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnandığını söyle, sonra sözünün arkasında dur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "31-sebat",
+   "baslik": "Rabbenağfir lenâ zünûbenâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz birinci dua. Hatalarla birlikte sebat istemek.",
+     0.6
+    ],
+    "Bu duayı Peygamberlerle birlikte mücadele edenler etmiştir.",
+    [
+     "Önceki peygamberlerle birlikte mücadele eden nice inanan, başlarına gelen zorluklar karşısında gevşemedi; söyledikleri yalnızca bu duaydı.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, yüz kırk yedinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Günahlarımızı, işimizdeki aşırılıklarımızı bize bağışla, sebatımızı arttır, inkarcı topluluğa karşı bize yardım et.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zorlukta önce kendi hatanı an, sonra sebat iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "32-tefekkur",
+   "baslik": "Rabbenâ mâ halakte hâzâ bâtılen",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz ikinci dua. Yaratılışı düşünenlerin duası.",
+     0.6
+    ],
+    "Bu duayı Akıl sahipleri, ulu’l-elbâb etmiştir.",
+    [
+     "Ayakta, otururken ve yan yatarken Allah’ı anan, göklerin ve yerin yaratılışını düşünen akıl sahiplerinin duasıdır.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, yüz doksan birinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    "Sen bunu boşuna yaratmadın, Sen münezzehsin.",
+    [
+     "Bizi ateşin azabından koru.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gökyüzüne bak, düşün ve dua et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "33-hasbunallah",
+   "baslik": "Hasbünallâhü ve ni‘me’l-vekîl",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz üçüncü dua. Korku anında Allah’a güvenmek.",
+     0.6
+    ],
+    "Bu duayı Peygamberin çağrısına uyan müminler etmiştir.",
+    "Yaralı oldukları hâlde Allah’ın ve Peygamberin çağrısına uyan müminlere Size karşı ordu toplandı, onlardan korkun denildi.",
+    [
+     "Bu, onların imanını artırdı ve bu sözü söylediler.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, yüz yetmiş üçüncü ayet. Duanın anlamı şöyledir.",
+    "Allah bize yeter.",
+    [
+     "O ne güzel Vekil'dir.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Korkutulduğunda imanın artsın.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "34-sihirbazlar",
+   "baslik": "Rabbenâ efriğ aleynâ sabran ve teveffenâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz dördüncü dua. Tehdit karşısında imanda sebat.",
+     0.6
+    ],
+    "Bu duayı Firavun’un iman eden sihirbazları etmiştir.",
+    "Firavun’un sihirbazları Mûsâ’nın mucizesini görüp iman ettiler.",
+    [
+     "Firavun onları ağır cezayla tehdit edince böyle dua ettiler.",
+     0.8
+    ],
+    "A‘râf Suresi, yüz yirmi altıncı ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Bize sabır ver ve canımızı müslim olarak al.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İman bir kez kalbe girince tehdit onu söküp atamaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "35-musa-kavmi",
+   "baslik": "Rabbenâ lâ tec‘alnâ fitneten",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz beşinci dua. Zulümden kurtuluş istemek.",
+     0.6
+    ],
+    "Bu duayı Hazreti Mûsâ’nın kavminden inananlar etmiştir.",
+    [
+     "Mûsâ’nın kavminden iman eden gençler, Firavun’un baskısından korktukları hâlde Allah’a güvendik dediler ve böyle dua ettiler.",
+     0.8
+    ],
+    "Yûnus Suresi, seksen beşinci ve seksen altıncı ayetler. Duanın anlamı şöyledir.",
+    "Ey Rabbimiz!",
+    [
+     "Zalim bir millet ile bizi sınama, rahmetinle bizi kafirlerden kurtar.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Önce güven, sonra iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "36-anne-baba",
+   "baslik": "Rabbirhamhümâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz altıncı dua. Anne baba için merhamet.",
+     0.6
+    ],
+    "Bu duayı Kur’an öğretir.",
+    [
+     "Allah, anne babaya iyilik etmeyi emrettiği ayetlerde onlara karşı alçak gönüllü olmayı ve onlar için bu duayı etmeyi öğretir.",
+     0.8
+    ],
+    "İsrâ Suresi, yirmi dördüncü ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sana küçükken bakanlar için dua et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "37-kehf",
+   "baslik": "Rabbenâ âtinâ min ledünke rahmeten",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz yedinci dua. Çıkış yolu ve doğru karar.",
+     0.6
+    ],
+    "Bu duayı Mağaraya sığınan gençler, Ashâb-ı Kehf etmiştir.",
+    [
+     "İnançları yüzünden mağaraya sığınan birkaç genç böyle dua etti.",
+     0.8
+    ],
+    "Kehf Suresi, onuncu ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yol görünmediğinde doğruyu O’ndan iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "38-cehennem",
+   "baslik": "Rabbenasrif annâ azâbe cehennem",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz sekizinci dua. Cehennemden korunmak.",
+     0.6
+    ],
+    "Bu duayı Rahmân’ın kulları etmiştir.",
+    [
+     "Furkân suresi, Rahmân’ın kullarını anlatırken onların bu duayı ettiklerini bildirir.",
+     0.8
+    ],
+    "Furkān Suresi, altmış beşinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Bizden cehennem azabını uzaklaştır; doğrusu onun azabı sürekli ve acıdır.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Korunmayı iste; korunan kurtulmuştur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "39-aile",
+   "baslik": "Rabbenâ heb lenâ min ezvâcinâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Otuz dokuzuncu dua. Gözümüzün aydınlığı bir aile.",
+     0.6
+    ],
+    "Bu duayı Rahmân’ın kulları etmiştir.",
+    [
+     "Rahmân’ın kullarının eşleri ve çocukları için ettikleri duadır.",
+     0.8
+    ],
+    "Furkān Suresi, yetmiş dördüncü ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Bize eşlerimizden ve çocuklarımızdan gözümüzün aydınlığı olacak insanlar ihsan et ve bizi, Allah'a karşı gelmekten sakınanlara önder yap.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ailen gözünün aydınlığı olsun; sen de iyiliğe örnek ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "40-kardesler",
+   "baslik": "Rabbenağfir lenâ ve li-ihvâninâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Kırkıncı dua. Önceki müminler için ve kinsiz bir kalp.",
+     0.6
+    ],
+    "Bu duayı Sonra gelen müminler etmiştir.",
+    [
+     "Muhacirlerden ve ensardan sonra gelen müminlerin, kendilerinden önce iman edenler için ettikleri duadır.",
+     0.8
+    ],
+    "Haşr Suresi, onuncu ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    "Bizi ve bizden önce inanmış olan kardeşlerimizi bağışla; kalbimizde müminlere karşı kin bırakma; Rabbimiz!",
+    [
+     "Şüphesiz Sen şefkatlisin, merhametlisin.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalbinde hiçbir mümine kin bırakma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "41-nur",
+   "baslik": "Rabbenâ etmim lenâ nûrenâ",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Kırk birinci dua. Ahirette ışığın tamamlanması.",
+     0.6
+    ],
+    "Bu duayı Ahirette müminler etmiştir.",
+    [
+     "Ahirette ışıkları önlerinde ve sağlarında koşan müminlerin duasıdır.",
+     0.8
+    ],
+    "Tahrîm Suresi, sekizinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bugünkü iyiliğin, yarınki ışığındır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "42-asiye",
+   "baslik": "Rabbibni lî indeke beyten",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Kırk ikinci dua. Zulüm altında Allah katında bir ev.",
+     0.6
+    ],
+    "Bu duayı Firavun’un eşi etmiştir.",
+    [
+     "Allah, Firavun’un eşini müminlere örnek gösterir; o, Firavun’un sarayında yaşarken böyle dua etmişti.",
+     0.8
+    ],
+    "Tahrîm Suresi, on birinci ayet. Duanın anlamı şöyledir.",
+    "Rabbim!",
+    [
+     "Katından bana cennette bir ev yap; beni Firavun'dan ve onun işlediklerinden kurtar; beni zalim milletten kurtar.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Asıl ev, Allah katındaki evdir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "43-melekler",
+   "baslik": "Rabbenâ vesi‘te külle şey’in",
+   "tur": "Müminlerin duaları",
+   "parcalar": [
+    [
+     "Kırk üçüncü dua. Meleklerin müminler için duası.",
+     0.6
+    ],
+    "Bu duayı Arşı taşıyan melekler etmiştir.",
+    [
+     "Arşı taşıyan melekler ve çevresindekiler, Rablerini överek tesbih eder ve müminler için böyle bağışlanma dilerler.",
+     0.8
+    ],
+    "Mü’min Suresi, yedinci ayet. Duanın anlamı şöyledir.",
+    "Rabbimiz!",
+    "İlmin ve rahmetin herşeyi içine almıştır.",
+    [
+     "Tevbe edip Senin yoluna uyanları bağışla; onları cehennemin azabından koru.",
+     1
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Melekler bile tövbe edenler için dua ediyor; sen de tövbe et.",
+     1
+    ]
+   ]
+  }
+ ]
+}

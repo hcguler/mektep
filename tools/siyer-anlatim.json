@@ -1,0 +1,2590 @@
+{
+ "_aciklama": "Siyer Çizelgesi sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça ayet metni seslendirilmez, meali okunur. Bu dosya tools/siyer-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Siyer Çizelgesi: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-dogum",
+   "02-yetim",
+   "03-coban",
+   "04-hatice",
+   "05-kabe",
+   "06-hira",
+   "07-davet",
+   "08-aleni",
+   "09-eziyet",
+   "10-habesistan",
+   "11-boykot",
+   "12-huzun",
+   "13-taif",
+   "14-isra",
+   "15-akabe",
+   "16-hicret",
+   "17-mescid",
+   "18-kardeslik",
+   "19-kible",
+   "20-bedir",
+   "21-uhud",
+   "22-hendek",
+   "23-hudeybiye",
+   "24-mektup",
+   "25-hayber",
+   "26-fetih",
+   "27-huneyn",
+   "28-tebuk",
+   "29-veda",
+   "30-vefat"
+  ],
+  "parcalar": [
+   [
+    "Siyer Çizelgesi.",
+    0.8
+   ],
+   "Peygamberimizin doğumundan vefatına otuz olay.",
+   [
+    "Her olayı tarihi, yeri ve ilgili ayet ya da sahih hadisle anlatacağız.",
+    0.6
+   ],
+   "Ahzâb Suresi, yirmi birinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "And olsun ki, sizin için, Allah'a ve ahiret gününe kavuşmayı umanlar ve Allah'ı çok anan kimseler için Resulullah, Allah'ın Elçisi, en güzel örnektir.",
+    0.8
+   ],
+   [
+    "Tarihler, siyer kaynaklarındaki yaygın kabule göredir. Bazı olayların tarihi hakkında farklı görüşler vardır.",
+    1.6
+   ],
+   [
+    "Peygamberlikten önce.",
+    0.8
+   ],
+   [
+    "Birinci olay. Doğum.",
+    0.7
+   ],
+   "Tarih: beş yüz yetmiş bir, yaygın kabul.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Peygamberimiz, yaygın kabule göre Kâbe’yi yıkmak isteyen Fil sahiplerinin helak edildiği yıl Mekke’de doğdu.",
+   "Babası Abdullah, o doğmadan önce vefat etmişti.",
+   [
+    "Annesi Âmine’dir.",
+    0.8
+   ],
+   "Fîl Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+   "Fil sahiplerine Rabbinin ne ettiğini görmedin mi.",
+   "Onların düzenlerini boşa çıkarmadı mı.",
+   "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+   [
+    "Sonunda onları, yenilmiş ekin gibi yaptı.",
+    0.8
+   ],
+   [
+    "Doğum yılı ve günü hakkında farklı rivayetler vardır; Fil yılı ve beş yüz yetmiş bir yaygın kabuldür.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah, evini koruduğu yıl rahmet peygamberini dünyaya gönderdi.",
+    1.6
+   ],
+   [
+    "İkinci olay. Annesini ve dedesini kaybetti.",
+    0.7
+   ],
+   "Tarih: beş yüz yetmiş yedi ve beş yüz yetmiş dokuz.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Altı yaşında annesi Âmine’yi, sekiz yaşında kendisine bakan dedesi Abdülmuttalib’i kaybetti.",
+   "Bundan sonra amcası Ebû Tâlib’in yanında büyüdü.",
+   [
+    "Kur’an, Allah’ın onu öksüz bulup barındırdığını bildirir.",
+    0.8
+   ],
+   "Duhâ Suresi, altıncı ile sekizinci ayetler arasının anlamı şöyledir.",
+   "Seni öksüz bulup da barındırmadı mı.",
+   "Seni şaşırmış bulup, doğru yola eriştirmedi mi.",
+   [
+    "Seni fakir bulup zenginleştirmedi mi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yetimi koruyan Allah’tır; yetime sahip çıkmak da O’nun sevdiği iştir.",
+    1.6
+   ],
+   [
+    "Üçüncü olay. Koyun güttü.",
+    0.7
+   ],
+   "Zaman: çocukluk ve gençlik.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Peygamberimiz gençliğinde ücret karşılığında Mekkelilerin koyunlarını güttü.",
+   [
+    "Bütün peygamberlerin koyun güttüğünü kendisi haber verir.",
+    0.8
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Allah’ın gönderdiği her peygamber koyun gütmüştür.",
+   "Ashâbı Sen de mi? diye sorunca: Evet, ben de birkaç kırat karşılığında Mekkelilerin koyunlarını güderdim, buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Helal kazanç için çalışmak, peygamberlerin yoludur.",
+    1.6
+   ],
+   [
+    "Dördüncü olay. Hazreti Hatice ile evlendi.",
+    0.7
+   ],
+   "Tarih: beş yüz doksan beş.",
+   "Peygamberimiz yirmi beş yaşındaydı.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Dürüstlüğüyle tanınan Peygamberimiz, Hazreti Hatice’nin ticaret kervanını Şam’a götürdü.",
+   "Yirmi beş yaşında Hazreti Hatice ile evlendi.",
+   [
+    "Hazreti Hatice, ilk vahiyde onun en büyük destekçisi oldu.",
+    0.8
+   ],
+   "Hazreti Ali anlatıyor.",
+   "Zamanının kadınlarının en hayırlısı Meryem’dir; zamanının kadınlarının en hayırlısı Hatice’dir..",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Şam ticareti ve evlilik yaşı siyer kaynaklarındaki yaygın bilgidir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güven, en değerli sermayedir.",
+    1.6
+   ],
+   [
+    "Beşinci olay. Kâbe’nin yeniden yapımı.",
+    0.7
+   ],
+   "Tarih: altı yüz beş.",
+   "Peygamberimiz otuz beş yaşındaydı.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Kureyş Kâbe’yi yeniden yaptığında Peygamberimiz de amcası Abbas ile birlikte taş taşıdı.",
+   [
+    "Siyer kaynaklarına göre Hacerü’l-esved’i kimin yerine koyacağı konusunda kabileler anlaşamayınca, onun önerisiyle taş bir örtü üzerinde hep birlikte taşındı ve yerine onun eliyle kondu.",
+    0.8
+   ],
+   "Câbir bin Abdullah anlatıyor.",
+   "Kâbe yeniden yapılırken Peygamberimiz ile Abbas taş taşıdılar.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Hacerü’l-esved hakemliği Buhârî ve Müslim’de geçmez; siyer kaynaklarında, İbn Hişâm, anlatılır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ayrılığı değil, herkesi kucaklayan çözümü ara.",
+    1.6
+   ],
+   [
+    "Mekke dönemi.",
+    0.8
+   ],
+   [
+    "Altıncı olay. İlk vahiy.",
+    0.7
+   ],
+   "Tarih: altı yüz on, Ramazan.",
+   "Peygamberimiz kırk yaşındaydı.",
+   [
+    "Yer: Hira.",
+    0.6
+   ],
+   "Peygamberimiz Hira mağarasında yalnız kalıp ibadet ederdi.",
+   "Kırk yaşında melek gelip Oku! dedi ve Alak suresinin ilk ayetleri indi.",
+   [
+    "Korku içinde eve dönünce Hazreti Hatice onu teselli etti.",
+    0.8
+   ],
+   "Alak Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+   "Yaratan Rabbinin adıyla oku.",
+   "O, insanı pıhtılaşmış kandan, alak'tan, yarattı.",
+   "Oku!",
+   [
+    "Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir.",
+    0.8
+   ],
+   "Kadr Suresi, birinci ayetin anlamı şöyledir.",
+   [
+    "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir.",
+    0.8
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Hazreti Hatice ona şöyle dedi: Allah seni asla utandırmaz.",
+   "Sen akrabanı gözetirsin, düşküne ve yoksula yardım edersin, misafiri ağırlarsın, hak yolunda başına sıkıntı gelene destek olursun..",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İlk emir Oku! idi: İslam ilimle başlar.",
+    1.6
+   ],
+   [
+    "Yedinci olay. Gizli davet.",
+    0.7
+   ],
+   "Tarih: altı yüz on ile altı yüz on üç arası.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Vahiy bir süre kesildikten sonra Müddessir suresinin ilk ayetleri indi.",
+   "Peygamberimiz önce yakınlarını ve güvendiği kişileri İslam’a çağırdı.",
+   [
+    "Yaygın bilgiye göre ilk inananlar Hazreti Hatice, Hazreti Ebû Bekir, Hazreti Ali ve Zeyd bin Hârise’dir.",
+    0.8
+   ],
+   "Müddessir Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+   "Ey örtüye bürünen.",
+   "Kalk da uyar.",
+   "Rabbini yücelt.",
+   "Giydiklerini temiz tut.",
+   [
+    "Kötü şeyleri terke devam et.",
+    0.8
+   ],
+   "Câbir bin Abdullah anlatıyor.",
+   "Peygamberimiz şöyle anlattı: Hira’dan inerken bir ses duydum; korkuyla Hatice’ye gidip Beni örtün dedim.",
+   "Bunun üzerine Ey örtüye bürünen!",
+   "Kalk da uyar ayetleri indi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Gizli davetin süresi, yaklaşık üç yıl, ve ilk Müslümanların sırası siyer kaynaklarındaki yaygın bilgidir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güzel bir işe en yakınından başla.",
+    1.6
+   ],
+   [
+    "Sekizinci olay. Açık davet.",
+    0.7
+   ],
+   "Tarih: altı yüz on üç.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "En yakın hısımlarını uyar ayeti inince Peygamberimiz Safâ tepesine çıktı ve Kureyş kabilelerini çağırdı.",
+   [
+    "Önce kendisine güvenip güvenmediklerini sordu, sonra onları tek Allah’a inanmaya çağırdı.",
+    0.8
+   ],
+   "Şuarâ Suresi, iki yüz on dördüncü ayetin anlamı şöyledir.",
+   [
+    "Önce en yakın hısımlarını uyar.",
+    0.8
+   ],
+   "Hicr Suresi, doksan dördüncü ayetin anlamı şöyledir.",
+   [
+    "Artık buyrulanı açıkça ortaya koy, puta tapanlara aldırış etme.",
+    0.8
+   ],
+   "İbn Abbâs anlatıyor.",
+   "Size bu vadinin ardında bir atlı birliğin saldırmak üzere olduğunu söylesem bana inanır mısınız?",
+   "Evet, senin yalan söylediğini hiç görmedik dediler.",
+   "Öyleyse ben, çetin bir azaptan önce sizi uyaran biriyim, buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğruluğun, sözüne değer katar.",
+    1.6
+   ],
+   [
+    "Dokuzuncu olay. Baskı ve sabır.",
+    0.7
+   ],
+   "Tarih: altı yüz on üç ile altı yüz yirmi iki arası.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Müşrikler İslam’ı kabul edenlere ağır baskı uyguladı; özellikle kimsesiz ve köle olanlar işkence gördü.",
+   [
+    "Peygamberimiz ashâbına sabrı ve Allah’ın dinini tamamlayacağı müjdesini öğütledi.",
+    0.8
+   ],
+   "Ankebût Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+   "And olsun, biz kendilerinden öncekileri de denemişken, insanlar, İnandık deyince, denenmeden bırakılacaklarını mı sanırlar?",
+   [
+    "Allah elbette doğruları ortaya koyacak ve elbette yalancıları da ortaya çıkaracaktır.",
+    0.8
+   ],
+   "Habbâb bin Eret anlatıyor.",
+   "Kâbe’nin gölgesinde oturan Peygamberimize Bizim için dua etmez misin? dedim.",
+   "Buyurdu ki: Sizden öncekiler demir taraklarla taranır, yine de dininden dönmezdi.",
+   "Allah bu dini öyle tamamlayacak ki yolcu Sana’dan Hadramut’a Allah’tan başka kimseden korkmadan gidecek.",
+   "Ama siz acele ediyorsunuz..",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Bilâl, Ammâr ve ailesinin gördüğü işkenceler siyer kaynaklarında ayrıntılı anlatılır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sabır, zaferin anahtarıdır.",
+    1.6
+   ],
+   [
+    "Onuncu olay. Habeşistan’a hicret.",
+    0.7
+   ],
+   "Tarih: altı yüz on beş.",
+   [
+    "Yer: Habeşistan.",
+    0.6
+   ],
+   "Baskılar artınca bir grup Müslüman, Peygamberimizin izniyle Kızıldeniz’i geçip Habeşistan’a gitti.",
+   "Habeş hükümdarı Necâşî onları korudu.",
+   [
+    "Necâşî vefat edince Peygamberimiz onun için cenaze namazı kıldırdı.",
+    0.8
+   ],
+   "Zümer Suresi, onuncu ayetin anlamı şöyledir.",
+   "Şöyle de: Ey inanan kullarım!",
+   "Rabbinize karşı gelmekten sakının; bu dünyada iyilik yapanlara iyilik vardır.",
+   "Allah'ın yarattığı yeryüzü geniştir.",
+   [
+    "Yalnız sabredenlere, ecirleri sonsuz olarak ödenecektir.",
+    0.8
+   ],
+   "Câbir bin Abdullah anlatıyor.",
+   "Necâşî vefat edince Peygamberimiz: Bugün salih bir kişi vefat etti.",
+   "Kalkın, kardeşiniz Ashame’nin cenaze namazını kılın, buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   "Hicretin yılı, nübüvvetin beşinci yılı, siyer kaynaklarındaki yaygın bilgidir.",
+   [
+    "Zümer on, bu olayın sebebi olarak değil, konusuyla ilgili olduğu için verilmiştir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zulümden kaçmak da bir çaredir; Allah’ın yeri geniştir.",
+    1.6
+   ],
+   [
+    "On birinci olay. Boykot yılları.",
+    0.7
+   ],
+   "Tarih: altı yüz on altı ile altı yüz on dokuz arası.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Kureyş, Peygamberimizi korumaktan vazgeçmeyen Hâşim ve Muttalib oğullarıyla evlenmemek ve alışveriş yapmamak üzere anlaştı.",
+   [
+    "Yaygın bilgiye göre bu boykot yaklaşık üç yıl sürdü ve çok büyük açlık çekildi.",
+    0.8
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Peygamberimiz Veda Haccı’nda: Yarın, Kureyş ile Kinâne’nin Hâşim ve Muttalib oğullarıyla evlenmeme ve alışveriş yapmama üzerine ant içtiği yerde, Hayf-ı Benî Kinâne’de konaklayacağız, buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğruyu savunanın yanında durmak, bedeli olsa da onurdur.",
+    1.6
+   ],
+   [
+    "On ikinci olay. Hüzün yılı.",
+    0.7
+   ],
+   "Tarih: altı yüz yirmi.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Aynı yıl içinde amcası Ebû Tâlib ve eşi Hazreti Hatice vefat etti.",
+   "Peygamberimiz, kendisini yıllarca koruyan amcasının iman etmesini çok istedi.",
+   [
+    "Bunun üzerine Kasas suresinin ellinci altıncı ayeti indi.",
+    0.8
+   ],
+   "Kasas Suresi, elli altıncı ayetin anlamı şöyledir.",
+   "Sen, sevdiğini doğru yola eriştiremezsin, ama Allah, dilediğini doğru yola eriştirir.",
+   [
+    "Doğru yola girecekleri en iyi O bilir.",
+    0.8
+   ],
+   "Müseyyeb bin Hazn anlatıyor.",
+   "Ebû Tâlib’in ölümü yaklaşınca Peygamberimiz yanına gelip ondan Lâ ilâhe illallah demesini istedi.",
+   "Ebû Tâlib bunu söylemeden vefat etti ve Sen sevdiğini doğru yola eriştiremezsin ayeti indi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   "TDV İslâm Ansiklopedisi’ne göre Hazreti Hatice on Ramazan’da, on dokuz Nisan altı yüz yirmi, Ebû Tâlib de aynı yıl, peygamberliğin onuncu yılında vefat etti; bazı siyer kaynaklarında bu yıl altı yüz on dokuz olarak geçer.",
+   [
+    "Hüzün yılı adı siyer kaynaklarındaki yaygın bilgidir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Biz anlatırız; kalpleri hidayete erdiren Allah’tır.",
+    1.6
+   ],
+   [
+    "On üçüncü olay. Tâif yolculuğu.",
+    0.7
+   ],
+   "Tarih: altı yüz yirmi.",
+   [
+    "Yer: Tâif.",
+    0.6
+   ],
+   "Peygamberimiz Tâif’e gidip halkı İslam’a çağırdı; ama reddedildi ve kötü muamele gördü.",
+   "Dağlar meleği gelip izin isterse onları cezalandırabileceğini söyledi.",
+   [
+    "Peygamberimiz bunu istemedi ve onların soyundan iman edecek kimseler çıkmasını diledi.",
+    0.8
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Hayır!",
+   "Allah’ın onların soyundan, yalnız Allah’a ibadet eden ve O’na hiçbir şeyi ortak koşmayan kimseler çıkarmasını umarım..",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   "Hadiste Tâif’in reisi İbn Abdi Yâlîl’in adı geçer; yolculuğun ayrıntıları siyer kaynaklarındadır.",
+   [
+    "Tarih TDV İslâm Ansiklopedisi’ne göredir: peygamberliğin onuncu yılının şevval ayı, Mayıs–Haziran altı yüz yirmi; bazı kaynaklarda altı yüz on dokuz.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kırıldığında bile hayır dile.",
+    1.6
+   ],
+   [
+    "On dördüncü olay. İsrâ ve Mirâc.",
+    0.7
+   ],
+   "Tarih: Hicretten önce, yaygın kabul altı yüz yirmi bir.",
+   [
+    "Yer: Kudüs.",
+    0.6
+   ],
+   "Allah, Peygamberimizi bir gece Mescid-i Haram’dan Mescid-i Aksâ’ya götürdü; sonra göklere yükseltti.",
+   [
+    "Bu yolculukta beş vakit namaz farz kılındı.",
+    0.8
+   ],
+   "İsrâ Suresi, birinci ayetin anlamı şöyledir.",
+   "Kulunu, Muhammed'i, bir gece Mescidi Haram'dan, Mekke'den, kendisine bir kısım ayetlerimizi göstermek için, çevresini mübarek kıldığımız Mescidi Aksa'ya, Kudüs'e, götüren Allah'ın şanı yücedir.",
+   [
+    "Doğrusu O, işitir ve görür.",
+    0.8
+   ],
+   "Ebû Zer anlatıyor.",
+   "Önce elli vakit namaz farz kılındı; Peygamberimiz Hazreti Mûsâ’nın tavsiyesiyle hafifletilmesini istedi.",
+   "Sonunda Allah: Bunlar beştir; ama sevapta elliye denktir.",
+   "Benim sözüm değişmez, buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "İsrâ ve Mirâc’ın tarihi hakkında farklı görüşler vardır; Recep ayının yirmi yedinci gecesi yaygın kabuldür.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Namaz, Mirâc’ın armağanıdır.",
+    1.6
+   ],
+   [
+    "On beşinci olay. Akabe biatları.",
+    0.7
+   ],
+   "Tarih: altı yüz yirmi bir ve altı yüz yirmi iki.",
+   [
+    "Yer: Akabe.",
+    0.6
+   ],
+   "Hac mevsiminde Medine’den, o zamanki adıyla Yesrib, gelen Müslümanlar, Akabe’de Peygamberimize iki yıl üst üste biat etti.",
+   [
+    "İkinci biatta onu Medine’ye davet edip koruyacaklarına söz verdiler.",
+    0.8
+   ],
+   "Ubâde bin Sâmit, Akabe gecesinin temsilcilerinden anlatıyor.",
+   "Allah’a hiçbir şeyi ortak koşmayacağınıza, hırsızlık yapmayacağınıza, zina etmeyeceğinize, çocuklarınızı öldürmeyeceğinize, iftira atmayacağınıza ve iyilikte bana karşı gelmeyeceğinize dair bana biat edin..",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Söz vermek bir sorumluluktur; tutmak imandandır.",
+    1.6
+   ],
+   [
+    "Medine dönemi.",
+    0.8
+   ],
+   [
+    "On altıncı olay. Hicret.",
+    0.7
+   ],
+   "Tarih: altı yüz yirmi iki, Hicrî takvimin başlangıcı.",
+   "Peygamberimiz elli üç yaşındaydı.",
+   [
+    "Yer: Medine.",
+    0.6
+   ],
+   "Müşrikler onu bağlayıp hapsetmek, öldürmek ya da sürmek için tuzak kurarken Peygamberimiz, Hazreti Ebû Bekir ile birlikte Mekke’den çıktı.",
+   "Sevr mağarasında saklandılar, sonra Medine’ye ulaştılar.",
+   [
+    "Hicrî takvim bu olayla başlar.",
+    0.8
+   ],
+   "Enfâl Suresi, otuzuncu ayetin anlamı şöyledir.",
+   "İnkar edenler, seni bağlayıp bir yere kapamak veya öldürmek, ya da sürmek için düzen kuruyorlardı.",
+   "Onlar düzen kurarken, Allah da düzenlerini bozuyordu.",
+   [
+    "Allah düzen yapanların en iyisidir.",
+    0.8
+   ],
+   "Tevbe Suresi, kırkıncı ayetin anlamı şöyledir.",
+   "Ona, Muhammed'e, yardım etmezseniz, bilin ki, inkar edenler onu Mekke'den çıkardıklarında mağarada bulunan iki kişiden biri olarak Allah ona yardım etmişti.",
+   "Arkadaşına, Ebu Bekir'e, Üzülme, Allah bizimledir diyordu; Allah da ona güven vermiş, görmediğiniz askerlerle onu desteklemiş, inkar edenlerin sözünü alçaltmıştı.",
+   "Ancak Allah'ın sözü yücedir.",
+   [
+    "Allah güçlüdür, hakimdir.",
+    0.8
+   ],
+   "Hazreti Ebû Bekir anlatıyor.",
+   "Mağaradayken Hazreti Ebû Bekir: Biri ayaklarının dibine baksa bizi görür dedi.",
+   "Peygamberimiz: Ey Ebû Bekir!",
+   "Üçüncüsü Allah olan iki kişi hakkında ne düşünürsün? buyurdu.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Mağaranın adı, Sevr, ve hicrî takvimin Hazreti Ömer döneminde bu olaydan başlatılması siyer kaynaklarındaki bilgidir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Tedbir al, sonra Allah’a güven.",
+    1.6
+   ],
+   [
+    "On yedinci olay. Kubâ ve Mescid-i Nebevî.",
+    0.7
+   ],
+   "Tarih: altı yüz yirmi iki, hicretin birinci yılı.",
+   [
+    "Yer: Medine.",
+    0.6
+   ],
+   "Peygamberimiz Medine’ye varınca önce Kubâ’da Amr bin Avf oğulları arasında kaldı.",
+   [
+    "Sonra Neccâr oğullarının yurduna geçti, mescit için arsayı satın almak istedi ve mescidin yapımında kendisi de kerpiç taşıdı.",
+    0.8
+   ],
+   "Enes bin Mâlik anlatıyor.",
+   "Neccâr oğullarına Bu bahçenizin fiyatını söyleyin dedi.",
+   "Hayır, vallahi bunun karşılığını ancak Allah’tan isteriz dediler.",
+   "Mescit orada yapıldı.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Toplumu bir arada tutan, ortak ibadet yeridir.",
+    1.6
+   ],
+   [
+    "On sekizinci olay. Muhacir ve Ensar kardeşliği.",
+    0.7
+   ],
+   "Tarih: hicretin birinci yılı, altı yüz yirmi iki ile altı yüz yirmi üç arası.",
+   [
+    "Yer: Medine.",
+    0.6
+   ],
+   "Peygamberimiz Mekke’den gelen muhacirlerle Medineli ensarı ikişer ikişer kardeş ilan etti.",
+   "Ensar, muhacirlere evlerini ve mallarını açtı.",
+   [
+    "Kur’an, ensarın bu fedakârlığını över.",
+    0.8
+   ],
+   "Haşr Suresi, dokuzuncu ayetin anlamı şöyledir.",
+   "Daha önceden Medine'yi yurt edinmiş ve gönüllerine imanı yerleştirmiş olan kimseler, kendilerine hicret edip gelenleri severler; onlara verilenler karşısında içlerinde bir çekememezlik hissetmezler; kendileri zaruret içinde bulunsalar bile onları kendilerinden önde tutarlar.",
+   [
+    "Nefsinin tamahkarlığından korunabilmiş kimseler, işte onlar saadete erenlerdir.",
+    0.8
+   ],
+   "Abdurrahman bin Avf’ın oğlu İbrâhîm anlatıyor.",
+   "Saad bin Rebî, kardeşi ilan edilen Abdurrahman bin Avf’a malının yarısını vermek istedi.",
+   "Abdurrahman: Allah aileni ve malını sana mübarek kılsın; bana çarşının yolunu göster, dedi ve ticaretle kendi kazancını sağladı.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Paylaşan da onurludur, kendi emeğiyle ayakta durmak isteyen de.",
+    1.6
+   ],
+   [
+    "On dokuzuncu olay. Kıblenin Kâbe’ye dönmesi.",
+    0.7
+   ],
+   "Tarih: hicretin ikinci yılı, altı yüz yirmi dört.",
+   [
+    "Yer: Medine.",
+    0.6
+   ],
+   "Peygamberimiz Medine’de on altı ya da on yedi ay Beytülmakdis’e, Kudüs, doğru namaz kıldı; kıblenin Kâbe olmasını çok istiyordu.",
+   [
+    "Bakara suresinin yüz kırk dördüncü ayeti inince Kâbe’ye yöneldi.",
+    0.8
+   ],
+   "Bakara Suresi, yüz kırk dördüncü ayetin anlamı şöyledir.",
+   "Yüzünü göğe çevirip durduğunu görüyoruz.",
+   "Hoşnud olacağın kıbleye seni elbette çevireceğiz.",
+   "Artık yüzünü Mescid-i Haram semtine çevir; bulunduğunuz yerde yüzlerinizi o yöne çevirin.",
+   "Doğrusu Kitap verilenler, bunun Rab'lerinden bir gerçek olduğunu bilirler.",
+   [
+    "Allah onların yaptıklarından gafil değildir.",
+    0.8
+   ],
+   "Berâ bin Âzib anlatıyor.",
+   "Peygamberimiz Medine’ye geldiğinde on altı ya da on yedi ay Beytülmakdis’e doğru namaz kıldı.",
+   "Kâbe’ye dönerek kıldığı ilk namaz ikindi namazıdır.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah, gönülden yöneleni hoşnut edecek olana çevirir.",
+    1.6
+   ],
+   [
+    "Yirminci olay. Bedir.",
+    0.7
+   ],
+   "Tarih: hicretin ikinci yılı, Ramazan, altı yüz yirmi dört.",
+   [
+    "Yer: Bedir.",
+    0.6
+   ],
+   "Müslümanlar ile Mekkeli müşrikler Bedir’de karşılaştı.",
+   "Müslümanlar sayıca az ve donanımca zayıftı.",
+   [
+    "Peygamberimiz uzun uzun dua etti; Allah meleklerle yardım etti ve müminler zafer kazandı.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, yüz yirmi üçüncü ayetin anlamı şöyledir.",
+   [
+    "And olsun ki, siz düşkün bir durumda iken, Bedir'de, Allah size yardım etmişti; Allah'tan sakının ki şükredebilesiniz.",
+    0.8
+   ],
+   "Enfâl Suresi, dokuzuncu ayetin anlamı şöyledir.",
+   "Rabbinizin yardımına sığınıyordunuz.",
+   [
+    "O, Ben size, birbiri peşinden bin melekle yardım ederim diye cevap vermişti.",
+    0.8
+   ],
+   "İbn Abbâs anlatıyor.",
+   "Bedir günü Peygamberimiz: Allah’ım!",
+   "Bana verdiğin sözü ve vaadini senden istiyorum diye dua ediyordu.",
+   "Hazreti Ebû Bekir elini tutup Bu kadarı yeter dedi.",
+   "Peygamberimiz O topluluk bozguna uğratılacak ayetini okuyarak çıktı.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zafer sayıyla değil, Allah’ın yardımıyladır.",
+    1.6
+   ],
+   [
+    "Yirmi birinci olay. Uhud.",
+    0.7
+   ],
+   "Tarih: hicretin üçüncü yılı, Şevval, altı yüz yirmi beş.",
+   [
+    "Yer: Uhud.",
+    0.6
+   ],
+   "Mekkeliler Bedir’in intikamını almak için Medine’ye yürüdü.",
+   "Peygamberimiz okçuları bir tepeye yerleştirip ne olursa olsun yerlerinden ayrılmamalarını emretti.",
+   [
+    "Zafer görününce okçuların çoğu yerini bıraktı ve Müslümanlar ağır kayıp verdi; Hazreti Hamza da şehit düştü.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, yüz elli ikinci ayetin anlamı şöyledir.",
+   "And olsun ki, Allah, size verdiği sözde durdu.",
+   "Onun izniyle kafirleri kırıp biçiyordunuz, ama Allah size arzuladığınız zaferi gösterdikten sonra gevşeyip bu hususta çekiştiniz ve isyan ettiniz; sizden kimi dünyayı, kimi ahireti istiyordu; derken denemek için Allah sizi geri çevirip bozguna uğrattı.",
+   "And olsun ki O, sizi bağışladı.",
+   [
+    "Allah'ın inananlara nimeti boldur.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, yüz otuz dokuzuncu ayetin anlamı şöyledir.",
+   [
+    "Gevşemeyin, üzülmeyin, inanmışsanız, mutlaka siz en üstünsünüzdür.",
+    0.8
+   ],
+   "Berâ bin Âzib anlatıyor.",
+   "Peygamberimiz okçuların başına Abdullah bin Cübeyr’i koydu ve: Bizim üstün geldiğimizi de görseniz, yenildiğimizi de görseniz buradan ayrılmayın, buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Söz dinlemek, zaferin şartıdır.",
+    1.6
+   ],
+   [
+    "Yirmi ikinci olay. Hendek.",
+    0.7
+   ],
+   "Tarih: hicretin beşinci yılı, altı yüz yirmi yedi.",
+   [
+    "Yer: Medine.",
+    0.6
+   ],
+   "Kalabalık bir ordu Medine’yi kuşattı.",
+   "Müslümanlar şehrin çevresine hendek kazdı; Peygamberimiz de açlık içinde onlarla birlikte kazdı.",
+   [
+    "Allah düşmanın üzerine rüzgâr gönderdi ve kuşatma dağıldı.",
+    0.8
+   ],
+   "Ahzâb Suresi, dokuzuncu ve onuncu ayetlerin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Allah'ın size olan nimetini anın; üzerinize ordular gelmişti.",
+   "Biz de onların üzerine rüzgar ve göremediğiniz ordular göndermiştik.",
+   "Allah, yaptıklarınızı görüyordu.",
+   [
+    "Onlar size yukarınızdan ve aşağınızdan gelmişlerdi; gözler de dönmüştü, yürekler ağızlara gelmişti; Allah için çeşitli tahminlerde bulunuyordunuz.",
+    0.8
+   ],
+   "Câbir bin Abdullah anlatıyor.",
+   "Hendek kazılırken sert bir kaya çıktı.",
+   "Üç gündür bir şey yememiş olan ve açlıktan karnına taş bağlamış bulunan Peygamberimiz kazmayı alıp vurdu; kaya kum gibi dağıldı.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Savaşın yılı için Hicrî dört diyenler de vardır; yaygın kabul Hicrî beş’tir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Lider, yükü herkesle birlikte taşır.",
+    1.6
+   ],
+   [
+    "Yirmi üçüncü olay. Hudeybiye Antlaşması.",
+    0.7
+   ],
+   "Tarih: hicretin altıncı yılı, altı yüz yirmi sekiz.",
+   [
+    "Yer: Hudeybiye.",
+    0.6
+   ],
+   "Peygamberimiz umre için Mekke’ye yöneldi; Hudeybiye’de durduruldu.",
+   "Ağaç altında ashâbından biat aldı, Rıdvan biatı.",
+   "Ardından Kureyş ile on yıllık barış antlaşması yapıldı.",
+   [
+    "Kur’an bu antlaşmayı apaçık bir zafer olarak anar.",
+    0.8
+   ],
+   "Fetih Suresi, birinci ayetin anlamı şöyledir.",
+   [
+    "Doğrusu Biz sana apaçık bir zafer sağlamışızdır.",
+    0.8
+   ],
+   "Fetih Suresi, on sekizinci ve on dokuzuncu ayetlerin anlamı şöyledir.",
+   "Allah inananlardan, ağaç altında sana baş eğerek el verirlerken, and olsun ki hoşnut olmuştur.",
+   "Gönüllerinde olanı da bilmiş, onlara güvenlik vermiş, onlara yakın bir zafer ve ele geçirecekleri bol ganimetler bahşetmiştir.",
+   [
+    "Allah, güçlü olandır, Hakim olandır.",
+    0.8
+   ],
+   "Misver bin Mahreme ve Mervân anlatıyor.",
+   "Antlaşma yazılırken Kureyş elçisi Süheyl, Bismillâhirrahmânirrahîm ve Allah’ın Resûlü Muhammed ifadelerine itiraz etti.",
+   "Peygamberimiz barış için Allah’ım, senin adınla ve Abdullah oğlu Muhammed yazılmasını kabul etti.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Barış için esnemek, zayıflık değil hikmettir.",
+    1.6
+   ],
+   [
+    "Yirmi dördüncü olay. Hükümdarlara mektuplar.",
+    0.7
+   ],
+   "Tarih: hicretin altıncı ile yedinci yılları arası, altı yüz yirmi sekiz.",
+   [
+    "Yer: Medine.",
+    0.6
+   ],
+   "Hudeybiye barışından sonra Peygamberimiz, Bizans imparatoru Herakleios başta olmak üzere çevre ülkelerin yöneticilerine mektup gönderip onları İslam’a çağırdı.",
+   [
+    "Mektupta Âl-i İmrân suresinin altmış dördüncü ayeti yazılıydı.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, altmış dördüncü ayetin anlamı şöyledir.",
+   "De ki: Ey Kitap ehli!",
+   "Ancak Allah'a kulluk etmek, O'na bir şeyi eş koşmamak, Allah'ı bırakıp birbirimizi rab olarak benimsememek üzere, bizimle sizin aranızda müşterek bir söze gelin.",
+   [
+    "Eğer yüz çevirirlerse: Bizim müslüman olduğumuza şahid olun deyin.",
+    0.8
+   ],
+   "İbn Abbâs, Ebû Süfyân’dan anlatıyor.",
+   "Rahmân ve Rahîm olan Allah’ın adıyla.",
+   "Allah’ın kulu ve elçisi Muhammed’den Rumların büyüğü Herakleios’a.",
+   "Doğru yola uyana selam olsun.",
+   "Seni İslam’a çağırıyorum; Müslüman ol ki esenlik bulasın.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Davet, saygılı ve açık bir dille yapılır.",
+    1.6
+   ],
+   [
+    "Yirmi beşinci olay. Hayber.",
+    0.7
+   ],
+   "Tarih: hicretin yedinci yılı, altı yüz yirmi sekiz.",
+   [
+    "Yer: Hayber.",
+    0.6
+   ],
+   "Medine’nin kuzeyindeki Hayber’in kaleleri kuşatıldı ve fethedildi.",
+   [
+    "Peygamberimiz sancağı, Allah’ın fethi onun eliyle nasip edeceğini haber verdiği Hazreti Ali’ye verdi.",
+    0.8
+   ],
+   "Sehl bin Saad anlatıyor.",
+   "Yarın bu sancağı, Allah’ın onun eliyle fetih nasip edeceği, Allah’ı ve Resûlünü seven, Allah’ın ve Resûlünün de sevdiği birine vereceğim, buyurdu ve sabah sancağı Hazreti Ali’ye verdi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah’ı ve Resûlünü sevmek, en büyük güçtür.",
+    1.6
+   ],
+   [
+    "Yirmi altıncı olay. Mekke’nin fethi.",
+    0.7
+   ],
+   "Tarih: hicretin sekizinci yılı, Ramazan, altı yüz otuz.",
+   [
+    "Yer: Mekke.",
+    0.6
+   ],
+   "Kureyş Hudeybiye antlaşmasını bozunca Peygamberimiz büyük bir orduyla Mekke’ye yürüdü.",
+   "Mekke neredeyse hiç savaşılmadan fethedildi.",
+   [
+    "Kâbe’nin çevresindeki putlar temizlendi; insanlar Allah’ın dinine akın akın girdi.",
+    0.8
+   ],
+   "İsrâ Suresi, seksen birinci ayetin anlamı şöyledir.",
+   [
+    "De ki: Hak geldi, batıl ortadan kalkmaya mahkumdur.",
+    0.8
+   ],
+   "Nasr Suresi, birinci ile üçüncü ayetler arasının anlamı şöyledir.",
+   [
+    "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+    0.8
+   ],
+   "Abdullah bin Mesûd anlatıyor.",
+   "Peygamberimiz fetih günü Mekke’ye girdiğinde Kâbe’nin çevresinde üç yüz altmış put vardı.",
+   "Elindeki değnekle onlara dokunuyor ve Hak geldi, bâtıl yok oldu diyordu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zafer anında böbürlenme; Rabbini an ve bağışlanma dile.",
+    1.6
+   ],
+   [
+    "Yirmi yedinci olay. Huneyn.",
+    0.7
+   ],
+   "Tarih: hicretin sekizinci yılı, Şevval, altı yüz otuz.",
+   [
+    "Yer: Huneyn.",
+    0.6
+   ],
+   "Mekke’nin fethinden hemen sonra Hevâzin kabileleriyle Huneyn vadisinde karşılaşıldı.",
+   "Sayılarına güvenen Müslümanlar önce bozguna uğradı; Peygamberimiz yerinden ayrılmadı.",
+   [
+    "Allah güven ve yardım indirdi ve zafer kazanıldı.",
+    0.8
+   ],
+   "Tevbe Suresi, yirmi beşinci ve yirmi altıncı ayetlerin anlamı şöyledir.",
+   "And olsun ki Allah size birçok yerlerde, ve çokluğunuzun sizi böbürlendirdiği fakat bir faydası da olmadığı, yeryüzünün geniş olmasına rağmen size dar gelip de bozularak arkanıza döndüğünüz Huneyn gününde yardım etmişti.",
+   "Bozgundan sonra Allah, Peygamberine, müminlere güvenlik verdi ve görmediğiniz askerler indirdi; inkar edenleri azaba uğrattı.",
+   [
+    "İnkarcıların cezası budur.",
+    0.8
+   ],
+   "Berâ bin Âzib anlatıyor.",
+   "Huneyn günü Peygamberimiz kaçmadı; beyaz katırının üzerinde: Ben peygamberim, bunda yalan yok; ben Abdülmuttalib’in oğluyum! diyordu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Çokluğa değil, Allah’a güven.",
+    1.6
+   ],
+   [
+    "Yirmi sekizinci olay. Tebük seferi.",
+    0.7
+   ],
+   "Tarih: hicretin dokuzuncu yılı, altı yüz otuz.",
+   [
+    "Yer: Tebük.",
+    0.6
+   ],
+   "Bizans tehdidi üzerine, sıcak ve kıtlık zamanında Tebük’e kadar uzun bir sefere çıkıldı.",
+   "Özürsüz geri kalan üç sahâbî yalan söylemedi, doğruyu itiraf etti.",
+   [
+    "Elli gün sonra tövbelerinin kabul edildiğini bildiren ayet indi.",
+    0.8
+   ],
+   "Tevbe Suresi, yüz on yedinci ve yüz on sekizinci ayetlerin anlamı şöyledir.",
+   "And olsun ki, Allah, sıkıntılı bir zamanda bir kısmının kalbleri kaymak üzere iken Peygamber'e uyan Muhacirlerle Ensarın ve Peygamberin tevbelerini kabul etti.",
+   "Tevbelerini, onlara karşı şefkatli ve merhametli olduğu için kabul etmiştir.",
+   "Bütün genişliğine rağmen yer onlara dar gelerek nefisleri kendilerini sıkıştırıp, Allah'tan başka sığınacak kimse olmadığını anlayan, savaştan geri kalmış üç kişinin tevbesini de kabul etti.",
+   "Allah, tevbe ettikleri için onların tevbesini kabul etmiştir.",
+   [
+    "Çünkü O tevbeleri kabul eden, merhametli olandır.",
+    0.8
+   ],
+   "Kâb bin Mâlik anlatıyor.",
+   "Kâb bin Mâlik, Tebük’e katılmadığı için özür uydurmadı, doğruyu söyledi.",
+   "Elli gece insanlar onlarla konuşmadı; sonra Allah tövbelerini kabul etti.",
+   "Kâb, doğru sözlülüğün onu kurtardığını anlatır.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğruluk, zor anda da kurtarır.",
+    1.6
+   ],
+   [
+    "Yirmi dokuzuncu olay. Veda Haccı.",
+    0.7
+   ],
+   "Tarih: hicretin onuncu yılı, Zilhicce, altı yüz otuz iki.",
+   [
+    "Yer: Arafat.",
+    0.6
+   ],
+   "Peygamberimiz hicretten sonraki tek haccını ashâbıyla birlikte yaptı.",
+   "Arafat’ta, Cuma gününe denk gelen Arefe günü Mâide suresinin üçüncü ayetindeki Bugün size dininizi bütünledim sözleri indi.",
+   [
+    "Hutbelerinde can, mal ve namusun dokunulmazlığını ilan etti.",
+    0.8
+   ],
+   "Mâide Suresi, üçüncü ayetin anlamı şöyledir.",
+   "Leş, kan, domuz eti, Allah'tan başkası adına kesilenler, -canları çıkmadan önce kesmemişseniz, boğulmuş, bir yerine vurularak öldürülmüş, düşüp yuvarlanmış, başka bir hayvan tarafından süsülmüş, yırtıcı hayvan tarafından yenmiş olanları- dikili taşlar üzerine boğazlananlar ile fal oklarıyla kısmet aramanız size haram kılındı; bunlar fasıklıktır.",
+   "Bugün, inkar edenler sizi dininizden etmekten umutlarını kesmişlerdir, onlardan korkmayın, Benden korkun.",
+   "Bugün, size dininizi bütünledim, üzerinize olan nimetimi tamamladım, din olarak sizin için İslam'ı beğendim.",
+   "Açlıktan darda kalan, günaha kaymaksızın yiyebilir.",
+   [
+    "Doğrusu Allah Bağışlayan'dır, merhametli olandır.",
+    0.8
+   ],
+   "İbn Abbâs anlatıyor.",
+   "Kanlarınız, mallarınız ve ırzlarınız; bu ayınızda, bu beldenizde bu gününüz nasıl dokunulmazsa, birbirinize öyle dokunulmazdır.",
+   "Sonra Allah’ım, tebliğ ettim mi? dedi ve Burada olanlar olmayanlara ulaştırsın, buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İnsanın canı, malı ve onuru dokunulmazdır.",
+    1.6
+   ],
+   [
+    "Otuzuncu olay. Vefat.",
+    0.7
+   ],
+   "Tarih: hicretin on birinci yılı, Rebîülevvel, altı yüz otuz iki.",
+   "Peygamberimiz altmış üç yaşındaydı.",
+   [
+    "Yer: Medine.",
+    0.6
+   ],
+   "Peygamberimiz altmış üç yaşında Medine’de vefat etti.",
+   "Ashâb büyük bir şaşkınlık yaşadı.",
+   [
+    "Hazreti Ebû Bekir insanlara Âl-i İmrân suresinin yüz kırk dördüncü ayetini okudu.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, yüz kırk dördüncü ayetin anlamı şöyledir.",
+   "Muhammed ancak bir peygamberdir.",
+   "Ondan önce de peygamberler geçmişti.",
+   "Ölür veya öldürülürse geriye mi döneceksiniz?",
+   "Geriye dönen, Allah'a hiçbir zarar vermez.",
+   [
+    "Allah şükredenlerin mükafatını verecektir.",
+    0.8
+   ],
+   "Hazreti Âişe ve İbn Abbâs anlatıyor.",
+   "Hazreti Ebû Bekir şöyle dedi: Kim Muhammed’e ibadet ediyorduysa bilsin ki Muhammed vefat etmiştir.",
+   "Kim Allah’a ibadet ediyorsa bilsin ki Allah diridir, ölmez.",
+   "Sonra Muhammed ancak bir peygamberdir ayetini okudu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Peygamber vefat etti; bıraktığı Kitap ve örnek yaşıyor.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Siyer Çizelgesi",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Siyer Çizelgesi.",
+     0.8
+    ],
+    "Peygamberimizin doğumundan vefatına otuz olay.",
+    [
+     "Her olayı tarihi, yeri ve ilgili ayet ya da sahih hadisle anlatacağız.",
+     0.6
+    ],
+    "Ahzâb Suresi, yirmi birinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "And olsun ki, sizin için, Allah'a ve ahiret gününe kavuşmayı umanlar ve Allah'ı çok anan kimseler için Resulullah, Allah'ın Elçisi, en güzel örnektir.",
+     0.8
+    ],
+    [
+     "Tarihler, siyer kaynaklarındaki yaygın kabule göredir. Bazı olayların tarihi hakkında farklı görüşler vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-dogum",
+   "baslik": "Doğum",
+   "tur": "Peygamberlikten önce",
+   "parcalar": [
+    [
+     "Peygamberlikten önce.",
+     0.8
+    ],
+    [
+     "Birinci olay. Doğum.",
+     0.7
+    ],
+    "Tarih: beş yüz yetmiş bir, yaygın kabul.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Peygamberimiz, yaygın kabule göre Kâbe’yi yıkmak isteyen Fil sahiplerinin helak edildiği yıl Mekke’de doğdu.",
+    "Babası Abdullah, o doğmadan önce vefat etmişti.",
+    [
+     "Annesi Âmine’dir.",
+     0.8
+    ],
+    "Fîl Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Fil sahiplerine Rabbinin ne ettiğini görmedin mi.",
+    "Onların düzenlerini boşa çıkarmadı mı.",
+    "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+    [
+     "Sonunda onları, yenilmiş ekin gibi yaptı.",
+     0.8
+    ],
+    [
+     "Doğum yılı ve günü hakkında farklı rivayetler vardır; Fil yılı ve beş yüz yetmiş bir yaygın kabuldür.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah, evini koruduğu yıl rahmet peygamberini dünyaya gönderdi.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-yetim",
+   "baslik": "Annesini ve dedesini kaybetti",
+   "tur": "Peygamberlikten önce",
+   "parcalar": [
+    [
+     "İkinci olay. Annesini ve dedesini kaybetti.",
+     0.7
+    ],
+    "Tarih: beş yüz yetmiş yedi ve beş yüz yetmiş dokuz.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Altı yaşında annesi Âmine’yi, sekiz yaşında kendisine bakan dedesi Abdülmuttalib’i kaybetti.",
+    "Bundan sonra amcası Ebû Tâlib’in yanında büyüdü.",
+    [
+     "Kur’an, Allah’ın onu öksüz bulup barındırdığını bildirir.",
+     0.8
+    ],
+    "Duhâ Suresi, altıncı ile sekizinci ayetler arasının anlamı şöyledir.",
+    "Seni öksüz bulup da barındırmadı mı.",
+    "Seni şaşırmış bulup, doğru yola eriştirmedi mi.",
+    [
+     "Seni fakir bulup zenginleştirmedi mi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yetimi koruyan Allah’tır; yetime sahip çıkmak da O’nun sevdiği iştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-coban",
+   "baslik": "Koyun güttü",
+   "tur": "Peygamberlikten önce",
+   "parcalar": [
+    [
+     "Üçüncü olay. Koyun güttü.",
+     0.7
+    ],
+    "Zaman: çocukluk ve gençlik.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Peygamberimiz gençliğinde ücret karşılığında Mekkelilerin koyunlarını güttü.",
+    [
+     "Bütün peygamberlerin koyun güttüğünü kendisi haber verir.",
+     0.8
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Allah’ın gönderdiği her peygamber koyun gütmüştür.",
+    "Ashâbı Sen de mi? diye sorunca: Evet, ben de birkaç kırat karşılığında Mekkelilerin koyunlarını güderdim, buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Helal kazanç için çalışmak, peygamberlerin yoludur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-hatice",
+   "baslik": "Hz. Hatice ile evlendi",
+   "tur": "Peygamberlikten önce",
+   "parcalar": [
+    [
+     "Dördüncü olay. Hazreti Hatice ile evlendi.",
+     0.7
+    ],
+    "Tarih: beş yüz doksan beş.",
+    "Peygamberimiz yirmi beş yaşındaydı.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Dürüstlüğüyle tanınan Peygamberimiz, Hazreti Hatice’nin ticaret kervanını Şam’a götürdü.",
+    "Yirmi beş yaşında Hazreti Hatice ile evlendi.",
+    [
+     "Hazreti Hatice, ilk vahiyde onun en büyük destekçisi oldu.",
+     0.8
+    ],
+    "Hazreti Ali anlatıyor.",
+    "Zamanının kadınlarının en hayırlısı Meryem’dir; zamanının kadınlarının en hayırlısı Hatice’dir..",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Şam ticareti ve evlilik yaşı siyer kaynaklarındaki yaygın bilgidir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güven, en değerli sermayedir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-kabe",
+   "baslik": "Kâbe’nin yeniden yapımı",
+   "tur": "Peygamberlikten önce",
+   "parcalar": [
+    [
+     "Beşinci olay. Kâbe’nin yeniden yapımı.",
+     0.7
+    ],
+    "Tarih: altı yüz beş.",
+    "Peygamberimiz otuz beş yaşındaydı.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Kureyş Kâbe’yi yeniden yaptığında Peygamberimiz de amcası Abbas ile birlikte taş taşıdı.",
+    [
+     "Siyer kaynaklarına göre Hacerü’l-esved’i kimin yerine koyacağı konusunda kabileler anlaşamayınca, onun önerisiyle taş bir örtü üzerinde hep birlikte taşındı ve yerine onun eliyle kondu.",
+     0.8
+    ],
+    "Câbir bin Abdullah anlatıyor.",
+    "Kâbe yeniden yapılırken Peygamberimiz ile Abbas taş taşıdılar.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Hacerü’l-esved hakemliği Buhârî ve Müslim’de geçmez; siyer kaynaklarında, İbn Hişâm, anlatılır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ayrılığı değil, herkesi kucaklayan çözümü ara.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-hira",
+   "baslik": "İlk vahiy",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "Mekke dönemi.",
+     0.8
+    ],
+    [
+     "Altıncı olay. İlk vahiy.",
+     0.7
+    ],
+    "Tarih: altı yüz on, Ramazan.",
+    "Peygamberimiz kırk yaşındaydı.",
+    [
+     "Yer: Hira.",
+     0.6
+    ],
+    "Peygamberimiz Hira mağarasında yalnız kalıp ibadet ederdi.",
+    "Kırk yaşında melek gelip Oku! dedi ve Alak suresinin ilk ayetleri indi.",
+    [
+     "Korku içinde eve dönünce Hazreti Hatice onu teselli etti.",
+     0.8
+    ],
+    "Alak Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Yaratan Rabbinin adıyla oku.",
+    "O, insanı pıhtılaşmış kandan, alak'tan, yarattı.",
+    "Oku!",
+    [
+     "Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir.",
+     0.8
+    ],
+    "Kadr Suresi, birinci ayetin anlamı şöyledir.",
+    [
+     "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir.",
+     0.8
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Hazreti Hatice ona şöyle dedi: Allah seni asla utandırmaz.",
+    "Sen akrabanı gözetirsin, düşküne ve yoksula yardım edersin, misafiri ağırlarsın, hak yolunda başına sıkıntı gelene destek olursun..",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İlk emir Oku! idi: İslam ilimle başlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-davet",
+   "baslik": "Gizli davet",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "Yedinci olay. Gizli davet.",
+     0.7
+    ],
+    "Tarih: altı yüz on ile altı yüz on üç arası.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Vahiy bir süre kesildikten sonra Müddessir suresinin ilk ayetleri indi.",
+    "Peygamberimiz önce yakınlarını ve güvendiği kişileri İslam’a çağırdı.",
+    [
+     "Yaygın bilgiye göre ilk inananlar Hazreti Hatice, Hazreti Ebû Bekir, Hazreti Ali ve Zeyd bin Hârise’dir.",
+     0.8
+    ],
+    "Müddessir Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Ey örtüye bürünen.",
+    "Kalk da uyar.",
+    "Rabbini yücelt.",
+    "Giydiklerini temiz tut.",
+    [
+     "Kötü şeyleri terke devam et.",
+     0.8
+    ],
+    "Câbir bin Abdullah anlatıyor.",
+    "Peygamberimiz şöyle anlattı: Hira’dan inerken bir ses duydum; korkuyla Hatice’ye gidip Beni örtün dedim.",
+    "Bunun üzerine Ey örtüye bürünen!",
+    "Kalk da uyar ayetleri indi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Gizli davetin süresi, yaklaşık üç yıl, ve ilk Müslümanların sırası siyer kaynaklarındaki yaygın bilgidir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güzel bir işe en yakınından başla.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-aleni",
+   "baslik": "Açık davet",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "Sekizinci olay. Açık davet.",
+     0.7
+    ],
+    "Tarih: altı yüz on üç.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "En yakın hısımlarını uyar ayeti inince Peygamberimiz Safâ tepesine çıktı ve Kureyş kabilelerini çağırdı.",
+    [
+     "Önce kendisine güvenip güvenmediklerini sordu, sonra onları tek Allah’a inanmaya çağırdı.",
+     0.8
+    ],
+    "Şuarâ Suresi, iki yüz on dördüncü ayetin anlamı şöyledir.",
+    [
+     "Önce en yakın hısımlarını uyar.",
+     0.8
+    ],
+    "Hicr Suresi, doksan dördüncü ayetin anlamı şöyledir.",
+    [
+     "Artık buyrulanı açıkça ortaya koy, puta tapanlara aldırış etme.",
+     0.8
+    ],
+    "İbn Abbâs anlatıyor.",
+    "Size bu vadinin ardında bir atlı birliğin saldırmak üzere olduğunu söylesem bana inanır mısınız?",
+    "Evet, senin yalan söylediğini hiç görmedik dediler.",
+    "Öyleyse ben, çetin bir azaptan önce sizi uyaran biriyim, buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğruluğun, sözüne değer katar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-eziyet",
+   "baslik": "Baskı ve sabır",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "Dokuzuncu olay. Baskı ve sabır.",
+     0.7
+    ],
+    "Tarih: altı yüz on üç ile altı yüz yirmi iki arası.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Müşrikler İslam’ı kabul edenlere ağır baskı uyguladı; özellikle kimsesiz ve köle olanlar işkence gördü.",
+    [
+     "Peygamberimiz ashâbına sabrı ve Allah’ın dinini tamamlayacağı müjdesini öğütledi.",
+     0.8
+    ],
+    "Ankebût Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+    "And olsun, biz kendilerinden öncekileri de denemişken, insanlar, İnandık deyince, denenmeden bırakılacaklarını mı sanırlar?",
+    [
+     "Allah elbette doğruları ortaya koyacak ve elbette yalancıları da ortaya çıkaracaktır.",
+     0.8
+    ],
+    "Habbâb bin Eret anlatıyor.",
+    "Kâbe’nin gölgesinde oturan Peygamberimize Bizim için dua etmez misin? dedim.",
+    "Buyurdu ki: Sizden öncekiler demir taraklarla taranır, yine de dininden dönmezdi.",
+    "Allah bu dini öyle tamamlayacak ki yolcu Sana’dan Hadramut’a Allah’tan başka kimseden korkmadan gidecek.",
+    "Ama siz acele ediyorsunuz..",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Bilâl, Ammâr ve ailesinin gördüğü işkenceler siyer kaynaklarında ayrıntılı anlatılır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabır, zaferin anahtarıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-habesistan",
+   "baslik": "Habeşistan’a hicret",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "Onuncu olay. Habeşistan’a hicret.",
+     0.7
+    ],
+    "Tarih: altı yüz on beş.",
+    [
+     "Yer: Habeşistan.",
+     0.6
+    ],
+    "Baskılar artınca bir grup Müslüman, Peygamberimizin izniyle Kızıldeniz’i geçip Habeşistan’a gitti.",
+    "Habeş hükümdarı Necâşî onları korudu.",
+    [
+     "Necâşî vefat edince Peygamberimiz onun için cenaze namazı kıldırdı.",
+     0.8
+    ],
+    "Zümer Suresi, onuncu ayetin anlamı şöyledir.",
+    "Şöyle de: Ey inanan kullarım!",
+    "Rabbinize karşı gelmekten sakının; bu dünyada iyilik yapanlara iyilik vardır.",
+    "Allah'ın yarattığı yeryüzü geniştir.",
+    [
+     "Yalnız sabredenlere, ecirleri sonsuz olarak ödenecektir.",
+     0.8
+    ],
+    "Câbir bin Abdullah anlatıyor.",
+    "Necâşî vefat edince Peygamberimiz: Bugün salih bir kişi vefat etti.",
+    "Kalkın, kardeşiniz Ashame’nin cenaze namazını kılın, buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    "Hicretin yılı, nübüvvetin beşinci yılı, siyer kaynaklarındaki yaygın bilgidir.",
+    [
+     "Zümer on, bu olayın sebebi olarak değil, konusuyla ilgili olduğu için verilmiştir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zulümden kaçmak da bir çaredir; Allah’ın yeri geniştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-boykot",
+   "baslik": "Boykot yılları",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "On birinci olay. Boykot yılları.",
+     0.7
+    ],
+    "Tarih: altı yüz on altı ile altı yüz on dokuz arası.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Kureyş, Peygamberimizi korumaktan vazgeçmeyen Hâşim ve Muttalib oğullarıyla evlenmemek ve alışveriş yapmamak üzere anlaştı.",
+    [
+     "Yaygın bilgiye göre bu boykot yaklaşık üç yıl sürdü ve çok büyük açlık çekildi.",
+     0.8
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Peygamberimiz Veda Haccı’nda: Yarın, Kureyş ile Kinâne’nin Hâşim ve Muttalib oğullarıyla evlenmeme ve alışveriş yapmama üzerine ant içtiği yerde, Hayf-ı Benî Kinâne’de konaklayacağız, buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğruyu savunanın yanında durmak, bedeli olsa da onurdur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-huzun",
+   "baslik": "Hüzün yılı",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "On ikinci olay. Hüzün yılı.",
+     0.7
+    ],
+    "Tarih: altı yüz yirmi.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Aynı yıl içinde amcası Ebû Tâlib ve eşi Hazreti Hatice vefat etti.",
+    "Peygamberimiz, kendisini yıllarca koruyan amcasının iman etmesini çok istedi.",
+    [
+     "Bunun üzerine Kasas suresinin ellinci altıncı ayeti indi.",
+     0.8
+    ],
+    "Kasas Suresi, elli altıncı ayetin anlamı şöyledir.",
+    "Sen, sevdiğini doğru yola eriştiremezsin, ama Allah, dilediğini doğru yola eriştirir.",
+    [
+     "Doğru yola girecekleri en iyi O bilir.",
+     0.8
+    ],
+    "Müseyyeb bin Hazn anlatıyor.",
+    "Ebû Tâlib’in ölümü yaklaşınca Peygamberimiz yanına gelip ondan Lâ ilâhe illallah demesini istedi.",
+    "Ebû Tâlib bunu söylemeden vefat etti ve Sen sevdiğini doğru yola eriştiremezsin ayeti indi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    "TDV İslâm Ansiklopedisi’ne göre Hazreti Hatice on Ramazan’da, on dokuz Nisan altı yüz yirmi, Ebû Tâlib de aynı yıl, peygamberliğin onuncu yılında vefat etti; bazı siyer kaynaklarında bu yıl altı yüz on dokuz olarak geçer.",
+    [
+     "Hüzün yılı adı siyer kaynaklarındaki yaygın bilgidir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Biz anlatırız; kalpleri hidayete erdiren Allah’tır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-taif",
+   "baslik": "Tâif yolculuğu",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "On üçüncü olay. Tâif yolculuğu.",
+     0.7
+    ],
+    "Tarih: altı yüz yirmi.",
+    [
+     "Yer: Tâif.",
+     0.6
+    ],
+    "Peygamberimiz Tâif’e gidip halkı İslam’a çağırdı; ama reddedildi ve kötü muamele gördü.",
+    "Dağlar meleği gelip izin isterse onları cezalandırabileceğini söyledi.",
+    [
+     "Peygamberimiz bunu istemedi ve onların soyundan iman edecek kimseler çıkmasını diledi.",
+     0.8
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Hayır!",
+    "Allah’ın onların soyundan, yalnız Allah’a ibadet eden ve O’na hiçbir şeyi ortak koşmayan kimseler çıkarmasını umarım..",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    "Hadiste Tâif’in reisi İbn Abdi Yâlîl’in adı geçer; yolculuğun ayrıntıları siyer kaynaklarındadır.",
+    [
+     "Tarih TDV İslâm Ansiklopedisi’ne göredir: peygamberliğin onuncu yılının şevval ayı, Mayıs–Haziran altı yüz yirmi; bazı kaynaklarda altı yüz on dokuz.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kırıldığında bile hayır dile.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-isra",
+   "baslik": "İsrâ ve Mi‘râc",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "On dördüncü olay. İsrâ ve Mirâc.",
+     0.7
+    ],
+    "Tarih: Hicretten önce, yaygın kabul altı yüz yirmi bir.",
+    [
+     "Yer: Kudüs.",
+     0.6
+    ],
+    "Allah, Peygamberimizi bir gece Mescid-i Haram’dan Mescid-i Aksâ’ya götürdü; sonra göklere yükseltti.",
+    [
+     "Bu yolculukta beş vakit namaz farz kılındı.",
+     0.8
+    ],
+    "İsrâ Suresi, birinci ayetin anlamı şöyledir.",
+    "Kulunu, Muhammed'i, bir gece Mescidi Haram'dan, Mekke'den, kendisine bir kısım ayetlerimizi göstermek için, çevresini mübarek kıldığımız Mescidi Aksa'ya, Kudüs'e, götüren Allah'ın şanı yücedir.",
+    [
+     "Doğrusu O, işitir ve görür.",
+     0.8
+    ],
+    "Ebû Zer anlatıyor.",
+    "Önce elli vakit namaz farz kılındı; Peygamberimiz Hazreti Mûsâ’nın tavsiyesiyle hafifletilmesini istedi.",
+    "Sonunda Allah: Bunlar beştir; ama sevapta elliye denktir.",
+    "Benim sözüm değişmez, buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "İsrâ ve Mirâc’ın tarihi hakkında farklı görüşler vardır; Recep ayının yirmi yedinci gecesi yaygın kabuldür.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Namaz, Mirâc’ın armağanıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-akabe",
+   "baslik": "Akabe biatları",
+   "tur": "Mekke dönemi",
+   "parcalar": [
+    [
+     "On beşinci olay. Akabe biatları.",
+     0.7
+    ],
+    "Tarih: altı yüz yirmi bir ve altı yüz yirmi iki.",
+    [
+     "Yer: Akabe.",
+     0.6
+    ],
+    "Hac mevsiminde Medine’den, o zamanki adıyla Yesrib, gelen Müslümanlar, Akabe’de Peygamberimize iki yıl üst üste biat etti.",
+    [
+     "İkinci biatta onu Medine’ye davet edip koruyacaklarına söz verdiler.",
+     0.8
+    ],
+    "Ubâde bin Sâmit, Akabe gecesinin temsilcilerinden anlatıyor.",
+    "Allah’a hiçbir şeyi ortak koşmayacağınıza, hırsızlık yapmayacağınıza, zina etmeyeceğinize, çocuklarınızı öldürmeyeceğinize, iftira atmayacağınıza ve iyilikte bana karşı gelmeyeceğinize dair bana biat edin..",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Söz vermek bir sorumluluktur; tutmak imandandır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "16-hicret",
+   "baslik": "Hicret",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Medine dönemi.",
+     0.8
+    ],
+    [
+     "On altıncı olay. Hicret.",
+     0.7
+    ],
+    "Tarih: altı yüz yirmi iki, Hicrî takvimin başlangıcı.",
+    "Peygamberimiz elli üç yaşındaydı.",
+    [
+     "Yer: Medine.",
+     0.6
+    ],
+    "Müşrikler onu bağlayıp hapsetmek, öldürmek ya da sürmek için tuzak kurarken Peygamberimiz, Hazreti Ebû Bekir ile birlikte Mekke’den çıktı.",
+    "Sevr mağarasında saklandılar, sonra Medine’ye ulaştılar.",
+    [
+     "Hicrî takvim bu olayla başlar.",
+     0.8
+    ],
+    "Enfâl Suresi, otuzuncu ayetin anlamı şöyledir.",
+    "İnkar edenler, seni bağlayıp bir yere kapamak veya öldürmek, ya da sürmek için düzen kuruyorlardı.",
+    "Onlar düzen kurarken, Allah da düzenlerini bozuyordu.",
+    [
+     "Allah düzen yapanların en iyisidir.",
+     0.8
+    ],
+    "Tevbe Suresi, kırkıncı ayetin anlamı şöyledir.",
+    "Ona, Muhammed'e, yardım etmezseniz, bilin ki, inkar edenler onu Mekke'den çıkardıklarında mağarada bulunan iki kişiden biri olarak Allah ona yardım etmişti.",
+    "Arkadaşına, Ebu Bekir'e, Üzülme, Allah bizimledir diyordu; Allah da ona güven vermiş, görmediğiniz askerlerle onu desteklemiş, inkar edenlerin sözünü alçaltmıştı.",
+    "Ancak Allah'ın sözü yücedir.",
+    [
+     "Allah güçlüdür, hakimdir.",
+     0.8
+    ],
+    "Hazreti Ebû Bekir anlatıyor.",
+    "Mağaradayken Hazreti Ebû Bekir: Biri ayaklarının dibine baksa bizi görür dedi.",
+    "Peygamberimiz: Ey Ebû Bekir!",
+    "Üçüncüsü Allah olan iki kişi hakkında ne düşünürsün? buyurdu.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Mağaranın adı, Sevr, ve hicrî takvimin Hazreti Ömer döneminde bu olaydan başlatılması siyer kaynaklarındaki bilgidir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Tedbir al, sonra Allah’a güven.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "17-mescid",
+   "baslik": "Kubâ ve Mescid-i Nebevî",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "On yedinci olay. Kubâ ve Mescid-i Nebevî.",
+     0.7
+    ],
+    "Tarih: altı yüz yirmi iki, hicretin birinci yılı.",
+    [
+     "Yer: Medine.",
+     0.6
+    ],
+    "Peygamberimiz Medine’ye varınca önce Kubâ’da Amr bin Avf oğulları arasında kaldı.",
+    [
+     "Sonra Neccâr oğullarının yurduna geçti, mescit için arsayı satın almak istedi ve mescidin yapımında kendisi de kerpiç taşıdı.",
+     0.8
+    ],
+    "Enes bin Mâlik anlatıyor.",
+    "Neccâr oğullarına Bu bahçenizin fiyatını söyleyin dedi.",
+    "Hayır, vallahi bunun karşılığını ancak Allah’tan isteriz dediler.",
+    "Mescit orada yapıldı.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Toplumu bir arada tutan, ortak ibadet yeridir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "18-kardeslik",
+   "baslik": "Muhacir ve Ensar kardeşliği",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "On sekizinci olay. Muhacir ve Ensar kardeşliği.",
+     0.7
+    ],
+    "Tarih: hicretin birinci yılı, altı yüz yirmi iki ile altı yüz yirmi üç arası.",
+    [
+     "Yer: Medine.",
+     0.6
+    ],
+    "Peygamberimiz Mekke’den gelen muhacirlerle Medineli ensarı ikişer ikişer kardeş ilan etti.",
+    "Ensar, muhacirlere evlerini ve mallarını açtı.",
+    [
+     "Kur’an, ensarın bu fedakârlığını över.",
+     0.8
+    ],
+    "Haşr Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    "Daha önceden Medine'yi yurt edinmiş ve gönüllerine imanı yerleştirmiş olan kimseler, kendilerine hicret edip gelenleri severler; onlara verilenler karşısında içlerinde bir çekememezlik hissetmezler; kendileri zaruret içinde bulunsalar bile onları kendilerinden önde tutarlar.",
+    [
+     "Nefsinin tamahkarlığından korunabilmiş kimseler, işte onlar saadete erenlerdir.",
+     0.8
+    ],
+    "Abdurrahman bin Avf’ın oğlu İbrâhîm anlatıyor.",
+    "Saad bin Rebî, kardeşi ilan edilen Abdurrahman bin Avf’a malının yarısını vermek istedi.",
+    "Abdurrahman: Allah aileni ve malını sana mübarek kılsın; bana çarşının yolunu göster, dedi ve ticaretle kendi kazancını sağladı.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Paylaşan da onurludur, kendi emeğiyle ayakta durmak isteyen de.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "19-kible",
+   "baslik": "Kıblenin Kâbe’ye dönmesi",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "On dokuzuncu olay. Kıblenin Kâbe’ye dönmesi.",
+     0.7
+    ],
+    "Tarih: hicretin ikinci yılı, altı yüz yirmi dört.",
+    [
+     "Yer: Medine.",
+     0.6
+    ],
+    "Peygamberimiz Medine’de on altı ya da on yedi ay Beytülmakdis’e, Kudüs, doğru namaz kıldı; kıblenin Kâbe olmasını çok istiyordu.",
+    [
+     "Bakara suresinin yüz kırk dördüncü ayeti inince Kâbe’ye yöneldi.",
+     0.8
+    ],
+    "Bakara Suresi, yüz kırk dördüncü ayetin anlamı şöyledir.",
+    "Yüzünü göğe çevirip durduğunu görüyoruz.",
+    "Hoşnud olacağın kıbleye seni elbette çevireceğiz.",
+    "Artık yüzünü Mescid-i Haram semtine çevir; bulunduğunuz yerde yüzlerinizi o yöne çevirin.",
+    "Doğrusu Kitap verilenler, bunun Rab'lerinden bir gerçek olduğunu bilirler.",
+    [
+     "Allah onların yaptıklarından gafil değildir.",
+     0.8
+    ],
+    "Berâ bin Âzib anlatıyor.",
+    "Peygamberimiz Medine’ye geldiğinde on altı ya da on yedi ay Beytülmakdis’e doğru namaz kıldı.",
+    "Kâbe’ye dönerek kıldığı ilk namaz ikindi namazıdır.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah, gönülden yöneleni hoşnut edecek olana çevirir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "20-bedir",
+   "baslik": "Bedir",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirminci olay. Bedir.",
+     0.7
+    ],
+    "Tarih: hicretin ikinci yılı, Ramazan, altı yüz yirmi dört.",
+    [
+     "Yer: Bedir.",
+     0.6
+    ],
+    "Müslümanlar ile Mekkeli müşrikler Bedir’de karşılaştı.",
+    "Müslümanlar sayıca az ve donanımca zayıftı.",
+    [
+     "Peygamberimiz uzun uzun dua etti; Allah meleklerle yardım etti ve müminler zafer kazandı.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, yüz yirmi üçüncü ayetin anlamı şöyledir.",
+    [
+     "And olsun ki, siz düşkün bir durumda iken, Bedir'de, Allah size yardım etmişti; Allah'tan sakının ki şükredebilesiniz.",
+     0.8
+    ],
+    "Enfâl Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    "Rabbinizin yardımına sığınıyordunuz.",
+    [
+     "O, Ben size, birbiri peşinden bin melekle yardım ederim diye cevap vermişti.",
+     0.8
+    ],
+    "İbn Abbâs anlatıyor.",
+    "Bedir günü Peygamberimiz: Allah’ım!",
+    "Bana verdiğin sözü ve vaadini senden istiyorum diye dua ediyordu.",
+    "Hazreti Ebû Bekir elini tutup Bu kadarı yeter dedi.",
+    "Peygamberimiz O topluluk bozguna uğratılacak ayetini okuyarak çıktı.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zafer sayıyla değil, Allah’ın yardımıyladır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "21-uhud",
+   "baslik": "Uhud",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi birinci olay. Uhud.",
+     0.7
+    ],
+    "Tarih: hicretin üçüncü yılı, Şevval, altı yüz yirmi beş.",
+    [
+     "Yer: Uhud.",
+     0.6
+    ],
+    "Mekkeliler Bedir’in intikamını almak için Medine’ye yürüdü.",
+    "Peygamberimiz okçuları bir tepeye yerleştirip ne olursa olsun yerlerinden ayrılmamalarını emretti.",
+    [
+     "Zafer görününce okçuların çoğu yerini bıraktı ve Müslümanlar ağır kayıp verdi; Hazreti Hamza da şehit düştü.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, yüz elli ikinci ayetin anlamı şöyledir.",
+    "And olsun ki, Allah, size verdiği sözde durdu.",
+    "Onun izniyle kafirleri kırıp biçiyordunuz, ama Allah size arzuladığınız zaferi gösterdikten sonra gevşeyip bu hususta çekiştiniz ve isyan ettiniz; sizden kimi dünyayı, kimi ahireti istiyordu; derken denemek için Allah sizi geri çevirip bozguna uğrattı.",
+    "And olsun ki O, sizi bağışladı.",
+    [
+     "Allah'ın inananlara nimeti boldur.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, yüz otuz dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Gevşemeyin, üzülmeyin, inanmışsanız, mutlaka siz en üstünsünüzdür.",
+     0.8
+    ],
+    "Berâ bin Âzib anlatıyor.",
+    "Peygamberimiz okçuların başına Abdullah bin Cübeyr’i koydu ve: Bizim üstün geldiğimizi de görseniz, yenildiğimizi de görseniz buradan ayrılmayın, buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Söz dinlemek, zaferin şartıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "22-hendek",
+   "baslik": "Hendek",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi ikinci olay. Hendek.",
+     0.7
+    ],
+    "Tarih: hicretin beşinci yılı, altı yüz yirmi yedi.",
+    [
+     "Yer: Medine.",
+     0.6
+    ],
+    "Kalabalık bir ordu Medine’yi kuşattı.",
+    "Müslümanlar şehrin çevresine hendek kazdı; Peygamberimiz de açlık içinde onlarla birlikte kazdı.",
+    [
+     "Allah düşmanın üzerine rüzgâr gönderdi ve kuşatma dağıldı.",
+     0.8
+    ],
+    "Ahzâb Suresi, dokuzuncu ve onuncu ayetlerin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Allah'ın size olan nimetini anın; üzerinize ordular gelmişti.",
+    "Biz de onların üzerine rüzgar ve göremediğiniz ordular göndermiştik.",
+    "Allah, yaptıklarınızı görüyordu.",
+    [
+     "Onlar size yukarınızdan ve aşağınızdan gelmişlerdi; gözler de dönmüştü, yürekler ağızlara gelmişti; Allah için çeşitli tahminlerde bulunuyordunuz.",
+     0.8
+    ],
+    "Câbir bin Abdullah anlatıyor.",
+    "Hendek kazılırken sert bir kaya çıktı.",
+    "Üç gündür bir şey yememiş olan ve açlıktan karnına taş bağlamış bulunan Peygamberimiz kazmayı alıp vurdu; kaya kum gibi dağıldı.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Savaşın yılı için Hicrî dört diyenler de vardır; yaygın kabul Hicrî beş’tir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Lider, yükü herkesle birlikte taşır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "23-hudeybiye",
+   "baslik": "Hudeybiye Antlaşması",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi üçüncü olay. Hudeybiye Antlaşması.",
+     0.7
+    ],
+    "Tarih: hicretin altıncı yılı, altı yüz yirmi sekiz.",
+    [
+     "Yer: Hudeybiye.",
+     0.6
+    ],
+    "Peygamberimiz umre için Mekke’ye yöneldi; Hudeybiye’de durduruldu.",
+    "Ağaç altında ashâbından biat aldı, Rıdvan biatı.",
+    "Ardından Kureyş ile on yıllık barış antlaşması yapıldı.",
+    [
+     "Kur’an bu antlaşmayı apaçık bir zafer olarak anar.",
+     0.8
+    ],
+    "Fetih Suresi, birinci ayetin anlamı şöyledir.",
+    [
+     "Doğrusu Biz sana apaçık bir zafer sağlamışızdır.",
+     0.8
+    ],
+    "Fetih Suresi, on sekizinci ve on dokuzuncu ayetlerin anlamı şöyledir.",
+    "Allah inananlardan, ağaç altında sana baş eğerek el verirlerken, and olsun ki hoşnut olmuştur.",
+    "Gönüllerinde olanı da bilmiş, onlara güvenlik vermiş, onlara yakın bir zafer ve ele geçirecekleri bol ganimetler bahşetmiştir.",
+    [
+     "Allah, güçlü olandır, Hakim olandır.",
+     0.8
+    ],
+    "Misver bin Mahreme ve Mervân anlatıyor.",
+    "Antlaşma yazılırken Kureyş elçisi Süheyl, Bismillâhirrahmânirrahîm ve Allah’ın Resûlü Muhammed ifadelerine itiraz etti.",
+    "Peygamberimiz barış için Allah’ım, senin adınla ve Abdullah oğlu Muhammed yazılmasını kabul etti.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Barış için esnemek, zayıflık değil hikmettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "24-mektup",
+   "baslik": "Hükümdarlara mektuplar",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi dördüncü olay. Hükümdarlara mektuplar.",
+     0.7
+    ],
+    "Tarih: hicretin altıncı ile yedinci yılları arası, altı yüz yirmi sekiz.",
+    [
+     "Yer: Medine.",
+     0.6
+    ],
+    "Hudeybiye barışından sonra Peygamberimiz, Bizans imparatoru Herakleios başta olmak üzere çevre ülkelerin yöneticilerine mektup gönderip onları İslam’a çağırdı.",
+    [
+     "Mektupta Âl-i İmrân suresinin altmış dördüncü ayeti yazılıydı.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, altmış dördüncü ayetin anlamı şöyledir.",
+    "De ki: Ey Kitap ehli!",
+    "Ancak Allah'a kulluk etmek, O'na bir şeyi eş koşmamak, Allah'ı bırakıp birbirimizi rab olarak benimsememek üzere, bizimle sizin aranızda müşterek bir söze gelin.",
+    [
+     "Eğer yüz çevirirlerse: Bizim müslüman olduğumuza şahid olun deyin.",
+     0.8
+    ],
+    "İbn Abbâs, Ebû Süfyân’dan anlatıyor.",
+    "Rahmân ve Rahîm olan Allah’ın adıyla.",
+    "Allah’ın kulu ve elçisi Muhammed’den Rumların büyüğü Herakleios’a.",
+    "Doğru yola uyana selam olsun.",
+    "Seni İslam’a çağırıyorum; Müslüman ol ki esenlik bulasın.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Davet, saygılı ve açık bir dille yapılır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "25-hayber",
+   "baslik": "Hayber",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi beşinci olay. Hayber.",
+     0.7
+    ],
+    "Tarih: hicretin yedinci yılı, altı yüz yirmi sekiz.",
+    [
+     "Yer: Hayber.",
+     0.6
+    ],
+    "Medine’nin kuzeyindeki Hayber’in kaleleri kuşatıldı ve fethedildi.",
+    [
+     "Peygamberimiz sancağı, Allah’ın fethi onun eliyle nasip edeceğini haber verdiği Hazreti Ali’ye verdi.",
+     0.8
+    ],
+    "Sehl bin Saad anlatıyor.",
+    "Yarın bu sancağı, Allah’ın onun eliyle fetih nasip edeceği, Allah’ı ve Resûlünü seven, Allah’ın ve Resûlünün de sevdiği birine vereceğim, buyurdu ve sabah sancağı Hazreti Ali’ye verdi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ı ve Resûlünü sevmek, en büyük güçtür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "26-fetih",
+   "baslik": "Mekke’nin fethi",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi altıncı olay. Mekke’nin fethi.",
+     0.7
+    ],
+    "Tarih: hicretin sekizinci yılı, Ramazan, altı yüz otuz.",
+    [
+     "Yer: Mekke.",
+     0.6
+    ],
+    "Kureyş Hudeybiye antlaşmasını bozunca Peygamberimiz büyük bir orduyla Mekke’ye yürüdü.",
+    "Mekke neredeyse hiç savaşılmadan fethedildi.",
+    [
+     "Kâbe’nin çevresindeki putlar temizlendi; insanlar Allah’ın dinine akın akın girdi.",
+     0.8
+    ],
+    "İsrâ Suresi, seksen birinci ayetin anlamı şöyledir.",
+    [
+     "De ki: Hak geldi, batıl ortadan kalkmaya mahkumdur.",
+     0.8
+    ],
+    "Nasr Suresi, birinci ile üçüncü ayetler arasının anlamı şöyledir.",
+    [
+     "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+     0.8
+    ],
+    "Abdullah bin Mesûd anlatıyor.",
+    "Peygamberimiz fetih günü Mekke’ye girdiğinde Kâbe’nin çevresinde üç yüz altmış put vardı.",
+    "Elindeki değnekle onlara dokunuyor ve Hak geldi, bâtıl yok oldu diyordu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zafer anında böbürlenme; Rabbini an ve bağışlanma dile.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "27-huneyn",
+   "baslik": "Huneyn",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi yedinci olay. Huneyn.",
+     0.7
+    ],
+    "Tarih: hicretin sekizinci yılı, Şevval, altı yüz otuz.",
+    [
+     "Yer: Huneyn.",
+     0.6
+    ],
+    "Mekke’nin fethinden hemen sonra Hevâzin kabileleriyle Huneyn vadisinde karşılaşıldı.",
+    "Sayılarına güvenen Müslümanlar önce bozguna uğradı; Peygamberimiz yerinden ayrılmadı.",
+    [
+     "Allah güven ve yardım indirdi ve zafer kazanıldı.",
+     0.8
+    ],
+    "Tevbe Suresi, yirmi beşinci ve yirmi altıncı ayetlerin anlamı şöyledir.",
+    "And olsun ki Allah size birçok yerlerde, ve çokluğunuzun sizi böbürlendirdiği fakat bir faydası da olmadığı, yeryüzünün geniş olmasına rağmen size dar gelip de bozularak arkanıza döndüğünüz Huneyn gününde yardım etmişti.",
+    "Bozgundan sonra Allah, Peygamberine, müminlere güvenlik verdi ve görmediğiniz askerler indirdi; inkar edenleri azaba uğrattı.",
+    [
+     "İnkarcıların cezası budur.",
+     0.8
+    ],
+    "Berâ bin Âzib anlatıyor.",
+    "Huneyn günü Peygamberimiz kaçmadı; beyaz katırının üzerinde: Ben peygamberim, bunda yalan yok; ben Abdülmuttalib’in oğluyum! diyordu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Çokluğa değil, Allah’a güven.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "28-tebuk",
+   "baslik": "Tebük seferi",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi sekizinci olay. Tebük seferi.",
+     0.7
+    ],
+    "Tarih: hicretin dokuzuncu yılı, altı yüz otuz.",
+    [
+     "Yer: Tebük.",
+     0.6
+    ],
+    "Bizans tehdidi üzerine, sıcak ve kıtlık zamanında Tebük’e kadar uzun bir sefere çıkıldı.",
+    "Özürsüz geri kalan üç sahâbî yalan söylemedi, doğruyu itiraf etti.",
+    [
+     "Elli gün sonra tövbelerinin kabul edildiğini bildiren ayet indi.",
+     0.8
+    ],
+    "Tevbe Suresi, yüz on yedinci ve yüz on sekizinci ayetlerin anlamı şöyledir.",
+    "And olsun ki, Allah, sıkıntılı bir zamanda bir kısmının kalbleri kaymak üzere iken Peygamber'e uyan Muhacirlerle Ensarın ve Peygamberin tevbelerini kabul etti.",
+    "Tevbelerini, onlara karşı şefkatli ve merhametli olduğu için kabul etmiştir.",
+    "Bütün genişliğine rağmen yer onlara dar gelerek nefisleri kendilerini sıkıştırıp, Allah'tan başka sığınacak kimse olmadığını anlayan, savaştan geri kalmış üç kişinin tevbesini de kabul etti.",
+    "Allah, tevbe ettikleri için onların tevbesini kabul etmiştir.",
+    [
+     "Çünkü O tevbeleri kabul eden, merhametli olandır.",
+     0.8
+    ],
+    "Kâb bin Mâlik anlatıyor.",
+    "Kâb bin Mâlik, Tebük’e katılmadığı için özür uydurmadı, doğruyu söyledi.",
+    "Elli gece insanlar onlarla konuşmadı; sonra Allah tövbelerini kabul etti.",
+    "Kâb, doğru sözlülüğün onu kurtardığını anlatır.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğruluk, zor anda da kurtarır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "29-veda",
+   "baslik": "Veda Haccı",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Yirmi dokuzuncu olay. Veda Haccı.",
+     0.7
+    ],
+    "Tarih: hicretin onuncu yılı, Zilhicce, altı yüz otuz iki.",
+    [
+     "Yer: Arafat.",
+     0.6
+    ],
+    "Peygamberimiz hicretten sonraki tek haccını ashâbıyla birlikte yaptı.",
+    "Arafat’ta, Cuma gününe denk gelen Arefe günü Mâide suresinin üçüncü ayetindeki Bugün size dininizi bütünledim sözleri indi.",
+    [
+     "Hutbelerinde can, mal ve namusun dokunulmazlığını ilan etti.",
+     0.8
+    ],
+    "Mâide Suresi, üçüncü ayetin anlamı şöyledir.",
+    "Leş, kan, domuz eti, Allah'tan başkası adına kesilenler, -canları çıkmadan önce kesmemişseniz, boğulmuş, bir yerine vurularak öldürülmüş, düşüp yuvarlanmış, başka bir hayvan tarafından süsülmüş, yırtıcı hayvan tarafından yenmiş olanları- dikili taşlar üzerine boğazlananlar ile fal oklarıyla kısmet aramanız size haram kılındı; bunlar fasıklıktır.",
+    "Bugün, inkar edenler sizi dininizden etmekten umutlarını kesmişlerdir, onlardan korkmayın, Benden korkun.",
+    "Bugün, size dininizi bütünledim, üzerinize olan nimetimi tamamladım, din olarak sizin için İslam'ı beğendim.",
+    "Açlıktan darda kalan, günaha kaymaksızın yiyebilir.",
+    [
+     "Doğrusu Allah Bağışlayan'dır, merhametli olandır.",
+     0.8
+    ],
+    "İbn Abbâs anlatıyor.",
+    "Kanlarınız, mallarınız ve ırzlarınız; bu ayınızda, bu beldenizde bu gününüz nasıl dokunulmazsa, birbirinize öyle dokunulmazdır.",
+    "Sonra Allah’ım, tebliğ ettim mi? dedi ve Burada olanlar olmayanlara ulaştırsın, buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnsanın canı, malı ve onuru dokunulmazdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "30-vefat",
+   "baslik": "Vefat",
+   "tur": "Medine dönemi",
+   "parcalar": [
+    [
+     "Otuzuncu olay. Vefat.",
+     0.7
+    ],
+    "Tarih: hicretin on birinci yılı, Rebîülevvel, altı yüz otuz iki.",
+    "Peygamberimiz altmış üç yaşındaydı.",
+    [
+     "Yer: Medine.",
+     0.6
+    ],
+    "Peygamberimiz altmış üç yaşında Medine’de vefat etti.",
+    "Ashâb büyük bir şaşkınlık yaşadı.",
+    [
+     "Hazreti Ebû Bekir insanlara Âl-i İmrân suresinin yüz kırk dördüncü ayetini okudu.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, yüz kırk dördüncü ayetin anlamı şöyledir.",
+    "Muhammed ancak bir peygamberdir.",
+    "Ondan önce de peygamberler geçmişti.",
+    "Ölür veya öldürülürse geriye mi döneceksiniz?",
+    "Geriye dönen, Allah'a hiçbir zarar vermez.",
+    [
+     "Allah şükredenlerin mükafatını verecektir.",
+     0.8
+    ],
+    "Hazreti Âişe ve İbn Abbâs anlatıyor.",
+    "Hazreti Ebû Bekir şöyle dedi: Kim Muhammed’e ibadet ediyorduysa bilsin ki Muhammed vefat etmiştir.",
+    "Kim Allah’a ibadet ediyorsa bilsin ki Allah diridir, ölmez.",
+    "Sonra Muhammed ancak bir peygamberdir ayetini okudu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Peygamber vefat etti; bıraktığı Kitap ve örnek yaşıyor.",
+     1
+    ]
+   ]
+  }
+ ]
+}

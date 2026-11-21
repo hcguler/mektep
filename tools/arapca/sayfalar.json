@@ -1,0 +1,650 @@
+{
+ "0": {
+  "ozet": "Bu uygulamada Kur'an, mushaf sırasıyla sayfa sayfa okunur. Her sayfada, o sayfada ilk kez geçen kelimeler, ekler ve dil bilgisi konuları öğretilir; böylece okudukça Arapça bilgisi adım adım birikir. Arapça kelimelerin çoğu üç harfli bir kökten türer ve aynı kökten gelen kelimeler çoğu zaman ortak bir anlam taşır. Bu başlangıç dersinde Kur'an'da en sık geçen edatlar öğretilir: ve, fe, bi, li, fî, min, alâ, ilâ, inne, lâ ve mâ.",
+  "akilda": "Her sayfa yeni kelimeler öğretir; kökü tanıyan, kelimeyi daha kolay anlar."
+ },
+ "1": {
+  "ozet": "Fâtiha suresi, Rahman ve Rahim olan Allah'ın adıyla başlar. Hamd, âlemlerin Rabbi, Rahman ve Rahim, Din Gününün sahibi olan Allah'a mahsustur. Kul, yalnız O'na kulluk edip yalnız O'ndan yardım dilediğini söyler. Ardından gazaba uğrayanların ya da sapıtanların yolunu değil, nimete erdirilenlerin yolunu, yani doğru yolu ister.",
+  "akilda": "Kulluk da yardım dileği de yalnız Allah'adır."
+ },
+ "2": {
+  "ozet": "Bakara suresi Elif, Lâm, Mîm harfleriyle başlar ve bu Kitab'ın doğruluğu şüphe götürmeyen, Allah'a karşı gelmekten sakınanlara yol gösteren bir Kitap olduğunu bildirir. Sakınanlar gaybe inanır, namazı kılar ve kendilerine verilen rızıktan yerli yerince harcarlar. Onlar Peygambere indirilen Kitab'a da ondan önce indirilenlere de inanır, ahirete de kesinlikle inanırlar. Rablerinin yolunda olanlar ve saadete erişenler işte bunlardır.",
+  "akilda": "Bu Kitap, Allah'a karşı gelmekten sakınanlara yol gösterir."
+ },
+ "3": {
+  "ozet": "İnkâr edenlerin uyarılsalar da uyarılmasalar da inanmadıkları ve Allah'ın onların kalplerini ve kulaklarını mühürlediği bildirilir. Ardından inanmadıkları halde Allah'a ve ahiret gününe inandık diyenler anlatılır; bunlar Allah'ı ve inananları aldatmaya çalışırken yalnızca kendilerini aldatırlar, bozgunculuk yaparken de kendilerini ıslah edici sayarlar. İnananlarla karşılaşınca inandık der, elebaşılarıyla baş başa kalınca onlarla alay ettiklerini söylerler. Doğruluk yerine sapıklığı aldıkları için alışverişleri kâr getirmemiştir.",
+  "akilda": "Allah'ı ve inananları aldatmaya çalışan, ancak kendini aldatır."
+ },
+ "4": {
+  "ozet": "Bu kimselerin hali iki benzetmeyle anlatılır: ateş yakıp ışığı yok olunca karanlıkta kalan kişi ve karanlıkta sağanağa tutulup ölüm korkusuyla parmaklarını kulaklarına tıkayan kişi. Ardından bütün insanlar, kendilerini ve öncekileri yaratan, yeri döşek ve göğü bina kılan, gökten su indirip ürünler çıkaran Rablerine kulluk etmeye ve Allah'a bile bile eş koşmamaya çağrılır. Kur'an'dan şüphe edenlere onun benzeri bir sure getirmeleri söylenir. Bunu yapamayacakları bildirilir ve yakıtı insanlarla taş olan ateşten sakınmaları istenir.",
+  "akilda": "Sizi yaratan Rabbinize kulluk edin ve Allah'a bile bile eş koşmayın."
+ },
+ "5": {
+  "ozet": "İnanıp yararlı işler yapanlara, altlarından ırmaklar akan cennetler müjdelenir; orada tertemiz eşleri vardır ve orada temelli kalırlar. Allah'ın sivrisineği ve onun üstününü misal vermekten çekinmediği, inananların bunu Rablerinden bir gerçek bildiği bildirilir; bu misalle saptırılanlar ancak Allah'la yapılan sözleşmeyi bozan ve yeryüzünde bozgunculuk yapan fasıklardır. İnsanların ölü iken diriltildiği, sonra öldürülüp yeniden diriltilecekleri ve sonunda Allah'a dönecekleri hatırlatılır. Yerdekilerin hepsini insanlar için yaratan, göğü yedi gök olarak düzenleyen O'dur ve O her şeyi bilir.",
+  "akilda": "Ölü iken dirilten Allah'a sonunda dönülecektir."
+ },
+ "6": {
+  "ozet": "Allah meleklere yeryüzünde bir halife var edeceğini bildirir; melekler orada bozgunculuk yapıp kan akıtacak birini mi var edeceğini sorunca Allah, onların bilmediklerini bildiğini söyler. Allah Âdem'e bütün isimleri öğretir; melekler ancak Allah'ın öğrettiğini bildiklerini söyler, Âdem ise isimleri onlara bildirir. Meleklere Âdem'e secde etmeleri emredilir; İblis kaçınır, büyüklük taslar ve inkâr edenlerden olur. Âdem ile eşi yasak ağaca yaklaşmamaları konusunda uyarılır, şeytan ayaklarını kaydırınca oradan çıkarılırlar; Âdem Rabbinden emirler alıp yerine getirir ve Allah onun tevbesini kabul eder.",
+  "akilda": "Allah tevbeleri daima kabul eden, merhametli olandır."
+ },
+ "7": {
+  "ozet": "Allah'tan gelen yol göstericiye uyanlar için korku ve üzüntü olmadığı, inkâr edip ayetleri yalan sayanların ise cehennemde temelli kalacağı bildirilir. İsrailoğullarına kendilerine verilen nimeti hatırlamaları, Allah'a verdikleri ahdi yerine getirmeleri, yanlarındaki Tevrat'ı tasdik eden Kur'an'a inanmaları, hakkı batıla karıştırmamaları ve gizlememeleri emredilir. Namazı kılmaları, zekâtı vermeleri, başkalarına iyiliği emrederken kendilerini unutmamaları ve sabır ile namazla yardım istemeleri öğütlenir. Kimsenin kimseye fayda veremeyeceği, şefaatin ve fidyenin kabul edilmeyeceği günden korunmaları istenir.",
+  "akilda": "Sabır ve namazla Allah'tan yardım isteyin."
+ },
+ "8": {
+  "ozet": "İsrailoğullarına, kendilerine işkence eden Firavun ailesinden kurtarıldıkları ve denizin yarılıp Firavun ailesinin gözleri önünde batırıldığı hatırlatılır. Musa'ya kırk gece vade verildiğinde buzağıyı tanrı edindikleri, buna rağmen şükretsinler diye bağışlandıkları anlatılır. Musa'ya hakkı batıldan ayıran Kitap verilmiş, Musa da milletini Yaratanlarına tevbe etmeye çağırmıştır. Allah'ı apaçık görmedikçe inanmayacaklarını söylediklerinde onları yıldırım çarptığı, sonra şükretsinler diye yeniden diriltildikleri, bulutla gölgelendirildikleri ve kendilerine kudret helvası ile bıldırcın indirildiği de hatırlatılır.",
+  "akilda": "Allah'ın bağışının ve verdiği nimetlerin karşılığı şükürdür."
+ },
+ "9": {
+  "ozet": "İsrailoğullarına bir şehre secde ederek girmeleri ve bağışlanma dilemeleri emredilir; ancak zulmedenler kendilerine söylenen sözü başka bir sözle değiştirir ve gökten azaba uğrarlar. Musa milleti için su aradığında asasıyla taşa vurması emredilir ve taştan on iki pınar fışkırır; Allah'ın rızkından yiyip içmeleri, yeryüzünde bozgunculuk yapmamaları söylenir. Onlar tek çeşit yemeğe dayanamayacaklarını söyleyip yerin bitirdiği ürünleri isteyince, hayırlı olanı daha düşük olanla mı değiştirmek istedikleri sorulur. Allah'ın ayetlerini inkâr etmeleri ve haksız yere peygamberleri öldürmeleri yüzünden üzerlerine yoksulluk ve düşkünlük damgası vurulduğu ve Allah'ın gazabına uğradıkları bildirilir.",
+  "akilda": "Allah'ın rızkından yiyin, için, ama yeryüzünde bozgunculuk yapmayın."
+ },
+ "10": {
+  "ozet": "İnananlar, Yahudiler, Hıristiyanlar ve Sabiilerden Allah'a ve ahiret gününe inanıp yararlı iş yapanların ecirlerinin Rableri katında olduğu, onlar için korku ve üzüntü bulunmadığı bildirilir. İsrailoğullarından Tur dağı tepelerine dikilerek kesin söz alındığı, kendilerine verilen Kitab'a kuvvetle sarılmalarının istendiği, ama yüz çevirdikleri hatırlatılır. Cumartesi günü azgınlık edenlere verilen ceza, sonrakilere bir ceza örneği ve sakınanlara öğüt kılınmıştır. Musa milletine Allah'ın bir sığır boğazlamalarını buyurduğunu bildirince onlar alay edip etmediğini sorar, ardından sığırın yaşını ve rengini sorup dururlar.",
+  "akilda": "Allah'a ve ahiret gününe inanıp yararlı iş yapanların ecri Rableri katındadır."
+ },
+ "11": {
+  "ozet": "İsrailoğulları sığırın niteliğini bir kez daha sorar ve sonunda, neredeyse yapmayacakken, tarif edilen kusursuz sığırı boğazlarlar. Öldürülen bir kimse hakkında suçu birbirlerine attıkları, Allah'ın gizlediklerini ortaya çıkaracağı bildirilir; sığırın bir parçasıyla ona vurmaları emredilir ve Allah'ın ölüleri böyle dirilttiği, akıllarını kullansınlar diye ayetlerini gösterdiği belirtilir. Buna rağmen kalpleri taş gibi, hatta daha katı olmuştur; oysa taşlar arasında içinden ırmaklar fışkıran ve Allah korkusundan yuvarlananlar vardır. Allah'ın sözünü işitip anladıktan sonra bile bile tahrif eden, inananların yanında inandık deyip kendi aralarında başka konuşan bir topluluğun inanmasının umulamayacağı bildirilir.",
+  "akilda": "Kalpler taş gibi, hatta daha katı olabilir; Allah yapılanları bilmez değildir."
+ },
+ "12": {
+  "ozet": "Allah'ın gizleneni de açığa vurulanı da bildiği hatırlatılır; Kitab'ı bilmeyip kuruntularla yetinenler ve Kitab'ı elleriyle yazıp az bir değere satmak için bu Allah katındandır diyenler kınanır. Ateşin kendilerine yalnızca sayılı günler dokunacağını söyleyenlere, bunun için Allah'tan söz alıp almadıkları sorulur. Kötülük işleyip suçu kendisini kuşatanların cehennemde, inanıp yararlı işler yapanların ise cennette temelli kalacağı bildirilir. İsrailoğullarından Allah'tan başkasına kulluk etmemeleri, anne babaya, yakınlara, yetimlere ve düşkünlere iyilik etmeleri, insanlarla güzel konuşmaları, namazı kılıp zekâtı vermeleri için söz alınmış, ama pek azı dışında yüz çevirmişlerdir.",
+  "akilda": "İnsanlarla güzel konuşun; anne babaya, yakınlara, yetimlere ve düşkünlere iyilik edin."
+ },
+ "13": {
+  "ozet": "İsrailoğullarından birbirlerinin kanını dökmemeleri ve birbirlerini yurtlarından sürmemeleri için söz alındığı, onların da bunu kabul ettiği hatırlatılır. Buna rağmen birbirlerini öldürdükleri, bir kısmını yurtlarından sürdükleri ve Kitab'ın bir kısmına inanıp bir kısmını inkâr ettikleri bildirilir; bunun karşılığı dünyada rezillik, ahirette ise azabın en şiddetlisidir. Ahiret karşılığında dünya hayatını satın alanların azabı hafifletilmez ve onlar yardım görmezler. Musa'ya kitap verildiği, ardından peygamberler gönderildiği, Meryem oğlu İsa'ya belgeler verilip Ruhul Kudüs ile desteklendiği anlatılır; hoşlarına gitmeyen bir şey getiren peygamberlerin bir kısmını yalancı sayıp bir kısmını öldürmeleri kınanır.",
+  "akilda": "Kitab'ın bir kısmına inanıp bir kısmını inkâr etmenin karşılığı dünyada rezillik, ahirette şiddetli azaptır."
+ },
+ "14": {
+  "ozet": "Ellerindekini tasdik eden Kitap Allah katından onlara gelince, daha önce beklemelerine ve onu tanımalarına rağmen inkâr ettikleri bildirilir. Allah'ın lütfundan dilediği kuluna indirmesini çekemedikleri için gazap üstüne gazaba uğramışlardır. Yalnız kendilerine indirilene inanacaklarını söyleyip ellerindeki Tevrat'ı tasdik eden Kur'an'ı inkâr ettikleri, gerçekten inanıyorlarsa daha önce peygamberleri niçin öldürdükleri sorulur. Musa'nın getirdiği mucizelere rağmen buzağıyı tanrı edindikleri, Tur tepelerine dikilip söz alındığında da işittik ve karşı geldik dedikleri hatırlatılır.",
+  "akilda": "Allah'ın dilediği kuluna verdiği lütfu çekememek, insanı gazaba uğratır."
+ },
+ "15": {
+  "ozet": "Ahiret yurdunun yalnız kendilerine ait olduğunu söyleyenlere, doğru sözlü iseler ölümü dilemeleri söylenir; ama önceden işlediklerinden dolayı bunu asla dilemeyecekleri bildirilir. Her biri bin yıl yaşamak ister, oysa uzun ömür onu azaptan uzaklaştırmaz. Kur'an'ı Allah'ın izniyle, kendinden öncekini doğrulayan, yol gösterici ve inananlara müjdeci olarak Peygamberin kalbine indiren Cebrail'e düşman olanın Allah'a düşman olduğu bildirilir. Apaçık ayetleri ancak yoldan çıkmışların inkâr ettiği, Kitap verilenlerden bir takımının ise Allah'ın Kitabı'nı arkalarına attığı anlatılır.",
+  "akilda": "Uzun ömür, insanı azaptan uzaklaştırmaz."
+ },
+ "16": {
+  "ozet": "Şeytanların Süleyman'ın hükümdarlığı hakkında söylediklerine uyanlar anlatılır; Süleyman kâfir değildi, insanlara sihri öğreten şeytanlar kâfir olmuştu. İnsanların kendilerine zarar verecek, fayda vermeyecek ve karı kocanın arasını ayıracak şeyler öğrendikleri, oysa Allah'ın izni olmadıkça kimseye zarar veremeyecekleri bildirilir. İnanıp Allah'a karşı gelmekten sakınsalardı, Allah katındaki sevabın daha hayırlı olacağı söylenir. İnananlara Peygambere bizi gözet demeleri ve dinlemeleri öğütlenir; Kitap ehlinden ve Allah'a eş koşanlardan inkâr edenlerin onlara bir iyilik gelmesini istemediği, Allah'ın ise rahmetini dilediğine tahsis ettiği bildirilir.",
+  "akilda": "İnanıp Allah'a karşı gelmekten sakınanlar için Allah katındaki sevap daha hayırlıdır."
+ },
+ "17": {
+  "ozet": "Allah bir ayetin hükmünü kaldırır ya da onu unutturursa yerine daha hayırlısını veya benzerini getirir; göklerin ve yerin hükümranlığı O'nundur ve O'ndan başka dost ve yardımcı yoktur. Daha önce Musa'nın sorguya çekildiği gibi peygamberlerini sorguya mı çekmek istedikleri sorulur ve imanı inkârla değiştirenin doğru yoldan saptığı bildirilir. Kitap ehlinin çoğunun çekememezlik yüzünden inananları küfre döndürmek istediği bildirilir; inananlara Allah'ın emri gelene kadar affedip geçmeleri, namazı kılıp zekâtı vermeleri emredilir ve önden gönderdikleri her hayrı Allah katında bulacakları söylenir. Yalnız Yahudi ya da Hıristiyan olanların cennete gireceği sözü kuruntu olarak nitelenir; iyilik yaparak kendini Allah'a veren kimsenin ecri Rabbi katındadır.",
+  "akilda": "Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulacaksınız."
+ },
+ "18": {
+  "ozet": "Yahudiler ve Hıristiyanlar Kitaplarını okudukları halde birbirlerinin bir temel üzerinde olmadığını söylerler; Allah kıyamet günü anlaşmazlığa düştükleri konularda aralarında hüküm verecektir. Allah'ın mescidlerinde O'nun adının anılmasını yasaklayan ve oraların yıkılmasına çalışandan daha zalim kimse olmadığı bildirilir. Doğu da batı da Allah'ındır; nereye dönülürse Allah'ın yönü orasıdır. Allah'ın oğul edindiği sözü reddedilir; göklerde ve yerde olanlar O'nundur, gökleri ve yeri yoktan var eden O'dur ve bir işin olmasını dilediğinde ona yalnızca \"Ol\" der, o da olur.",
+  "akilda": "Allah bir işin olmasını dilediğinde ona yalnızca \"Ol\" der, o da olur."
+ },
+ "19": {
+  "ozet": "Doğru yolun ancak Allah'ın yolu olduğu bildirilir; Peygambere, kendisine gelen ilimden sonra başkalarının heveslerine uyarsa Allah'tan ne bir dost ne de bir yardımcı bulamayacağı söylenir. İsrailoğullarına kendilerine verilen nimet ve kimsenin kimseye fayda veremeyeceği gün yeniden hatırlatılır. Rabbi İbrahim'i birtakım emirlerle denemiş, o da bunları yerine getirmiştir; Allah onu insanlara önder kılacağını, zalimlerin ise ahdine erişemeyeceğini bildirmiştir. Kâbe insanlar için toplanma ve güven yeri kılınmış, İbrahim ile İsmail'e onu ibadet edenler için temiz tutma görevi verilmiş, İbrahim de oranın emin bir şehir olması ve inananların ürünlerle rızıklandırılması için dua etmiştir.",
+  "akilda": "Doğru yol, ancak Allah'ın yoludur."
+ },
+ "20": {
+  "ozet": "İbrahim ile İsmail Kâbe'nin temellerini yükseltirken Rablerinden yaptıklarını kabul etmesini, kendilerini ve soylarını O'na teslim olanlardan kılmasını ve tevbelerini kabul etmesini dilerler. İçlerinden, onlara Allah'ın ayetlerini okuyacak, Kitabı ve hikmeti öğretecek, onları arındıracak bir peygamber göndermesi için de dua ederler. İbrahim'in dininden ancak kendini bilmeyenin yüz çevireceği bildirilir; İbrahim âlemlerin Rabbine teslim olmuş, bunu oğullarına vasiyet etmiş, Yakub da oğullarından ancak Allah'a teslim olmuş olarak can vermelerini istemiştir. Geçmiş ümmetlerin kazandıkları kendilerine, sonrakilerin kazandıkları da kendilerinedir.",
+  "akilda": "Âlemlerin Rabbine teslim olun ve ancak O'na teslim olmuş olarak can verin."
+ },
+ "21": {
+  "ozet": "Doğru yolu bulmak için Yahudi veya Hıristiyan olmaya çağrılanlara, doğruya yönelmiş ve Allah'a eş koşmamış olan İbrahim'in dinine uydukları cevabını vermeleri öğretilir. İnananların Allah'a, kendilerine indirilene, İbrahim, İsmail, İshak, Yakub ve torunlarına, Musa ve İsa'ya ve bütün peygamberlere verilene, aralarında ayrım yapmadan inandıklarını söylemeleri istenir. Başkaları da böyle inanırsa doğru yolu bulmuş olur; yüz çevirirlerse onlara karşı Peygambere Allah yetecektir. İbrahim ve soyunun Yahudi veya Hıristiyan olduğu iddiasına karşı Allah'ın daha iyi bildiği hatırlatılır; geçmiş ümmetlerin kazandıkları kendilerine, sonrakilerin kazandıkları da kendilerinedir.",
+  "akilda": "Peygamberleri birbirinden ayırt etmeden hepsine inanırız ve biz Allah'a teslim olanlarız."
+ },
+ "22": {
+  "ozet": "Bazı beyinsiz insanların, inananları yöneldikleri kıbleden neyin çevirdiğini soracakları bildirilir; buna karşı doğu da batı da Allah'ındır ve O, dilediğini doğru yola eriştirir. İnananlar, insanlara şahit ve örnek olsunlar diye tam ortada bulunan bir ümmet kılınmış; kıble de Peygambere uyanları cayacaklardan ayırt etmek için belirlenmiştir. Peygambere hoşnut olacağı kıbleye çevrileceği bildirilir ve inananlara bulundukları her yerde yüzlerini Mescid-i Haram yönüne çevirmeleri emredilir. Kitap verilenler bunun Rablerinden bir gerçek olduğunu bilirler, ama her türlü delil getirilse de bu kıbleye uymazlar.",
+  "akilda": "Doğu da batı da Allah'ındır; O, dilediğini doğru yola eriştirir."
+ },
+ "23": {
+  "ozet": "Kendilerine Kitap verilenlerin Peygamberi oğullarını tanıdıkları gibi tanıdıkları, bir kısmının ise bile bile hakkı gizlediği bildirilir. Herkesin yöneldiği bir yön vardır; inananlara hayırlı işlerde yarışmaları ve nereden yola çıkarlarsa çıksınlar yüzlerini Mescid-i Haram yönüne çevirmeleri emredilir. Allah, aralarından onlara ayetlerini okuyan, onları arındıran, Kitabı ve hikmeti öğreten ve bilmediklerini bildiren bir Peygamber göndermiştir. İnananlardan Allah'ı anmaları istenir ve O'nun da onları anacağı bildirilir; şükretmeleri, nankörlük etmemeleri ve sabır ile namazla yardım dilemeleri emredilir.",
+  "akilda": "Allah'ı anın ki O da sizi ansın; Allah sabredenlerle beraberdir."
+ },
+ "24": {
+  "ozet": "Allah yolunda öldürülenlerin ölü değil diri olduğu, ama insanların bunun farkında olmadığı bildirilir. Allah insanları biraz korku ve açlıkla, mallardan, canlardan ve ürünlerden eksiltmekle dener; musibet karşısında Allah'a ait olduklarını ve O'na döneceklerini söyleyen sabırlılar, Rablerinin mağfiret ve rahmetine erişir. Safa ile Merve Allah'ın nişanelerindendir; hac ya da umre yapanın bu ikisini tavaf etmesinde bir sakınca yoktur. Allah'ın açıkladığı belgeleri ve doğru yolu gizleyenlere, tevbe edip ıslah olanlar ve gerçeği ortaya koyanlar dışında lanet edilir; inkâr edip öyle ölenler lanette temelli kalır, Tanrınız ise merhamet eden, merhametli olan bir tek Tanrıdır.",
+  "akilda": "Musibet anında sabredenler, Allah'a ait olduklarını ve O'na döneceklerini söyler."
+ },
+ "25": {
+  "ozet": "Göklerin ve yerin yaratılışında, gece ile gündüzün art arda gelişinde, denizde süzülen gemilerde, gökten inip ölü toprağı dirilten suda, rüzgârlarda ve bulutlarda düşünenler için deliller olduğu bildirilir. Bazı insanlar Allah'a koştukları eşleri Allah'ı sever gibi severler; müminlerin Allah'ı sevmesi ise hepsinden kuvvetlidir. Azap görüldüğünde uyulanlar uyanlardan uzaklaşır ve aralarındaki bağlar kopar; uyanlar dünyaya dönüp onlardan uzaklaşmayı dilerler, ama cehennemden çıkamazlar. İnsanlara yeryüzündeki temiz ve helal şeylerden yemeleri ve kötülüğü, hayasızlığı emreden şeytana uymamaları söylenir, çünkü o apaçık bir düşmandır.",
+  "akilda": "Müminlerin Allah'ı sevmesi, her sevgiden daha kuvvetlidir."
+ },
+ "26": {
+  "ozet": "Allah'ın indirdiğine uymaya çağrıldıklarında atalarının yolundan gideceklerini söyleyenlere, ataları akıl erdiremeyen ve doğru yolda olmayan kimseler idiyse ne olacağı sorulur; inkâr edenlerin sağır, dilsiz ve kör oldukları, bu yüzden akledemedikleri bildirilir. İnananlara Allah'ın verdiği rızkın temizlerinden yemeleri ve O'na şükretmeleri emredilir. Ölü hayvan eti, kan, domuz eti ve Allah'tan başkası için kesilen hayvan haram kılınmıştır; ancak darda kalan, başkasının payına el uzatmadan ve zaruret miktarını aşmadan yerse günah sayılmaz. Allah'ın Kitabından bir şeyi gizleyip az bir değere değişenlerin karınlarına ancak ateş doldurduğu, Allah'ın kıyamet günü onlarla konuşmayacağı ve onlara elem verici bir azap olduğu bildirilir.",
+  "akilda": "Allah'ın verdiği rızkın temizlerinden yiyin ve O'na şükredin."
+ },
+ "27": {
+  "ozet": "İyiliğin, yüzleri doğuya ya da batıya çevirmek olmadığı bildirilir. Asıl iyi olanlar; Allah'a, ahiret gününe, meleklere, Kitaba ve peygamberlere inanan, Allah sevgisiyle malını yakınlara, yetimlere, düşkünlere, yolculara, yoksullara ve köleler uğruna veren, namaz kılıp zekât veren, sözünü tutan ve zorda, darda, savaşta sabredenlerdir. İnananlara öldürülenler hakkında kısas farz kılınmıştır; öldüren, ölenin kardeşi tarafından bağışlanırsa bağışlayana güzellikle diyet öder, bu da Rablerinden bir hafifletme ve rahmettir ve kısasta akıl sahipleri için hayat vardır. Ölüm yaklaşınca mal bırakan kimsenin ana babaya ve yakınlara uygun biçimde vasiyet etmesi farz kılınmıştır; vasiyeti işittikten sonra değiştirenin günahı, değiştirenin üzerinedir.",
+  "akilda": "İyilik, yüzü bir yöne çevirmek değil; inanmak, Allah sevgisiyle malından vermek, namazı kılmak, sözünü tutmak ve sabretmektir."
+ },
+ "28": {
+  "ozet": "Vasiyet edenin yanılmasından ya da günaha girmesinden endişe eden kimse ilgililerin arasını düzeltirse ona günah yoktur. Oruç, öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınsınlar diye inananlara sayılı günlerde farz kılınmıştır; hasta ya da yolcu olan, tutamadığı günlerin sayısınca başka günlerde tutar, oruca dayanamayanlar ise bir düşkünü doyuracak kadar fidye verir. Kur'an, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak Ramazan ayında indirilmiştir; bu ayı idrak eden onda oruç tutar ve Allah kolaylık ister, zorluk istemez. Allah, kullarına yakın olduğunu ve kendisine dua edenin duasını kabul ettiğini bildirir; onların da O'nun davetini kabul edip O'na inanmaları istenir.",
+  "akilda": "Allah kullarına yakındır; kendisine dua edenin duasını kabul eder."
+ },
+ "29": {
+  "ozet": "Oruç günlerinin gecesinde eşlere yaklaşmak helal kılınmış, tan yerinde beyaz iplik siyah iplikten ayırt edilinceye kadar yiyip içmek serbest bırakılmış, sonra orucun geceye kadar tamamlanması emredilmiştir; mescitlerde itikâfa çekilenler ise eşlerine yaklaşmaz. İnananlara mallarını aralarında haksızlıkla yememeleri ve insanların mallarından bir kısmını bile bile günaha girerek yemek için onu hâkimlere aktarmamaları emredilir. Hilal hâlindeki ayların insanlar ve hac vakitleri için ölçü olduğu bildirilir; iyilik evlere arkalarından girmek değildir, iyi kimse kötülükten sakınan kimsedir. İnananlara kendileriyle savaşanlarla Allah yolunda savaşmaları, ama aşırı gitmemeleri emredilir; Allah aşırı gidenleri sevmez.",
+  "akilda": "Asıl iyi kimse, kötülükten sakınan kimsedir."
+ },
+ "30": {
+  "ozet": "Bir önceki sayfada sözü edilen, size karşı savaşanlarla savaşmanın hükümleri sınırlarıyla birlikte anlatılır: fitne adam öldürmekten daha kötüdür, Mescid-i Haram yanında onlar savaşmadıkça savaşılmaz, vazgeçerlerse Allah bağışlayandır ve zulmedenlerden başkasına düşmanlık yoktur. Hürmetli aylar ve hürmetler karşılıklıdır; saldırana ancak saldırısı ölçüsünde karşılık verilir ve Allah sakınanlarla beraberdir. İnananlara Allah yolunda harcamaları, kendilerini kendi elleriyle tehlikeye atmamaları ve işlerini güzel yapmaları emredilir. Hac ve umrenin Allah için tamamlanması emredilir; engellenme, hastalık ve kurban bulamama durumlarındaki hükümler bildirilir.",
+  "akilda": "Allah yolunda harcayın ve işlerinizi iyi yapın; Allah iyi iş yapanları sever."
+ },
+ "31": {
+  "ozet": "Haccın bilinen aylarda olduğu, hacca girişen kimse için kadına yaklaşmanın, sövüşmenin ve dövüşmenin olmadığı bildirilir; azığın en iyisinin Allah korkusu olduğu hatırlatılır. Rablerinden refah istemelerinde bir engel olmadığı bildirilir; Arafat'tan inildiğinde Allah, Meşari Haram'da gösterdiği şekilde anılır, sonra insanların topluca akın ettiği yerden akın edilir ve Allah'tan bağışlanma dilenir. Hac ibadeti bitince Allah, babaların anıldığı gibi, hatta daha kuvvetli bir anışla anılmalıdır. Yalnızca dünyayı isteyenlerin ahirette payı yoktur; dünyada da ahirette de iyiyi isteyip ateşin azabından korunmayı dileyenlere ise kazançlarının karşılığı vardır ve Allah hesabı çabuk görür.",
+  "akilda": "Rabbimiz, bize dünyada da iyiyi, ahirette de iyiyi ver ve bizi ateşin azabından koru."
+ },
+ "32": {
+  "ozet": "Allah'ın sayılı günlerde anılması emredilir; günahtan sakınan kimse Mina'daki ibadeti iki günde bitirse de geri kalsa da ona günah yoktur ve herkes O'nun katında toplanacaktır. Dünya hayatına dair konuşması hoşa giden, kalbindekine Allah'ı şahit tutan, oysa pek azılı bir düşman olan ve iş başına geçince yeryüzünde bozgunculuk yapıp ekini ve nesli yok etmeye çalışan insanlar anlatılır; ona Allah'tan sakın denince gururu kendisine günah işletir ve ona cehennem yeter. İnsanlar arasında Allah'ın rızasını kazanmak için canını verenler de vardır; Allah kullarına karşı şefkatlidir. İnananlara hep birden barışa girmeleri ve apaçık düşmanları olan şeytana uymamaları emredilir; belgeler geldikten sonra kayanlar Allah'ın güçlü ve hikmet sahibi olduğunu bilmelidir ve bütün işler Allah'a dönecektir.",
+  "akilda": "Hep birden barışa girin; apaçık düşmanınız olan şeytana uymayın."
+ },
+ "33": {
+  "ozet": "İsrailoğullarına nice apaçık ayetler verildiği hatırlatılır ve Allah'ın nimetini kendisine geldikten sonra değiştirenin cezasının şiddetli olduğu bildirilir; inkâr edenler inananlarla alay eder, oysa Allah'a karşı gelmekten sakınanlar kıyamet günü onların üstünde olacaktır. İnsanlar bir tek ümmetti; Allah peygamberleri müjdeci ve uyarıcı olarak göndermiş, onlarla birlikte hak Kitaplar indirmiştir; Kitap verilenler ihtiras yüzünden ayrılığa düşmüş, Allah ise inananları izniyle gerçeğe eriştirmiştir. Öncekilerin başına gelenler gelmeden cennete girileceğinin sanılmaması istenir; onlar, peygamber ve onunla beraber olan müminler Allah'ın yardımı ne zaman diyecek kadar sarsılmışlardı; Allah'ın yardımı ise yakındır. Ne harcayacakları sorulduğunda, harcananın ana baba, yakınlar, yetimler, düşkünler ve yolcular için olduğu söylenir; yapılan her iyiliği Allah bilir.",
+  "akilda": "Allah'ın yardımı şüphesiz yakındır."
+ },
+ "34": {
+  "ozet": "Savaşın, hoşa gitmese de farz kılındığı bildirilir; insanın hoşlanmadığı bir şey iyiliğine, sevdiği bir şey ise kötülüğüne olabilir, Allah bilir, insanlar bilmez. Hürmet edilen ayda savaşmanın büyük suç olduğu, ama Allah yolundan alıkoymanın, O'nu inkâr etmenin, Mescid-i Haram'a engel olmanın ve halkını oradan çıkarmanın Allah katında daha büyük suç, fitne çıkarmanın ise öldürmekten daha büyük olduğu bildirilir. Dininden dönüp kâfir olarak ölenlerin işleri dünyada ve ahirette boşa gider; inananlar, hicret edenler ve Allah yolunda cihat edenler ise Allah'ın rahmetini umarlar. İçki ve kumarda hem büyük günah hem de insanlara bazı faydalar olduğu, ama günahlarının faydalarından daha büyük olduğu bildirilir; ne harcayacakları sorulduğunda da artanı harcamaları söylenir.",
+  "akilda": "Hoşlanmadığınız bir şey iyiliğinize, sevdiğiniz bir şey kötülüğünüze olabilir; Allah bilir, siz bilmezsiniz."
+ },
+ "35": {
+  "ozet": "Yetimlerin işlerini düzeltmenin hayırlı olduğu, onlarla bir arada yaşanırsa onların kardeş olduğu ve Allah'ın düzelteni bozandan ayırt ettiği bildirilir. Allah'a eş koşan kadınlarla, iman edinceye kadar evlenilmemesi, mümin kadınların da iman edinceye kadar eş koşan erkeklerle evlendirilmemesi emredilir; inanan bir cariye ya da köle, hoşa gitse de eş koşan birinden daha iyidir, onlar ateşe çağırır, Allah ise izniyle cennete ve mağfirete çağırır. Kadınların aybaşı hâlinin bir rahatsızlık olduğu, bu hâlde temizleninceye kadar onlara yaklaşılmaması bildirilir; Allah tevbe edenleri de temizlenenleri de sever. İnananlara geleceğe hazırlanmaları, Allah'tan sakınmaları ve O'na kavuşacaklarını bilmeleri hatırlatılır; Allah'a yapılan yeminlerin de iyilik yapmaya, günahtan sakınmaya ve insanların arasını düzeltmeye engel kılınmaması istenir.",
+  "akilda": "Allah tevbe edenleri de temizlenenleri de sever."
+ },
+ "36": {
+  "ozet": "Allah insanları rastgele yeminlerinden değil, kalplerinin kastettiği yeminlerden sorumlu tutar; eşlerine yaklaşmamaya yemin edenler dört ay bekleyebilir, yeminlerinden dönerlerse Allah bağışlar ve merhamet eder. Boşanan kadınlar kendi kendilerine üç aybaşı hâli bekler ve rahimlerinde Allah'ın yarattığını gizlemeleri onlara helal değildir; bu sürede barışmak isteyen kocaları onları geri almaya daha çok hak sahibidir, kadınların hakları örfe uygun şekilde vazifelerine denktir, erkeklerin ise onlardan bir üstün derecesi vardır. Boşanma iki defadır; ardından ya iyilikle tutmak ya da iyilik yaparak bırakmak gerekir ve Allah'ın yasalarını koruyamama korkusu olmadıkça kadınlara verilenlerden bir şey geri almak helal değildir. Bundan sonra yine boşanan kadın, başka biriyle evlenmedikçe eski kocasına helal olmaz; bunlar Allah'ın yasalarıdır ve onları bozanlar zalimlerdir.",
+  "akilda": "Boşanmada ya iyilikle tutmak ya da iyilik yaparak bırakmak gerekir."
+ },
+ "37": {
+  "ozet": "Boşanan kadınların müddetleri sona ererken güzellikle tutulmaları ya da güzellikle bırakılmaları, haklarına tecavüz etmek için zarar verecek şekilde tutulmamaları emredilir; böyle yapan kendine yazık etmiş olur. Allah'ın ayetlerinin alaya alınmaması, O'nun nimetinin ve öğüt vermek için indirdiği Kitap ile hikmetin anılması istenir. Müddeti biten kadınların, güzellikle anlaşmışlarsa kocalarıyla evlenmelerine engel olunmaması istenir; bu daha nezih ve daha paktır. Anneler, emzirmeyi tamamlatmak isteyen baba için çocuklarını tam iki yıl emzirir; annenin yiyecek ve giyeceğini uygun şekilde sağlamak babaya borçtur, herkese ancak gücü nispetinde yükümlülük verilir ve ne anne ne de baba çocuğu yüzünden zarara sokulur.",
+  "akilda": "Herkese ancak gücü nispetinde yükümlülük verilir."
+ },
+ "38": {
+  "ozet": "Eşi ölen kadınlar dört ay on gün bekler; müddet sona erince kendi haklarında uygun şekilde yaptıklarından dolayı başkalarına sorumluluk yoktur. Böyle kadınlara kapalı bir şekilde evlenme teklif etmekte ya da bunu içinden geçirmekte sorumluluk yoktur; ancak meşru sözler dışında gizlice sözleşilmez ve müddet bitmeden nikâh akdine kalkışılmaz. Kadınları el sürmeden ve mehirlerini belirlemeden boşamada sorumluluk yoktur; onlar zengin kendi çapına, fakir kendi çapına göre uygun biçimde faydalandırılır. Mehir belirlenip el sürülmeden boşanırlarsa, kadın ya da nikâh akdi elinde olan erkek bağışlamadıkça belirlenen mehrin yarısı verilir; bağışlamak Allah'tan sakınmaya daha uygundur ve aradaki iyiliğin unutulmaması istenir.",
+  "akilda": "Aranızdaki iyiliği unutmayın; Allah yaptıklarınızı görür."
+ },
+ "39": {
+  "ozet": "Namazlara ve orta namaza devam edilmesi, Allah için gönülden boyun eğerek namaza durulması emredilir; korku hâlinde namaz yaya ya da binekte kılınır, güvene erişince Allah öğrettiği gibi anılır. Ölüp eşler bırakacak olanların, eşleri evlerinden çıkarılmaksızın bir yıla kadar geçimlerini sağlayacak şeyi vasiyet etmeleri istenir; boşanan kadınların uygun biçimde faydalandırılması da haksızlıktan sakınanlara bir borçtur. Ölüm korkusuyla memleketlerinden çıkan binlerce kişiye Allah'ın ölün deyip sonra onları dirilttiği hatırlatılır; Allah insanlara bol nimet verir, ama insanların çoğu şükretmez. İnananlara Allah yolunda savaşmaları ve Allah'a, karşılığını kat kat artıracağı güzel bir ödünç vermeleri söylenir; darlaştıran da bollaştıran da O'dur ve O'na dönülecektir.",
+  "akilda": "Namazlara devam edin; Allah için gönülden boyun eğerek namaza durun."
+ },
+ "40": {
+  "ozet": "Musa'dan sonra İsrailoğullarının ileri gelenleri, peygamberlerinden kendilerine bir hükümdar göndermesini istemiş ve Allah yolunda savaşacaklarını söylemişlerdi; ama savaş farz kılınınca az bir kısmı dışında yüz çevirdiler. Peygamberleri, Allah'ın onlara Talut'u hükümdar olarak gönderdiğini bildirince, hükümdarlığa kendilerinin daha layık olduğunu ve ona mal bolluğu verilmediğini söyleyerek itiraz ettiler. Peygamberleri, Allah'ın onu seçtiğini ve bilgice ve vücutça gücünü artırdığını söyledi; Allah mülkü dilediğine verir. Talut'un hükümdarlığının alameti olarak, içinde Rablerinden gönül rahatlığı ve Musa ailesi ile Harun ailesinin bıraktıklarından kalanlar bulunan, meleklerin taşıdığı sandığın onlara geleceği bildirildi.",
+  "akilda": "Allah mülkü dilediğine verir; O her şeyi kaplar ve bilir."
+ },
+ "41": {
+  "ozet": "Talut ordusuyla yola çıkınca, Allah'ın onları bir ırmakla deneyeceğini, ondan içenin kendisinden olmadığını, eliyle bir avuç alan dışında onu tatmayanın ise kendisinden olduğunu söyledi; pek azı dışında hepsi sudan içti. Talut ve onunla birlikte olan inananlar ırmağı geçince Calut ve ordusuna karşı koyacak güçlerinin olmadığı söylendi; Allah'a kavuşacaklarını bilenler ise nice az topluluğun Allah'ın izniyle çok topluluğa üstün geldiğini ve Allah'ın sabredenlerle beraber olduğunu söylediler. Calut ve ordusunun karşısına çıktıklarında Rablerinden sabır, sebat ve inkâr eden millete karşı yardım dilediler; Allah'ın izniyle onları bozguna uğrattılar, Davud Calut'u öldürdü ve Allah Davud'a hükümranlık ve hikmet verdi. Allah'ın insanları birbiriyle savması olmasaydı yeryüzünün düzeni bozulurdu; bunlar Allah'ın ayetleridir; Peygambere gerçek olarak okunur ve o, gönderilen peygamberlerdendir.",
+  "akilda": "Nice az topluluk, Allah'ın izniyle çok topluluğa üstün gelmiştir; Allah sabredenlerle beraberdir."
+ },
+ "42": {
+  "ozet": "Allah peygamberlerin bir kısmını diğerlerinden üstün kılmış, Meryem oğlu İsa'ya belgeler verip onu Ruhul Kudüs ile desteklemiştir; belgeler geldikten sonra ayrılığa düşülmüş, kimi inanmış, kimi inkâr etmiştir. İnananlara, alışverişin, dostluğun ve şefaatin olmayacağı gün gelmeden önce kendilerine verilen rızıktan hayra harcamaları emredilir. Allah'tan başka tanrı yoktur; O'nu uyuklama ve uyku tutmaz, O diridir, her an yaratıklarını gözetir ve hükümranlığı gökleri ve yeri kaplamıştır. Dinde zorlama yoktur; saptırıcı tağutu inkâr edip Allah'a inanan, kopmak bilmeyen sağlam bir kulpa sarılmıştır.",
+  "akilda": "Allah, O'ndan başka tanrı olmayan, diri ve her an yaratıklarını gözetip durandır."
+ },
+ "43": {
+  "ozet": "Allah inananların dostudur, onları karanlıklardan aydınlığa çıkarır; inkâr edenlerin dostları ise tağuttur ve onları aydınlıktan karanlıklara sürükler. Allah kendisine mülk verdi diye İbrahim ile Rabbi hakkında tartışan kişi, Allah'ın güneşi doğudan getirdiği, onun da batıdan getirmesi söylenince şaşırıp kaldı. Altı üstüne gelmiş bir kasabanın nasıl diriltileceğini soran kimseyi Allah yüz yıl ölü bırakıp sonra diriltti. Yiyeceğinin bozulmadığını, kemiklerin birleştirilip et giydirildiğini görünce, Allah'ın her şeye kadir olduğuna inandığını söyledi.",
+  "akilda": "Allah inananların dostudur; onları karanlıklardan aydınlığa çıkarır."
+ },
+ "44": {
+  "ozet": "İbrahim, ölülerin nasıl diriltildiğini kalbi iyice kansın diye görmek istedi; dört çeşit kuşu alıştırıp parçalaması, her dağın üzerine bir parça koyması ve çağırması, onların da koşarak geleceği söylendi. Mallarını Allah yolunda harcayanların durumu, her başağında yüz tane olan yedi başak veren tane gibidir; Allah dilediğine kat kat verir. Harcadıktan sonra başa kakmayan ve eza etmeyenlerin ecirleri Rableri katındadır; güzel bir söz ve bağışlama, peşinden eza gelen sadakadan daha iyidir. Sadakalar başa kakma ve eza ile boşa çıkarılmamalıdır; gösteriş için harcayanın durumu, üzerindeki toprağı bol yağmurun alıp götürdüğü kaya gibidir.",
+  "akilda": "Güzel bir söz ve bağışlama, peşinden eza gelen bir sadakadan daha iyidir."
+ },
+ "45": {
+  "ozet": "Allah'ın rızası için harcayanların durumu, yüksekçe bir tepede bulunan, bol yağmur alınca yemişlerini iki kat veren, bol yağmur yağmasa bile çisentisi düşen bir bahçe gibidir. Kimse, yaşlanmış ve çocukları güçsüzken bahçesinin ateşli bir kasırgayla yanmasını istemez; Allah ayetlerini düşünülsün diye böyle açıklar. İnananlara kazandıklarının temizlerinden ve yerden çıkarılanlardan harcamaları, kendilerinin iğrenmeden alamayacağı pis şeyleri vermeye kalkmamaları emredilir. Şeytan fakirlikle korkutup cimriliği ve hayasızlığı emreder, Allah ise mağfiret ve bol nimet vadeder; kime hikmet verilmişse ona çokça hayır verilmiştir.",
+  "akilda": "Kime hikmet verilmişse, şüphesiz ona çokça hayır verilmiştir."
+ },
+ "46": {
+  "ozet": "Yapılan harcamayı ve adanan adağı Allah bilir. Sadakaları açıkça vermek güzeldir, yoksullara gizlice vermek ise daha iyidir; Allah dilediğini doğru yola eriştirir ve yapılan iyi harcamanın karşılığı haksızlığa uğratılmadan verilir. Sadakaların, kendilerini Allah yoluna adayıp yeryüzünde dolaşamayan, hayalarından dolayı zengin sanılan ve insanlardan yüzsüzlük ederek bir şey istemeyen yoksullara verilmesi istenir. Gece gündüz, açık gizli mallarını harcayanların mükâfatlarını Rableri verecektir; onlara korku yoktur ve onlar üzülmeyeceklerdir.",
+  "akilda": "Gece gündüz, açık gizli mallarını harcayanların mükâfatlarını Rableri verecektir."
+ },
+ "47": {
+  "ozet": "Faiz yiyenler alışverişin de faiz gibi olduğunu söyler; oysa Allah alışverişi helal, faizi haram kılmıştır, öğüt gelince faizcilikten geri duranın geçmişi kendisinedir, faizciliğe dönenler ise cehennemliktir. Allah faizi eksiltir, sadakaları bereketlendirir; inanıp yararlı işler yapan, namaz kılıp zekât verenlerin ecirleri Rableri katındadır. İnananlardan faizden arta kalan hesaptan vazgeçmeleri istenir; vazgeçmemek Allah'a ve Peygamberine karşı açılmış bir savaştır, tevbe ederlerse sermayeleri kendilerinindir. Borçlu darda ise eli genişleyinceye kadar ona mühlet verilir ve borcu bağışlamak daha hayırlıdır.",
+  "akilda": "Allah alışverişi helal, faizi haram kılmıştır."
+ },
+ "48": {
+  "ozet": "İnananlara, belirli bir süre için borçlandıklarında borcu yazmaları emredilir; bir kâtip doğru olarak yazar, borçlu da Allah'tan sakınıp hiçbir şey eksiltmeden yazdırır, yazdıramayacak durumdaysa velisi doğru olarak yazdırır. Erkeklerden iki şahit tutulur; iki erkek bulunmazsa, razı olunan şahitlerden bir erkek ile biri unuttuğunda diğerinin hatırlatacağı iki kadın olabilir. Borç büyük de küçük de olsa süresiyle yazılır; bu Allah katında en doğru ve şahitlik için en sağlam olandır, peşin alışverişi yazmamakta ise sorumluluk yoktur. Kâtibe de şahide de zarar verilmez; Allah'tan sakınılması istenir; Allah öğretir ve her şeyi bilir.",
+  "akilda": "Birbirinize belirli bir süre için borçlandığınızda onu yazın."
+ },
+ "49": {
+  "ozet": "Yolculukta kâtip bulunamazsa alınan rehin yeter; güvenilen kimse borcunu ödemeli, şahitlik gizlenmemelidir, çünkü onu gizleyenin kalbi günah işlemiş olur. İçtekiler açıklansa da gizlense de Allah onunla hesaba çeker, dilediğini bağışlar, dilediğine azap eder. Peygamber ve inananlar, ona Rabbinden indirilene, Allah'a, meleklerine, kitaplarına ve peygamberlerine inanmış, işittik ve itaat ettik demişlerdir. Allah kişiye ancak gücünün yeteceği kadar yükler; unutma ve yanılmadan sorumlu tutulmamak, ağır yük yüklenmemek, af, bağışlanma, merhamet ve kâfirlere karşı yardım için Rabbe dua edilir.",
+  "akilda": "Müminler der ki: İşittik ve itaat ettik; Rabbimiz, bağışlamanı dileriz."
+ },
+ "50": {
+  "ozet": "Âl-i İmrân suresi Elif, Lâm, Mîm harfleriyle başlar; Allah'tan başka tanrı yoktur, O diridir ve her an yaratıklarını gözetip durandır. Allah, önceki kitapları tasdik eden Hak Kitab'ı indirmiştir; daha önce de insanlara yol gösterici olarak Tevrat'ı ve İncil'i indirmişti. Kitap'ta, Kitab'ın temeli olan kesin anlamlı ayetler ve çeşitli anlamlı ayetler vardır; kalbinde eğrilik olanlar çeşitli anlamlılara uyar, oysa onların yorumunu ancak Allah bilir. Doğru yola erdirildikten sonra kalplerin eğriltilmemesi ve Allah katından rahmet bağışlanması için dua edilir.",
+  "akilda": "Rabbimiz, bizi doğru yola erdirdikten sonra kalplerimizi eğriltme."
+ },
+ "51": {
+  "ozet": "İnkâr edenlerin malları ve çocukları Allah'a karşı onlara bir şey sağlamaz; onların tutumu, ayetleri yalanlayıp günahları yüzünden yok edilen Firavun ailesinin ve onlardan öncekilerin tutumu gibidir. Biri Allah yolunda savaşan, diğeri inkârcı olan, karşı karşıya gelmiş iki toplulukta ibret vardır; Allah dilediğini yardımıyla destekler. Kadınlara, oğullara, altın ve gümüş yığınlarına, atlara, develere ve ekinlere karşı aşırı sevgi insanlara güzel gösterilmiştir; bunlar dünya hayatının nimetleridir. Allah'a karşı gelmekten sakınanlar için ise Rableri katında altlarından ırmaklar akan cennetler, tertemiz eşler ve Allah'ın rızası vardır.",
+  "akilda": "Dünya hayatının nimetleri insanlara güzel gösterilmiştir; oysa gidilecek yerin güzeli Allah katındadır."
+ },
+ "52": {
+  "ozet": "Rablerinden bağışlanma ve ateşin azabından korunma dileyen, sabreden, doğru olan, gönülden kulluk eden, hayra harcayan ve seher vakitlerinde bağışlanma dileyenler anılır. Allah, melekler ve adaleti yerine getiren ilim sahipleri, O'ndan başka tanrı olmadığına şahitlik etmişlerdir. Allah katında din İslam'dır; Kitap verilenler kendilerine ilim geldikten sonra aralarındaki ihtiras yüzünden ayrılığa düşmüşlerdir, yüz çevirirlerse yalnız tebliğ etmek düşer. Allah'ın ayetlerini inkâr eden, peygamberleri ve adaleti emredenleri haksız yere öldürenlerin işleri dünyada da ahirette de boşa çıkacaktır.",
+  "akilda": "Allah katında din, şüphesiz İslam'dır."
+ },
+ "53": {
+  "ozet": "Kendilerine Kitap'tan pay verilenlerden bir takımı, Allah'ın Kitabı'na çağrıldıklarında yüz çevirmiştir; ateşin kendilerine sayılı birkaç gün değeceğini söylemiş, uydurdukları şeylerle dinlerinde yanılmışlardır. Mülkün sahibi Allah mülkü dilediğine verir, dilediğinden çekip alır, dilediğini aziz kılar, dilediğini alçaltır; iyilik O'nun elindedir. Geceyi gündüze, gündüzü geceye geçirir, ölüden diri, diriden ölü çıkarır ve dilediğini hesapsız rızıklandırır. Müminlerin, onlardan sakınma hâli dışında, müminleri bırakıp kâfirleri dost edinmemeleri istenir; içtekiler gizlense de açıklansa da Allah onu bilir.",
+  "akilda": "Mülkü dilediğine veren de dilediğinden çekip alan da Allah'tır; iyilik O'nun elindedir."
+ },
+ "54": {
+  "ozet": "Herkesin yaptığı iyiliği ve kötülüğü hazır bulacağı gün hatırlatılır; Allah'ı sevenlerin Peygambere uyması istenir ki Allah da onları sevsin ve günahlarını bağışlasın. Allah Âdem'i, Nuh'u, İbrahim ailesini ve İmran ailesini birbirinin soyundan olarak âlemlere tercih etmiştir. İmran'ın karısı karnındakini Allah'a hizmet için adamış, kız doğurunca adını Meryem koymuş ve onu da soyunu da kovulmuş şeytandan Allah'a sığındırmıştır. Rabbi Meryem'i güzel bir kabulle karşılayıp Zekeriya'nın himayesine bırakmış; Zekeriya mabette her girişinde yanında bir yiyecek bulmuş, Meryem bunun Allah katından olduğunu söylemiştir.",
+  "akilda": "Allah'ı seviyorsanız Peygambere uyun ki Allah da sizi sevsin ve günahlarınızı bağışlasın."
+ },
+ "55": {
+  "ozet": "Zekeriya Rabbinden temiz bir soy diledi; mabette namaz kılarken melekler ona Allah'ın, efendi, iffetli ve iyilerden bir peygamber olarak Yahya'yı müjdelediğini bildirdiler. Kocamış ve karısı kısırken nasıl oğlu olacağını sorunca Allah'ın dilediğini yaptığı bildirildi; alameti, üç gün insanlarla işaret dışında konuşmaması oldu. Melekler Meryem'e Allah'ın onu seçip temizlediğini, dünyaların kadınlarından üstün tuttuğunu söyleyip Rabbine gönülden boyun eğmesini, secde ve rükû etmesini istediler. Bunlar vahyedilen gayb haberlerindendir; melekler Meryem'e Allah'ın, kendinden bir söz olan, adı Meryem oğlu İsa olan Mesih'i müjdelediğini bildirdiler.",
+  "akilda": "Zekeriya'nın duası: Rabbim, bana katından temiz bir soy bağışla; Sen duayı işitensin."
+ },
+ "56": {
+  "ozet": "Müjdelenen çocuğun beşikte iken de yetişkin iken de insanlarla konuşacağı bildirilir; Meryem bir insan dokunmamışken nasıl çocuğu olacağını sorunca melekler, Allah bir işin olmasını dilerse ona ol dediğini ve onun olduğunu söylediler. Ona Kitap, hikmet, Tevrat ve İncil öğretilecek, İsrailoğullarına peygamber kılınacaktır; Allah'ın izniyle çamurdan kuş yapıp üfleyecek, körleri ve alacalıları iyi edecek, ölüleri diriltecektir. Tevrat'ı tasdik edip yasak edilenlerin bir kısmını helal kılacak ve Allah'ın hem kendisinin hem onların Rabbi olduğunu söyleyecektir. İsa onların inkârını hissedince havariler Allah'ın yardımcıları olduklarını söylediler.",
+  "akilda": "İsa'nın sözü: Allah benim de Rabbim, sizin de Rabbinizdir; O'na kulluk edin, doğru yol budur."
+ },
+ "57": {
+  "ozet": "İndirilene inanıldığı ve Peygambere uyulduğu söylenerek şahit olanlarla beraber yazılmak için Rabbe dua edilir; inkârcılar hile yaptı, Allah da onları cezalandırdı. Allah İsa'ya onu eceline yetireceğini, kendine yükselteceğini, inkâr edenlerden tertemiz ayıracağını ve ona uyanları kıyamet gününe kadar inkâr edenlerin üstünde tutacağını bildirmişti. İnanıp yararlı iş yapanların ecirleri tastamam verilecektir; Allah katında İsa'nın durumu, topraktan yaratılıp ol denince olan Âdem'in durumu gibidir. Gerçek Rabdendir; bu konuda tartışanlar karşılıklı olarak lanetleşmeye ve Allah'ın lanetinin yalancılara olmasını dilemeye çağrılır.",
+  "akilda": "Allah katında İsa'nın durumu, topraktan yaratılan Âdem'in durumu gibidir."
+ },
+ "58": {
+  "ozet": "Anlatılanların gerçek olduğu ve Allah'tan başka tanrı olmadığı bildirilir. Kitap ehli, yalnız Allah'a kulluk etmek, O'na hiçbir şeyi eş koşmamak ve birbirini rab edinmemek üzere ortak bir söze çağrılır; yüz çevirirlerse müslüman olunduğuna şahit olmaları söylenir. Tevrat da İncil de İbrahim'den sonra indirilmişken onun hakkında niçin tartışıldığı sorulur; İbrahim yahudi de hıristiyan da değildi, doğruya yönelen bir müslimdi. İbrahim'e en yakın olanlar ona uyanlar, bu Peygamber ve inananlardır; Kitap ehlinden bir takımı inananları sapıtmak ister, oysa kendilerini saptırırlar da farkına varmazlar.",
+  "akilda": "İbrahim, doğruya yönelen bir müslimdi; ortak koşanlardan değildi."
+ },
+ "59": {
+  "ozet": "Kitap ehline hakkı batıla niçin karıştırdıkları ve bile bile niçin gizledikleri sorulur. İçlerinden bir takımı, inananlara indirilene günün başında inanıp sonunda inkâr etmeyi söyler; doğru yolun Allah'ın yolu olduğu, bol nimetin Allah'ın elinde olup O'nun dilediğine verdiği bildirilir. Kitap ehli arasında kantar dolusu emaneti geri ödeyen de, küçük bir emaneti bile tepesine dikilmedikçe ödemeyen de vardır; ahdini yerine getirip günahtan sakınanları Allah sever. Allah'ın ahdini ve yeminlerini az bir değere değişenlerin ahirette payı yoktur ve elem verici azap onlar içindir.",
+  "akilda": "Ahdini yerine getiren ve günahtan sakınan bilsin ki, Allah sakınanları sever."
+ },
+ "60": {
+  "ozet": "Kitap'ta olmayanı Kitap'tan sanılsın diye dillerini eğip büken ve bile bile Allah'a karşı yalan söyleyen bir takım kimselerden söz edilir. Allah'ın Kitap, hüküm ve peygamberlik verdiği bir insanın, Allah'ı bırakıp kendisine kulluk edilmesini istemesi yaraşmaz; ona yaraşan, Rabbe kul olmaya çağırmaktır. Allah peygamberlerden, kendilerinde olanı tasdik eden bir peygamber gelince ona inanıp yardım edeceklerine dair ahit almış, onlar da bunu ikrar etmişlerdir; bundan sonra yüz çevirenler fasıktır. Göklerde ve yerde kim varsa ister istemez Allah'a teslim olmuştur ve O'na döneceklerdir.",
+  "akilda": "Göklerde ve yerde kim varsa, ister istemez Allah'a teslim olmuştur ve O'na döneceklerdir."
+ },
+ "61": {
+  "ozet": "Allah'a, inananlara indirilene, İbrahim'e, İsmail'e, İshak'a, Yakub'a ve torunlarına indirilene, Musa'ya, İsa'ya ve peygamberlere verilene inanıldığının, onların birbirinden ayırt edilmediğinin ve Allah'a teslim olunduğunun söylenmesi emredilir. İslam'dan başka bir dine yönelenden bu kabul edilmeyecek, o ahirette kaybedenlerden olacaktır. İnandıktan ve belgeler geldikten sonra inkâr edenlerin cezası Allah'ın, meleklerin ve bütün insanların lanetidir; ancak ardından tevbe edip düzelenler müstesnadır. İnkârcı olarak ölenlerden yeryüzü dolusu altın fidye bile kabul edilmeyecektir.",
+  "akilda": "Kim İslam'dan başka bir dine yönelirse, onunki kabul edilmeyecektir."
+ },
+ "62": {
+  "ozet": "Sevilen şeylerden harcanmadıkça iyiliğe erişilemez; ne harcanırsa Allah onu bilir. Tevrat indirilmeden önce İsrail'in kendine haram ettiği dışında bütün yiyecekler İsrailoğullarına helaldi; doğruya yönelen İbrahim'in dinine uyulması emredilir. İnsanlar için ilk kurulan ev Mekke'deki mübarek Kâbe'dir; orada İbrahim'in makamı vardır, oraya giren güvende olur ve yol bulabilenin Allah için Kâbe'yi haccetmesi gerekir. Kitap ehline Allah'ın ayetlerini niçin inkâr ettikleri sorulur; inananlar, Kitap verilenlerin bir takımına uyarlarsa inandıktan sonra kâfir olmaya çevrilecekleri konusunda uyarılır.",
+  "akilda": "Sevdiğiniz şeylerden harcamadıkça iyiliğe erişemezsiniz."
+ },
+ "63": {
+  "ozet": "Allah'ın ayetleri okunurken ve Peygamber aralarındayken inkâr etmenin yakışmadığı bildirilir; Allah'ın Kitabına sarılan doğru yola erişir. İnananlara Allah'tan gereği gibi sakınmaları, ancak müslüman olarak can vermeleri, hep birlikte Allah'ın ipine sarılıp ayrılmamaları ve düşmanken kalplerini uzlaştırıp kendilerini kardeş yapan nimeti anmaları emredilir. İçlerinden iyiye çağıran, doğruluğu emreden ve fenalıktan meneden bir cemaat bulunmalı, belgeler geldikten sonra ayrılığa düşenler gibi olunmamalıdır. Yüzlerin ağaracağı ve kararacağı günde yüzleri kararanlar azabı tadacak, yüzleri ağaranlar ise Allah'ın rahmetinde temelli kalacaktır.",
+  "akilda": "Hep birlikte Allah'ın ipine sarılın ve ayrılmayın."
+ },
+ "64": {
+  "ozet": "Göklerde ve yerde olanlar Allah'ındır ve işler O'na varacaktır. İnananlar, doğruluğu emreden, fenalıktan alıkoyan ve Allah'a inanan, insanlar için ortaya çıkarılmış hayırlı bir ümmettir; Kitap ehlinin içinde inananlar olsa da çoğu yoldan çıkmıştır. Onlar inananlara incitmekten başka zarar veremez; Allah'ın ayetlerini inkâr edip haksız yere peygamberleri öldürdükleri için, Allah'ın ve inananların himayesinde olanlar dışında, onlara alçaklık damgası vurulmuştur. Kitap ehlinin hepsi bir değildir; geceleri secdeye kapanıp Allah'ın ayetlerini okuyan, Allah'a ve ahiret gününe inanan, iyiliklere koşanlar iyilerdendir.",
+  "akilda": "Siz, insanlar için ortaya çıkarılan, doğruluğu emreden, fenalıktan alıkoyan ve Allah'a inanan hayırlı bir ümmetsiniz."
+ },
+ "65": {
+  "ozet": "İnkâr edenlerin malları ve çocukları Allah'a karşı onlara fayda vermez; dünyada harcadıkları, ekinleri kavurup mahveden soğuk bir rüzgâra benzer ve onlar kendilerine yazık etmişlerdir. İnananlara kendilerinden olmayanları sırdaş edinmemeleri emredilir; onlar karşılaşınca inandık der, yalnız kalınca öfkeden parmaklarını ısırır, inananlara iyilik gelince üzülür, kötülük gelince sevinirler. Sabredip sakınanlara onların hilesi hiçbir zarar vermez; Allah yapılan her şeyi ilmiyle kuşatmıştır. İnananların savaşta duracakları yerlere yerleştirilmesi için erkenden evden çıkıldığı hatırlatılır; Allah işitir ve bilir.",
+  "akilda": "Sabreder ve sakınırsanız, onların hilesi size hiçbir zarar vermez."
+ },
+ "66": {
+  "ozet": "İnananlardan iki takım bozulup geri çekilmek üzereydi, oysa Allah onların dostuydu; inananlar yalnız Allah'a güvenmelidir. Allah, düşkün bir durumdayken Bedir'de onlara yardım etmişti; sabredip sakınırlarsa Rablerinin meleklerle imdat edeceği müjdelenir ve yardımın ancak Güçlü ve Hakim olan Allah katından olduğu bildirilir. Zalimlerin tevbesini kabul etmek ya da onlara azap etmek Allah'ın işidir; göklerde ve yerde olanlar O'nundur, dilediğini bağışlar, dilediğine azap eder. İnananlara faizi kat kat alarak yememeleri, inkâr edenler için hazırlanmış ateşten sakınmaları ve Allah'a ve Peygambere itaat etmeleri emredilir.",
+  "akilda": "Yardım ancak Güçlü ve Hakim olan Allah katından olur."
+ },
+ "67": {
+  "ozet": "Rabbin mağfiretine ve sakınanlar için hazırlanmış, eni gökler ve yer kadar olan cennete koşulması istenir. Sakınanlar bollukta ve darlıkta harcar, öfkelerini yener, insanları affeder, bir kötülük yapınca Allah'ı anıp bağışlanma diler ve bile bile direnmezler; karşılıkları bağışlanma ve temelli kalacakları cennetlerdir. Yalancıların sonuna bakmak için yeryüzünde gezilmesi öğütlenir; bu Kur'an insanlara açıklama, sakınanlara yol gösterme ve öğüttür. İnananlar gevşememeli ve üzülmemelidir, inanmışlarsa en üstün olan onlardır; Allah gerçek müminleri ortaya çıkarmak için bu günleri döndürüp durur ve zulmedenleri sevmez.",
+  "akilda": "Gevşemeyin, üzülmeyin; inanmışsanız mutlaka en üstün olan sizsiniz."
+ },
+ "68": {
+  "ozet": "Allah böylece iman edenleri günahlardan arıtmak, inkârcıları yok etmek ister; cihad edenler ve sabredenler belirmeden cennete girileceği sanılmamalıdır. Muhammed ancak bir peygamberdir, ondan önce de peygamberler geçmiştir; o ölür ya da öldürülürse geri dönen Allah'a hiçbir zarar vermez ve Allah şükredenlerin mükâfatını verecektir. Hiç kimse Allah'ın izni olmadan ölmez, ölüm belli bir vakte bağlanmıştır. Nice peygamberin yanında savaşan pek çok kişi başlarına gelenlerden dolayı yılmamış, Rablerinden bağışlanma, sebat ve yardım dilemiş; Allah da onlara dünya ve ahiret nimetini vermiştir.",
+  "akilda": "Muhammed ancak bir peygamberdir; ondan önce de peygamberler geçmiştir."
+ },
+ "69": {
+  "ozet": "İnananlar, inkâr edenlere itaat ederlerse geri döndürülüp kayba uğrayacakları konusunda uyarılır; oysa Mevlâları Allah'tır ve O yardımcıların en iyisidir. Allah, hakkında hiçbir delil indirmediği şeyleri O'na ortak koşan inkârcıların kalbine korku salacağını ve varacakları yerin cehennem olduğunu bildirir. Allah verdiği sözde durmuştu; ama zafer gösterildikten sonra gevşeyip çekiştiler ve isyan ettiler, kimi dünyayı kimi ahireti istiyordu; Allah onları denemek için geri çevirdi, sonra bağışladı. Peygamber arkalarından çağırırken kimseye bakmadan kaçıyorlardı; Allah onları kederden kedere uğrattı ki kaybettiklerine üzülmesinler.",
+  "akilda": "Mevlânız Allah'tır; O, yardımcıların en iyisidir."
+ },
+ "70": {
+  "ozet": "Kederden sonra Allah bir kısmına kendinden geçiren bir huzur ve güven indirdi; bir kısmı ise kendi derdine düşmüş, Allah hakkında cahiliye devrindeki gibi haksız düşüncelere kapılmıştı. Fikirleri alınsaydı burada öldürülmeyeceklerini söyleyenlere, buyruğun hepsinin Allah'ın olduğu ve ölümü yazılı olanların evlerinde olsalar bile devrilecekleri yere varacakları söylenir. İki topluluğun karşılaştığı gün yüz çevirenlerin ayağını şeytan kaydırmak istemişti, Allah onları affetti. İnananlar, yolculuğa ya da savaşa çıkan kardeşleri için \"Yanımızda olsalardı ölmezlerdi\" diyen inkârcılar gibi olmamalıdır; dirilten de öldüren de Allah'tır.",
+  "akilda": "Buyruğun hepsi Allah'ındır; dirilten de öldüren de O'dur."
+ },
+ "71": {
+  "ozet": "Ölünse de öldürülünse de herkes Allah katında toplanacaktır. Allah'ın rahmeti sayesinde onlara yumuşak davranıldığı, kaba ve katı kalpli olunsaydı dağılıp gidecekleri bildirilir; onları affetmek, onlar için bağışlanma dilemek, iş hakkında onlara danışmak ve karar verince Allah'a güvenmek emredilir. Allah yardım ederse kimse yenemez; hiçbir peygambere ganimete ve millet malına hıyanet yaraşmaz ve kıyamet günü herkese kazandığı haksızlık yapılmadan ödenir. Allah, inananlara ayetlerini okuyan, onları arındıran ve onlara Kitap ile hikmeti öğreten, kendilerinden bir peygamber göndererek iyilikte bulunmuştur.",
+  "akilda": "Allah size yardım ederse sizi yenecek yoktur; inananlar yalnız Allah'a güvensinler."
+ },
+ "72": {
+  "ozet": "İki topluluğun karşılaştığı gün başa gelen Allah'ın izniyledir; bu, inananları da münafıklık edenleri de belirtmek içindir. Münafıklık edenler savaşmaya çağrılınca \"Savaşmayı bilseydik ardınızdan gelirdik\" dediler; o gün imandan çok inkâra yakındılar ve kalplerinde olmayanı ağızlarıyla söylüyorlardı. Allah yolunda öldürülenler ölü sanılmamalıdır; onlar Rableri katında diridir ve Allah'ın verdiği nimetlerle sevinç içinde rızıklanırlar. Yara aldıktan sonra Allah'ın ve Peygamberin çağrısına koşanların, düşmanın ordu topladığı söylenince imanları artmış ve \"Allah bize yeter, O ne güzel Vekil'dir\" demişlerdir.",
+  "akilda": "Allah'ın ve Peygamberin çağrısına koşanlar der ki: Allah bize yeter, O ne güzel Vekil'dir."
+ },
+ "73": {
+  "ozet": "Kendilerine bir fenalık dokunmadan Allah'tan nimet ve bollukla geri dönüldüğü ve Allah'ın rızasına uyulduğu bildirilir; şeytan ancak kendi dostlarını korkutur, inananlar ise yalnız Allah'tan korkmalıdır. Küfürde yarışanlar ve imanı inkâra değişenler Allah'a hiçbir zarar veremez; inkârcılara verilen mühlet onların hayrına değildir, günahları çoğalsın diye verilir. Allah temizi pisten ayıracaktır; gaybı ise ancak peygamberlerinden dilediğine bildirir. Allah'ın bol nimetinden verdiklerinde cimrilik edenler bunu hayırlı sanmamalıdır; cimrilik ettikleri şey kıyamet günü boyunlarına dolanacaktır.",
+  "akilda": "Şeytan ancak kendi dostlarını korkutur; inanmışsanız onlardan korkmayın, Allah'tan korkun."
+ },
+ "74": {
+  "ozet": "Allah, \"Allah fakir, biz zenginiz\" diyenlerin sözünü işitmiştir; dediklerini ve haksız yere peygamberleri öldürdüklerini yazacak, onlara yakıcı azabı tattıracaktır, oysa Allah kullara asla zulmetmez. Ateşin yiyeceği bir kurban getirmeyen peygambere inanmamak üzere Allah'ın kendilerinden ahit aldığını söyleyenlere, doğru sözlüyseler belgeler getiren önceki peygamberleri niçin öldürdükleri sorulur. Her insan ölümü tadacak, ecirler kıyamet günü tam ödenecektir; dünya hayatı aldatıcı bir geçinmeden ibarettir. İnananlar mallarıyla ve canlarıyla sınanacak, üzücü sözler işitecektir; sabredip sakınmak sebat edilecek işlerdendir.",
+  "akilda": "Her insan ölümü tadacaktır; dünya hayatı ise aldatıcı bir geçinmeden ibarettir."
+ },
+ "75": {
+  "ozet": "Allah, Kitap verilenlerden onu insanlara açıklayacakları ve gizlemeyecekleri konusunda ahit almıştı; onlar ise onu arkalarına atıp az bir değere değiştiler. Yaptıklarına sevinen ve yapmadıklarıyla övülmekten hoşlananlar azaptan kurtulamayacaktır. Göklerin ve yerin yaratılışında, gece ile gündüzün art arda gelişinde akıl sahipleri için deliller vardır; onlar ayakta, otururken ve yan yatarken Allah'ı anar, yaratılışı düşünürler. Rablerinin bunu boşuna yaratmadığını söyleyip ateşin azabından korunmak, günahlarının bağışlanması, iyilerle birlikte can vermek ve kıyamet günü rezil edilmemek için dua ederler.",
+  "akilda": "Akıl sahipleri der ki: Rabbimiz, Sen bunu boşuna yaratmadın, Sen münezzehsin; bizi ateşin azabından koru."
+ },
+ "76": {
+  "ozet": "Rableri dualarını kabul edip erkek olsun kadın olsun, iş yapanın işini boşa çıkarmayacağını bildirdi; hicret edenlerin, yurtlarından çıkarılanların, O'nun yolunda eziyet görenlerin, savaşan ve öldürülenlerin günahlarını örtüp onları cennetlere koyacağını vadetti. İnkâr edenlerin refah içinde dolaşması aldatmamalıdır; varacakları yer cehennemdir. Rablerinden sakınanlara temelli kalacakları cennetler vardır; Kitap ehlinden Allah'a huşu duyarak inanıp ayetlerini az bir değere değişmeyenlerin ecri de Rableri katındadır. İnananlara sabretmeleri, daha sabırlı olmaları, cihada hazır bulunmaları ve Allah'tan sakınmaları emredilir.",
+  "akilda": "Sabredin, düşmanlarınızdan daha sabırlı olun ve Allah'a karşı gelmekten sakının ki başarıya erişesiniz."
+ },
+ "77": {
+  "ozet": "Nisâ suresi, insanları bir tek nefisten yaratan, ondan eşini var eden ve ikisinden pek çok erkek ve kadın meydana getiren Rablerine ve akrabalık haklarına riayetsizlikten sakınmaya çağırarak başlar. Yetimlere malları verilmeli, onların malları kendi mallarına karıştırılarak yenmemelidir. Velisi olunan yetim kızlara haksızlık yapmaktan korkanlar başka kadınlarla dörde kadar evlenebilir, aralarında adaletsizlikten korkanlar ise bir tane almalı ya da sahip olduklarıyla yetinmelidir; kadınlara mehirleri cömertçe verilmelidir. Yetimler evlenme çağına kadar denenmeli, olgunlaştıkları görülünce malları şahit huzurunda kendilerine verilmelidir.",
+  "akilda": "Ey insanlar, sizi bir tek nefisten yaratan Rabbinize hürmetsizlikten sakının."
+ },
+ "78": {
+  "ozet": "Ana babanın ve yakınların bıraktıklarından erkeklere de kadınlara da belirli bir hisse vardır; taksimde bulunan yakınlara, yetimlere ve düşkünlere de bir şey verilmeli ve güzel söz söylenmelidir. Arkalarında güçsüz çocuklar bırakmaktan endişe edecek olanlar haksızlıktan korkmalı ve dürüst söz söylemelidir; yetimlerin mallarını haksız yere yiyenler karınlarına ateş tıkınmış olur. Allah, çocukların ve ana babanın miras paylarını belirlemiştir; ana babanın payı vasiyet ya da borçtan arta kalandan verilir. Babalardan ve oğullardan hangisinin fayda bakımından daha yakın olduğu bilinmez; bu paylar Allah tarafından tespit edilmiştir.",
+  "akilda": "Miras payları Allah tarafından tespit edilmiştir; Allah bilendir, hakimdir."
+ },
+ "79": {
+  "ozet": "Eşlerin birbirinden alacağı miras payları ile çocuğu ve babası olmayan bir kişinin mirasında ana bir kardeşlerin payları, vasiyet ve borç çıktıktan sonra kalandan olmak üzere bildirilir; kimse zarara uğratılmamalıdır. Bunlar Allah'ın yasalarıdır; Allah'a ve Peygamberine itaat eden, içlerinden ırmaklar akan cennetlerde temelli kalacaktır ve büyük kurtuluş budur. Allah'a ve Peygamberine baş kaldırıp yasalarını aşan ise temelli kalacağı cehenneme sokulur ve ona alçaltıcı bir azap vardır.",
+  "akilda": "Allah'a ve Peygamberine kim itaat ederse, Allah onu içlerinden ırmaklar akan cennetlere koyacaktır; büyük kurtuluş budur."
+ },
+ "80": {
+  "ozet": "Kadınlardan zina edenler için dört şahit getirilmesi istenir; şahitlik ederlerse ölünceye ya da Allah onlara bir yol açıncaya kadar evlerde tutulurlar. Zina eden iki kişiye eziyet edilmesi, tevbe edip düzelirlerse bırakılmaları istenir; Allah kötülüğü bilmeyerek yapıp hemen tevbe edenlerin tevbesini kabul eder. Kötülüklerde direnip ölüm gelince \"Şimdi tevbe ettim\" diyenlerin ve kâfir olarak ölenlerin tevbesi ise makbul değildir. Kadınlara zorla mirasçı olmanın helal olmadığı, onlarla güzellikle geçinilmesi gerektiği bildirilir; hoşlanılmayan bir şeyi Allah çok hayırlı kılmış olabilir.",
+  "akilda": "Kadınlarla güzellikle geçinin; hoşlanmadığınız bir şeyi Allah çok hayırlı kılmış olabilir."
+ },
+ "81": {
+  "ozet": "Bir eşin yerine başka bir eş alınmak istendiğinde, birincisine bir yük altın verilmiş olsa bile ondan bir şey geri alınmamalıdır; çünkü eşler birbirine katılmıştır ve kadınlar sağlam bir teminat almıştır. Babaların evlendiği kadınlarla evlenilmemesi emredilir; bu fuhuş, iğrenç bir şey ve kötü bir yoldur, geçmişte olanlar ise geçmiştir. Ardından annelerden, kızlardan ve kız kardeşlerden başlayarak evlenilmesi haram kılınan kadınlar sayılır; süt anneler, süt kardeşler, eşlerin anneleri ve öz oğulların eşleri de bunlardandır, iki kız kardeşi bir arada almak da haram kılınmıştır. Allah bağışlar ve merhamet eder.",
+  "akilda": "Eşe verilen, bir yük altın bile olsa geri alınmaz; çünkü eşler birbirine katılmış ve kadınlar sağlam bir teminat almıştır."
+ },
+ "82": {
+  "ozet": "Evli kadınlarla evlenmek haram kılınmıştır, sahip olunan cariyeler bundan müstesnadır; bunların dışındakileri zinadan kaçınıp iffetli olarak mallarla istemek helal kılınmıştır. Kararlaştırılan mehirlerin verilmesi emredilir. Hür mümin kadınlarla evlenmeye gücü yetmeyen, iffetli mümin cariyelerle velilerinin izniyle evlenip mehirlerini örfe uygun şekilde verebilir; sabretmek ise daha hayırlıdır. Allah açıklamak, öncekilerin yollarını göstermek ve tevbeleri kabul etmek ister.",
+  "akilda": "Allah size açıklamak, sizden öncekilerin yollarını göstermek ve tevbenizi kabul etmek ister."
+ },
+ "83": {
+  "ozet": "Allah tevbeleri kabul etmek ister, şehvetlerine uyanlar ise büyük bir sapıklığa girilmesini ister; insan zayıf yaratıldığından Allah yükü hafifletmek ister. İnananlar mallarını aralarında haksızlıkla değil, karşılıklı rızayla yapılan ticaretle yemelidir. Yasaklanan büyük günahlardan kaçınanların kusurları örtülür ve şerefli bir yere yerleştirilirler. Erkeklere de kadınlara da kazandıklarından bir pay vardır; Allah'ın birbirinden üstün kıldığı şeyler özlenmemeli, O'ndan bol nimet istenmelidir.",
+  "akilda": "Size yasak edilen büyük günahlardan kaçınırsanız, kusurlarınızı örter ve sizi şerefli bir yere yerleştiririz."
+ },
+ "84": {
+  "ozet": "Allah'ın kimini kimine üstün kılması ve erkeklerin mallarından harcaması sebebiyle erkekler kadınlar üzerine hâkimdir; serkeşliğinden endişe edilen kadınlara karşı izlenecek yol bildirilir, itaat ederlerse aleyhlerine yol aranmaz. Karı kocanın arası açılırsa iki aileden birer hakem gönderilmelidir. Allah'a kulluk edilmesi, O'na ortak koşulmaması; ana babaya, yakınlara, yetimlere, düşkünlere, komşulara, arkadaşa ve yolcuya iyilik edilmesi emredilir. Allah kendini beğenip öğünenleri sevmez; onlar cimrilik eder ve Allah'ın kendilerine verdiği nimeti gizlerler.",
+  "akilda": "Allah'a kulluk edin, O'na bir şeyi ortak koşmayın; ana babaya, yakınlara, yetimlere, düşkünlere ve komşulara iyilik edin."
+ },
+ "85": {
+  "ozet": "Mallarını gösteriş için harcayan, Allah'a ve ahiret gününe inanmayanları Allah sevmez; şeytanı arkadaş edinenin ne kötü arkadaşı vardır. Allah zerre kadar haksızlık yapmaz, zerre kadar bir iyiliği kat kat artırır ve büyük ecir verir. Her ümmete bir şahit getirileceği gün, inkâr edip Peygambere baş kaldıranlar yerle bir olmayı isteyecek ve Allah'tan bir söz gizleyemeyeceklerdir. İnananlara sarhoşken ne dediklerini bilene kadar, cünüpken de gusledene kadar namaza yaklaşmamaları emredilir; su bulamadıklarında temiz bir toprakla teyemmüm ederler.",
+  "akilda": "Allah zerre kadar haksızlık yapmaz; zerre kadar bir iyilik olsa onu kat kat artırır."
+ },
+ "86": {
+  "ozet": "Allah düşmanları çok iyi bilir; dost olarak da yardımcı olarak da Allah yeter. Yahudilerden, sözleri yerlerinden değiştirip dillerini eğip bükerek dini yerenler vardır; \"İşittik ve itaat ettik\" deselerdi onlar için daha iyi olurdu. Kitap verilenler, yanlarındakini tasdik eden Kur'an'a inanmaya çağrılır. Allah kendisine ortak koşulmasını bağışlamaz, bundan başkasını dilediğine bağışlar; Allah'a ortak koşan büyük bir günahla iftira etmiş olur.",
+  "akilda": "Allah kendisine ortak koşulmasını bağışlamaz, bundan başkasını dilediğine bağışlar."
+ },
+ "87": {
+  "ozet": "Allah'ın lanetlediği kişiye yardımcı bulunamaz; Allah'ın bol nimetinden verdiklerini çekemeyenlere, İbrahim ailesine kitap, hikmet ve büyük hükümranlık verildiği hatırlatılır. Allah'ın ayetlerini inkâr edenler ateşe sokulacak, inanıp yararlı iş işleyenler ise içlerinden ırmaklar akan cennetlerde temelli kalacaktır. Allah emanetlerin ehline teslim edilmesini ve insanlar arasında adaletle hükmedilmesini emreder. İnananlar Allah'a, Peygambere ve kendilerinden buyruk sahibi olanlara itaat etmeli, çekiştikleri şeyi Allah'a ve Peygambere bırakmalıdır.",
+  "akilda": "Allah size, emanetleri ehline teslim etmenizi ve insanlar arasında hükmettiğinizde adaletle hükmetmenizi emreder."
+ },
+ "88": {
+  "ozet": "Kur'an'a ve öncekilere inandıklarını iddia ettikleri halde, tanımamakla emrolundukları putlarının önünde muhakeme olunmak isteyenler vardır; şeytan onları derin bir sapıklığa saptırmak ister. Allah'ın indirdiğine ve Peygambere çağrıldıklarında münafıklar büsbütün uzaklaşır, başlarına musibet gelince iyilik etmek ve uzlaştırmaktan başka bir şey istemediklerine yemin ederler. Her peygamber, Allah'ın izniyle itaat olunması için gönderilmiştir. Çekiştikleri şeylerde Peygamberi hakem tayin edip verdiği hükmü içlerinde sıkıntı duymadan tamamen kabul etmedikçe inanmış olmazlar.",
+  "akilda": "Biz her peygamberi ancak, Allah'ın izniyle, itaat olunması için gönderdik."
+ },
+ "89": {
+  "ozet": "Kendilerine verilen öğüdü yerine getirselerdi onlar için daha iyi olurdu, Allah da onlara büyük ecir verip doğru yola eriştirirdi. Allah'a ve Peygambere itaat edenler, Allah'ın nimetine eriştirdiği peygamberler, dosdoğru olanlar, şehitler ve iyilerle beraberdir. İnananlara ihtiyatlı davranıp bölük bölük ya da hep birden savaşa gitmeleri emredilir; aralarında ağır davranan, musibet gelince onlarla bulunmadığını iyilik sayan, nimet gelince keşke onlarla olsaydım diyenler vardır. Dünya hayatı yerine ahireti alanlar Allah yolunda savaşmalıdır; öldürülen de galip gelen de büyük ecir alacaktır.",
+  "akilda": "Kim Allah'a ve Peygambere itaat ederse, işte onlar Allah'ın nimetine eriştirdiği peygamberlerle, dosdoğru olanlar, şehitler ve iyilerle beraberdir."
+ },
+ "90": {
+  "ozet": "Zalim bir şehirden kurtarılmak için Rablerine yalvaran zavallı çocuklar, erkekler ve kadınlar uğrunda ve Allah yolunda savaşılmamasının sebebi sorulur. İnananlar Allah yolunda, inkâr edenler tağut yolunda savaşır; şeytanın hilesi zayıftır. Savaş farz kılınınca insanlardan Allah'tan korkar gibi korkanlara, dünya geçimliğinin az, ahiretin sakınanlar için hayırlı olduğu söylenir; ölüm sağlam kalelerde bile insana yetişecektir. İyiliği Allah'tan, kötülüğü ise Peygamberden bilenlere \"Hepsi Allah'tandır\" denmesi emredilir.",
+  "akilda": "Dünya geçimliği azdır; ahiret, Allah'a karşı gelmekten sakınan için hayırlıdır."
+ },
+ "91": {
+  "ozet": "Peygambere itaat eden Allah'a itaat etmiş olur; yanında \"Peki\" deyip geceleyin başka şeyler kuranlara aldırış edilmemeli, Allah'a güvenilmelidir. Kur'an Allah'tan başkasından gelseydi onda çok aykırılık bulunurdu; güven ya da korku haberleri yayılmak yerine Peygambere ve buyruk sahiplerine götürülmelidir. Allah yolunda savaşılması ve inananların teşvik edilmesi emredilir; iyi bir işe aracılık edene ondan bir pay, kötü bir şeye aracılık edene de ondan bir hisse vardır. Verilen selama daha iyisiyle ya da aynısıyla karşılık verilmelidir.",
+  "akilda": "Size bir selam verildiği zaman, ondan daha iyisiyle selam verin veya aynısıyla karşılık verin."
+ },
+ "92": {
+  "ozet": "Allah'tan başka tanrı yoktur ve O, kıyamet günü insanları mutlaka toplayacaktır. Müslümanlar münafıklar hakkında iki fırkaya ayrılmamalıdır; onlar inananların da kendileri gibi inkâr etmesini ister. Allah yolunda hicret etmedikçe onlardan dost edinilmemesi, yüz çevirirlerse tutulup bulundukları yerde öldürülmeleri emredilir; anlaşmalı bir millete sığınanlar ya da savaştan bıkarak başvuranlar bundan müstesnadır. Uzak durup savaşmayan ve barış teklif edenlere Allah dokunulmasına izin vermez.",
+  "akilda": "Allah'tan başka tanrı yoktur; geleceğinde şüphe olmayan kıyamet günü sizi mutlaka toplayacaktır."
+ },
+ "93": {
+  "ozet": "Bir müminin başka bir mümini yanlışlık dışında öldürmesi asla caiz değildir. Yanlışlıkla öldüren, duruma göre mümin bir köle azat etmeli ve ailesi bağışlamadıkça diyet ödemelidir; bulamayan, tevbesinin kabulü için ard arda iki ay oruç tutar. Bir mümini kasten öldürenin cezası içinde temelli kalacağı cehennemdir; Allah ona gazap etmiş, lanetlemiş ve büyük azap hazırlamıştır. Allah yolunda yürüyen inananlar her şeyi iyice anlamalı, dünya menfaatine göz dikerek müslüman olduğunu bildirene \"Sen mümin değilsin\" dememelidir.",
+  "akilda": "Size müslüman olduğunu bildirene, dünya hayatının geçici menfaatine göz dikerek \"Sen mümin değilsin\" demeyin."
+ },
+ "94": {
+  "ozet": "Allah, malları ve canlarıyla cihat edenleri özürsüz oturanlardan büyük ecirler, dereceler, mağfiret ve rahmetle üstün kılmış, hepsine de cenneti vadetmiştir. Kendilerine yazık edenler canları alınırken zavallı olduklarını söyleyecek, melekler de Allah'ın arzının geniş olduğunu hatırlatacaktır ve varacakları yer cehennemdir; çaresiz kalan zavallıların ise affedilmesi umulur. Allah yolunda hicret eden bereketli yer ve genişlik bulur; hicret için evinden çıkıp ölenin ecrini vermek Allah'a düşer. Yolculukta kâfirlerin fenalık yapmasından korkulursa namazı kısaltmakta sorumluluk yoktur.",
+  "akilda": "Allah yolunda hicret eden kişi, yeryüzünde çok bereketli yer ve genişlik bulur."
+ },
+ "95": {
+  "ozet": "Namaz kıldırılırken bir kısmın silahlarını yanına alarak namaza durması, secdeden sonra arkaya geçmesi ve kılmayan öbür kısmın gelip kılması emredilir; kâfirler ansızın baskın vermek için silahlardan ayrılmayı dilerler. Namazdan sonra da Allah ayakta, otururken ve yan yatarken anılmalı, emniyete kavuşulunca namaz gereğince kılınmalıdır; namaz inananlara belirli vakitlerde farz kılınmıştır. Kitap, insanlar arasında Allah'ın gösterdiği gibi hükmedilsin diye hak olarak indirilmiştir; hainlerden taraf olunmamalıdır.",
+  "akilda": "Namaz şüphesiz, inananlara belirli vakitlerde farz kılınmıştır."
+ },
+ "96": {
+  "ozet": "Allah'tan mağfiret dilenmesi ve hainlik edenlerden yana uğraşılmaması istenir; Allah hainlikte direnen suçluyu sevmez. Onlar Allah'ın razı olmadığı sözü gece kurarken insanlardan gizler, kendileriyle beraber olan Allah'tan gizlemezler; kıyamet günü onları Allah'a karşı kimin savunacağı sorulur. Kötülük işleyip Allah'tan bağışlanma dileyen, Allah'ı mağfiret ve merhamet sahibi bulur; suçunu bir suçsuzun üzerine atan ise apaçık bir günah yüklenmiş olur. Kitap ve hikmetin indirilip bilinmeyenin öğretilmesi Allah'ın büyük nimetidir.",
+  "akilda": "Kim kötülük işler veya kendine yazık eder de sonra Allah'tan bağışlanma dilerse, Allah'ı mağfiret ve merhamet sahibi olarak bulur."
+ },
+ "97": {
+  "ozet": "Gizli toplantıların çoğunda hayır yoktur; sadaka vermeyi, iyilik yapmayı ve insanların arasını düzeltmeyi gözetenler müstesnadır, bunu Allah rızası için yapana büyük ecir verilecektir. Doğru yol belli olduktan sonra Peygamberden ayrılıp inananların yolundan başkasına uyan cehenneme sokulur. Allah kendisine ortak koşulmasını bağışlamaz, bundan başkasını dilediğine bağışlar. Allah'ı bırakıp, Allah'ın lanet ettiği ve kullarından bir takımını saptıracağını söyleyen azgın şeytanı dost edinen açık bir kayba uğramıştır; şeytan ancak aldatmak için vaatte bulunur.",
+  "akilda": "Sadaka vermeyi, iyilik yapmayı ve insanların arasını düzeltmeyi gözetenler dışında, gizli toplantıların çoğunda hayır yoktur."
+ },
+ "98": {
+  "ozet": "İnanıp yararlı işler yapanlar, Allah'ın gerçek bir sözü olarak, içlerinden ırmaklar akan cennetlerde temelli kalacaktır. Bu, kuruntulara göre değildir; kim fenalık yaparsa cezasını görür, erkek ya da kadın, mümin olarak yararlı işler yapan ise cennete girer ve zerre kadar zulme uğramaz. İyilik yaparak kendini Allah'a teslim edip hakka yönelen İbrahim'in dinine uyandan din bakımından daha iyi kimse yoktur; Allah İbrahim'i dost edinmişti. Kadınlar hakkındaki fetvayı Allah'ın verdiği, yetim kadınlara, zavallı çocuklara ve yetimlere doğrulukla bakılması gerektiği bildirilir.",
+  "akilda": "Erkek veya kadın, mümin olarak kim yararlı işler işlerse, işte onlar cennete girerler ve kendilerine zerre kadar zulmedilmez."
+ },
+ "99": {
+  "ozet": "Kadın kocasının serkeşliğinden ya da aldırışsızlığından endişe ederse aralarında anlaşmaya çalışmalarında bir engel yoktur; anlaşmak daha hayırlıdır. Kadınlar arasında tam eşitlik sağlanamasa da birine tamamen meyledip diğerini askıda bırakmamak gerekir; ayrılırlarsa Allah her birini geniş nimetiyle yoksulluktan kurtarır. Göklerde ve yerde olanlar Allah'ındır; sizden önce Kitap verilenlere de size de Allah'tan sakınmanız tavsiye edilmiştir. Allah dilerse insanları yok edip başkalarını getirir; dünyanın da ahiretin de nimeti O'nun katındadır.",
+  "akilda": "Göklerde ve yerde olanlar Allah'ındır; vekil olarak Allah yeter."
+ },
+ "100": {
+  "ozet": "İnananlar, kendileri, ana babaları ve yakınları aleyhine de olsa Allah için şahit olarak adaleti gözetmeli, adalette heveslere uymamalıdır. Allah'a, Peygamberine, ona indirdiği Kitap'a ve daha önce indirdiği Kitap'a inanmakta sebat göstermeleri istenir; Allah'ı, meleklerini, kitaplarını, peygamberlerini ve ahiret gününü inkâr eden derin bir sapıklığa sapmıştır. İnananları bırakıp kâfirleri dost edinen münafıklara elem verici bir azap vardır; oysa kudret bütünüyle Allah'ındır. Allah'ın ayetleri inkâr edilip alaya alınırken, başka söze geçilmedikçe onlarla oturulmaması bildirilir.",
+  "akilda": "Ey inananlar, kendiniz, ana babanız ve yakınlarınız aleyhine de olsa, Allah için şahit olarak adaleti gözetin."
+ },
+ "101": {
+  "ozet": "Müminleri gözleyenler, onlara zafer gelince yanlarında olduklarını, kâfirlere pay çıkınca da onları koruduklarını söylerler; Allah kıyamet günü hüküm verecek ve inkârcılara inananlar aleyhinde asla fırsat vermeyecektir. Münafıklar Allah'ı aldatmaya çalışır, namaza tembel tembel kalkar, gösteriş yapar ve iki taraf arasında bocalayarak Allah'ı pek az anarlar; onlar cehennemin en alt tabakasındadır. İnananlar müminleri bırakıp kâfirleri dost edinmemelidir. Tevbe edip kendini düzelten, Allah'ın Kitabına sarılan ve dinine Allah için candan bağlananlar ise inananlarla beraberdir; Allah şükrün karşılığını verir.",
+  "akilda": "Şükreder ve inanırsanız, Allah size niçin azap etsin?"
+ },
+ "102": {
+  "ozet": "Allah, zulme uğrayan kimse dışında kötülüğün sözle bile açığa vurulmasını sevmez; bir iyiliği açığa vuran ya da gizleyen, bir kötülüğü affeden bilsin ki Allah da affedendir. Allah'ı ve peygamberlerini inkâr edip Allah ile peygamberlerinin arasını ayırmak isteyenler gerçekten kâfirdir; peygamberlerden hiçbirini ayırmadan inananlara ise Allah ecirlerini verecektir. Kitap ehli gökten bir kitap indirilmesini ister; daha önce de Musa'dan Allah'ı apaçık göstermesini istemiş, sonra buzağıyı tanrı edinmişlerdi. Allah bunları affetmiş, Tur dağını üzerlerine kaldırıp onlardan sağlam bir söz almıştı.",
+  "akilda": "Allah'a ve peygamberlerine inanıp onlardan hiçbirini ayırmayanlara Allah ecirlerini verecektir."
+ },
+ "103": {
+  "ozet": "Sözleşmelerini bozmaları, Allah'ın ayetlerini inkâr etmeleri, peygamberleri haksız yere öldürmeleri ve Meryem'e büyük bir iftirada bulunmaları yüzünden Allah onların kalplerini mühürledi. \"Meryem oğlu İsa Mesih'i öldürdük\" dediler; oysa onu öldürmediler, asmadılar, onlara öyle göründü; bilakis Allah onu kendi katına yükseltti. Yahudilerin haksızlıkları, faiz almaları ve insanların mallarını haksızlıkla yemeleri yüzünden kendilerine helal kılınan temiz şeyler onlara haram kılındı. Onlardan ilimde derinleşmiş olanlara ve namaz kılıp zekât veren, Allah'a ve ahiret gününe inanan müminlere büyük ecir verilecektir.",
+  "akilda": "Meryem oğlu İsa Mesih'i kesin olarak öldürmediler; bilakis Allah onu kendi katına yükseltti."
+ },
+ "104": {
+  "ozet": "Allah, Nuh'a, İbrahim'e, İsmail'e, İshak'a, Yakub'a, İsa'ya, Eyyub'a, Yunus'a, Harun'a ve Süleyman'a vahyettiği gibi Peygambere de vahyetmiş, Davud'a da Zebur vermiştir. Müjdeci ve uyarıcı peygamberler, insanların Allah'a karşı bir hüccetleri olmaması için gönderilmiştir; Allah Musa'ya da hitap etmiştir. Allah indirdiğine şahitlik eder, melekler de şahitlik eder; inkâr edip Allah yolundan alıkoyanlar derin bir sapıklığa sapmıştır. Ey insanlar, Peygamber Rabbinizden size gerçekle geldi; inanın, bu sizin hayrınızadır.",
+  "akilda": "Ey insanlar, Peygamber Rabbinizden size gerçekle geldi; inanın, bu sizin hayrınızadır."
+ },
+ "105": {
+  "ozet": "Kitap ehline dinlerinde taşkınlık etmemeleri ve Allah hakkında ancak gerçeği söylemeleri emredilir. Meryem oğlu İsa Mesih, Allah'ın peygamberi, Meryem'e ulaştırdığı kelimesi ve kendinden bir ruhtur; \"üçtür\" denmemelidir, Allah ancak bir tek Tanrı'dır ve çocuğu olmaktan münezzehtir. Mesih de gözde melekler de Allah'a kul olmaktan çekinmez; kulluktan çekinip büyüklük taslayanlar elem verici bir azaba uğrar. İnsanlara Rablerinden açık bir delil gelmiş, apaçık bir nur olarak Kur'an indirilmiştir; Allah'a inanıp Kitabına sarılanlar O'nun rahmetine kavuşur.",
+  "akilda": "Allah ancak bir tek Tanrı'dır, çocuğu olmaktan münezzehtir; göklerde ve yerde olanlar O'nundur."
+ },
+ "106": {
+  "ozet": "Çocuğu olmadan ölen kimsenin mirası açıklanır: bir kız kardeşi varsa bıraktığının yarısı ona, iki kız kardeşi varsa üçte ikisi onlara kalır. Kız kardeşin çocuğu yoksa erkek kardeşi ona tamamen mirasçı olur; mirasçılar erkek ve kız kardeşlerse erkeğe iki kadının hissesi kadar verilir. Müminlerden akitleri yerine getirmeleri istenir; ihramda avlanmayı helal saymamak kaydıyla, bildirilecek olanlar dışında hayvanlar helal kılınmıştır. Allah'ın nişanelerine, hürmet edilen aya, kurbanlıklara ve Beyt-i Haram'a gelenlere hürmetsizlik edilmemeli; iyilikte ve sakınmada yardımlaşılmalı, günah ve aşırılıkta yardımlaşılmamalıdır.",
+  "akilda": "İyilikte ve fenalıktan sakınmakta yardımlaşın, günah işlemek ve aşırı gitmekte yardımlaşmayın."
+ },
+ "107": {
+  "ozet": "Leş, kan, domuz eti, Allah'tan başkası adına kesilenler ve canı çıkmadan kesilmemiş boğulmuş, vurulmuş, düşmüş, süsülmüş ya da yırtıcının yediği hayvanlar haram kılınmıştır. Dikili taşlar üzerinde boğazlananlar ve fal oklarıyla kısmet aramak da haramdır; açlıktan darda kalan, günaha kaymaksızın yiyebilir. Bugün din bütünlenmiş, nimet tamamlanmış ve din olarak İslam beğenilmiştir. Temiz olanlar, üzerine Allah'ın adı anılarak avcı hayvanların tuttukları, Kitap verilenlerin yemeği ve zina etmeksizin, gizli dost tutmaksızın ve mehirleri verilmek şartıyla mümin ve Kitap verilenlerden hür ve iffetli kadınlar helal kılınmıştır.",
+  "akilda": "Bugün size dininizi bütünledim, üzerinize olan nimetimi tamamladım, din olarak sizin için İslam'ı beğendim."
+ },
+ "108": {
+  "ozet": "Namaza kalkınca yüzü ve dirseklere kadar elleri yıkamak, başı meshetmek ve topuk kemiklerine kadar ayakları yıkamak emredilir; cünüp olan yıkanıp temizlenir. Hasta ya da yolculukta olan, ayak yolundan gelen ya da kadınlara yaklaşan kimse su bulamazsa temiz toprakla teyemmüm edip yüzünü ve ellerini onunla meshetmelidir. Allah zorlamak değil, arındırıp nimetini tamamlamak ister. Müminler Allah için adaleti ayakta tutan şahitler olmalı, bir topluluğa duyulan öfke onları adaletsizliğe sürüklememelidir; Allah inanıp yararlı işler işleyenlere mağfiret ve büyük ecir vadetmiştir.",
+  "akilda": "Bir topluluğa olan öfkeniz sizi adaletsizliğe sürüklemesin; adil olun, bu, Allah'a karşı gelmekten sakınmaya daha yakındır."
+ },
+ "109": {
+  "ozet": "İnkâr edip ayetleri yalanlayanlar cehennemliktir. Müminlere, bir topluluk kendilerine saldırmaya kalkıştığında Allah'ın buna engel olduğu hatırlatılır ve Allah'a güvenmeleri istenir. Allah İsrailoğullarından söz almış ve içlerinden on iki reis seçilmişti; namaz kılar, zekât verir, peygamberlere inanıp yardım ederlerse kötülüklerini örteceğini ve onları cennetlere koyacağını bildirmişti. Sözlerini bozdukları için lanetlendiler ve kalpleri katılaştırıldı; sözleri yerlerinden değiştirdiler, kendilerine belletilenin bir kısmını unuttular.",
+  "akilda": "Allah'tan sakının; inananlar Allah'a güvensinler."
+ },
+ "110": {
+  "ozet": "\"Biz Hıristiyanız\" diyenlerden de söz alınmıştı; onlar da kendilerine belletilenin bir kısmını unuttular, bu yüzden aralarına kıyamete kadar düşmanlık ve kin salındı. Kitap ehline, Kitap'tan gizlediklerinin çoğunu açıkça anlatan peygamberin, Allah'tan bir nurun ve apaçık bir Kitabın geldiği bildirilir. Allah, rızasını gözetenleri onunla selamet yollarına eriştirir ve karanlıklardan aydınlığa çıkarır. \"Allah ancak Meryem oğlu Mesih'tir\" diyenler kâfir olmuştur; göklerin, yerin ve aralarındakilerin hükümranlığı Allah'ındır, O dilediğini yaratır.",
+  "akilda": "Allah, rızasını gözetenleri selamet yollarına eriştirir ve onları izniyle karanlıklardan aydınlığa çıkarır."
+ },
+ "111": {
+  "ozet": "Yahudiler ve Hıristiyanlar Allah'ın oğulları ve sevgilileri olduklarını söylediler; onlara, öyleyse günahlarından ötürü niçin azap gördükleri sorulur, bilakis onlar da O'nun yarattığı insanlardır. Peygamberlerin arası kesildiğinde Kitap ehline müjdeci ve uyarıcı olarak peygamber gelmiştir. Musa milletine Allah'ın nimetini hatırlatıp Allah'ın onlara yazdığı kutsal yere girmelerini söyledi; onlar orada zorba bir millet bulunduğunu söyleyip girmek istemediler. Korkanlar arasından Allah'ın nimete erdirdiği iki adam, kapıdan girerlerse galip geleceklerini söyleyip inanıyorlarsa Allah'a güvenmelerini istedi.",
+  "akilda": "Allah'ın nimete erdirdiği iki adam der ki: Üstlerine kapıdan yürüyün; eğer inanıyorsanız Allah'a güvenin."
+ },
+ "112": {
+  "ozet": "Musa'ya, oradakiler çıkmadıkça asla girmeyecekleri, Musa ile Rabbinin gidip savaşması söylendi; Musa, yalnızca kendine ve kardeşine söz geçirebildiğini söyleyip yoldan çıkmış milletle aralarının ayrılmasını diledi. Allah orayı onlara kırk yıl haram kıldı; yeryüzünde şaşkın şaşkın dolaşacaklardı. Âdem'in iki oğlu birer kurban sundu, birininki kabul edildi; kabul edilmeyen kardeşini öldüreceğini söyleyince kardeşi, Allah'tan korktuğu için onu öldürmek üzere elini uzatmayacağını söyledi. Nefsine uyan kardeşini öldürdü; Allah'ın gönderdiği bir karga kardeşinin ölüsünü nasıl gömeceğini gösterince ettiğine yananlardan oldu.",
+  "akilda": "Âdem'in iki oğlundan biri der ki: Allah ancak sakınanların takdimesini kabul eder."
+ },
+ "113": {
+  "ozet": "İsrailoğullarına, bir kimseyi bir kimseye veya yeryüzünde bozgunculuğa karşılık olmadan öldürenin bütün insanları öldürmüş, birini ölümden kurtaranın bütün insanları diriltmiş gibi olacağı yazıldı. Allah ve Peygamberiyle savaşıp yeryüzünde bozgunculuğa uğraşanların cezası öldürülmek, asılmak, el ve ayaklarının çapraz kesilmesi ya da sürülmektir; bu onlara dünyada rezilliktir, ahirette de büyük azap vardır. Yakalanmadan önce tevbe edenler bunun dışındadır; müminlerden Allah'a ulaşmaya yol aramaları ve yolunda cihat etmeleri istenir. Yeryüzündeki her şey ve bir katı daha kâfirlerin olsa da kıyamet azabına karşı fidyeleri kabul edilmez.",
+  "akilda": "Kim bir kimseyi bir kimseye veya yeryüzünde bozgunculuğa karşılık olmadan öldürürse bütün insanları öldürmüş, kim de onu ölümden kurtarırsa bütün insanları diriltmiş gibi olur."
+ },
+ "114": {
+  "ozet": "Ateşten çıkmak isteyenlerin çıkamayacağı ve onlara sürekli azap olduğu bildirilir. Erkek ve kadın hırsızın, yaptıklarından ötürü Allah tarafından ibret verici bir ceza olarak ellerinin kesilmesi emredilir; ettiği zulümden sonra tevbe edip düzelenin tevbesini Allah kabul eder. Göklerin ve yerin hükümranlığı Allah'ındır; dilediğine azap eder, dilediğini bağışlar. Kalpleri inanmadığı halde ağızlarıyla \"İnandık\" diyenler ve sözleri asıl yerlerinden değiştirenler Allah'ın kalplerini arıtmak istemediği kimselerdir; onlara dünyada rezillik, ahirette büyük azap vardır.",
+  "akilda": "Ettiği zulümden sonra tevbe edip düzelen kimse bilsin ki Allah onun tevbesini kabul eder."
+ },
+ "115": {
+  "ozet": "Yalana kulak verip haram yiyenler gelirlerse aralarında hükmedilebileceği ya da onlardan yüz çevrilebileceği bildirilir; hükmedilirse adaletle hükmedilmelidir. Yanlarında Allah'ın hükmünü içeren Tevrat varken hakemliğe başvurup sonra yüz çevirenler inanmış değildir. Allah Tevrat'ı yol gösterici olarak indirmiş, peygamberler, Rabbe kul olanlar ve bilginler onunla hükmederlerdi. Orada cana can, göze göz, buruna burun, kulağa kulak, dişe diş ve yaralara karşılıklı ödeşme yazılmıştır; hakkından vazgeçmek günahlara kefaret olur, Allah'ın indirdiğiyle hükmetmeyenler için önce kâfirler, sonra zalimler oldukları bildirilir.",
+  "akilda": "Eğer hükmedersen aralarında adaletle hüküm ver; Allah adil olanları sever."
+ },
+ "116": {
+  "ozet": "Meryem oğlu İsa, kendinden önceki Tevrat'ı doğrulayıcı olarak gönderildi; ona yol gösterici ve aydınlatıcı olan, Tevrat'ı doğrulayan İncil verildi. İncil sahiplerinin Allah'ın onda indirdiğiyle hükmetmesi istenir; Allah'ın indirdiğiyle hükmetmeyenler fasıktır. Kur'an, önceki Kitabı tasdik eden ve ona şahit olan bir Kitap olarak gerçekle indirilmiştir; Allah'ın indirdiğiyle hükmedilmesi ve onların heveslerine uyulmaması emredilir. Allah her biri için bir yol ve yöntem kılmıştır, dileseydi hepsini tek ümmet yapardı, fakat verdikleriyle onları denemektedir; iyiliklere koşuşulmalıdır, dönüş Allah'adır.",
+  "akilda": "Her biriniz için bir yol ve bir yöntem kıldık; o halde iyiliklere koşuşun, hepinizin dönüşü Allah'adır."
+ },
+ "117": {
+  "ozet": "Müminlerin Yahudileri ve Hıristiyanları dost edinmemesi istenir; onlar birbirlerinin dostudur ve onlara dost olan onlardandır. Kalplerinde hastalık olanlar bir felaketten korktuklarını söyleyerek onlara koşar. Dininden dönen olursa Allah, sevdiği ve O'nu seven, inananlara alçak gönüllü, inkârcılara karşı güçlü, Allah yolunda cihat eden ve yerenin yermesinden korkmayan bir millet getirir. Müminlerin dostu ancak Allah, Peygamberi ve namaz kılıp zekât veren müminlerdir; dini alaya alan Kitap verilenler ve inkârcılar dost edinilmemelidir.",
+  "akilda": "Sizin dostunuz ancak Allah, O'nun Peygamberi ve namaz kılan, zekât veren ve rükû eden müminlerdir."
+ },
+ "118": {
+  "ozet": "Namaza çağrıyı alay ve eğlenceye alanlar akletmeyen bir topluluktur. Kitap ehline, müminlerden Allah'a ve indirilenlere inandıkları için mi hoşlanmadıkları sorulur; Allah'ın lanet ve gazap ettiği, maymunlar, domuzlar ve şeytana kullar kıldığı kimseler yeri en kötü ve doğru yoldan en çok sapmış olanlardır. \"İnandık\" diyenler aslında inkârcı olarak girip inkârcı olarak çıkar; çoğu günaha, haksızlığa ve haram yemeğe koşar. Yahudiler \"Allah'ın eli sıkıdır\" dediler ve lanetlendiler; oysa O'nun iki eli de açıktır, nasıl dilerse sarfeder.",
+  "akilda": "Allah'ın iki eli de açıktır, nasıl dilerse sarfeder."
+ },
+ "119": {
+  "ozet": "Kitap ehli inanıp sakınsalardı kötülükleri örtülür, nimet cennetlerine konulurlardı; Tevrat'ı, İncil'i ve Rablerinden indirileni gereğince uygulasalardı her yönden nimete ererlerdi. Peygambere Rabbinden indirileni tebliğ etmesi emredilir; Allah onu insanlardan korur. İnananlar, Yahudiler, Sabiiler ve Hıristiyanlardan Allah'a ve ahiret gününe inanıp yararlı iş yapanlara korku yoktur, onlar üzülmeyeceklerdir. İsrailoğullarından söz alınmış, onlara peygamberler gönderilmişti; hoşlanmadıkları bir şeyle gelen peygamberlerin bir kısmını yalanlar, bir kısmını öldürürlerdi.",
+  "akilda": "Ey Peygamber, Rabbinden sana indirileni tebliğ et; Allah seni insanlardan korur."
+ },
+ "120": {
+  "ozet": "Bir fitne kopmayacağını sananlar körleşip sağırlaştı; Allah tevbelerini kabul etti, yine de çoğu körleşip sağırlaştı. \"Allah ancak Meryem oğlu Mesih'tir\" diyenler kâfir oldu; oysa Mesih, İsrailoğullarına Rabbi ve Rableri olan Allah'a kulluk etmelerini, Allah'a ortak koşana Allah'ın cenneti haram ettiğini ve varacağı yerin ateş olduğunu söylemişti. \"Allah üçten biridir\" diyenler de kâfir olmuştur; tanrı ancak bir tek Tanrı'dır. Meryem oğlu Mesih sadece bir peygamberdir, annesi dosdoğrudur ve ikisi de yemek yerlerdi.",
+  "akilda": "Mesih der ki: Ey İsrailoğulları, Rabbim ve Rabbiniz olan Allah'a kulluk edin."
+ },
+ "121": {
+  "ozet": "İsrailoğullarından inkâr edenler, baş kaldırmaları ve aşırı gitmeleri yüzünden Davud'un ve Meryem oğlu İsa'nın diliyle lanetlenmişlerdi; birbirlerinin fenalıklarına mani olmuyorlardı. Çoğu inkâr edenleri dost edinir; Allah'a, Peygambere ve Kur'an'a inansalardı onları dost edinmezlerdi. İnananlara en şiddetli düşman olarak Yahudiler ve Allah'a eş koşanlar, sevgice en yakın olarak da \"Biz Hıristiyanız\" diyenler bulunur; çünkü içlerinde bilginler ve rahipler vardır ve büyüklük taslamazlar. Kur'an'ı işittiklerinde gerçeği öğrendikleri için gözleri yaşla dolar ve inandıklarını söylerler.",
+  "akilda": "Kur'an'ı işitip gözleri yaşla dolanlar der ki: Rabbimiz, inandık, bizi de şahitlerden yaz."
+ },
+ "122": {
+  "ozet": "Kur'an'ı işitip inananlar, Rablerinin kendilerini iyi milletle birlikte bulundurmasını umduklarını söyler; Allah da dediklerine karşılık onlara altından ırmaklar akan cennetler verir, inkâr edip ayetleri yalanlayanlar ise cehennemliklerdir. İnananlara Allah'ın helal kıldığı temiz şeyleri haram kılmamaları, sınırı aşmamaları ve verilen rızıktan temiz ve helal olarak yemeleri emredilir. Allah bile bile edilen yeminlerden hesap sorar; keffaret on düşkünü yedirmek ya da giydirmek yahut bir köle azat etmek, bulamayan için üç gün oruçtur. İçki, kumar, putlar ve fal okları şeytan işi pisliklerdir; bunlardan kaçınılmalıdır.",
+  "akilda": "Ey inananlar, içki, kumar, putlar ve fal okları şeytan işi pisliklerdir; bunlardan kaçının ki saadete eresiniz."
+ },
+ "123": {
+  "ozet": "Şeytan, içki ve kumar yüzünden aranıza düşmanlık ve kin sokmak, sizi Allah'ı anmaktan ve namazdan alıkoymak ister. Allah'a ve Peygambere itaat emredilir; yüz çevrilirse Peygambere düşen yalnızca açıkça tebliğdir. Allah inananları, ihramlıyken ellerinin ve mızraklarının ulaştığı avla dener. İhramlıyken bile bile av öldürene, öldürdüğüne denk olduğuna iki adil kişinin hükmedeceği, Kâbe'ye ulaşacak bir kurban, düşkünleri doyurma ya da buna denk oruç keffareti vardır; tekrar edenden Allah öç alır.",
+  "akilda": "Şeytan, içki ve kumar yüzünden aranıza düşmanlık ve kin sokmak, sizi Allah'ı anmaktan ve namazdan alıkoymak ister."
+ },
+ "124": {
+  "ozet": "Deniz avı ve onu yemek helal, ihramlı olunduğu sürece kara avı ise haram kılınmıştır. Allah Kâbe'yi, hürmetli ayı, kurbanı ve tasmalı kurbanlıkları insanların faydası için ortaya koymuştur; O her şeyi bilir. Peygamberin görevi yalnızca tebliğdir; helal ile haram, haramın çokluğu hoşa gitse bile eşit değildir. İnananlara açıklanınca hoşlarına gitmeyecek şeyleri sormamaları söylenir; Allah, kulağı çentilen ve salıverilen hayvanlar gibi adakları emretmemiştir, inkâr edenler Allah'a karşı yalan uydururlar.",
+  "akilda": "Allah'ın azabının şiddetli olduğunu ve Allah'ın bağışlayan, merhamet eden olduğunu bilin."
+ },
+ "125": {
+  "ozet": "Allah'ın indirdiğine ve Peygambere çağrılanlar, atalarının yolunun kendilerine yettiğini söylerler; ya ataları bir şey bilmeyen ve doğru yolda olmayan kimseler idiyse? İnananlar kendilerine bakmalıdır; doğru yoldaysalar sapıtan kimse onlara zarar veremez. Ölüm gelince vasiyet ederken içlerinden iki adil kişi, yolculukta ise kendilerinden olmayan iki kişi şahit tutulur; şüphe edilirse bunlar namazdan sonra alıkonur ve akraba bile olsa hiçbir değeri değiştirmeyeceklerine, Allah'ın şahitliğini gizlemeyeceklerine yemin ederler. Bu şahitlerin günah işlediği ortaya çıkarsa ölene daha yakın iki hak sahibi onların yerine geçip Allah'a yemin eder.",
+  "akilda": "Ey inananlar, siz kendinize bakın; doğru yolda iseniz sapıtan kimse size zarar veremez."
+ },
+ "126": {
+  "ozet": "Allah peygamberleri topladığı gün onlara ne cevap verildiğini sorar; onlar bilgilerinin olmadığını, görülmeyenleri ancak O'nun bildiğini söylerler. Allah, Meryem oğlu İsa'ya kendisine ve annesine olan nimetini hatırlatır: Onu Ruhul Kudüs ile desteklemiş, ona Kitap'ı, hikmeti, Tevrat'ı ve İncil'i öğretmiştir; İsa beşikte ve yetişkinken insanlarla konuşmuştur. İsa, Allah'ın izniyle çamurdan kuş gibi bir şey yapıp ona üflemiş ve o kuş olmuş, anadan doğma körü ve alacalıyı iyi etmiş, ölüleri diriltmiştir. Havariler inandıklarını söyler ve İsa'ya, Rabbinin gökten bir sofra indirip indiremeyeceğini sorarlar.",
+  "akilda": "Havariler der ki: İnandık, bizim müslimler olduğumuza şahit ol."
+ },
+ "127": {
+  "ozet": "Meryem oğlu İsa, Allah'tan kendilerine ve sonra geleceklere bayram ve O'ndan bir delil olarak gökten bir sofra indirmesini diler; Allah onu indireceğini, sonra inkâr edene dünyalarda kimseye etmeyeceği bir azap edeceğini bildirir. Allah İsa'ya, insanlara kendisini ve annesini Allah'tan başka iki tanrı edinmelerini söyleyip söylemediğini sorar. İsa, hak olmayan sözü söylemenin kendisine yaraşmadığını, onlara yalnızca Allah'ın emrettiğini, \"Rabbim ve Rabbiniz olan Allah'a kulluk edin\" sözünü söylediğini bildirir. Allah, bunun doğrulara doğruluklarının fayda verdiği gün olduğunu bildirir; Allah onlardan, onlar da Allah'tan hoşnuttur.",
+  "akilda": "Meryem oğlu İsa der ki: Ben onlara sadece bana emrettiğini söyledim: Rabbim ve Rabbiniz olan Allah'a kulluk edin."
+ },
+ "128": {
+  "ozet": "Hamd, gökleri ve yeri yaratan, karanlıkları ve aydınlığı var eden Allah'a mahsustur; yine de inkâr edenler Rablerine başkalarını eşit tutarlar. Sizi çamurdan yaratan, size bir ecel tayin eden, içinizi dışınızı ve kazandıklarınızı bilen O'dur. İnkâr edenler gelen ayetlerden yüz çevirip gerçeği yalanladılar; oysa Allah onlardan önce nice nesli günahları yüzünden yok etmiştir. Kitap kâğıtta yazılı indirilip elleriyle dokunsalar bile apaçık bir büyü derlerdi; melek indirilmesini isterler, oysa melek indirilseydi iş bitmiş olurdu.",
+  "akilda": "Hamd, gökleri ve yeri yaratan, karanlıkları ve aydınlığı var eden Allah'a mahsustur."
+ },
+ "129": {
+  "ozet": "Peygamberden önce de nice peygamber alaya alınmış, onlarla eğlenenleri alaya aldıkları şey mahvetmiştir; yeryüzünde gezip yalanlayanların sonuna bakılması istenir. Göklerde ve yerde olanlar Allah'ındır; O rahmet etmeyi kendi üzerine almıştır ve sizi şüphe götürmeyen kıyamet gününde toplayacaktır. Peygambere, gökleri ve yeri yaratan, besleyip beslenmeyen Allah'tan başka dost edinmeyeceğini, ilk müslüman olmakla emrolunduğunu ve Rabbine karşı gelirse büyük günün azabından korktuğunu söylemesi emredilir. Allah bir sıkıntı verirse O'ndan başkası gideremez, bir iyilik verirse kimse engelleyemez.",
+  "akilda": "Allah sana bir sıkıntı verirse O'ndan başkası gideremez; sana bir iyilik verirse başkası onu engelleyemez."
+ },
+ "130": {
+  "ozet": "Peygamber, Allah'ın kendisiyle onlar arasında şahit olduğunu, Kur'an'ın onları ve ulaştığı kimseleri uyarmak için kendisine vahyedildiğini, Allah'ın tek tanrı olduğunu ve kendisinin onların ortak koşmasından uzak olduğunu söyler. Kendilerine Kitap verilenler Peygamberi çocuklarını tanır gibi tanırlar ama inanmazlar. Toplanma gününde ortak koşanlar, ortaklarının nerede olduğu sorulunca ortak koşmadıklarına yemin ederler; uydurdukları da onlardan uzaklaşır. Ateşin kenarında durdurulduklarında dünyaya döndürülmeyi, ayetleri yalanlamamış ve inananlardan olmuş olmayı dilerler.",
+  "akilda": "Allah'a karşı yalan uyduran veya ayetlerini yalanlayandan daha zalim kim vardır?"
+ },
+ "131": {
+  "ozet": "Daha önce gizledikleri kendilerine görünenler geri döndürülseler yine yasaklanan şeylere dönerlerdi; dirilmeyeceklerini söyleyenler Rablerinin huzurunda bunun gerçek olduğunu kabul eder, Allah da inkârları yüzünden azabı tatmalarını söyler. Dünya hayatı yalnızca oyun ve oyalanmadır, ahiret yurdu sakınanlar için daha iyidir. Onlar Peygamberi yalancı saymazlar, fakat zalimler Allah'ın ayetlerini bile bile inkâr ederler. Peygamberden önce de nice peygamber yalanlanmış ve yardım gelene kadar katlanmıştır; Allah'ın sözlerini değiştirebilecek yoktur.",
+  "akilda": "Dünya hayatı sadece oyun ve oyalanmadır; ahiret yurdu ise sakınanlar için daha iyidir."
+ },
+ "132": {
+  "ozet": "Daveti ancak kulak verenler kabul eder; ölüleri Allah diriltir, sonra O'na dönerler. Yerde yürüyen hayvanlar ve kanatlarıyla uçan kuşlar da sizin gibi birer topluluktur; Kitap'ta hiçbir şey eksik bırakılmamıştır ve hepsi Rablerine toplanacaktır. Ayetleri yalanlayanlar karanlıklarda kalmış sağır ve dilsizlerdir; azap ya da kıyamet saati gelince ise yalnızca Allah'a yalvarılır, O'na koşulan ortaklar unutulur. Önceki ümmetler yalvarsınlar diye darlık ve sıkıntıya sokulmuş, fakat kalpleri katılaşmıştır; hatırlatılanı unutunca her şeyin kapısı açılmış, verilene sevindikleri anda ansızın yakalanmışlardır.",
+  "akilda": "Yerde yürüyen hayvanlar ve kanatlarıyla uçan kuşlar da ancak sizin gibi birer topluluktur."
+ },
+ "133": {
+  "ozet": "Zulmeden milletin kökü böylece kesilmiştir; hamd âlemlerin Rabbi Allah'a mahsustur. Allah işitmeyi ve gözleri alsa, kalpleri kapasa, onları O'ndan başka hangi tanrının getirebileceği sorulur; peygamberler ancak müjdeci ve uyarıcı olarak gönderilir. Peygamber, Allah'ın hazinelerinin elinde olduğunu ve melek olduğunu söylemediğini, gaybı bilmediğini, yalnızca kendisine vahyolunana uyduğunu bildirir. Ona, Rablerine toplanacaklarından korkanları Kur'an ile uyarması ve sabah akşam Rablerinin rızasını isteyerek O'na yalvaranları kovmaması emredilir.",
+  "akilda": "İnanıp nefsini ıslah edenlere korku yoktur, onlar üzülmeyeceklerdir."
+ },
+ "134": {
+  "ozet": "\"Aramızdan Allah bunlara mı iyilikte bulundu?\" demeleri için onlar birbiriyle denenmiştir; Allah şükredenleri iyi bilendir. Peygambere, ayetlere inananlar gelince onlara selam vermesi emredilir; Rableri, bilmeyerek fenalık işleyip ardından tövbe eden ve kendini düzeltene rahmet etmeyi üzerine almıştır. Peygamber, Allah'tan başka yalvarılanlara kulluk etmekten menedildiğini, acele istenen şeyin elinde olmadığını ve hükmün ancak Allah'ın olduğunu söyler. Gaybın anahtarları Allah katındadır; düşen yaprağı, yerin karanlıklarındaki taneyi, yaşı ve kuruyu ancak O bilir.",
+  "akilda": "Gaybın anahtarları O'nun katındadır; düşen yaprağı, yerin karanlıklarındaki taneyi ancak O bilir."
+ },
+ "135": {
+  "ozet": "Geceleyin sizi ölü gibi uyutan, gündüz yaptıklarınızı bilen ve hayat süreniz doluncaya kadar sizi tekrar kaldıran O'dur; birinize ölüm gelince elçileri, bir eksiklik yapmaksızın onun canını alır. Kara ve denizin karanlıklarında O'na gizlice yalvaranları Allah her sıkıntıdan kurtarır, onlar ise sonra O'na ortak koşarlar. Üstten ve alttan azap göndermeye, sizi fırka fırka yapıp kiminize kiminizin hıncını tattırmaya kadir olan O'dur. Peygambere, ayetler hakkında çekişmeye dalanlardan başka bir söze geçene kadar yüz çevirmesi ve zulmedenlerle oturmaması emredilir.",
+  "akilda": "Haberiniz olsun, hüküm Allah'ındır; O, hesap görenlerin en süratlisidir."
+ },
+ "136": {
+  "ozet": "Sakınanlara onların hesabından bir sorumluluk yoktur, fakat belki sakınırlar diye bu bir hatırlatmadır. Peygambere, dinlerini oyun ve eğlenceye alanları bırakıp Kur'an ile öğüt vermesi emredilir; kazandığıyla helake düşen kimseye Allah'tan başka yardımcı bulunmaz, fidyesi de kabul olunmaz. Allah doğru yola eriştirdikten sonra fayda ve zarar veremeyen şeylere yalvarılmayacağı, doğru yolun ancak Allah'ın yolu olduğu, âlemlerin Rabbine teslim olup namaz kılmanın ve O'ndan sakınmanın emredildiği bildirilir. Gökleri ve yeri gerçekle yaratan O'dur; Sura üfleneceği gün hükümranlık O'nundur.",
+  "akilda": "Gökleri ve yeri gerçekle yaratan O'dur; \"Ol\" dediği an hemen olur, sözü gerçektir."
+ },
+ "137": {
+  "ozet": "İbrahim, babası Azer'e putları tanrı mı edindiğini sorar, onu ve milletini açık bir sapıklık içinde gördüğünü söyler. Yakinen bilenlerden olması için ona göklerin ve yerin hükümranlığı gösterilir; bir yıldızı, sonra doğarken ayı ve güneşi görünce her birine \"İşte bu benim Rabbim\" der. Yıldız batınca batanları sevmediğini, ay batınca Rabbi onu doğruya eriştirmeseydi sapıklardan olacağını, güneş batınca da milletinin ortak koştuklarından uzak olduğunu söyler. Yüzünü gökleri ve yeri yaratana çevirir, kendisiyle tartışan milletine Allah'a koştukları ortaklardan korkmadığını söyler.",
+  "akilda": "İbrahim der ki: Ben yüzümü, gökleri ve yeri yaratana, doğruya yönelerek çevirdim; ben ortak koşanlardan değilim."
+ },
+ "138": {
+  "ozet": "Güven, inanıp haksızlık karıştırmayanlaradır; bu, İbrahim'e milletine karşı verilen hüccettir. Ona İshak ve Yakub bağışlanmış; Nuh ve soyundan Davud, Süleyman, Eyyub, Yusuf, Musa, Harun, Zekeriya, Yahya, İsa, İlyas, İsmail, Elyesa, Yunus ve Lut doğru yola eriştirilmiştir. Kendilerine kitap, hüküm ve peygamberlik verilenler bunlardır; ortak koşsalardı amelleri boşa çıkardı. Peygambere onların yoluna uyması ve buna karşılık ücret istemediğini, bunun herkes için bir hatırlatma olduğunu söylemesi emredilir.",
+  "akilda": "Güven, inanıp haksızlık karıştırmayanlaradır; onlar doğru yoldadırlar."
+ },
+ "139": {
+  "ozet": "\"Allah hiçbir insana bir şey indirmemiştir\" diyenler Allah'ı gereği gibi değerlendirememişlerdir; Peygambere, Musa'nın nur ve yol gösterici olarak getirdiği Kitap'ı kimin indirdiğini sorması ve Allah demesi emredilir. Bu indirilen, kendinden öncekileri doğrulayan, Mekkelileri ve etrafındakileri uyaran mübarek bir Kitap'tır. Allah'a karşı yalan uyduran ya da kendisine vahyedilmediği halde \"Bana vahyolundu\" diyenden daha zalimi yoktur; melekler can çekişen zalimlere alçaltıcı azapla cezalandırılacaklarını söyler. Onlara, ilk yaratıldıkları gibi birer birer geldikleri ve ortak sandıklarının kendilerinden ayrıldığı söylenecektir.",
+  "akilda": "Bu indirdiğimiz, kendinden öncekileri doğrulayan mübarek Kitap'tır."
+ },
+ "140": {
+  "ozet": "Taneyi ve çekirdeği yaran Allah'tır; tan yerini ağartan, geceyi dinlenme zamanı, güneşi ve ayı vakit ölçüsü kılan, yıldızları kara ve denizin karanlıklarında yol bulmanız için var eden O'dur. Sizi bir tek nefisten yaratan, gökten su indirip taneleri, hurma salkımlarını, üzüm bağlarını, zeytini ve narı çıkaran da O'dur; bunlarda inananlar için deliller vardır. Cinleri O yaratmışken kâfirler O'na ortak koştular, oğullar ve kızlar uydurdular; O, onların vasıflandırmalarından yücedir. Gökleri ve yeri yoktan yaratan O'dur; zevcesi olmadan nasıl çocuğu olabilir?",
+  "akilda": "Taneyi ve çekirdeği yaran şüphesiz Allah'tır; işte Allah budur, nasıl yüz çevirirsiniz?"
+ },
+ "141": {
+  "ozet": "İşte Rabbiniz Allah budur; O'ndan başka tanrı yoktur, her şeyin yaratanıdır. Gözler O'nu görmez, O bütün gözleri görür; açık belgeleri gören kendi lehine, körlük eden kendi aleyhine davranmış olur. Peygambere Rabbinden vahyolunana uyması ve puta tapanlardan yüz çevirmesi emredilir; Allah dileseydi puta tapmazlardı. Allah'tan başka yalvarılanlara sövülmemelidir ki onlar da cahillikle Allah'a sövmesinler; mucize gösterilirse inanacaklarına yemin edenlere mucizelerin ancak Allah katında olduğu söylenir.",
+  "akilda": "Gözler O'nu görmez, O bütün gözleri görür; O Latif'tir, haberdardır."
+ },
+ "142": {
+  "ozet": "Kendilerine melekler indirilse, ölüler onlarla konuşsa ve her şey karşılarına toplansaydı bile, Allah dilemedikçe inanmayacakları bildirilir. Her peygambere, aldatmak için birbirine cazip sözler fısıldayan cin ve insan şeytanları düşman kılınmıştır; Peygambere onları iftiralarıyla baş başa bırakması söylenir. Allah Kitap'ı açık açık indirmişken O'ndan başka hakem aranmaz; Rabbin sözü doğruluk ve adaletle tamamlanmıştır. Yeryüzündekilerin çoğu zanna uyar; üzerine Allah'ın adı anılmış olandan yenmesi emredilir.",
+  "akilda": "Rabbinin sözü doğruluk ve adaletle tamamlandı; O'nun sözlerini değiştirebilecek yoktur."
+ },
+ "143": {
+  "ozet": "Allah, darda kalma hali dışında haram olanları genişçe açıklamıştır; üzerine Allah'ın adı anılmadan kesilmiş hayvanlar yenmez, bu Allah'ın yolundan çıkmaktır. Günahın açığı da gizlisi de bırakılmalıdır; şeytanlar tartışmak için dostlarına fısıldar, onlara itaat edilirse müşrik olunur. Ölü iken kalbi diriltilip önünü aydınlatacak bir nur verilen kimse, karanlıklarda kalıp çıkamayan gibi değildir. Allah, peygamberliğini vereceği kimseyi daha iyi bilir.",
+  "akilda": "Günahın açığını da gizlisini de bırakın; günah kazananlar, kazandıklarına karşılık ceza göreceklerdir."
+ },
+ "144": {
+  "ozet": "Allah kimi doğru yola koymak isterse kalbini İslamiyet'e açar, kimi saptırmak isterse göğe yükseliyormuş gibi kalbini dar ve sıkıntılı kılar. Rabbin dosdoğru yolu budur; ibret alanlar için Rableri katında selamet yurdu vardır. Allah hepsini topladığı gün cin topluluğuna insanların çoğunu yoldan çıkardıklarını söyler ve Allah'ın dilemesine bağlı olarak cehennemin temelli durakları olduğunu bildirir. Kendilerini uyaran peygamberler gelip gelmediği sorulan cin ve insanlar, dünya hayatına aldanıp inkârcı olduklarına kendi aleyhlerine şahitlik ederler.",
+  "akilda": "Allah kimi doğru yola koymak isterse onun kalbini İslamiyet'e açar."
+ },
+ "145": {
+  "ozet": "Allah, haberleri yokken kasabalar halkını haksız yere yok etmez; herkesin işlediğine göre dereceleri vardır. Rabbin müstağni ve rahmet sahibidir; dilerse insanları yok edip yerlerine dilediğini getirir, vadedilen mutlaka gelecektir. Peygambere, kavmine durumlarının gerektirdiğini yapmalarını, sonucun kimin için hayırlı olacağını bileceklerini söylemesi emredilir. Kendi zanlarına göre hayvan ve ekinlerden Allah'a ve putlarına pay ayıranların hükmü kötüdür; putlara hizmet edenler, onlara çocuklarını öldürmeyi iyi göstermiştir.",
+  "akilda": "Size vadedilen mutlaka yerine gelecektir; siz O'nu aciz kılamazsınız."
+ },
+ "146": {
+  "ozet": "Kendi iddialarıyla bazı hayvan ve ekinleri, hayvanların sırtına yük vurmayı ve karınlarındaki yavruları eşlerine yasaklayan, kesimde Allah'ın adını anmayanlar Allah'a iftira etmektedir; Allah bunun cezasını verecektir. Beyinsizlikle çocuklarını öldürenler ve Allah'ın verdiği nimetleri haram sayanlar mahvolmuştur. Bağları, ekinleri, hurmayı, zeytini ve narı yaratan Allah'tır; ürün verince yenmesi, biçildiği gün hakkının verilmesi ve israf edilmemesi emredilir. Hayvanları yük ve kesim için yaratan da O'dur; şeytana uyulmamalıdır.",
+  "akilda": "Ürün verdiği zaman ürününden yiyin, devşirildiği ve biçildiği gün hakkını verin; israf etmeyin, çünkü Allah müsrifleri sevmez."
+ },
+ "147": {
+  "ozet": "Koyun, keçi, deve ve sığırdan ikişer olmak üzere sekiz çift anılır; erkeklerini mi, dişilerini mi, yavrularını mı Allah'ın haram kıldığı sorularak bilgiye dayanan cevap istenir. Peygambere, kendisine vahyolunanda leş, akıtılmış kan, pis olan domuz eti ve günah işlenerek Allah'tan başkası adına kesilen hayvan dışında yemenin haram olduğuna dair emir bulamadığını söylemesi emredilir. Darda kalan, başkasının payına el uzatmadan ve zaruret miktarını aşmadan bunlardan yiyebilir. Yahudilere aşırı gitmelerinden ötürü tırnaklı her hayvan ile sığır ve davarın sırt, bağırsak ve kemik yağları dışındaki iç yağları haram kılınmıştır.",
+  "akilda": "Darda kalan, başkasının payına el uzatmamak ve zaruret miktarını aşmamak üzere bunlardan yiyebilir; Rabbin bağışlar ve merhamet eder."
+ },
+ "148": {
+  "ozet": "Yalanlayanlara Rabbin rahmetinin geniş olduğu, ama azabının suçlu milletten geri çevrilemeyeceği söylenir. Puta tapanlar, Allah dileseydi kendilerinin ve babalarının puta tapmayacağını ve hiçbir şeyi haram kılmayacaklarını söyler; onlara ancak zanna uydukları ve üstün delilin Allah'ın delili olduğu bildirilir. Rabbin haram kıldıkları sayılırken O'na hiçbir şeyin ortak koşulmaması, anaya babaya iyilik yapılması, yoksulluk korkusuyla çocukların öldürülmemesi, gizli ve açık kötülüklere yaklaşılmaması ve Allah'ın haram kıldığı cana haksız yere kıyılmaması buyrulur.",
+  "akilda": "O'na hiçbir şeyi ortak koşmayın, anaya babaya iyilik yapın, gizli ve açık kötülüklere yaklaşmayın."
+ },
+ "149": {
+  "ozet": "Yetim malına erginlik çağına kadar en iyi şeklin dışında yaklaşılmaması, ölçü ve tartının doğru yapılması, akraba bile olsa sözde adil olunması ve Allah'ın ahdinin yerine getirilmesi buyrulur. Kişiye ancak gücünün yeteceği kadar yüklenir; bu dosdoğru yola uyulmalı, Allah yolundan ayrı düşürecek yollara uyulmamalıdır. Musa'ya da iyilik işleyenlere nimeti tamamlamak, doğruyu göstermek ve rahmet olmak üzere Kitap verilmiştir. Bu indirilen kutsal Kitap'a uyulması istenir; ayetlerden yüz çevirenler kötü bir azapla cezalandırılacaktır.",
+  "akilda": "Bu, dosdoğru olan yoluma uyun; sizi Allah yolundan ayrı düşürecek yollara uymayın."
+ },
+ "150": {
+  "ozet": "Rabbin bazı mucizeleri geldiği gün, daha önce inanmamış ya da imanıyla bir iyilik kazanmamış kimseye imanı fayda vermez. Dinlerini parçalayıp fırka fırka olanlarla Peygamberin ilişiği yoktur; iyiliğe on katı verilir, kötülük ise ancak misliyle cezalandırılır. Peygambere, Rabbinin kendisini doğruya yönelen İbrahim'in dinine ilettiğini, namazının, ibadetlerinin, hayatının ve ölümünün âlemlerin Rabbi Allah için olduğunu söylemesi emredilir. Kimse başkasının yükünü taşımaz; insanları yeryüzünün halifeleri kılıp verdikleriyle deneyen O'dur.",
+  "akilda": "Namazım, ibadetlerim, hayatım ve ölümüm, âlemlerin Rabbi Allah içindir."
+ },
+ "151": {
+  "ozet": "Peygambere, insanları uyarması ve inananlara öğüt vermesi için bir Kitap indirildiği, bundan dolayı kalbine darlık gelmemesi bildirilir; Rablerinden indirilen Kitap'a uyulması, O'ndan başka dostlar edinilmemesi istenir. Nice kentler gece ya da gündüz uykusundayken baskına uğramış, sözleri yalnızca haksız olduklarını söylemek olmuştur. Gerçek tartı kıyamet günündedir; tartısı ağır gelenler kurtulur, hafif gelenler kendilerini mahvetmiştir. İnsanlar yaratılıp şekil verildikten sonra meleklere Âdem'e secde etmeleri söylenmiş, İblis'ten başka hepsi secde etmiştir.",
+  "akilda": "Gerçek tartı kıyamet günündedir; tartıları ağır gelenler, işte onlar kurtulanlardır."
+ },
+ "152": {
+  "ozet": "Allah secdeden kaçınana sebebini sorunca o, kendisinin ateşten, Âdem'in çamurdan yaratıldığını söyleyerek üstünlük iddia etti ve oradan inmesi emredildi. Diriliş gününe kadar ertelenmeyi isteyip ertelenince, doğru yol üzerinde insanlara karşı duracağına ve her yönden onlara sokulacağına and içti; Allah ona uyanlarla birlikte hepsini cehenneme dolduracağını bildirdi. Âdem ile eşine cennette istedikleri yerden yemeleri, yalnız bir ağaca yaklaşmamaları söylendi. Şeytan yemin ederek onları yanılttı; ağaçtan tadınca ayıp yerleri göründü ve cennet yapraklarıyla örtünmeye koyuldular.",
+  "akilda": "Rableri onlara seslendi: Şeytanın size apaçık bir düşman olduğunu söylememiş miydim?"
+ },
+ "153": {
+  "ozet": "İnsanoğullarının ana babası, kendilerine yazık ettiklerini, Rableri bağışlamaz ve merhamet etmezse kaybedenlerden olacaklarını söylediler. Birbirlerine düşman olarak inmeleri, yeryüzünde yaşayıp ölecekleri ve oradan diriltilip çıkarılacakları bildirildi. İnsanoğullarına ayıp yerlerini örten elbiseler verildiği, takva örtüsünün ise daha hayırlı olduğu hatırlatılır; şeytanın, ana babalarını cennetten çıkardığı gibi onları da şaşırtmaması uyarısı yapılır. Allah fenalığı emretmez, adaleti emreder; şeytanları dost edinip kendini doğru yolda sananlar sapıklığı hak etmiştir.",
+  "akilda": "Rabbimiz, kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz."
+ },
+ "154": {
+  "ozet": "Âdemoğullarına her mescide güzel elbiseleriyle gitmeleri, yiyip içmeleri ama israf etmemeleri emredilir. Allah'ın kulları için yarattığı ziynet ve temiz rızıkları kimin haram kıldığı sorulur; Rabbin haram kıldıkları açık ve gizli fenalıklar, günah, haksız yere tecavüz, delil indirmediği şeyi Allah'a ortak koşmak ve O'na karşı bilinmeyeni söylemektir. Her ümmetin belirli bir süresi vardır, vakti dolunca ne gecikir ne öne geçer. Peygamberlerin bildirdiklerine karşı gelmekten sakınıp gidişini düzeltenlere korku yoktur; ayetleri yalanlayıp büyüklük taslayanlar cehennemde temelli kalacaktır.",
+  "akilda": "Yiyin, için fakat israf etmeyin, çünkü Allah müsrifleri sevmez."
+ },
+ "155": {
+  "ozet": "Allah, önceki cin ve insan ümmetleriyle birlikte ateşe girmelerini söyler; her giren ümmet yoldaşına lanet eder, sonrakiler kendilerini saptıran öncekilere kat kat azap ister, Allah ise azabın hepsi için kat kat olduğunu bildirir. Ayetleri yalan sayıp büyüklük taslayanlara göğün kapıları açılmaz; deve iğnenin deliğinden geçmedikçe cennete giremezler. İnanıp yararlı iş işleyenler cennette temelli kalacak, gönüllerinden kin çıkarılacaktır. Onlar kendilerini buraya eriştiren Allah'a hamdeder; kendilerine, işlediklerine karşılık mirasçısı oldukları cennetin bu olduğu seslenilir.",
+  "akilda": "Cennetlikler der ki: Bizi buraya eriştiren Allah'a hamdolsun; Allah bizi doğru yola iletmeseydi biz doğru yolu bulamazdık."
+ },
+ "156": {
+  "ozet": "Cennetlikler cehennemliklere, Rablerinin vadettiğini gerçek bulup bulmadıklarını sorar, onlar da evet der; bir münadi, Allah'ın lanetinin Allah yolundan alıkoyan ve ahireti inkâr eden zalimlere olduğunu duyurur. İki taraf arasında bir perde ve burçlar üzerinde herkesi simalarından tanıyan adamlar vardır; cennetliklere selam verirler. Gözleri cehennemliklere çevrilince zalimlerle beraber bulundurulmamak için dua ederler. Cehennemliklerin su ve rızık isteğine, Allah'ın bunları dinlerini alay ve eğlenceye alan inkârcılara haram ettiği cevabı verilir.",
+  "akilda": "Cennetlikler der ki: Biz Rabbimizin bize vadettiğini gerçek bulduk."
+ },
+ "157": {
+  "ozet": "İnanan bir millet için yol gösterici ve rahmet olarak bilgiyle açıklanmış bir Kitap getirilmiştir; haber verdiği sonuç gelince onu unutanlar şefaat ya da geri dönüş diler. Gökleri ve yeri altı günde yaratan, arşa hükmeden, güneşi, ayı ve yıldızları buyruğuna baş eğdiren Allah'tır; yaratma da emir de O'nundur. O'na gönülden, gizlice, korkuyla ve umutla yalvarılmalı, yeryüzünde bozgunculuk yapılmamalıdır. Rüzgarları rahmetinin önünde müjdeci gönderip ölü bir memlekete su indirerek ürün yetiştiren Allah, ölüleri de böyle diriltip çıkaracaktır.",
+  "akilda": "Rabbinize gönülden ve gizlice yalvarın; doğrusu Allah'ın rahmeti iyi davrananlara yakındır."
+ },
+ "158": {
+  "ozet": "İyi toprak Rabbin izniyle bitki verir, çorak toprak kavruk bitki çıkarır. Nuh kavmini yalnız Allah'a kulluğa çağırdı; ileri gelenler onu apaçık sapıklıkta gördüklerini söyleyince âlemlerin Rabbinin peygamberi olduğunu bildirdi. Onu yalanladılar; Nuh ve gemide beraberinde olanlar kurtarıldı, ayetleri yalan sayanlar suda boğuldu. Ad milletine de kardeşleri Hud gönderildi; inkârcı ileri gelenler onu beyinsiz ve yalancılardan sandı, o da beyinsiz olmadığını, âlemlerin Rabbinin peygamberi olduğunu söyledi.",
+  "akilda": "Nuh der ki: Ey milletim, Allah'a kulluk edin, O'ndan başka tanrınız yoktur."
+ },
+ "159": {
+  "ozet": "Hud, kavmine güvenilir bir öğütçü olduğunu söyledi; Allah'ın onları Nuh'un milleti yerine getirip vücutça üstün kıldığını hatırlatarak nimetleri anmaya çağırdı. Onlar babalarının taptıklarını bırakmak istemeyip tehdit edildikleri azabı istediler; Hud, adlarını kendilerinin koyduğu putlar hakkında tartıştıklarını ve Rablerinin azap ve öfkesini hak ettiklerini bildirdi. Hud ve beraberindekiler rahmetle kurtarıldı, inanmayanların kökü kesildi. Semud milletine de kardeşleri Salih gönderildi; Allah'ın dişi devesinin onlara bir delil olduğunu, ona kötülük edilirse can yakıcı azaba uğrayacaklarını söyledi.",
+  "akilda": "Hud der ki: Size Rabbimin sözlerini bildiriyorum; ben sizin için güvenilir bir öğütçüyüm."
+ },
+ "160": {
+  "ozet": "Salih, kavmine Allah'ın onları Ad milleti yerine getirip yeryüzüne yerleştirdiğini hatırlattı; nimetleri anmaya ve bozgunculuk yapmamaya çağırdı. Büyüklük taslayan ileri gelenler, hor gördükleri inananlara Salih'in gönderildiğini bilip bilmediklerini sordu; onlar Salih'le gönderilene inandıklarını söyledi. Büyüklük taslayanlar dişi deveyi kesip Rablerinin buyruğuna baş kaldırdılar; onları bir sarsıntı tuttu ve oldukları yerde diz üstü çöküverdiler. Lut da kavmine, kadınları bırakıp erkeklere yaklaşarak daha önce kimsenin yapmadığı bir hayasızlık yaptıklarını söyledi.",
+  "akilda": "Salih der ki: Ey milletim, ben size Rabbimin sözünü bildirmiş ve öğüt vermiştim; fakat siz öğüt verenleri sevmiyorsunuz."
+ },
+ "161": {
+  "ozet": "Lut'un milletinin tek cevabı, güya temiz kalmaya uğraşan bu kimseleri kasabalarından çıkarmayı istemek oldu. Lut ve taraftarları kurtarıldı, karısı ise geride kalıp helake uğrayanlardan oldu; geriye kalanların üzerine bir yağmur yağdırıldı. Medyen halkına gönderilen kardeşleri Şuayb, onları yalnız Allah'a kulluğa, ölçü ve tartıyı tam yapmaya, insanların eşyasını eksik vermemeye ve yeryüzünde bozgunculuk yapmamaya çağırdı. İnananları Allah yolundan alıkoymamalarını söyledi ve Allah aralarında hükmünü bildirinceye kadar sabretmelerini istedi.",
+  "akilda": "Şuayb der ki: Ölçü ve tartıyı tam yapın, insanların eşyasını eksik vermeyin."
+ }
+}

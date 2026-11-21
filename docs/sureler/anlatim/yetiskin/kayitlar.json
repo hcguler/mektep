@@ -1,0 +1,583 @@
+{
+ "_aciklama": "sureler sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "giris": {
+   "baslik": "Sureler Atlası",
+   "sure": 35.28,
+   "imza": "d8d59462342f4aaf"
+  },
+  "001-fatiha": {
+   "baslik": "Fâtiha Suresi",
+   "sure": 59.73,
+   "imza": "dcc2a3f393c510b3"
+  },
+  "002-bakara": {
+   "baslik": "Bakara Suresi",
+   "sure": 87.17,
+   "imza": "f762240052b64e29"
+  },
+  "003-al-i-imran": {
+   "baslik": "Âl-i İmrân Suresi",
+   "sure": 93.52,
+   "imza": "ab140d658704ea28"
+  },
+  "004-nisa": {
+   "baslik": "Nisâ Suresi",
+   "sure": 88.11,
+   "imza": "94f3887efc229449"
+  },
+  "005-maide": {
+   "baslik": "Mâide Suresi",
+   "sure": 73.65,
+   "imza": "282ffc11a0952a5d"
+  },
+  "006-enam": {
+   "baslik": "En‘âm Suresi",
+   "sure": 66.14,
+   "imza": "f6d42ee39d385744"
+  },
+  "007-araf": {
+   "baslik": "A‘râf Suresi",
+   "sure": 57.47,
+   "imza": "b4b5921d0fa717e4"
+  },
+  "008-enfal": {
+   "baslik": "Enfâl Suresi",
+   "sure": 57.81,
+   "imza": "58c60484480ff1b3"
+  },
+  "009-tevbe": {
+   "baslik": "Tevbe Suresi",
+   "sure": 70.46,
+   "imza": "c3a4d02fc95286c0"
+  },
+  "010-yunus": {
+   "baslik": "Yûnus Suresi",
+   "sure": 54.68,
+   "imza": "3f6aea4b262e91e7"
+  },
+  "011-hud": {
+   "baslik": "Hûd Suresi",
+   "sure": 56.58,
+   "imza": "62a98e0e9d8aa55f"
+  },
+  "012-yusuf": {
+   "baslik": "Yûsuf Suresi",
+   "sure": 58.88,
+   "imza": "7aad308af084a4e2"
+  },
+  "013-rad": {
+   "baslik": "Ra‘d Suresi",
+   "sure": 69.37,
+   "imza": "b65a09cc305b41d3"
+  },
+  "014-ibrahim": {
+   "baslik": "İbrâhîm Suresi",
+   "sure": 60.03,
+   "imza": "11ebc2da038d2176"
+  },
+  "015-hicr": {
+   "baslik": "Hicr Suresi",
+   "sure": 53.08,
+   "imza": "75eed8015d8e6aef"
+  },
+  "016-nahl": {
+   "baslik": "Nahl Suresi",
+   "sure": 63.66,
+   "imza": "04fdf3f77052846c"
+  },
+  "017-isra": {
+   "baslik": "İsrâ Suresi",
+   "sure": 76.37,
+   "imza": "1ef3588a44a9e265"
+  },
+  "018-kehf": {
+   "baslik": "Kehf Suresi",
+   "sure": 64.2,
+   "imza": "72e08f21ca3c9be0"
+  },
+  "019-meryem": {
+   "baslik": "Meryem Suresi",
+   "sure": 71.08,
+   "imza": "de20f4ba838ea584"
+  },
+  "020-taha": {
+   "baslik": "Tâhâ Suresi",
+   "sure": 60.61,
+   "imza": "2d419a8d29269810"
+  },
+  "021-enbiya": {
+   "baslik": "Enbiyâ Suresi",
+   "sure": 55.26,
+   "imza": "81b5c00e51dbc5eb"
+  },
+  "022-hac": {
+   "baslik": "Hac Suresi",
+   "sure": 69.74,
+   "imza": "a43bb16ce8599916"
+  },
+  "023-muminun": {
+   "baslik": "Mü’minûn Suresi",
+   "sure": 56.68,
+   "imza": "19ab325bdf4d4404"
+  },
+  "024-nur": {
+   "baslik": "Nûr Suresi",
+   "sure": 81.63,
+   "imza": "68ba2bfd4883aead"
+  },
+  "025-furkan": {
+   "baslik": "Furkān Suresi",
+   "sure": 64.08,
+   "imza": "16cadd3a4eff3d3e"
+  },
+  "026-suara": {
+   "baslik": "Şuarâ Suresi",
+   "sure": 59.87,
+   "imza": "d7d6523fed84197c"
+  },
+  "027-neml": {
+   "baslik": "Neml Suresi",
+   "sure": 81.5,
+   "imza": "fdc946af03e52d46"
+  },
+  "028-kasas": {
+   "baslik": "Kasas Suresi",
+   "sure": 87.93,
+   "imza": "c82f3ea43eb13b47"
+  },
+  "029-ankebut": {
+   "baslik": "Ankebût Suresi",
+   "sure": 69.38,
+   "imza": "3871651d6c70830e"
+  },
+  "030-rum": {
+   "baslik": "Rûm Suresi",
+   "sure": 67.52,
+   "imza": "352841da96bf3199"
+  },
+  "031-lokman": {
+   "baslik": "Lokmân Suresi",
+   "sure": 81.03,
+   "imza": "48f3947845e569c9"
+  },
+  "032-secde": {
+   "baslik": "Secde Suresi",
+   "sure": 78.43,
+   "imza": "c1886b0fbf4409df"
+  },
+  "033-ahzab": {
+   "baslik": "Ahzâb Suresi",
+   "sure": 66.31,
+   "imza": "9dac23d9a69d4e62"
+  },
+  "034-sebe": {
+   "baslik": "Sebe’ Suresi",
+   "sure": 66.26,
+   "imza": "e916a5787257b294"
+  },
+  "035-fatir": {
+   "baslik": "Fâtır Suresi",
+   "sure": 61.95,
+   "imza": "9970c14d6f2ed242"
+  },
+  "036-yasin": {
+   "baslik": "Yâsîn Suresi",
+   "sure": 47.43,
+   "imza": "70d96e30ebc024ce"
+  },
+  "037-saffat": {
+   "baslik": "Sâffât Suresi",
+   "sure": 66.43,
+   "imza": "2aeac20d342bb4ca"
+  },
+  "038-sad": {
+   "baslik": "Sâd Suresi",
+   "sure": 60.62,
+   "imza": "f6cc973bdab81abd"
+  },
+  "039-zumer": {
+   "baslik": "Zümer Suresi",
+   "sure": 68.03,
+   "imza": "190e8fae662b4bfe"
+  },
+  "040-mumin": {
+   "baslik": "Mü’min Suresi",
+   "sure": 65.08,
+   "imza": "939dbd0d8e6fdf29"
+  },
+  "041-fussilet": {
+   "baslik": "Fussılet Suresi",
+   "sure": 66.52,
+   "imza": "d945189cc59bab62"
+  },
+  "042-sura": {
+   "baslik": "Şûrâ Suresi",
+   "sure": 81.65,
+   "imza": "2e17a7317146a70e"
+  },
+  "043-zuhruf": {
+   "baslik": "Zuhruf Suresi",
+   "sure": 59.88,
+   "imza": "ef1aa7212a8ad80a"
+  },
+  "044-duhan": {
+   "baslik": "Duhân Suresi",
+   "sure": 59.02,
+   "imza": "e1d1cbdfd62574ad"
+  },
+  "045-casiye": {
+   "baslik": "Câsiye Suresi",
+   "sure": 61.74,
+   "imza": "12da540a62921372"
+  },
+  "046-ahkaf": {
+   "baslik": "Ahkāf Suresi",
+   "sure": 86.38,
+   "imza": "2afea39d9fb0913b"
+  },
+  "047-muhammed": {
+   "baslik": "Muhammed Suresi",
+   "sure": 68.93,
+   "imza": "21441ddc6934e89e"
+  },
+  "048-fetih": {
+   "baslik": "Fetih Suresi",
+   "sure": 60.12,
+   "imza": "5ba7ad003df5d0bc"
+  },
+  "049-hucurat": {
+   "baslik": "Hucurât Suresi",
+   "sure": 65.18,
+   "imza": "047d7d4372cb8535"
+  },
+  "050-kaf": {
+   "baslik": "Kāf Suresi",
+   "sure": 77.48,
+   "imza": "7ba99d4bbd93feed"
+  },
+  "051-zariyat": {
+   "baslik": "Zâriyât Suresi",
+   "sure": 58.64,
+   "imza": "53dc96f74689885e"
+  },
+  "052-tur": {
+   "baslik": "Tûr Suresi",
+   "sure": 76.22,
+   "imza": "94c4f64005a0e977"
+  },
+  "053-necm": {
+   "baslik": "Necm Suresi",
+   "sure": 73.99,
+   "imza": "46bd1d69a4cfd768"
+  },
+  "054-kamer": {
+   "baslik": "Kamer Suresi",
+   "sure": 70.61,
+   "imza": "92617405fd9335e7"
+  },
+  "055-rahman": {
+   "baslik": "Rahmân Suresi",
+   "sure": 60.23,
+   "imza": "1222d99408bcb883"
+  },
+  "056-vakia": {
+   "baslik": "Vâkıa Suresi",
+   "sure": 48.28,
+   "imza": "144c26db5c9288d0"
+  },
+  "057-hadid": {
+   "baslik": "Hadîd Suresi",
+   "sure": 72.78,
+   "imza": "265e610bf0a939b9"
+  },
+  "058-mucadele": {
+   "baslik": "Mücâdele Suresi",
+   "sure": 78.67,
+   "imza": "a170b22f5e2c19f4"
+  },
+  "059-hasr": {
+   "baslik": "Haşr Suresi",
+   "sure": 90.99,
+   "imza": "8b28a5df69df1b6f"
+  },
+  "060-mumtehine": {
+   "baslik": "Mümtehine Suresi",
+   "sure": 70.06,
+   "imza": "d626cec2af0dc907"
+  },
+  "061-saf": {
+   "baslik": "Saf Suresi",
+   "sure": 59.39,
+   "imza": "eb4eeab87a2c6337"
+  },
+  "062-cuma": {
+   "baslik": "Cuma Suresi",
+   "sure": 64.49,
+   "imza": "56c50dcdf7ca0ca1"
+  },
+  "063-munafikun": {
+   "baslik": "Münâfikūn Suresi",
+   "sure": 71.65,
+   "imza": "e1c2e77ca9a86528"
+  },
+  "064-tegabun": {
+   "baslik": "Teğâbün Suresi",
+   "sure": 70.46,
+   "imza": "0b78e34a2683d723"
+  },
+  "065-talak": {
+   "baslik": "Talâk Suresi",
+   "sure": 86.4,
+   "imza": "aee107386e1b4c99"
+  },
+  "066-tahrim": {
+   "baslik": "Tahrîm Suresi",
+   "sure": 75.71,
+   "imza": "f43a953dff92fed8"
+  },
+  "067-mulk": {
+   "baslik": "Mülk Suresi",
+   "sure": 50.65,
+   "imza": "9a638e0b7ee75b77"
+  },
+  "068-kalem": {
+   "baslik": "Kalem Suresi",
+   "sure": 53.63,
+   "imza": "8cfda1cd64c2ef0a"
+  },
+  "069-hakka": {
+   "baslik": "Hâkka Suresi",
+   "sure": 78.46,
+   "imza": "0f0a41bbee72508d"
+  },
+  "070-mearic": {
+   "baslik": "Meâric Suresi",
+   "sure": 71.03,
+   "imza": "f1f9cf27ce9263c9"
+  },
+  "071-nuh": {
+   "baslik": "Nûh Suresi",
+   "sure": 75.84,
+   "imza": "f5b3be5db771b85a"
+  },
+  "072-cin": {
+   "baslik": "Cin Suresi",
+   "sure": 110.26,
+   "imza": "f138400975fcc61d"
+  },
+  "073-muzzemmil": {
+   "baslik": "Müzzemmil Suresi",
+   "sure": 67.54,
+   "imza": "ed5d7d5e20a95f0a"
+  },
+  "074-muddessir": {
+   "baslik": "Müddessir Suresi",
+   "sure": 96.68,
+   "imza": "dead2b75db1f3844"
+  },
+  "075-kiyame": {
+   "baslik": "Kıyâme Suresi",
+   "sure": 80.07,
+   "imza": "c1bff04972d51b28"
+  },
+  "076-insan": {
+   "baslik": "İnsân Suresi",
+   "sure": 88.0,
+   "imza": "2d86c7cb3f5568bf"
+  },
+  "077-murselat": {
+   "baslik": "Mürselât Suresi",
+   "sure": 82.24,
+   "imza": "f518cc21a86ddab4"
+  },
+  "078-nebe": {
+   "baslik": "Nebe’ Suresi",
+   "sure": 49.76,
+   "imza": "0bc937b9e28ca467"
+  },
+  "079-naziat": {
+   "baslik": "Nâziât Suresi",
+   "sure": 49.65,
+   "imza": "a7f2c3e9494275dc"
+  },
+  "080-abese": {
+   "baslik": "Abese Suresi",
+   "sure": 42.78,
+   "imza": "cab14ee40c328323"
+  },
+  "081-tekvir": {
+   "baslik": "Tekvîr Suresi",
+   "sure": 46.4,
+   "imza": "9b6b0a13c89c3d30"
+  },
+  "082-infitar": {
+   "baslik": "İnfitâr Suresi",
+   "sure": 55.02,
+   "imza": "9aefee2b5e46bcce"
+  },
+  "083-mutaffifin": {
+   "baslik": "Mutaffifîn Suresi",
+   "sure": 50.49,
+   "imza": "f22217fd923aa92e"
+  },
+  "084-insikak": {
+   "baslik": "İnşikāk Suresi",
+   "sure": 46.54,
+   "imza": "716027bacb6dabd7"
+  },
+  "085-buruc": {
+   "baslik": "Bürûc Suresi",
+   "sure": 47.92,
+   "imza": "85d5d053c2922e67"
+  },
+  "086-tarik": {
+   "baslik": "Târık Suresi",
+   "sure": 45.55,
+   "imza": "a651fb0525d2caa3"
+  },
+  "087-ala": {
+   "baslik": "A‘lâ Suresi",
+   "sure": 55.07,
+   "imza": "c32ac9bf1b8d734c"
+  },
+  "088-gasiye": {
+   "baslik": "Gāşiye Suresi",
+   "sure": 60.17,
+   "imza": "f47f63abccb988ec"
+  },
+  "089-fecr": {
+   "baslik": "Fecr Suresi",
+   "sure": 47.03,
+   "imza": "f6b0e7647e283208"
+  },
+  "090-beled": {
+   "baslik": "Beled Suresi",
+   "sure": 45.76,
+   "imza": "4bc3a4b7c4ac4f1f"
+  },
+  "091-sems": {
+   "baslik": "Şems Suresi",
+   "sure": 47.49,
+   "imza": "621fafea6ed2612f"
+  },
+  "092-leyl": {
+   "baslik": "Leyl Suresi",
+   "sure": 50.89,
+   "imza": "cf0c7459f2c72be2"
+  },
+  "093-duha": {
+   "baslik": "Duhâ Suresi",
+   "sure": 48.47,
+   "imza": "43209d3dcf6f20cb"
+  },
+  "094-insirah": {
+   "baslik": "İnşirâh Suresi",
+   "sure": 47.91,
+   "imza": "574305ed3a0eb12a"
+  },
+  "095-tin": {
+   "baslik": "Tîn Suresi",
+   "sure": 51.05,
+   "imza": "de1cc092fdacd867"
+  },
+  "096-alak": {
+   "baslik": "Alak Suresi",
+   "sure": 77.11,
+   "imza": "9cd1e952266ae0ec"
+  },
+  "097-kadr": {
+   "baslik": "Kadr Suresi",
+   "sure": 38.97,
+   "imza": "623bd48e22c15a01"
+  },
+  "098-beyyine": {
+   "baslik": "Beyyine Suresi",
+   "sure": 57.42,
+   "imza": "102f60bfeefd48a1"
+  },
+  "099-zilzal": {
+   "baslik": "Zilzâl Suresi",
+   "sure": 48.21,
+   "imza": "4c4d3a3cb45ee714"
+  },
+  "100-adiyat": {
+   "baslik": "Âdiyât Suresi",
+   "sure": 42.85,
+   "imza": "3147dac5c156d93f"
+  },
+  "101-karia": {
+   "baslik": "Kāria Suresi",
+   "sure": 42.42,
+   "imza": "52c0ca39ca7c1b6d"
+  },
+  "102-tekasur": {
+   "baslik": "Tekâsür Suresi",
+   "sure": 39.93,
+   "imza": "9484e14260c7c6c8"
+  },
+  "103-asr": {
+   "baslik": "Asr Suresi",
+   "sure": 53.6,
+   "imza": "bdc152d2a85b84d3"
+  },
+  "104-humeze": {
+   "baslik": "Hümeze Suresi",
+   "sure": 45.36,
+   "imza": "d1dc95c2b13b840c"
+  },
+  "105-fil": {
+   "baslik": "Fîl Suresi",
+   "sure": 51.43,
+   "imza": "2bf39203601eee54"
+  },
+  "106-kureys": {
+   "baslik": "Kureyş Suresi",
+   "sure": 44.87,
+   "imza": "e6141c62c2fb55b8"
+  },
+  "107-maun": {
+   "baslik": "Mâûn Suresi",
+   "sure": 44.15,
+   "imza": "eb18587cf1d6f166"
+  },
+  "108-kevser": {
+   "baslik": "Kevser Suresi",
+   "sure": 64.28,
+   "imza": "71c780e58caff059"
+  },
+  "109-kafirun": {
+   "baslik": "Kâfirûn Suresi",
+   "sure": 42.74,
+   "imza": "51f6caf434dac625"
+  },
+  "110-nasr": {
+   "baslik": "Nasr Suresi",
+   "sure": 76.6,
+   "imza": "f07d3ec4d398dc55"
+  },
+  "111-tebbet": {
+   "baslik": "Tebbet Suresi",
+   "sure": 44.01,
+   "imza": "db79148ebf0da1d3"
+  },
+  "112-ihlas": {
+   "baslik": "İhlâs Suresi",
+   "sure": 64.23,
+   "imza": "48e3fa7944552c90"
+  },
+  "113-felak": {
+   "baslik": "Felak Suresi",
+   "sure": 69.54,
+   "imza": "4e987689746eb558"
+  },
+  "114-nas": {
+   "baslik": "Nâs Suresi",
+   "sure": 66.23,
+   "imza": "fffa95fed158fb86"
+  }
+ }
+}

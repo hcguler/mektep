@@ -1,0 +1,168 @@
+{
+ "_aciklama": "siyer sesli anlatım kayıtları, cocuk profili (kadın sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "cocuk",
+ "ses": "kadin",
+ "motor": "ema-lightning",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Siyer Çizelgesi: tam anlatım",
+   "sure": 1806.92,
+   "imza": "a6aa0319a72dd47c"
+  },
+  "giris": {
+   "baslik": "Siyer Çizelgesi",
+   "sure": 30.22,
+   "imza": "c9107604a4721eee"
+  },
+  "01-dogum": {
+   "baslik": "Doğum",
+   "sure": 47.58,
+   "imza": "9c25e36b32adc545"
+  },
+  "02-yetim": {
+   "baslik": "Annesini ve dedesini kaybetti",
+   "sure": 38.79,
+   "imza": "d145a8a3c371e384"
+  },
+  "03-coban": {
+   "baslik": "Koyun güttü",
+   "sure": 33.39,
+   "imza": "4be688e06a78052f"
+  },
+  "04-hatice": {
+   "baslik": "Hz. Hatice ile evlendi",
+   "sure": 39.82,
+   "imza": "cb25dcbb6775cb81"
+  },
+  "05-kabe": {
+   "baslik": "Kâbe’nin yeniden yapımı",
+   "sure": 43.72,
+   "imza": "17abb2ee22b95937"
+  },
+  "06-hira": {
+   "baslik": "İlk vahiy",
+   "sure": 63.95,
+   "imza": "3a33e2cfccfcfe6c"
+  },
+  "07-davet": {
+   "baslik": "Gizli davet",
+   "sure": 60.01,
+   "imza": "622a4fd7ec8906eb"
+  },
+  "08-aleni": {
+   "baslik": "Açık davet",
+   "sure": 52.54,
+   "imza": "61c7a0fe4ea187b3"
+  },
+  "09-eziyet": {
+   "baslik": "Baskı ve sabır",
+   "sure": 65.97,
+   "imza": "674a8d52e6d58273"
+  },
+  "10-habesistan": {
+   "baslik": "Habeşistan’a hicret",
+   "sure": 62.63,
+   "imza": "4007059653bacb06"
+  },
+  "11-boykot": {
+   "baslik": "Boykot yılları",
+   "sure": 40.42,
+   "imza": "f019fa7c37a8e79f"
+  },
+  "12-huzun": {
+   "baslik": "Hüzün yılı",
+   "sure": 67.23,
+   "imza": "524bb66ba216232d"
+  },
+  "13-taif": {
+   "baslik": "Tâif yolculuğu",
+   "sure": 52.1,
+   "imza": "321e2a66e0c671c2"
+  },
+  "14-isra": {
+   "baslik": "İsrâ ve Mi‘râc",
+   "sure": 59.81,
+   "imza": "fbc8eb8d75460f3c"
+  },
+  "15-akabe": {
+   "baslik": "Akabe biatları",
+   "sure": 42.16,
+   "imza": "1f284d2eb1b37e8d"
+  },
+  "16-hicret": {
+   "baslik": "Hicret",
+   "sure": 93.2,
+   "imza": "53ee8ad29804a513"
+  },
+  "17-mescid": {
+   "baslik": "Kubâ ve Mescid-i Nebevî",
+   "sure": 38.68,
+   "imza": "09e3008cc6e3e47a"
+  },
+  "18-kardeslik": {
+   "baslik": "Muhacir ve Ensar kardeşliği",
+   "sure": 68.85,
+   "imza": "7ed9c9546af0da40"
+  },
+  "19-kible": {
+   "baslik": "Kıblenin Kâbe’ye dönmesi",
+   "sure": 60.07,
+   "imza": "37cb3a29194ee548"
+  },
+  "20-bedir": {
+   "baslik": "Bedir",
+   "sure": 63.32,
+   "imza": "2afd56eae0979eff"
+  },
+  "21-uhud": {
+   "baslik": "Uhud",
+   "sure": 75.37,
+   "imza": "646d4c3c4a9ae07f"
+  },
+  "22-hendek": {
+   "baslik": "Hendek",
+   "sure": 66.93,
+   "imza": "8cbdcdee67e19063"
+  },
+  "23-hudeybiye": {
+   "baslik": "Hudeybiye Antlaşması",
+   "sure": 71.79,
+   "imza": "c22851ab24106340"
+  },
+  "24-mektup": {
+   "baslik": "Hükümdarlara mektuplar",
+   "sure": 63.02,
+   "imza": "67fd6a59efee9300"
+  },
+  "25-hayber": {
+   "baslik": "Hayber",
+   "sure": 37.17,
+   "imza": "22e64573cb0746de"
+  },
+  "26-fetih": {
+   "baslik": "Mekke’nin fethi",
+   "sure": 63.47,
+   "imza": "9f70e6ebe986e22f"
+  },
+  "27-huneyn": {
+   "baslik": "Huneyn",
+   "sure": 63.4,
+   "imza": "d6b75c843bc2a302"
+  },
+  "28-tebuk": {
+   "baslik": "Tebük seferi",
+   "sure": 77.57,
+   "imza": "ac40e16735b18f08"
+  },
+  "29-veda": {
+   "baslik": "Veda Haccı",
+   "sure": 86.75,
+   "imza": "e8a18c2ff2a05cd7"
+  },
+  "30-vefat": {
+   "baslik": "Vefat",
+   "sure": 61.99,
+   "imza": "517b84bb6c803ec4"
+  }
+ }
+}

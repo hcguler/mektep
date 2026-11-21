@@ -1,0 +1,45 @@
+{
+  "id": "/mektep/",
+  "name": "Mektep · Hüseyin Cihad Güler",
+  "short_name": "Mektep",
+  "description": "Namaz Yolculuğu, Ezberler, Kavram Haritası, Davranış Modeli, Esmâ-ül Hüsnâ, Peygamberler Yolculuğu, Siyer Çizelgesi, Kur'an Duaları, Giyim ve Görünüş, Sahabe Hayatları, Oruç Rehberi, Sureler Atlası, Zekât ve Sadaka Rehberi, Kur'an'da Hayvanlar ve yeni eklenen uygulamalar. Tarayıcıda ve çevrimdışı çalışır.",
+  "lang": "tr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#08110e",
+  "theme_color": "#08110e",
+  "categories": ["education", "lifestyle", "books"],
+  "related_applications": [{ "platform": "webapp", "url": "https://hcguler.github.io/mektep/manifest.webmanifest" }],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Namaz Yolculuğu", "short_name": "Namaz", "description": "Adım adım namaz rehberi", "url": "namaz.html", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Ezberler", "short_name": "Ezberler", "description": "Sureler, namaz duaları ve zikirler", "url": "ezberler/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "İslam'da Kavram Haritası", "short_name": "Kavramlar", "description": "Helal, haram, mubah, müstehab ve dahası", "url": "kavram/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Kur'an'dan Davranış Modeli", "short_name": "Davranışlar", "description": "Günün 24 saati için Kur'an'dan davranışlar", "url": "davranis/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Esmâ-ül Hüsnâ", "short_name": "Esmâ", "description": "Allah'ın güzel isimleri", "url": "esma/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Peygamberler Yolculuğu", "short_name": "Peygamberler", "description": "Kur'an'da adı geçen yirmi beş peygamber", "url": "peygamberler/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Siyer Çizelgesi", "short_name": "Siyer", "description": "Peygamberimizin hayatı yıl yıl", "url": "siyer/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Kur'an Duaları", "short_name": "Dualar", "description": "Rabbenâ ile başlayan dualar", "url": "dualar/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Giyim ve Görünüş", "short_name": "Giyim", "description": "Kur'an ve sahih sünnetle", "url": "giyim/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Sahabe Hayatları", "short_name": "Sahabe", "description": "Peygamberimizin arkadaşları", "url": "sahabe/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Oruç Rehberi", "short_name": "Oruç", "description": "Orucu doğru tutmak için", "url": "oruc/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Sureler Atlası", "short_name": "Sureler", "description": "114 sure, bir bakışta", "url": "sureler/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Zekât ve Sadaka Rehberi", "short_name": "Zekât", "description": "Hesapla, öğren, ver", "url": "zekat/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Kur'an'da Hayvanlar", "short_name": "Hayvanlar", "description": "Ayetlerde geçen hayvanlar", "url": "hayvanlar/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Ayet Ayet Arapça", "short_name": "Arapça", "description": "Kur'an'ı okurken Arapça öğren", "url": "arapca/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Kur'an'dan Mucizeler", "short_name": "Mucizeler", "description": "Gelecekten haberler, o gün bilinmeyenler", "url": "mucizeler/", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ],
+  "screenshots": [
+    { "src": "icons/screenshot-narrow.png", "sizes": "780x1688", "type": "image/png", "form_factor": "narrow", "label": "Mektep ana ekranı" },
+    { "src": "icons/screenshot-wide.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "Ezberler: sure sayfası" }
+  ]
+}

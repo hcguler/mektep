@@ -1,0 +1,99 @@
+/* ============================================
+   Mektep — favoriler (apps/index.html)
+   Tarayıcı görünümü (hub.js): kartlardaki yıldız + "Favorilerim" şeridi; sitenin değişkenlerini kullanır.
+   Telefon ana ekranı (launcher.js): "Favoriler" ızgarası ve düzenleme modu; --ln-* değişkenlerini kullanır.
+   ============================================ */
+
+/* ---------- Tarayıcı görünümü: kart yıldızı ---------- */
+.app-tile-wrap { position: relative; display: flex; min-width: 0; }
+.app-tile-wrap > .app-tile { flex: 1; }
+.app-tile__fav {
+    position: absolute; z-index: 3; top: 12px; right: 12px;
+    width: 44px; height: 44px; display: grid; place-items: center;
+    border-radius: 50%; border: 1px solid rgba(255, 255, 255, .45);
+    background: rgba(0, 0, 0, .26); color: #fff; cursor: pointer;
+    -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+    transition: transform .35s var(--ease-spring, cubic-bezier(.34, 1.4, .64, 1)), background .25s, border-color .25s, color .25s;
+}
+.app-tile__fav svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linejoin: round; transition: fill .25s; }
+.app-tile__fav:hover { background: rgba(0, 0, 0, .4); transform: scale(1.06); }
+.app-tile__fav:active { transform: scale(.9); }
+.app-tile__fav:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.app-tile__fav[aria-pressed="true"] { background: #fff; border-color: #fff; color: #f2a11f; }
+.app-tile__fav[aria-pressed="true"] svg { fill: currentColor; }
+.app-tile__fav.is-pop { animation: favPop .5s var(--ease-spring, cubic-bezier(.34, 1.4, .64, 1)); }
+@keyframes favPop { 0% { transform: scale(.7); } 55% { transform: scale(1.22) rotate(-10deg); } 100% { transform: none; } }
+
+/* ---------- Tarayıcı görünümü: Favorilerim şeridi ---------- */
+.hub-favs { margin-top: clamp(30px, 5vw, 48px); padding: 18px; border-radius: var(--radius, 22px); border: 1px solid var(--line-strong); background: color-mix(in srgb, var(--surface) 88%, transparent); }
+.hub-favs.is-empty { padding: 14px 18px; border-style: dashed; background: transparent; }
+.hub-favs.is-edit { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.hub-favs__head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; }
+.hub-favs__head h2 { display: inline-flex; align-items: center; gap: 10px; margin: 0; font-size: 1.05rem; font-weight: 700; letter-spacing: -.01em; }
+.hub-favs__head h2 svg { width: 20px; height: 20px; fill: var(--accent-2); stroke: var(--accent-2); stroke-width: 1.6; stroke-linejoin: round; }
+.hub-favs__n { min-width: 24px; height: 24px; padding: 0 7px; display: inline-grid; place-items: center; border-radius: 999px; background: var(--accent-soft); color: var(--accent-text); font-family: var(--font-mono); font-size: .76rem; }
+.hub-favs__hint { font-family: var(--font-mono); font-size: .76rem; color: var(--faint); }
+.hub-favs__edit { margin-left: auto; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--text); font: inherit; font-size: .88rem; font-weight: 600; cursor: pointer; transition: border-color .25s, background .25s, color .25s; }
+.hub-favs__edit:hover { border-color: var(--accent); color: var(--accent-text); }
+.hub-favs__edit[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.hub-favs__empty { margin: 0; font-size: .92rem; color: var(--muted); }
+.hub-favs__list { list-style: none; margin: 14px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr)); gap: 10px; }
+.hub-fav { position: relative; display: flex; align-items: center; min-width: 0; border-radius: 18px; border: 1px solid var(--line-strong); background: var(--surface); transition: border-color .25s, box-shadow .25s, transform .25s; }
+.hub-fav:hover { border-color: var(--accent); }
+.hub-fav__link { flex: 1; min-width: 0; display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 10px 12px; color: inherit; text-decoration: none; border-radius: inherit; }
+.hub-fav__link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hub-fav__icon { flex: none; width: 44px; height: 44px; display: grid; place-items: center; border-radius: 13px; background: radial-gradient(90% 70% at 30% 15%, rgba(255, 255, 255, .22), transparent 55%), linear-gradient(145deg, var(--c1), var(--c2)); color: var(--ic); box-shadow: 0 8px 16px -10px rgba(0, 0, 0, .6); font-size: 1.4rem; }
+.hub-fav__icon svg { width: 62%; height: 62%; }
+.hub-fav__txt { min-width: 0; display: grid; gap: 1px; }
+.hub-fav__txt b { font-size: .95rem; font-weight: 700; line-height: 1.25; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hub-fav__txt small { font-size: .78rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hub-fav__grip { flex: none; width: 22px; color: var(--faint); display: grid; place-items: center; }
+.hub-fav__grip svg { width: 18px; height: 18px; fill: currentColor; }
+.hub-fav__rm { flex: none; width: 44px; height: 44px; margin-right: 6px; display: grid; place-items: center; border-radius: 50%; border: 0; background: transparent; color: var(--muted); cursor: pointer; transition: background .25s, color .25s; }
+.hub-fav__rm:hover { background: color-mix(in srgb, #e5484d 14%, transparent); color: #e5484d; }
+.hub-fav__rm svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; }
+.hub-favs.is-edit .hub-fav { cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none; }
+.hub-favs.is-edit .hub-fav__link { cursor: grab; -webkit-touch-callout: none; -webkit-user-drag: none; }
+.hub-favs.is-edit .hub-fav__link { padding-right: 4px; }
+.hub-fav.is-drag { z-index: 5; cursor: grabbing; border-color: var(--accent); box-shadow: 0 24px 40px -18px rgba(0, 0, 0, .55); }
+.hub-favs__list.is-sorting .hub-fav:not(.is-drag) { transition: none; }
+
+/* ---------- Telefon ana ekranı: Favoriler ---------- */
+.ln-edit { min-height: 36px; padding: 0 14px; margin: -8px 0; border-radius: 999px; border: 1px solid var(--ln-line2); background: var(--ln-surface); font-size: .78rem !important; font-weight: 700 !important; letter-spacing: .02em; cursor: pointer; transition: background .25s, border-color .25s, color .25s; position: relative; }
+.ln-edit::before { content: ""; position: absolute; inset: -4px; }
+.ln-edit[aria-pressed="true"] { background: var(--ln-primary); border-color: var(--ln-primary); color: var(--ln-primary-ink) !important; }
+.ln-favhint { margin: -4px 2px 12px; font-size: .78rem; color: var(--ln-soft); }
+.ln-favhint b { color: var(--ln-danger); }
+.ln-favempty { display: flex; align-items: center; gap: 14px; padding: 14px 16px; border-radius: 20px; border: 1px dashed var(--ln-line2); color: var(--ln-soft); }
+.ln-favempty svg { flex: none; width: 26px; height: 26px; color: var(--ln-gold); }
+.ln-favempty p { margin: 0; font-size: .84rem; line-height: 1.45; }
+.ln-favempty b { color: var(--ln-ink); }
+.ln-favs > li { position: relative; touch-action: manipulation; }
+/* Favoriler sık yeniden çizilir (sıra, çıkarma); giriş animasyonu her seferinde baştan başlamasın */
+.ln-favs .ln-app { animation: none; }
+.ln-favs .ln-app { -webkit-touch-callout: none; user-select: none; -webkit-user-select: none; }
+.ln-favsec.is-edit .ln-favs > li { touch-action: none; cursor: grab; }
+.ln-favsec.is-edit .ln-favs .ln-icon { animation: lnWiggle .32s ease-in-out infinite alternate; }
+.ln-favsec.is-edit .ln-favs > li:nth-child(2n) .ln-icon { animation-delay: -.16s; animation-direction: alternate-reverse; }
+.ln-favs > li.is-drag { z-index: 6; cursor: grabbing; }
+.ln-favs > li.is-drag .ln-icon { animation: none; box-shadow: 0 22px 34px -14px rgba(0, 0, 0, .75); }
+.ln-favs.is-sorting > li:not(.is-drag) .ln-icon { animation-play-state: paused; }
+.ln-rm { position: absolute; z-index: 2; top: -6px; left: calc(50% - min(32px, 8.5vw) - 8px); width: 26px; height: 26px; padding: 0; display: grid; place-items: center; border-radius: 50%; border: 2px solid var(--ln-bg); background: var(--ln-danger); color: #fff !important; cursor: pointer; box-shadow: 0 4px 10px -4px rgba(0, 0, 0, .6); animation: lnIn .3s var(--ln-spring) both; }
+.ln-rm::before { content: ""; position: absolute; inset: -9px; }
+.ln-rm svg { width: 14px; height: 14px; }
+@keyframes lnWiggle { from { transform: rotate(-2.2deg); } to { transform: rotate(2.2deg); } }
+
+/* Uygulamalar ızgarasında favori işareti */
+.ln-star { position: absolute; left: -4px; bottom: -4px; width: 20px; height: 20px; display: none; place-items: center; border-radius: 50%; background: var(--ln-surface); border: 1px solid var(--ln-line2); color: var(--ln-gold); }
+.ln-star svg { width: 12px; height: 12px; filter: none; }
+.ln-app.is-fav .ln-star { display: grid; }
+
+/* Paneldeki favori düğmesi */
+.ln-favbtn svg { width: 18px; height: 18px; }
+.ln-favbtn[aria-pressed="true"] { border-color: var(--ln-gold); color: var(--ln-gold); background: var(--ln-gold-soft); }
+
+@media (prefers-reduced-motion: reduce) {
+    .app-tile__fav, .app-tile__fav.is-pop { animation: none; transition: none; }
+    .ln-favsec.is-edit .ln-favs .ln-icon { animation: none; }
+    .ln-favsec.is-edit .ln-favs .ln-icon { outline: 2px dashed var(--ln-line2); outline-offset: 3px; }
+}

@@ -1,0 +1,3176 @@
+{
+ "_aciklama": "Ezberler sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt, sırayla seslendirilen parçalardan oluşur. Parça ya bir metindir ya da [metin, duraklama] çiftidir; duraklama o parçadan sonraki sessizliktir (saniye). Arapça metin ve okunuş seslendirilmez. Bu dosya tools/ezberler-anlatim.mjs ile docs/ezberler/data.js içeriğinden üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Ezberler: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "fatiha",
+   "duha",
+   "insirah",
+   "tin",
+   "alak",
+   "kadir",
+   "beyyine",
+   "zilzal",
+   "adiyat",
+   "karia",
+   "tekasur",
+   "asr",
+   "humeze",
+   "fil",
+   "kureys",
+   "maun",
+   "kevser",
+   "kafirun",
+   "nasr",
+   "tebbet",
+   "ihlas",
+   "felak",
+   "nas",
+   "ezan-duasi",
+   "subhaneke",
+   "euzu-besmele",
+   "ruku-tesbihi",
+   "rukudan-kalkarken",
+   "secde-tesbihi",
+   "tahiyyat",
+   "salli",
+   "barik",
+   "rabbena-atina",
+   "rabbenagfirli",
+   "kunut-1",
+   "kunut-2",
+   "namaz-sonrasi",
+   "ayetel-kursi",
+   "tesbihat",
+   "tehlil",
+   "einni",
+   "seyyidul-istigfar",
+   "iki-kelime",
+   "havkale",
+   "salavat"
+  ],
+  "parcalar": [
+   [
+    "Ezberler.",
+    0.8
+   ],
+   [
+    "Kısa sureler, namaz duaları ve zikirler.",
+    1.2
+   ],
+   "Fâtiha Suresi. Kur'an-ı Kerim'in birinci suresidir.",
+   "Mekke'de inmiştir ve yedi ayettir.",
+   "Adı, açılış anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Hamd, âlemlerin Rabbi Allah'a mahsustur.",
+   "O, Rahmân'dır, Rahîm'dir.",
+   "Hesap ve ceza gününün sahibidir.",
+   "Yalnız sana kulluk eder, yalnız senden yardım dileriz.",
+   "Bizi dosdoğru yola ilet,",
+   [
+    "Nimet verdiklerinin yoluna, gazaba uğrayanların ve sapanların yoluna değil.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Kur'an'ın özü ve namazın vazgeçilmez suresidir, Peygamberimiz, Fâtiha okunmadan namazın tamam olmayacağını bildirmiştir.",
+   "İlk ayetleri Allah'ı tanıtır ve över.",
+   "Ortadaki ayet kulun sözüdür: yalnız sana kulluk eder, yalnız senden yardım dileriz.",
+   [
+    "Son ayetleri ise en büyük duadır: bizi doğru yoldan ayırma.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Önce hamd, sonra söz, sonra dua: Fâtiha, kulun Rabbiyle konuşmasıdır.",
+    1.6
+   ],
+   "Duhâ Suresi. Kur'an-ı Kerim'in doksan üçüncü suresidir.",
+   "Mekke'de inmiştir ve on bir ayettir.",
+   "Adı, kuşluk vakti anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Kuşluk vaktine andolsun,",
+   "Karanlığı çöktüğü zaman geceye andolsun ki,",
+   "Rabbin seni bırakmadı, sana darılmadı da.",
+   "Senin için âhiret, dünyadan elbette daha hayırlıdır.",
+   "Rabbin sana verecek, sen de hoşnut olacaksın.",
+   "O seni yetim bulup barındırmadı mı?",
+   "Seni yol bilmez hâlde bulup yola iletmedi mi?",
+   "Seni ihtiyaç içinde bulup zengin etmedi mi?",
+   "Öyleyse yetimi sakın ezme.",
+   "İsteyeni sakın azarlama.",
+   [
+    "Rabbinin nimetini ise durmadan anlat.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Vahiy bir süre kesilince müşrikler, Rabbinin Peygamberimizi terk ettiğini söylediler, bu sure onu teselli etmek için indi.",
+   "Allah, yetimken barındırdığı, yol gösterdiği ve ihtiyaçtan kurtardığı elçisine geçmiş nimetlerini hatırlatır, geleceğin daha güzel olacağını müjdeler.",
+   [
+    "Karşılığında üç görev verir: yetimi ezme, isteyeni azarlama, nimeti anlat.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gece ne kadar karanlık olsa da kuşluk gelir: Rabbin seni bırakmadı.",
+    1.6
+   ],
+   "İnşirâh Suresi. Kur'an-ı Kerim'in doksan dördüncü suresidir.",
+   "Mekke'de inmiştir ve sekiz ayettir.",
+   "Adı, ferahlama anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Biz senin göğsünü açıp genişletmedik mi?",
+   "Yükünü senden indirmedik mi?",
+   "O yük ki sırtını çökertmişti.",
+   "Senin şânını yüceltmedik mi?",
+   "Şüphesiz zorlukla beraber bir kolaylık vardır.",
+   "Gerçekten, zorlukla beraber bir kolaylık vardır.",
+   "Öyleyse bir işi bitirince hemen başka bir işe koyul,",
+   [
+    "Ve yalnız Rabbine yönel.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Duhâ suresinin devamı gibidir.",
+   "Allah, Peygamberimizin gönlünü genişlettiğini, yükünü hafiflettiğini ve adını yücelttiğini bildirir.",
+   "Zorlukla beraber kolaylık müjdesi iki kez tekrarlanır, müfessirler bunu, bir zorluğun iki kolaylığı yenemeyeceği şeklinde açıklar.",
+   [
+    "Sure, boş durmamayı ve yalnız Allah'a yönelmeyi öğütler.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her zorluğun yanında bir kolaylık vardır, işin bitince yenisine koyul, yönün hep Rabbine olsun.",
+    1.6
+   ],
+   "Tîn Suresi. Kur'an-ı Kerim'in doksan beşinci suresidir.",
+   "Mekke'de inmiştir ve sekiz ayettir.",
+   "Adı, incir anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "İncire ve zeytine andolsun,",
+   "Sînâ dağına andolsun,",
+   "Ve bu güvenli şehre Mekke'ye andolsun ki,",
+   "Biz insanı en güzel biçimde yarattık.",
+   "Sonra onu aşağıların aşağısına çevirdik.",
+   "Ancak iman edip sâlih ameller işleyenler başka, onlar için kesintisiz bir ödül vardır.",
+   "Öyleyse ey insan, bundan sonra sana hesap gününü ne yalanlatabilir?",
+   [
+    "Allah, hükmedenlerin en iyi hükmedeni değil midir?",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "İncir, zeytin, Sînâ dağı ve Mekke, vahyin indiği bereketli yerleri hatırlatır.",
+   "Allah insanı beden ve ruh yönüyle en güzel biçimde yaratmıştır, ama insan bu değerini iman ve iyi işlerle korumazsa en aşağı seviyeye düşer.",
+   [
+    "Kurtulanlar, iman edip sâlih amel işleyenlerdir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "En güzel biçimde yaratıldın, değerini iman ve iyilikle koru.",
+    1.6
+   ],
+   "Alak Suresi. Kur'an-ı Kerim'in doksan altıncı suresidir.",
+   "Mekke'de inmiştir ve on dokuz ayettir.",
+   "Adı, rahme tutunan hücre anlamına gelir.",
+   "On dokuzuncu ayet secde ayetidir, okuyan veya dinleyen kişinin tilâvet secdesi yapması gerekir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Yaratan Rabbinin adıyla oku!",
+   "O, insanı alaktan rahme tutunan hücreden yarattı.",
+   "Oku! Rabbin sonsuz kerem sahibidir.",
+   "O, kalemle yazmayı öğretendir,",
+   "İnsana bilmediğini öğretendir.",
+   "Hayır! Doğrusu insan azar,",
+   "Kendini kendine yeterli gördüğü için.",
+   "Oysa dönüş mutlaka Rabbinedir.",
+   "Gördün mü şu engelleyeni,",
+   "Namaz kıldığı zaman bir kulu?",
+   "Ne dersin, ya o kul doğru yoldaysa,",
+   "Yahut takvâyı emrediyorsa?",
+   "Ne dersin, ya öteki yalanlıyor ve yüz çeviriyorsa?",
+   "Allah'ın her şeyi gördüğünü bilmiyor mu?",
+   "Hayır! Eğer vazgeçmezse onu perçeminden tutup çekeceğiz,",
+   "O yalancı, günahkâr perçeminden!",
+   "Haydi, çağırsın meclisini.",
+   "Biz de zebânîleri çağıracağız.",
+   [
+    "Hayır! Ona boyun eğme, secde et ve Rabbine yaklaş.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "İlk beş ayet, Hira mağarasında inen ilk vahiydir ve oku emriyle başlar, okumanın, yazmanın ve bilginin Allah'ın bir ikramı olduğunu öğretir.",
+   "Devamı, kendini yeterli görüp azan ve namaz kılanı engellemeye kalkan kimseyi uyarır, rivayetlere göre bu kişi Ebû Cehil'dir.",
+   [
+    "Sure, secde et ve yaklaş emriyle biter, çünkü kul Rabbine en çok secdede yakındır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   "İlk emir: Oku!",
+   [
+    "Son emir: Secde et ve yaklaş.",
+    1.6
+   ],
+   "Kadir Suresi. Kur'an-ı Kerim'in doksan yedinci suresidir.",
+   "Mekke'de inmiştir ve beş ayettir.",
+   "Adı, kadir gecesi anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Biz onu Kur'an'ı Kadir gecesinde indirdik.",
+   "Kadir gecesinin ne olduğunu sen nereden bileceksin?",
+   "Kadir gecesi bin aydan daha hayırlıdır.",
+   "Melekler ve Rûh Cebrâil, o gecede Rablerinin izniyle her iş için iner.",
+   [
+    "O gece, tan yeri ağarıncaya kadar esenliktir.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Kur'an'ın indirilmeye başlandığı geceyi anlatır.",
+   "Bu tek gece, içinde Kadir gecesi bulunmayan bin aydan, yani seksen yılı aşkın bir ömürden daha hayırlıdır.",
+   "Melekler ve Cebrâil yeryüzüne iner, gece, tan ağarıncaya kadar esenlikle doludur.",
+   [
+    "Peygamberimiz bu geceyi Ramazan'ın son on gününde aramayı tavsiye etmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bir gece, bin aydan hayırlı, değerini Kur'an'dan alır.",
+    1.6
+   ],
+   "Beyyine Suresi. Kur'an-ı Kerim'in doksan sekizinci suresidir.",
+   "Medine'de inmiştir ve sekiz ayettir.",
+   "Adı, apaçık delil anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Ehl-i kitaptan ve müşriklerden inkâr edenler, kendilerine apaçık delil gelinceye kadar inkârlarından ayrılacak değillerdi.",
+   "O delil, Allah tarafından gönderilen ve tertemiz sayfaları okuyan bir elçidir.",
+   "O sayfalarda dosdoğru hükümler vardır.",
+   "Kendilerine kitap verilenler, ancak o apaçık delil geldikten sonra ayrılığa düştüler.",
+   "Oysa onlara yalnızca, dini Allah'a has kılarak ve hakka yönelerek O'na kulluk etmeleri, namazı kılmaları ve zekâtı vermeleri emredilmişti. İşte dosdoğru din budur.",
+   "Ehl-i kitaptan ve müşriklerden inkâr edenler, içinde ebedî kalmak üzere cehennem ateşindedirler. İşte onlar yaratılmışların en kötüsüdür.",
+   "İman edip sâlih ameller işleyenlere gelince, işte onlar yaratılmışların en hayırlısıdır.",
+   [
+    "Onların Rableri katındaki ödülü, içinden ırmaklar akan ve içinde ebedî kalacakları Adn cennetleridir. Allah onlardan razı olmuş, onlar da Allah'tan razı olmuşlardır. İşte bu, Rabbine saygı duyan kimse içindir.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Beyyine, apaçık delil demektir, bu delil, tertemiz sayfaları okuyan Peygamberimiz ve getirdiği Kur'an'dır.",
+   "Sure dinin özünü tek ayette toplar: Allah'a içtenlikle kulluk etmek, namazı kılmak ve zekâtı vermek.",
+   [
+    "İnsanlar bu çağrı karşısında ikiye ayrılır: inkâr edenler yaratılmışların en kötüsü, iman edip iyi işler yapanlar ise en hayırlısıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dinin özü ihlâstır: Allah onlardan razı, onlar da Allah'tan razı.",
+    1.6
+   ],
+   "Zilzâl Suresi. Kur'an-ı Kerim'in doksan dokuzuncu suresidir.",
+   "Medine'de inmiştir ve sekiz ayettir.",
+   "Adı, sarsıntı anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Yer, o dehşetli sarsıntısıyla sarsıldığı,",
+   "Toprak, ağırlıklarını dışarı çıkardığı,",
+   "Ve insan Buna ne oluyor? dediği zaman,",
+   "İşte o gün yer, bütün haberlerini anlatır,",
+   "Çünkü Rabbin ona öyle vahyetmiştir.",
+   "O gün insanlar, yaptıkları kendilerine gösterilsin diye bölük bölük çıkarlar.",
+   "Kim zerre kadar hayır işlemişse onu görür.",
+   [
+    "Kim de zerre kadar kötülük işlemişse onu görür.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Kıyamet günü yerin şiddetle sarsılacağını, içindekileri dışarı atacağını ve üzerinde yapılan her şeye şahitlik edeceğini haber verir.",
+   "O gün hiçbir amel kaybolmaz: zerre kadar iyilik de zerre kadar kötülük de sahibinin önüne konur.",
+   [
+    "Peygamberimiz son iki ayeti, benzersiz ve kapsamlı ayet olarak nitelemiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zerre kadar iyilik de zerre kadar kötülük de kaybolmaz.",
+    1.6
+   ],
+   "Âdiyât Suresi. Kur'an-ı Kerim'in yüzüncü suresidir.",
+   "Mekke'de inmiştir ve on bir ayettir.",
+   "Adı, koşanlar anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Nefes nefese koşanlara,",
+   "Tırnaklarıyla kıvılcım saçanlara,",
+   "Sabah vakti baskın yapanlara,",
+   "Orada tozu dumana katanlara,",
+   "Ve bir topluluğun ortasına dalanlara andolsun ki,",
+   "İnsan, Rabbine karşı gerçekten çok nankördür.",
+   "Buna kendisi de şahittir.",
+   "O, mal sevgisine de aşırı düşkündür.",
+   "Bilmez mi ki, kabirlerdekiler dışarı çıkarıldığı,",
+   "Ve göğüslerdekiler ortaya döküldüğü zaman,",
+   [
+    "İşte o gün Rableri onların her hâlinden haberdardır.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Sure, sahibi için nefes nefese koşan atlara yeminle başlar.",
+   "At, kendisini besleyen sahibine böylesine bağlıyken, insan, kendisini yaratıp sayısız nimet veren Rabbine karşı nankörlük eder ve mala aşırı düşkündür.",
+   [
+    "Sure, kabirlerin açılıp kalplerdeki gizlilerin ortaya döküleceği günü hatırlatarak uyarır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "At sahibine vefalı, ya insan Rabbine?",
+    1.6
+   ],
+   "Kâria Suresi. Kur'an-ı Kerim'in yüz birinci suresidir.",
+   "Mekke'de inmiştir ve on bir ayettir.",
+   "Adı, büyük felaket anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Kapıları döven o büyük felaket!",
+   "Nedir o büyük felaket?",
+   "O büyük felaketin ne olduğunu sen nereden bileceksin?",
+   "O gün insanlar, etrafa saçılmış pervaneler gibi olur.",
+   "Dağlar da atılmış renkli yün gibi olur.",
+   "Kimin tartıları ağır gelirse,",
+   "O, hoşnut olacağı bir hayat içindedir.",
+   "Kimin de tartıları hafif gelirse,",
+   "Onun varacağı yer Hâviye'dir.",
+   "Onun ne olduğunu sen nereden bileceksin?",
+   [
+    "O, kızgın bir ateştir.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Kâria, kalpleri yerinden oynatan kıyametin adıdır.",
+   "O gün insanlar ateşin çevresinde uçuşan pervaneler gibi dağılır, dağlar atılmış yün gibi savrulur.",
+   [
+    "Sonucu terazi belirler: iyilikleri ağır gelen hoşnut bir hayata kavuşur, hafif gelen ise kızgın ateşe varır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "O gün terazide ağır gelen, iyiliklerindir.",
+    1.6
+   ],
+   "Tekâsür Suresi. Kur'an-ı Kerim'in yüz ikinci suresidir.",
+   "Mekke'de inmiştir ve sekiz ayettir.",
+   "Adı, çoklukla övünme anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Çoklukla övünmek sizi oyaladı,",
+   "Kabirlere varıncaya kadar.",
+   "Hayır! Yakında bileceksiniz.",
+   "Yine hayır! Yakında bileceksiniz.",
+   "Hayır! Keşke kesin bir bilgiyle bilseydiniz.",
+   "Andolsun, cehennemi mutlaka göreceksiniz.",
+   "Sonra onu gözünüzle, kesin olarak göreceksiniz.",
+   [
+    "Sonra o gün, size verilen her nimetten mutlaka sorguya çekileceksiniz.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Mal, evlat ve sayı çokluğuyla övünme yarışı, insanı ölüm kapıyı çalana kadar asıl amacından alıkoyar.",
+   "Sure peş peşe uyarır: gerçeği yakında bileceksiniz.",
+   [
+    "Son ayet hesabı hatırlatır, sağlık, boş vakit, güvenlik, yenilen ve içilen her şey sorulacak nimetlerdendir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Çokluk yarışı kabre kadar sürer, sonra her nimetin hesabı sorulur.",
+    1.6
+   ],
+   "Asr Suresi. Kur'an-ı Kerim'in yüz üçüncü suresidir.",
+   "Mekke'de inmiştir ve üç ayettir.",
+   "Adı, zaman anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Zamana andolsun ki,",
+   "İnsan gerçekten ziyandadır.",
+   [
+    "Ancak iman edip sâlih ameller işleyenler, birbirine hakkı tavsiye edenler ve birbirine sabrı tavsiye edenler başka.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Üç kısa ayette kurtuluşun yolunu özetler.",
+   "Zaman insanın sermayesidir ve her an erimektedir, bu yüzden insan ziyandadır.",
+   "Kurtulanlar dört şeyi bir araya getirenlerdir: iman, sâlih amel, hakkı tavsiye ve sabrı tavsiye.",
+   [
+    "İmam Şâfiî, insanlar yalnızca bu sure üzerinde düşünselerdi onlara yeterdi, demiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zaman eriyen bir sermayedir: iman et, iyilik yap, hakkı ve sabrı tavsiye et.",
+    1.6
+   ],
+   "Hümeze Suresi. Kur'an-ı Kerim'in yüz dördüncü suresidir.",
+   "Mekke'de inmiştir ve dokuz ayettir.",
+   "Adı, arkadan çekiştiren anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "İnsanları arkadan çekiştiren, kaş göz işaretiyle alay eden herkesin vay hâline!",
+   "O ki mal toplar ve onu sayıp durur.",
+   "Malının kendisini ebedî yaşatacağını sanır.",
+   "Hayır! O, mutlaka Hutame'ye atılacaktır.",
+   "Hutame'nin ne olduğunu sen nereden bileceksin?",
+   "O, Allah'ın tutuşturulmuş ateşidir,",
+   "Yüreklere kadar işleyen ateş.",
+   "O ateş onların üzerine kapatılacaktır,",
+   [
+    "Uzatılmış direkler arasında.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "İnsanları arkalarından çekiştiren, kaş göz işaretiyle küçümseyen ve malını sayıp durarak ona güvenen kimseyi kınar.",
+   "Mal kimseyi ölümsüz kılmaz, bu ahlâkın sonu, kalplere kadar işleyen Hutame ateşidir.",
+   [
+    "Sure, dili ve malı doğru kullanmaya çağırır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dilinle kırma, malınla övünme.",
+    1.6
+   ],
+   "Fîl Suresi. Kur'an-ı Kerim'in yüz beşinci suresidir.",
+   "Mekke'de inmiştir ve beş ayettir.",
+   "Adı, fil anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Rabbinin fil sahiplerine ne yaptığını görmedin mi?",
+   "Onların tuzaklarını boşa çıkarmadı mı?",
+   "Üzerlerine sürü sürü kuşlar gönderdi.",
+   "O kuşlar onlara pişmiş çamurdan taşlar atıyordu.",
+   [
+    "Sonunda onları yenilmiş ekin yaprağı gibi yaptı.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Peygamberimizin doğduğu yıl, Yemen valisi Ebrehe fillerle güçlendirilmiş ordusuyla Kâbe'yi yıkmaya geldi.",
+   "Allah, sürü sürü kuşlarla bu orduyu helâk etti ve evini korudu.",
+   [
+    "Sure, Allah'ın gücü karşısında en büyük orduların bile çaresiz kaldığını gösterir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah evini korur, koca filler küçük kuşlara yenildi.",
+    1.6
+   ],
+   "Kureyş Suresi. Kur'an-ı Kerim'in yüz altıncı suresidir.",
+   "Mekke'de inmiştir ve dört ayettir.",
+   "Adı, kureyş kabilesi anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Kureyş'e sağlanan güven ve kolaylık için,",
+   "Kış ve yaz yolculuklarında onlara sağlanan güven ve kolaylık için,",
+   "Şu evin Kâbe'nin Rabbine kulluk etsinler.",
+   [
+    "O, kendilerini açlıktan doyuran ve korkudan emin kılandır.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Fîl suresinin devamı gibidir.",
+   "Kâbe sayesinde Kureyş kabilesi saygı görür, kışın Yemen'e, yazın Şam'a güven içinde ticaret yolculuğu yapardı.",
+   "Allah onlara iki büyük nimetini hatırlatır: açlıktan doyurmak ve korkudan emin kılmak.",
+   [
+    "Bu nimetlerin şükrü, Kâbe'nin Rabbine kulluk etmektir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Tok ve güvendeysen şükret: Kâbe'nin Rabbine kulluk et.",
+    1.6
+   ],
+   "Mâûn Suresi. Kur'an-ı Kerim'in yüz yedinci suresidir.",
+   "Mekke'de inmiştir ve yedi ayettir.",
+   "Adı, küçük yardım anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Dini yalanlayanı gördün mü?",
+   "İşte o, yetimi itip kakar,",
+   "Yoksulu doyurmaya teşvik etmez.",
+   "Vay hâline o namaz kılanların ki,",
+   "Onlar namazlarını ciddiye almazlar,",
+   "Onlar gösteriş yaparlar,",
+   [
+    "Ve en küçük yardımı bile esirgerler.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Dini yalanlamanın davranıştaki izlerini gösterir: yetimi itip kakmak ve yoksulu doyurmaya ön ayak olmamak.",
+   "Ardından namazını ciddiye almayan, gösteriş için kılan ve en küçük yardımı bile esirgeyenleri uyarır.",
+   [
+    "Gerçek dindarlık, Allah'a içten kulluk ile insanlara iyiliği birleştirir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Namaz ve iyilik birbirinden ayrılmaz.",
+    1.6
+   ],
+   "Kevser Suresi. Kur'an-ı Kerim'in yüz sekizinci suresidir.",
+   "Mekke'de inmiştir ve üç ayettir.",
+   "Adı, bol hayır anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Şüphesiz biz sana Kevser'i verdik.",
+   "Öyleyse Rabbin için namaz kıl ve kurban kes.",
+   [
+    "Asıl soyu kesik olan, sana buğzedenin kendisidir.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Kur'an'ın en kısa suresidir.",
+   "Oğulları küçük yaşta vefat edince müşrikler Peygamberimize soyu kesik dediler, Allah ise ona Kevser'i, yani bitmeyen hayrı ve cennetteki Kevser ırmağını verdiğini bildirdi.",
+   "Bu nimetin şükrü namaz ve kurbandır.",
+   [
+    "Asıl adı sanı unutulanlar, ona düşmanlık edenler olmuştur.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah verince bol verir, şükrü namaz ve kurbandır.",
+    1.6
+   ],
+   "Kâfirûn Suresi. Kur'an-ı Kerim'in yüz dokuzuncu suresidir.",
+   "Mekke'de inmiştir ve altı ayettir.",
+   "Adı, inkârcılar anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "De ki: Ey inkârcılar!",
+   "Ben sizin taptıklarınıza tapmam.",
+   "Siz de benim kulluk ettiğime kulluk edecek değilsiniz.",
+   "Ben sizin taptıklarınıza tapacak değilim.",
+   "Siz de benim kulluk ettiğime kulluk edecek değilsiniz.",
+   [
+    "Sizin dininiz size, benim dinim banadır.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Mekkeli müşrikler Peygamberimize, bir yıl sen bizim putlarımıza tap, bir yıl da biz senin Rabbine tapalım, diye uzlaşma teklif ettiler, bu sure teklifi kesin olarak reddetti.",
+   "İnançta pazarlık ve karışım olmaz, ama zorlama da yoktur: herkesin dini kendisinedir.",
+   [
+    "Peygamberimiz bu sureyi ve İhlâs'ı sabah namazının sünnetinde okurdu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İnançta pazarlık olmaz: sizin dininiz size, benim dinim bana.",
+    1.6
+   ],
+   "Nasr Suresi. Kur'an-ı Kerim'in yüz onuncu suresidir.",
+   "Medine'de inmiştir ve üç ayettir.",
+   "Adı, yardım anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Allah'ın yardımı ve fetih geldiği,",
+   "Ve insanların bölük bölük Allah'ın dinine girdiğini gördüğün zaman,",
+   [
+    "Rabbini hamd ile tesbih et ve O'ndan bağışlanma dile. Şüphesiz O, tövbeleri çok kabul edendir.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Mekke'nin fethini ve insanların bölük bölük İslâm'a girişini müjdeler, bütün olarak inen son suredir.",
+   "Zafer anında istenen şey gurur değil, tesbih, hamd ve istiğfardır.",
+   [
+    "İbn Abbas bu sureden, Peygamberimizin vefatının yaklaştığını anlamıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Başarı gelince övünme, hamdet ve bağışlanma dile.",
+    1.6
+   ],
+   "Tebbet Suresi. Kur'an-ı Kerim'in yüz on birinci suresidir.",
+   "Mekke'de inmiştir ve beş ayettir.",
+   "Adı, kurusun anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "Ebû Leheb'in elleri kurusun, kurudu da!",
+   "Ne malı ne de kazandıkları ona fayda verdi.",
+   "O, alevli bir ateşe girecektir.",
+   "Karısı da, o odun taşıyıcı,",
+   [
+    "Boynunda bükülmüş bir ip olduğu hâlde.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz Safâ tepesinde akrabalarını İslâm'a çağırınca amcası Ebû Leheb ona hakaret etti, sure bunun üzerine indi.",
+   "Ne malı ne de soyu Ebû Leheb'i kurtardı, Peygamberimize eziyet etmekte ona ortak olan karısı da aynı sona uğradı.",
+   "Sure, hakka düşmanlıkta malın ve akrabalığın fayda vermediğini öğretir.",
+   [
+    "Mesed suresi olarak da anılır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Mal da soy da kurtarmaz, kurtaran imandır.",
+    1.6
+   ],
+   "İhlâs Suresi. Kur'an-ı Kerim'in yüz on ikinci suresidir.",
+   "Mekke'de inmiştir ve dört ayettir.",
+   "Adı, samimiyet anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "De ki: O Allah birdir.",
+   "Allah Samed'dir, her şey O'na muhtaçtır, O hiçbir şeye muhtaç değildir.",
+   "O doğurmamıştır ve doğurulmamıştır.",
+   [
+    "Hiçbir şey O'na denk değildir.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Müşrikler Peygamberimizden Rabbini tanıtmasını isteyince indi.",
+   "Dört kısa ayette tevhidi özetler: Allah birdir, hiçbir şeye muhtaç değildir, doğurmamış ve doğurulmamıştır, hiçbir şey O'na denk değildir.",
+   [
+    "Peygamberimiz bu surenin Kur'an'ın üçte birine denk olduğunu bildirmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah bir, eşsiz ve benzersiz: dört ayette tevhid.",
+    1.6
+   ],
+   "Felak Suresi. Kur'an-ı Kerim'in yüz on üçüncü suresidir.",
+   "Mekke'de inmiştir ve beş ayettir.",
+   "Adı, sabah aydınlığı anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "De ki: Sabahın Rabbine sığınırım,",
+   "Yarattığı şeylerin şerrinden,",
+   "Karanlığı çöktüğü zaman gecenin şerrinden,",
+   "Düğümlere üfleyenlerin şerrinden,",
+   [
+    "Ve haset ettiği zaman hasetçinin şerrinden.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Nâs suresiyle birlikte Muavvizeteyn, yani koruyucu iki sure diye anılır.",
+   "Dışarıdan gelen kötülüklerden, yaratılmışların şerrinden, gecenin karanlığından, büyü yapanlardan ve hasetçiden sabahın Rabbine sığınmayı öğretir.",
+   [
+    "Peygamberimiz her gece yatmadan önce İhlâs, Felak ve Nâs surelerini okurdu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Karanlıktan korkma, sabahın Rabbine sığın.",
+    1.6
+   ],
+   "Nâs Suresi. Kur'an-ı Kerim'in yüz on dördüncü suresidir.",
+   "Mekke'de inmiştir ve altı ayettir.",
+   "Adı, insanlar anlamına gelir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rahmân ve Rahîm olan Allah'ın adıyla.",
+   "De ki: İnsanların Rabbine sığınırım,",
+   "İnsanların hükümdarına,",
+   "İnsanların ilâhına,",
+   "O sinsi vesvesecinin şerrinden.",
+   "O ki insanların göğüslerine vesvese verir,",
+   [
+    "Cinlerden de olur, insanlardan da.",
+    0.8
+   ],
+   [
+    "Kısa tefsiri şöyledir.",
+    0.6
+   ],
+   "Kur'an'ın son suresidir.",
+   "İnsanın içine fısıldayan ve Allah anılınca sinip geri çekilen vesveseciden, insanların Rabbine, hükümdarına ve ilâhına sığınmayı öğretir.",
+   [
+    "Vesvese cinlerden de gelebilir, insanlardan da, çaresi Allah'ı anmak ve O'na sığınmaktır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Vesvese fısıldar, Allah'ı anınca siner.",
+    1.6
+   ],
+   "Ezan Duası. Ezan bittikten sonra okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ım! Ey bu eksiksiz çağrının ve kılınacak namazın Rabbi!",
+   "Muhammed'e vesileyi ve fazileti ver.",
+   [
+    "Onu, kendisine vaat ettiğin övülmüş makama ulaştır.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz, ezanı dinledikten sonra bu duayı okuyan kimseye kıyamet günü şefaatinin hak olacağını bildirmiştir.",
+   [
+    "Vesile, cennette yüksek bir derecedir, Makam-ı Mahmûd ise büyük şefaat makamıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ezanı dinle, duasını et, şefaate talip ol.",
+    1.6
+   ],
+   "Sübhâneke. Namaza başlarken, iftitah tekbirinden hemen sonra okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ım! Seni her türlü eksiklikten uzak tutar, sana hamd ederim.",
+   "Senin adın mübarektir.",
+   "Senin şânın yücedir.",
+   [
+    "Senden başka ilâh yoktur.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Namazın açılış duasıdır.",
+   "Kul, daha ilk sözünde Rabbini eksikliklerden uzak tutar, O'na hamd eder ve O'ndan başka ilâh olmadığını ilan eder.",
+   [
+    "Böylece namaza tevhid ile başlanır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Namazın ilk sözü: Seni tesbih ederim, senden başka ilâh yoktur.",
+    1.6
+   ],
+   "Eûzü Besmele. Sübhâneke'den sonra, Fâtiha'ya başlamadan önce okunur.",
+   "Sonraki rekâtlarda yalnız besmele çekilir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Kovulmuş şeytandan Allah'a sığınırım.",
+   [
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Kur'an okumaya başlarken şeytandan Allah'a sığınmak Kur'an'ın emridir.",
+   [
+    "Besmele ile de her işe Allah'ın adıyla başlanır, kul, işini O'nun rahmetine emanet eder.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Önce Allah'a sığın, sonra O'nun adıyla başla.",
+    1.6
+   ],
+   "Rükû Tesbihi. Rükûda en az üç kez söylenir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   [
+    "Yüce Rabbimi her türlü eksiklikten uzak tutarım.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Vâkıa suresindeki, Rabbini azîm ismiyle tesbih et, ayeti inince Peygamberimiz bunu rükûda söylemeyi öğretmiştir.",
+   [
+    "Bedeniyle eğilen kul, diliyle de Rabbinin büyüklüğünü ilan eder.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Eğilirken söyle: Büyük olan yalnız Rabbimdir.",
+    1.6
+   ],
+   "Rükûdan Kalkarken. Rükûdan doğrulurken ilk söz, doğrulunca ikinci söz söylenir.",
+   "Cemaatle namazda ilkini imam, ikincisini cemaat söyler.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah, kendisine hamd edeni işitir.",
+   [
+    "Rabbimiz! Hamd yalnız sanadır.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Rükûdan kalkan kul, Allah'ın hamd edeni işittiğini haber verir ve hemen ardından hamd eder.",
+   [
+    "Peygamberimiz, imam bu sözü söylediğinde cemaatin hamd ile karşılık vermesini öğretmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah hamd edeni işitir, öyleyse hamdet.",
+    1.6
+   ],
+   "Secde Tesbihi. Her secdede en az üç kez söylenir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   [
+    "En yüce Rabbimi her türlü eksiklikten uzak tutarım.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "A'lâ suresindeki, yüce Rabbinin adını tesbih et, ayeti inince Peygamberimiz bunu secdede söylemeyi öğretmiştir.",
+   [
+    "Alnını yere koyan kul en alçak hâlindeyken Rabbinin en yüce olduğunu söyler, kulun Rabbine en yakın olduğu an da secde anıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Alnım yerde, Rabbim en yücede.",
+    1.6
+   ],
+   "Tahiyyat. Namazdaki her oturuşta okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Bütün saygılar, dualar ve güzel sözler Allah'a aittir.",
+   "Ey Peygamber! Selâm, Allah'ın rahmeti ve bereketleri senin üzerine olsun.",
+   "Selâm bize ve Allah'ın sâlih kullarına olsun.",
+   "Şahitlik ederim ki Allah'tan başka ilâh yoktur.",
+   [
+    "Yine şahitlik ederim ki Muhammed O'nun kulu ve elçisidir.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz bu duayı Abdullah bin Mes'ûd'a, elini avuçlarının arasına alarak, Kur'an'dan bir sure öğretir gibi öğretmiştir.",
+   [
+    "Önce Allah'a saygı sunulur, sonra Peygamberimize ve bütün sâlih kullara selâm verilir, en sonunda kelime-i şehadetle iman tazelenir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Önce Allah'a saygı, sonra Peygamber'e ve sâlihlere selâm, sonunda şehadet.",
+    1.6
+   ],
+   "Allâhümme Salli. Son oturuşta Tahiyyat'tan sonra okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ım! Muhammed'e ve Muhammed'in ailesine rahmet eyle,",
+   "İbrâhim'e ve İbrâhim'in ailesine rahmet ettiğin gibi.",
+   [
+    "Şüphesiz sen övülmeye lâyıksın, şânı yüce olansın.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Allah, müminlere Peygamberimize salât ve selâm getirmeyi emreder.",
+   "Sahâbîler, sana nasıl salât getirelim, diye sorunca Peygamberimiz bu duayı öğretmiştir.",
+   [
+    "Dua, Peygamberimizi atası Hazreti İbrâhim'le birlikte anar.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Peygamberimize dua, İbrâhim'e verilen rahmeti örnek göstererek yapılır.",
+    1.6
+   ],
+   "Allâhümme Bârik. Son oturuşta Allâhümme Salli'den sonra okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ım! Muhammed'e ve Muhammed'in ailesine bereket ver,",
+   "İbrâhim'e ve İbrâhim'in ailesine bereket verdiğin gibi.",
+   [
+    "Şüphesiz sen övülmeye lâyıksın, şânı yüce olansın.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Salli duasının devamıdır.",
+   [
+    "Bereket, hayrın artması ve kalıcı olması demektir, kul, Peygamberimizin ve ailesinin hayrının kesintisiz sürmesini diler.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Salli rahmet ister, Bârik bereket ister.",
+    1.6
+   ],
+   "Rabbenâ Âtinâ. Son oturuşta Salli ve Bârik dualarından sonra okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rabbimiz! Bize dünyada iyilik ver,",
+   "Âhirette de iyilik ver,",
+   [
+    "Ve bizi ateş azabından koru.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Bakara suresinin iki yüz birinci ayetinde geçen duadır.",
+   [
+    "Dünya ve âhiret iyiliğini tek cümlede isteyen kapsamlı bir duadır, Enes bin Mâlik, Peygamberimizin en çok yaptığı duanın bu olduğunu bildirir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Tek cümlede iki dünya: burada iyilik, orada iyilik, ateşten korunma.",
+    1.6
+   ],
+   "Rabbenağfirlî. Son oturuşta Rabbenâ Âtinâ'dan sonra, selâm vermeden önce okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Rabbimiz! Beni, anamı ve babamı bağışla,",
+   [
+    "Hesabın görüleceği gün bütün müminleri de bağışla.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "İbrâhîm suresinin kırk birinci ayetidir ve Hazreti İbrâhim'in duasıdır.",
+   [
+    "Kul önce kendisi, sonra anne babası, sonra bütün müminler için bağışlanma diler, dua böylece halka halka genişler.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Önce kendin, sonra annen baban, sonra bütün müminler.",
+    1.6
+   ],
+   "Kunut Duası bir. Vitir namazının üçüncü rekâtında, Fâtiha ve sureden sonra tekbir alınarak okunur.",
+   "Din İşleri Yüksek Kurulu'na göre, ezberleyene kadar bu duanın yerine Rabbenâ Âtinâ duası okunabilir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ım! Senden yardım isteriz, senden bağışlanma dileriz, senden hidayet isteriz.",
+   "Sana iman ederiz, sana tövbe ederiz, sana güveniriz.",
+   "Seni bütün hayırlarla överiz.",
+   "Sana şükrederiz, nankörlük etmeyiz.",
+   [
+    "Sana isyan edeni bırakır, ondan uzak dururuz.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Vitir namazında okunan iki duanın ilkidir.",
+   [
+    "Kul, Rabbinden yardım, bağışlanma ve hidayet ister, imanını, tövbesini ve tevekkülünü yeniler, şükredeceğine söz verir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   "Üç istek: yardım, bağışlanma, hidayet.",
+   [
+    "Üç söz: iman, tövbe, tevekkül.",
+    1.6
+   ],
+   "Kunut Duası iki. Vitir namazında birinci kunut duasının hemen ardından okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ım! Yalnız sana kulluk ederiz.",
+   "Yalnız senin için namaz kılar, yalnız sana secde ederiz.",
+   "Sana koşar, sana yöneliriz.",
+   "Rahmetini umar, azabından korkarız.",
+   [
+    "Şüphesiz senin azabın inkârcılara ulaşacaktır.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Birinci kunut duasının devamıdır.",
+   [
+    "Kulluğun yalnız Allah'a yapıldığını ilan eder, müminin kalbindeki iki duyguyu, yani rahmeti ummayı ve azaptan korkmayı bir arada dile getirir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kulluk yalnız sana, kalpte hem umut hem korku.",
+    1.6
+   ],
+   "Namaz Sonrası İstiğfar ve Selâm Duası. Farz namazın selâmından hemen sonra okunur, istiğfar üç kez söylenir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'tan bağışlanma dilerim.",
+   "Allah'ım! Selâm sensin, esenlik de ancak sendendir.",
+   [
+    "Ey celâl ve ikram sahibi! Sen ne yücesin.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Sevbân'ın bildirdiğine göre Peygamberimiz namazı bitirince üç kez istiğfar eder, sonra bu duayı okurdu.",
+   "Namazın hemen ardından istiğfar, ibadetteki eksiklerin affını dilemektir.",
+   [
+    "Selâm ise Allah'ın güzel isimlerindendir, esenlik yalnız O'ndan gelir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Namaz biter bitmez: üç istiğfar, bir selâm duası.",
+    1.6
+   ],
+   "Âyetü'l-Kürsî. Her farz namazın ardından ve gece yatmadan önce okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah, kendisinden başka ilâh olmayandır, diridir, her şeyi ayakta tutandır.",
+   "O'nu ne uyuklama tutar ne de uyku.",
+   "Göklerde ve yerde ne varsa hepsi O'nundur.",
+   "O'nun izni olmadan katında kim şefaat edebilir?",
+   "O, kullarının önlerindekini de arkalarındakini de bilir.",
+   "Onlar O'nun ilminden, O'nun dilediği kadarından başka hiçbir şeyi kavrayamazlar.",
+   "O'nun kürsüsü gökleri ve yeri kaplamıştır.",
+   "Onları koruyup gözetmek O'na ağır gelmez.",
+   [
+    "O, pek yücedir, pek büyüktür.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Bakara suresinin iki yüz elli beşinci ayetidir, Peygamberimiz onu Kur'an'ın en büyük ayeti olarak nitelemiştir.",
+   "Allah'ın diri, her şeyi ayakta tutan, uyumayan, ilmi ve hükümranlığı her şeyi kuşatan Rab olduğunu anlatır.",
+   [
+    "Her farz namazın ardından okunması tavsiye edilmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kur'an'ın en büyük ayeti: Allah diridir, uyumaz, her şeyi bilir ve korur.",
+    1.6
+   ],
+   "Namaz Tesbihatı. Her namazın ardından, Âyetü'l-Kürsî'den sonra otuz üçer kez söylenir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ı her türlü eksiklikten uzak tutarım.",
+   "Hamd Allah'a mahsustur.",
+   [
+    "Allah en büyüktür.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   [
+    "Peygamberimiz, her namazın ardından otuz üçer kez tesbih, hamd ve tekbir getirip yüzüncüde kelime-i tevhidi söyleyen kimsenin günahlarının, deniz köpüğü kadar çok olsa bile bağışlanacağını müjdelemiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Otuz üç tesbih, otuz üç hamd, otuz üç tekbir, yüzüncüsü tevhid.",
+    1.6
+   ],
+   "Kelime-i Tevhid. Tesbihatın sonunda bir kez söylenir, gün içinde de çokça tekrarlanır.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'tan başka ilâh yoktur, O tektir, ortağı yoktur.",
+   "Mülk O'nundur, hamd O'nadır.",
+   [
+    "O'nun her şeye gücü yeter.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Tesbihatı yüze tamamlayan sözdür.",
+   [
+    "Peygamberimiz, bu zikri günde yüz kez söyleyen kimsenin büyük sevap kazanacağını ve o gün akşama kadar şeytandan korunacağını bildirmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Mülk de hamd de O'nun, ortağı yok, gücü her şeye yeter.",
+    1.6
+   ],
+   "Allâhümme Eınnî. Her namazın sonunda okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   [
+    "Allah'ım! Seni anmak, sana şükretmek ve sana güzelce kulluk etmek için bana yardım et.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz Muâz bin Cebel'in elini tutmuş, onu sevdiğini söylemiş ve her namazın sonunda bu duayı bırakmamasını tavsiye etmiştir.",
+   [
+    "Kul, ibadeti bile ancak Allah'ın yardımıyla yapabileceğini bilir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zikir, şükür ve güzel kulluk, üçü de Allah'ın yardımıyla olur.",
+    1.6
+   ],
+   "Seyyidü'l-İstiğfâr. Sabah ve akşam okunur.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ım! Sen benim Rabbimsin, senden başka ilâh yoktur.",
+   "Beni sen yarattın, ben senin kulunum.",
+   "Gücüm yettiğince sana verdiğim söz üzereyim.",
+   "Yaptıklarımın kötülüğünden sana sığınırım.",
+   "Bana verdiğin nimeti itiraf ederim, günahımı da itiraf ederim.",
+   [
+    "Beni bağışla, çünkü günahları senden başkası bağışlayamaz.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "İstiğfarın efendisi demektir.",
+   "Peygamberimiz, bu duayı inanarak gündüz okuyup akşamdan önce, gece okuyup sabahtan önce ölen kimsenin cennetlik olduğunu bildirmiştir.",
+   [
+    "Dua, tevhidi, kulluğu, nimeti itirafı ve bağışlanma dileğini bir arada toplar.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Rabbim sensin, kulun benim, nimet senden, kusur benden: bağışla.",
+    1.6
+   ],
+   "Dile Hafif İki Söz. Gün içinde her zaman söylenir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   "Allah'ı hamd ederek tesbih ederim.",
+   [
+    "Yüce Allah'ı tesbih ederim.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz bu iki sözü şöyle tanıtır: dile hafif, terazide ağır ve Rahmân'a sevimli.",
+   "İmam Buhârî, Sahîh adlı eserini bu hadisle bitirmiştir.",
+   [
+    "Günde yüz kez sübhânallâhi ve bihamdihî diyen kimsenin günahlarının bağışlanacağı da müjdelenmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dile hafif, terazide ağır, Rahmân'a sevimli iki söz.",
+    1.6
+   ],
+   "Lâ Havle. Zorlandığında ve gün içinde her zaman söylenir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   [
+    "Güç ve kuvvet ancak Allah'ın yardımıyladır.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Peygamberimiz bu sözü, cennet hazinelerinden bir hazine olarak nitelemiştir.",
+   [
+    "İnsan, bir işi başarmanın da kötülükten uzak durmanın da ancak Allah'ın yardımıyla mümkün olduğunu itiraf eder.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gücüm yetmez, güç veren Allah'tır.",
+    1.6
+   ],
+   "Salavat. Peygamberimizin adı anıldığında ve gün içinde her zaman söylenir.",
+   [
+    "Anlamı şöyledir.",
+    0.6
+   ],
+   [
+    "Allah'ım! Muhammed'e ve ailesine rahmet eyle.",
+    0.8
+   ],
+   [
+    "Kısa açıklaması şöyledir.",
+    0.6
+   ],
+   "Allah ve melekleri Peygamber'e salât eder, müminlere de ona salât ve selâm getirmeleri emredilmiştir.",
+   [
+    "Peygamberimiz, kendisine bir kez salât getiren kimseye Allah'ın on kez rahmet edeceğini bildirmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   "Bir salavat, on rahmet."
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "fatiha",
+   "baslik": "Fâtiha Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Fâtiha Suresi. Kur'an-ı Kerim'in birinci suresidir.",
+    "Mekke'de inmiştir ve yedi ayettir.",
+    "Adı, açılış anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Hamd, âlemlerin Rabbi Allah'a mahsustur.",
+    "O, Rahmân'dır, Rahîm'dir.",
+    "Hesap ve ceza gününün sahibidir.",
+    "Yalnız sana kulluk eder, yalnız senden yardım dileriz.",
+    "Bizi dosdoğru yola ilet,",
+    [
+     "Nimet verdiklerinin yoluna, gazaba uğrayanların ve sapanların yoluna değil.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Kur'an'ın özü ve namazın vazgeçilmez suresidir, Peygamberimiz, Fâtiha okunmadan namazın tamam olmayacağını bildirmiştir.",
+    "İlk ayetleri Allah'ı tanıtır ve över.",
+    "Ortadaki ayet kulun sözüdür: yalnız sana kulluk eder, yalnız senden yardım dileriz.",
+    [
+     "Son ayetleri ise en büyük duadır: bizi doğru yoldan ayırma.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Önce hamd, sonra söz, sonra dua: Fâtiha, kulun Rabbiyle konuşmasıdır."
+   ]
+  },
+  {
+   "dosya": "duha",
+   "baslik": "Duhâ Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Duhâ Suresi. Kur'an-ı Kerim'in doksan üçüncü suresidir.",
+    "Mekke'de inmiştir ve on bir ayettir.",
+    "Adı, kuşluk vakti anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Kuşluk vaktine andolsun,",
+    "Karanlığı çöktüğü zaman geceye andolsun ki,",
+    "Rabbin seni bırakmadı, sana darılmadı da.",
+    "Senin için âhiret, dünyadan elbette daha hayırlıdır.",
+    "Rabbin sana verecek, sen de hoşnut olacaksın.",
+    "O seni yetim bulup barındırmadı mı?",
+    "Seni yol bilmez hâlde bulup yola iletmedi mi?",
+    "Seni ihtiyaç içinde bulup zengin etmedi mi?",
+    "Öyleyse yetimi sakın ezme.",
+    "İsteyeni sakın azarlama.",
+    [
+     "Rabbinin nimetini ise durmadan anlat.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Vahiy bir süre kesilince müşrikler, Rabbinin Peygamberimizi terk ettiğini söylediler, bu sure onu teselli etmek için indi.",
+    "Allah, yetimken barındırdığı, yol gösterdiği ve ihtiyaçtan kurtardığı elçisine geçmiş nimetlerini hatırlatır, geleceğin daha güzel olacağını müjdeler.",
+    [
+     "Karşılığında üç görev verir: yetimi ezme, isteyeni azarlama, nimeti anlat.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Gece ne kadar karanlık olsa da kuşluk gelir: Rabbin seni bırakmadı."
+   ]
+  },
+  {
+   "dosya": "insirah",
+   "baslik": "İnşirâh Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "İnşirâh Suresi. Kur'an-ı Kerim'in doksan dördüncü suresidir.",
+    "Mekke'de inmiştir ve sekiz ayettir.",
+    "Adı, ferahlama anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Biz senin göğsünü açıp genişletmedik mi?",
+    "Yükünü senden indirmedik mi?",
+    "O yük ki sırtını çökertmişti.",
+    "Senin şânını yüceltmedik mi?",
+    "Şüphesiz zorlukla beraber bir kolaylık vardır.",
+    "Gerçekten, zorlukla beraber bir kolaylık vardır.",
+    "Öyleyse bir işi bitirince hemen başka bir işe koyul,",
+    [
+     "Ve yalnız Rabbine yönel.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Duhâ suresinin devamı gibidir.",
+    "Allah, Peygamberimizin gönlünü genişlettiğini, yükünü hafiflettiğini ve adını yücelttiğini bildirir.",
+    "Zorlukla beraber kolaylık müjdesi iki kez tekrarlanır, müfessirler bunu, bir zorluğun iki kolaylığı yenemeyeceği şeklinde açıklar.",
+    [
+     "Sure, boş durmamayı ve yalnız Allah'a yönelmeyi öğütler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Her zorluğun yanında bir kolaylık vardır, işin bitince yenisine koyul, yönün hep Rabbine olsun."
+   ]
+  },
+  {
+   "dosya": "tin",
+   "baslik": "Tîn Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Tîn Suresi. Kur'an-ı Kerim'in doksan beşinci suresidir.",
+    "Mekke'de inmiştir ve sekiz ayettir.",
+    "Adı, incir anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "İncire ve zeytine andolsun,",
+    "Sînâ dağına andolsun,",
+    "Ve bu güvenli şehre Mekke'ye andolsun ki,",
+    "Biz insanı en güzel biçimde yarattık.",
+    "Sonra onu aşağıların aşağısına çevirdik.",
+    "Ancak iman edip sâlih ameller işleyenler başka, onlar için kesintisiz bir ödül vardır.",
+    "Öyleyse ey insan, bundan sonra sana hesap gününü ne yalanlatabilir?",
+    [
+     "Allah, hükmedenlerin en iyi hükmedeni değil midir?",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "İncir, zeytin, Sînâ dağı ve Mekke, vahyin indiği bereketli yerleri hatırlatır.",
+    "Allah insanı beden ve ruh yönüyle en güzel biçimde yaratmıştır, ama insan bu değerini iman ve iyi işlerle korumazsa en aşağı seviyeye düşer.",
+    [
+     "Kurtulanlar, iman edip sâlih amel işleyenlerdir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "En güzel biçimde yaratıldın, değerini iman ve iyilikle koru."
+   ]
+  },
+  {
+   "dosya": "alak",
+   "baslik": "Alak Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Alak Suresi. Kur'an-ı Kerim'in doksan altıncı suresidir.",
+    "Mekke'de inmiştir ve on dokuz ayettir.",
+    "Adı, rahme tutunan hücre anlamına gelir.",
+    "On dokuzuncu ayet secde ayetidir, okuyan veya dinleyen kişinin tilâvet secdesi yapması gerekir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Yaratan Rabbinin adıyla oku!",
+    "O, insanı alaktan rahme tutunan hücreden yarattı.",
+    "Oku! Rabbin sonsuz kerem sahibidir.",
+    "O, kalemle yazmayı öğretendir,",
+    "İnsana bilmediğini öğretendir.",
+    "Hayır! Doğrusu insan azar,",
+    "Kendini kendine yeterli gördüğü için.",
+    "Oysa dönüş mutlaka Rabbinedir.",
+    "Gördün mü şu engelleyeni,",
+    "Namaz kıldığı zaman bir kulu?",
+    "Ne dersin, ya o kul doğru yoldaysa,",
+    "Yahut takvâyı emrediyorsa?",
+    "Ne dersin, ya öteki yalanlıyor ve yüz çeviriyorsa?",
+    "Allah'ın her şeyi gördüğünü bilmiyor mu?",
+    "Hayır! Eğer vazgeçmezse onu perçeminden tutup çekeceğiz,",
+    "O yalancı, günahkâr perçeminden!",
+    "Haydi, çağırsın meclisini.",
+    "Biz de zebânîleri çağıracağız.",
+    [
+     "Hayır! Ona boyun eğme, secde et ve Rabbine yaklaş.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "İlk beş ayet, Hira mağarasında inen ilk vahiydir ve oku emriyle başlar, okumanın, yazmanın ve bilginin Allah'ın bir ikramı olduğunu öğretir.",
+    "Devamı, kendini yeterli görüp azan ve namaz kılanı engellemeye kalkan kimseyi uyarır, rivayetlere göre bu kişi Ebû Cehil'dir.",
+    [
+     "Sure, secde et ve yaklaş emriyle biter, çünkü kul Rabbine en çok secdede yakındır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "İlk emir: Oku!",
+    "Son emir: Secde et ve yaklaş."
+   ]
+  },
+  {
+   "dosya": "kadir",
+   "baslik": "Kadir Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Kadir Suresi. Kur'an-ı Kerim'in doksan yedinci suresidir.",
+    "Mekke'de inmiştir ve beş ayettir.",
+    "Adı, kadir gecesi anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Biz onu Kur'an'ı Kadir gecesinde indirdik.",
+    "Kadir gecesinin ne olduğunu sen nereden bileceksin?",
+    "Kadir gecesi bin aydan daha hayırlıdır.",
+    "Melekler ve Rûh Cebrâil, o gecede Rablerinin izniyle her iş için iner.",
+    [
+     "O gece, tan yeri ağarıncaya kadar esenliktir.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Kur'an'ın indirilmeye başlandığı geceyi anlatır.",
+    "Bu tek gece, içinde Kadir gecesi bulunmayan bin aydan, yani seksen yılı aşkın bir ömürden daha hayırlıdır.",
+    "Melekler ve Cebrâil yeryüzüne iner, gece, tan ağarıncaya kadar esenlikle doludur.",
+    [
+     "Peygamberimiz bu geceyi Ramazan'ın son on gününde aramayı tavsiye etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Bir gece, bin aydan hayırlı, değerini Kur'an'dan alır."
+   ]
+  },
+  {
+   "dosya": "beyyine",
+   "baslik": "Beyyine Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Beyyine Suresi. Kur'an-ı Kerim'in doksan sekizinci suresidir.",
+    "Medine'de inmiştir ve sekiz ayettir.",
+    "Adı, apaçık delil anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Ehl-i kitaptan ve müşriklerden inkâr edenler, kendilerine apaçık delil gelinceye kadar inkârlarından ayrılacak değillerdi.",
+    "O delil, Allah tarafından gönderilen ve tertemiz sayfaları okuyan bir elçidir.",
+    "O sayfalarda dosdoğru hükümler vardır.",
+    "Kendilerine kitap verilenler, ancak o apaçık delil geldikten sonra ayrılığa düştüler.",
+    "Oysa onlara yalnızca, dini Allah'a has kılarak ve hakka yönelerek O'na kulluk etmeleri, namazı kılmaları ve zekâtı vermeleri emredilmişti. İşte dosdoğru din budur.",
+    "Ehl-i kitaptan ve müşriklerden inkâr edenler, içinde ebedî kalmak üzere cehennem ateşindedirler. İşte onlar yaratılmışların en kötüsüdür.",
+    "İman edip sâlih ameller işleyenlere gelince, işte onlar yaratılmışların en hayırlısıdır.",
+    [
+     "Onların Rableri katındaki ödülü, içinden ırmaklar akan ve içinde ebedî kalacakları Adn cennetleridir. Allah onlardan razı olmuş, onlar da Allah'tan razı olmuşlardır. İşte bu, Rabbine saygı duyan kimse içindir.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Beyyine, apaçık delil demektir, bu delil, tertemiz sayfaları okuyan Peygamberimiz ve getirdiği Kur'an'dır.",
+    "Sure dinin özünü tek ayette toplar: Allah'a içtenlikle kulluk etmek, namazı kılmak ve zekâtı vermek.",
+    [
+     "İnsanlar bu çağrı karşısında ikiye ayrılır: inkâr edenler yaratılmışların en kötüsü, iman edip iyi işler yapanlar ise en hayırlısıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Dinin özü ihlâstır: Allah onlardan razı, onlar da Allah'tan razı."
+   ]
+  },
+  {
+   "dosya": "zilzal",
+   "baslik": "Zilzâl Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Zilzâl Suresi. Kur'an-ı Kerim'in doksan dokuzuncu suresidir.",
+    "Medine'de inmiştir ve sekiz ayettir.",
+    "Adı, sarsıntı anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Yer, o dehşetli sarsıntısıyla sarsıldığı,",
+    "Toprak, ağırlıklarını dışarı çıkardığı,",
+    "Ve insan Buna ne oluyor? dediği zaman,",
+    "İşte o gün yer, bütün haberlerini anlatır,",
+    "Çünkü Rabbin ona öyle vahyetmiştir.",
+    "O gün insanlar, yaptıkları kendilerine gösterilsin diye bölük bölük çıkarlar.",
+    "Kim zerre kadar hayır işlemişse onu görür.",
+    [
+     "Kim de zerre kadar kötülük işlemişse onu görür.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Kıyamet günü yerin şiddetle sarsılacağını, içindekileri dışarı atacağını ve üzerinde yapılan her şeye şahitlik edeceğini haber verir.",
+    "O gün hiçbir amel kaybolmaz: zerre kadar iyilik de zerre kadar kötülük de sahibinin önüne konur.",
+    [
+     "Peygamberimiz son iki ayeti, benzersiz ve kapsamlı ayet olarak nitelemiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Zerre kadar iyilik de zerre kadar kötülük de kaybolmaz."
+   ]
+  },
+  {
+   "dosya": "adiyat",
+   "baslik": "Âdiyât Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Âdiyât Suresi. Kur'an-ı Kerim'in yüzüncü suresidir.",
+    "Mekke'de inmiştir ve on bir ayettir.",
+    "Adı, koşanlar anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Nefes nefese koşanlara,",
+    "Tırnaklarıyla kıvılcım saçanlara,",
+    "Sabah vakti baskın yapanlara,",
+    "Orada tozu dumana katanlara,",
+    "Ve bir topluluğun ortasına dalanlara andolsun ki,",
+    "İnsan, Rabbine karşı gerçekten çok nankördür.",
+    "Buna kendisi de şahittir.",
+    "O, mal sevgisine de aşırı düşkündür.",
+    "Bilmez mi ki, kabirlerdekiler dışarı çıkarıldığı,",
+    "Ve göğüslerdekiler ortaya döküldüğü zaman,",
+    [
+     "İşte o gün Rableri onların her hâlinden haberdardır.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Sure, sahibi için nefes nefese koşan atlara yeminle başlar.",
+    "At, kendisini besleyen sahibine böylesine bağlıyken, insan, kendisini yaratıp sayısız nimet veren Rabbine karşı nankörlük eder ve mala aşırı düşkündür.",
+    [
+     "Sure, kabirlerin açılıp kalplerdeki gizlilerin ortaya döküleceği günü hatırlatarak uyarır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "At sahibine vefalı, ya insan Rabbine?"
+   ]
+  },
+  {
+   "dosya": "karia",
+   "baslik": "Kâria Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Kâria Suresi. Kur'an-ı Kerim'in yüz birinci suresidir.",
+    "Mekke'de inmiştir ve on bir ayettir.",
+    "Adı, büyük felaket anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Kapıları döven o büyük felaket!",
+    "Nedir o büyük felaket?",
+    "O büyük felaketin ne olduğunu sen nereden bileceksin?",
+    "O gün insanlar, etrafa saçılmış pervaneler gibi olur.",
+    "Dağlar da atılmış renkli yün gibi olur.",
+    "Kimin tartıları ağır gelirse,",
+    "O, hoşnut olacağı bir hayat içindedir.",
+    "Kimin de tartıları hafif gelirse,",
+    "Onun varacağı yer Hâviye'dir.",
+    "Onun ne olduğunu sen nereden bileceksin?",
+    [
+     "O, kızgın bir ateştir.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Kâria, kalpleri yerinden oynatan kıyametin adıdır.",
+    "O gün insanlar ateşin çevresinde uçuşan pervaneler gibi dağılır, dağlar atılmış yün gibi savrulur.",
+    [
+     "Sonucu terazi belirler: iyilikleri ağır gelen hoşnut bir hayata kavuşur, hafif gelen ise kızgın ateşe varır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "O gün terazide ağır gelen, iyiliklerindir."
+   ]
+  },
+  {
+   "dosya": "tekasur",
+   "baslik": "Tekâsür Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Tekâsür Suresi. Kur'an-ı Kerim'in yüz ikinci suresidir.",
+    "Mekke'de inmiştir ve sekiz ayettir.",
+    "Adı, çoklukla övünme anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Çoklukla övünmek sizi oyaladı,",
+    "Kabirlere varıncaya kadar.",
+    "Hayır! Yakında bileceksiniz.",
+    "Yine hayır! Yakında bileceksiniz.",
+    "Hayır! Keşke kesin bir bilgiyle bilseydiniz.",
+    "Andolsun, cehennemi mutlaka göreceksiniz.",
+    "Sonra onu gözünüzle, kesin olarak göreceksiniz.",
+    [
+     "Sonra o gün, size verilen her nimetten mutlaka sorguya çekileceksiniz.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Mal, evlat ve sayı çokluğuyla övünme yarışı, insanı ölüm kapıyı çalana kadar asıl amacından alıkoyar.",
+    "Sure peş peşe uyarır: gerçeği yakında bileceksiniz.",
+    [
+     "Son ayet hesabı hatırlatır, sağlık, boş vakit, güvenlik, yenilen ve içilen her şey sorulacak nimetlerdendir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Çokluk yarışı kabre kadar sürer, sonra her nimetin hesabı sorulur."
+   ]
+  },
+  {
+   "dosya": "asr",
+   "baslik": "Asr Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Asr Suresi. Kur'an-ı Kerim'in yüz üçüncü suresidir.",
+    "Mekke'de inmiştir ve üç ayettir.",
+    "Adı, zaman anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Zamana andolsun ki,",
+    "İnsan gerçekten ziyandadır.",
+    [
+     "Ancak iman edip sâlih ameller işleyenler, birbirine hakkı tavsiye edenler ve birbirine sabrı tavsiye edenler başka.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Üç kısa ayette kurtuluşun yolunu özetler.",
+    "Zaman insanın sermayesidir ve her an erimektedir, bu yüzden insan ziyandadır.",
+    "Kurtulanlar dört şeyi bir araya getirenlerdir: iman, sâlih amel, hakkı tavsiye ve sabrı tavsiye.",
+    [
+     "İmam Şâfiî, insanlar yalnızca bu sure üzerinde düşünselerdi onlara yeterdi, demiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Zaman eriyen bir sermayedir: iman et, iyilik yap, hakkı ve sabrı tavsiye et."
+   ]
+  },
+  {
+   "dosya": "humeze",
+   "baslik": "Hümeze Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Hümeze Suresi. Kur'an-ı Kerim'in yüz dördüncü suresidir.",
+    "Mekke'de inmiştir ve dokuz ayettir.",
+    "Adı, arkadan çekiştiren anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "İnsanları arkadan çekiştiren, kaş göz işaretiyle alay eden herkesin vay hâline!",
+    "O ki mal toplar ve onu sayıp durur.",
+    "Malının kendisini ebedî yaşatacağını sanır.",
+    "Hayır! O, mutlaka Hutame'ye atılacaktır.",
+    "Hutame'nin ne olduğunu sen nereden bileceksin?",
+    "O, Allah'ın tutuşturulmuş ateşidir,",
+    "Yüreklere kadar işleyen ateş.",
+    "O ateş onların üzerine kapatılacaktır,",
+    [
+     "Uzatılmış direkler arasında.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "İnsanları arkalarından çekiştiren, kaş göz işaretiyle küçümseyen ve malını sayıp durarak ona güvenen kimseyi kınar.",
+    "Mal kimseyi ölümsüz kılmaz, bu ahlâkın sonu, kalplere kadar işleyen Hutame ateşidir.",
+    [
+     "Sure, dili ve malı doğru kullanmaya çağırır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Dilinle kırma, malınla övünme."
+   ]
+  },
+  {
+   "dosya": "fil",
+   "baslik": "Fîl Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Fîl Suresi. Kur'an-ı Kerim'in yüz beşinci suresidir.",
+    "Mekke'de inmiştir ve beş ayettir.",
+    "Adı, fil anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Rabbinin fil sahiplerine ne yaptığını görmedin mi?",
+    "Onların tuzaklarını boşa çıkarmadı mı?",
+    "Üzerlerine sürü sürü kuşlar gönderdi.",
+    "O kuşlar onlara pişmiş çamurdan taşlar atıyordu.",
+    [
+     "Sonunda onları yenilmiş ekin yaprağı gibi yaptı.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Peygamberimizin doğduğu yıl, Yemen valisi Ebrehe fillerle güçlendirilmiş ordusuyla Kâbe'yi yıkmaya geldi.",
+    "Allah, sürü sürü kuşlarla bu orduyu helâk etti ve evini korudu.",
+    [
+     "Sure, Allah'ın gücü karşısında en büyük orduların bile çaresiz kaldığını gösterir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Allah evini korur, koca filler küçük kuşlara yenildi."
+   ]
+  },
+  {
+   "dosya": "kureys",
+   "baslik": "Kureyş Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Kureyş Suresi. Kur'an-ı Kerim'in yüz altıncı suresidir.",
+    "Mekke'de inmiştir ve dört ayettir.",
+    "Adı, kureyş kabilesi anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Kureyş'e sağlanan güven ve kolaylık için,",
+    "Kış ve yaz yolculuklarında onlara sağlanan güven ve kolaylık için,",
+    "Şu evin Kâbe'nin Rabbine kulluk etsinler.",
+    [
+     "O, kendilerini açlıktan doyuran ve korkudan emin kılandır.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Fîl suresinin devamı gibidir.",
+    "Kâbe sayesinde Kureyş kabilesi saygı görür, kışın Yemen'e, yazın Şam'a güven içinde ticaret yolculuğu yapardı.",
+    "Allah onlara iki büyük nimetini hatırlatır: açlıktan doyurmak ve korkudan emin kılmak.",
+    [
+     "Bu nimetlerin şükrü, Kâbe'nin Rabbine kulluk etmektir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Tok ve güvendeysen şükret: Kâbe'nin Rabbine kulluk et."
+   ]
+  },
+  {
+   "dosya": "maun",
+   "baslik": "Mâûn Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Mâûn Suresi. Kur'an-ı Kerim'in yüz yedinci suresidir.",
+    "Mekke'de inmiştir ve yedi ayettir.",
+    "Adı, küçük yardım anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Dini yalanlayanı gördün mü?",
+    "İşte o, yetimi itip kakar,",
+    "Yoksulu doyurmaya teşvik etmez.",
+    "Vay hâline o namaz kılanların ki,",
+    "Onlar namazlarını ciddiye almazlar,",
+    "Onlar gösteriş yaparlar,",
+    [
+     "Ve en küçük yardımı bile esirgerler.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Dini yalanlamanın davranıştaki izlerini gösterir: yetimi itip kakmak ve yoksulu doyurmaya ön ayak olmamak.",
+    "Ardından namazını ciddiye almayan, gösteriş için kılan ve en küçük yardımı bile esirgeyenleri uyarır.",
+    [
+     "Gerçek dindarlık, Allah'a içten kulluk ile insanlara iyiliği birleştirir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Namaz ve iyilik birbirinden ayrılmaz."
+   ]
+  },
+  {
+   "dosya": "kevser",
+   "baslik": "Kevser Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Kevser Suresi. Kur'an-ı Kerim'in yüz sekizinci suresidir.",
+    "Mekke'de inmiştir ve üç ayettir.",
+    "Adı, bol hayır anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Şüphesiz biz sana Kevser'i verdik.",
+    "Öyleyse Rabbin için namaz kıl ve kurban kes.",
+    [
+     "Asıl soyu kesik olan, sana buğzedenin kendisidir.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Kur'an'ın en kısa suresidir.",
+    "Oğulları küçük yaşta vefat edince müşrikler Peygamberimize soyu kesik dediler, Allah ise ona Kevser'i, yani bitmeyen hayrı ve cennetteki Kevser ırmağını verdiğini bildirdi.",
+    "Bu nimetin şükrü namaz ve kurbandır.",
+    [
+     "Asıl adı sanı unutulanlar, ona düşmanlık edenler olmuştur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Allah verince bol verir, şükrü namaz ve kurbandır."
+   ]
+  },
+  {
+   "dosya": "kafirun",
+   "baslik": "Kâfirûn Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Kâfirûn Suresi. Kur'an-ı Kerim'in yüz dokuzuncu suresidir.",
+    "Mekke'de inmiştir ve altı ayettir.",
+    "Adı, inkârcılar anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "De ki: Ey inkârcılar!",
+    "Ben sizin taptıklarınıza tapmam.",
+    "Siz de benim kulluk ettiğime kulluk edecek değilsiniz.",
+    "Ben sizin taptıklarınıza tapacak değilim.",
+    "Siz de benim kulluk ettiğime kulluk edecek değilsiniz.",
+    [
+     "Sizin dininiz size, benim dinim banadır.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Mekkeli müşrikler Peygamberimize, bir yıl sen bizim putlarımıza tap, bir yıl da biz senin Rabbine tapalım, diye uzlaşma teklif ettiler, bu sure teklifi kesin olarak reddetti.",
+    "İnançta pazarlık ve karışım olmaz, ama zorlama da yoktur: herkesin dini kendisinedir.",
+    [
+     "Peygamberimiz bu sureyi ve İhlâs'ı sabah namazının sünnetinde okurdu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "İnançta pazarlık olmaz: sizin dininiz size, benim dinim bana."
+   ]
+  },
+  {
+   "dosya": "nasr",
+   "baslik": "Nasr Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Nasr Suresi. Kur'an-ı Kerim'in yüz onuncu suresidir.",
+    "Medine'de inmiştir ve üç ayettir.",
+    "Adı, yardım anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Allah'ın yardımı ve fetih geldiği,",
+    "Ve insanların bölük bölük Allah'ın dinine girdiğini gördüğün zaman,",
+    [
+     "Rabbini hamd ile tesbih et ve O'ndan bağışlanma dile. Şüphesiz O, tövbeleri çok kabul edendir.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Mekke'nin fethini ve insanların bölük bölük İslâm'a girişini müjdeler, bütün olarak inen son suredir.",
+    "Zafer anında istenen şey gurur değil, tesbih, hamd ve istiğfardır.",
+    [
+     "İbn Abbas bu sureden, Peygamberimizin vefatının yaklaştığını anlamıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Başarı gelince övünme, hamdet ve bağışlanma dile."
+   ]
+  },
+  {
+   "dosya": "tebbet",
+   "baslik": "Tebbet Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Tebbet Suresi. Kur'an-ı Kerim'in yüz on birinci suresidir.",
+    "Mekke'de inmiştir ve beş ayettir.",
+    "Adı, kurusun anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "Ebû Leheb'in elleri kurusun, kurudu da!",
+    "Ne malı ne de kazandıkları ona fayda verdi.",
+    "O, alevli bir ateşe girecektir.",
+    "Karısı da, o odun taşıyıcı,",
+    [
+     "Boynunda bükülmüş bir ip olduğu hâlde.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz Safâ tepesinde akrabalarını İslâm'a çağırınca amcası Ebû Leheb ona hakaret etti, sure bunun üzerine indi.",
+    "Ne malı ne de soyu Ebû Leheb'i kurtardı, Peygamberimize eziyet etmekte ona ortak olan karısı da aynı sona uğradı.",
+    "Sure, hakka düşmanlıkta malın ve akrabalığın fayda vermediğini öğretir.",
+    [
+     "Mesed suresi olarak da anılır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Mal da soy da kurtarmaz, kurtaran imandır."
+   ]
+  },
+  {
+   "dosya": "ihlas",
+   "baslik": "İhlâs Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "İhlâs Suresi. Kur'an-ı Kerim'in yüz on ikinci suresidir.",
+    "Mekke'de inmiştir ve dört ayettir.",
+    "Adı, samimiyet anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "De ki: O Allah birdir.",
+    "Allah Samed'dir, her şey O'na muhtaçtır, O hiçbir şeye muhtaç değildir.",
+    "O doğurmamıştır ve doğurulmamıştır.",
+    [
+     "Hiçbir şey O'na denk değildir.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Müşrikler Peygamberimizden Rabbini tanıtmasını isteyince indi.",
+    "Dört kısa ayette tevhidi özetler: Allah birdir, hiçbir şeye muhtaç değildir, doğurmamış ve doğurulmamıştır, hiçbir şey O'na denk değildir.",
+    [
+     "Peygamberimiz bu surenin Kur'an'ın üçte birine denk olduğunu bildirmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Allah bir, eşsiz ve benzersiz: dört ayette tevhid."
+   ]
+  },
+  {
+   "dosya": "felak",
+   "baslik": "Felak Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Felak Suresi. Kur'an-ı Kerim'in yüz on üçüncü suresidir.",
+    "Mekke'de inmiştir ve beş ayettir.",
+    "Adı, sabah aydınlığı anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "De ki: Sabahın Rabbine sığınırım,",
+    "Yarattığı şeylerin şerrinden,",
+    "Karanlığı çöktüğü zaman gecenin şerrinden,",
+    "Düğümlere üfleyenlerin şerrinden,",
+    [
+     "Ve haset ettiği zaman hasetçinin şerrinden.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Nâs suresiyle birlikte Muavvizeteyn, yani koruyucu iki sure diye anılır.",
+    "Dışarıdan gelen kötülüklerden, yaratılmışların şerrinden, gecenin karanlığından, büyü yapanlardan ve hasetçiden sabahın Rabbine sığınmayı öğretir.",
+    [
+     "Peygamberimiz her gece yatmadan önce İhlâs, Felak ve Nâs surelerini okurdu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Karanlıktan korkma, sabahın Rabbine sığın."
+   ]
+  },
+  {
+   "dosya": "nas",
+   "baslik": "Nâs Suresi",
+   "tur": "sure",
+   "parcalar": [
+    "Nâs Suresi. Kur'an-ı Kerim'in yüz on dördüncü suresidir.",
+    "Mekke'de inmiştir ve altı ayettir.",
+    "Adı, insanlar anlamına gelir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rahmân ve Rahîm olan Allah'ın adıyla.",
+    "De ki: İnsanların Rabbine sığınırım,",
+    "İnsanların hükümdarına,",
+    "İnsanların ilâhına,",
+    "O sinsi vesvesecinin şerrinden.",
+    "O ki insanların göğüslerine vesvese verir,",
+    [
+     "Cinlerden de olur, insanlardan da.",
+     0.8
+    ],
+    [
+     "Kısa tefsiri şöyledir.",
+     0.6
+    ],
+    "Kur'an'ın son suresidir.",
+    "İnsanın içine fısıldayan ve Allah anılınca sinip geri çekilen vesveseciden, insanların Rabbine, hükümdarına ve ilâhına sığınmayı öğretir.",
+    [
+     "Vesvese cinlerden de gelebilir, insanlardan da, çaresi Allah'ı anmak ve O'na sığınmaktır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Vesvese fısıldar, Allah'ı anınca siner."
+   ]
+  },
+  {
+   "dosya": "ezan-duasi",
+   "baslik": "Ezan Duası",
+   "tur": "dua",
+   "parcalar": [
+    "Ezan Duası. Ezan bittikten sonra okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ım! Ey bu eksiksiz çağrının ve kılınacak namazın Rabbi!",
+    "Muhammed'e vesileyi ve fazileti ver.",
+    [
+     "Onu, kendisine vaat ettiğin övülmüş makama ulaştır.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz, ezanı dinledikten sonra bu duayı okuyan kimseye kıyamet günü şefaatinin hak olacağını bildirmiştir.",
+    [
+     "Vesile, cennette yüksek bir derecedir, Makam-ı Mahmûd ise büyük şefaat makamıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Ezanı dinle, duasını et, şefaate talip ol."
+   ]
+  },
+  {
+   "dosya": "subhaneke",
+   "baslik": "Sübhâneke",
+   "tur": "dua",
+   "parcalar": [
+    "Sübhâneke. Namaza başlarken, iftitah tekbirinden hemen sonra okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ım! Seni her türlü eksiklikten uzak tutar, sana hamd ederim.",
+    "Senin adın mübarektir.",
+    "Senin şânın yücedir.",
+    [
+     "Senden başka ilâh yoktur.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Namazın açılış duasıdır.",
+    "Kul, daha ilk sözünde Rabbini eksikliklerden uzak tutar, O'na hamd eder ve O'ndan başka ilâh olmadığını ilan eder.",
+    [
+     "Böylece namaza tevhid ile başlanır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Namazın ilk sözü: Seni tesbih ederim, senden başka ilâh yoktur."
+   ]
+  },
+  {
+   "dosya": "euzu-besmele",
+   "baslik": "Eûzü Besmele",
+   "tur": "dua",
+   "parcalar": [
+    "Eûzü Besmele. Sübhâneke'den sonra, Fâtiha'ya başlamadan önce okunur.",
+    "Sonraki rekâtlarda yalnız besmele çekilir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Kovulmuş şeytandan Allah'a sığınırım.",
+    [
+     "Rahmân ve Rahîm olan Allah'ın adıyla.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Kur'an okumaya başlarken şeytandan Allah'a sığınmak Kur'an'ın emridir.",
+    [
+     "Besmele ile de her işe Allah'ın adıyla başlanır, kul, işini O'nun rahmetine emanet eder.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Önce Allah'a sığın, sonra O'nun adıyla başla."
+   ]
+  },
+  {
+   "dosya": "ruku-tesbihi",
+   "baslik": "Rükû Tesbihi",
+   "tur": "dua",
+   "parcalar": [
+    "Rükû Tesbihi. Rükûda en az üç kez söylenir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    [
+     "Yüce Rabbimi her türlü eksiklikten uzak tutarım.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Vâkıa suresindeki, Rabbini azîm ismiyle tesbih et, ayeti inince Peygamberimiz bunu rükûda söylemeyi öğretmiştir.",
+    [
+     "Bedeniyle eğilen kul, diliyle de Rabbinin büyüklüğünü ilan eder.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Eğilirken söyle: Büyük olan yalnız Rabbimdir."
+   ]
+  },
+  {
+   "dosya": "rukudan-kalkarken",
+   "baslik": "Rükûdan Kalkarken",
+   "tur": "dua",
+   "parcalar": [
+    "Rükûdan Kalkarken. Rükûdan doğrulurken ilk söz, doğrulunca ikinci söz söylenir.",
+    "Cemaatle namazda ilkini imam, ikincisini cemaat söyler.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah, kendisine hamd edeni işitir.",
+    [
+     "Rabbimiz! Hamd yalnız sanadır.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Rükûdan kalkan kul, Allah'ın hamd edeni işittiğini haber verir ve hemen ardından hamd eder.",
+    [
+     "Peygamberimiz, imam bu sözü söylediğinde cemaatin hamd ile karşılık vermesini öğretmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Allah hamd edeni işitir, öyleyse hamdet."
+   ]
+  },
+  {
+   "dosya": "secde-tesbihi",
+   "baslik": "Secde Tesbihi",
+   "tur": "dua",
+   "parcalar": [
+    "Secde Tesbihi. Her secdede en az üç kez söylenir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    [
+     "En yüce Rabbimi her türlü eksiklikten uzak tutarım.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "A'lâ suresindeki, yüce Rabbinin adını tesbih et, ayeti inince Peygamberimiz bunu secdede söylemeyi öğretmiştir.",
+    [
+     "Alnını yere koyan kul en alçak hâlindeyken Rabbinin en yüce olduğunu söyler, kulun Rabbine en yakın olduğu an da secde anıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Alnım yerde, Rabbim en yücede."
+   ]
+  },
+  {
+   "dosya": "tahiyyat",
+   "baslik": "Tahiyyat",
+   "tur": "dua",
+   "parcalar": [
+    "Tahiyyat. Namazdaki her oturuşta okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Bütün saygılar, dualar ve güzel sözler Allah'a aittir.",
+    "Ey Peygamber! Selâm, Allah'ın rahmeti ve bereketleri senin üzerine olsun.",
+    "Selâm bize ve Allah'ın sâlih kullarına olsun.",
+    "Şahitlik ederim ki Allah'tan başka ilâh yoktur.",
+    [
+     "Yine şahitlik ederim ki Muhammed O'nun kulu ve elçisidir.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz bu duayı Abdullah bin Mes'ûd'a, elini avuçlarının arasına alarak, Kur'an'dan bir sure öğretir gibi öğretmiştir.",
+    [
+     "Önce Allah'a saygı sunulur, sonra Peygamberimize ve bütün sâlih kullara selâm verilir, en sonunda kelime-i şehadetle iman tazelenir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Önce Allah'a saygı, sonra Peygamber'e ve sâlihlere selâm, sonunda şehadet."
+   ]
+  },
+  {
+   "dosya": "salli",
+   "baslik": "Allâhümme Salli",
+   "tur": "dua",
+   "parcalar": [
+    "Allâhümme Salli. Son oturuşta Tahiyyat'tan sonra okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ım! Muhammed'e ve Muhammed'in ailesine rahmet eyle,",
+    "İbrâhim'e ve İbrâhim'in ailesine rahmet ettiğin gibi.",
+    [
+     "Şüphesiz sen övülmeye lâyıksın, şânı yüce olansın.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Allah, müminlere Peygamberimize salât ve selâm getirmeyi emreder.",
+    "Sahâbîler, sana nasıl salât getirelim, diye sorunca Peygamberimiz bu duayı öğretmiştir.",
+    [
+     "Dua, Peygamberimizi atası Hazreti İbrâhim'le birlikte anar.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Peygamberimize dua, İbrâhim'e verilen rahmeti örnek göstererek yapılır."
+   ]
+  },
+  {
+   "dosya": "barik",
+   "baslik": "Allâhümme Bârik",
+   "tur": "dua",
+   "parcalar": [
+    "Allâhümme Bârik. Son oturuşta Allâhümme Salli'den sonra okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ım! Muhammed'e ve Muhammed'in ailesine bereket ver,",
+    "İbrâhim'e ve İbrâhim'in ailesine bereket verdiğin gibi.",
+    [
+     "Şüphesiz sen övülmeye lâyıksın, şânı yüce olansın.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Salli duasının devamıdır.",
+    [
+     "Bereket, hayrın artması ve kalıcı olması demektir, kul, Peygamberimizin ve ailesinin hayrının kesintisiz sürmesini diler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Salli rahmet ister, Bârik bereket ister."
+   ]
+  },
+  {
+   "dosya": "rabbena-atina",
+   "baslik": "Rabbenâ Âtinâ",
+   "tur": "dua",
+   "parcalar": [
+    "Rabbenâ Âtinâ. Son oturuşta Salli ve Bârik dualarından sonra okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rabbimiz! Bize dünyada iyilik ver,",
+    "Âhirette de iyilik ver,",
+    [
+     "Ve bizi ateş azabından koru.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Bakara suresinin iki yüz birinci ayetinde geçen duadır.",
+    [
+     "Dünya ve âhiret iyiliğini tek cümlede isteyen kapsamlı bir duadır, Enes bin Mâlik, Peygamberimizin en çok yaptığı duanın bu olduğunu bildirir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Tek cümlede iki dünya: burada iyilik, orada iyilik, ateşten korunma."
+   ]
+  },
+  {
+   "dosya": "rabbenagfirli",
+   "baslik": "Rabbenağfirlî",
+   "tur": "dua",
+   "parcalar": [
+    "Rabbenağfirlî. Son oturuşta Rabbenâ Âtinâ'dan sonra, selâm vermeden önce okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Rabbimiz! Beni, anamı ve babamı bağışla,",
+    [
+     "Hesabın görüleceği gün bütün müminleri de bağışla.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "İbrâhîm suresinin kırk birinci ayetidir ve Hazreti İbrâhim'in duasıdır.",
+    [
+     "Kul önce kendisi, sonra anne babası, sonra bütün müminler için bağışlanma diler, dua böylece halka halka genişler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Önce kendin, sonra annen baban, sonra bütün müminler."
+   ]
+  },
+  {
+   "dosya": "kunut-1",
+   "baslik": "Kunut Duası 1",
+   "tur": "dua",
+   "parcalar": [
+    "Kunut Duası bir. Vitir namazının üçüncü rekâtında, Fâtiha ve sureden sonra tekbir alınarak okunur.",
+    "Din İşleri Yüksek Kurulu'na göre, ezberleyene kadar bu duanın yerine Rabbenâ Âtinâ duası okunabilir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ım! Senden yardım isteriz, senden bağışlanma dileriz, senden hidayet isteriz.",
+    "Sana iman ederiz, sana tövbe ederiz, sana güveniriz.",
+    "Seni bütün hayırlarla överiz.",
+    "Sana şükrederiz, nankörlük etmeyiz.",
+    [
+     "Sana isyan edeni bırakır, ondan uzak dururuz.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Vitir namazında okunan iki duanın ilkidir.",
+    [
+     "Kul, Rabbinden yardım, bağışlanma ve hidayet ister, imanını, tövbesini ve tevekkülünü yeniler, şükredeceğine söz verir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Üç istek: yardım, bağışlanma, hidayet.",
+    "Üç söz: iman, tövbe, tevekkül."
+   ]
+  },
+  {
+   "dosya": "kunut-2",
+   "baslik": "Kunut Duası 2",
+   "tur": "dua",
+   "parcalar": [
+    "Kunut Duası iki. Vitir namazında birinci kunut duasının hemen ardından okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ım! Yalnız sana kulluk ederiz.",
+    "Yalnız senin için namaz kılar, yalnız sana secde ederiz.",
+    "Sana koşar, sana yöneliriz.",
+    "Rahmetini umar, azabından korkarız.",
+    [
+     "Şüphesiz senin azabın inkârcılara ulaşacaktır.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Birinci kunut duasının devamıdır.",
+    [
+     "Kulluğun yalnız Allah'a yapıldığını ilan eder, müminin kalbindeki iki duyguyu, yani rahmeti ummayı ve azaptan korkmayı bir arada dile getirir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Kulluk yalnız sana, kalpte hem umut hem korku."
+   ]
+  },
+  {
+   "dosya": "namaz-sonrasi",
+   "baslik": "Namaz Sonrası İstiğfar ve Selâm Duası",
+   "tur": "zikir",
+   "parcalar": [
+    "Namaz Sonrası İstiğfar ve Selâm Duası. Farz namazın selâmından hemen sonra okunur, istiğfar üç kez söylenir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'tan bağışlanma dilerim.",
+    "Allah'ım! Selâm sensin, esenlik de ancak sendendir.",
+    [
+     "Ey celâl ve ikram sahibi! Sen ne yücesin.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Sevbân'ın bildirdiğine göre Peygamberimiz namazı bitirince üç kez istiğfar eder, sonra bu duayı okurdu.",
+    "Namazın hemen ardından istiğfar, ibadetteki eksiklerin affını dilemektir.",
+    [
+     "Selâm ise Allah'ın güzel isimlerindendir, esenlik yalnız O'ndan gelir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Namaz biter bitmez: üç istiğfar, bir selâm duası."
+   ]
+  },
+  {
+   "dosya": "ayetel-kursi",
+   "baslik": "Âyetü'l-Kürsî",
+   "tur": "zikir",
+   "parcalar": [
+    "Âyetü'l-Kürsî. Her farz namazın ardından ve gece yatmadan önce okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah, kendisinden başka ilâh olmayandır, diridir, her şeyi ayakta tutandır.",
+    "O'nu ne uyuklama tutar ne de uyku.",
+    "Göklerde ve yerde ne varsa hepsi O'nundur.",
+    "O'nun izni olmadan katında kim şefaat edebilir?",
+    "O, kullarının önlerindekini de arkalarındakini de bilir.",
+    "Onlar O'nun ilminden, O'nun dilediği kadarından başka hiçbir şeyi kavrayamazlar.",
+    "O'nun kürsüsü gökleri ve yeri kaplamıştır.",
+    "Onları koruyup gözetmek O'na ağır gelmez.",
+    [
+     "O, pek yücedir, pek büyüktür.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Bakara suresinin iki yüz elli beşinci ayetidir, Peygamberimiz onu Kur'an'ın en büyük ayeti olarak nitelemiştir.",
+    "Allah'ın diri, her şeyi ayakta tutan, uyumayan, ilmi ve hükümranlığı her şeyi kuşatan Rab olduğunu anlatır.",
+    [
+     "Her farz namazın ardından okunması tavsiye edilmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Kur'an'ın en büyük ayeti: Allah diridir, uyumaz, her şeyi bilir ve korur."
+   ]
+  },
+  {
+   "dosya": "tesbihat",
+   "baslik": "Namaz Tesbihatı",
+   "tur": "zikir",
+   "parcalar": [
+    "Namaz Tesbihatı. Her namazın ardından, Âyetü'l-Kürsî'den sonra otuz üçer kez söylenir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ı her türlü eksiklikten uzak tutarım.",
+    "Hamd Allah'a mahsustur.",
+    [
+     "Allah en büyüktür.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    [
+     "Peygamberimiz, her namazın ardından otuz üçer kez tesbih, hamd ve tekbir getirip yüzüncüde kelime-i tevhidi söyleyen kimsenin günahlarının, deniz köpüğü kadar çok olsa bile bağışlanacağını müjdelemiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Otuz üç tesbih, otuz üç hamd, otuz üç tekbir, yüzüncüsü tevhid."
+   ]
+  },
+  {
+   "dosya": "tehlil",
+   "baslik": "Kelime-i Tevhid",
+   "tur": "zikir",
+   "parcalar": [
+    "Kelime-i Tevhid. Tesbihatın sonunda bir kez söylenir, gün içinde de çokça tekrarlanır.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'tan başka ilâh yoktur, O tektir, ortağı yoktur.",
+    "Mülk O'nundur, hamd O'nadır.",
+    [
+     "O'nun her şeye gücü yeter.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Tesbihatı yüze tamamlayan sözdür.",
+    [
+     "Peygamberimiz, bu zikri günde yüz kez söyleyen kimsenin büyük sevap kazanacağını ve o gün akşama kadar şeytandan korunacağını bildirmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Mülk de hamd de O'nun, ortağı yok, gücü her şeye yeter."
+   ]
+  },
+  {
+   "dosya": "einni",
+   "baslik": "Allâhümme Eınnî",
+   "tur": "zikir",
+   "parcalar": [
+    "Allâhümme Eınnî. Her namazın sonunda okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    [
+     "Allah'ım! Seni anmak, sana şükretmek ve sana güzelce kulluk etmek için bana yardım et.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz Muâz bin Cebel'in elini tutmuş, onu sevdiğini söylemiş ve her namazın sonunda bu duayı bırakmamasını tavsiye etmiştir.",
+    [
+     "Kul, ibadeti bile ancak Allah'ın yardımıyla yapabileceğini bilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Zikir, şükür ve güzel kulluk, üçü de Allah'ın yardımıyla olur."
+   ]
+  },
+  {
+   "dosya": "seyyidul-istigfar",
+   "baslik": "Seyyidü'l-İstiğfâr",
+   "tur": "zikir",
+   "parcalar": [
+    "Seyyidü'l-İstiğfâr. Sabah ve akşam okunur.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ım! Sen benim Rabbimsin, senden başka ilâh yoktur.",
+    "Beni sen yarattın, ben senin kulunum.",
+    "Gücüm yettiğince sana verdiğim söz üzereyim.",
+    "Yaptıklarımın kötülüğünden sana sığınırım.",
+    "Bana verdiğin nimeti itiraf ederim, günahımı da itiraf ederim.",
+    [
+     "Beni bağışla, çünkü günahları senden başkası bağışlayamaz.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "İstiğfarın efendisi demektir.",
+    "Peygamberimiz, bu duayı inanarak gündüz okuyup akşamdan önce, gece okuyup sabahtan önce ölen kimsenin cennetlik olduğunu bildirmiştir.",
+    [
+     "Dua, tevhidi, kulluğu, nimeti itirafı ve bağışlanma dileğini bir arada toplar.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Rabbim sensin, kulun benim, nimet senden, kusur benden: bağışla."
+   ]
+  },
+  {
+   "dosya": "iki-kelime",
+   "baslik": "Dile Hafif İki Söz",
+   "tur": "zikir",
+   "parcalar": [
+    "Dile Hafif İki Söz. Gün içinde her zaman söylenir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    "Allah'ı hamd ederek tesbih ederim.",
+    [
+     "Yüce Allah'ı tesbih ederim.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz bu iki sözü şöyle tanıtır: dile hafif, terazide ağır ve Rahmân'a sevimli.",
+    "İmam Buhârî, Sahîh adlı eserini bu hadisle bitirmiştir.",
+    [
+     "Günde yüz kez sübhânallâhi ve bihamdihî diyen kimsenin günahlarının bağışlanacağı da müjdelenmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Dile hafif, terazide ağır, Rahmân'a sevimli iki söz."
+   ]
+  },
+  {
+   "dosya": "havkale",
+   "baslik": "Lâ Havle",
+   "tur": "zikir",
+   "parcalar": [
+    "Lâ Havle. Zorlandığında ve gün içinde her zaman söylenir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    [
+     "Güç ve kuvvet ancak Allah'ın yardımıyladır.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Peygamberimiz bu sözü, cennet hazinelerinden bir hazine olarak nitelemiştir.",
+    [
+     "İnsan, bir işi başarmanın da kötülükten uzak durmanın da ancak Allah'ın yardımıyla mümkün olduğunu itiraf eder.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Gücüm yetmez, güç veren Allah'tır."
+   ]
+  },
+  {
+   "dosya": "salavat",
+   "baslik": "Salavat",
+   "tur": "zikir",
+   "parcalar": [
+    "Salavat. Peygamberimizin adı anıldığında ve gün içinde her zaman söylenir.",
+    [
+     "Anlamı şöyledir.",
+     0.6
+    ],
+    [
+     "Allah'ım! Muhammed'e ve ailesine rahmet eyle.",
+     0.8
+    ],
+    [
+     "Kısa açıklaması şöyledir.",
+     0.6
+    ],
+    "Allah ve melekleri Peygamber'e salât eder, müminlere de ona salât ve selâm getirmeleri emredilmiştir.",
+    [
+     "Peygamberimiz, kendisine bir kez salât getiren kimseye Allah'ın on kez rahmet edeceğini bildirmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    "Bir salavat, on rahmet."
+   ]
+  }
+ ]
+}

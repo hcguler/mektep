@@ -1,0 +1,46 @@
+/* Ayet Ayet Arapça — kelime simgeleri
+ * Somut kelimeleri akılda tutmak için elle çizilmiş tek renkli çizgi simgeler (48×48, currentColor).
+ * Kural (docs/planlar/ayet-ayet-arapca.md): Allah'a dair hiçbir tasvir yoktur; melek, peygamber, sahabe,
+ * insan yüzü, cennet, cehennem ve kıyamet sahneleri çizilmez. Soyut kavramlarda simge kullanılmaz.
+ * Sözlükteki "simge" alanı buradaki bir adı gösterir (tools/arapca/sozluk.json).
+ */
+window.ARAPCA_SIMGE = {
+    su: '<path d="M24 6c7 10 12 16.5 12 23a12 12 0 0 1-24 0c0-6.5 5-13 12-23z"/><path d="M18 31a6 6 0 0 0 6 6"/>',
+    dag: '<path d="M4 40 18 14l8 13 5-7 13 20z"/><path d="m14 21 4 3 4-3"/>',
+    gunes: '<circle cx="24" cy="24" r="8"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M9.9 9.9l4.2 4.2M33.9 33.9l4.2 4.2M9.9 38.1l4.2-4.2M33.9 14.1l4.2-4.2"/>',
+    ay: '<path d="M30 7a17 17 0 1 0 11 27A14 14 0 0 1 30 7z"/>',
+    yildiz: '<path d="m24 5 5.6 12.6L43 19l-10 9.4L35.8 42 24 35l-11.8 7L15 28.4 5 19l13.4-1.4z"/>',
+    gok: '<path d="M4 34h40"/><path d="M8 28a16 16 0 0 1 32 0"/><circle cx="16" cy="14" r="1.2"/><circle cx="31" cy="10" r="1.2"/><circle cx="38" cy="19" r="1.2"/>',
+    yeryuzu: '<circle cx="24" cy="24" r="18"/><path d="M6 24h36M24 6c-6 6-6 30 0 36M24 6c6 6 6 30 0 36"/>',
+    agac: '<path d="M24 44V26"/><path d="M24 30l-6-6M24 34l7-7"/><path d="M24 4c9 0 15 7 15 14s-6 12-15 12S9 25 9 18 15 4 24 4z"/>',
+    meyve: '<path d="M24 14c-9-4-17 1-17 11 0 9 7 17 13 17 2 0 3-1 4-1s2 1 4 1c6 0 13-8 13-17 0-10-8-15-17-11z"/><path d="M24 14c0-4 1-7 4-9M24 10c-3-3-7-3-9-1 2 3 6 4 9 1z"/>',
+    ev: '<path d="M6 22 24 7l18 15"/><path d="M11 18v24h26V18"/><path d="M20 42V30h8v12"/>',
+    kapi: '<path d="M12 44V6h24v38"/><path d="M6 44h36"/><circle cx="30" cy="26" r="1.6"/>',
+    yol: '<path d="M16 44 21 4M32 44 27 4"/><path d="M24 40v-5M24 28v-5M24 16v-4"/>',
+    yagmur: '<path d="M14 26a9 9 0 0 1 1-18 12 12 0 0 1 22 4 7 7 0 0 1-1 14z"/><path d="m16 32-2 6M25 32l-2 6M34 32l-2 6"/>',
+    deniz: '<path d="M4 18c5-4 8-4 13 0s8 4 13 0 8-4 13 0"/><path d="M4 28c5-4 8-4 13 0s8 4 13 0 8-4 13 0"/><path d="M4 38c5-4 8-4 13 0s8 4 13 0 8-4 13 0"/>',
+    nehir: '<path d="M14 4c8 8-6 14 2 22s-4 12 4 18"/><path d="M30 4c8 8-6 14 2 22s-4 12 4 18"/>',
+    ates: '<path d="M24 44c-8 0-13-5-13-12 0-8 7-11 8-20 5 4 6 8 6 11 2-2 3-5 3-8 6 5 9 11 9 17 0 7-5 12-13 12z"/><path d="M24 44c-3 0-5-2-5-5 0-4 4-6 5-9 3 3 5 6 5 9 0 3-2 5-5 5z"/>',
+    isik: '<path d="M18 34h12M19 40h10M21 46h6"/><path d="M24 4a12 12 0 0 0-7 22c1 1 2 3 2 5v3h10v-3c0-2 1-4 2-5a12 12 0 0 0-7-22z"/>',
+    karanlik: '<path d="M30 7a17 17 0 1 0 11 27A14 14 0 0 1 30 7z"/><path d="M4 44h40" stroke-dasharray="2 4"/>',
+    bulut: '<path d="M14 36a9 9 0 0 1 1-18 12 12 0 0 1 22 4 7 7 0 0 1-1 14z"/>',
+    simsek: '<path d="M14 26a9 9 0 0 1 1-18 12 12 0 0 1 22 4 7 7 0 0 1-1 14"/><path d="m26 24-6 10h8l-5 10"/>',
+    ruzgar: '<path d="M4 18h26a6 6 0 1 0-6-6"/><path d="M4 28h34a6 6 0 1 1-6 6"/><path d="M4 38h16"/>',
+    kitap: '<path d="M24 12c-5-4-12-5-18-4v30c6-1 13 0 18 4 5-4 12-5 18-4V8c-6-1-13 0-18 4z"/><path d="M24 12v30"/>',
+    kalem: '<path d="m30 8 10 10L16 42H6V32z"/><path d="m26 12 10 10"/>',
+    el: '<path d="M16 26V10a3 3 0 0 1 6 0v12M22 20V7a3 3 0 0 1 6 0v15M28 22V10a3 3 0 0 1 6 0v16"/><path d="M34 26v-6a3 3 0 0 1 6 0v8c0 9-6 16-15 16-7 0-10-3-13-8l-5-8a3 3 0 0 1 5-3l3 4"/>',
+    goz: '<path d="M3 24s8-13 21-13 21 13 21 13-8 13-21 13S3 24 3 24z"/><circle cx="24" cy="24" r="6"/>',
+    kulak: '<path d="M14 18a11 11 0 1 1 22 0c0 7-6 9-7 15-1 5-4 9-9 9-4 0-6-3-6-6"/><path d="M20 19a5 5 0 0 1 10 0c0 3-3 4-3 7"/>',
+    kalp: '<path d="M24 42S6 31 6 18a9 9 0 0 1 18-3 9 9 0 0 1 18 3c0 13-18 24-18 24z"/>',
+    inek: '<path d="M10 14 5 10M38 14l5-4"/><path d="M12 14h24v12c0 9-5 16-12 16s-12-7-12-16z"/><circle cx="18" cy="23" r="1.4"/><circle cx="30" cy="23" r="1.4"/><path d="M18 34h12"/>',
+    balik: '<path d="M4 24c6-9 16-12 26-8l12-6v28l-12-6C20 36 10 33 4 24z"/><circle cx="14" cy="22" r="1.4"/>',
+    kus: '<path d="M6 30c8 0 12-4 14-10 3-8 10-11 16-8l6 2-5 3c0 11-9 19-21 19H6z"/><path d="M20 28c4 0 8-2 10-6"/>',
+    tas: '<path d="M8 36 12 20l12-8 14 6 4 16-12 6H16z"/><path d="m24 12-2 12 8 6M22 24l-10 4"/>',
+    altin: '<ellipse cx="24" cy="14" rx="14" ry="6"/><path d="M10 14v8c0 3 6 6 14 6s14-3 14-6v-8"/><path d="M10 22v8c0 3 6 6 14 6s14-3 14-6v-8"/><path d="M10 30v6c0 3 6 6 14 6s14-3 14-6v-6"/>',
+    ekin: '<path d="M24 44V8"/><path d="M24 14c-4-2-6-6-6-10 4 2 6 6 6 10zM24 14c4-2 6-6 6-10-4 2-6 6-6 10zM24 24c-4-2-6-6-6-10 4 2 6 6 6 10zM24 24c4-2 6-6 6-10-4 2-6 6-6 10zM24 34c-4-2-6-6-6-10 4 2 6 6 6 10zM24 34c4-2 6-6 6-10-4 2-6 6-6 10z"/>',
+    gece: '<path d="M26 9a15 15 0 1 0 13 24 12 12 0 0 1-13-24z"/><path d="m36 8 1.2 3 3 1.2-3 1.2-1.2 3-1.2-3-3-1.2 3-1.2z"/>',
+    gunduz: '<circle cx="24" cy="28" r="8"/><path d="M4 40h40M24 8v6M9.9 14l4.2 4.2M38.1 14l-4.2 4.2M4 28h6M38 28h6"/>',
+    toprak: '<path d="M4 30h40"/><path d="M4 36h40M8 42h32"/><path d="M14 30c0-5 4-9 10-9s10 4 10 9"/>',
+    elbise: '<path d="m17 6-11 7 4 9 5-3v23h18V19l5 3 4-9-11-7c-1 3-3 5-7 5s-6-2-7-5z"/>',
+    yemek: '<path d="M6 26h36a18 18 0 0 1-36 0z"/><path d="M14 20c0-3 2-3 2-6M24 20c0-3 2-3 2-6M34 20c0-3 2-3 2-6"/>'
+};

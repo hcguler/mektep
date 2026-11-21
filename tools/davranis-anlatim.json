@@ -1,0 +1,5828 @@
+{
+ "_aciklama": "Kur'an'dan Davranış Modeli sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (duraklama: parçadan sonraki sessizlik, saniye). Arapça metin seslendirilmez; ayetlerin meali okunur. Bu dosya tools/davranis-anlatim.mjs ile docs/davranis/data.js ve ayetler.js içeriğinden üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Kur'an'dan Davranış Modeli: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "ihlas",
+   "sukur",
+   "tevekkul",
+   "zikir",
+   "dua",
+   "tovbe",
+   "umit",
+   "muhasebe",
+   "sabir",
+   "ofke",
+   "tevazu",
+   "kibir",
+   "kiskanma",
+   "kiyas",
+   "olculu",
+   "iffet",
+   "temizlik",
+   "icki",
+   "dogru-soz",
+   "yalan",
+   "guzel-soz",
+   "bagirma",
+   "giybet",
+   "zan",
+   "alay",
+   "haber",
+   "bilmedigi",
+   "bos-soz",
+   "iftira",
+   "sahitlik",
+   "laf-tasima",
+   "soz-oz",
+   "sovme",
+   "kotu-soz",
+   "anne-baba",
+   "of",
+   "anne-baba-dua",
+   "es",
+   "aile-iyilik",
+   "akraba",
+   "adalet",
+   "emanet",
+   "soz",
+   "selam",
+   "izin",
+   "affetmek",
+   "iyilikle-sav",
+   "yardimlasma",
+   "baristirma",
+   "komsu",
+   "yetim",
+   "isteyen",
+   "yoksul",
+   "yumusak",
+   "kucumseme",
+   "iyilige-cagir",
+   "iyi-arkadas",
+   "can",
+   "olcu",
+   "hirsizlik",
+   "haksiz-kazanc",
+   "faiz",
+   "borc-yaz",
+   "muhlet",
+   "yetim-mal",
+   "infak",
+   "basa-kakma",
+   "gizli-iyilik",
+   "helal-rizik",
+   "bozgunculuk",
+   "israf",
+   "imar"
+  ],
+  "parcalar": [
+   [
+    "Kur’an’dan Davranış Modeli.",
+    0.8
+   ],
+   "Bütün davranışların çatısı Nahl Suresi’ndeki şu ayettir.",
+   "Nahl Suresi, doksanıncı ayetin anlamı şöyledir.",
+   "Allah şüphesiz adaleti, iyilik yapmayı, yakınlara bakmayı emreder; hayasızlığı, fenalığı ve haddi aşmayı yasak eder.",
+   [
+    "Tutasınız diye size öğüt verir.",
+    0.8
+   ],
+   [
+    "Her davranışın arkasında dört temel ilke vardır.",
+    0.5
+   ],
+   "Takva. Allah’ın her an gördüğünü bilerek yaşamak.",
+   [
+    "Her davranışın arkasındaki bilinç: Allah’a karşı gelmekten sakınmak ve yarın için ne hazırladığına bakmak.",
+    0.5
+   ],
+   "İhlas. Her işi yalnız Allah rızası için yapmak.",
+   [
+    "Davranışın değeri niyetine bağlıdır: Gösteriş için değil, Allah için yapılan iyilik kalıcıdır.",
+    0.5
+   ],
+   "Adalet. Herkese hakkını vermek.",
+   [
+    "Sevdiğine de sevmediğine de, kendi aleyhine olsa bile doğru ve dengeli davranmak.",
+    0.5
+   ],
+   "İhsan. İyiliği en güzel şekilde yapmak.",
+   [
+    "Görevi yapmakla yetinmeyip iyiliği güzelleştirmek: güzel söz, güler yüz, cömert el.",
+    0.5
+   ],
+   [
+    "Davranışlar kalpten başlar ve dışa doğru yedi halkada genişler.",
+    0.5
+   ],
+   [
+    "Kalbim, allah ile; Nefsim, kendimle; Dilim, sözlerim; Ailem, evimde; İnsanlar, toplumda; Kazancım, iş ve alışveriş; Yeryüzü, çevre ve nimetler.",
+    1.6
+   ],
+   [
+    "Her işi Allah rızası için yapmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: gösteriş için değil, allah için.",
+    0.6
+   ],
+   "Kur’an, kulluğun dini yalnız Allah’a has kılarak yapılmasını ister.",
+   [
+    "Aynı iyilik, gösteriş için yapılınca değerini yitirir; Allah için yapılınca ibadete dönüşür.",
+    0.6
+   ],
+   "Beyyine Suresi, beşinci ayetin anlamı şöyledir.",
+   "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı.",
+   [
+    "Dosdoğru olan din de budur.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir iyilik yaptın ve kimse görmedi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kimse görmese de Allah görür.",
+    1.6
+   ],
+   [
+    "Şükretmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: nimeti fark etmek ve teşekkür etmek.",
+    0.6
+   ],
+   "Allah şükredene nimetini artıracağını bildirir.",
+   [
+    "Şükür; nimeti fark etmek, dille teşekkür etmek ve nimeti yerinde kullanmaktır.",
+    0.6
+   ],
+   "İbrâhîm Suresi, yedinci ayetin anlamı şöyledir.",
+   [
+    "Rabbiniz: Şükrederseniz and olsun ki, size karşılığını artıracağım; nankörlük ederseniz bilin ki azabım pek çetindir diye bildirmişti.",
+    0.6
+   ],
+   "Bakara Suresi, yüz yetmiş ikinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   [
+    "Sizi rızıklandırdığımızın temizlerinden yiyin; yalnız Allah'a kulluk ediyorsanız, O'na şükredin.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sabah uyandın, sağlıklısın ve sofran hazır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şükür, nimeti çoğaltır.",
+    1.6
+   ],
+   [
+    "Allah’a güvenmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: elinden geleni yapıp sonucu allah’a bırakmak.",
+    0.6
+   ],
+   "Kur’an önce danışmayı, sonra karar verip Allah’a güvenmeyi öğütler.",
+   [
+    "Tevekkül tembellik değil, çalıştıktan sonra kalbin huzur bulmasıdır.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yüz elli dokuzuncu ayetin anlamı şöyledir.",
+   "Allah'ın rahmetinden dolayı, sen onlara karşı yumuşak davrandın.",
+   "Eğer kaba ve katı kalbli olsaydın, şüphesiz etrafından dağılır giderlerdi.",
+   [
+    "Onları affet, onlara mağfiret dile, iş hakkında onlara danış, fakat karar verdin mi Allah'a güven, doğrusu Allah güvenenleri sever.",
+    0.6
+   ],
+   "Ahzâb Suresi, üçüncü ayetin anlamı şöyledir.",
+   [
+    "Allah'a güven, Allah, vekil olarak yeter.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sınava iyi çalıştın ama yine de kaygılısın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Çalış, sonra güven.",
+    1.6
+   ],
+   [
+    "Allah’ı çokça anmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: gün içinde allah’ı hatırlamak.",
+    0.6
+   ],
+   "Kalpler ancak Allah’ı anmakla huzur bulur.",
+   [
+    "Zikir; namazda, dua ile ve gün içinde Allah’ı hatırlayarak yaşanır.",
+    0.6
+   ],
+   "Ahzâb Suresi, kırk birinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "Allah'ı çok anın.",
+    0.6
+   ],
+   "Ra‘d Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+   "Onlar inanmışlar, kalbleri Allah'ı anmakla huzura kavuşmuştur.",
+   [
+    "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "İçinde bir huzursuzluk var ve ne yapacağını bilmiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kalbin huzuru, Allah’ı anmaktadır.",
+    1.6
+   ],
+   [
+    "Dua etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: ihtiyacını allah’a söylemek.",
+    0.6
+   ],
+   "Allah kullarına yakın olduğunu ve dua edenin duasına karşılık vereceğini bildirir.",
+   [
+    "Dua, kulun acizliğini ve Rabbine güvenini gösterir.",
+    0.6
+   ],
+   "Mü’min Suresi, altmışıncı ayetin anlamı şöyledir.",
+   "Rabbiniz: Bana dua edin ki duanıza icabet edeyim.",
+   [
+    "Bana kulluk etmeyi büyüklüklerine yediremeyenler alçalmış olarak cehenneme gireceklerdir buyurmuştur.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen altıncı ayetin anlamı şöyledir.",
+   "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım.",
+   "Benden isteyenin, dua ettiğinde duasını kabul ederim.",
+   [
+    "Artık onlar da davetimi kabul edip Bana inansınlar ki doğru yolda yürüyenlerden olsunlar.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Çok istediğin bir şey var.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İste; O yakındır.",
+    1.6
+   ],
+   [
+    "Hata edince tövbe etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: yanlışı kabul edip allah’a dönmek.",
+    0.6
+   ],
+   "Müminler bir kötülük yaptıklarında Allah’ı anar, bağışlanma diler ve hatada ısrar etmezler.",
+   [
+    "Tövbe, yürekten pişmanlık ve dönüştür.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yüz otuz beşinci ayetin anlamı şöyledir.",
+   "Onlar fena bir şey yaptıklarında veya kendilerine zulmettiklerinde Allah'ı anarlar, günahlarının bağışlanmasını dilerler.",
+   "Günahları Allah'tan başka bağışlayan kim vardır?",
+   [
+    "Onlar, yaptıklarında bile bile direnmezler.",
+    0.6
+   ],
+   "Tahrîm Suresi, sekizinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Yürekten tevbe ederek Allah'a dönün ki, Rabbiniz kötülüklerinizi örtsün, sizi, içlerinden ırmaklar akan cennetlere koysun.",
+   "Allah'ın Peygamberini ve onunla beraber olan müminleri utandırmayacağı o gün, ışıkları önlerinde ve defterleri sağlarından verilmiş olarak yürürler ve: Rabbimiz!",
+   [
+    "Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin derler.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bugün birine haksızlık ettiğini fark ettin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hatada ısrar etme; dön.",
+    1.6
+   ],
+   [
+    "Ümitsizliğe düşmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: allah’ın rahmetinden umut kesmemek.",
+    0.6
+   ],
+   "Kur’an, çok hata eden kimseye bile Allah’ın rahmetinden umut kesmemesini söyler.",
+   [
+    "Ümitsizlik, tövbenin kapısını kapatan bir tuzaktır.",
+    0.6
+   ],
+   "Zümer Suresi, elli üçüncü ayetin anlamı şöyledir.",
+   "De ki: Ey kendilerine kötülük edip aşırı giden kullarım!",
+   "Allah'ın rahmetinden umudunuzu kesmeyin.",
+   "Doğrusu Allah günahların hepsini bağışlar.",
+   [
+    "Çünkü O, bağışlayandır, merhametlidir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Aynı hatayı yine yaptın ve Artık düzelmem diye düşünüyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Rahmetin kapısı kapanmaz.",
+    1.6
+   ],
+   [
+    "Kendini hesaba çekmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: günün sonunda yarın için ne hazırladım? diye sormak.",
+    0.6
+   ],
+   "Kur’an herkesin yarın için ne hazırladığına bakmasını ister.",
+   [
+    "Günü gözden geçirmek, iyiliği sürdürmenin ve hatayı düzeltmenin yoludur.",
+    0.6
+   ],
+   "Haşr Suresi, on sekizinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "Allah'tan sakının; herkes yarına ne hazırladığına baksın; Allah'tan sakının, çünkü Allah işlediklerinizden haberdardır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Gün bitti, yatağa uzandın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bugünüm, yarınımı hazırlar.",
+    1.6
+   ],
+   [
+    "Sabretmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: zorluğa, beklemeye ve sıkıntıya dayanmak.",
+    0.6
+   ],
+   "Allah sabredenlerle beraberdir.",
+   [
+    "Sabır; zorluğa katlanmak, kötülükten geri durmak ve iyilikte devam etmektir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz elli üçüncü ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Sabır ve namazla yardım dileyin.",
+   [
+    "Allah, muhakkak ki sabredenlerle beraberdir.",
+    0.6
+   ],
+   "Şûrâ Suresi, kırk üçüncü ayetin anlamı şöyledir.",
+   [
+    "Ama sabredip bağışlayanın işi, işte bu, azmedilmeye değer işlerdendir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Kuyrukta uzun süre bekliyorsun ve sıra bir türlü gelmiyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sabır, Allah’ın beraberliğidir.",
+    1.6
+   ],
+   [
+    "Öfkeyi yenmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kızgınken kendine hâkim olmak.",
+    0.6
+   ],
+   "Kur’an iyilik yapanları, öfkelerini yenen ve insanların kusurlarını affeden kimseler olarak anlatır.",
+   [
+    "Öfke anında susmak ve beklemek, sonra pişman olacağın sözü engeller.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yüz otuz dördüncü ayetin anlamı şöyledir.",
+   "Onlar bollukta ve darlıkta sarfederler, öfkelerini yenerler, insanların kusurlarını affederler.",
+   [
+    "Allah iyilik yapanları sever.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Kardeşin eşyanı izinsiz aldı ve çok kızdın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Asıl güç, öfkeye hâkim olmaktır.",
+    1.6
+   ],
+   [
+    "Alçak gönüllü olmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kendini başkalarından üstün görmemek.",
+    0.6
+   ],
+   [
+    "Rahmân’ın kulları yeryüzünde alçak gönüllü yürür; kendilerine kaba davranana bile yumuşak söz söylerler.",
+    0.6
+   ],
+   "Furkān Suresi, altmış üçüncü ayetin anlamı şöyledir.",
+   "Rahman'ın kulları yeryüzünde mütevazı yürürler.",
+   [
+    "Bilgisizler kendilerine takıldıkları zaman onlara güzel ve yumuşak söz söylerler.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir yarışmayı kazandın ve herkes seni tebrik ediyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Başarı, alçak gönüllülükle güzelleşir.",
+    1.6
+   ],
+   [
+    "Böbürlenmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: kibirle yürümemek, övünmemek.",
+    0.6
+   ],
+   "Kur’an yeryüzünde böbürlenerek yürümeyi yasaklar: İnsan ne yeri delebilir ne de dağlara erişebilir.",
+   [
+    "Allah kendini beğenip övüneni sevmez.",
+    0.6
+   ],
+   "İsrâ Suresi, otuz yedinci ayetin anlamı şöyledir.",
+   [
+    "Yeryüzünde böbürlenerek yürüme, çünkü sen ne yeri delebilir ve ne de boyca dağlara ulaşabilirsin.",
+    0.6
+   ],
+   "Lokmân Suresi, on sekizinci ayetin anlamı şöyledir.",
+   [
+    "İnsanları küçümseyip yüz çevirme, yeryüzünde böbürlenerek yürüme; Allah, kendini beğenip övünen hiç kimseyi şüphesiz ki sevmez.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Yeni telefonunu arkadaşlarına gösterip hava atmak istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ne yeri delebilirsin ne dağlara erişebilirsin.",
+    1.6
+   ],
+   [
+    "Kıskanmamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: başkasına verilen nimeti çekememezlik etmemek.",
+    0.6
+   ],
+   "Kur’an, kardeşlerine verilen şeyler karşısında içlerinde çekememezlik duymayanları över.",
+   [
+    "Kıskançlık kalbi yorar; dua ise hem kendine hem kardeşine iyilik getirir.",
+    0.6
+   ],
+   "Haşr Suresi, dokuzuncu ayetin anlamı şöyledir.",
+   "Daha önceden Medine'yi yurt edinmiş ve gönüllerine imanı yerleştirmiş olan kimseler, kendilerine hicret edip gelenleri severler; onlara verilenler karşısında içlerinde bir çekememezlik hissetmezler; kendileri zaruret içinde bulunsalar bile onları kendilerinden önde tutarlar.",
+   [
+    "Nefsinin tamahkarlığından korunabilmiş kimseler, işte onlar saadete erenlerdir.",
+    0.6
+   ],
+   "Nisâ Suresi, elli dördüncü ayetin anlamı şöyledir.",
+   "Yoksa Allah'ın bol nimetinden verdiği kimseleri mi çekemiyorlar?",
+   [
+    "Oysa İbrahim ailesine kitap ve hikmet verdik, onlara büyük hükümranlık bahşettik.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Arkadaşına ödül verildi, sana verilmedi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kardeşinin nimetine sevin, kendin için Allah’tan iste.",
+    1.6
+   ],
+   [
+    "Kendini başkalarıyla kıyaslamamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: başkasının sahip olduğuna göz dikmemek.",
+    0.6
+   ],
+   "Allah, birbirimize üstün kılınan şeyleri özlememizi değil, O’nun lütfundan istememizi öğütler.",
+   [
+    "Herkesin payı, emeği ve imtihanı farklıdır.",
+    0.6
+   ],
+   "Nisâ Suresi, otuz ikinci ayetin anlamı şöyledir.",
+   "Allah'ın sizi birbirinizden üstün kıldığı şeyleri özlemeyin.",
+   "Erkeklere, kazandıklarından bir pay, kadınlara da kazandıklarından bir pay vardır.",
+   "Allah'tan bol nimet isteyin.",
+   [
+    "Doğrusu Allah her şeyi bilir.",
+    0.6
+   ],
+   "Tâhâ Suresi, yüz otuz birinci ayetin anlamı şöyledir.",
+   [
+    "Kendilerini sınamak için, dünya hayatının süsü olarak bol bol geçimlik verdiğimiz kimselere sakın göz dikme, Rabbinin rızkı daha iyi ve daha devamlıdır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sosyal medyada başkalarının tatil fotoğraflarını görüp kendi hayatını küçümsüyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Herkesin payı kendinedir; sen Allah’ın lütfundan iste.",
+    1.6
+   ],
+   [
+    "Ölçülü olmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: ne cimri ne savurgan.",
+    0.6
+   ],
+   "Kur’an, harcarken ne israf eden ne de cimrilik edenleri, ikisi arasında orta yolu tutanları över.",
+   [
+    "Ölçülülük, hayatın her alanında dengedir.",
+    0.6
+   ],
+   "Furkān Suresi, altmış yedinci ayetin anlamı şöyledir.",
+   [
+    "Onlar, sarfettikleri zaman ne israf ederler ne de cimrilik, ikisi arasında orta bir yol tutarlar.",
+    0.6
+   ],
+   "İsrâ Suresi, yirmi dokuzuncu ayetin anlamı şöyledir.",
+   [
+    "Elini boynuna bağlayıp cimri kesilme, büsbütün de açıp tutumsuz olma, yoksa pişman olur, açıkta kalırsın.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Harçlığını aldın; hepsini hemen harcamak istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Orta yol, en güzel yoldur.",
+    1.6
+   ],
+   [
+    "Gözünü ve iffetini korumak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: bakılmaması gerekenden gözünü çevirmek.",
+    0.6
+   ],
+   "Kur’an mümin erkeklere ve kadınlara gözlerini bakılması yasak olandan çevirmelerini ve iffetlerini korumalarını emreder.",
+   [
+    "Bu, kalbin temizliğini korur.",
+    0.6
+   ],
+   "Nûr Suresi, otuzuncu ayetin anlamı şöyledir.",
+   "Mümin erkeklere söyle: Gözlerini bakılması yasak olandan çevirsinler, mahrem yerlerini, korusunlar.",
+   "Bu, onların arınmasını daha iyi sağlar.",
+   [
+    "Allah yaptıklarından şüphesiz haberdardır.",
+    0.6
+   ],
+   "İsrâ Suresi, otuz ikinci ayetin anlamı şöyledir.",
+   [
+    "Sakın zinaya yaklaşmayın; doğrusu bu çirkindir, kötü bir yoldur.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Ekranda karşına uygunsuz bir görüntü çıktı.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gözünü koruyan, kalbini korur.",
+    1.6
+   ],
+   [
+    "Temiz olmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: bedenini, giysini ve çevreni temiz tutmak.",
+    0.6
+   ],
+   [
+    "Kur’an giysilerin temiz tutulmasını emreder ve Allah’ın temizlenenleri sevdiğini bildirir.",
+    0.6
+   ],
+   "Müddessir Suresi, dördüncü ayetin anlamı şöyledir.",
+   [
+    "Giydiklerini temiz tut.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz yirmi ikinci ayetin anlamı şöyledir.",
+   "Sana, kadınların aybaşı hali hakkında da sorarlar, de ki: O bir ezadır, rahatsızlıktır,.",
+   "Aybaşı halinde iken kadınlardan el çekin, temizlenmelerine kadar onlara yaklaşmayın.",
+   "Temizlendikleri zaman, Allah'ın size buyurduğu yoldan yaklaşın.",
+   [
+    "Allah şüphesiz daima tevbe edenleri sever, temizlenenleri de sever.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Üstün başın kirlendi ama Nasılsa kimse fark etmez diyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah temizlenenleri sever.",
+    1.6
+   ],
+   [
+    "İçki ve kumardan uzak durmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: aklı ve malı tehlikeye atan alışkanlıklardan kaçınmak.",
+    0.6
+   ],
+   "Kur’an içki ve kumarı şeytan işi pislikler olarak niteler ve onlardan kaçınmayı emreder.",
+   [
+    "Bu yasak, aklı, aileyi ve malı korur.",
+    0.6
+   ],
+   "Mâide Suresi, doksanıncı ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   [
+    "İçki, kumar, putlar ve fal okları şüphesiz şeytan işi pisliklerdir, bunlardan kaçının ki saadete eresiniz.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir arkadaşın Bir kere dene, bir şey olmaz diyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Aklını koru; o sana emanettir.",
+    1.6
+   ],
+   [
+    "Doğru söylemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: dürüst ve yerinde söz söylemek.",
+    0.6
+   ],
+   [
+    "Kur’an, Allah’tan sakınıp dürüst söz söylemeyi emreder ve bunun sonucunda Allah’ın işleri düzelteceğini bildirir.",
+    0.6
+   ],
+   "Ahzâb Suresi, yetmişinci ve yetmiş birinci ayetlerin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Allah'tan sakının, dürüst söz söyleyin de Allah işlerinizi kendinize yararlı kılsın ve günahlarınızı size bağışlasın.",
+   [
+    "Kim Allah'a ve Peygamber'ine itaat ederse, şüphesiz büyük bir kurtuluşa ermiş olur.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Ödevini yapmadın ve öğretmenin nedenini soruyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğru söz, işleri düzeltir.",
+    1.6
+   ],
+   [
+    "Yalan söylememek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: küçük de olsa, kimse görmese de.",
+    0.6
+   ],
+   "Kur’an yalan sözden kaçınmayı emreder.",
+   [
+    "Küçük görünen bir yalan, güveni yıkar ve başka yalanları doğurur.",
+    0.6
+   ],
+   "Hac Suresi, otuzuncu ayetin anlamı şöyledir.",
+   "İşte böyle.",
+   "Kim Allah'ın yasaklarına saygı gösterirse, bu Rabbinin katında kendi iyiliğinedir., Haram olduğu, size okunanlar dışında kalan hayvanlar, size helal kılındı.",
+   [
+    "O halde pis putlardan sakının; yalan sözden kaçının.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Vazoyu sen kırdın ve kimse görmedi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yalanın küçüğü yoktur.",
+    1.6
+   ],
+   [
+    "Güzel konuşmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: insanlara en güzel şekilde konuşmak.",
+    0.6
+   ],
+   [
+    "Kur’an insanlarla güzel konuşmayı emreder ve kötü sözün şeytanın araları bozma yolu olduğunu hatırlatır.",
+    0.6
+   ],
+   "Bakara Suresi, seksen üçüncü ayetin anlamı şöyledir.",
+   "İsrailoğullarından, Allah'tan başkasına kulluk etmeyin, anne babaya, yakınlara, yetimlere, düşkünlere iyilik edin, insanlarla güzel güzel konuşun, namazı kılın, zekatı verin diye söz almıştık.",
+   [
+    "Sonra siz pek azınız müstesna, döndünüz; hala da yüz çevirip duruyorsunuz.",
+    0.6
+   ],
+   "İsrâ Suresi, elli üçüncü ayetin anlamı şöyledir.",
+   "İnanan kullarıma söyle, en güzel şekilde konuşsunlar.",
+   "Doğrusu şeytan aralarını bozmak ister.",
+   [
+    "Şeytan şüphesiz insanın apaçık düşmanıdır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Arkadaşın beceriksizce bir hata yaptı.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güzel söz, kalpleri birleştirir.",
+    1.6
+   ],
+   [
+    "Bağırmamak, sesini yükseltmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: sesini kısmak, yumuşak konuşmak.",
+    0.6
+   ],
+   "Lokmân’ın oğluna öğüdünde sesini kısması istenir ve yüksek, kaba sesin çirkinliği anlatılır.",
+   [
+    "Haklı olmak için bağırmak gerekmez.",
+    0.6
+   ],
+   "Lokmân Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+   "Yürüyüşünde tabii ol; sesini kıs.",
+   [
+    "Seslerin en çirkini şüphesiz merkeblerin sesidir.",
+    0.6
+   ],
+   "Hucurât Suresi, ikinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Seslerinizi, Peygamberin sesini bastıracak şekilde yükseltmeyin.",
+   [
+    "Farkına varmadan, işlediklerinizin boşa gitmemesi için, Peygambere birbirinize bağırdığınız gibi yüksek sesle bağırmayın.",
+    0.6
+   ],
+   [
+    "Hucurât iki, Peygamber’in huzurunda sesi yükseltmeyi yasaklar ve insanların birbirine bağırdığını kusur olarak anar.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Kardeşinle tartışıyorsun ve sesin gittikçe yükseliyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Haklı olmak için bağırmak gerekmez.",
+    1.6
+   ],
+   [
+    "Gıybet etmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: birini arkasından çekiştirmemek.",
+    0.6
+   ],
+   "Kur’an gıybeti ölü kardeşinin etini yemeye benzetir.",
+   [
+    "Bir kimsenin hoşlanmayacağı bir şeyi arkasından konuşmak, onun onurunu zedeler.",
+    0.6
+   ],
+   "Hucurât Suresi, on ikinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Zannın çoğundan sakının, zira zannın bir kısmı günahtır.",
+   "Birbirinizin suçunu araştırmayın; kimse kimseyi çekiştirmesin; hangi biriniz ölü kardeşinin etini yemekten hoşlanır?",
+   [
+    "Ondan tiksinirsiniz; Allah'tan sakının, şüphesiz Allah tevbeleri daima kabul edendir, acıyandır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Arkadaşların, orada olmayan birinin kusurlarını konuşmaya başladı.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Arkasından konuşma; yüzüne söyleyemiyorsan hiç söyleme.",
+    1.6
+   ],
+   [
+    "Kötü zan beslememek, kusur araştırmamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: insanlar hakkında iyi düşünmek.",
+    0.6
+   ],
+   "Aynı ayet zannın çoğundan sakınmayı ve birbirinin kusurlarını araştırmamayı emreder.",
+   [
+    "Bilmediğin bir niyeti kötüye yormak haksızlıktır.",
+    0.6
+   ],
+   "Hucurât Suresi, on ikinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Zannın çoğundan sakının, zira zannın bir kısmı günahtır.",
+   "Birbirinizin suçunu araştırmayın; kimse kimseyi çekiştirmesin; hangi biriniz ölü kardeşinin etini yemekten hoşlanır?",
+   [
+    "Ondan tiksinirsiniz; Allah'tan sakının, şüphesiz Allah tevbeleri daima kabul edendir, acıyandır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Arkadaşın mesajına cevap vermedi; sana küstüğünü düşünüyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bilmediğin niyeti iyiye yor.",
+    1.6
+   ],
+   [
+    "Alay etmemek, lakap takmamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: kimseyle eğlenmemek, kimseyi kötü adla çağırmamak.",
+    0.6
+   ],
+   "Kur’an bir topluluğun diğeriyle alay etmesini yasaklar: Belki alay edilenler daha hayırlıdır.",
+   [
+    "Kötü lakap takmak da aynı ayetle yasaklanmıştır.",
+    0.6
+   ],
+   "Hucurât Suresi, on birinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Bir topluluk bir diğerini alaya almasın, belki de onlar kendilerinden daha iyidirler.",
+   "Kadınlar da başka kadınları alaya almasınlar, belki onlar kendilerinden daha iyidirler.",
+   "Kendi kendinizi ayıplamayın; birbirinizi kötü lakaplarla çağırmayın; inandıktan sonra yoldan çıkmış olmak ne kötü bir addır.",
+   [
+    "Tevbe etmeyenler, işte onlar zalimlerdir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sınıfta herkes, bir arkadaşınıza taktıkları lakapla gülüyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güldüğün kişi, Allah katında senden hayırlı olabilir.",
+    1.6
+   ],
+   [
+    "Duyduğunu araştırmadan yaymamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: önce doğrula, sonra paylaş.",
+    0.6
+   ],
+   "Kur’an güvenilmez birinden gelen haberin araştırılmasını emreder; yoksa insanlara bilmeden kötülük edilir.",
+   [
+    "Bilmediğin şeyi ağza almamak da öğütlenir.",
+    0.6
+   ],
+   "Hucurât Suresi, altıncı ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "Eğer yoldan çıkmışın biri size bir haber getirirse, onun iç yüzünü araştırın, yoksa bilmeden bir millete fenalık edersiniz de sonra ettiğinize pişman olursunuz.",
+    0.6
+   ],
+   "Nûr Suresi, on beşinci ayetin anlamı şöyledir.",
+   "Onu dilinize dolamıştınız.",
+   "Bilmediğiniz şeyleri ağzınıza alıyordunuz.",
+   [
+    "Onu önemsiz bir şey sanıyordunuz, oysa Allah katında önemi büyüktü.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Telefonuna kaynağı belirsiz, birini suçlayan bir mesaj geldi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğrulamadan paylaşma.",
+    1.6
+   ],
+   [
+    "Bilmediğin konuda konuşmamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: bilgisi olmayan şeyin ardına düşmemek.",
+    0.6
+   ],
+   [
+    "Kur’an bilmediğin şeyin ardına düşmemeyi emreder; çünkü kulak, göz ve kalp bundan sorumludur.",
+    0.6
+   ],
+   "İsrâ Suresi, otuz altıncı ayetin anlamı şöyledir.",
+   [
+    "Bilmediğin şeyin ardına düşme; doğrusu kulak, göz ve kalp, bunların hepsi o şeyden sorumlu olur.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Hakkında hiçbir şey bilmediğin bir konuda tartışmaya giriyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kulak, göz ve kalp sorumludur.",
+    1.6
+   ],
+   [
+    "Boş sözden uzak durmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: faydasız konuşmalardan yüz çevirmek.",
+    0.6
+   ],
+   [
+    "Müminler boş sözden yüz çevirir; cahilce bir sözle karşılaştıklarında Size selam olsun deyip geçerler.",
+    0.6
+   ],
+   "Mü’minûn Suresi, üçüncü ayetin anlamı şöyledir.",
+   [
+    "Onlar boş şeylerden yüz çevirirler.",
+    0.6
+   ],
+   "Kasas Suresi, elli beşinci ayetin anlamı şöyledir.",
+   "Onlar, boş söz işittikleri vakit ondan yüz çevirirler.",
+   "Bizim işlediğimiz bize, sizin işlediğiniz sizedir.",
+   [
+    "Size selam olsun, cahillerle ilgilenmeyiz derler.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir sohbet grubunda saatlerdir anlamsız bir kavga sürüyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Selam ver ve geç.",
+    1.6
+   ],
+   [
+    "İftira etmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: kendi suçunu başkasına yüklememek.",
+    0.6
+   ],
+   [
+    "Kur’an, işlediği bir suçu suçsuz birinin üzerine atmayı apaçık bir günah olarak anar ve duyulan iftiraya Bu büyük bir iftiradır denmesini ister.",
+    0.6
+   ],
+   "Nisâ Suresi, yüz on ikinci ayetin anlamı şöyledir.",
+   [
+    "Kim yanılır veya suç işler de sonra onu bir suçsuzun üzerine atarsa, şüphesiz iftira etmiş, apaçık bir günah yüklenmiş olur.",
+    0.6
+   ],
+   "Nûr Suresi, on altıncı ayetin anlamı şöyledir.",
+   [
+    "O'nu işittiğinizde: Bu konuda konuşmamız yakışık almaz; haşa, bu büyük bir iftiradır demeniz gerekmez miydi.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir şeyi sen bozdun; suçu başkasının üzerine atmak kolay görünüyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Suçunu sahiplen; başkasına yükleme.",
+    1.6
+   ],
+   [
+    "Yalan yere şahitlik etmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: görmediğine gördüm dememek.",
+    0.6
+   ],
+   "Rahmân’ın kulları yalan yere şahitlik etmez.",
+   [
+    "Şahitlik bir emanettir; hakkı gizlemek de yasaktır.",
+    0.6
+   ],
+   "Furkān Suresi, yetmiş ikinci ayetin anlamı şöyledir.",
+   [
+    "Onlar yalan yere şehadet etmezler; faydasız birşeye rastladıkları zaman yüz çevirip vakarla geçerler.",
+    0.6
+   ],
+   "Bakara Suresi, kırk ikinci ayetin anlamı şöyledir.",
+   [
+    "Hakkı batıla karıştırmayın ve bile bile hakkı gizlemeyin.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir arkadaşın, yaşanmayan bir olaya şahit olmanı istiyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şahitlik emanettir.",
+    1.6
+   ],
+   [
+    "Laf taşımamak, iğnelememek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: söz götürüp getirmemek, kimseyi diliyle incitmemek.",
+    0.6
+   ],
+   [
+    "Kur’an, diliyle iğneleyen ve laf taşıyan kimseyi kınar; arkadan çekiştirip alay edenin vay haline der.",
+    0.6
+   ],
+   "Kalem Suresi, onuncu ve on dördüncü ayetlerin anlamı şöyledir.",
+   [
+    "Diliyle iğneleyen, kovuculuk eden, iyiliği daima önleyen, aşırı giden, suç işleyen, çok yemin eden alçak zorbaya, bütün bunlar dışında bir de soysuzlukla damgalanmış kimseye, mal ve oğulları vardır diye aldırış etmeyesin.",
+    0.6
+   ],
+   "Hümeze Suresi, birinci ve ikinci ayetlerin anlamı şöyledir.",
+   [
+    "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir arkadaşının senin hakkında söylediğini, diğerine anlatmak istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Laf taşıyan, dostlukları yıkar.",
+    1.6
+   ],
+   [
+    "Söylediğini yapmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: sözü ile özü bir olmak.",
+    0.6
+   ],
+   "Kur’an, yapmayacağı şeyi söylemenin Allah katında büyük gazaba sebep olduğunu bildirir.",
+   [
+    "Söz verirken düşünmek, verdikten sonra tutmak gerekir.",
+    0.6
+   ],
+   "Saf Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Yapmayacağınız şeyi niçin söylersiniz.",
+   [
+    "Yapmayacağınız şeyi söylemeniz, Allah katında büyük gazaba sebep olur.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Arkadaşına Yarın yardım ederim dedin ama canın istemiyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yapmayacağını söyleme.",
+    1.6
+   ],
+   [
+    "Başkalarının kutsallarına sövmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: inancı farklı olana da saygılı dil.",
+    0.6
+   ],
+   [
+    "Kur’an, Allah’tan başka yalvardıkları şeylere sövmeyi yasaklar; çünkü bu, karşı tarafın da Allah’a sövmesine yol açar.",
+    0.6
+   ],
+   "En‘âm Suresi, yüz sekizinci ayetin anlamı şöyledir.",
+   "Allah'tan başka yalvardıklarına sövmeyin ki, onlar da cahillikle ileri giderek Allah'a sövmesinler.",
+   "Böylece her ümmete işini güzel gösterdik, sonra dönüşleri Rab'lerinedir.",
+   [
+    "O, işlediklerini haber verir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "İnternette inancı farklı biriyle tartışırken hakaret etmek istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sövgü, sövgüyü doğurur.",
+    1.6
+   ],
+   [
+    "Kötülüğü dillendirip yaymamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: kötü sözü ve hayasızlığı yaygınlaştırmamak.",
+    0.6
+   ],
+   "Allah, zulme uğrayan dışında kimsenin kötülüğü açıkça dile getirmesini sevmez.",
+   [
+    "Müminler arasında hayasızlığın yayılmasını istemek de ağır bir kusurdur.",
+    0.6
+   ],
+   "Nisâ Suresi, yüz kırk sekizinci ayetin anlamı şöyledir.",
+   "Allah, zulme uğrayan kimseden başkasının, kötülüğü sözle bile açıklamasını sevmez.",
+   [
+    "Allah işitir ve bilir.",
+    0.6
+   ],
+   "Nûr Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+   "Müminler arasından hayasızlığın yayılmasını arzu edenlere, işte onlara, dünya ve ahirette can yakıcı azap vardır.",
+   [
+    "Allah bilir, siz ise bilmezsiniz.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Birinin utanç verici bir görüntüsü elinde ve paylaşmak istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kötüyü yayma, iyiyi çoğalt.",
+    1.6
+   ],
+   [
+    "Anne babaya iyilik etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: onlara saygı, şefkat ve şükran.",
+    0.6
+   ],
+   [
+    "Kur’an, Allah’a kulluktan hemen sonra anne babaya iyiliği emreder ve annenin çektiği zahmeti hatırlatır.",
+    0.6
+   ],
+   "Lokmân Suresi, on dördüncü ayetin anlamı şöyledir.",
+   "Biz insana, ana ve babasına karşı iyi davranmasını tavsiye etmişizdir.",
+   "Annesi onu, güçsüzlükten güçsüzlüğe uğrayarak karnında taşımıştı.",
+   "Çocuğun sütten kesilmesi iki yıl içinde olur.",
+   "Bana ve ana babana şükret diye tavsiyede bulunmuşuzdur.",
+   [
+    "Dönüş Bana'dır.",
+    0.6
+   ],
+   "İsrâ Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "Rabbin, yalnız Kendisine tapmanızı ve ana babaya iyilik etmeyi buyurmuştur.",
+   "Eğer ikisinden biri veya her ikisi, senin yanında iken ihtiyarlayacak olursa, onlara karşı Öf bile demeyesin, onları azarlamayasın.",
+   [
+    "İkisine de hep tatlı söz söyleyesin.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Annen yorgun görünüyor ve sofrayı tek başına kaldırıyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Anne babaya iyilik, kulluğun yanındadır.",
+    1.6
+   ],
+   [
+    "Anne babaya öf bile dememek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: onları azarlamamak, tatlı söz söylemek.",
+    0.6
+   ],
+   [
+    "Anne baba yaşlandığında onlara öf bile denmemesi, azarlanmaması ve hep tatlı söz söylenmesi emredilir.",
+    0.6
+   ],
+   "İsrâ Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "Rabbin, yalnız Kendisine tapmanızı ve ana babaya iyilik etmeyi buyurmuştur.",
+   "Eğer ikisinden biri veya her ikisi, senin yanında iken ihtiyarlayacak olursa, onlara karşı Öf bile demeyesin, onları azarlamayasın.",
+   [
+    "İkisine de hep tatlı söz söyleyesin.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Baban aynı şeyi üçüncü kez soruyor ve sabrın taşıyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Öf bile deme.",
+    1.6
+   ],
+   [
+    "Anne baba için dua etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: rabbim, onlara merhamet et demek.",
+    0.6
+   ],
+   "Kur’an, anne babaya merhametle alçak gönüllülük kanadını germeyi ve Rabbim!",
+   [
+    "Beni küçükken yetiştirdikleri gibi sen de onlara merhamet et diye dua etmeyi öğretir.",
+    0.6
+   ],
+   "İsrâ Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+   "Onlara acıyarak alçak gönüllülük kanatlarını ger ve: Rabbim!",
+   [
+    "Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et! de.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Gün bitti ve dua ediyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Onlar seni büyüttü; sen onlara dua et.",
+    1.6
+   ],
+   [
+    "Eşiyle güzel geçinmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: sevgi ve merhamet üzerine bir yuva.",
+    0.6
+   ],
+   [
+    "Kur’an eşlerle güzellikle geçinmeyi emreder ve eşler arasındaki sevgi ve merhameti Allah’ın ayetlerinden sayar.",
+    0.6
+   ],
+   "Nisâ Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Kadınlara zorla mirasçı olmaya kalkmanız size helal değildir.",
+   "Apaçık hayasızlık etmedikçe onlara verdiğinizin bir kısmını alıp götürmeniz için onları sıkıştırmayın.",
+   "Onlarla güzellikle geçinin.",
+   [
+    "Eğer onlardan hoşlanmıyorsanız, sabredin, hoşlanmadığınız bir şeyi Allah çok hayırlı kılmış olabilir.",
+    0.6
+   ],
+   "Rûm Suresi, yirmi birinci ayetin anlamı şöyledir.",
+   "İçinizden, kendileriyle huzura kavuşacağınız eşler yaratıp; aranızda muhabbet ve rahmet var etmesi, O'nun varlığının belgelerindendir.",
+   [
+    "Bunlarda, düşünen millet için dersler vardır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Eşin yorgun eve geldi ve küçük bir hata yaptı.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yuva, sevgi ve merhametle ayakta durur.",
+    1.6
+   ],
+   [
+    "Ailesini iyiliğe yönlendirmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kendini ve aileni kötülükten korumak.",
+    0.6
+   ],
+   [
+    "Kur’an, kişinin kendisini ve ailesini ateşten korumasını, ailesine namazı öğütleyip kendisinin de onda devamlı olmasını ister.",
+    0.6
+   ],
+   "Tahrîm Suresi, altıncı ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "Kendinizi ve çoluk çocuğunuzu cehennem ateşinden koruyun; onun yakıtı, insanlar ve taşlardır; görevlileri, Allah'ın kendilerine verdiği emirlere baş kaldırmayan, kendilerine buyrulanları yerine getiren pek haşin meleklerdir.",
+    0.6
+   ],
+   "Tâhâ Suresi, yüz otuz ikinci ayetin anlamı şöyledir.",
+   "Ehline namaz kılmalarını emret, kendin de onda devamlı ol.",
+   "Biz senden rızık istemiyoruz, sana rızık veren Biziz.",
+   [
+    "Sonuç Allah'a karşı gelmekten sakınanındır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Küçük kardeşin namaz kılmayı öğrenmek istiyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Önce kendin yap, sonra öğüt ver.",
+    1.6
+   ],
+   [
+    "Akrabayı gözetmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: yakınlarla bağı koparmamak.",
+    0.6
+   ],
+   "Kur’an akrabaya, düşküne ve yolcuya hakkını vermeyi emreder.",
+   [
+    "Akrabalık bağı ziyaretle, yardımla ve güzel sözle korunur.",
+    0.6
+   ],
+   "İsrâ Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+   [
+    "Yakınına, düşküne, yolcuya hakkını ver; elindekileri saçıp savurma.",
+    0.6
+   ],
+   "Nisâ Suresi, otuz altıncı ayetin anlamı şöyledir.",
+   "Allah'a kulluk edin, O'na bir şeyi ortak koşmayın.",
+   "Ana babaya, yakınlara, yetimlere, düşkünlere, yakın komşuya, uzak komşuya, yanınızdaki arkadaşa, yolcuya ve elinizin altında bulunan kimselere iyilik edin.",
+   [
+    "Allah, kendini beğenip öğünenleri elbette sevmez.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Uzun süredir aramadığın yaşlı bir akraban var.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Akrabanın hakkı vardır.",
+    1.6
+   ],
+   [
+    "Adaletli olmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kendi aleyhine de olsa doğruyu söylemek.",
+    0.6
+   ],
+   "Kur’an, kendimizin ve yakınlarımızın aleyhine bile olsa adaleti gözetmeyi emreder.",
+   [
+    "Bir topluluğa duyulan öfke de adaletsizliğe sebep olmamalıdır.",
+    0.6
+   ],
+   "Nisâ Suresi, yüz otuz beşinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Kendiniz, ana babanız ve yakınlarınız aleyhlerine de olsa, Allah için şahit olarak adaleti gözetin; ister zengin, ister fakir olsun, Allah onlara daha yakındır.",
+   "Adaletinizde heveslere uymayın.",
+   [
+    "Eğer eğriltirseniz veya yüz çevirirseniz bilin ki, Allah işlediklerinizden şüphesiz haberdardır.",
+    0.6
+   ],
+   "Mâide Suresi, sekizinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Allah için adaleti ayakta tutup gözeten şahidler olun.",
+   "Bir topluluğa olan öfkeniz sizi adaletsizliğe sürüklemesin; adil olun; bu, Allah'a karşı gelmekten sakınmaya daha yakındır.",
+   [
+    "Allah'tan sakının, doğrusu Allah işlediklerinizden Haberdar'dır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sevdiğin arkadaşınla sevmediğin biri arasında hakemlik yapıyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Adalet, sevgiye ve öfkeye boyun eğmez.",
+    1.6
+   ],
+   [
+    "Emanete riayet etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: sana bırakılanı korumak ve geri vermek.",
+    0.6
+   ],
+   "Allah emanetlerin ehline verilmesini emreder.",
+   [
+    "Bir eşya, bir sır, bir görev: Hepsi emanettir.",
+    0.6
+   ],
+   "Nisâ Suresi, elli sekizinci ayetin anlamı şöyledir.",
+   "Hiç şüphesiz Allah size, emanetleri ehline teslim etmenizi ve insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emreder.",
+   "Allah size ne güzel öğüt veriyor.",
+   [
+    "Şüphesiz Allah işitir ve görür.",
+    0.6
+   ],
+   "Mü’minûn Suresi, sekizinci ayetin anlamı şöyledir.",
+   [
+    "Onlar emanetlerini ve sözlerini yerine getirirler.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Arkadaşın sana bir sırrını anlattı.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Emanete sahip çık.",
+    1.6
+   ],
+   [
+    "Sözünü tutmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: verdiğin sözü ve anlaşmayı yerine getirmek.",
+    0.6
+   ],
+   [
+    "Kur’an verilen sözün sorumluluk getirdiğini bildirir ve ahitleri yerine getirmeyi emreder.",
+    0.6
+   ],
+   "İsrâ Suresi, otuz dördüncü ayetin anlamı şöyledir.",
+   "Yetimin malına ergin çağa ulaşana kadar en güzel şeklin dışında yaklaşmayın.",
+   [
+    "Ahdi de yerine getirin, doğrusu verilen ahidde sorumluluk vardır.",
+    0.6
+   ],
+   "Nahl Suresi, doksan birinci ayetin anlamı şöyledir.",
+   "Ahitleştiğiniz zaman Allah'ın ahdini yerine getirin.",
+   "Allah'ı kendinize kefil kılarak sağlama bağladığınız yeminleri bozmayın.",
+   [
+    "Allah yaptıklarınızı şüphesiz bilir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir arkadaşınla saat ikide buluşacağına söz verdin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Söz, sorumluluktur.",
+    1.6
+   ],
+   [
+    "Selamlaşmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: selam vermek, selama güzelce karşılık vermek.",
+    0.6
+   ],
+   [
+    "Kur’an verilen selama daha güzeliyle ya da aynısıyla karşılık vermeyi emreder.",
+    0.6
+   ],
+   "Nisâ Suresi, seksen altıncı ayetin anlamı şöyledir.",
+   "Size bir selam verildiği zaman, ondan daha iyisiyle selam verin veya ayniyle mukabele edin.",
+   [
+    "Allah her şeyin hesabını gereği gibi yapandır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Asansörde komşunla karşılaştın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Selam, kalpler arasında köprüdür.",
+    1.6
+   ],
+   [
+    "İzin almadan girmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: başkasının alanına saygı göstermek.",
+    0.6
+   ],
+   "Kur’an, başkasının evine izin almadan ve selam vermeden girmeyi yasaklar.",
+   [
+    "Başkasının odası, eşyası ve telefonu da onun özel alanıdır.",
+    0.6
+   ],
+   "Nûr Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Evlerinizden başka evlere, izin almadan, seslenip sahiplerine selam vermeden girmeyiniz.",
+   [
+    "Eğer düşünürseniz bu sizin için daha iyidir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Kardeşinin odasının kapısı kapalı ve içeri girmek istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kapıyı çal, izin iste.",
+    1.6
+   ],
+   [
+    "Affetmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kırgınlığı bırakıp bağışlamak.",
+    0.6
+   ],
+   "Kur’an, Allah’ın sizi bağışlamasını istemez misiniz? diyerek affetmeye çağırır.",
+   [
+    "Affedip barışanın ecri Allah’a aittir.",
+    0.6
+   ],
+   "Nûr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+   "İçinizde lütuf ve servet sahibi olanlar, yakınlarına, düşkünlere ve Allah yolunda hicret edenlere, vermemek için yemin etmesinler, affetsinler, geçsinler.",
+   "Allah'ın sizi bağışlamasından hoşlanmaz mısınız?",
+   [
+    "Allah bağışlayandır, merhametli olandır.",
+    0.6
+   ],
+   "Şûrâ Suresi, kırkıncı ayetin anlamı şöyledir.",
+   "Bir kötülüğün karşılığı, aynı şekilde bir kötülüktür.",
+   "Ama kim affeder ve barışırsa, onun ecri Allah'a aittir.",
+   [
+    "Doğrusu O, zulmedenleri sevmez.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Seni kıran arkadaşın gelip özür diledi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Affet ki affedilesin.",
+    1.6
+   ],
+   [
+    "Kötülüğe iyilikle karşılık vermek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kötülüğü en güzel şekilde savmak.",
+    0.6
+   ],
+   [
+    "Kur’an kötülüğü en güzel şekilde savmayı öğütler: O zaman düşmanlık olan kimsenin sıcak bir dost gibi olduğu görülür.",
+    0.6
+   ],
+   "Fussılet Suresi, otuz dördüncü ayetin anlamı şöyledir.",
+   "İyilik ve fenalık bir değildir.",
+   [
+    "Ey inanan kişi: Sen, fenalığı en güzel şekilde sav; o zaman, seninle arasında düşmanlık bulunan kişinin yakın bir dost gibi olduğunu görürsün.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Biri sana kaba davrandı ve aynı şekilde karşılık vermek istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kötülüğü iyilikle sav; düşman dost olur.",
+    1.6
+   ],
+   [
+    "İyilikte yardımlaşmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: iyiliğe destek, kötülüğe engel olmak.",
+    0.6
+   ],
+   [
+    "Kur’an iyilikte ve kötülükten sakınmada yardımlaşmayı, günahta ve haddi aşmada ise yardımlaşmamayı emreder.",
+    0.6
+   ],
+   "Mâide Suresi, ikinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Allah'ın nişanelerine, hürmet edilen aya, hediye olan kurbanlığa, gerdanlıklar takılan hayvanlara, Rab'lerinden bol nimet ve rıza talep ederek Beyt-i Haram'a gelenlere sakın hürmetsizlik etmeyin.",
+   "İhramdan çıktığınız zaman avlanabilirsiniz.",
+   "Sizi Mescid-i Haram'dan menettiği için bir topluluğa olan kininiz, aşırı gitmenize sebep olmasın; iyilikte ve fenalıktan sakınmakta yardımlaşın, günah işlemek ve aşırı gitmekte yardımlaşmayın.",
+   [
+    "Allah'tan sakının, Allah'ın cezası şiddetlidir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sınıfta bir yardım kampanyası başlatıldı.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İyilikte el ele, kötülükte uzak.",
+    1.6
+   ],
+   [
+    "Küsleri barıştırmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kardeşlerin arasını düzeltmek.",
+    0.6
+   ],
+   [
+    "Kur’an müminlerin kardeş olduğunu bildirir ve dargın olanların arasının düzeltilmesini emreder.",
+    0.6
+   ],
+   "Hucurât Suresi, onuncu ayetin anlamı şöyledir.",
+   [
+    "Şüphesiz müminler birbiri ile kardeştirler; öyle ise dargın olan kardeşlerinizin arasını düzeltin; Allah'tan sakının ki size acısın.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "İki arkadaşın birbirine küs.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Müminler kardeştir.",
+    1.6
+   ],
+   [
+    "Komşuya iyilik etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: yakın ve uzak komşuyu gözetmek.",
+    0.6
+   ],
+   [
+    "Kur’an yakın komşuya, uzak komşuya ve yanındaki arkadaşa iyilik etmeyi emreder.",
+    0.6
+   ],
+   "Nisâ Suresi, otuz altıncı ayetin anlamı şöyledir.",
+   "Allah'a kulluk edin, O'na bir şeyi ortak koşmayın.",
+   "Ana babaya, yakınlara, yetimlere, düşkünlere, yakın komşuya, uzak komşuya, yanınızdaki arkadaşa, yolcuya ve elinizin altında bulunan kimselere iyilik edin.",
+   [
+    "Allah, kendini beğenip öğünenleri elbette sevmez.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Yaşlı komşun pazar çantalarını taşımakta zorlanıyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Komşunun hakkı vardır.",
+    1.6
+   ],
+   [
+    "Yetimi gözetmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kimsesizi korumak, ona iyi davranmak.",
+    0.6
+   ],
+   [
+    "Kur’an yetime kötü davranmayı yasaklar ve yetimi doyuranları över.",
+    0.6
+   ],
+   "Duhâ Suresi, dokuzuncu ayetin anlamı şöyledir.",
+   [
+    "Öyleyse sakın öksüze kötü muamele etme.",
+    0.6
+   ],
+   "İnsân Suresi, sekizinci ayetin anlamı şöyledir.",
+   [
+    "Onlar içleri çektiği halde, yiyeceği yoksula, öksüze ve esire yedirirler.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sınıfında annesini kaybetmiş bir arkadaşın var.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yetimin başını okşa.",
+    1.6
+   ],
+   [
+    "İsteyeni azarlamamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: yardım isteyeni kırmadan karşılamak.",
+    0.6
+   ],
+   "Kur’an bir şey isteyenin azarlanmasını yasaklar.",
+   [
+    "Veremesen bile güzel bir söz söylemek gerekir.",
+    0.6
+   ],
+   "Duhâ Suresi, onuncu ayetin anlamı şöyledir.",
+   [
+    "Ve sakın bir şey isteyeni azarlama.",
+    0.6
+   ],
+   "İsrâ Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+   [
+    "Rabbin'den umduğun rahmeti elde etmek için, hak sahiblerinden yüz çevirmek zorunda kalırsan, onlara hiç değilse tatlı bir söz söyle.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Biri senden yardım istedi ama şu an veremeyeceksin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Veremesen de kırma.",
+    1.6
+   ],
+   [
+    "Yoksulu doyurmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: ihtiyaç sahibini gözetmek.",
+    0.6
+   ],
+   [
+    "Kur’an, kendileri istedikleri hâlde yiyeceklerini yoksula ve yetime yedirenleri över; yoksulu doyurmaya yanaşmayanı ise kınar.",
+    0.6
+   ],
+   "İnsân Suresi, sekizinci ayetin anlamı şöyledir.",
+   [
+    "Onlar içleri çektiği halde, yiyeceği yoksula, öksüze ve esire yedirirler.",
+    0.6
+   ],
+   "Mâûn Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+   [
+    "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sofrada fazla yemek kaldı ve sokakta aç birini gördün.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Paylaşılan sofra bereketlenir.",
+    1.6
+   ],
+   [
+    "Yumuşak davranmak ve danışmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kaba ve katı kalpli olmamak.",
+    0.6
+   ],
+   "Kur’an, Peygamberimizin yumuşak davranışını Allah’ın rahmeti olarak anar: Kaba olsaydı insanlar etrafından dağılırdı.",
+   [
+    "İş hakkında danışmak da aynı ayette emredilir.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yüz elli dokuzuncu ayetin anlamı şöyledir.",
+   "Allah'ın rahmetinden dolayı, sen onlara karşı yumuşak davrandın.",
+   "Eğer kaba ve katı kalbli olsaydın, şüphesiz etrafından dağılır giderlerdi.",
+   [
+    "Onları affet, onlara mağfiret dile, iş hakkında onlara danış, fakat karar verdin mi Allah'a güven, doğrusu Allah güvenenleri sever.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir grup ödevinde liderlik yapıyorsun ve arkadaşların farklı fikirde.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yumuşaklık insanları toplar.",
+    1.6
+   ],
+   [
+    "İnsanları küçümsememek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: kimseye tepeden bakmamak.",
+    0.6
+   ],
+   [
+    "Kur’an insanları küçümseyip yüz çevirmeyi yasaklar ve alay edilen kişinin Allah katında daha hayırlı olabileceğini hatırlatır.",
+    0.6
+   ],
+   "Lokmân Suresi, on sekizinci ayetin anlamı şöyledir.",
+   [
+    "İnsanları küçümseyip yüz çevirme, yeryüzünde böbürlenerek yürüme; Allah, kendini beğenip övünen hiç kimseyi şüphesiz ki sevmez.",
+    0.6
+   ],
+   "Hucurât Suresi, on birinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Bir topluluk bir diğerini alaya almasın, belki de onlar kendilerinden daha iyidirler.",
+   "Kadınlar da başka kadınları alaya almasınlar, belki onlar kendilerinden daha iyidirler.",
+   "Kendi kendinizi ayıplamayın; birbirinizi kötü lakaplarla çağırmayın; inandıktan sonra yoldan çıkmış olmak ne kötü bir addır.",
+   [
+    "Tevbe etmeyenler, işte onlar zalimlerdir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Yeni gelen öğrencinin kıyafetleri eski ve kimse onunla konuşmuyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Değeri, dış görünüş belirlemez.",
+    1.6
+   ],
+   [
+    "İyiliği tavsiye etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: iyiye çağırmak, kötülükten sakındırmak.",
+    0.6
+   ],
+   [
+    "Kur’an iyiye çağıran ve kötülükten alıkoyan bir topluluk olmayı ister; gerçeği ve sabrı birbirine tavsiye edenleri ziyana uğramayanlardan sayar.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yüz dördüncü ayetin anlamı şöyledir.",
+   "Sizden, iyiye çağıran, doğruluğu emreden ve fenalıktan meneden bir cemaat olsun.",
+   [
+    "İşte başarıya erişenler yalnız onlardır.",
+    0.6
+   ],
+   "Asr Suresi, üçüncü ayetin anlamı şöyledir.",
+   [
+    "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Arkadaşın kopya çekmeyi planlıyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İyiliği tavsiye et, sabrı tavsiye et.",
+    1.6
+   ],
+   [
+    "İyi insanlarla beraber olmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: arkadaşını doğrulardan seçmek.",
+    0.6
+   ],
+   "Kur’an, Allah’tan sakınmayı ve doğrularla beraber olmayı emreder.",
+   [
+    "Arkadaş, insanı ya iyiliğe ya kötülüğe taşır.",
+    0.6
+   ],
+   "Tevbe Suresi, yüz on dokuzuncu ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   [
+    "Allah'tan sakının ve doğrularla beraber olun.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Yeni bir arkadaş grubuna katılmak üzeresin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kiminle yürürsen ona benzersin.",
+    1.6
+   ],
+   [
+    "Cana değer vermek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: bir canı kurtarmak, bütün insanlığı kurtarmak gibidir.",
+    0.6
+   ],
+   [
+    "Kur’an haksız yere bir canı öldürmeyi bütün insanları öldürmek gibi, bir canı kurtarmayı ise bütün insanları kurtarmak gibi sayar.",
+    0.6
+   ],
+   "Mâide Suresi, otuz ikinci ayetin anlamı şöyledir.",
+   "Bunun için İsrailoğullarına şöyle yazdık: Kim bir kimseyi bir kimseye veya yeryüzünde bozgunculuğa karşılık olmadan öldürürse, bütün insanları öldürmüş gibi olur.",
+   "Kim de onu diriltirse, ölümden kurtarırsa, bütün insanları diriltmiş gibi olur.",
+   [
+    "And olsun ki, onlara belgelerle peygamberlerimiz geldi, sonra buna rağmen, onların çoğu yeryüzünde taşkınlık edenler oldu.",
+    0.6
+   ],
+   [
+    "Ayet, bu hükmün İsrailoğullarına yazıldığını haber verir; ölçü bütün insanlık için geçerli bir ilke olarak anılır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Yolda düşüp yaralanan birini gördün.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bir can, bütün insanlık kadar değerlidir.",
+    1.6
+   ],
+   [
+    "Ölçü ve tartıda doğru olmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: eksik ölçmemek, eksik tartmamak.",
+    0.6
+   ],
+   [
+    "Kur’an ölçüyü tam, tartıyı doğru tutmayı emreder ve alırken tam alıp verirken eksik verenleri kınar.",
+    0.6
+   ],
+   "İsrâ Suresi, otuz beşinci ayetin anlamı şöyledir.",
+   "Bir şeyi ölçtüğünüz zaman, ölçüyü tam tutun, doğru teraziyle tartın.",
+   [
+    "Böyle yapmak, sonuç itibariyle daha güzel ve daha iyidir.",
+    0.6
+   ],
+   "Mutaffifîn Suresi, birinci ve üçüncü ayetlerin anlamı şöyledir.",
+   [
+    "İnsanlardan, kendileri bir şeyi ölçerek aldıkları zaman tam alan; ama onlara bir şeyi ölçüp tartarak verdiklerinde eksik tutan kimselerin, vay haline.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Sattığın ürünün eksik olduğunu müşteri fark etmedi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Eksik tartan, kendinden eksiltir.",
+    1.6
+   ],
+   [
+    "Hırsızlık yapmamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: başkasına ait olanı izinsiz almamak.",
+    0.6
+   ],
+   "Kur’an hırsızlık yapmamayı, Peygamberimize verilen bağlılık sözünün maddeleri arasında sayar.",
+   [
+    "Küçük bir eşya da, bir dosya da izinsiz alınmaz.",
+    0.6
+   ],
+   "Mümtehine Suresi, on ikinci ayetin anlamı şöyledir.",
+   "Ey Peygamber!",
+   [
+    "İnanmış kadınlar, Allah'a hiçbir ortak koşmamak, hırsızlık yapmamak, zina etmemek, çocuklarını öldürmemek, başkasının çocuğunu sahiplenerek kocasına isnadda bulunmamak ve uygun olanı işlemekte sana karşı gelmemek şartıyla sana beyat etmek üzere geldikleri zaman, onları kabul et; onlara Allah'tan bağışlanma dile; doğrusu Allah, bağışlayandır, acıyandır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Masada unutulmuş bir kalem var ve kimin olduğunu bilmiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Senin olmayana dokunma.",
+    1.6
+   ],
+   [
+    "Haksız kazançtan ve rüşvetten uzak durmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: malı yalnızca hak ve rıza ile edinmek.",
+    0.6
+   ],
+   [
+    "Kur’an malların haksızlıkla yenmesini ve hakimlere aktarılarak başkasının malına el uzatılmasını yasaklar; ticaret karşılıklı rıza ile olmalıdır.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen sekizinci ayetin anlamı şöyledir.",
+   [
+    "Aranızda mallarınızı haksızlıkla yemeyin; bildiğiniz halde günaha girerek insanların mallarından bir kısmını yemek için onu hakimlere aktarmayın.",
+    0.6
+   ],
+   "Nisâ Suresi, yirmi dokuzuncu ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Mallarınızı aranızda haksızlıkla değil, karşılıklı rıza ile yapılan ticaretle yeyin, haram ile nefsinizi mahvetmeyin.",
+   [
+    "Allah şüphesiz ki size merhamet eder.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "İşini hızlandırmak için birine para vermen öneriliyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Haksız kazanç bereket getirmez.",
+    1.6
+   ],
+   [
+    "Faizden uzak durmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: alışveriş helal, faiz haram.",
+    0.6
+   ],
+   [
+    "Kur’an, Allah’ın alışverişi helal, faizi haram kıldığını açıkça bildirir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz yetmiş beşinci ayetin anlamı şöyledir.",
+   "Faiz yiyenler mahşerde ancak şeytanın çarptığı kimsenin kalktığı gibi kalkarlar.",
+   "Bu, onların, Zaten alışveriş de faiz gibidir demelerindendir.",
+   "Oysa Allah alışverişi helal, faizi haram kıldı.",
+   "Kime Rabb'inden bir öğüt gelir de faizcilikten geri durursa, geçmişi kendisinedir, onun işi Allah'a aittir.",
+   [
+    "Kim faizciliğe dönerse, işte onlar cehennemliktir, onlar orada temelli kalacaklardır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Borç verdiğin arkadaşından fazlasını istemeyi düşünüyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Alışveriş helal, faiz haram.",
+    1.6
+   ],
+   [
+    "Borcu yazmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: anlaşmazlığı önlemek için kayıt tutmak.",
+    0.6
+   ],
+   [
+    "Kur’an’ın en uzun ayeti, belirli süreli borcun yazılmasını ve şahit tutulmasını ister: Bu, haksızlığı ve şüpheyi önler.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz seksen ikinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Birbirinize belirli bir süre için borçlandığınız zaman onu yazınız.",
+   "İçinizden bir katip doğru olarak yazsın; katip onu Allah'ın kendisine öğrettiği gibi yazmaktan çekinmesin, yazsın.",
+   "Borçlu olan da yazdırsın, Rabbi olan Allah'tan sakınsın, ondan bir şey eksiltmesin.",
+   "Eğer borçlu, aptal veya aciz, ya da yazdıramıyacak durumda ise, velisi, doğru olarak yazdırsın.",
+   "Erkeklerinizden iki şahid tutun; eğer iki erkek bulunmazsa, şahidlerden razı olacağınız bir erkek, biri unuttuğunda diğeri ona hatırlatacak iki kadın olabilir.",
+   "Şahidler çağırıldıklarında çekinmesinler.",
+   "Borç büyük veya küçük olsun, onu süresiyle beraber yazmaya üşenmeyin; bu, Allah katında en doğru, şahidlik için en sağlam ve şüphelenmenizden en uzak olandır.",
+   "Ancak aranızdaki alışveriş peşin olursa, onu yazmamanızda size bir sorumluluk yoktur.",
+   "Alışveriş yaptığınızda şahid tutun.",
+   "Katibe de şahide de zarar verilmesin; eğer zarar verirseniz, o zaman doğru yoldan çıkmış olursunuz.",
+   [
+    "Allah'tan sakının, Allah size öğretiyor; Allah her şeyi bilir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir akrabana bir süreliğine borç veriyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yazılan söz, kardeşliği korur.",
+    1.6
+   ],
+   [
+    "Darda olan borçluya süre tanımak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: ödeyemeyene kolaylık göstermek.",
+    0.6
+   ],
+   [
+    "Kur’an, borçlu darda ise eli genişleyinceye kadar ona süre verilmesini, bağışlamanın ise daha hayırlı olduğunu bildirir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz sekseninci ayetin anlamı şöyledir.",
+   "Borçlu darda ise, eli genişleyinceye kadar ona mühlet verin.",
+   [
+    "Bilmiş olsanız borcu bağışlamanız sizin için daha hayırlıdır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Borç verdiğin kişi zor durumda ve ödeyemiyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kolaylaştıran, kolaylık bulur.",
+    1.6
+   ],
+   [
+    "Yetimin malını korumak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: kimsesizin hakkına en güzel şekilde yaklaşmak.",
+    0.6
+   ],
+   [
+    "Kur’an yetimin malına, ergenlik çağına erişinceye kadar en güzel şekil dışında yaklaşılmamasını emreder ve haksız yere yiyenleri ağır bir dille uyarır.",
+    0.6
+   ],
+   "En‘âm Suresi, yüz elli ikinci ayetin anlamı şöyledir.",
+   "Yetim malına, erginlik çağına erişene kadar en iyi şeklin dışında yaklaşmayın; ölçüyü ve tartıyı doğru yapın.",
+   "Biz kişiye ancak gücünün yeteceği kadar yükleriz.",
+   "Konuştuğunuzda, akraba bile olsa sözünüzde adil olun.",
+   "Allah'ın ahdini yerine getirin.",
+   [
+    "Allah size bunları öğüt almanız için buyurmaktadır.",
+    0.6
+   ],
+   "Nisâ Suresi, onuncu ayetin anlamı şöyledir.",
+   [
+    "Yetimlerin mallarını haksız yere yiyenler, karınlarına ancak ateş tıkınmış olurlar, zaten onlar çılgın aleve atılacaklardır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bakımını üstlendiğin bir çocuğun parası sana emanet edildi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yetimin hakkı, ateşten bir emanettir.",
+    1.6
+   ],
+   [
+    "Sevdiğin şeylerden paylaşmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: gece gündüz, gizli açık vermek.",
+    0.6
+   ],
+   [
+    "Kur’an, sevilen şeylerden harcamadıkça iyiliğe erişilemeyeceğini bildirir ve gece gündüz, gizli açık verenlere korku olmadığını müjdeler.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, doksan ikinci ayetin anlamı şöyledir.",
+   "Sevdiğiniz şeylerden sarfetmedikçe iyiliğe erişemezsiniz.",
+   [
+    "Her ne sarfederseniz, şüphesiz Allah onu bilir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz yetmiş dördüncü ayetin anlamı şöyledir.",
+   "Gece gündüz, açık gizli, mallarını sarfedenlerin mükafatlarını Rab'leri verecektir.",
+   [
+    "Onlara korku yoktur ve onlar üzülmeyeceklerdir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "En sevdiğin oyuncağı ya da kitabı ihtiyacı olan biriyle paylaşabilirsin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sevdiğinden ver ki iyiliğe eresin.",
+    1.6
+   ],
+   [
+    "Yaptığı iyiliği başa kakmamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: verdikten sonra minnet ettirmemek.",
+    0.6
+   ],
+   [
+    "Kur’an, sadakaları başa kakarak ve incitecek şekilde vererek boşa çıkarmayı yasaklar: Güzel bir söz, ardından incitme gelen sadakadan daha hayırlıdır.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz altmış dördüncü ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Allah'a ve ahiret gününe inanmayıp, insanlara gösteriş için malını sarfeden kimse gibi, sadakalarınızı başa kakma ve eza etmekle boşa çıkarmayın.",
+   "Onun durumu, üzerinde toprak bulunan kayanın durumu gibidir, üzerine bol yağmur yağdığındaonu cascavlak bırakır.",
+   "Kazandıklarından hiçbir şey elde edemezler.",
+   [
+    "Allah inkar eden kimseleri doğru yola eriştirmez.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz altmış üçüncü ayetin anlamı şöyledir.",
+   "Güzel bir söz ve bağışlama, peşinden eza gelen bir sadakadan daha iyidir.",
+   [
+    "Allah müstağnidir, Halim'dir.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Yardım ettiğin arkadaşınla tartışırken Ben sana ne iyilikler yaptım demek istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Verdiğini say, kaybedersin.",
+    1.6
+   ],
+   [
+    "Yardımı gösterişsiz yapmak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: gösterişten uzak yardım.",
+    0.6
+   ],
+   [
+    "Kur’an sadakayı açıkça vermeyi güzel, yoksullara gizlice vermeyi ise daha hayırlı sayar.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz yetmiş birinci ayetin anlamı şöyledir.",
+   "Sadakaları açıkça verirseniz o ne güzel!",
+   "Eğer onları yoksullara gizlice verirseniz sizin için daha iyidir.",
+   "Allah onları kötülüklerinizden bir kısmına karşı tutar.",
+   [
+    "Allah işlediklerinizden haberdardır.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Bir ihtiyaç sahibine yardım edeceksin ve bunu paylaşmak istiyorsun.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gizli iyilik, kalbi korur.",
+    1.6
+   ],
+   [
+    "Helal ve temiz rızık aramak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: çalışmak, temiz olandan yemek.",
+    0.6
+   ],
+   [
+    "Kur’an temiz rızıktan yemeyi ve şükretmeyi emreder; namazdan sonra yeryüzüne dağılıp Allah’ın lütfundan rızık aramayı öğütler.",
+    0.6
+   ],
+   "Bakara Suresi, yüz yetmiş ikinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   [
+    "Sizi rızıklandırdığımızın temizlerinden yiyin; yalnız Allah'a kulluk ediyorsanız, O'na şükredin.",
+    0.6
+   ],
+   "Cuma Suresi, onuncu ayetin anlamı şöyledir.",
+   [
+    "Namaz bitince yeryüzüne yayılın; Allah'ın lütfundan rızık isteyin; Allah'ı çok anın ki saadete erişesiniz.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Kolay ama şüpheli bir kazanç yolu ile zor ama temiz bir iş arasında kaldın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Temiz kazanç, temiz hayat.",
+    1.6
+   ],
+   [
+    "Yeryüzünde bozgunculuk yapmamak.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: düzeni, doğayı ve canlıları bozmamak.",
+    0.6
+   ],
+   [
+    "Kur’an, düzeltilmişken yeryüzünde bozgunculuk yapmayı yasaklar ve ekini ve nesli yok etmeye çalışanları kınar.",
+    0.6
+   ],
+   "A‘râf Suresi, elli altıncı ayetin anlamı şöyledir.",
+   "Düzeltilmişken, yeryüzünde bozgunculuk yapmayın.",
+   "Allah'a korkarak ve umutla yalvarın.",
+   [
+    "Doğrusu Allah'ın rahmeti iyi davrananlara yakındır.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz dördüncü ve iki yüz beşinci ayetlerin anlamı şöyledir.",
+   "Dünya hayatına dair konuşması senin hoşuna giden, pek azılı düşman iken, kalbinde olana Allah'ı şahid tutan, işbaşına geçince, yeryüzünde bozgunculuk yapmaya, ekin ve nesli yok etmeğe çabalayan insanlar vardır.",
+   [
+    "Allah bozgunculuğu sevmez.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Piknikten sonra çöplerini doğada bırakmak kolay görünüyor.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yeryüzü sana emanettir.",
+    1.6
+   ],
+   [
+    "İsraf etmemek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sakındırdığı bir davranış: yemekte, suda, her şeyde ölçülü olmak.",
+    0.6
+   ],
+   [
+    "Kur’an yiyip içmeyi, ama israf etmemeyi emreder ve saçıp savuranları şeytanın kardeşleri olarak niteler.",
+    0.6
+   ],
+   "A‘râf Suresi, otuz birinci ayetin anlamı şöyledir.",
+   "Ey Ademoğulları!",
+   [
+    "Her mescide güzel elbiselerinizi giyinerek gidin; yiyin için fakat israf etmeyin, çünkü Allah müsrifleri sevmez.",
+    0.6
+   ],
+   "İsrâ Suresi, yirmi altıncı ve yirmi yedinci ayetlerin anlamı şöyledir.",
+   "Yakınına, düşküne, yolcuya hakkını ver; elindekileri saçıp savurma.",
+   [
+    "Saçıp savuranlar, şüphesiz şeytanlarla kardeş olmuş olurlar; şeytan ise Rabbine karşı pek nankördür.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Tabağına yiyebileceğinden çok fazla yemek aldın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nimet israf edilmez.",
+    1.6
+   ],
+   [
+    "Yeryüzünü imar etmek.",
+    0.5
+   ],
+   [
+    "Kur’an’ın öğüttüğü bir davranış: dünyayı güzelleştirmek, yararlı iş yapmak.",
+    0.6
+   ],
+   "Hz.",
+   "Sâlih kavmine, Allah’ın onları yeryüzünde yarattığını ve orayı imar etmelerini dilediğini hatırlatır.",
+   [
+    "Ağaç dikmek, bir şeyi onarmak, yararlı bir iş yapmak bu emrin parçasıdır.",
+    0.6
+   ],
+   "Hûd Suresi, altmış birinci ayetin anlamı şöyledir.",
+   "Semud milletine kardeşleri Salih'i gönderdik.",
+   "Ey milletim!",
+   "Allah'a kulluk edin; O'ndan başka tanrınız yoktur; sizi yeryüzünde yaratıp orayı imar etmenizi dileyen O'dur.",
+   "Öyleyse O'ndan mağfiret dileyin, sonra da O'na tevbe edin.",
+   [
+    "Doğrusu Rabbim size yakın ve duaları kabul edendir dedi.",
+    0.6
+   ],
+   "Günlük hayattan bir durum.",
+   [
+    "Mahallende bir ağaç dikme etkinliği var.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bulduğundan daha güzel bırak.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Model",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Kur’an’dan Davranış Modeli.",
+     0.8
+    ],
+    "Bütün davranışların çatısı Nahl Suresi’ndeki şu ayettir.",
+    "Nahl Suresi, doksanıncı ayetin anlamı şöyledir.",
+    "Allah şüphesiz adaleti, iyilik yapmayı, yakınlara bakmayı emreder; hayasızlığı, fenalığı ve haddi aşmayı yasak eder.",
+    [
+     "Tutasınız diye size öğüt verir.",
+     0.8
+    ],
+    [
+     "Her davranışın arkasında dört temel ilke vardır.",
+     0.5
+    ],
+    "Takva. Allah’ın her an gördüğünü bilerek yaşamak.",
+    [
+     "Her davranışın arkasındaki bilinç: Allah’a karşı gelmekten sakınmak ve yarın için ne hazırladığına bakmak.",
+     0.5
+    ],
+    "İhlas. Her işi yalnız Allah rızası için yapmak.",
+    [
+     "Davranışın değeri niyetine bağlıdır: Gösteriş için değil, Allah için yapılan iyilik kalıcıdır.",
+     0.5
+    ],
+    "Adalet. Herkese hakkını vermek.",
+    [
+     "Sevdiğine de sevmediğine de, kendi aleyhine olsa bile doğru ve dengeli davranmak.",
+     0.5
+    ],
+    "İhsan. İyiliği en güzel şekilde yapmak.",
+    [
+     "Görevi yapmakla yetinmeyip iyiliği güzelleştirmek: güzel söz, güler yüz, cömert el.",
+     0.5
+    ],
+    [
+     "Davranışlar kalpten başlar ve dışa doğru yedi halkada genişler.",
+     0.5
+    ],
+    [
+     "Kalbim, allah ile; Nefsim, kendimle; Dilim, sözlerim; Ailem, evimde; İnsanlar, toplumda; Kazancım, iş ve alışveriş; Yeryüzü, çevre ve nimetler.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "ihlas",
+   "baslik": "Her işi Allah rızası için yapmak",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Her işi Allah rızası için yapmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: gösteriş için değil, allah için.",
+     0.6
+    ],
+    "Kur’an, kulluğun dini yalnız Allah’a has kılarak yapılmasını ister.",
+    [
+     "Aynı iyilik, gösteriş için yapılınca değerini yitirir; Allah için yapılınca ibadete dönüşür.",
+     0.6
+    ],
+    "Beyyine Suresi, beşinci ayetin anlamı şöyledir.",
+    "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı.",
+    [
+     "Dosdoğru olan din de budur.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir iyilik yaptın ve kimse görmedi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kimse görmese de Allah görür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "sukur",
+   "baslik": "Şükretmek",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Şükretmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: nimeti fark etmek ve teşekkür etmek.",
+     0.6
+    ],
+    "Allah şükredene nimetini artıracağını bildirir.",
+    [
+     "Şükür; nimeti fark etmek, dille teşekkür etmek ve nimeti yerinde kullanmaktır.",
+     0.6
+    ],
+    "İbrâhîm Suresi, yedinci ayetin anlamı şöyledir.",
+    [
+     "Rabbiniz: Şükrederseniz and olsun ki, size karşılığını artıracağım; nankörlük ederseniz bilin ki azabım pek çetindir diye bildirmişti.",
+     0.6
+    ],
+    "Bakara Suresi, yüz yetmiş ikinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    [
+     "Sizi rızıklandırdığımızın temizlerinden yiyin; yalnız Allah'a kulluk ediyorsanız, O'na şükredin.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sabah uyandın, sağlıklısın ve sofran hazır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şükür, nimeti çoğaltır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "tevekkul",
+   "baslik": "Allah’a güvenmek",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Allah’a güvenmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: elinden geleni yapıp sonucu allah’a bırakmak.",
+     0.6
+    ],
+    "Kur’an önce danışmayı, sonra karar verip Allah’a güvenmeyi öğütler.",
+    [
+     "Tevekkül tembellik değil, çalıştıktan sonra kalbin huzur bulmasıdır.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yüz elli dokuzuncu ayetin anlamı şöyledir.",
+    "Allah'ın rahmetinden dolayı, sen onlara karşı yumuşak davrandın.",
+    "Eğer kaba ve katı kalbli olsaydın, şüphesiz etrafından dağılır giderlerdi.",
+    [
+     "Onları affet, onlara mağfiret dile, iş hakkında onlara danış, fakat karar verdin mi Allah'a güven, doğrusu Allah güvenenleri sever.",
+     0.6
+    ],
+    "Ahzâb Suresi, üçüncü ayetin anlamı şöyledir.",
+    [
+     "Allah'a güven, Allah, vekil olarak yeter.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sınava iyi çalıştın ama yine de kaygılısın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Çalış, sonra güven.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "zikir",
+   "baslik": "Allah’ı çokça anmak",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Allah’ı çokça anmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: gün içinde allah’ı hatırlamak.",
+     0.6
+    ],
+    "Kalpler ancak Allah’ı anmakla huzur bulur.",
+    [
+     "Zikir; namazda, dua ile ve gün içinde Allah’ı hatırlayarak yaşanır.",
+     0.6
+    ],
+    "Ahzâb Suresi, kırk birinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Allah'ı çok anın.",
+     0.6
+    ],
+    "Ra‘d Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+    "Onlar inanmışlar, kalbleri Allah'ı anmakla huzura kavuşmuştur.",
+    [
+     "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "İçinde bir huzursuzluk var ve ne yapacağını bilmiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalbin huzuru, Allah’ı anmaktadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "dua",
+   "baslik": "Dua etmek",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Dua etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: ihtiyacını allah’a söylemek.",
+     0.6
+    ],
+    "Allah kullarına yakın olduğunu ve dua edenin duasına karşılık vereceğini bildirir.",
+    [
+     "Dua, kulun acizliğini ve Rabbine güvenini gösterir.",
+     0.6
+    ],
+    "Mü’min Suresi, altmışıncı ayetin anlamı şöyledir.",
+    "Rabbiniz: Bana dua edin ki duanıza icabet edeyim.",
+    [
+     "Bana kulluk etmeyi büyüklüklerine yediremeyenler alçalmış olarak cehenneme gireceklerdir buyurmuştur.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen altıncı ayetin anlamı şöyledir.",
+    "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım.",
+    "Benden isteyenin, dua ettiğinde duasını kabul ederim.",
+    [
+     "Artık onlar da davetimi kabul edip Bana inansınlar ki doğru yolda yürüyenlerden olsunlar.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Çok istediğin bir şey var.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İste; O yakındır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "tovbe",
+   "baslik": "Hata edince tövbe etmek",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Hata edince tövbe etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: yanlışı kabul edip allah’a dönmek.",
+     0.6
+    ],
+    "Müminler bir kötülük yaptıklarında Allah’ı anar, bağışlanma diler ve hatada ısrar etmezler.",
+    [
+     "Tövbe, yürekten pişmanlık ve dönüştür.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yüz otuz beşinci ayetin anlamı şöyledir.",
+    "Onlar fena bir şey yaptıklarında veya kendilerine zulmettiklerinde Allah'ı anarlar, günahlarının bağışlanmasını dilerler.",
+    "Günahları Allah'tan başka bağışlayan kim vardır?",
+    [
+     "Onlar, yaptıklarında bile bile direnmezler.",
+     0.6
+    ],
+    "Tahrîm Suresi, sekizinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Yürekten tevbe ederek Allah'a dönün ki, Rabbiniz kötülüklerinizi örtsün, sizi, içlerinden ırmaklar akan cennetlere koysun.",
+    "Allah'ın Peygamberini ve onunla beraber olan müminleri utandırmayacağı o gün, ışıkları önlerinde ve defterleri sağlarından verilmiş olarak yürürler ve: Rabbimiz!",
+    [
+     "Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin derler.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bugün birine haksızlık ettiğini fark ettin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hatada ısrar etme; dön.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "umit",
+   "baslik": "Ümitsizliğe düşmemek",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Ümitsizliğe düşmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: allah’ın rahmetinden umut kesmemek.",
+     0.6
+    ],
+    "Kur’an, çok hata eden kimseye bile Allah’ın rahmetinden umut kesmemesini söyler.",
+    [
+     "Ümitsizlik, tövbenin kapısını kapatan bir tuzaktır.",
+     0.6
+    ],
+    "Zümer Suresi, elli üçüncü ayetin anlamı şöyledir.",
+    "De ki: Ey kendilerine kötülük edip aşırı giden kullarım!",
+    "Allah'ın rahmetinden umudunuzu kesmeyin.",
+    "Doğrusu Allah günahların hepsini bağışlar.",
+    [
+     "Çünkü O, bağışlayandır, merhametlidir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Aynı hatayı yine yaptın ve Artık düzelmem diye düşünüyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Rahmetin kapısı kapanmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "muhasebe",
+   "baslik": "Kendini hesaba çekmek",
+   "tur": "Kalbim",
+   "parcalar": [
+    [
+     "Kendini hesaba çekmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: günün sonunda yarın için ne hazırladım? diye sormak.",
+     0.6
+    ],
+    "Kur’an herkesin yarın için ne hazırladığına bakmasını ister.",
+    [
+     "Günü gözden geçirmek, iyiliği sürdürmenin ve hatayı düzeltmenin yoludur.",
+     0.6
+    ],
+    "Haşr Suresi, on sekizinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Allah'tan sakının; herkes yarına ne hazırladığına baksın; Allah'tan sakının, çünkü Allah işlediklerinizden haberdardır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Gün bitti, yatağa uzandın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bugünüm, yarınımı hazırlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "sabir",
+   "baslik": "Sabretmek",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Sabretmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: zorluğa, beklemeye ve sıkıntıya dayanmak.",
+     0.6
+    ],
+    "Allah sabredenlerle beraberdir.",
+    [
+     "Sabır; zorluğa katlanmak, kötülükten geri durmak ve iyilikte devam etmektir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz elli üçüncü ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Sabır ve namazla yardım dileyin.",
+    [
+     "Allah, muhakkak ki sabredenlerle beraberdir.",
+     0.6
+    ],
+    "Şûrâ Suresi, kırk üçüncü ayetin anlamı şöyledir.",
+    [
+     "Ama sabredip bağışlayanın işi, işte bu, azmedilmeye değer işlerdendir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Kuyrukta uzun süre bekliyorsun ve sıra bir türlü gelmiyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabır, Allah’ın beraberliğidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "ofke",
+   "baslik": "Öfkeyi yenmek",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Öfkeyi yenmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kızgınken kendine hâkim olmak.",
+     0.6
+    ],
+    "Kur’an iyilik yapanları, öfkelerini yenen ve insanların kusurlarını affeden kimseler olarak anlatır.",
+    [
+     "Öfke anında susmak ve beklemek, sonra pişman olacağın sözü engeller.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yüz otuz dördüncü ayetin anlamı şöyledir.",
+    "Onlar bollukta ve darlıkta sarfederler, öfkelerini yenerler, insanların kusurlarını affederler.",
+    [
+     "Allah iyilik yapanları sever.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Kardeşin eşyanı izinsiz aldı ve çok kızdın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Asıl güç, öfkeye hâkim olmaktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "tevazu",
+   "baslik": "Alçak gönüllü olmak",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Alçak gönüllü olmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kendini başkalarından üstün görmemek.",
+     0.6
+    ],
+    [
+     "Rahmân’ın kulları yeryüzünde alçak gönüllü yürür; kendilerine kaba davranana bile yumuşak söz söylerler.",
+     0.6
+    ],
+    "Furkān Suresi, altmış üçüncü ayetin anlamı şöyledir.",
+    "Rahman'ın kulları yeryüzünde mütevazı yürürler.",
+    [
+     "Bilgisizler kendilerine takıldıkları zaman onlara güzel ve yumuşak söz söylerler.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir yarışmayı kazandın ve herkes seni tebrik ediyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Başarı, alçak gönüllülükle güzelleşir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "kibir",
+   "baslik": "Böbürlenmemek",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Böbürlenmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: kibirle yürümemek, övünmemek.",
+     0.6
+    ],
+    "Kur’an yeryüzünde böbürlenerek yürümeyi yasaklar: İnsan ne yeri delebilir ne de dağlara erişebilir.",
+    [
+     "Allah kendini beğenip övüneni sevmez.",
+     0.6
+    ],
+    "İsrâ Suresi, otuz yedinci ayetin anlamı şöyledir.",
+    [
+     "Yeryüzünde böbürlenerek yürüme, çünkü sen ne yeri delebilir ve ne de boyca dağlara ulaşabilirsin.",
+     0.6
+    ],
+    "Lokmân Suresi, on sekizinci ayetin anlamı şöyledir.",
+    [
+     "İnsanları küçümseyip yüz çevirme, yeryüzünde böbürlenerek yürüme; Allah, kendini beğenip övünen hiç kimseyi şüphesiz ki sevmez.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Yeni telefonunu arkadaşlarına gösterip hava atmak istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ne yeri delebilirsin ne dağlara erişebilirsin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "kiskanma",
+   "baslik": "Kıskanmamak",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Kıskanmamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: başkasına verilen nimeti çekememezlik etmemek.",
+     0.6
+    ],
+    "Kur’an, kardeşlerine verilen şeyler karşısında içlerinde çekememezlik duymayanları över.",
+    [
+     "Kıskançlık kalbi yorar; dua ise hem kendine hem kardeşine iyilik getirir.",
+     0.6
+    ],
+    "Haşr Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    "Daha önceden Medine'yi yurt edinmiş ve gönüllerine imanı yerleştirmiş olan kimseler, kendilerine hicret edip gelenleri severler; onlara verilenler karşısında içlerinde bir çekememezlik hissetmezler; kendileri zaruret içinde bulunsalar bile onları kendilerinden önde tutarlar.",
+    [
+     "Nefsinin tamahkarlığından korunabilmiş kimseler, işte onlar saadete erenlerdir.",
+     0.6
+    ],
+    "Nisâ Suresi, elli dördüncü ayetin anlamı şöyledir.",
+    "Yoksa Allah'ın bol nimetinden verdiği kimseleri mi çekemiyorlar?",
+    [
+     "Oysa İbrahim ailesine kitap ve hikmet verdik, onlara büyük hükümranlık bahşettik.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Arkadaşına ödül verildi, sana verilmedi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kardeşinin nimetine sevin, kendin için Allah’tan iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "kiyas",
+   "baslik": "Kendini başkalarıyla kıyaslamamak",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Kendini başkalarıyla kıyaslamamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: başkasının sahip olduğuna göz dikmemek.",
+     0.6
+    ],
+    "Allah, birbirimize üstün kılınan şeyleri özlememizi değil, O’nun lütfundan istememizi öğütler.",
+    [
+     "Herkesin payı, emeği ve imtihanı farklıdır.",
+     0.6
+    ],
+    "Nisâ Suresi, otuz ikinci ayetin anlamı şöyledir.",
+    "Allah'ın sizi birbirinizden üstün kıldığı şeyleri özlemeyin.",
+    "Erkeklere, kazandıklarından bir pay, kadınlara da kazandıklarından bir pay vardır.",
+    "Allah'tan bol nimet isteyin.",
+    [
+     "Doğrusu Allah her şeyi bilir.",
+     0.6
+    ],
+    "Tâhâ Suresi, yüz otuz birinci ayetin anlamı şöyledir.",
+    [
+     "Kendilerini sınamak için, dünya hayatının süsü olarak bol bol geçimlik verdiğimiz kimselere sakın göz dikme, Rabbinin rızkı daha iyi ve daha devamlıdır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sosyal medyada başkalarının tatil fotoğraflarını görüp kendi hayatını küçümsüyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Herkesin payı kendinedir; sen Allah’ın lütfundan iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "olculu",
+   "baslik": "Ölçülü olmak",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Ölçülü olmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: ne cimri ne savurgan.",
+     0.6
+    ],
+    "Kur’an, harcarken ne israf eden ne de cimrilik edenleri, ikisi arasında orta yolu tutanları över.",
+    [
+     "Ölçülülük, hayatın her alanında dengedir.",
+     0.6
+    ],
+    "Furkān Suresi, altmış yedinci ayetin anlamı şöyledir.",
+    [
+     "Onlar, sarfettikleri zaman ne israf ederler ne de cimrilik, ikisi arasında orta bir yol tutarlar.",
+     0.6
+    ],
+    "İsrâ Suresi, yirmi dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Elini boynuna bağlayıp cimri kesilme, büsbütün de açıp tutumsuz olma, yoksa pişman olur, açıkta kalırsın.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Harçlığını aldın; hepsini hemen harcamak istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Orta yol, en güzel yoldur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "iffet",
+   "baslik": "Gözünü ve iffetini korumak",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Gözünü ve iffetini korumak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: bakılmaması gerekenden gözünü çevirmek.",
+     0.6
+    ],
+    "Kur’an mümin erkeklere ve kadınlara gözlerini bakılması yasak olandan çevirmelerini ve iffetlerini korumalarını emreder.",
+    [
+     "Bu, kalbin temizliğini korur.",
+     0.6
+    ],
+    "Nûr Suresi, otuzuncu ayetin anlamı şöyledir.",
+    "Mümin erkeklere söyle: Gözlerini bakılması yasak olandan çevirsinler, mahrem yerlerini, korusunlar.",
+    "Bu, onların arınmasını daha iyi sağlar.",
+    [
+     "Allah yaptıklarından şüphesiz haberdardır.",
+     0.6
+    ],
+    "İsrâ Suresi, otuz ikinci ayetin anlamı şöyledir.",
+    [
+     "Sakın zinaya yaklaşmayın; doğrusu bu çirkindir, kötü bir yoldur.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Ekranda karşına uygunsuz bir görüntü çıktı.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gözünü koruyan, kalbini korur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "temizlik",
+   "baslik": "Temiz olmak",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "Temiz olmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: bedenini, giysini ve çevreni temiz tutmak.",
+     0.6
+    ],
+    [
+     "Kur’an giysilerin temiz tutulmasını emreder ve Allah’ın temizlenenleri sevdiğini bildirir.",
+     0.6
+    ],
+    "Müddessir Suresi, dördüncü ayetin anlamı şöyledir.",
+    [
+     "Giydiklerini temiz tut.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz yirmi ikinci ayetin anlamı şöyledir.",
+    "Sana, kadınların aybaşı hali hakkında da sorarlar, de ki: O bir ezadır, rahatsızlıktır,.",
+    "Aybaşı halinde iken kadınlardan el çekin, temizlenmelerine kadar onlara yaklaşmayın.",
+    "Temizlendikleri zaman, Allah'ın size buyurduğu yoldan yaklaşın.",
+    [
+     "Allah şüphesiz daima tevbe edenleri sever, temizlenenleri de sever.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Üstün başın kirlendi ama Nasılsa kimse fark etmez diyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah temizlenenleri sever.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "icki",
+   "baslik": "İçki ve kumardan uzak durmak",
+   "tur": "Nefsim",
+   "parcalar": [
+    [
+     "İçki ve kumardan uzak durmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: aklı ve malı tehlikeye atan alışkanlıklardan kaçınmak.",
+     0.6
+    ],
+    "Kur’an içki ve kumarı şeytan işi pislikler olarak niteler ve onlardan kaçınmayı emreder.",
+    [
+     "Bu yasak, aklı, aileyi ve malı korur.",
+     0.6
+    ],
+    "Mâide Suresi, doksanıncı ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    [
+     "İçki, kumar, putlar ve fal okları şüphesiz şeytan işi pisliklerdir, bunlardan kaçının ki saadete eresiniz.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir arkadaşın Bir kere dene, bir şey olmaz diyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Aklını koru; o sana emanettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "dogru-soz",
+   "baslik": "Doğru söylemek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Doğru söylemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: dürüst ve yerinde söz söylemek.",
+     0.6
+    ],
+    [
+     "Kur’an, Allah’tan sakınıp dürüst söz söylemeyi emreder ve bunun sonucunda Allah’ın işleri düzelteceğini bildirir.",
+     0.6
+    ],
+    "Ahzâb Suresi, yetmişinci ve yetmiş birinci ayetlerin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Allah'tan sakının, dürüst söz söyleyin de Allah işlerinizi kendinize yararlı kılsın ve günahlarınızı size bağışlasın.",
+    [
+     "Kim Allah'a ve Peygamber'ine itaat ederse, şüphesiz büyük bir kurtuluşa ermiş olur.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Ödevini yapmadın ve öğretmenin nedenini soruyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğru söz, işleri düzeltir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "yalan",
+   "baslik": "Yalan söylememek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Yalan söylememek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: küçük de olsa, kimse görmese de.",
+     0.6
+    ],
+    "Kur’an yalan sözden kaçınmayı emreder.",
+    [
+     "Küçük görünen bir yalan, güveni yıkar ve başka yalanları doğurur.",
+     0.6
+    ],
+    "Hac Suresi, otuzuncu ayetin anlamı şöyledir.",
+    "İşte böyle.",
+    "Kim Allah'ın yasaklarına saygı gösterirse, bu Rabbinin katında kendi iyiliğinedir., Haram olduğu, size okunanlar dışında kalan hayvanlar, size helal kılındı.",
+    [
+     "O halde pis putlardan sakının; yalan sözden kaçının.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Vazoyu sen kırdın ve kimse görmedi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yalanın küçüğü yoktur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "guzel-soz",
+   "baslik": "Güzel konuşmak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Güzel konuşmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: insanlara en güzel şekilde konuşmak.",
+     0.6
+    ],
+    [
+     "Kur’an insanlarla güzel konuşmayı emreder ve kötü sözün şeytanın araları bozma yolu olduğunu hatırlatır.",
+     0.6
+    ],
+    "Bakara Suresi, seksen üçüncü ayetin anlamı şöyledir.",
+    "İsrailoğullarından, Allah'tan başkasına kulluk etmeyin, anne babaya, yakınlara, yetimlere, düşkünlere iyilik edin, insanlarla güzel güzel konuşun, namazı kılın, zekatı verin diye söz almıştık.",
+    [
+     "Sonra siz pek azınız müstesna, döndünüz; hala da yüz çevirip duruyorsunuz.",
+     0.6
+    ],
+    "İsrâ Suresi, elli üçüncü ayetin anlamı şöyledir.",
+    "İnanan kullarıma söyle, en güzel şekilde konuşsunlar.",
+    "Doğrusu şeytan aralarını bozmak ister.",
+    [
+     "Şeytan şüphesiz insanın apaçık düşmanıdır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Arkadaşın beceriksizce bir hata yaptı.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güzel söz, kalpleri birleştirir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "bagirma",
+   "baslik": "Bağırmamak, sesini yükseltmemek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Bağırmamak, sesini yükseltmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: sesini kısmak, yumuşak konuşmak.",
+     0.6
+    ],
+    "Lokmân’ın oğluna öğüdünde sesini kısması istenir ve yüksek, kaba sesin çirkinliği anlatılır.",
+    [
+     "Haklı olmak için bağırmak gerekmez.",
+     0.6
+    ],
+    "Lokmân Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+    "Yürüyüşünde tabii ol; sesini kıs.",
+    [
+     "Seslerin en çirkini şüphesiz merkeblerin sesidir.",
+     0.6
+    ],
+    "Hucurât Suresi, ikinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Seslerinizi, Peygamberin sesini bastıracak şekilde yükseltmeyin.",
+    [
+     "Farkına varmadan, işlediklerinizin boşa gitmemesi için, Peygambere birbirinize bağırdığınız gibi yüksek sesle bağırmayın.",
+     0.6
+    ],
+    [
+     "Hucurât iki, Peygamber’in huzurunda sesi yükseltmeyi yasaklar ve insanların birbirine bağırdığını kusur olarak anar.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Kardeşinle tartışıyorsun ve sesin gittikçe yükseliyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Haklı olmak için bağırmak gerekmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "giybet",
+   "baslik": "Gıybet etmemek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Gıybet etmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: birini arkasından çekiştirmemek.",
+     0.6
+    ],
+    "Kur’an gıybeti ölü kardeşinin etini yemeye benzetir.",
+    [
+     "Bir kimsenin hoşlanmayacağı bir şeyi arkasından konuşmak, onun onurunu zedeler.",
+     0.6
+    ],
+    "Hucurât Suresi, on ikinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Zannın çoğundan sakının, zira zannın bir kısmı günahtır.",
+    "Birbirinizin suçunu araştırmayın; kimse kimseyi çekiştirmesin; hangi biriniz ölü kardeşinin etini yemekten hoşlanır?",
+    [
+     "Ondan tiksinirsiniz; Allah'tan sakının, şüphesiz Allah tevbeleri daima kabul edendir, acıyandır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Arkadaşların, orada olmayan birinin kusurlarını konuşmaya başladı.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Arkasından konuşma; yüzüne söyleyemiyorsan hiç söyleme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "zan",
+   "baslik": "Kötü zan beslememek, kusur araştırmamak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Kötü zan beslememek, kusur araştırmamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: insanlar hakkında iyi düşünmek.",
+     0.6
+    ],
+    "Aynı ayet zannın çoğundan sakınmayı ve birbirinin kusurlarını araştırmamayı emreder.",
+    [
+     "Bilmediğin bir niyeti kötüye yormak haksızlıktır.",
+     0.6
+    ],
+    "Hucurât Suresi, on ikinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Zannın çoğundan sakının, zira zannın bir kısmı günahtır.",
+    "Birbirinizin suçunu araştırmayın; kimse kimseyi çekiştirmesin; hangi biriniz ölü kardeşinin etini yemekten hoşlanır?",
+    [
+     "Ondan tiksinirsiniz; Allah'tan sakının, şüphesiz Allah tevbeleri daima kabul edendir, acıyandır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Arkadaşın mesajına cevap vermedi; sana küstüğünü düşünüyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bilmediğin niyeti iyiye yor.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "alay",
+   "baslik": "Alay etmemek, lakap takmamak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Alay etmemek, lakap takmamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: kimseyle eğlenmemek, kimseyi kötü adla çağırmamak.",
+     0.6
+    ],
+    "Kur’an bir topluluğun diğeriyle alay etmesini yasaklar: Belki alay edilenler daha hayırlıdır.",
+    [
+     "Kötü lakap takmak da aynı ayetle yasaklanmıştır.",
+     0.6
+    ],
+    "Hucurât Suresi, on birinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Bir topluluk bir diğerini alaya almasın, belki de onlar kendilerinden daha iyidirler.",
+    "Kadınlar da başka kadınları alaya almasınlar, belki onlar kendilerinden daha iyidirler.",
+    "Kendi kendinizi ayıplamayın; birbirinizi kötü lakaplarla çağırmayın; inandıktan sonra yoldan çıkmış olmak ne kötü bir addır.",
+    [
+     "Tevbe etmeyenler, işte onlar zalimlerdir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sınıfta herkes, bir arkadaşınıza taktıkları lakapla gülüyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güldüğün kişi, Allah katında senden hayırlı olabilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "haber",
+   "baslik": "Duyduğunu araştırmadan yaymamak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Duyduğunu araştırmadan yaymamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: önce doğrula, sonra paylaş.",
+     0.6
+    ],
+    "Kur’an güvenilmez birinden gelen haberin araştırılmasını emreder; yoksa insanlara bilmeden kötülük edilir.",
+    [
+     "Bilmediğin şeyi ağza almamak da öğütlenir.",
+     0.6
+    ],
+    "Hucurât Suresi, altıncı ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Eğer yoldan çıkmışın biri size bir haber getirirse, onun iç yüzünü araştırın, yoksa bilmeden bir millete fenalık edersiniz de sonra ettiğinize pişman olursunuz.",
+     0.6
+    ],
+    "Nûr Suresi, on beşinci ayetin anlamı şöyledir.",
+    "Onu dilinize dolamıştınız.",
+    "Bilmediğiniz şeyleri ağzınıza alıyordunuz.",
+    [
+     "Onu önemsiz bir şey sanıyordunuz, oysa Allah katında önemi büyüktü.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Telefonuna kaynağı belirsiz, birini suçlayan bir mesaj geldi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğrulamadan paylaşma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "bilmedigi",
+   "baslik": "Bilmediğin konuda konuşmamak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Bilmediğin konuda konuşmamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: bilgisi olmayan şeyin ardına düşmemek.",
+     0.6
+    ],
+    [
+     "Kur’an bilmediğin şeyin ardına düşmemeyi emreder; çünkü kulak, göz ve kalp bundan sorumludur.",
+     0.6
+    ],
+    "İsrâ Suresi, otuz altıncı ayetin anlamı şöyledir.",
+    [
+     "Bilmediğin şeyin ardına düşme; doğrusu kulak, göz ve kalp, bunların hepsi o şeyden sorumlu olur.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Hakkında hiçbir şey bilmediğin bir konuda tartışmaya giriyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kulak, göz ve kalp sorumludur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "bos-soz",
+   "baslik": "Boş sözden uzak durmak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Boş sözden uzak durmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: faydasız konuşmalardan yüz çevirmek.",
+     0.6
+    ],
+    [
+     "Müminler boş sözden yüz çevirir; cahilce bir sözle karşılaştıklarında Size selam olsun deyip geçerler.",
+     0.6
+    ],
+    "Mü’minûn Suresi, üçüncü ayetin anlamı şöyledir.",
+    [
+     "Onlar boş şeylerden yüz çevirirler.",
+     0.6
+    ],
+    "Kasas Suresi, elli beşinci ayetin anlamı şöyledir.",
+    "Onlar, boş söz işittikleri vakit ondan yüz çevirirler.",
+    "Bizim işlediğimiz bize, sizin işlediğiniz sizedir.",
+    [
+     "Size selam olsun, cahillerle ilgilenmeyiz derler.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir sohbet grubunda saatlerdir anlamsız bir kavga sürüyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Selam ver ve geç.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "iftira",
+   "baslik": "İftira etmemek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "İftira etmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: kendi suçunu başkasına yüklememek.",
+     0.6
+    ],
+    [
+     "Kur’an, işlediği bir suçu suçsuz birinin üzerine atmayı apaçık bir günah olarak anar ve duyulan iftiraya Bu büyük bir iftiradır denmesini ister.",
+     0.6
+    ],
+    "Nisâ Suresi, yüz on ikinci ayetin anlamı şöyledir.",
+    [
+     "Kim yanılır veya suç işler de sonra onu bir suçsuzun üzerine atarsa, şüphesiz iftira etmiş, apaçık bir günah yüklenmiş olur.",
+     0.6
+    ],
+    "Nûr Suresi, on altıncı ayetin anlamı şöyledir.",
+    [
+     "O'nu işittiğinizde: Bu konuda konuşmamız yakışık almaz; haşa, bu büyük bir iftiradır demeniz gerekmez miydi.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir şeyi sen bozdun; suçu başkasının üzerine atmak kolay görünüyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Suçunu sahiplen; başkasına yükleme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "sahitlik",
+   "baslik": "Yalan yere şahitlik etmemek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Yalan yere şahitlik etmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: görmediğine gördüm dememek.",
+     0.6
+    ],
+    "Rahmân’ın kulları yalan yere şahitlik etmez.",
+    [
+     "Şahitlik bir emanettir; hakkı gizlemek de yasaktır.",
+     0.6
+    ],
+    "Furkān Suresi, yetmiş ikinci ayetin anlamı şöyledir.",
+    [
+     "Onlar yalan yere şehadet etmezler; faydasız birşeye rastladıkları zaman yüz çevirip vakarla geçerler.",
+     0.6
+    ],
+    "Bakara Suresi, kırk ikinci ayetin anlamı şöyledir.",
+    [
+     "Hakkı batıla karıştırmayın ve bile bile hakkı gizlemeyin.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir arkadaşın, yaşanmayan bir olaya şahit olmanı istiyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şahitlik emanettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "laf-tasima",
+   "baslik": "Laf taşımamak, iğnelememek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Laf taşımamak, iğnelememek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: söz götürüp getirmemek, kimseyi diliyle incitmemek.",
+     0.6
+    ],
+    [
+     "Kur’an, diliyle iğneleyen ve laf taşıyan kimseyi kınar; arkadan çekiştirip alay edenin vay haline der.",
+     0.6
+    ],
+    "Kalem Suresi, onuncu ve on dördüncü ayetlerin anlamı şöyledir.",
+    [
+     "Diliyle iğneleyen, kovuculuk eden, iyiliği daima önleyen, aşırı giden, suç işleyen, çok yemin eden alçak zorbaya, bütün bunlar dışında bir de soysuzlukla damgalanmış kimseye, mal ve oğulları vardır diye aldırış etmeyesin.",
+     0.6
+    ],
+    "Hümeze Suresi, birinci ve ikinci ayetlerin anlamı şöyledir.",
+    [
+     "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir arkadaşının senin hakkında söylediğini, diğerine anlatmak istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Laf taşıyan, dostlukları yıkar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "soz-oz",
+   "baslik": "Söylediğini yapmak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Söylediğini yapmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: sözü ile özü bir olmak.",
+     0.6
+    ],
+    "Kur’an, yapmayacağı şeyi söylemenin Allah katında büyük gazaba sebep olduğunu bildirir.",
+    [
+     "Söz verirken düşünmek, verdikten sonra tutmak gerekir.",
+     0.6
+    ],
+    "Saf Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Yapmayacağınız şeyi niçin söylersiniz.",
+    [
+     "Yapmayacağınız şeyi söylemeniz, Allah katında büyük gazaba sebep olur.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Arkadaşına Yarın yardım ederim dedin ama canın istemiyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yapmayacağını söyleme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "sovme",
+   "baslik": "Başkalarının kutsallarına sövmemek",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Başkalarının kutsallarına sövmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: inancı farklı olana da saygılı dil.",
+     0.6
+    ],
+    [
+     "Kur’an, Allah’tan başka yalvardıkları şeylere sövmeyi yasaklar; çünkü bu, karşı tarafın da Allah’a sövmesine yol açar.",
+     0.6
+    ],
+    "En‘âm Suresi, yüz sekizinci ayetin anlamı şöyledir.",
+    "Allah'tan başka yalvardıklarına sövmeyin ki, onlar da cahillikle ileri giderek Allah'a sövmesinler.",
+    "Böylece her ümmete işini güzel gösterdik, sonra dönüşleri Rab'lerinedir.",
+    [
+     "O, işlediklerini haber verir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "İnternette inancı farklı biriyle tartışırken hakaret etmek istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sövgü, sövgüyü doğurur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "kotu-soz",
+   "baslik": "Kötülüğü dillendirip yaymamak",
+   "tur": "Dilim",
+   "parcalar": [
+    [
+     "Kötülüğü dillendirip yaymamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: kötü sözü ve hayasızlığı yaygınlaştırmamak.",
+     0.6
+    ],
+    "Allah, zulme uğrayan dışında kimsenin kötülüğü açıkça dile getirmesini sevmez.",
+    [
+     "Müminler arasında hayasızlığın yayılmasını istemek de ağır bir kusurdur.",
+     0.6
+    ],
+    "Nisâ Suresi, yüz kırk sekizinci ayetin anlamı şöyledir.",
+    "Allah, zulme uğrayan kimseden başkasının, kötülüğü sözle bile açıklamasını sevmez.",
+    [
+     "Allah işitir ve bilir.",
+     0.6
+    ],
+    "Nûr Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+    "Müminler arasından hayasızlığın yayılmasını arzu edenlere, işte onlara, dünya ve ahirette can yakıcı azap vardır.",
+    [
+     "Allah bilir, siz ise bilmezsiniz.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Birinin utanç verici bir görüntüsü elinde ve paylaşmak istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kötüyü yayma, iyiyi çoğalt.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "anne-baba",
+   "baslik": "Anne babaya iyilik etmek",
+   "tur": "Ailem",
+   "parcalar": [
+    [
+     "Anne babaya iyilik etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: onlara saygı, şefkat ve şükran.",
+     0.6
+    ],
+    [
+     "Kur’an, Allah’a kulluktan hemen sonra anne babaya iyiliği emreder ve annenin çektiği zahmeti hatırlatır.",
+     0.6
+    ],
+    "Lokmân Suresi, on dördüncü ayetin anlamı şöyledir.",
+    "Biz insana, ana ve babasına karşı iyi davranmasını tavsiye etmişizdir.",
+    "Annesi onu, güçsüzlükten güçsüzlüğe uğrayarak karnında taşımıştı.",
+    "Çocuğun sütten kesilmesi iki yıl içinde olur.",
+    "Bana ve ana babana şükret diye tavsiyede bulunmuşuzdur.",
+    [
+     "Dönüş Bana'dır.",
+     0.6
+    ],
+    "İsrâ Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "Rabbin, yalnız Kendisine tapmanızı ve ana babaya iyilik etmeyi buyurmuştur.",
+    "Eğer ikisinden biri veya her ikisi, senin yanında iken ihtiyarlayacak olursa, onlara karşı Öf bile demeyesin, onları azarlamayasın.",
+    [
+     "İkisine de hep tatlı söz söyleyesin.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Annen yorgun görünüyor ve sofrayı tek başına kaldırıyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Anne babaya iyilik, kulluğun yanındadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "of",
+   "baslik": "Anne babaya “öf” bile dememek",
+   "tur": "Ailem",
+   "parcalar": [
+    [
+     "Anne babaya öf bile dememek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: onları azarlamamak, tatlı söz söylemek.",
+     0.6
+    ],
+    [
+     "Anne baba yaşlandığında onlara öf bile denmemesi, azarlanmaması ve hep tatlı söz söylenmesi emredilir.",
+     0.6
+    ],
+    "İsrâ Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "Rabbin, yalnız Kendisine tapmanızı ve ana babaya iyilik etmeyi buyurmuştur.",
+    "Eğer ikisinden biri veya her ikisi, senin yanında iken ihtiyarlayacak olursa, onlara karşı Öf bile demeyesin, onları azarlamayasın.",
+    [
+     "İkisine de hep tatlı söz söyleyesin.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Baban aynı şeyi üçüncü kez soruyor ve sabrın taşıyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Öf bile deme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "anne-baba-dua",
+   "baslik": "Anne baba için dua etmek",
+   "tur": "Ailem",
+   "parcalar": [
+    [
+     "Anne baba için dua etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: rabbim, onlara merhamet et demek.",
+     0.6
+    ],
+    "Kur’an, anne babaya merhametle alçak gönüllülük kanadını germeyi ve Rabbim!",
+    [
+     "Beni küçükken yetiştirdikleri gibi sen de onlara merhamet et diye dua etmeyi öğretir.",
+     0.6
+    ],
+    "İsrâ Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+    "Onlara acıyarak alçak gönüllülük kanatlarını ger ve: Rabbim!",
+    [
+     "Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et! de.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Gün bitti ve dua ediyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Onlar seni büyüttü; sen onlara dua et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "es",
+   "baslik": "Eşiyle güzel geçinmek",
+   "tur": "Ailem",
+   "parcalar": [
+    [
+     "Eşiyle güzel geçinmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: sevgi ve merhamet üzerine bir yuva.",
+     0.6
+    ],
+    [
+     "Kur’an eşlerle güzellikle geçinmeyi emreder ve eşler arasındaki sevgi ve merhameti Allah’ın ayetlerinden sayar.",
+     0.6
+    ],
+    "Nisâ Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Kadınlara zorla mirasçı olmaya kalkmanız size helal değildir.",
+    "Apaçık hayasızlık etmedikçe onlara verdiğinizin bir kısmını alıp götürmeniz için onları sıkıştırmayın.",
+    "Onlarla güzellikle geçinin.",
+    [
+     "Eğer onlardan hoşlanmıyorsanız, sabredin, hoşlanmadığınız bir şeyi Allah çok hayırlı kılmış olabilir.",
+     0.6
+    ],
+    "Rûm Suresi, yirmi birinci ayetin anlamı şöyledir.",
+    "İçinizden, kendileriyle huzura kavuşacağınız eşler yaratıp; aranızda muhabbet ve rahmet var etmesi, O'nun varlığının belgelerindendir.",
+    [
+     "Bunlarda, düşünen millet için dersler vardır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Eşin yorgun eve geldi ve küçük bir hata yaptı.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yuva, sevgi ve merhametle ayakta durur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "aile-iyilik",
+   "baslik": "Ailesini iyiliğe yönlendirmek",
+   "tur": "Ailem",
+   "parcalar": [
+    [
+     "Ailesini iyiliğe yönlendirmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kendini ve aileni kötülükten korumak.",
+     0.6
+    ],
+    [
+     "Kur’an, kişinin kendisini ve ailesini ateşten korumasını, ailesine namazı öğütleyip kendisinin de onda devamlı olmasını ister.",
+     0.6
+    ],
+    "Tahrîm Suresi, altıncı ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Kendinizi ve çoluk çocuğunuzu cehennem ateşinden koruyun; onun yakıtı, insanlar ve taşlardır; görevlileri, Allah'ın kendilerine verdiği emirlere baş kaldırmayan, kendilerine buyrulanları yerine getiren pek haşin meleklerdir.",
+     0.6
+    ],
+    "Tâhâ Suresi, yüz otuz ikinci ayetin anlamı şöyledir.",
+    "Ehline namaz kılmalarını emret, kendin de onda devamlı ol.",
+    "Biz senden rızık istemiyoruz, sana rızık veren Biziz.",
+    [
+     "Sonuç Allah'a karşı gelmekten sakınanındır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Küçük kardeşin namaz kılmayı öğrenmek istiyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Önce kendin yap, sonra öğüt ver.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "akraba",
+   "baslik": "Akrabayı gözetmek",
+   "tur": "Ailem",
+   "parcalar": [
+    [
+     "Akrabayı gözetmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: yakınlarla bağı koparmamak.",
+     0.6
+    ],
+    "Kur’an akrabaya, düşküne ve yolcuya hakkını vermeyi emreder.",
+    [
+     "Akrabalık bağı ziyaretle, yardımla ve güzel sözle korunur.",
+     0.6
+    ],
+    "İsrâ Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+    [
+     "Yakınına, düşküne, yolcuya hakkını ver; elindekileri saçıp savurma.",
+     0.6
+    ],
+    "Nisâ Suresi, otuz altıncı ayetin anlamı şöyledir.",
+    "Allah'a kulluk edin, O'na bir şeyi ortak koşmayın.",
+    "Ana babaya, yakınlara, yetimlere, düşkünlere, yakın komşuya, uzak komşuya, yanınızdaki arkadaşa, yolcuya ve elinizin altında bulunan kimselere iyilik edin.",
+    [
+     "Allah, kendini beğenip öğünenleri elbette sevmez.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Uzun süredir aramadığın yaşlı bir akraban var.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Akrabanın hakkı vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "adalet",
+   "baslik": "Adaletli olmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Adaletli olmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kendi aleyhine de olsa doğruyu söylemek.",
+     0.6
+    ],
+    "Kur’an, kendimizin ve yakınlarımızın aleyhine bile olsa adaleti gözetmeyi emreder.",
+    [
+     "Bir topluluğa duyulan öfke de adaletsizliğe sebep olmamalıdır.",
+     0.6
+    ],
+    "Nisâ Suresi, yüz otuz beşinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Kendiniz, ana babanız ve yakınlarınız aleyhlerine de olsa, Allah için şahit olarak adaleti gözetin; ister zengin, ister fakir olsun, Allah onlara daha yakındır.",
+    "Adaletinizde heveslere uymayın.",
+    [
+     "Eğer eğriltirseniz veya yüz çevirirseniz bilin ki, Allah işlediklerinizden şüphesiz haberdardır.",
+     0.6
+    ],
+    "Mâide Suresi, sekizinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Allah için adaleti ayakta tutup gözeten şahidler olun.",
+    "Bir topluluğa olan öfkeniz sizi adaletsizliğe sürüklemesin; adil olun; bu, Allah'a karşı gelmekten sakınmaya daha yakındır.",
+    [
+     "Allah'tan sakının, doğrusu Allah işlediklerinizden Haberdar'dır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sevdiğin arkadaşınla sevmediğin biri arasında hakemlik yapıyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Adalet, sevgiye ve öfkeye boyun eğmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "emanet",
+   "baslik": "Emanete riayet etmek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Emanete riayet etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: sana bırakılanı korumak ve geri vermek.",
+     0.6
+    ],
+    "Allah emanetlerin ehline verilmesini emreder.",
+    [
+     "Bir eşya, bir sır, bir görev: Hepsi emanettir.",
+     0.6
+    ],
+    "Nisâ Suresi, elli sekizinci ayetin anlamı şöyledir.",
+    "Hiç şüphesiz Allah size, emanetleri ehline teslim etmenizi ve insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emreder.",
+    "Allah size ne güzel öğüt veriyor.",
+    [
+     "Şüphesiz Allah işitir ve görür.",
+     0.6
+    ],
+    "Mü’minûn Suresi, sekizinci ayetin anlamı şöyledir.",
+    [
+     "Onlar emanetlerini ve sözlerini yerine getirirler.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Arkadaşın sana bir sırrını anlattı.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Emanete sahip çık.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "soz",
+   "baslik": "Sözünü tutmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Sözünü tutmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: verdiğin sözü ve anlaşmayı yerine getirmek.",
+     0.6
+    ],
+    [
+     "Kur’an verilen sözün sorumluluk getirdiğini bildirir ve ahitleri yerine getirmeyi emreder.",
+     0.6
+    ],
+    "İsrâ Suresi, otuz dördüncü ayetin anlamı şöyledir.",
+    "Yetimin malına ergin çağa ulaşana kadar en güzel şeklin dışında yaklaşmayın.",
+    [
+     "Ahdi de yerine getirin, doğrusu verilen ahidde sorumluluk vardır.",
+     0.6
+    ],
+    "Nahl Suresi, doksan birinci ayetin anlamı şöyledir.",
+    "Ahitleştiğiniz zaman Allah'ın ahdini yerine getirin.",
+    "Allah'ı kendinize kefil kılarak sağlama bağladığınız yeminleri bozmayın.",
+    [
+     "Allah yaptıklarınızı şüphesiz bilir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir arkadaşınla saat ikide buluşacağına söz verdin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Söz, sorumluluktur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "selam",
+   "baslik": "Selamlaşmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Selamlaşmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: selam vermek, selama güzelce karşılık vermek.",
+     0.6
+    ],
+    [
+     "Kur’an verilen selama daha güzeliyle ya da aynısıyla karşılık vermeyi emreder.",
+     0.6
+    ],
+    "Nisâ Suresi, seksen altıncı ayetin anlamı şöyledir.",
+    "Size bir selam verildiği zaman, ondan daha iyisiyle selam verin veya ayniyle mukabele edin.",
+    [
+     "Allah her şeyin hesabını gereği gibi yapandır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Asansörde komşunla karşılaştın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Selam, kalpler arasında köprüdür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "izin",
+   "baslik": "İzin almadan girmemek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "İzin almadan girmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: başkasının alanına saygı göstermek.",
+     0.6
+    ],
+    "Kur’an, başkasının evine izin almadan ve selam vermeden girmeyi yasaklar.",
+    [
+     "Başkasının odası, eşyası ve telefonu da onun özel alanıdır.",
+     0.6
+    ],
+    "Nûr Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Evlerinizden başka evlere, izin almadan, seslenip sahiplerine selam vermeden girmeyiniz.",
+    [
+     "Eğer düşünürseniz bu sizin için daha iyidir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Kardeşinin odasının kapısı kapalı ve içeri girmek istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kapıyı çal, izin iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "affetmek",
+   "baslik": "Affetmek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Affetmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kırgınlığı bırakıp bağışlamak.",
+     0.6
+    ],
+    "Kur’an, Allah’ın sizi bağışlamasını istemez misiniz? diyerek affetmeye çağırır.",
+    [
+     "Affedip barışanın ecri Allah’a aittir.",
+     0.6
+    ],
+    "Nûr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+    "İçinizde lütuf ve servet sahibi olanlar, yakınlarına, düşkünlere ve Allah yolunda hicret edenlere, vermemek için yemin etmesinler, affetsinler, geçsinler.",
+    "Allah'ın sizi bağışlamasından hoşlanmaz mısınız?",
+    [
+     "Allah bağışlayandır, merhametli olandır.",
+     0.6
+    ],
+    "Şûrâ Suresi, kırkıncı ayetin anlamı şöyledir.",
+    "Bir kötülüğün karşılığı, aynı şekilde bir kötülüktür.",
+    "Ama kim affeder ve barışırsa, onun ecri Allah'a aittir.",
+    [
+     "Doğrusu O, zulmedenleri sevmez.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Seni kıran arkadaşın gelip özür diledi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Affet ki affedilesin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "iyilikle-sav",
+   "baslik": "Kötülüğe iyilikle karşılık vermek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Kötülüğe iyilikle karşılık vermek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kötülüğü en güzel şekilde savmak.",
+     0.6
+    ],
+    [
+     "Kur’an kötülüğü en güzel şekilde savmayı öğütler: O zaman düşmanlık olan kimsenin sıcak bir dost gibi olduğu görülür.",
+     0.6
+    ],
+    "Fussılet Suresi, otuz dördüncü ayetin anlamı şöyledir.",
+    "İyilik ve fenalık bir değildir.",
+    [
+     "Ey inanan kişi: Sen, fenalığı en güzel şekilde sav; o zaman, seninle arasında düşmanlık bulunan kişinin yakın bir dost gibi olduğunu görürsün.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Biri sana kaba davrandı ve aynı şekilde karşılık vermek istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kötülüğü iyilikle sav; düşman dost olur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "yardimlasma",
+   "baslik": "İyilikte yardımlaşmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "İyilikte yardımlaşmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: iyiliğe destek, kötülüğe engel olmak.",
+     0.6
+    ],
+    [
+     "Kur’an iyilikte ve kötülükten sakınmada yardımlaşmayı, günahta ve haddi aşmada ise yardımlaşmamayı emreder.",
+     0.6
+    ],
+    "Mâide Suresi, ikinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Allah'ın nişanelerine, hürmet edilen aya, hediye olan kurbanlığa, gerdanlıklar takılan hayvanlara, Rab'lerinden bol nimet ve rıza talep ederek Beyt-i Haram'a gelenlere sakın hürmetsizlik etmeyin.",
+    "İhramdan çıktığınız zaman avlanabilirsiniz.",
+    "Sizi Mescid-i Haram'dan menettiği için bir topluluğa olan kininiz, aşırı gitmenize sebep olmasın; iyilikte ve fenalıktan sakınmakta yardımlaşın, günah işlemek ve aşırı gitmekte yardımlaşmayın.",
+    [
+     "Allah'tan sakının, Allah'ın cezası şiddetlidir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sınıfta bir yardım kampanyası başlatıldı.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyilikte el ele, kötülükte uzak.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "baristirma",
+   "baslik": "Küsleri barıştırmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Küsleri barıştırmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kardeşlerin arasını düzeltmek.",
+     0.6
+    ],
+    [
+     "Kur’an müminlerin kardeş olduğunu bildirir ve dargın olanların arasının düzeltilmesini emreder.",
+     0.6
+    ],
+    "Hucurât Suresi, onuncu ayetin anlamı şöyledir.",
+    [
+     "Şüphesiz müminler birbiri ile kardeştirler; öyle ise dargın olan kardeşlerinizin arasını düzeltin; Allah'tan sakının ki size acısın.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "İki arkadaşın birbirine küs.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Müminler kardeştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "komsu",
+   "baslik": "Komşuya iyilik etmek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Komşuya iyilik etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: yakın ve uzak komşuyu gözetmek.",
+     0.6
+    ],
+    [
+     "Kur’an yakın komşuya, uzak komşuya ve yanındaki arkadaşa iyilik etmeyi emreder.",
+     0.6
+    ],
+    "Nisâ Suresi, otuz altıncı ayetin anlamı şöyledir.",
+    "Allah'a kulluk edin, O'na bir şeyi ortak koşmayın.",
+    "Ana babaya, yakınlara, yetimlere, düşkünlere, yakın komşuya, uzak komşuya, yanınızdaki arkadaşa, yolcuya ve elinizin altında bulunan kimselere iyilik edin.",
+    [
+     "Allah, kendini beğenip öğünenleri elbette sevmez.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Yaşlı komşun pazar çantalarını taşımakta zorlanıyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Komşunun hakkı vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "yetim",
+   "baslik": "Yetimi gözetmek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Yetimi gözetmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kimsesizi korumak, ona iyi davranmak.",
+     0.6
+    ],
+    [
+     "Kur’an yetime kötü davranmayı yasaklar ve yetimi doyuranları över.",
+     0.6
+    ],
+    "Duhâ Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Öyleyse sakın öksüze kötü muamele etme.",
+     0.6
+    ],
+    "İnsân Suresi, sekizinci ayetin anlamı şöyledir.",
+    [
+     "Onlar içleri çektiği halde, yiyeceği yoksula, öksüze ve esire yedirirler.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sınıfında annesini kaybetmiş bir arkadaşın var.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yetimin başını okşa.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "isteyen",
+   "baslik": "İsteyeni azarlamamak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "İsteyeni azarlamamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: yardım isteyeni kırmadan karşılamak.",
+     0.6
+    ],
+    "Kur’an bir şey isteyenin azarlanmasını yasaklar.",
+    [
+     "Veremesen bile güzel bir söz söylemek gerekir.",
+     0.6
+    ],
+    "Duhâ Suresi, onuncu ayetin anlamı şöyledir.",
+    [
+     "Ve sakın bir şey isteyeni azarlama.",
+     0.6
+    ],
+    "İsrâ Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+    [
+     "Rabbin'den umduğun rahmeti elde etmek için, hak sahiblerinden yüz çevirmek zorunda kalırsan, onlara hiç değilse tatlı bir söz söyle.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Biri senden yardım istedi ama şu an veremeyeceksin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Veremesen de kırma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "yoksul",
+   "baslik": "Yoksulu doyurmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Yoksulu doyurmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: ihtiyaç sahibini gözetmek.",
+     0.6
+    ],
+    [
+     "Kur’an, kendileri istedikleri hâlde yiyeceklerini yoksula ve yetime yedirenleri över; yoksulu doyurmaya yanaşmayanı ise kınar.",
+     0.6
+    ],
+    "İnsân Suresi, sekizinci ayetin anlamı şöyledir.",
+    [
+     "Onlar içleri çektiği halde, yiyeceği yoksula, öksüze ve esire yedirirler.",
+     0.6
+    ],
+    "Mâûn Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+    [
+     "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sofrada fazla yemek kaldı ve sokakta aç birini gördün.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Paylaşılan sofra bereketlenir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "yumusak",
+   "baslik": "Yumuşak davranmak ve danışmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Yumuşak davranmak ve danışmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kaba ve katı kalpli olmamak.",
+     0.6
+    ],
+    "Kur’an, Peygamberimizin yumuşak davranışını Allah’ın rahmeti olarak anar: Kaba olsaydı insanlar etrafından dağılırdı.",
+    [
+     "İş hakkında danışmak da aynı ayette emredilir.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yüz elli dokuzuncu ayetin anlamı şöyledir.",
+    "Allah'ın rahmetinden dolayı, sen onlara karşı yumuşak davrandın.",
+    "Eğer kaba ve katı kalbli olsaydın, şüphesiz etrafından dağılır giderlerdi.",
+    [
+     "Onları affet, onlara mağfiret dile, iş hakkında onlara danış, fakat karar verdin mi Allah'a güven, doğrusu Allah güvenenleri sever.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir grup ödevinde liderlik yapıyorsun ve arkadaşların farklı fikirde.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yumuşaklık insanları toplar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "kucumseme",
+   "baslik": "İnsanları küçümsememek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "İnsanları küçümsememek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: kimseye tepeden bakmamak.",
+     0.6
+    ],
+    [
+     "Kur’an insanları küçümseyip yüz çevirmeyi yasaklar ve alay edilen kişinin Allah katında daha hayırlı olabileceğini hatırlatır.",
+     0.6
+    ],
+    "Lokmân Suresi, on sekizinci ayetin anlamı şöyledir.",
+    [
+     "İnsanları küçümseyip yüz çevirme, yeryüzünde böbürlenerek yürüme; Allah, kendini beğenip övünen hiç kimseyi şüphesiz ki sevmez.",
+     0.6
+    ],
+    "Hucurât Suresi, on birinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Bir topluluk bir diğerini alaya almasın, belki de onlar kendilerinden daha iyidirler.",
+    "Kadınlar da başka kadınları alaya almasınlar, belki onlar kendilerinden daha iyidirler.",
+    "Kendi kendinizi ayıplamayın; birbirinizi kötü lakaplarla çağırmayın; inandıktan sonra yoldan çıkmış olmak ne kötü bir addır.",
+    [
+     "Tevbe etmeyenler, işte onlar zalimlerdir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Yeni gelen öğrencinin kıyafetleri eski ve kimse onunla konuşmuyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Değeri, dış görünüş belirlemez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "iyilige-cagir",
+   "baslik": "İyiliği tavsiye etmek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "İyiliği tavsiye etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: iyiye çağırmak, kötülükten sakındırmak.",
+     0.6
+    ],
+    [
+     "Kur’an iyiye çağıran ve kötülükten alıkoyan bir topluluk olmayı ister; gerçeği ve sabrı birbirine tavsiye edenleri ziyana uğramayanlardan sayar.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yüz dördüncü ayetin anlamı şöyledir.",
+    "Sizden, iyiye çağıran, doğruluğu emreden ve fenalıktan meneden bir cemaat olsun.",
+    [
+     "İşte başarıya erişenler yalnız onlardır.",
+     0.6
+    ],
+    "Asr Suresi, üçüncü ayetin anlamı şöyledir.",
+    [
+     "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Arkadaşın kopya çekmeyi planlıyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyiliği tavsiye et, sabrı tavsiye et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "iyi-arkadas",
+   "baslik": "İyi insanlarla beraber olmak",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "İyi insanlarla beraber olmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: arkadaşını doğrulardan seçmek.",
+     0.6
+    ],
+    "Kur’an, Allah’tan sakınmayı ve doğrularla beraber olmayı emreder.",
+    [
+     "Arkadaş, insanı ya iyiliğe ya kötülüğe taşır.",
+     0.6
+    ],
+    "Tevbe Suresi, yüz on dokuzuncu ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Allah'tan sakının ve doğrularla beraber olun.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Yeni bir arkadaş grubuna katılmak üzeresin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kiminle yürürsen ona benzersin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "can",
+   "baslik": "Cana değer vermek",
+   "tur": "İnsanlar",
+   "parcalar": [
+    [
+     "Cana değer vermek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: bir canı kurtarmak, bütün insanlığı kurtarmak gibidir.",
+     0.6
+    ],
+    [
+     "Kur’an haksız yere bir canı öldürmeyi bütün insanları öldürmek gibi, bir canı kurtarmayı ise bütün insanları kurtarmak gibi sayar.",
+     0.6
+    ],
+    "Mâide Suresi, otuz ikinci ayetin anlamı şöyledir.",
+    "Bunun için İsrailoğullarına şöyle yazdık: Kim bir kimseyi bir kimseye veya yeryüzünde bozgunculuğa karşılık olmadan öldürürse, bütün insanları öldürmüş gibi olur.",
+    "Kim de onu diriltirse, ölümden kurtarırsa, bütün insanları diriltmiş gibi olur.",
+    [
+     "And olsun ki, onlara belgelerle peygamberlerimiz geldi, sonra buna rağmen, onların çoğu yeryüzünde taşkınlık edenler oldu.",
+     0.6
+    ],
+    [
+     "Ayet, bu hükmün İsrailoğullarına yazıldığını haber verir; ölçü bütün insanlık için geçerli bir ilke olarak anılır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Yolda düşüp yaralanan birini gördün.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bir can, bütün insanlık kadar değerlidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "olcu",
+   "baslik": "Ölçü ve tartıda doğru olmak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Ölçü ve tartıda doğru olmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: eksik ölçmemek, eksik tartmamak.",
+     0.6
+    ],
+    [
+     "Kur’an ölçüyü tam, tartıyı doğru tutmayı emreder ve alırken tam alıp verirken eksik verenleri kınar.",
+     0.6
+    ],
+    "İsrâ Suresi, otuz beşinci ayetin anlamı şöyledir.",
+    "Bir şeyi ölçtüğünüz zaman, ölçüyü tam tutun, doğru teraziyle tartın.",
+    [
+     "Böyle yapmak, sonuç itibariyle daha güzel ve daha iyidir.",
+     0.6
+    ],
+    "Mutaffifîn Suresi, birinci ve üçüncü ayetlerin anlamı şöyledir.",
+    [
+     "İnsanlardan, kendileri bir şeyi ölçerek aldıkları zaman tam alan; ama onlara bir şeyi ölçüp tartarak verdiklerinde eksik tutan kimselerin, vay haline.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Sattığın ürünün eksik olduğunu müşteri fark etmedi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Eksik tartan, kendinden eksiltir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "hirsizlik",
+   "baslik": "Hırsızlık yapmamak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Hırsızlık yapmamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: başkasına ait olanı izinsiz almamak.",
+     0.6
+    ],
+    "Kur’an hırsızlık yapmamayı, Peygamberimize verilen bağlılık sözünün maddeleri arasında sayar.",
+    [
+     "Küçük bir eşya da, bir dosya da izinsiz alınmaz.",
+     0.6
+    ],
+    "Mümtehine Suresi, on ikinci ayetin anlamı şöyledir.",
+    "Ey Peygamber!",
+    [
+     "İnanmış kadınlar, Allah'a hiçbir ortak koşmamak, hırsızlık yapmamak, zina etmemek, çocuklarını öldürmemek, başkasının çocuğunu sahiplenerek kocasına isnadda bulunmamak ve uygun olanı işlemekte sana karşı gelmemek şartıyla sana beyat etmek üzere geldikleri zaman, onları kabul et; onlara Allah'tan bağışlanma dile; doğrusu Allah, bağışlayandır, acıyandır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Masada unutulmuş bir kalem var ve kimin olduğunu bilmiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Senin olmayana dokunma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "haksiz-kazanc",
+   "baslik": "Haksız kazançtan ve rüşvetten uzak durmak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Haksız kazançtan ve rüşvetten uzak durmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: malı yalnızca hak ve rıza ile edinmek.",
+     0.6
+    ],
+    [
+     "Kur’an malların haksızlıkla yenmesini ve hakimlere aktarılarak başkasının malına el uzatılmasını yasaklar; ticaret karşılıklı rıza ile olmalıdır.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen sekizinci ayetin anlamı şöyledir.",
+    [
+     "Aranızda mallarınızı haksızlıkla yemeyin; bildiğiniz halde günaha girerek insanların mallarından bir kısmını yemek için onu hakimlere aktarmayın.",
+     0.6
+    ],
+    "Nisâ Suresi, yirmi dokuzuncu ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Mallarınızı aranızda haksızlıkla değil, karşılıklı rıza ile yapılan ticaretle yeyin, haram ile nefsinizi mahvetmeyin.",
+    [
+     "Allah şüphesiz ki size merhamet eder.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "İşini hızlandırmak için birine para vermen öneriliyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Haksız kazanç bereket getirmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "faiz",
+   "baslik": "Faizden uzak durmak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Faizden uzak durmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: alışveriş helal, faiz haram.",
+     0.6
+    ],
+    [
+     "Kur’an, Allah’ın alışverişi helal, faizi haram kıldığını açıkça bildirir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz yetmiş beşinci ayetin anlamı şöyledir.",
+    "Faiz yiyenler mahşerde ancak şeytanın çarptığı kimsenin kalktığı gibi kalkarlar.",
+    "Bu, onların, Zaten alışveriş de faiz gibidir demelerindendir.",
+    "Oysa Allah alışverişi helal, faizi haram kıldı.",
+    "Kime Rabb'inden bir öğüt gelir de faizcilikten geri durursa, geçmişi kendisinedir, onun işi Allah'a aittir.",
+    [
+     "Kim faizciliğe dönerse, işte onlar cehennemliktir, onlar orada temelli kalacaklardır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Borç verdiğin arkadaşından fazlasını istemeyi düşünüyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Alışveriş helal, faiz haram.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "borc-yaz",
+   "baslik": "Borcu yazmak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Borcu yazmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: anlaşmazlığı önlemek için kayıt tutmak.",
+     0.6
+    ],
+    [
+     "Kur’an’ın en uzun ayeti, belirli süreli borcun yazılmasını ve şahit tutulmasını ister: Bu, haksızlığı ve şüpheyi önler.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz seksen ikinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Birbirinize belirli bir süre için borçlandığınız zaman onu yazınız.",
+    "İçinizden bir katip doğru olarak yazsın; katip onu Allah'ın kendisine öğrettiği gibi yazmaktan çekinmesin, yazsın.",
+    "Borçlu olan da yazdırsın, Rabbi olan Allah'tan sakınsın, ondan bir şey eksiltmesin.",
+    "Eğer borçlu, aptal veya aciz, ya da yazdıramıyacak durumda ise, velisi, doğru olarak yazdırsın.",
+    "Erkeklerinizden iki şahid tutun; eğer iki erkek bulunmazsa, şahidlerden razı olacağınız bir erkek, biri unuttuğunda diğeri ona hatırlatacak iki kadın olabilir.",
+    "Şahidler çağırıldıklarında çekinmesinler.",
+    "Borç büyük veya küçük olsun, onu süresiyle beraber yazmaya üşenmeyin; bu, Allah katında en doğru, şahidlik için en sağlam ve şüphelenmenizden en uzak olandır.",
+    "Ancak aranızdaki alışveriş peşin olursa, onu yazmamanızda size bir sorumluluk yoktur.",
+    "Alışveriş yaptığınızda şahid tutun.",
+    "Katibe de şahide de zarar verilmesin; eğer zarar verirseniz, o zaman doğru yoldan çıkmış olursunuz.",
+    [
+     "Allah'tan sakının, Allah size öğretiyor; Allah her şeyi bilir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir akrabana bir süreliğine borç veriyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yazılan söz, kardeşliği korur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "muhlet",
+   "baslik": "Darda olan borçluya süre tanımak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Darda olan borçluya süre tanımak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: ödeyemeyene kolaylık göstermek.",
+     0.6
+    ],
+    [
+     "Kur’an, borçlu darda ise eli genişleyinceye kadar ona süre verilmesini, bağışlamanın ise daha hayırlı olduğunu bildirir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz sekseninci ayetin anlamı şöyledir.",
+    "Borçlu darda ise, eli genişleyinceye kadar ona mühlet verin.",
+    [
+     "Bilmiş olsanız borcu bağışlamanız sizin için daha hayırlıdır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Borç verdiğin kişi zor durumda ve ödeyemiyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kolaylaştıran, kolaylık bulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "yetim-mal",
+   "baslik": "Yetimin malını korumak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Yetimin malını korumak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: kimsesizin hakkına en güzel şekilde yaklaşmak.",
+     0.6
+    ],
+    [
+     "Kur’an yetimin malına, ergenlik çağına erişinceye kadar en güzel şekil dışında yaklaşılmamasını emreder ve haksız yere yiyenleri ağır bir dille uyarır.",
+     0.6
+    ],
+    "En‘âm Suresi, yüz elli ikinci ayetin anlamı şöyledir.",
+    "Yetim malına, erginlik çağına erişene kadar en iyi şeklin dışında yaklaşmayın; ölçüyü ve tartıyı doğru yapın.",
+    "Biz kişiye ancak gücünün yeteceği kadar yükleriz.",
+    "Konuştuğunuzda, akraba bile olsa sözünüzde adil olun.",
+    "Allah'ın ahdini yerine getirin.",
+    [
+     "Allah size bunları öğüt almanız için buyurmaktadır.",
+     0.6
+    ],
+    "Nisâ Suresi, onuncu ayetin anlamı şöyledir.",
+    [
+     "Yetimlerin mallarını haksız yere yiyenler, karınlarına ancak ateş tıkınmış olurlar, zaten onlar çılgın aleve atılacaklardır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bakımını üstlendiğin bir çocuğun parası sana emanet edildi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yetimin hakkı, ateşten bir emanettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "infak",
+   "baslik": "Sevdiğin şeylerden paylaşmak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Sevdiğin şeylerden paylaşmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: gece gündüz, gizli açık vermek.",
+     0.6
+    ],
+    [
+     "Kur’an, sevilen şeylerden harcamadıkça iyiliğe erişilemeyeceğini bildirir ve gece gündüz, gizli açık verenlere korku olmadığını müjdeler.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, doksan ikinci ayetin anlamı şöyledir.",
+    "Sevdiğiniz şeylerden sarfetmedikçe iyiliğe erişemezsiniz.",
+    [
+     "Her ne sarfederseniz, şüphesiz Allah onu bilir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz yetmiş dördüncü ayetin anlamı şöyledir.",
+    "Gece gündüz, açık gizli, mallarını sarfedenlerin mükafatlarını Rab'leri verecektir.",
+    [
+     "Onlara korku yoktur ve onlar üzülmeyeceklerdir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "En sevdiğin oyuncağı ya da kitabı ihtiyacı olan biriyle paylaşabilirsin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sevdiğinden ver ki iyiliğe eresin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "basa-kakma",
+   "baslik": "Yaptığı iyiliği başa kakmamak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Yaptığı iyiliği başa kakmamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: verdikten sonra minnet ettirmemek.",
+     0.6
+    ],
+    [
+     "Kur’an, sadakaları başa kakarak ve incitecek şekilde vererek boşa çıkarmayı yasaklar: Güzel bir söz, ardından incitme gelen sadakadan daha hayırlıdır.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz altmış dördüncü ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Allah'a ve ahiret gününe inanmayıp, insanlara gösteriş için malını sarfeden kimse gibi, sadakalarınızı başa kakma ve eza etmekle boşa çıkarmayın.",
+    "Onun durumu, üzerinde toprak bulunan kayanın durumu gibidir, üzerine bol yağmur yağdığındaonu cascavlak bırakır.",
+    "Kazandıklarından hiçbir şey elde edemezler.",
+    [
+     "Allah inkar eden kimseleri doğru yola eriştirmez.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz altmış üçüncü ayetin anlamı şöyledir.",
+    "Güzel bir söz ve bağışlama, peşinden eza gelen bir sadakadan daha iyidir.",
+    [
+     "Allah müstağnidir, Halim'dir.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Yardım ettiğin arkadaşınla tartışırken Ben sana ne iyilikler yaptım demek istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Verdiğini say, kaybedersin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "gizli-iyilik",
+   "baslik": "Yardımı gösterişsiz yapmak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Yardımı gösterişsiz yapmak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: gösterişten uzak yardım.",
+     0.6
+    ],
+    [
+     "Kur’an sadakayı açıkça vermeyi güzel, yoksullara gizlice vermeyi ise daha hayırlı sayar.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz yetmiş birinci ayetin anlamı şöyledir.",
+    "Sadakaları açıkça verirseniz o ne güzel!",
+    "Eğer onları yoksullara gizlice verirseniz sizin için daha iyidir.",
+    "Allah onları kötülüklerinizden bir kısmına karşı tutar.",
+    [
+     "Allah işlediklerinizden haberdardır.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Bir ihtiyaç sahibine yardım edeceksin ve bunu paylaşmak istiyorsun.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gizli iyilik, kalbi korur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "helal-rizik",
+   "baslik": "Helal ve temiz rızık aramak",
+   "tur": "Kazancım",
+   "parcalar": [
+    [
+     "Helal ve temiz rızık aramak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: çalışmak, temiz olandan yemek.",
+     0.6
+    ],
+    [
+     "Kur’an temiz rızıktan yemeyi ve şükretmeyi emreder; namazdan sonra yeryüzüne dağılıp Allah’ın lütfundan rızık aramayı öğütler.",
+     0.6
+    ],
+    "Bakara Suresi, yüz yetmiş ikinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    [
+     "Sizi rızıklandırdığımızın temizlerinden yiyin; yalnız Allah'a kulluk ediyorsanız, O'na şükredin.",
+     0.6
+    ],
+    "Cuma Suresi, onuncu ayetin anlamı şöyledir.",
+    [
+     "Namaz bitince yeryüzüne yayılın; Allah'ın lütfundan rızık isteyin; Allah'ı çok anın ki saadete erişesiniz.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Kolay ama şüpheli bir kazanç yolu ile zor ama temiz bir iş arasında kaldın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Temiz kazanç, temiz hayat.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "bozgunculuk",
+   "baslik": "Yeryüzünde bozgunculuk yapmamak",
+   "tur": "Yeryüzü",
+   "parcalar": [
+    [
+     "Yeryüzünde bozgunculuk yapmamak.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: düzeni, doğayı ve canlıları bozmamak.",
+     0.6
+    ],
+    [
+     "Kur’an, düzeltilmişken yeryüzünde bozgunculuk yapmayı yasaklar ve ekini ve nesli yok etmeye çalışanları kınar.",
+     0.6
+    ],
+    "A‘râf Suresi, elli altıncı ayetin anlamı şöyledir.",
+    "Düzeltilmişken, yeryüzünde bozgunculuk yapmayın.",
+    "Allah'a korkarak ve umutla yalvarın.",
+    [
+     "Doğrusu Allah'ın rahmeti iyi davrananlara yakındır.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz dördüncü ve iki yüz beşinci ayetlerin anlamı şöyledir.",
+    "Dünya hayatına dair konuşması senin hoşuna giden, pek azılı düşman iken, kalbinde olana Allah'ı şahid tutan, işbaşına geçince, yeryüzünde bozgunculuk yapmaya, ekin ve nesli yok etmeğe çabalayan insanlar vardır.",
+    [
+     "Allah bozgunculuğu sevmez.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Piknikten sonra çöplerini doğada bırakmak kolay görünüyor.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yeryüzü sana emanettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "israf",
+   "baslik": "İsraf etmemek",
+   "tur": "Yeryüzü",
+   "parcalar": [
+    [
+     "İsraf etmemek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sakındırdığı bir davranış: yemekte, suda, her şeyde ölçülü olmak.",
+     0.6
+    ],
+    [
+     "Kur’an yiyip içmeyi, ama israf etmemeyi emreder ve saçıp savuranları şeytanın kardeşleri olarak niteler.",
+     0.6
+    ],
+    "A‘râf Suresi, otuz birinci ayetin anlamı şöyledir.",
+    "Ey Ademoğulları!",
+    [
+     "Her mescide güzel elbiselerinizi giyinerek gidin; yiyin için fakat israf etmeyin, çünkü Allah müsrifleri sevmez.",
+     0.6
+    ],
+    "İsrâ Suresi, yirmi altıncı ve yirmi yedinci ayetlerin anlamı şöyledir.",
+    "Yakınına, düşküne, yolcuya hakkını ver; elindekileri saçıp savurma.",
+    [
+     "Saçıp savuranlar, şüphesiz şeytanlarla kardeş olmuş olurlar; şeytan ise Rabbine karşı pek nankördür.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Tabağına yiyebileceğinden çok fazla yemek aldın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nimet israf edilmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "imar",
+   "baslik": "Yeryüzünü imar etmek",
+   "tur": "Yeryüzü",
+   "parcalar": [
+    [
+     "Yeryüzünü imar etmek.",
+     0.5
+    ],
+    [
+     "Kur’an’ın öğüttüğü bir davranış: dünyayı güzelleştirmek, yararlı iş yapmak.",
+     0.6
+    ],
+    "Hz.",
+    "Sâlih kavmine, Allah’ın onları yeryüzünde yarattığını ve orayı imar etmelerini dilediğini hatırlatır.",
+    [
+     "Ağaç dikmek, bir şeyi onarmak, yararlı bir iş yapmak bu emrin parçasıdır.",
+     0.6
+    ],
+    "Hûd Suresi, altmış birinci ayetin anlamı şöyledir.",
+    "Semud milletine kardeşleri Salih'i gönderdik.",
+    "Ey milletim!",
+    "Allah'a kulluk edin; O'ndan başka tanrınız yoktur; sizi yeryüzünde yaratıp orayı imar etmenizi dileyen O'dur.",
+    "Öyleyse O'ndan mağfiret dileyin, sonra da O'na tevbe edin.",
+    [
+     "Doğrusu Rabbim size yakın ve duaları kabul edendir dedi.",
+     0.6
+    ],
+    "Günlük hayattan bir durum.",
+    [
+     "Mahallende bir ağaç dikme etkinliği var.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bulduğundan daha güzel bırak.",
+     1
+    ]
+   ]
+  }
+ ]
+}

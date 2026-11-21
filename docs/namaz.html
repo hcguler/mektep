@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="yetiskin" data-mode="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08110e">
+<!-- PWA: Mektep (apps/manifest.webmanifest, apps/pwa.js) -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mektep">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Namaz Yolculuğu: adım adım namaz, hikmetleri ve nafile namazlar. Kaynaklı ve sesli anlatımlı rehber.">
+<title>Namaz Yolculuğu</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'><rect width='80' height='80' rx='18' fill='%230c1814'/><path d='M40 14 47.6 21.6H58.4V32.4L66 40l-7.6 7.6V58.4H47.6L40 66l-7.6-7.6H21.6V47.6L14 40l7.6-7.6V21.6H32.4Z' fill='none' stroke='%23dab56d' stroke-width='4'/></svg>">
+<!-- Tema (çocuk / yetişkin) uygulama ana ekranıyla, renk (koyu / açık) siteyle ortaktır; ilk boyamadan önce uygulanır -->
+<script>
+(function(){var d=document.documentElement,t,m;try{t=localStorage.getItem('apps:tema');m=localStorage.getItem('theme')}catch(e){}
+if(t!=='cocuk'&&t!=='yetiskin')t='yetiskin';
+if(m!=='dark'&&m!=='light')m=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+d.setAttribute('data-theme',t);d.setAttribute('data-mode',m)})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --font-d:"Cormorant Garamond","Iowan Old Style",Georgia,serif;
+  --font-b:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-ar:"Amiri","Traditional Arabic","Noto Naskh Arabic",serif;
+  --r:26px; --hw:600; --ease:cubic-bezier(.2,.7,.2,1); --spring:cubic-bezier(.34,1.4,.64,1);
+  --pattern:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80' fill='none' stroke='black' stroke-width='1.1'%3E%3Cpath d='M40 14 47.6 21.6H58.4V32.4L66 40l-7.6 7.6V58.4H47.6L40 66l-7.6-7.6H21.6V47.6L14 40l7.6-7.6V21.6H32.4Z'/%3E%3Cpath d='M40 0v14M40 66v14M0 40h14M66 40h14M0 0l21.6 21.6M80 0 58.4 21.6M0 80l21.6-21.6M80 80 58.4 58.4'/%3E%3C/svg%3E");
+}
+/* Yetişkin teması · koyu: gece yeşili ve altın */
+:root,[data-mode="dark"]{
+  color-scheme:dark;
+  --bg:#08110e; --bg-2:#0c1814; --surface:#11201b; --surface-2:#172b24; --line:rgba(228,208,164,.13); --line-2:rgba(228,208,164,.28);
+  --ink:#f4eedf; --soft:#a9b6ad; --faint:#748379;
+  --gold:#dab56d; --gold-2:#f1d79c; --gold-soft:rgba(218,181,109,.12);
+  --emerald:#63d2a8; --emerald-soft:rgba(99,210,168,.12);
+  --primary:#dab56d; --primary-2:#f1d79c; --primary-ink:#1b1406;
+  --ayet:#63d2a8; --hadis:#e4c27c; --yorum:#aebbee; --danger:#f0917f;
+  --farz:#dab56d; --sunnet:#63d2a8; --vitir:#aebbee;
+  --glass:rgba(12,24,20,.82); --pattern-o:.07;
+  --glow-1:rgba(218,181,109,.14); --glow-2:rgba(99,210,168,.10);
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset,0 14px 26px -18px rgba(0,0,0,.8);
+}
+/* Yetişkin teması · açık: parşömen ve zümrüt */
+[data-mode="light"]{
+  color-scheme:light;
+  --bg:#f3ecdf; --bg-2:#ebe2d0; --surface:#fffdf8; --surface-2:#f5eede; --line:rgba(38,58,48,.13); --line-2:rgba(38,58,48,.26);
+  --ink:#1a2a23; --soft:#55655e; --faint:#8a968f;
+  --gold:#9a6d1c; --gold-2:#bd8d2d; --gold-soft:rgba(154,109,28,.10);
+  --emerald:#1d6a52; --emerald-soft:rgba(29,106,82,.09);
+  --primary:#1d5a47; --primary-2:#2a7a60; --primary-ink:#fbf6ea;
+  --ayet:#1d6a52; --hadis:#8f6519; --yorum:#4a57a6; --danger:#b3472e;
+  --farz:#a87820; --sunnet:#1d6a52; --vitir:#4a57a6;
+  --glass:rgba(255,253,248,.86); --pattern-o:.06;
+  --glow-1:rgba(189,141,45,.16); --glow-2:rgba(29,106,82,.10);
+  --shadow:0 1px 0 rgba(255,255,255,.7) inset,0 14px 24px -18px rgba(60,45,20,.4);
+}
+/* ---------- Çocuk teması: sıcak renkler, yuvarlak yazı, tombul düğmeler ---------- */
+[data-theme="cocuk"]{
+  color-scheme:light;
+  --font-d:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif; --font-b:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --hw:900; --r:28px; --pattern-o:0;
+  --bg:#fff8ee; --bg-2:#ffefd9; --surface:#ffffff; --surface-2:#fbf1e0; --line:rgba(70,55,20,.12); --line-2:rgba(70,55,20,.22);
+  --ink:#2b2a4c; --soft:#62618a; --faint:#9594b4;
+  --gold:#c76b00; --gold-2:#f59e0b; --gold-soft:rgba(255,183,3,.18);
+  --emerald:#12799b; --emerald-soft:rgba(33,158,188,.12);
+  --primary:#ffb703; --primary-2:#ffc93c; --primary-ink:#3a2a00; --primary-d:#d99800;
+  --ayet:#1e8d3c; --hadis:#12799b; --yorum:#6a4df0; --danger:#d93a63;
+  --farz:#e0456b; --sunnet:#1a8fb0; --vitir:#7b61ff;
+  --glass:rgba(255,255,255,.88);
+  --glow-1:rgba(255,183,3,.24); --glow-2:rgba(123,97,255,.16);
+  --shadow:0 1px 2px rgba(43,42,76,.05),0 14px 26px -16px rgba(43,42,76,.28);
+}
+[data-theme="cocuk"][data-mode="dark"]{
+  color-scheme:dark;
+  --bg:#171629; --bg-2:#1d1b36; --surface:#22213a; --surface-2:#2c2a4b; --line:rgba(255,255,255,.1); --line-2:rgba(255,255,255,.2);
+  --ink:#f3f1ff; --soft:#b7b5d6; --faint:#8886ad;
+  --gold:#ffc53d; --gold-2:#ffd86b; --gold-soft:rgba(255,183,3,.16);
+  --emerald:#63cbe2; --emerald-soft:rgba(99,203,226,.13);
+  --ayet:#5fd983; --hadis:#63cbe2; --yorum:#ab99ff; --danger:#ff7f9c;
+  --farz:#ff7f9c; --sunnet:#63cbe2; --vitir:#ab99ff;
+  --glass:rgba(34,33,58,.86);
+  --glow-1:rgba(255,183,3,.14); --glow-2:rgba(123,97,255,.2);
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 14px 26px -16px rgba(0,0,0,.7);
+}
+[data-theme="cocuk"] .brand{font-weight:900;font-size:1.12rem}
+[data-theme="cocuk"] .brand em,[data-theme="cocuk"] .sc h2 em,[data-theme="cocuk"] .sc h3 em{font-style:normal}
+[data-theme="cocuk"] .sc h2{font-size:clamp(1.5rem,4.8vw,2rem);line-height:1.18;letter-spacing:-.01em}
+[data-theme="cocuk"] .sc.hero h2{font-size:clamp(1.75rem,6.4vw,2.5rem);line-height:1.12}
+[data-theme="cocuk"] .sc h3{font-size:clamp(1.3rem,4vw,1.6rem)}
+[data-theme="cocuk"] .kick{gap:0;width:auto !important;align-self:center;padding:4px 14px;border-radius:999px;background:var(--gold-soft);letter-spacing:.05em;font-weight:900;font-size:.72rem}
+[data-theme="cocuk"] .kick::before,[data-theme="cocuk"] .kick::after{display:none}
+[data-theme="cocuk"] .quote{font-weight:700;font-size:clamp(1.1rem,3.4vw,1.32rem);line-height:1.5}
+[data-theme="cocuk"] .quote b{font-weight:900}
+[data-theme="cocuk"] .okunus{font-size:1.04rem;font-weight:800}
+[data-theme="cocuk"] .lead{font-weight:700}
+[data-theme="cocuk"] .tag{font-weight:800;letter-spacing:.03em;text-transform:none;font-size:.8rem}
+[data-theme="cocuk"] .btn,[data-theme="cocuk"] .nb.next,[data-theme="cocuk"] .player .pp,[data-theme="cocuk"] .stepper button.on{box-shadow:0 4px 0 var(--primary-d);font-weight:900}
+[data-theme="cocuk"] .btn:active,[data-theme="cocuk"] .nb.next:not(:disabled):active,[data-theme="cocuk"] .player .pp:active{transform:translateY(3px);box-shadow:0 1px 0 var(--primary-d)}
+[data-theme="cocuk"] .btn.alt{box-shadow:0 4px 0 var(--line-2);background:var(--surface-2);border-color:var(--surface-2)}
+[data-theme="cocuk"] .stepper button,[data-theme="cocuk"] .seg button,[data-theme="cocuk"] nav.tabbar button,[data-theme="cocuk"] .ibtn,[data-theme="cocuk"] .list b,[data-theme="cocuk"] .tile b{font-weight:800}
+[data-theme="cocuk"] .pose{border-radius:26px;background:linear-gradient(180deg,#dff3fa,#fff3d6)}
+[data-theme="cocuk"][data-mode="dark"] .pose{background:linear-gradient(180deg,#1f3b4d,#3a3222)}
+[data-theme="cocuk"] .vrow h4,[data-theme="cocuk"] .totals b,[data-theme="cocuk"] .cols b,[data-theme="cocuk"] .sum,[data-theme="cocuk"] .numlist li::before,[data-theme="cocuk"] .contrast b,[data-theme="cocuk"] .rtable b,[data-theme="cocuk"] .sheet h3{font-weight:900}
+[data-theme="cocuk"] .vrow h4{font-size:1.1rem}
+[data-theme="cocuk"] .sheet .amin{font-style:normal;font-weight:800}
+.emo{font-style:normal}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-b);font-size:16px;line-height:1.6;overflow:hidden;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body::before{content:"";position:fixed;inset:0;background:var(--gold);opacity:var(--pattern-o);-webkit-mask:var(--pattern) 0 0/80px 80px;mask:var(--pattern) 0 0/80px 80px;pointer-events:none}
+body::after{content:"";position:fixed;inset:0;background:radial-gradient(70vmax 60vmax at 0% 0%,var(--glow-1),transparent 62%),radial-gradient(60vmax 55vmax at 100% 100%,var(--glow-2),transparent 62%);pointer-events:none}
+button{font:inherit;color:inherit}
+a{color:inherit}
+h2,h3,p,ul,ol,blockquote{margin:0}
+ul,ol{padding:0;list-style:none}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:8px}
+::selection{background:var(--gold);color:var(--primary-ink)}
+.ic{width:1.15em;height:1.15em;flex:none}
+
+/* ---------- İskelet ---------- */
+.app{position:relative;z-index:1;height:100vh;height:100dvh;max-width:860px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto;grid-template-areas:"head" "main" "nav";overflow:hidden}
+header.top{grid-area:head;display:flex;align-items:center;gap:10px;padding:10px max(16px,env(safe-area-inset-right)) 8px max(16px,env(safe-area-inset-left));padding-top:max(10px,env(safe-area-inset-top))}
+.brandbox{display:flex;align-items:center;gap:10px;min-width:0}
+.brand{min-width:0;font-family:var(--font-d);font-weight:calc(var(--hw) + 100);font-size:1.36rem;line-height:1.1;letter-spacing:.005em;white-space:nowrap}
+.brand em{font-style:italic;font-weight:600;color:var(--gold)}
+.brand small{display:none;margin-top:6px;font-family:var(--font-b);font-size:.74rem;font-weight:500;letter-spacing:.02em;color:var(--soft);white-space:normal}
+.hsub{flex:1;min-width:0;font-size:.8rem;font-weight:500;color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tools{display:flex;gap:8px;margin-left:auto}
+.ibtn{flex:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-width:40px;height:40px;padding:0 11px;border-radius:14px;border:1px solid var(--line-2);background:var(--surface);font-size:.84rem;font-weight:600;cursor:pointer;text-decoration:none;white-space:nowrap;transition:transform .3s var(--spring),border-color .25s,background .25s,color .25s}
+.ibtn:hover{border-color:var(--gold);color:var(--gold)}
+.ibtn:active{transform:scale(.93)}
+.ibtn .ic{width:18px;height:18px}
+.ibtn .lbl{display:none}
+
+main{grid-area:main;min-height:0;position:relative;overflow:hidden}
+.view{position:absolute;inset:0;display:none;flex-direction:column}
+.view.on{display:flex;animation:viewIn .45s var(--ease) both}
+main[data-dir="f"] .view.on{--dx:24px}
+main[data-dir="b"] .view.on{--dx:-24px}
+@keyframes viewIn{from{opacity:0;transform:translate3d(var(--dx,0),0,0)}}
+
+/* ---------- Alt gezinme ---------- */
+nav.tabbar{grid-area:nav;position:relative;z-index:2;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));background:var(--glass);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border-top:1px solid var(--line);
+  padding:6px max(6px,env(safe-area-inset-right)) calc(5px + env(safe-area-inset-bottom)) max(6px,env(safe-area-inset-left));--col:calc((100% - 12px) / 6);--pw:min(58px,calc(var(--col) - 4px))}
+nav.tabbar::before{content:"";position:absolute;top:7px;height:30px;width:var(--pw);left:calc(6px + var(--tab,0) * var(--col) + (var(--col) - var(--pw)) / 2);border-radius:999px;background:var(--gold-soft);border:1px solid var(--line-2);transition:left .5s var(--spring)}
+nav.tabbar button{position:relative;min-width:0;border:0;background:none;padding:5px 0 3px;display:flex;flex-direction:column;align-items:center;gap:5px;font-size:clamp(.6rem,2.8vw,.68rem);font-weight:600;letter-spacing:.01em;color:var(--faint);cursor:pointer;white-space:nowrap;transition:color .25s}
+nav.tabbar button .ic{width:20px;height:20px;transition:transform .4s var(--spring)}
+nav.tabbar button small{display:none}
+nav.tabbar button:active .ic{transform:scale(.86)}
+nav.tabbar button.on{color:var(--gold)}
+nav.tabbar button.on .ic{transform:translateY(-1px) scale(1.08)}
+
+/* ---------- Kart destesi ---------- */
+.deckhost{flex:1;min-height:0;display:flex;flex-direction:column}
+.deck{position:relative;flex:1;min-height:0;display:flex;flex-direction:column}
+.deck.swap{animation:deckIn .45s var(--ease) both}
+@keyframes deckIn{from{opacity:0;transform:translate3d(0,14px,0)}}
+.track{--g:22px;flex:1;min-height:0;display:grid;grid-auto-flow:column;grid-auto-columns:100%;column-gap:14px;
+  overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;padding:6px max(var(--g),calc((100% - 740px) / 2)) 20px;scrollbar-width:none;overscroll-behavior-x:contain}
+.track::-webkit-scrollbar{display:none}
+.slide{scroll-snap-align:center;scroll-snap-stop:always;min-height:0;min-width:0;display:flex;transform:scale(.955);opacity:.45;transition:transform .5s var(--ease),opacity .5s var(--ease)}
+.slide.cur{transform:none;opacity:1}
+.sc{position:relative;flex:1;min-height:0;min-width:0;display:flex;flex-direction:column;align-items:center;text-align:center;padding:28px 22px 24px;border-radius:var(--r);border:1px solid var(--line);
+  background:linear-gradient(180deg,var(--surface),color-mix(in srgb,var(--surface) 88%,var(--bg)));box-shadow:var(--shadow);overflow-y:auto;overflow-x:hidden;overflow-wrap:break-word;scrollbar-width:thin;scrollbar-color:var(--line-2) transparent}
+.sc>*{flex:none;width:100%;max-width:560px}
+.sc>:first-child{margin-top:auto}
+.sc>:last-child{margin-bottom:auto}
+.sc.hero,.sc.memo{border-color:var(--line-2);background:radial-gradient(120% 80% at 50% 0%,var(--gold-soft),transparent 60%),linear-gradient(180deg,var(--surface-2),var(--surface))}
+.sc.hero::before,.sc.memo::before{content:"";position:absolute;inset:0;border-radius:inherit;background:var(--gold);opacity:calc(var(--pattern-o) * 1.5);-webkit-mask:var(--pattern) center/64px 64px,linear-gradient(180deg,#000,transparent 75%);-webkit-mask-composite:source-in;mask:var(--pattern) center/64px 64px,linear-gradient(180deg,#000,transparent 75%);mask-composite:intersect;pointer-events:none}
+.sc.hero>*,.sc.memo>*{position:relative}
+.more{position:sticky;bottom:-24px;max-width:none !important;margin:10px -22px -24px !important;padding:22px 0 10px;font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);background:linear-gradient(transparent,var(--surface) 55%);pointer-events:none;transition:opacity .25s}
+.sc>.more{position:sticky}
+.more.gone{opacity:0}
+.ctrl{flex:none;display:flex;align-items:center;justify-content:center;gap:14px;padding:0 16px 12px;width:100%;max-width:772px;margin:0 auto}
+.nb{flex:none;width:46px;height:46px;border-radius:50%;border:1px solid var(--line-2);background:var(--surface);color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:transform .3s var(--spring),background .25s,color .25s,border-color .25s,opacity .25s}
+.nb .ic{width:20px;height:20px}
+.nb:not(:disabled):hover{border-color:var(--gold);color:var(--gold)}
+.nb:not(:disabled):active{transform:scale(.9)}
+.nb.next{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.nb.next:not(:disabled):hover{background:var(--primary-2);border-color:var(--primary-2);color:var(--primary-ink)}
+.nb:disabled{opacity:.3;cursor:default}
+.nb.wide{width:auto;border-radius:999px;padding:0 20px;gap:8px;display:inline-flex;align-items:center;font-size:.88rem;font-weight:600}
+.pos{flex:1;min-width:0;display:flex;flex-direction:column;align-items:center;gap:6px}
+.dots{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.dots i{width:7px;height:7px;border-radius:99px;background:var(--line-2);transition:width .4s var(--spring),background .25s;cursor:pointer}
+.dots i.on{width:24px;background:var(--gold)}
+.bar{width:100%;max-width:240px;height:5px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar b{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--gold),var(--gold-2));transition:width .45s var(--ease)}
+.cnt{max-width:100%;font-size:.72rem;font-weight:500;letter-spacing:.03em;color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-variant-numeric:tabular-nums}
+
+/* ---------- Kart içeriği ---------- */
+.kick{display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:14px;font-size:.7rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.kick::before,.kick::after{content:"";flex:0 1 34px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
+.kick::after{transform:scaleX(-1)}
+.sc h2{font-family:var(--font-d);font-weight:var(--hw);font-size:clamp(1.8rem,5.4vw,2.5rem);line-height:1.1;letter-spacing:-.005em;margin-bottom:12px}
+.sc h3{font-family:var(--font-d);font-weight:var(--hw);font-size:clamp(1.5rem,4.4vw,1.9rem);line-height:1.15;margin-bottom:12px}
+.sc.hero h2{font-size:clamp(2.2rem,8.4vw,3.3rem);line-height:1.04}
+.sc h2 em,.sc h3 em{font-style:italic;color:var(--gold)}
+.lead{font-size:1.02rem;color:var(--soft)}
+.soft{color:var(--soft)}
+.note{margin-top:16px;font-size:.84rem;line-height:1.55;color:var(--soft)}
+.note b{color:var(--ink);font-weight:600}
+.tag{display:inline-flex;align-items:center;gap:8px;width:auto !important;align-self:center;margin-bottom:16px;padding:5px 14px;border-radius:999px;border:1px solid color-mix(in srgb,var(--c) 45%,transparent);background:color-mix(in srgb,var(--c) 12%,transparent);color:var(--c);font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+.tag::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--c)}
+.tag.ayet{--c:var(--ayet)} .tag.hadis{--c:var(--hadis)} .tag.yorum{--c:var(--yorum)}
+.quote{font-family:var(--font-d);font-weight:500;font-size:clamp(1.3rem,3.9vw,1.68rem);line-height:1.42;color:var(--ink)}
+.quote b{font-weight:700;color:var(--gold)}
+.quote+.quote{margin-top:14px}
+.orn{display:flex;align-items:center;justify-content:center;gap:10px;margin:20px auto 12px;color:var(--gold)}
+.orn::before,.orn::after{content:"";width:46px;height:1px;background:var(--line-2)}
+.orn i{width:7px;height:7px;transform:rotate(45deg);border:1px solid currentColor}
+.src{display:block;font-style:normal;font-size:.8rem;font-weight:500;letter-spacing:.04em;color:var(--soft)}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:22px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 22px;border-radius:999px;border:1px solid var(--primary);background:var(--primary);color:var(--primary-ink);font-weight:600;font-size:.92rem;cursor:pointer;transition:transform .3s var(--spring),background .25s,border-color .25s,color .25s,box-shadow .3s}
+.btn:hover{background:var(--primary-2);border-color:var(--primary-2);box-shadow:0 14px 30px -16px var(--primary)}
+.btn:active{transform:scale(.96)}
+.btn.alt{background:transparent;border-color:var(--line-2);color:var(--ink)}
+.btn.alt:hover{border-color:var(--gold);color:var(--gold);background:transparent;box-shadow:none}
+.btn .ic{width:17px;height:17px}
+
+.list{display:grid;text-align:left}
+.list li{position:relative;padding:11px 0 11px 36px;border-bottom:1px solid var(--line);font-size:.98rem}
+.list li:last-child{border-bottom:0}
+.list li::before{content:"";position:absolute;left:2px;top:14px;width:20px;height:20px;border-radius:50%;background:var(--emerald-soft);border:1px solid color-mix(in srgb,var(--emerald) 50%,transparent)}
+.list li::after{content:"";position:absolute;left:9px;top:19px;width:5px;height:9px;border:solid var(--emerald);border-width:0 1.6px 1.6px 0;transform:rotate(45deg)}
+.list.warn li::before{background:color-mix(in srgb,var(--danger) 12%,transparent);border-color:color-mix(in srgb,var(--danger) 50%,transparent)}
+.list.warn li::after{content:"!";left:2px;top:14px;width:20px;height:20px;display:grid;place-items:center;border:0;transform:none;font-size:.74rem;font-weight:700;line-height:1;color:var(--danger)}
+.list b{font-weight:600}
+.numlist{counter-reset:n;display:grid;gap:8px;text-align:left}
+.numlist li{counter-increment:n;display:flex;align-items:center;gap:16px;padding:10px 16px;border-radius:16px;border:1px solid var(--line);background:var(--surface-2);font-weight:500}
+.numlist li::before{content:counter(n);flex:none;width:30px;font-family:var(--font-d);font-size:1.6rem;font-weight:600;line-height:1;color:var(--gold);text-align:center}
+.tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tile{min-width:0;display:flex;flex-direction:column;align-items:center;gap:6px;padding:16px 12px;border-radius:18px;border:1px solid var(--line);background:var(--surface-2);color:inherit;text-align:center}
+button.tile{cursor:pointer;transition:transform .35s var(--spring),border-color .25s,background .25s}
+button.tile:hover{border-color:var(--gold);transform:translateY(-3px)}
+button.tile:active{transform:scale(.97)}
+.tile .ti{width:40px;height:40px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-2);color:var(--gold);margin-bottom:2px}
+.tile .ti .ic{width:19px;height:19px}
+.tile b{font-size:.95rem;font-weight:600;line-height:1.25}
+.tile small{font-size:.78rem;line-height:1.4;color:var(--soft)}
+.flow{position:relative;display:grid;gap:8px;text-align:left;padding-left:34px}
+.flow::before{content:"";position:absolute;left:12px;top:16px;bottom:16px;width:1px;background:var(--line-2)}
+.flow li{position:relative;padding:9px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface-2);font-weight:500}
+.flow li::before{content:"";position:absolute;left:-27px;top:50%;width:9px;height:9px;margin-top:-5px;transform:rotate(45deg);background:var(--bg);border:1px solid var(--gold)}
+.flow li b{color:var(--gold);font-weight:600}
+
+/* figür: mihrap kemeri içinde */
+.pose{position:relative;display:grid;place-items:center;width:min(100%,280px) !important;margin:0 auto 18px;padding:26px 16px 12px;border-radius:999px 999px 20px 20px;border:1px solid var(--line-2);background:radial-gradient(90% 60% at 50% 0%,var(--gold-soft),transparent 70%),var(--surface-2)}
+.pose svg{display:block;height:min(26vh,190px);width:auto;max-width:100%;color:var(--ink)}
+.slide.cur .pose svg{animation:poseIn .7s var(--ease) both}
+@keyframes poseIn{from{transform:translateY(10px);opacity:0}}
+.pose.sm{width:104px !important;margin-bottom:14px;padding:16px 8px 6px}
+.pose.sm svg{height:74px}
+
+/* okunuş kartı */
+.ar{font-family:var(--font-ar);direction:rtl;font-size:clamp(1.55rem,5.2vw,2.05rem);line-height:2;color:var(--ink);margin:4px 0 8px}
+.okunus{font-family:var(--font-d);font-style:italic;font-weight:500;font-size:1.22rem;line-height:1.45;color:var(--emerald)}
+.mean{margin-top:16px;padding:14px 16px;border-radius:16px;border:1px solid var(--line);background:var(--surface-2);font-size:.96rem}
+.mean .lb,.ans .lb{display:block;margin-bottom:4px;font-size:.68rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.mean b{font-weight:600;color:var(--gold)}
+.ans{margin-top:12px;padding:14px 16px;border-radius:16px;border:1px solid color-mix(in srgb,var(--emerald) 40%,transparent);background:var(--emerald-soft);font-size:.96rem}
+.ans .lb{color:var(--emerald)}
+
+/* ---------- Durak seçici ve bölüm şeridi ---------- */
+.stepper{flex:none;display:flex;gap:8px;overflow-x:auto;padding:4px 16px 10px;scrollbar-width:none;scroll-padding-inline:16px;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 16px,#000 calc(100% - 16px),transparent);mask-image:linear-gradient(90deg,transparent,#000 16px,#000 calc(100% - 16px),transparent)}
+.stepper::-webkit-scrollbar{display:none}
+.stepper::before,.stepper::after{content:"";flex:1 0 0}
+.stepper button{flex:none;display:flex;align-items:center;gap:8px;padding:5px 14px 5px 5px;border-radius:999px;border:1px solid var(--line-2);background:var(--surface);font-size:.82rem;font-weight:600;white-space:nowrap;cursor:pointer;transition:background .3s,border-color .3s,color .3s,transform .2s}
+.stepper button:active{transform:scale(.95)}
+.stepper button small{width:24px;height:24px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-2);font-size:.72rem;font-weight:600;color:var(--soft);transition:background .3s,color .3s,border-color .3s}
+.stepper button.done:not(.on) small{border-color:color-mix(in srgb,var(--emerald) 60%,transparent);color:var(--emerald)}
+.stepper button.on{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.stepper button.on small{background:color-mix(in srgb,var(--primary-ink) 14%,transparent);border-color:transparent;color:var(--primary-ink)}
+.seg{flex:none;position:relative;display:grid;grid-template-columns:repeat(var(--n,5),minmax(0,1fr));width:calc(100% - 32px);max-width:560px;margin:0 auto 4px;padding:4px;border-radius:14px;border:1px solid var(--line);background:var(--surface-2);--col:calc((100% - 8px) / var(--n,5))}
+.seg::before{content:"";position:absolute;top:4px;bottom:4px;left:calc(4px + var(--i,0) * var(--col));width:var(--col);border-radius:10px;background:var(--surface);border:1px solid var(--line-2);transition:left .45s var(--spring)}
+.seg button{position:relative;min-width:0;border:0;background:none;padding:6px 2px;border-radius:10px;font-size:clamp(.68rem,2.9vw,.78rem);font-weight:600;color:var(--faint);cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:color .25s}
+.seg button.on{color:var(--gold)}
+
+/* ---------- Dinleme alanı ---------- */
+.pslot{flex:none}
+.player{display:flex;align-items:center;gap:12px;width:calc(100% - 32px);max-width:560px;margin:0 auto 10px;padding:8px 10px 8px 8px;border-radius:20px;border:1px solid var(--line-2);background:var(--surface);box-shadow:var(--shadow)}
+.player[hidden]{display:none}
+.player .pp{flex:none;position:relative;width:46px;height:46px;border-radius:50%;border:0;cursor:pointer;display:grid;place-items:center;color:var(--primary-ink);background:var(--primary);transition:transform .3s var(--spring),background .25s;touch-action:manipulation}
+.player .pp:hover{background:var(--primary-2)}
+.player .pp:active{transform:scale(.92)}
+.player .pp svg{grid-area:1/1;width:19px;height:19px;transition:transform .35s var(--spring),opacity .2s}
+.player .pp .i-pause{opacity:0;transform:scale(.4) rotate(-45deg)}
+.player[data-state="playing"] .pp .i-play,.player[data-state="loading"] .pp .i-play{opacity:0;transform:scale(.4) rotate(45deg)}
+.player[data-state="playing"] .pp .i-pause,.player[data-state="loading"] .pp .i-pause{opacity:1;transform:none}
+.player .pp::after{content:"";position:absolute;inset:-5px;border-radius:50%;border:2px solid transparent;opacity:0;pointer-events:none}
+.player[data-state="loading"] .pp::after{opacity:1;border-top-color:var(--gold);animation:plSpin .8s linear infinite}
+.player[data-state="playing"] .pp::after{opacity:1;border-color:var(--primary);animation:plRing 2s ease-out infinite}
+@keyframes plSpin{to{transform:rotate(360deg)}}
+@keyframes plRing{from{transform:scale(.86);opacity:.6}to{transform:scale(1.25);opacity:0}}
+.pmid{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.ptitle{display:flex;align-items:center;gap:8px;min-width:0;font-size:.76rem;font-weight:600;line-height:1.3}
+.ptitle>span:last-child{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.player[data-state="error"] .ptitle{color:var(--danger)}
+.eq{flex:none;display:inline-flex;align-items:flex-end;gap:2px;height:11px}
+.eq i{width:2.5px;height:40%;border-radius:2px;background:var(--gold);transform-origin:bottom}
+.eq i:nth-child(2){height:100%}.eq i:nth-child(3){height:65%}
+.playing .eq i,.player[data-state="playing"] .eq i{animation:plEq .9s ease-in-out infinite}
+.playing .eq i:nth-child(2),.player[data-state="playing"] .eq i:nth-child(2){animation-delay:-.3s}
+.playing .eq i:nth-child(3),.player[data-state="playing"] .eq i:nth-child(3){animation-delay:-.6s}
+@keyframes plEq{50%{transform:scaleY(.35)}}
+.prow{display:flex;align-items:center;gap:10px}
+.wave{flex:1;min-width:0;display:flex;align-items:center;gap:2px;height:24px;cursor:pointer;touch-action:none;border-radius:8px;overflow:hidden}
+.wave i{flex:1;min-width:0;height:var(--h,40%);border-radius:99px;background:var(--line-2);transition:background .25s,transform .25s var(--spring)}
+.wave i.p{background:linear-gradient(180deg,var(--gold-2),var(--gold))}
+.player[data-state="playing"] .wave i.h{transform:scaleY(1.3)}
+.ptime{flex:none;font-size:.72rem;font-weight:500;color:var(--soft);font-variant-numeric:tabular-nums;white-space:nowrap}
+.pbtn{flex:none;min-width:38px;height:38px;padding:0 6px;border-radius:12px;border:1px solid var(--line-2);background:transparent;font-weight:600;font-size:.74rem;cursor:pointer;display:grid;place-items:center;font-variant-numeric:tabular-nums;transition:transform .3s var(--spring),border-color .25s,color .25s}
+.pbtn:hover{border-color:var(--gold);color:var(--gold)}
+.pbtn:active{transform:scale(.9)}
+.pbtn .ic{width:18px;height:18px}
+#plSpeed{min-width:48px}
+
+/* ---------- Secde ---------- */
+.contrast{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:20px}
+.contrast>div{padding:16px 12px;border-radius:18px;border:1px solid var(--line);background:var(--surface-2);font-size:.92rem;color:var(--soft)}
+.contrast b{display:block;margin-bottom:4px;font-family:var(--font-d);font-size:1.3rem;font-weight:600;color:var(--gold)}
+.contrast .ic{width:20px;height:20px;margin:0 auto 6px;color:var(--gold);display:block}
+.words{display:grid;gap:8px;margin:6px 0 16px}
+.word{display:grid;grid-template-columns:minmax(96px,auto) minmax(0,1fr);align-items:center;gap:14px;padding:8px 16px;border-radius:16px;border:1px solid var(--line);background:var(--surface-2);text-align:left}
+.word .ar{margin:0;font-size:1.8rem;line-height:1.6;text-align:center}
+.word b{font-weight:600}
+.word small{display:block;color:var(--soft);font-size:.84rem;line-height:1.4}
+.organ-svg{display:block;width:100%;max-height:26vh;margin:0 auto;color:var(--ink)}
+.organ-svg .dot{cursor:pointer;stroke:var(--surface);stroke-width:2.5;transform-box:fill-box;transform-origin:center;animation:dotPulse 2s ease-in-out infinite}
+.organ-svg .dot.on{stroke:var(--ink);stroke-width:3;animation:none}
+@keyframes dotPulse{50%{transform:scale(1.2)}}
+.organ-info{min-height:3.2em;margin:10px auto;font-size:.94rem;color:var(--soft)}
+.organ-info b{color:var(--ink);font-weight:600}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.chips button{padding:7px 14px;border-radius:999px;border:1px solid var(--line-2);background:transparent;font-size:.82rem;font-weight:600;cursor:pointer;transition:background .3s,border-color .3s,color .3s,transform .3s var(--spring)}
+.chips button:active{transform:scale(.93)}
+.chips button.on{background:var(--emerald-soft);border-color:var(--emerald);color:var(--emerald)}
+
+/* ---------- Vakitler: rekât çizelgesi ---------- */
+.legend{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 18px;margin-bottom:16px;font-size:.76rem;font-weight:500;color:var(--soft)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:10px;height:10px;border-radius:3px;background:var(--c)}
+.k-f{--c:var(--farz)} .k-s{--c:var(--sunnet)} .k-v{--c:var(--vitir)}
+.vakits{display:grid;gap:8px;text-align:left}
+.vrow{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:5px 14px;padding:11px 14px;border-radius:18px;border:1px solid var(--line);background:var(--surface-2)}
+.vrow .vi{grid-row:span 3;width:42px;height:42px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-2);color:var(--gold)}
+.vrow .vi .ic{width:20px;height:20px}
+.vrow h4{margin:0;font-family:var(--font-d);font-size:1.3rem;font-weight:600;line-height:1}
+.vrow .vt{font-size:.74rem;font-weight:600;letter-spacing:.04em;color:var(--soft);white-space:nowrap;font-variant-numeric:tabular-nums}
+.vbeads{grid-column:2 / -1;display:flex;flex-wrap:wrap;gap:5px 11px}
+.vbeads span{display:inline-flex;gap:4px}
+.vbeads i{width:12px;height:12px;border-radius:4px;background:var(--c)}
+.slide.cur .vbeads i{animation:beadIn .5s var(--spring) both;animation-delay:calc(var(--j) * 35ms + 150ms)}
+.vcap{grid-column:2 / -1;font-size:.76rem;line-height:1.4;color:var(--faint)}
+.vcap span{font-weight:600;color:var(--c)}
+@keyframes beadIn{from{transform:scale(0)}}
+.totals{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-bottom:10px}
+.totals div{display:flex;align-items:baseline;justify-content:center;gap:8px;padding:8px 6px;border-radius:16px;border:1px solid color-mix(in srgb,var(--c) 35%,transparent);background:color-mix(in srgb,var(--c) 8%,transparent)}
+.totals b{font-family:var(--font-d);font-size:1.7rem;font-weight:600;line-height:1;color:var(--c)}
+.totals span{font-size:.68rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--soft);white-space:nowrap}
+.cols{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:end;gap:10px;height:150px;margin:8px 0 6px}
+.cols div{display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:6px;height:100%}
+.cols i{width:100%;max-width:54px;height:calc(var(--v) * 25%);border-radius:12px 12px 6px 6px;background:linear-gradient(180deg,var(--farz),color-mix(in srgb,var(--farz) 45%,transparent));transform-origin:bottom}
+.slide.cur .cols i{animation:colIn .8s var(--ease) both;animation-delay:calc(var(--j) * 90ms + 150ms)}
+@keyframes colIn{from{transform:scaleY(0)}}
+.cols b{font-family:var(--font-d);font-size:1.5rem;font-weight:600;line-height:1}
+.colnames{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;font-size:.74rem;font-weight:600;color:var(--soft)}
+.sum{margin-top:16px;font-family:var(--font-d);font-size:1.5rem;font-weight:500}
+.sum b{color:var(--gold);font-weight:700;font-size:1.25em}
+
+/* ---------- Nafile ---------- */
+.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
+.facts div{padding:12px;border-radius:16px;border:1px solid var(--line);background:var(--surface-2)}
+.facts b{display:block;margin-bottom:3px;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.facts span{font-size:.9rem;line-height:1.45}
+.rtable{display:grid;gap:6px;text-align:left}
+.rtable li{display:grid;grid-template-columns:76px minmax(0,1fr);align-items:center;gap:12px;padding:9px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface-2);font-size:.92rem}
+.rtable b{font-family:var(--font-d);font-size:1.2rem;font-weight:600}
+.rtable em{font-style:normal;color:var(--soft);font-size:.8rem}
+
+/* ---------- Alt panel ---------- */
+.sheet-bg{position:fixed;inset:0;z-index:80;display:none;align-items:flex-end;justify-content:center;background:rgba(4,10,8,.6);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.sheet-bg.on{display:flex;animation:fadeIn .25s both}
+.sheet-bg.out{animation:fadeOut .22s both}
+.sheet{width:100%;max-width:640px;max-height:84vh;max-height:84dvh;overflow-y:auto;overscroll-behavior:contain;padding:14px 22px 28px;padding-bottom:max(28px,env(safe-area-inset-bottom));border-radius:28px 28px 0 0;border:1px solid var(--line-2);border-bottom:0;background:var(--surface);box-shadow:0 -30px 60px -30px rgba(0,0,0,.6);animation:up .45s var(--ease) both}
+.sheet-bg.out .sheet{animation:down .22s ease-in both}
+@keyframes fadeIn{from{opacity:0}}
+@keyframes fadeOut{to{opacity:0}}
+@keyframes up{from{transform:translateY(60%);opacity:0}}
+@keyframes down{to{transform:translateY(40%);opacity:0}}
+.sheet .grab{width:44px;height:4px;border-radius:9px;background:var(--line-2);margin:0 auto 12px}
+.sheet .x{float:right;width:36px;height:36px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-2);background:transparent;cursor:pointer;transition:transform .3s var(--spring),color .25s,border-color .25s}
+.sheet .x:hover{transform:rotate(90deg);color:var(--gold);border-color:var(--gold)}
+.sheet .x .ic{width:16px;height:16px}
+.sheet h3{font-family:var(--font-d);font-size:1.6rem;font-weight:600;line-height:1.2;margin:18px 0 6px}
+.sheet h3:first-child{margin-top:4px}
+.sheet p{color:var(--soft);font-size:.95rem}
+.sheet p+p{margin-top:10px}
+.sheet .amin{margin-top:22px;text-align:center;font-family:var(--font-d);font-style:italic;font-size:1.25rem;color:var(--gold)}
+.sw{display:flex;align-items:center;gap:14px;margin:14px 0;padding:12px 14px;border-radius:16px;border:1px solid var(--line);background:var(--surface-2);cursor:pointer}
+.sw input{position:absolute;opacity:0;pointer-events:none}
+.sw .knob{flex:none;position:relative;width:46px;height:28px;border-radius:99px;background:var(--line-2);transition:background .25s}
+.sw .knob::after{content:"";position:absolute;top:3px;left:3px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.3);transition:transform .35s var(--spring)}
+.sw input:checked+.knob{background:var(--emerald)}
+.sw input:checked+.knob::after{transform:translateX(18px)}
+.sw input:focus-visible+.knob{outline:2px solid var(--gold);outline-offset:3px}
+.sw b{display:block;font-weight:600;line-height:1.3}
+.sw small{color:var(--soft)}
+.voice{display:grid;grid-template-columns:auto repeat(2,minmax(0,1fr));align-items:center;gap:6px;margin:14px 0 0;padding:5px 5px 5px 14px;border-radius:16px;border:1px solid var(--line);background:var(--surface-2)}
+.voice span{font-size:.74rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-right:6px}
+.voice button{min-height:40px;padding:0 10px;border-radius:12px;border:1px solid transparent;background:transparent;font-weight:600;font-size:.88rem;color:var(--soft);cursor:pointer;transition:background .25s,border-color .25s,color .25s,transform .2s}
+.voice button:active{transform:scale(.96)}
+.voice button[aria-pressed="true"]{background:var(--surface);border-color:var(--gold);color:var(--gold)}
+.trks{display:grid;gap:6px}
+.trk{width:100%;display:grid;grid-template-columns:30px minmax(0,1fr) auto;align-items:center;gap:12px;padding:9px 14px 9px 9px;border-radius:14px;border:1px solid var(--line);background:transparent;font-weight:600;text-align:left;cursor:pointer;transition:border-color .25s,background .25s,transform .2s}
+.trk:active{transform:scale(.985)}
+.trk:disabled{opacity:.4;cursor:default}
+.trk .n{width:30px;height:30px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-2);font-size:.78rem;color:var(--soft)}
+.trk .nm{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trk .du{display:flex;align-items:center;gap:8px;font-size:.78rem;font-weight:500;color:var(--soft);font-variant-numeric:tabular-nums}
+.trk .eq{display:none}
+.trk.on{border-color:var(--gold);background:var(--gold-soft)}
+.trk.on .n{background:var(--primary);border-color:var(--primary);color:var(--primary-ink)}
+.trk.on .eq{display:inline-flex}
+
+/* Görünüm paneli: tema ve renk seçimi */
+.optrow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:10px 0 4px}
+.opt{display:flex;flex-direction:column;align-items:flex-start;gap:8px;padding:14px;border-radius:18px;border:1px solid var(--line-2);background:transparent;text-align:left;cursor:pointer;transition:border-color .25s,background .25s,transform .3s var(--spring)}
+.opt:active{transform:scale(.97)}
+.opt[aria-pressed="true"]{border-color:var(--gold);background:var(--gold-soft)}
+.opt b{font-weight:600;line-height:1.2}
+.opt small{color:var(--soft);font-size:.8rem;line-height:1.4}
+.opt .sws{display:flex;gap:5px}
+.opt .sws i{width:22px;height:22px;border-radius:50%;border:1px solid rgba(128,128,128,.35)}
+
+/* tema geçişi: düğmeden yayılan daire */
+.theme-vt::view-transition-old(root),.theme-vt::view-transition-new(root){animation:none;mix-blend-mode:normal}
+.theme-vt::view-transition-new(root){z-index:2}
+@view-transition{navigation:auto}
+
+/* ---------- Geniş ekran: yan menülü yerleşim ---------- */
+@media (min-width:700px){
+  .sc{padding:36px 40px 32px}
+  .more{bottom:-32px;margin:10px -40px -32px !important}
+  .tiles.t3{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .ibtn .lbl{display:inline}
+  .ibtn{padding:0 14px}
+}
+@media (min-width:1000px) and (min-height:600px){
+  body{display:grid;place-items:center}
+  .app{width:calc(100% - 48px);max-width:1260px;height:min(calc(100dvh - 48px),940px);grid-template-columns:286px minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto;grid-template-areas:"brand main" "nav main" "tools main";
+    border-radius:32px;border:1px solid var(--line-2);background:color-mix(in srgb,var(--bg-2) 86%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:0 50px 100px -50px rgba(0,0,0,.6)}
+  .app::before{content:"";grid-column:1;grid-row:1 / -1;border-right:1px solid var(--line);background:color-mix(in srgb,var(--surface) 70%,transparent)}
+  header.top{display:contents}
+  .brandbox{grid-area:brand;align-items:flex-start;gap:14px;padding:30px 26px 22px}
+  .brand{font-size:1.72rem;white-space:normal}
+  .brand small{display:block}
+  .hsub{display:none}
+  .tools{grid-area:tools;margin:0;padding:16px 22px 24px;border-top:1px solid var(--line);z-index:1}
+  .tools .ibtn{flex:1}
+  .ibtn{height:44px}
+  nav.tabbar{grid-area:nav;display:flex;flex-direction:column;gap:4px;align-content:start;padding:6px 14px;background:none;-webkit-backdrop-filter:none;backdrop-filter:none;border:0;overflow-y:auto}
+  nav.tabbar::before{top:calc(6px + var(--tab,0) * 62px);left:14px;width:calc(100% - 28px);height:58px;border-radius:16px;transition:top .5s var(--spring)}
+  nav.tabbar button{flex:none;display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto auto;align-content:center;align-items:center;justify-items:start;gap:1px 14px;height:58px;padding:0 16px;font-size:.95rem;text-align:left;color:var(--soft)}
+  nav.tabbar button .ic{grid-row:span 2;width:21px;height:21px}
+  nav.tabbar button small{display:block;font-size:.72rem;font-weight:500;color:var(--faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+  nav.tabbar button.on{color:var(--ink)}
+  nav.tabbar button.on .ic{color:var(--gold);transform:none}
+  main{padding-top:22px}
+  .track{--g:76px}
+  .ctrl{padding-bottom:22px}
+  .stepper{padding-bottom:12px}
+  .sheet-bg{align-items:center}
+  .sheet{border-radius:28px;border-bottom:1px solid var(--line-2);max-height:min(84vh,780px)}
+  .sheet .grab{display:none}
+}
+@media (max-width:420px){
+  .ptime .tot{display:none}
+  .player{gap:9px}
+  .pbtn{min-width:34px;height:34px;border-radius:11px}
+  #plSpeed{min-width:44px;font-size:.7rem}
+  .brand{font-size:1.24rem}
+}
+@media (max-width:380px){.hsub{display:none}.tools{margin-left:auto}}
+@media (max-width:699px){
+  .tiles{gap:8px}
+  .tile{padding:12px 10px;gap:4px}
+  .tile .ti{width:34px;height:34px}
+  .tile .ti .ic{width:17px;height:17px}
+  .tile small{font-size:.75rem;line-height:1.35}
+  .vrow{padding:9px 12px}
+  .vakits{gap:6px}
+}
+@media (max-height:660px){
+  .player{margin-bottom:6px;padding:5px 8px 5px 6px}
+  .player .pp{width:38px;height:38px}
+  .ptitle{display:none}
+  .pose{padding:16px 12px 8px;margin-bottom:12px}
+  .pose svg{height:22vh}
+  .sc{padding:20px 18px 18px}
+  .more{bottom:-18px;margin:10px -18px -18px !important}
+  .stepper{padding-bottom:6px}
+}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;animation-delay:0s !important;transition-duration:.001ms !important}
+  .slide{transform:none}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brandbox">
+      <a class="ibtn home" href="./" aria-label="Mektep ana ekranı" title="Mektep"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg></a>
+      <div class="brand">Namaz <em>Yolculuğu</em><small>Adım adım namaz, hikmetleri ve nafile namazlar</small></div>
+    </div>
+    <div class="hsub" id="hsub"></div>
+    <div class="tools">
+      <button class="ibtn" id="lookBtn" aria-label="Görünüm: tema ve renk"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg><span class="lbl">Görünüm</span></button>
+      <button class="ibtn" id="infoBtn" aria-label="Kaynaklar ve notlar"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="lbl">Kaynaklar</span></button>
+    </div>
+  </header>
+
+  <nav class="tabbar" id="tabbar" aria-label="Bölümler"></nav>
+
+  <main>
+    <div class="view" id="v-giris"><div class="deckhost" id="d-giris"></div></div>
+    <div class="view" id="v-hazirlik"><div class="deckhost" id="d-hazirlik"></div></div>
+    <div class="view" id="v-adim">
+      <div class="stepper" id="stepper-adim"></div>
+      <div class="pslot" id="slot-adim">
+        <div class="player" id="player" data-state="idle" role="group" aria-label="Sesli anlatım" hidden>
+          <button class="pp" id="plBtn" aria-label="Sesli anlatımı oynat">
+            <svg class="i-play" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8.2 4.6c-1-.6-2.2.1-2.2 1.3v12.2c0 1.2 1.2 1.9 2.2 1.3l10.2-6.1c1-.6 1-2 0-2.6z"/></svg>
+            <svg class="i-pause" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><rect x="5.5" y="4.5" width="4.6" height="15" rx="1.6"/><rect x="13.9" y="4.5" width="4.6" height="15" rx="1.6"/></svg>
+          </button>
+          <div class="pmid">
+            <div class="ptitle"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span><span id="plTitle">Sesli anlatım</span></div>
+            <div class="prow">
+              <div class="wave" id="plWave" role="slider" tabindex="0" aria-label="Anlatım konumu" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+              <span class="ptime"><span id="plCur">0:00</span><span class="tot"> / <span id="plTot">0:00</span></span></span>
+            </div>
+          </div>
+          <button class="pbtn" id="plSpeed" aria-label="Okuma hızı: normal">1×</button>
+          <button class="pbtn" id="plList" aria-label="Sesli rehber: bütün anlatımların listesi"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 5H3"/><path d="M11 12H3"/><path d="M11 19H3"/><path d="M21 16V5"/><circle cx="18" cy="16" r="3"/></svg></button>
+        </div>
+      </div>
+      <div class="seg" id="seg-adim"></div>
+      <div class="deckhost" id="d-adim"></div>
+    </div>
+    <div class="view" id="v-secde"><div class="deckhost" id="d-secde"></div></div>
+    <div class="view" id="v-vakit"><div class="deckhost" id="d-vakit"></div></div>
+    <div class="view" id="v-nafile">
+      <div class="stepper" id="stepper-nafile"></div>
+      <div class="pslot" id="slot-nafile"></div>
+      <div class="seg" id="seg-nafile"></div>
+      <div class="deckhost" id="d-nafile"></div>
+    </div>
+  </main>
+</div>
+
+<div class="sheet-bg" id="sheet"><div class="sheet" role="dialog" aria-modal="true">
+  <button class="x" id="sheetX" aria-label="Kapat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button><div class="grab"></div>
+  <div id="sheetBody"></div>
+</div></div>
+
+<script src="medya.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const root=document.documentElement;
+const reduceMotion=matchMedia('(prefers-reduced-motion: reduce)');
+/* Tema: "cocuk" ya da "yetiskin". Seçim uygulama ana ekranıyla ve diğer uygulamalarla ortaktır (apps:tema).
+   Renk: "dark" ya da "light"; sitenin koyu/açık tercihiyle ortaktır (theme). */
+const kid=()=>root.dataset.theme==='cocuk';
+const T=(cocuk,yetiskin)=>kid()?cocuk:yetiskin;
+const emo=e=>kid()&&e?`<i class="emo">${e}</i> `:'';
+
+/* =========================================================
+   SİMGELER VE FİGÜRLER
+   ========================================================= */
+const IC={"home": "<path d=\"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8\"/><path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\"/>", "prep": "<path d=\"M13 5h8\"/><path d=\"M13 12h8\"/><path d=\"M13 19h8\"/><path d=\"m3 17 2 2 4-4\"/><path d=\"m3 7 2 2 4-4\"/>", "steps": "<path d=\"M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z\"/><path d=\"M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z\"/><path d=\"M16 17h4\"/><path d=\"M4 13h4\"/>", "sajda": "<path d=\"M12 17V3\"/><path d=\"m6 11 6 6 6-6\"/><path d=\"M19 21H5\"/>", "clock": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 6v6l4 2\"/>", "nafile": "<path d=\"M18 5h4\"/><path d=\"M20 3v4\"/><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401\"/>", "book": "<path d=\"M12 5v16\"/><path d=\"M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z\"/>", "sun": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><path d=\"m6.34 17.66-1.41 1.41\"/><path d=\"m19.07 4.93-1.41 1.41\"/>", "moon": "<path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401\"/>", "grid": "<rect width=\"7\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\"/><rect width=\"7\" height=\"7\" x=\"14\" y=\"3\" rx=\"1\"/><rect width=\"7\" height=\"7\" x=\"14\" y=\"14\" rx=\"1\"/><rect width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\"/>", "list": "<path d=\"M16 5H3\"/><path d=\"M11 12H3\"/><path d=\"M11 19H3\"/><path d=\"M21 16V5\"/><circle cx=\"18\" cy=\"16\" r=\"3\"/>", "left": "<path d=\"m15 18-6-6 6-6\"/>", "right": "<path d=\"m9 18 6-6-6-6\"/>", "head": "<path d=\"M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3\"/>", "drop": "<path d=\"M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z\"/>", "clean": "<path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"/><path d=\"M20 2v4\"/><path d=\"M22 4h-4\"/><circle cx=\"4\" cy=\"20\" r=\"2\"/>", "shirt": "<path d=\"M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z\"/>", "compass": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\"/>", "heart": "<path d=\"M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5\"/>", "sunrise": "<path d=\"M12 2v8\"/><path d=\"m4.93 10.93 1.41 1.41\"/><path d=\"M2 18h2\"/><path d=\"M20 18h2\"/><path d=\"m19.07 10.93-1.41 1.41\"/><path d=\"M22 22H2\"/><path d=\"m8 6 4-4 4 4\"/><path d=\"M16 18a4 4 0 0 0-8 0\"/>", "noon": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><path d=\"m6.34 17.66-1.41 1.41\"/><path d=\"m19.07 4.93-1.41 1.41\"/>", "afternoon": "<path d=\"M12 2v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"M20 12h2\"/><path d=\"m19.07 4.93-1.41 1.41\"/><path d=\"M15.947 12.65a4 4 0 0 0-5.925-4.128\"/><path d=\"M13 22H7a5 5 0 1 1 4.9-6H13a3 3 0 0 1 0 6Z\"/>", "sunset": "<path d=\"M12 10V2\"/><path d=\"m4.93 10.93 1.41 1.41\"/><path d=\"M2 18h2\"/><path d=\"M20 18h2\"/><path d=\"m19.07 10.93-1.41 1.41\"/><path d=\"M22 22H2\"/><path d=\"m16 6-4 4-4-4\"/><path d=\"M16 18a4 4 0 0 0-8 0\"/>", "night": "<path d=\"M18 5h4\"/><path d=\"M20 3v4\"/><path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401\"/>", "check": "<path d=\"M20 6 9 17l-5-5\"/>", "x": "<path d=\"M18 6 6 18\"/><path d=\"m6 6 12 12\"/>", "arrow": "<path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/>", "repeat": "<path d=\"m17 2 4 4-4 4\"/><path d=\"M3 11v-1a4 4 0 0 1 4-4h14\"/><path d=\"m7 22-4-4 4-4\"/><path d=\"M21 13v1a4 4 0 0 1-4 4H3\"/>", "quote": "<path d=\"M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z\"/><path d=\"M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z\"/>", "star": "<path d=\"M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z\"/>", "bed": "<path d=\"M2 4v16\"/><path d=\"M2 8h18a2 2 0 0 1 2 2v10\"/><path d=\"M2 17h20\"/><path d=\"M6 8v9\"/>", "mosque": "<path d=\"M10 18v-7\"/><path d=\"M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z\"/><path d=\"M14 18v-7\"/><path d=\"M18 18v-7\"/><path d=\"M3 22h18\"/><path d=\"M6 18v-7\"/>", "hand": "<path d=\"M11 14h2a2 2 0 0 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 16\"/><path d=\"m14.45 13.39 5.05-4.694C20.196 8 21 6.85 21 5.75a2.75 2.75 0 0 0-4.797-1.837.276.276 0 0 1-.406 0A2.75 2.75 0 0 0 11 5.75c0 1.2.802 2.248 1.5 2.946L16 11.95\"/><path d=\"m2 15 6 6\"/><path d=\"m7 20 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a1 1 0 0 0-2.75-2.91\"/>", "calendar": "<path d=\"M8 2v3\"/><path d=\"M16 2v3\"/><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"/><path d=\"M3 9h18\"/><path d=\"M8 13h.01\"/><path d=\"M12 13h.01\"/><path d=\"M16 13h.01\"/><path d=\"M8 17h.01\"/><path d=\"M12 17h.01\"/><path d=\"M16 17h.01\"/>", "layers": "<path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"/><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"/><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"/>", "info": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M12 16v-4\"/><path d=\"M12 8h.01\"/>", "down": "<path d=\"m6 9 6 6 6-6\"/>", "palette": "<path d=\"M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z\"/><circle cx=\"13.5\" cy=\"6.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\"/>", "smile": "<path d=\"M15 10V9\"/><path d=\"M16.472 15a6 6 0 01-8.943 0\"/><path d=\"M9 10V9\"/><circle cx=\"12\" cy=\"12\" r=\"10\"/>", "user": "<circle cx=\"12\" cy=\"8\" r=\"5\"/><path d=\"M20 21a8 8 0 0 0-16 0\"/>"};
+const ic=(n,c='ic')=>`<svg class="${c}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${IC[n]}</svg>`;
+const S='stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"';
+const rug='<rect x="8" y="150" width="144" height="11" rx="5.5" style="fill:var(--gold)" opacity=".45"/><rect x="20" y="153.5" width="120" height="4" rx="2" style="fill:var(--gold)" opacity=".6"/>';
+const hd=(x,y,r=13)=>`<circle cx="${x}" cy="${y}" r="${r}" fill="currentColor"/>`;
+const SIT=`<path ${S} d="M40 132L44 78M40 132L92 149L30 149M44 88L60 114L86 140"/>`;
+const POSES={
+  niyet:rug+hd(80,30)+`<path ${S} d="M80 45V100M80 100L70 150M80 100L90 150M80 55L72 100M80 55L88 100"/><path d="M114 44c-4-6.5-13.5-3-9.5 5l9.5 9 9.5-9c4-8-5.5-11.5-9.5-5z" style="fill:var(--gold)"/>`,
+  tekbir:rug+hd(80,30)+`<path ${S} d="M80 45V100M80 100L70 150M80 100L90 150M80 55L60 55L64 28M80 55L100 55L96 28"/>`,
+  kiyam:rug+hd(80,30)+`<path ${S} d="M80 45V100M80 100L70 150M80 100L90 150M80 55L66 78L86 80M80 55L94 76L76 79"/>`,
+  kavme:rug+hd(80,30)+`<path ${S} d="M80 45V100M80 100L70 150M80 100L90 150M80 55L72 100M80 55L88 100"/>`,
+  ruku:rug+hd(132,95,12)+`<path ${S} d="M60 95L56 150M60 95L64 150M60 95H118M112 97L64 122"/>`,
+  secde:rug+hd(122,139,11)+`<path ${S} d="M58 112L62 149L32 149M31 149V139M58 112L108 130M106 131L96 140L112 149"/>`,
+  celse:rug+hd(46,62)+SIT,
+  kade:rug+hd(46,62)+SIT,
+  selam:rug+hd(46,62)+SIT+`<path d="M66 52q14 -12 26 0" style="stroke:var(--gold)" stroke-width="3" stroke-linecap="round" fill="none"/><path d="M26 52q-14 -12 -22 2" style="stroke:var(--emerald)" stroke-width="3" stroke-linecap="round" fill="none"/><text x="98" y="44" font-size="10" font-weight="600" letter-spacing="1" style="fill:var(--gold)">SAĞ</text><text x="0" y="38" font-size="10" font-weight="600" letter-spacing="1" style="fill:var(--emerald)">SOL</text>`
+};
+const fig=p=>`<svg viewBox="0 0 160 170" role="img" aria-label="${p}">${POSES[p]}</svg>`;
+const TYPES={ayet:'Âyet',hadis:'Hadis',yorum:'Âlimlerin açıklaması'};
+const kick=t=>`<span class="kick">${t}</span>`;
+const hk=(y,p,s)=>`<span class="tag ${y}">${TYPES[y]}</span><blockquote class="quote">${p}</blockquote>${s?`<div class="orn"><i></i></div><cite class="src">${s}</cite>`:''}`;
+
+/* =========================================================
+   KAYAN KART BİLEŞENİ
+   ========================================================= */
+const decks={};
+function createDeck(hostId,slides,o={}){
+  const host=$(hostId), n=slides.length;
+  host.innerHTML=`<div class="deck"><div class="track">${slides.map((s,i)=>`<section class="slide" aria-label="${i+1} / ${n}"><div class="sc ${s.cls||''}">${s.html}</div></section>`).join('')}</div>
+   <div class="ctrl"><button class="nb prev" aria-label="Önceki kart">${ic('left')}</button><div class="pos">${n<=12?'<div class="dots"></div>':'<div class="bar"><b></b></div>'}<small class="cnt"></small></div><button class="nb next" aria-label="Sonraki kart">${ic('right')}</button></div></div>`;
+  const track=host.querySelector('.track'), prev=host.querySelector('.prev'), next=host.querySelector('.next'),
+        dots=host.querySelector('.dots'), bar=host.querySelector('.bar b'), cnt=host.querySelector('.cnt');
+  let idx=0;
+  const unit=()=>{const s=track.children[0];return s?s.offsetWidth+(parseFloat(getComputedStyle(track).columnGap)||0):1};
+  function upd(){
+    for(let i=0;i<n;i++) track.children[i].classList.toggle('cur',i===idx);
+    if(dots) dots.innerHTML=slides.map((_,i)=>`<i class="${i===idx?'on':''}" data-i="${i}"></i>`).join('');
+    if(bar) bar.style.width=((idx+1)/n*100)+'%';
+    cnt.textContent=`${idx+1} / ${n}`+(slides[idx].label?` · ${slides[idx].label}`:'');
+    prev.disabled=idx===0;
+    const end=idx===n-1&&o.onEnd;
+    next.className='nb next'+(end?' wide':''); next.innerHTML=end?`${o.endLabel||'Devam'}${ic('arrow')}`:ic('right');
+    next.setAttribute('aria-label',end?(o.endLabel||'Devam'):'Sonraki kart');
+    next.disabled=idx===n-1&&!o.onEnd;
+    o.onChange&&o.onChange(idx,slides[idx]);
+  }
+  track.addEventListener('scroll',()=>{const i=Math.max(0,Math.min(n-1,Math.round(track.scrollLeft/unit())));if(i!==idx){idx=i;upd()}},{passive:true});
+  const go=(i,instant)=>{i=Math.max(0,Math.min(n-1,i));track.scrollTo({left:i*unit(),behavior:instant||reduceMotion.matches?'auto':'smooth'});if(i!==idx){idx=i;upd()}};
+  prev.onclick=()=>go(idx-1);
+  next.onclick=()=>{if(idx===n-1&&o.onEnd)o.onEnd();else go(idx+1)};
+  if(dots) dots.onclick=e=>{if(e.target.dataset.i)go(+e.target.dataset.i)};
+  requestAnimationFrame(markMore);
+  upd();
+  const d={go,get idx(){return idx},slides,refresh(){track.scrollLeft=idx*unit()}};
+  decks[hostId]=d; return d;
+}
+function markMore(){
+  document.querySelectorAll('.sc').forEach(sc=>{
+    let m=sc.querySelector(':scope > .more');
+    const need=sc.scrollHeight>sc.clientHeight+6;
+    if(need&&!m){m=document.createElement('div');m.className='more';m.textContent='Devamı aşağıda';sc.appendChild(m);
+      sc.addEventListener('scroll',()=>m.classList.toggle('gone',sc.scrollTop+sc.clientHeight>=sc.scrollHeight-8),{passive:true});}
+  });
+}
+window.addEventListener('resize',markMore);
+
+/* =========================================================
+   GİRİŞ
+   ========================================================= */
+const GIRIS=()=>[
+ {cls:'hero',html:`${kick(T('Hoş geldin','Bismillâh'))}<h2>${T('<i class="emo">⭐</i> Namaz Yolculuğuna <em>Hoş Geldin!</em>','Namaz <em>Yolculuğu</em>')}</h2>
+   <p class="lead">Namazda ne yapıyoruz, ne söylüyoruz ve neden? Her adımı Kur'an'dan, Peygamberimizin (s.a.v.) sözlerinden ve âlimlerimizin açıklamalarından ${T('keşfedelim','öğrenelim')}.</p>
+   <div class="btns"><button class="btn" data-go="adim">${ic('steps')}Adım adım başla</button><button class="btn alt" data-go="nafile">${ic('nafile')}Nafile namazlar</button></div>
+   <p class="note">${T('Kartları yana kaydırarak ilerle. Menüden istediğin bölüme geç.','Kartları yana kaydırarak ilerleyebilir, menüden dilediğiniz bölüme geçebilirsiniz.')}</p>`},
+ {label:'Kaynak etiketleri',html:`${kick('Kaynaklar')}<h2>Bu bilgi nereden geliyor?</h2>
+   <p class="lead">Her bilginin üzerinde, kaynağını gösteren bir etiket bulunur.</p>
+   <ul class="list" style="margin-top:18px">
+     <li><b>Âyet</b> · Kur'an-ı Kerîm'den.</li>
+     <li><b>Hadis</b> · Peygamberimizin sözlerinden ve uygulamasından.</li>
+     <li><b>Âlimlerin açıklaması</b> · Âlimlerimizin yorumları ve tespitleri.</li>
+   </ul>
+   <p class="note">Uygulamalar Türkiye'de yaygın olan <b>Hanefî mezhebine</b> göredir.</p>`},
+ {label:'Nehir örneği',html:`${kick('Beş vakit')}${hk('hadis','Peygamberimiz sahâbîlere sordu: "Birinizin kapısının önünden bir nehir aksa ve o her gün beş kere orada yıkansa, üzerinde kir kalır mı?" "Hayır, kalmaz" dediler. Bunun üzerine beş vakit namazın da böyle olduğunu, Allah\'ın onlarla günahları sildiğini söyledi.','Buhârî, Mevâkît; Müslim, Mesâcid')}`},
+ {label:'Bölümler',html:`${kick('İçindekiler')}<h2>Bölümler</h2>
+   <div class="tiles t3">
+     <button class="tile" data-go="hazirlik"><span class="ti">${ic('prep')}</span><b>Hazırlık</b><small>Şartlar, farzlar, rekât rehberi</small></button>
+     <button class="tile" data-go="adim"><span class="ti">${ic('steps')}</span><b>Adım Adım</b><small>11 durakta namaz, sesli anlatımla</small></button>
+     <button class="tile" data-go="secde"><span class="ti">${ic('sajda')}</span><b>Secde</b><small>Neden ve nasıl?</small></button>
+     <button class="tile" data-go="vakit"><span class="ti">${ic('clock')}</span><b>Vakitler</b><small>Beş vakit ve rekâtlar</small></button>
+     <button class="tile" data-go="nafile"><span class="ti">${ic('nafile')}</span><b>Nafile Namazlar</b><small>Teheccüd, kuşluk ve diğerleri</small></button>
+     <button class="tile" data-info><span class="ti">${ic('book')}</span><b>Kaynaklar</b><small>Bu rehber nasıl hazırlandı?</small></button>
+   </div>`}
+];
+
+/* =========================================================
+   HAZIRLIK
+   ========================================================= */
+const HAZIRLIK=()=>[
+ {label:'Şartlar',html:`${kick('Hazırlık · 1')}<h2>Namazdan önce altı şart</h2><p class="lead" style="margin-bottom:18px">Bunlara <b>namazın dışındaki farzlar</b> denir.</p>
+   <div class="tiles t3">
+    <div class="tile"><span class="ti">${ic('drop')}</span><b>Abdestli olmak</b><small>Hadesten tahâret: abdest (gerekirse gusül).</small></div>
+    <div class="tile"><span class="ti">${ic('clean')}</span><b>Temizlik</b><small>Necâsetten tahâret: beden, elbise, yer temiz.</small></div>
+    <div class="tile"><span class="ti">${ic('shirt')}</span><b>Uygun giyinmek</b><small>Setr-i avret: örtülmesi gereken yerleri örtmek.</small></div>
+    <div class="tile"><span class="ti">${ic('compass')}</span><b>Kıbleye dönmek</b><small>İstikbâl-i kıble: Kâbe yönüne dönmek.</small></div>
+    <div class="tile"><span class="ti">${ic('clock')}</span><b>Vaktinde kılmak</b><small>Her namaz kendi vaktinde.</small></div>
+    <div class="tile"><span class="ti">${ic('heart')}</span><b>Niyet etmek</b><small>Hangi namazı kıldığını kalben bilmek.</small></div>
+   </div>`},
+ {label:'Farzlar',html:`${kick('Hazırlık · 2')}<h2>Namazın içindeki altı farz</h2><p class="lead" style="margin-bottom:18px">Bunlardan biri eksik olursa namaz olmaz.</p>
+   <ol class="numlist"><li>İftitah tekbiri</li><li>Kıyam (ayakta durmak)</li><li>Kıraat (Kur'an okumak)</li><li>Rükû</li><li>Secde</li><li>Son oturuş (Ka'de-i ahîre)</li></ol>`},
+ {label:'Bir rekât',html:`${kick('Rekât rehberi')}<h2>Bir rekâtın düzeni</h2>
+   <ol class="flow" style="margin-top:6px"><li><b>Kıyam</b> · ayakta Kur'an okumak</li><li><b>Rükû</b> · eğilmek</li><li><b>Kavme</b> · doğrulmak</li><li><b>Secde</b></li><li><b>Celse</b> · kısa oturuş</li><li><b>Secde</b></li><li>Yeni rekât ya da oturuş</li></ol>
+   <p class="note">Her rekâtta bir rükû ve iki secde vardır.</p>`},
+ {label:'İkinci rekât',html:`${kick('Rekât rehberi')}<h2>İkinci rekât ve ilk oturuş</h2>
+   <ul class="list"><li><b>2. rekât:</b> Secdeden "Allahu Ekber" diyerek ayağa kalkılır. Sübhâneke ve Eûzü okunmaz; Besmele, Fâtiha ve bir sure okunur.</li>
+   <li><b>2. rekâtın sonu:</b> Oturulur. 2 rekâtlı namazda Tahiyyat, Salli, Bârik ve dualar okunur, selam verilir.</li>
+   <li><b>3 veya 4 rekâtlı namazın ilk oturuşu:</b> Sadece <b>Tahiyyat</b> okunur, sonra "Allahu Ekber" ile 3. rekâta kalkılır.</li></ul>`},
+ {label:'Son rekâtlar',html:`${kick('Rekât rehberi')}<h2>Son rekâtlar ve son oturuş</h2>
+   <ul class="list"><li><b>Farzların 3. ve 4. rekâtı:</b> Sadece Besmele ve Fâtiha okunur, sure eklenmez.</li>
+   <li><b>Sünnetlerde</b> ise bu rekâtlarda da Fâtiha'dan sonra sure okunur.</li>
+   <li><b>Son oturuş:</b> Tahiyyat, Salli-Bârik ve Rabbenâ duaları okunur, selam verilir.</li></ul>
+   <div class="btns"><button class="btn" data-go="adim">${ic('steps')}Adım adım öğren</button></div>`}
+];
+
+/* =========================================================
+   ADIMLAR (VERİ)
+   ========================================================= */
+const STEPS=[
+{e:'💭',t:'Niyet',pose:'niyet',short:'Hangi namazı kılacağını kalbinden belirlemek.',
+ doing:['Abdestli olarak, temiz bir yerde kıbleye dönülür.','Ayaklar arasında dört parmak kadar boşluk bırakılır, düzgün durulur.','Kalpten, örneğin "Allah rızası için bugünkü sabah namazının farzını kılmaya" diye niyet edilir.'],
+ says:[{h:'Niyet (örnek)',ok:'Niyet ettim Allah rızası için bugünkü öğle namazının farzını kılmaya.',mn:'Niyet asıl olarak <b>kalbin</b> işidir. Dil ile söylemek ise kalbin niyetine yardımcı olur.'}],
+ dikkat:['Niyet, iftitah tekbirinden önce veya tekbirle birlikte yapılır.','Hangi namazı kıldığını (sabah, öğle, farz, sünnet...) bilmek yeterlidir.','Telefon gibi dikkat dağıtan şeyleri uzaklaştır.'],
+ hikmet:[['hadis','Peygamberimiz "<b>Ameller ancak niyetlere göredir</b>" buyurmuştur. Aynı hareket, niyetle ibadete dönüşür.','Buhârî, Bed\'ü\'l-vahy; Müslim, İmâre'],
+         ['ayet','"Beni anmak için namaz kıl." Namaz, Allah\'ı hatırlamak ve anmak içindir.','Tâhâ 20/14']],
+ memo:'Niyet kalpte başlar: "Ben şimdi Rabbimle buluşmaya gidiyorum!"',memoY:'Niyet kalpte başlar: Kul, Rabbinin huzuruna durmaya yönelir.'},
+
+{e:'🙌',t:'Tekbir',tt:'İftitah Tekbiri',pose:'tekbir',short:'"Allahu Ekber" diyerek namaza giriş.',
+ doing:['Erkekler ellerini kaldırıp başparmaklarını kulak yumuşaklarına değdirir.','Kadınlar ellerini omuz hizasına kadar kaldırır.','Avuç içleri kıbleye bakar.','"Allahu Ekber" denir ve namaz başlar.'],
+ says:[{h:'İftitah Tekbiri',ar:'اَللّٰهُ أَكْبَرُ',ok:'Allâhu Ekber',mn:'<b>Allah en büyüktür.</b>'}],
+ dikkat:['Bu tekbir namazın farzıdır; o olmadan namaz başlamaz.','Tekbir ayakta iken alınır.','Tekbirden sonra konuşmak, yemek, gülmek, etrafla ilgilenmek yoktur.'],
+ hikmet:[['hadis','Peygamberimiz namazın anahtarının temizlik, başlangıcının (tahrîm) tekbir, bitişinin ise selam olduğunu bildirmiştir.','Tirmizî, Tahâret; Ebû Dâvûd, Tahâret'],
+         ['yorum','Bu tekbire "tahrîme" de denir; çünkü tekbirle namaz dışında serbest olan konuşmak, yemek gibi şeyler yasak hâle gelir. Âlimler bunu "dünyanın kapısını kapatıp Allah\'ın huzuruna girmek" diye açıklar.'],
+         ['yorum','Ellerin kaldırılması için âlimler şu açıklamaları yapmıştır: Allah\'ın büyüklüğü karşısında her şeyi arkaya atmak ve teslim olmak; ayrıca arkadaki işitme engelli birinin bile namazın başladığını görebilmesi.']],
+ memo:'"Allahu Ekber" = Allah her şeyden büyük! Oyunlar, dersler, ekranlar... hepsi arkada kaldı.',memoY:'"Allahu Ekber": Allah her şeyden büyüktür. İşler, kaygılar, ekranlar; hepsi geride kalır.'},
+
+{e:'🧍',t:'Kıyam',tt:'Kıyam ve Sübhâneke',pose:'kiyam',short:'Ayakta, saygıyla durup Allah\'ı övmek.',
+ doing:['Erkekler ellerini göbeğin altında bağlar: sağ elin avucu sol elin üstüne gelir, sağ el sol bileği kavrar.','Kadınlar ellerini göğüs üzerine koyar.','Gözler secde edilecek yere bakar.','Sübhâneke okunur.'],
+ says:[{h:'Sübhâneke',ar:'سُبْحَانَكَ اللّٰهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالٰى جَدُّكَ وَلَا إِلٰهَ غَيْرُكَ',ok:'Sübhânekellâhümme ve bi hamdik ve tebârekesmük ve teâlâ ceddük ve lâ ilâhe ğayrük.',mn:'Allah\'ım! Seni her türlü eksiklikten uzak tutar, sana hamd ederim. Senin adın mübarektir, şanın yücedir. Senden başka ilah yoktur.',note:'Sübhâneke sadece ilk rekâtta okunur.'}],
+ dikkat:['Kıbleden dönmeden, dimdik ve sakin dur.','Gözlerini secde yerinden ayırma; etrafa bakma.','Kaşınmak, oynamak gibi gereksiz hareketlerden kaçın.'],
+ hikmet:[['ayet','"Allah\'a gönülden boyun eğerek ayakta durun." Kıyam, saygı ve itaatle Allah\'ın huzurunda durmaktır.','Bakara 2/238'],
+         ['ayet','"Mü\'minler kurtuluşa ermiştir; onlar ki namazlarında huşû içindedirler." Huşû, kalbin ve bedenin saygıyla sakinleşmesidir.','Mü\'minûn 23/1-2'],
+         ['yorum','Âlimler, gözün secde yerine bakmasının kalbin dağılmamasına ve huşûya yardım ettiğini söylemişlerdir.']],
+ memo:'Sübhâneke, namazın "Merhaba Rabbim!" kısmıdır: Önce Allah\'ı övüyoruz.',memoY:'Namaz övgüyle başlar: Sübhâneke ile Rabbimizi tesbih eder, O\'na hamd ederiz.'},
+
+{e:'📖',t:'Kıraat',tt:'Kıraat: Fâtiha ve Sure',pose:'kiyam',short:'Ayakta Kur\'an okumak.',
+ doing:['Önce Eûzü ve Besmele çekilir.','Fâtiha sûresi okunur.','Ardından kısa bir sure veya en az üç kısa âyet okunur (zamm-ı sure).','Cemaatle kılarken imam okur, cemaat sessizce dinler.'],
+ says:[
+  {h:'Eûzü',ar:'أَعُوذُ بِاللّٰهِ مِنَ الشَّيْطَانِ الرَّجِيمِ',ok:'Eûzü billâhi mineş-şeytânir-racîm.',mn:'Kovulmuş şeytanın şerrinden Allah\'a sığınırım.'},
+  {h:'Besmele',ar:'بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيمِ',ok:'Bismillâhirrahmânirrahîm.',mn:'Rahmân ve Rahîm olan Allah\'ın adıyla.'},
+  {fatiha:true},
+  {h:'İhlâs Sûresi',sub:'Zamm-ı sure örneği',ar:'قُلْ هُوَ اللّٰهُ أَحَدٌ ۝ اَللّٰهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ',ok:'Kul hüvallâhü ehad. Allâhüs-samed. Lem yelid ve lem yûled. Ve lem yekün lehû küfüven ehad.',mn:'De ki: O Allah birdir. Allah her şeyden müstağnidir, her şey O\'na muhtaçtır. O doğurmamış ve doğmamıştır. Hiçbir şey O\'na denk değildir.'},
+  {h:'Kevser Sûresi',sub:'Zamm-ı sure örneği',ar:'إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ ۝ فَصَلِّ لِرَبِّكَ وَانْحَرْ ۝ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ',ok:'İnnâ a\'taynâkel-kevser. Fe salli li-rabbike venhar. İnne şânieke hüvel-ebter.',mn:'Şüphesiz biz sana Kevser\'i (pek çok hayrı) verdik. Öyleyse Rabbin için namaz kıl ve kurban kes. Asıl soyu kesik olan, sana kin besleyendir.'}],
+ dikkat:['Fâtiha\'yı acele etmeden, harfleri düzgün çıkararak oku.','Fâtiha bitince içinden "Âmîn" de.','Farz namazların 3. ve 4. rekâtlarında sadece Fâtiha okunur.'],
+ hikmet:[['hadis','Peygamberimiz "<b>Fâtiha\'yı okumayanın namazı olmaz</b>" buyurmuştur. Bu yüzden Fâtiha her rekâtta okunur.','Buhârî, Ezân; Müslim, Salât'],
+         ['hadis','Kudsî bir hadiste Allah, namazdaki Fâtiha\'yı kendisiyle kulu arasında paylaştırdığını ve kulun her âyetine cevap verdiğini bildirir. Fâtiha kartlarındaki karşılıklar bu hadise dayanır. Fâtiha okuyan kul, Rabbine hitap etmektedir.','Müslim, Salât']],
+ memo:'Fâtiha bir sohbettir: Sen bir âyet okursun, Allah sana cevap verir! 💬',memoY:'Fâtiha bir muhataplıktır: Kul her âyeti okudukça Allah ona karşılık verir.'},
+
+{e:'🙇',t:'Rükû',pose:'ruku',short:'Allah\'ın büyüklüğü karşısında saygıyla eğilmek.',
+ doing:['"Allahu Ekber" diyerek eğilinir.','Eller dizlere konur; erkekler parmaklarını açarak dizleri kavrar.','Sırt ve baş aynı hizada, dümdüz olur.','En az 3 kere tesbih okunur.'],
+ says:[{h:'Rükû Tesbihi',ar:'سُبْحَانَ رَبِّيَ الْعَظِيمِ',ok:'Sübhâne Rabbiye\'l-Azîm.',mn:'<b>Büyük</b> Rabbimi her türlü eksiklikten uzak tutarım.',note:'En az 3 kere söylemek sünnettir.'}],
+ dikkat:['Başını ne yukarı kaldır ne de aşağı sarkıt; sırtınla düz olsun.','Dizler dik olsun, bükülmesin.','Organlar yerine oturana kadar bekle; hemen kalkma (ta\'dîl-i erkân).'],
+ hikmet:[['ayet','"Ey iman edenler! Rükû edin, secde edin ve Rabbinize ibadet edin."','Hac 22/77'],
+         ['hadis','Hz. Âişe anlatır: Peygamberimiz rükû yaptığında başını ne yukarı kaldırır ne de aşağı indirirdi; ikisinin arasında, dümdüz tutardı.','Müslim, Salât'],
+         ['hadis','"Sübhâne Rabbiye\'l-Azîm" sözü rükûya şöyle yerleşti: Vâkıa sûresindeki "Büyük Rabbinin adını tesbih et" âyeti inince Peygamberimiz "Bunu rükûnuzda söyleyin" buyurdu.','Ebû Dâvûd, Salât; İbn Mâce, İkâmetü\'s-salât'],
+         ['yorum','Âlimler, rükûnun büyüklere saygı için eğilme şekli olduğunu, bu yüzden burada Allah\'ın "azîm" (en büyük) sıfatının anıldığını açıklamışlardır. Gerçek büyüklük sadece O\'na aittir.']],
+ memo:'Rükûda "AZÎM": Allah çok BÜYÜK, ben saygıyla eğiliyorum. Sırtım masa gibi düz! 📏',memoY:'Rükûda "Azîm": Büyük olan Allah\'tır; kul O\'nun huzurunda saygıyla eğilir.'},
+
+{e:'🧍‍♂️',t:'Kavme',tt:'Kavme (Rükûdan Doğrulma)',pose:'kavme',short:'Rükûdan kalkıp tam dik durmak.',
+ doing:['"Semiallâhü limen hamideh" diyerek doğrulunur.','Tam dik durulunca "Rabbenâ lekel-hamd" denir.','Eller yanlara salınır.'],
+ says:[{h:'Doğrulurken',ar:'سَمِعَ اللّٰهُ لِمَنْ حَمِدَهُ',ok:'Semiallâhü limen hamideh.',mn:'Allah, kendisine hamd edeni işitir.'},
+       {h:'Dik durunca',ar:'رَبَّنَا لَكَ الْحَمْدُ',ok:'Rabbenâ lekel-hamd.',mn:'Rabbimiz! Hamd sana mahsustur.'}],
+ dikkat:['Tam dik dur, sonra secdeye in. Yarım kalkıp secdeye gitme.','Cemaatle kılarken imam "Semiallâhü..." der, cemaat "Rabbenâ lekel-hamd" der.'],
+ hikmet:[['hadis','Peygamberimiz, imam "Semiallâhü limen hamideh" deyince "Rabbenâ lekel-hamd" demeyi öğretmiştir. Kimin sözü meleklerin sözüne denk gelirse geçmiş günahlarının bağışlanacağını bildirmiştir.','Buhârî, Ezân'],
+         ['hadis','Namazını acele kılan bir adama Peygamberimiz "Dön, tekrar kıl; çünkü sen namaz kılmadın" dedi. Sonra ona her hareketi sakinleşerek ve tam doğrularak yapmayı öğretti.','Buhârî, Ezân; Müslim, Salât']],
+ memo:'Allah seni işitiyor! Sen de "Hamd sana Rabbim!" diye cevap ver. 👂',memoY:'Allah, hamd edeni işitir; kul da "Rabbimiz, hamd sanadır" diyerek karşılık verir.'},
+
+{e:'🤲',t:'Secde',pose:'secde',short:'Alnı yere koyup Allah\'ın yüceliğini anmak. Ayrıntılar "Secde" bölümünde.',
+ doing:['"Allahu Ekber" diyerek secdeye inilir.','Önce dizler, sonra eller, sonra burun ve alın yere konur.','Eller kulak hizasında, parmaklar bitişik ve kıbleye doğru.','Ayak parmakları kıbleye doğru bükülür.','En az 3 kere tesbih okunur.'],
+ says:[{h:'Secde Tesbihi',ar:'سُبْحَانَ رَبِّيَ الْأَعْلٰى',ok:'Sübhâne Rabbiye\'l-A\'lâ.',mn:'<b>En yüce</b> Rabbimi her türlü eksiklikten uzak tutarım.',note:'En az 3 kere söylemek sünnettir.'}],
+ dikkat:['Yedi organ yere değmeli: alın (burunla birlikte), iki el, iki diz, iki ayağın parmakları.','Kollarını yere yayma.','Erkekler kollarını yanlardan, karnını uyluklardan ayırır; kadınlar toplu durur.','Acele etme, sakinleşene kadar dur.'],
+ hikmet:[['ayet','"Secde et ve yaklaş."','Alak 96/19'],
+         ['hadis','"Kulun Rabbine en yakın olduğu an, secdede olduğu andır."','Müslim, Salât'],
+         ['hadis','A\'lâ sûresinin ilk âyeti inince Peygamberimiz "Bunu secdenizde söyleyin" buyurdu.','Ebû Dâvûd, Salât; İbn Mâce, İkâmetü\'s-salât'],
+         ['yorum','Âlimler şöyle açıklar: İnsan secdede en alçak hâldedir; bu yüzden en uygun söz, Allah\'ın "en yüce" olduğunu söylemektir.']],
+ memo:'Alnım yerde ⬇️ Rabbim en yüce ⬆️ Ve ben O\'na en yakınım! 💛',memoY:'Alın yerde, dil "en yüce Rabbim" der; kul bu anda Rabbine en yakındır.',secdeLink:true},
+
+{e:'🧎',t:'Celse',tt:'Celse (İki Secde Arası)',pose:'celse',short:'İki secde arasında kısa bir oturuş.',
+ doing:['"Allahu Ekber" diyerek secdeden başı kaldırıp oturulur.','Eller uylukların üzerine konur.','Bir "Sübhânallah" diyecek kadar oturulur, sonra "Allahu Ekber" ile ikinci secdeye gidilir.'],
+ says:[{h:'Söylenebilecek dua',ar:'رَبِّ اغْفِرْ لِي',ok:'Rabbiğfirlî.',mn:'Rabbim, beni bağışla.',note:'Peygamberimizin iki secde arasında "Rabbiğfirlî" dediği rivayet edilmiştir (Ebû Dâvûd, Salât; İbn Mâce, İkâmetü\'s-salât). Hanefîlere göre bu özellikle nafile namazlarda güzeldir.'}],
+ dikkat:['Başını kaldırıp hemen yere geri koyma; önce tam otur.','Oturuşta sakin ol, sonra ikinci secdeye git.'],
+ hikmet:[['hadis','Namazını acele kılan adama Peygamberimiz, secdeden kalkıp oturuşta sakinleşmesini de öğretmiştir.','Buhârî, Ezân; Müslim, Salât'],
+         ['hadis','"Hırsızlığın en kötüsü, namazından çalandır." Sahâbe "Namazdan nasıl çalınır?" diye sorunca Peygamberimiz "Rükûsunu ve secdesini tam yapmamaktır" buyurdu.','Muvatta, Kasru\'s-salât; Ahmed b. Hanbel, Müsned']],
+ memo:'Celse bir "mola" değil, bir basamak: Otur, sakinleş, bağışlanma dile. 🌿',memoY:'Celse bir ara değil, namazın bir parçasıdır: Tam otur, sükûnet bul, bağışlanma dile.'},
+
+{e:'🤲',t:'2. Secde',tt:'İkinci Secde',pose:'secde',short:'Birinci secde gibi tekrar secdeye kapanmak.',
+ doing:['"Allahu Ekber" diyerek tekrar secdeye inilir.','Birinci secdedeki gibi yapılır ve en az 3 kere tesbih söylenir.','Sonra "Allahu Ekber" ile ya ayağa kalkılır ya da oturulur.'],
+ says:[{h:'Secde Tesbihi',ar:'سُبْحَانَ رَبِّيَ الْأَعْلٰى',ok:'Sübhâne Rabbiye\'l-A\'lâ.',mn:'En yüce Rabbimi her türlü eksiklikten uzak tutarım.'}],
+ dikkat:['Her rekâtta iki secde vardır; ikisi de farzdır.','Ayağa kalkarken önce alın, sonra eller, sonra dizler yerden kaldırılır.'],
+ hikmet:[['hadis','Allah için yapılan her secde ile Allah kulunu bir derece yükseltir ve bir günahını siler.','Müslim, Salât'],
+         ['yorum','Neden iki secde? Asıl sebep Peygamberimizin böyle kılmasıdır. Bazı âlimler, "Sizi topraktan yarattık, oraya döndüreceğiz ve bir kez daha oradan çıkaracağız" âyetine işaret etmiştir: İlk secde yaratılışı, ikincisi toprağa dönüşü hatırlatır.','Tâhâ 20/55']],
+ memo:'Bir rekâtta 1 rükû + 2 secde var. "Bir eğil, iki kapan!" ✌️',memoY:'Her rekâtta bir rükû ve iki secde vardır; ikisi de aynı huşû ile yapılır.'},
+
+{e:'🧎‍♂️',t:'Oturuş',tt:'Ka\'de (Oturuş)',pose:'kade',short:'İkinci ve son rekâtlarda oturup dua etmek.',
+ doing:['Erkekler sol ayağını yatırıp üzerine oturur, sağ ayağını dik tutar, parmakları kıbleye bakar.','Kadınlar ayaklarını sağ tarafa çıkarıp yere oturur.','Eller uylukların üzerinde, parmak uçları diz hizasında olur.','İlk oturuşta sadece Tahiyyat, son oturuşta Tahiyyat, Salli, Bârik ve Rabbenâ duaları okunur.'],
+ says:[
+  {h:'Tahiyyat',sub:'Ettehiyyâtü',ar:'اَلتَّحِيَّاتُ لِلّٰهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، اَلسَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللّٰهِ وَبَرَكَاتُهُ، اَلسَّلَامُ عَلَيْنَا وَعَلٰى عِبَادِ اللّٰهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلٰهَ إِلَّا اللّٰهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ',ok:'Ettehiyyâtü lillâhi vessalevâtü vettayyibât. Esselâmü aleyke eyyühen-nebiyyü ve rahmetullâhi ve berekâtüh. Esselâmü aleynâ ve alâ ibâdillâhis-sâlihîn. Eşhedü en lâ ilâhe illallâh ve eşhedü enne Muhammeden abdühû ve rasûlüh.',mn:'Her türlü saygı, dua ve güzel sözler Allah\'a aittir. Ey Peygamber! Selam, Allah\'ın rahmeti ve bereketi senin üzerine olsun. Selam bizim ve Allah\'ın bütün iyi kullarının üzerine olsun. Şahitlik ederim ki Allah\'tan başka ilah yoktur; yine şahitlik ederim ki Muhammed O\'nun kulu ve elçisidir.'},
+  {h:'Salli',ar:'اَللّٰهُمَّ صَلِّ عَلٰى مُحَمَّدٍ وَعَلٰى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلٰى إِبْرَاهِيمَ وَعَلٰى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ',ok:'Allâhümme salli alâ Muhammedin ve alâ âli Muhammed, kemâ salleyte alâ İbrâhîme ve alâ âli İbrâhîm, inneke hamîdün mecîd.',mn:'Allah\'ım! İbrâhim\'e ve ailesine rahmet ettiğin gibi, Muhammed\'e ve ailesine de rahmet et. Şüphesiz sen övülmeye layıksın, şanı yüce olansın.'},
+  {h:'Bârik',ar:'اَللّٰهُمَّ بَارِكْ عَلٰى مُحَمَّدٍ وَعَلٰى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلٰى إِبْرَاهِيمَ وَعَلٰى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ',ok:'Allâhümme bârik alâ Muhammedin ve alâ âli Muhammed, kemâ bârakte alâ İbrâhîme ve alâ âli İbrâhîm, inneke hamîdün mecîd.',mn:'Allah\'ım! İbrâhim\'e ve ailesine bereket verdiğin gibi, Muhammed\'e ve ailesine de bereket ver. Şüphesiz sen övülmeye layıksın, şanı yüce olansın.'},
+  {h:'Rabbenâ Âtinâ',ar:'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ',ok:'Rabbenâ âtinâ fid-dünyâ haseneten ve fil-âhirati haseneten ve kınâ azâben-nâr.',mn:'Rabbimiz! Bize dünyada da iyilik ver, âhirette de iyilik ver ve bizi cehennem azabından koru.',note:'Bakara 2/201'},
+  {h:'Rabbenağfirlî',ar:'رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ',ok:'Rabbenağfirlî ve li-vâlideyye ve lil-mü\'minîne yevme yekûmül-hisâb.',mn:'Rabbimiz! Hesap gününde beni, annemi, babamı ve bütün mü\'minleri bağışla.',note:'İbrâhim 14/41: Hz. İbrâhim\'in duası.'}],
+ dikkat:['Son oturuşta Tahiyyat okuyacak kadar oturmak farzdır.','3-4 rekâtlı namazların ilk oturuşunda Tahiyyattan sonra hemen kalkılır.','Oturuşta gözler kucağa bakar.'],
+ hikmet:[['hadis','İbn Mes\'ûd anlatır: Peygamberimiz Tahiyyatı ona, Kur\'an\'dan bir sure öğretir gibi, eli elinin içindeyken öğretti.','Buhârî, İsti\'zân; Müslim, Salât'],
+         ['hadis','"Esselâmü aleynâ ve alâ ibâdillâhis-sâlihîn" dediğinde bu selam, gökte ve yerde Allah\'ın bütün iyi kullarına ulaşır. Tek başına kılan kişi de bütün salih kullara selam vermiş olur.','Buhârî, Ezân; Müslim, Salât'],
+         ['ayet','"Allah ve melekleri Peygamber\'e salât eder. Ey iman edenler! Siz de ona salât ve selam getirin." Salli ve Bârik bu emre uymaktır.','Ahzâb 33/56'],
+         ['hadis','Sahâbîler "Sana nasıl salavat getirelim?" diye sorunca Peygamberimiz onlara Salli ve Bârik dualarını öğretti.','Buhârî, Enbiyâ; Müslim, Salât']],
+ memo:'Tahiyyat = Allah\'a saygı + Peygamberimize selam + bütün iyilere selam + şahadet. 🎁',memoY:'Tahiyyat: Allah\'a tazim, Peygamberimize selam, bütün salih kullara selam ve şehadet.'},
+
+{e:'👋',t:'Selam',pose:'selam',short:'Önce sağa, sonra sola selam vererek namazı bitirmek.',
+ doing:['Baş önce sağa çevrilir, göz omuza bakar ve selam verilir.','Sonra sola çevrilir ve yine selam verilir.','Namaz böylece tamamlanır.'],
+ says:[{h:'Selam',ar:'اَلسَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللّٰهِ',ok:'Esselâmü aleyküm ve rahmetullâh.',mn:'Selam ve Allah\'ın rahmeti üzerinize olsun.'}],
+ dikkat:['Selam, başı çevirerek verilir; göz omuza bakar.','Selamdan sonra hemen kalkmayıp tesbihat yapmak güzeldir.'],
+ hikmet:[['hadis','Peygamberimiz namazın bitişinin (tahlîl) selam olduğunu bildirmiştir. Tekbirle kapanan kapı, selamla açılır.','Tirmizî, Tahâret; Ebû Dâvûd, Tahâret'],
+         ['yorum','Hanefî âlimler, selam verirken sağdaki ve soldaki meleklere ve cemaatteki kardeşlere selam vermeye niyet etmeyi tavsiye etmişlerdir. Rabbimizin huzurundan herkese barış ve rahmet dileyerek çıkıyoruz.'],
+         ['ayet','"Namaz, insanı hayâsızlıktan ve kötülükten alıkoyar." Namaz biter ama güzel etkisi gün boyu sürer.','Ankebût 29/45']],
+ memo:'Selam = "Namaz bitti, iyilik başladı!" Sağa selam, sola selam, herkese rahmet. 🕊️',memoY:'Namaz selamla tamamlanır; kul huzurdan herkese esenlik ve rahmet dileyerek ayrılır.'}
+];
+const FATIHA=[
+ {ar:'اَلْحَمْدُ لِلّٰهِ رَبِّ الْعَالَمِينَ',ok:'Elhamdü lillâhi rabbil-âlemîn.',mn:'Hamd, âlemlerin Rabbi Allah\'a mahsustur.',c:'Kulum bana hamd etti.'},
+ {ar:'اَلرَّحْمٰنِ الرَّحِيمِ',ok:'Er-rahmânir-rahîm.',mn:'O, Rahmân\'dır ve Rahîm\'dir (çok merhametlidir).',c:'Kulum beni övdü.'},
+ {ar:'مَالِكِ يَوْمِ الدِّينِ',ok:'Mâliki yevmid-dîn.',mn:'Hesap gününün sahibidir.',c:'Kulum beni yüceltti.'},
+ {ar:'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ',ok:'İyyâke na\'büdü ve iyyâke neste\'în.',mn:'Yalnız sana ibadet eder, yalnız senden yardım isteriz.',c:'Bu benimle kulum arasındadır; kuluma istediği verilecektir.'},
+ {ar:'اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ۝ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ',ok:'İhdinas-sırâtal-müstakîm. Sırâtallezîne en\'amte aleyhim ğayril-mağdûbi aleyhim veled-dâllîn.',mn:'Bizi doğru yola ilet; nimet verdiklerinin yoluna. Gazaba uğrayanların ve yolunu kaybedenlerin yoluna değil.',c:'Bu kulumundur; kuluma istediği verilecektir.'}
+];
+
+/* adım → kartlar */
+const GROUPS={
+ adim:[['hareket','Hareket'],['soz','Okunuş'],['dikkat','Dikkat'],['hikmet','Hikmet'],['memo','Özet']],
+ nafile:[['tanim','Tanım'],['delil','Deliller'],['nasil','Uygulama']]
+};
+function sayCard(s,i,n){
+  return `${kick('Okunuş'+(n>1?` · ${i+1}/${n}`:''))}<h3>${s.h}</h3>${s.sub?`<p class="soft" style="margin:-6px 0 8px">${s.sub}</p>`:''}
+   ${s.ar?`<div class="ar">${s.ar}</div>`:''}<div class="okunus">${s.ok}</div>
+   <div class="mean"><span class="lb">Anlamı</span>${s.mn}</div>${s.note?`<p class="note">${s.note}</p>`:''}`;
+}
+function stepSlides(k){
+  const s=STEPS[k], out=[];
+  out.push({g:'hareket',label:'Hareket',cls:'hero',html:`${kick(`${k+1}. durak`)}<div class="pose">${fig(s.pose)}</div><h2>${emo(s.e)}${s.tt||s.t}</h2><p class="lead">${s.short}</p>`});
+  out.push({g:'hareket',label:'Ne yapıyoruz?',html:`${kick('Hareket')}<div class="pose sm">${fig(s.pose)}</div><h3>Ne yapıyoruz?</h3><ul class="list">${s.doing.map(d=>`<li>${d}</li>`).join('')}</ul>`});
+  const says=[]; s.says.forEach(x=>{ if(x.fatiha){ FATIHA.forEach((v,j)=>says.push({fat:v,j})) } else says.push(x) });
+  says.forEach((x,i)=>{
+    if(x.fat){ const v=x.fat;
+      out.push({g:'soz',label:`Fâtiha ${x.j+1}/${FATIHA.length}`,html:`${kick(`Fâtiha · ${x.j+1}/${FATIHA.length}`)}<div class="ar">${v.ar}</div><div class="okunus">${v.ok}</div><div class="mean"><span class="lb">Anlamı</span>${v.mn}</div>
+        <div class="ans"><span class="lb">Kudsî hadiste karşılığı</span>"${v.c}"</div>
+        ${x.j===FATIHA.length-1?'<p class="note">Karşılıklar kudsî hadisten alınmıştır (Müslim, Salât). Son âyetlerin karşılığı birlikte verilmiştir.</p>':''}`});
+    } else out.push({g:'soz',label:x.h,html:sayCard(x,i,says.length)});
+  });
+  out.push({g:'dikkat',label:'Dikkat',html:`${kick('Dikkat')}<h3>Nelere dikkat ediyoruz?</h3><ul class="list warn">${s.dikkat.map(d=>`<li>${d}</li>`).join('')}</ul>`});
+  s.hikmet.forEach((h,i)=>out.push({g:'hikmet',label:`Hikmet ${i+1}/${s.hikmet.length}`,html:`${kick(`Hikmet · ${i+1}/${s.hikmet.length}`)}${hk(h[0],h[1],h[2])}`}));
+  out.push({g:'memo',label:T('Akılda kalsın','Özet'),cls:'memo',html:`${kick(T('Akılda kalsın','Özetle'))}<blockquote class="quote">${T(s.memo,s.memoY)}</blockquote>
+    ${s.secdeLink?`<div class="btns"><button class="btn alt" data-go="secde">${ic('sajda')}Secde bölümüne git</button></div>`:''}
+    <p class="note">${k<STEPS.length-1?`Sıradaki durak: <b>${STEPS[k+1].tt||STEPS[k+1].t}</b>`:T('Namazın bütün duraklarını tamamladın!','Namazın bütün duraklarını tamamladınız.')}</p>`});
+  return out;
+}
+
+/* =========================================================
+   SECDE
+   ========================================================= */
+const ORGANS=[
+ {k:'alin',n:'Alın ve burun',x:124,y:149,c:'var(--gold)',d:'Alın ve burun birlikte yere konur. Bedenin en değerli yeri en aşağıdadır.'},
+ {k:'el',n:'İki el',x:112,y:149,c:'var(--emerald)',d:'Eller kulak hizasında, parmaklar bitişik ve kıbleye doğru.'},
+ {k:'diz',n:'İki diz',x:62,y:149,c:'var(--yorum)',d:'Secdeye inerken önce dizler yere konur.'},
+ {k:'ayak',n:'İki ayağın parmakları',x:31,y:142,c:'var(--danger)',d:'Ayak parmakları kıbleye doğru bükülür ve yerden kalkmaz.'}
+];
+const NEDEN=[
+ ['ayet','"<b>Secde et ve yaklaş.</b>" Secde, Allah\'a yaklaşmanın yoludur.','Alak 96/19'],
+ ['hadis','"Kulun Rabbine <b>en yakın olduğu an</b>, secdede olduğu andır. (Secdede) duayı çoğaltın."','Müslim, Salât'],
+ ['hadis','Allah için yapılan her secde ile Allah kulunu bir derece yükseltir ve bir günahını siler.','Müslim, Salât'],
+ ['ayet','Yalnızca insan değil; Kur\'an\'a göre yıldızlar ve ağaçlar da Allah\'a secde eder. Secde eden kul, bütün varlıkla aynı safta yer alır.','Rahmân 55/6; Hac 22/18'],
+ ['ayet','İblis, Allah\'ın emrine rağmen kibirlendi ve secde etmedi. Âlimler bu yüzden secdeyi <b>kibrin ilacı ve tevazunun en güzel hâli</b> olarak açıklamışlardır.','Bakara 2/34 · Âlimlerin açıklaması'],
+ ['yorum','Neden iki secde? Asıl sebep Peygamberimizin böyle öğretmesidir. Bazı âlimler "Sizi topraktan yarattık, oraya döndüreceğiz ve bir kez daha oradan çıkaracağız" âyetine işaret eder: İlk secde yaratılışı, kalkış dünyadaki hayatı, ikinci secde toprağa dönüşü hatırlatır.','Tâhâ 20/55']
+];
+const SECDE=()=>[
+ {cls:'hero',label:'Giriş',html:`${kick('Secde')}<h2>${emo('🤲')}Namazın en özel <em>anı</em></h2>
+   <p class="lead">Neden yere kapanıyoruz, nelere dikkat ediyoruz ve neden "Sübhâne Rabbiye'l-A'lâ" diyoruz?</p>
+   <div class="contrast"><div>${ic('down')}<b>Kul</b>En değerli uzvu olan alnını en aşağıya, yere koyar.</div><div>${ic('star')}<b>Rab</b>"el-A'lâ": en yüce olan, her şeyin üstünde.</div></div>`},
+ {label:'Kelime kelime',html:`${kick('Kelime kelime')}<h3>Sübhâne Rabbiye'l-A'lâ</h3>
+   <div class="words">
+    <div class="word"><div class="ar">سُبْحَانَ</div><div><b>Sübhâne</b><small>Her türlü eksikten uzaktır, tertemizdir</small></div></div>
+    <div class="word"><div class="ar">رَبِّيَ</div><div><b>Rabbiye</b><small>Benim Rabbim</small></div></div>
+    <div class="word"><div class="ar">الْأَعْلٰى</div><div><b>el-A'lâ</b><small>En yüce olan</small></div></div>
+   </div><div class="mean" style="margin-top:0"><span class="lb">Anlamı</span>En yüce Rabbimi her türlü eksiklikten uzak tutarım.</div>`},
+ {label:'Neden bu söz? 1/3',html:`${kick('Neden tam bu söz? · 1/3')}${hk('ayet','Vâkıa sûresinin son âyetinde Allah "<b>Fe-sebbih bismi rabbike\'l-azîm</b>" (Büyük Rabbinin adını tesbih et) buyurur. A\'lâ sûresinin ilk âyeti ise "<b>Sebbihisme rabbike\'l-a\'lâ</b>" (En yüce Rabbinin adını tesbih et) şeklindedir.','Vâkıa 56/74, 96; A\'lâ 87/1')}`},
+ {label:'Neden bu söz? 2/3',html:`${kick('Neden tam bu söz? · 2/3')}${hk('hadis','Sahâbî Ukbe b. Âmir anlatır: Vâkıa\'daki âyet inince Peygamberimiz "<b>Bunu rükûnuzda söyleyin</b>" dedi. A\'lâ sûresinin ilk âyeti inince de "<b>Bunu secdenizde söyleyin</b>" buyurdu.','Ebû Dâvûd, Salât; İbn Mâce, İkâmetü\'s-salât')}`},
+ {label:'Neden bu söz? 3/3',html:`${kick('Neden tam bu söz? · 3/3')}${hk('yorum','Âlimler şu inceliğe dikkat çekmiştir: Rükû, büyüğe saygıyla eğilmektir; bu yüzden orada Allah\'ın <b>büyüklüğü</b> (azîm) anılır. Secdede ise insan bedenen en alçak hâldedir; bu yüzden orada Allah\'ın <b>en yüce</b> (a\'lâ) oluşu dile getirilir. Kul ne kadar alçalırsa, Rabbinin yüceliğini o kadar iyi hisseder.')}`},
+ {label:'Başka söz? 1/2',html:`${kick('Neden başka bir şey demiyoruz? · 1/2')}${hk('hadis','Peygamberimiz "<b>Beni nasıl namaz kılarken görüyorsanız, siz de öyle kılın</b>" buyurmuştur. Namazın hareketleri ve sözleri bize Peygamberimiz tarafından öğretilmiştir; kendimizce değiştirmeyiz. Bu tesbih doğrudan Kur\'an\'dan alınmıştır ve Peygamberimiz onu secde için özel olarak seçmiştir. En az 3 kere söylemek sünnettir.','Buhârî, Ezân')}`},
+ {label:'Başka söz? 2/2',html:`${kick('Neden başka bir şey demiyoruz? · 2/2')}${hk('hadis','Peygamberimiz secdede duanın çok yapılmasını da tavsiye etmiştir. Hanefî âlimler, farz namazlarda secdede bu tesbihle yetinmeyi; nafile namazlarda ise tesbihten sonra ayrıca dua etmeyi uygun görmüştür.','Müslim, Salât · Hanefî âlimlerin açıklaması')}`},
+ ...NEDEN.map((h,i)=>({label:`Neden secde? ${i+1}/${NEDEN.length}`,html:`${kick(`Neden secdeye kapanıyoruz? · ${i+1}/${NEDEN.length}`)}${hk(h[0],h[1],h[2])}`})),
+ {label:'Yedi uzuv',html:`${kick('Yedi uzuv')}<h3>Secdede yere değen uzuvlar</h3>
+   <svg class="organ-svg" viewBox="0 0 160 170" aria-label="Secde pozisyonu">${POSES.secde}${ORGANS.map(o=>`<circle class="dot" data-organ="${o.k}" cx="${o.x}" cy="${o.y}" r="8" style="fill:${o.c}"/>`).join('')}</svg>
+   <div class="organ-info" id="organInfo">${T('Renkli noktalara ya da düğmelere dokun!','Noktalara ya da aşağıdaki düğmelere dokunun.')}</div>
+   <div class="chips">${ORGANS.map(o=>`<button data-organ="${o.k}">${o.n}</button>`).join('')}</div>
+   <p class="note"><b>Hadis:</b> Peygamberimiz yedi uzuv üzerine secde etmekle emrolunduğunu söyledi: alın (burnunu da işaret ederek), iki el, iki diz ve iki ayağın parmak uçları. <b>(Buhârî, Ezân; Müslim, Salât)</b></p>`},
+ {label:'Doğru secde',html:`${kick('Uygulama')}<h3>Doğru secde</h3><ul class="list">
+   <li>Önce dizler, sonra eller, sonra burun ve alın yere konur.</li><li>Alın ve burun birlikte yere değer.</li><li>Eller kulak hizasında, parmaklar bitişik ve kıbleye doğru.</li><li>Ayak parmakları kıbleye doğru bükülür, yerden kalkmaz.</li><li>Erkekler kollarını yanlarından, karnını uyluklarından ayırır; kadınlar toplu durur.</li><li>En az 3 kere "Sübhâne Rabbiye'l-A'lâ" denir.</li><li>Acele etmeden, organlar yerleşip sakinleşene kadar durulur.</li></ul>`},
+ {label:'Kaçınılacaklar',html:`${kick('Dikkat')}<h3>Kaçınılması gerekenler</h3><ul class="list warn">
+   <li>Kolları dirseklere kadar yere yaymak. Peygamberimiz bunu yasaklamıştır. <span class="soft">(Buhârî, Ezân; Müslim, Salât)</span></li><li>Ayakları yerden kaldırmak.</li><li>Alnı yere değdirip hemen kalkmak.</li><li>Secdede etrafa bakmak veya kıpırdanmak.</li><li>Secde yerini üflemek ya da onunla oynamak.</li></ul>`},
+ {cls:'memo',label:T('Akılda kalsın','Özet'),html:`${kick(T('Akılda kalsın','Özetle'))}<blockquote class="quote">Eğilince <b>Azîm</b> (büyük), yere inince <b>A'lâ</b> (en yüce)${T('!','.')}</blockquote><blockquote class="quote">${T('Ben ne kadar aşağıdaysam, Rabbim o kadar yüce!','Kul ne kadar alçalırsa, Rabbinin yüceliğini o kadar iyi hisseder.')}</blockquote>
+   <div class="btns"><button class="btn alt" data-go="vakit">${ic('clock')}Vakitlere geç</button></div>`}
+];
+const found=new Set();
+document.addEventListener('click',e=>{
+  const o=e.target.closest('[data-organ]'); if(!o) return;
+  const g=ORGANS.find(x=>x.k===o.dataset.organ); found.add(g.k);
+  document.querySelectorAll('.organ-svg .dot').forEach(d=>d.classList.toggle('on',d.dataset.organ===g.k));
+  document.querySelectorAll('.chips [data-organ]').forEach(b=>b.classList.toggle('on',found.has(b.dataset.organ)));
+  $('organInfo').innerHTML=`<b>${g.n}:</b> ${g.d}`+(found.size===ORGANS.length?'<br>1 alın + 2 el + 2 diz + 2 ayak = <b>7 uzuv</b>':'');
+});
+
+/* =========================================================
+   VAKİTLER
+   ========================================================= */
+const VAKIT=[
+ {n:'Sabah',i:'sunrise',p:[['Sünnet','s',2],['Farz','f',2]]},
+ {n:'Öğle',i:'noon',p:[['İlk sünnet','s',4],['Farz','f',4],['Son sünnet','s',2]]},
+ {n:'İkindi',i:'afternoon',p:[['Sünnet','s',4],['Farz','f',4]]},
+ {n:'Akşam',i:'sunset',p:[['Farz','f',3],['Sünnet','s',2]]},
+ {n:'Yatsı',i:'night',p:[['İlk sünnet','s',4],['Farz','f',4],['Son sünnet','s',2],['Vitir','v',3]]}
+];
+const rk=c=>VAKIT.reduce((a,v)=>a+v.p.filter(x=>x[1]===c).reduce((b,x)=>b+x[2],0),0);
+const farzOf=v=>v.p.find(x=>x[1]==='f')[2];
+const VAKITS=()=>[
+ {label:'Rekât çizelgesi',html:`${kick('Beş vakit')}<h2>${emo('⏰')}Günün namazları</h2>
+   <div class="totals"><div class="k-f"><b>${rk('f')}</b><span>Farz</span></div><div class="k-s"><b>${rk('s')}</b><span>Sünnet</span></div><div class="k-v"><b>${rk('v')}</b><span>Vitir · vâcip</span></div></div>
+   <div class="vakits">${VAKIT.map(v=>{let j=0;return `<div class="vrow"><span class="vi">${ic(v.i)}</span><h4>${v.n}</h4><span class="vt">${v.p.reduce((a,x)=>a+x[2],0)} rekât</span>
+     <div class="vbeads">${v.p.map(([l,c,n])=>`<span class="k-${c}">${Array.from({length:n},()=>`<i style="--j:${j++}"></i>`).join('')}</span>`).join('')}</div>
+     <p class="vcap">${v.p.map(([l,c,n])=>`<span class="k-${c}">${n} ${l.toLocaleLowerCase('tr')}</span>`).join(' · ')}</p></div>`}).join('')}</div>`},
+ {label:'17 rekât farz',html:`${kick('Farzlar')}<h2>Günde on yedi rekât farz</h2>
+   <div class="cols">${VAKIT.map((v,j)=>`<div><b>${farzOf(v)}</b><i style="--v:${farzOf(v)};--j:${j}"></i></div>`).join('')}</div>
+   <div class="colnames">${VAKIT.map(v=>`<span>${v.n}</span>`).join('')}</div>
+   <p class="sum">${VAKIT.map(farzOf).join(' + ')} = <b>${rk('f')}</b></p>
+   <p class="note">Sünnetler ve vitirle birlikte günde ${rk('f')+rk('s')+rk('v')} rekât; her gün onlarca kez Rabbimizin huzurunda rükû ve secde ediyoruz.</p>`},
+ {label:'Dinin direği',html:`${kick('Dinin direği')}${hk('hadis','Peygamberimiz işin başının İslâm, direğinin ise <b>namaz</b> olduğunu söylemiştir. Direk olmadan çadır ayakta durmaz.','Tirmizî, Îmân')}
+   <div class="btns"><button class="btn alt" data-go="nafile">${ic('nafile')}Nafile namazlara geç</button></div>`}
+];
+
+/* =========================================================
+   NAFİLE NAMAZLAR
+   Yalnızca Kur'an âyetleri ile Buhârî ve Müslim'de yer alan hadisler delil gösterilmiştir.
+   ========================================================= */
+const NAFILE=[
+{e:'✨',t:'Genel',tt:'Nafile Namazlar',short:'Farz ve vâciplerin dışında, Allah\'a yakınlaşmak için gönüllü olarak kılınan namazlar.',
+ facts:[['Anlamı','Nafile: fazladan, gönüllü yapılan ibadet.'],['Hükmü','Kılana sevap vardır; terk eden günaha girmez.']],
+ tanim:[`${kick('Tanım')}<h3>İki grup nafile</h3><ul class="list"><li><b>Revâtib:</b> Beş vakit farz namazla birlikte, onlardan önce veya sonra kılınan sünnetler.</li><li><b>Regāib:</b> Belirli bir farza bağlı olmayan; teheccüd, kuşluk, tahiyyetü'l-mescid gibi çeşitli vesilelerle kılınan namazlar.</li></ul><p class="note"><b>Âlimlerin açıklaması.</b> Bu bölümde her namazın delili, Kur'an âyetleri ile Buhârî ve Müslim'de yer alan hadislerden gösterilmiştir.</p>`],
+ delil:[['hadis','Allah Teâlâ buyurur: "Kulum bana, ona farz kıldığım şeylerden daha sevimli bir şeyle yaklaşmış olmaz. Kulum bana <b>nafilelerle yaklaşmaya devam eder</b>; sonunda onu severim."','Kudsî hadis · Buhârî, Rikâk'],
+        ['hadis','Rebîa b. Kâ\'b, cennette Peygamberimizle birlikte olmayı isteyince Peygamberimiz ona şöyle buyurdu: "Öyleyse <b>çok secde ederek</b> bana yardımcı ol."','Müslim, Salât'],
+        ['hadis','"Amellerin Allah\'a en sevimlisi, <b>az da olsa devamlı olanıdır</b>."','Buhârî, Rikâk; Müslim, Müsâfirîn'],
+        ['hadis','"Kişinin en faziletli namazı, farz namazlar dışında, <b>evinde kıldığı namazdır</b>."','Buhârî, Ezân; Müslim, Müsâfirîn']],
+ nasil:['Niyet ederken "Allah rızası için namaz kılmaya" demek yeterlidir; kılınan nafilenin adı da anılabilir.','Nafile namazlar iki veya dört rekât hâlinde kılınır.','Her rekâtta Fâtiha\'dan sonra bir sure veya birkaç âyet okunur.','Az da olsa devamlı olanı tercih edilir.'],
+ extra:[`${kick('Uygulama')}<h3>Nafile kılınmayan vakitler</h3>${hk('hadis','"Sabah namazından sonra güneş yükselinceye kadar, ikindi namazından sonra da güneş batıncaya kadar namaz yoktur."','Buhârî, Mevâkît; Müslim, Müsâfirîn')}`,
+        `${kick('Uygulama')}${hk('hadis','Ukbe b. Âmir anlatır: Resûlullah üç vakitte namaz kılmamızı yasaklardı: Güneş doğarken yükselinceye kadar, tam tepedeyken batıya kayıncaya kadar ve batmaya yönelip batıncaya kadar.','Müslim, Müsâfirîn')}`]},
+
+{e:'🌙',t:'Teheccüd',tt:'Teheccüd',sub:'Gece namazı',short:'Yatsıdan sonra bir süre uyuyup kalkarak kılınan gece namazı. Kur\'an\'da adıyla anılır.',
+ facts:[['Vakit','Yatsıdan sonra, imsaktan önce. En faziletlisi gecenin son üçte biridir.'],['Rekât','En az iki; ikişer rekât hâlinde kılınır.']],
+ delil:[['ayet','"Gecenin bir kısmında, sana özgü bir nafile olarak <b>teheccüd namazı kıl</b>. Umulur ki Rabbin seni övülmüş bir makama ulaştırır."','İsrâ 17/79'],
+        ['ayet','"Birazı hariç, geceleyin kalk. Gecenin yarısında, ya da ondan biraz eksilt veya ona ekle. Kur\'an\'ı da ağır ağır oku."','Müzzemmil 73/2-4'],
+        ['ayet','"Geceleri pek az uyurlardı. Seher vakitlerinde de bağışlanma dilerlerdi."','Zâriyât 51/17-18'],
+        ['hadis','"Farz namazdan sonra <b>en faziletli namaz gece namazıdır</b>."','Müslim, Sıyâm'],
+        ['hadis','"Rabbimiz her gece, gecenin son üçte biri kaldığında şöyle buyurur: Bana dua eden yok mu, duasına karşılık vereyim; benden isteyen yok mu, ona vereyim; benden bağışlanma dileyen yok mu, onu bağışlayayım."','Buhârî, Teheccüd; Müslim, Müsâfirîn'],
+        ['hadis','Hz. Âişe\'nin bildirdiğine göre Peygamberimiz\'in gece namazı, Ramazan\'da da başka zamanlarda da vitirle birlikte on bir rekâtı geçmezdi.','Buhârî, Teheccüd; Müslim, Müsâfirîn']],
+ nasil:['Yatsı namazı kılındıktan sonra uyunur; gecenin bir bölümünde kalkılır.','İkişer rekât hâlinde kılınır. Peygamberimiz "Gece namazı ikişer ikişerdir" buyurmuştur. <span class="soft">(Buhârî, Vitr; Müslim, Müsâfirîn)</span>','Gece kalkacağından emin olan vitri teheccüdden sonraya bırakabilir; kalkamamaktan endişe eden, yatmadan önce kılar. <span class="soft">(Müslim, Müsâfirîn)</span>']},
+
+{e:'🕰️',t:'Sünnetler',tt:'Vakit Sünnetleri',sub:'Revâtib',short:'Beş vakit namazın farzlarından önce veya sonra kılınan sünnetler.',
+ facts:[['Vakit','Her biri, bağlı olduğu farzın vaktinde.'],['Rekât','Günde yirmi rekât; on ikisi müekked sünnettir.']],
+ tanim:[`${kick('Tanım')}<h3>Hangi vakitte kaç rekât?</h3><ul class="rtable"><li><b>Sabah</b><span>Farzdan önce 2</span></li><li><b>Öğle</b><span>Farzdan önce 4, sonra 2</span></li><li><b>İkindi</b><span>Farzdan önce 4 <em>(gayr-i müekked)</em></span></li><li><b>Akşam</b><span>Farzdan sonra 2</span></li><li><b>Yatsı</b><span>Farzdan önce 4 <em>(gayr-i müekked)</em>, sonra 2</span></li></ul><p class="note"><b>Hanefî uygulaması.</b> Müekked olanlar: sabah 2, öğle 4 + 2, akşam 2, yatsının son 2 rekâtı.</p>`],
+ delil:[['hadis','"Müslüman bir kul, Allah için her gün farzların dışında <b>on iki rekât</b> nafile namaz kılarsa, Allah ona cennette bir ev bina eder."','Müslim, Müsâfirîn'],
+        ['hadis','"Sabah namazının iki rekât sünneti, <b>dünyadan ve dünyadaki her şeyden daha hayırlıdır</b>."','Müslim, Müsâfirîn'],
+        ['hadis','Hz. Âişe anlatır: Peygamberimiz nafilelerden hiçbirine, sabah namazının iki rekât sünnetine gösterdiği özeni göstermezdi.','Buhârî, Teheccüd; Müslim, Müsâfirîn'],
+        ['hadis','Hz. Âişe anlatır: Peygamberimiz öğleden önce dört rekâtı ve sabah namazından önce iki rekâtı bırakmazdı.','Buhârî, Teheccüd']],
+ nasil:['Her sünnet, bağlı olduğu farzın vaktinde ve yukarıdaki sırayla kılınır.','Sünnetlerin her rekâtında Fâtiha\'dan sonra bir sure okunur.','İkindinin ve yatsının ilk sünnetinde, ilk oturuşta Tahiyyat\'tan sonra Salli ve Bârik de okunur; üçüncü rekâta Sübhâneke ile başlanır. <span class="soft">(Hanefî uygulaması)</span>']},
+
+{e:'☀️',t:'Kuşluk',tt:'Kuşluk Namazı',sub:'Duhâ',short:'Güneş doğup yükseldikten sonra, öğle vaktine kadar kılınan nafile namaz.',
+ facts:[['Vakit','Güneşin doğuşundan yaklaşık 45 dakika sonra başlar, öğleye yakın sona erer.'],['Rekât','İki, dört veya sekiz.']],
+ delil:[['hadis','Ebû Hüreyre anlatır: "Dostum (s.a.v.) bana üç şeyi tavsiye etti: Her ay üç gün oruç tutmayı, <b>iki rekât kuşluk namazı kılmayı</b> ve uyumadan önce vitri kılmayı."','Buhârî, Teheccüd; Müslim, Müsâfirîn'],
+        ['hadis','"Her birinizin her bir eklemi için her sabah bir sadaka gerekir. Her tesbih bir sadakadır, her hamd bir sadakadır… <b>Kuşluk vakti kılınan iki rekât</b> bunların hepsinin yerini tutar."','Müslim, Müsâfirîn'],
+        ['hadis','Hz. Âişe anlatır: Resûlullah kuşluk namazını dört rekât kılar, Allah\'ın dilediği kadar da artırırdı.','Müslim, Müsâfirîn'],
+        ['hadis','Ümmü Hânî\'nin bildirdiğine göre Peygamberimiz, Mekke\'nin fethedildiği gün kuşluk vaktinde sekiz rekât namaz kılmıştır.','Buhârî, Teheccüd; Müslim, Müsâfirîn']],
+ nasil:['Güneş doğduktan sonra kerâhet vakti çıkınca kılınır.','İkişer rekât hâlinde, iki, dört veya sekiz rekât olarak kılınabilir.','Her rekâtta Fâtiha\'dan sonra bir sure okunur.']},
+
+{e:'🕌',t:'Mescid',tt:'Tahiyyetü\'l-Mescid',sub:'Mescidi selamlama namazı',short:'Mescide girildiğinde, oturmadan önce kılınan iki rekât namaz.',
+ facts:[['Vakit','Mescide her girişte, oturmadan önce.'],['Rekât','İki.']],
+ delil:[['hadis','"Biriniz mescide girdiğinde, <b>oturmadan önce iki rekât namaz kılsın</b>."','Buhârî, Salât; Müslim, Müsâfirîn']],
+ nasil:['Mescide girince oturmadan iki rekât kılınır.','Mescide girer girmez farz veya sünnet kılan kişi için o namaz, tahiyyetü\'l-mescid yerine de geçer. <span class="soft">(Hanefî âlimlerin açıklaması)</span>','Nafile kılınmayan vakitlerde kılınmaz. <span class="soft">(Hanefî uygulaması)</span>']},
+
+{e:'💧',t:'Abdest',tt:'Abdest Namazı',sub:'Şükr-i vudû',short:'Abdest veya gusülden sonra kılınan iki rekât namaz.',
+ facts:[['Vakit','Abdestin hemen ardından.'],['Rekât','İki.']],
+ delil:[['hadis','Peygamberimiz bir sabah namazında Bilâl\'e, cennette önünde onun ayak seslerini duyduğunu söyleyip en çok ümit bağladığı amelini sordu. Bilâl şöyle dedi: "Gece veya gündüz <b>ne zaman abdest alsam</b>, o abdestle bana nasip olduğu kadar namaz kılarım."','Buhârî, Teheccüd; Müslim, Fezâilü\'s-sahâbe'],
+        ['hadis','Hz. Osman abdest aldıktan sonra Peygamberimizin şöyle buyurduğunu aktardı: "Kim benim şu abdestim gibi abdest alır, sonra <b>aklından başka bir şey geçirmeden iki rekât namaz kılarsa</b>, geçmiş günahları bağışlanır."','Buhârî, Vudû; Müslim, Tahâret'],
+        ['hadis','"Güzelce abdest alıp, kalbi ve yüzüyle yönelerek iki rekât namaz kılan her Müslümana cennet vâcip olur."','Müslim, Tahâret']],
+ nasil:['Abdest veya gusülden sonra, fazla ara vermeden iki rekât kılınır.','Namazda zihni başka şeylerle meşgul etmemeye özen gösterilir.','Nafile kılınmayan vakitlerde kılınmaz. <span class="soft">(Hanefî uygulaması)</span>']},
+
+{e:'🧭',t:'İstihâre',tt:'İstihâre Namazı',short:'Bir işte Allah\'tan hayırlı olanı dilemek için kılınan iki rekât namaz ve ardından yapılan dua.',
+ facts:[['Vakit','Bir işe karar verme aşamasında.'],['Rekât','İki; ardından istihâre duası.']],
+ delil:[['hadis','Câbir b. Abdullah anlatır: Resûlullah bize, Kur\'an\'dan bir sure öğretir gibi, bütün işlerde istihâreyi öğretirdi. Şöyle buyururdu: "Biriniz bir iş yapmaya niyetlendiğinde, <b>farzın dışında iki rekât namaz kılsın</b>, sonra şöyle dua etsin…"','Buhârî, Teheccüd; Buhârî, Daavât']],
+ tanim:[`${kick('Duanın anlamı')}<blockquote class="quote" style="font-size:1.12rem;line-height:1.55">"Allah'ım! İlminle senden hayır diliyorum, kudretinle senden güç istiyorum ve senin büyük lütfundan istiyorum. Çünkü sen güç yetirirsin, ben yetiremem; sen bilirsin, ben bilemem; sen gaybları hakkıyla bilensin. Allah'ım! Bu iş benim için dinim, hayatım ve işimin sonu bakımından hayırlı ise onu bana takdir et, kolaylaştır, sonra onu bana bereketli kıl. Eğer bu iş benim için dinim, hayatım ve işimin sonu bakımından kötü ise onu benden, beni de ondan uzaklaştır. Hayır nerede ise onu bana takdir et, sonra beni ondan hoşnut kıl."</blockquote><div class="orn"><i></i></div><cite class="src">Buhârî, Teheccüd; Buhârî, Daavât · Duanın Arapça metni aynı kaynaklardadır.</cite>`],
+ nasil:['İki rekât nafile namaz kılınır.','Selamdan sonra istihâre duası okunur; duada "bu iş" denilen yerde ihtiyaç dile getirilir.','İstihâre, yapılması mubah olan işlerde yapılır; farz veya haram olduğu bilinen bir iş için istihâre yapılmaz. <span class="soft">(Âlimlerin açıklaması)</span>','İstihârenin ardından rüya görmek şart değildir. <span class="soft">(Âlimlerin açıklaması)</span>']},
+
+{e:'🌟',t:'Terâvih',tt:'Terâvih Namazı',sub:'Ramazan gece namazı',short:'Ramazan ayına özgü, yatsı namazından sonra kılınan gece namazı.',
+ facts:[['Vakit','Ramazan gecelerinde, yatsıdan sonra ve vitirden önce.'],['Rekât','Hanefî mezhebine göre yirmi.']],
+ delil:[['hadis','"Kim inanarak ve karşılığını Allah\'tan umarak <b>Ramazan gecelerini ibadetle geçirirse</b>, geçmiş günahları bağışlanır."','Buhârî, Salâtü\'t-terâvîh; Müslim, Müsâfirîn'],
+        ['hadis','Hz. Âişe anlatır: Peygamberimiz birkaç gece mescidde namaz kıldı, insanlar da ona uydu. Sonraki gece çıkmadı ve sabah şöyle buyurdu: "Yaptığınızı gördüm. Yanınıza çıkmama, bu namazın size <b>farz kılınmasından endişe etmem</b> engel oldu."','Buhârî, Teheccüd; Müslim, Müsâfirîn']],
+ nasil:['Yatsının farzı ve son sünnetinden sonra, vitir namazından önce kılınır.','İki veya dört rekâtta bir selam verilerek yirmi rekât kılınır. <span class="soft">(Hanefî uygulaması)</span>','Cemaatle kılınması sünnettir; tek başına da kılınabilir. <span class="soft">(Hanefî uygulaması)</span>']}
+];
+function nafileSlides(k){
+  const s=NAFILE[k], out=[];
+  out.push({g:'tanim',label:'Tanım',cls:'hero',html:`${kick(k?`Nafile · ${k}/${NAFILE.length-1}`:'Nafile')}<h2>${emo(s.e)}${s.tt}</h2>${s.sub?`<p class="okunus" style="margin:-6px 0 12px">${s.sub}</p>`:''}<p class="lead">${s.short}</p>
+    <div class="facts">${s.facts.map(f=>`<div><b>${f[0]}</b><span>${f[1]}</span></div>`).join('')}</div>`});
+  (s.tanim||[]).forEach(h=>out.push({g:'tanim',label:'Tanım',html:h}));
+  s.delil.forEach((h,i)=>out.push({g:'delil',label:`Delil ${i+1}/${s.delil.length}`,html:`${kick(`Delil · ${i+1}/${s.delil.length}`)}${hk(h[0],h[1],h[2])}`}));
+  out.push({g:'nasil',label:'Uygulama',html:`${kick('Uygulama')}<h3>${k?'Nasıl kılınır?':'Genel esaslar'}</h3><ul class="list">${s.nasil.map(d=>`<li>${d}</li>`).join('')}</ul>`});
+  (s.extra||[]).forEach(h=>out.push({g:'nasil',label:'Uygulama',html:h}));
+  return out;
+}
+
+/* =========================================================
+   SESLİ ANLATIM
+   Kayıtlar: namaz-audio/<f>.mp3 · d: süre (sn) · w: dalga formu (36'lık tabanda düzeyler)
+   d değeri 0 olan kaydın dinleme alanı gizlenir. Anlatım metinleri sayfada yer almaz.
+   ========================================================= */
+const NARR={
+ adim:{
+  erkek:[
+   {f:'erkek/01-niyet',d:33.1,w:'xrqc0utplgngxnshrjuzqortqk6sstqsl3twrsiqtroakvrspsvlj1pnsrpmjsgfuvvmwvuh'},
+   {f:'erkek/02-tekbir',d:25.2,w:'xtltqe0rrtptpmk5qsvojqwttrqmh0rwtnrxomg1jzoixsnmksqsood0ngputqhlnvyrnyph'},
+   {f:'erkek/03-kiyam',d:27.2,w:'yrsb0qpxytllcmmxwzsotid1yunqouq6vszqnn8mtswymtwstrpjb0tvrtkqfnzrssvpwrjg'},
+   {f:'erkek/04-kiraat',d:27.4,w:'zrla0pnqg5woixturk3hroooeptoluyusqmmj4krourcxrtoolbrnkprqwtkoqmecmtpzqkh'},
+   {f:'erkek/05-ruku',d:22.6,w:'uwpj40pumtvs6kutro5optpsph4moqronrpqe7pmuvuwshawtrjzumld2ounrqpmxtmptrpc'},
+   {f:'erkek/06-kavme',d:30.8,w:'wpp3itxuspttkhmppupcfzuro8tntsk7ium2wsoqkuypouutrfuusnuoqf5qntpuixqyuoon'},
+   {f:'erkek/07-secde',d:29.4,w:'ytpa0qrlwursl7uotppk4rvkqgxxswronpn9iwqqrxkcsrsuspkcurrpqsmjf6wsmjszupnh'},
+   {f:'erkek/08-celse',d:25.0,w:'lvnoqprmke04xlg1ottrrtojaitq4nurnzropmmjcusrprxqmklg0phnurquqf4vwmqrtpne'},
+   {f:'erkek/09-ikinci-secde',d:32.1,w:'wzvoc0spuk3ttzruimuosyvsokajuwssphqqwoqttntvph2vrxnputqlj6ostrvrrrurmrug'},
+   {f:'erkek/10-kade',d:33.5,w:'ypb0srutpxpnoffuusrsopnpuupmzwoibpssnxtturuqihrtrnwpsonoh3rpol7zowpytqpj'},
+   {f:'erkek/11-selam',d:28.2,w:'zxumi0murnttstl3rutwpsslqvnpozptnl7hwwplsryqtpm39uqwvrowvxsrpcntlwqprvne'}
+  ],
+  kadin:[
+   {f:'01-niyet',d:33.2,w:'xos0rr3tvo9qzunmjp5zl8s2rxqonstghtwsrkqquksmbpzbpxssosmm4pumtqrrmopppvth'},
+   {f:'02-tekbir',d:26.1,w:'st3osn08xjxrunoigpmpu91spzsg4vpk4cvqscxwkmkowrspje0rsj2orrk92pwqkiuqyvhd'},
+   {f:'03-kiyam',d:27.2,w:'otlk0rfvpnppd2w6wtmrrqrjgcszr8ponmni3sg5swmsickpvnrld2xr4wqoqdnqjlousqhe'},
+   {f:'04-kiraat',d:27.1,w:'vohn0fusg4ssngtqtslp1ttpqoa23uquppmskqloij6kzaqjnnwtnnmuspqhe0ttmosqvqki'},
+   {f:'05-ruku',d:22.6,w:'prmp00trpmnk72upqrj2m2hqnqptd0tq2rpippsqd6irl8vdqpgpng16zgpin4qxrjmomvp9'},
+   {f:'06-kavme',d:26.5,w:'qsng0hvwmizg2usf2np2qtrog8lqtoqe2vg2qwmb0vr7gwtppvlnpnfl2muwqml80uvxolkb'},
+   {f:'07-secde',d:28.0,w:'xonb0vkvhrrpopdsnmzpxomoeltkkwkxnsgtstnd0myrmvldgwirqmjxpma3vxpjfuwujtgj'},
+   {f:'08-celse',d:27.2,w:'qtmm06ssrlnmc2pmrsnlsvie0womrmznma2qymerrlhsmlkssrfqc9hrktgkmston82uutwn'},
+   {f:'09-ikinci-secde',d:25.0,w:'tul3zpi0lttss72vlpnbkqt91tlqioxstoxikb0lsrmnstvgojxrmnknsdganxrqjzmobfqd'},
+   {f:'10-kade',d:26.6,w:'zpfa09triirqpmkb2upoh6sqpqhgmsrvnqjtmod3smktoirho81snsokrmfbofsxn2mvoavf'},
+   {f:'11-selam',d:27.0,w:'zrkq50sqwpgntomof2ptfwmgfurpjhttg82rthneqssoqh1rmmutxgnhqlurlkh2yk9pgprj'}
+  ],
+  cocuk:[
+   {f:'cocuk/01-niyet',d:33.3,w:'yxaktsg333x0owklqxqc5lxjnqwgzf28xqumfmmynelpyt4rxsup9rxmioajyspso3tmpyli'},
+   {f:'cocuk/02-tekbir',d:26.8,w:'rveoe03pppnj7ouopqbrnkbgruoh80mzpjlvdqplil9dwkobnncltgamnrpemja9qqnpqtmf'},
+   {f:'cocuk/03-kiyam',d:29.8,w:'nyft0krorq9mpuqmgjwxmptjb22qqvvwn83vootc0rmuhlup7qcznaxtpg4fuoxvq8wtrmoc'},
+   {f:'cocuk/04-kiraat',d:30.9,w:'tucno0zodeotsr6osnrg1x92ttpvocpc43rvofjsxf1xosemxqrsi4wqjptn6krv7ukwpllj'},
+   {f:'cocuk/05-ruku',d:26.1,w:'tyhog0qvottnl2uzvp3mwtkd0zr3wuqnscosn8uttxojsn1vsrdqrguve0xtl3vro8pwwqia'},
+   {f:'cocuk/06-kavme',d:28.8,w:'tser61uvg2cvjxriqmri2sjfpnvhd5itbwuawii0qzdtmnm2on2rtc0tcrr2sxotlciqvkoi'},
+   {f:'cocuk/07-secde',d:30.7,w:'vvbrj0vrrjbqmsursk6rnsi2zmlpqom1tsokskaprvdrtul4xpoqpthbkvohtwptmf2u8eqo'},
+   {f:'cocuk/08-celse',d:26.5,w:'qysrj08tunrmob33ruhkuj3tvuupmo75sivtp4gsyjizrnjohpjwqs9llqqzjpsuukkdvypn'},
+   {f:'cocuk/09-ikinci-secde',d:25.0,w:'xzr2ite0ivvmg2uvmn3lnwj3wywa0wnpwj2iyth2nstwi8rfebyvjwrptkbaxig1lmp5tehv'},
+   {f:'cocuk/10-kade',d:29.3,w:'vzli41nvkrpjjrqk22vtxsnpk0pttqoamzurow5pskomj0mushevurrgmrvrng3tooqwnrve'},
+   {f:'cocuk/11-selam',d:26.8,w:'yxw4sf0mwl2sutmnh3322osxq9fxrntsoi5luqqfpsqjedoqxxppjqhiusrnibqvzk79sruj'}
+  ]
+ },
+ nafile:{
+  erkek:[
+   {f:'erkek/nafile-01-genel',d:33.6,w:'uwvni1jnwo5uosvutgskeaqpqookzvslqocxpkctotuukoourph0qrktkgdurovvsuwsrngc'},
+   {f:'erkek/nafile-02-teheccud',d:34.2,w:'uvj0purdossqbwvp6xwunpqemssxqgwqreozawvopsuutpj3qqvoypnvuspgoxqsrmsztnpj'},
+   {f:'erkek/nafile-03-sunnetler',d:29.9,w:'oqnrsmzqf0lpwtqtpoj0troowuqqqsqqtxtmg3oplywuppupwtnrxtpolejwrrnxuvpqqrlh'},
+   {f:'erkek/nafile-04-kusluk',d:34.5,w:'rqslmf0rplpmnmmf8sklsnknlwrnmi7mpspoppnnkfjmrnrntlbghqmmljfousmnokjhzqsm'},
+   {f:'erkek/nafile-05-mescid',d:21.4,w:'rtpjrompog10nqscpomczrkppoutqgommmfc0pnqtlmmtnqmjovssni90nol4sutpvposnhd'},
+   {f:'erkek/nafile-06-abdest',d:31.2,w:'rxrspn5hrruf0qqjxpkqpvrqvoqm9zvwquntqnh1romrsrcssstpsruwtssonf2swppluvmd'},
+   {f:'erkek/nafile-07-istihare',d:34.5,w:'strtxqd0qvtgozsroryvrpgoxsnwsjurvmh0uwrqttgwursdrxqqoixsyoumdstwulvrywrj'},
+   {f:'erkek/nafile-08-teravih',d:30.0,w:'vwyzpd0oxvnoypenusyjrwpptsugzwvspqlosxrl8ryvwpunrfvqyusrynmdfzvvwj9yprnk'}
+  ],
+  kadin:[
+   {f:'nafile-01-genel',d:33.4,w:'wzvql43ulqtlllvresxmtjjnqurfdwwrrmoh2xuqonzcoxrtkfqrsyqf9rxdzpvjoluxpnl9'},
+   {f:'nafile-02-teheccud',d:32.1,w:'soue0uuipopo9klrvud3sli7vojttlgzfhusiwrh9tsqg0utdptrlqpgxguvii3vtgpsuor9'},
+   {f:'nafile-03-sunnetler',d:27.4,w:'okk0jovqnmn3qoqmj7jnuclssgnqmiqngc3xfsk7kqslttid2rriqie32xsolztqngmoopga'},
+   {f:'nafile-04-kusluk',d:29.3,w:'nv1dwrtqmssjsuusf1vwizxmqjuftodumt6ntloxyfthjnvsq9gkrzjretwrxehclvycqslh'},
+   {f:'nafile-05-mescid',d:18.4,w:'qpkfcenihssui00kvsj2hvgd2jvaqrnfo2lvsp4csl2xmda0pltoson3frsmpa9e4usrzmjf'},
+   {f:'nafile-06-abdest',d:30.7,w:'un3notunosnus8pskvtrsiusuqpunmffztpnrxpgqkvraitojssvreqtqnperyrosjonvtvi'},
+   {f:'nafile-07-istihare',d:32.2,w:'svi0tpgruwod1vqxkatt7xsjnynxlwfcyxgloswnkpcvuh0xnfvmszusnixxnyogmsrrsslh'},
+   {f:'nafile-08-teravih',d:31.4,w:'tk0pwqponebswslcuqfqveul3vtnpnosmezivuogjjlwtenzbovnsfj3xpxorpmmih4psvui'}
+  ]
+ }
+};
+/* Seslendiren: yetişkin temasında erkek ses (varsayılan) ya da kadın ses seçilebilir; çocuk temasında hep kadın ses çalar.
+   Kaydı olmayan (d: 0) bir anlatımda kadın sesin kaydına dönülür. */
+const VOICE_KEY='apps:ses';   // Ezberler ile ortak; önceki sürüm namaz:ses anahtarını kullanıyordu
+let plVoice=(()=>{try{return (localStorage.getItem(VOICE_KEY)||localStorage.getItem('namaz:ses'))==='kadin'?'kadin':'erkek'}catch(e){return 'erkek'}})();
+const tracksOf=key=>{
+  const base=key==='adim'?(kid()?NARR.adim.cocuk:NARR.adim.kadin):NARR.nafile.kadin;
+  if(kid()||plVoice!=='erkek') return base;
+  const male=NARR[key].erkek; return base.map((t,i)=>male[i]&&male[i].d?male[i]:t);
+};
+
+/* =========================================================
+   KOLEKSİYONLAR: Adımlar ve Nafile aynı düzeni paylaşır
+   (durak seçici + dinleme alanı + bölüm şeridi + kartlar)
+   ========================================================= */
+const COL={
+ adim:{items:STEPS,slides:stepSlides,cur:0,seen:new Set([0]),name:k=>STEPS[k].tt||STEPS[k].t,chip:k=>STEPS[k].t,
+       title:k=>`${k+1}. durak · ${STEPS[k].tt||STEPS[k].t}`,guide:'Namazın durakları',endLabel:'Secde bölümü',end:'secde'},
+ nafile:{items:NAFILE,slides:nafileSlides,cur:0,seen:new Set([0]),name:k=>NAFILE[k].tt,chip:k=>NAFILE[k].t,
+       title:k=>`Nafile · ${NAFILE[k].tt}`,guide:'Nafile namazlar',endLabel:'Başa dön',end:'giris'}
+};
+let curView='giris', started=false;
+function renderStepper(key){
+  const c=COL[key], el=$('stepper-'+key);
+  el.innerHTML=c.items.map((s,i)=>`<button class="${i===c.cur?'on':''} ${c.seen.has(i)?'done':''}" data-s="${i}" ${i===c.cur?'aria-current="true"':''}><small>${i+1}</small>${emo(s.e)}${c.chip(i)}</button>`).join('');
+  const on=el.querySelector('.on'); on&&el.offsetParent&&on.scrollIntoView({inline:'center',block:'nearest',behavior:started&&!reduceMotion.matches?'smooth':'auto'});
+}
+function renderItem(key,k){
+  const c=COL[key], groups=GROUPS[key], seg=$('seg-'+key);
+  c.cur=k; c.seen.add(k); renderStepper(key);
+  const slides=c.slides(k);
+  seg.style.setProperty('--n',groups.length);
+  seg.innerHTML=groups.map(([g,l])=>`<button data-g="${g}">${l}</button>`).join('');
+  const d=createDeck('d-'+key,slides,{
+    onChange:(i,sl)=>{seg.querySelectorAll('button').forEach(b=>b.classList.toggle('on',b.dataset.g===sl.g));seg.style.setProperty('--i',groups.findIndex(x=>x[0]===sl.g))},
+    endLabel:k<c.items.length-1?`Sıradaki: ${c.chip(k+1)}`:c.endLabel,
+    onEnd:()=>{ k<c.items.length-1?renderItem(key,k+1):show(c.end) }
+  });
+  seg.querySelectorAll('button').forEach(b=>b.onclick=()=>{const i=slides.findIndex(s=>s.g===b.dataset.g); if(i>-1)d.go(i)});
+  if(curView===key) plSync();
+  if(started){const dk=document.querySelector(`#d-${key} .deck`);dk.classList.add('swap');dk.addEventListener('animationend',e=>{if(e.target===dk)dk.classList.remove('swap')})}
+  setHeader();
+}
+['adim','nafile'].forEach(key=>{$('stepper-'+key).onclick=e=>{const b=e.target.closest('button');if(b)renderItem(key,+b.dataset.s)}});
+
+/* =========================================================
+   DİNLEME ALANI
+   ========================================================= */
+const player=$('player'), plBtn=$('plBtn'), plTitle=$('plTitle'), plWave=$('plWave'), plCur=$('plCur'), plTot=$('plTot'), plSpeed=$('plSpeed'), plList=$('plList');
+const AUDIO_DIR='namaz-audio/', SPEEDS=[[1,'1×','normal'],[1.25,'1.25×','hızlı'],[.8,'0.8×','yavaş']];
+const au=new Audio(); au.preload='none';
+// Sırayla dinle: bütün uygulamalarla ortak ayar (apps:anlatim-sirali, varsayılan açık)
+const SIRA_KEY='apps:anlatim-sirali';
+let plKey='adim', plLoaded=null, plSpeedI=0, plAuto=(()=>{try{return localStorage.getItem(SIRA_KEY)!=='0'}catch(e){return true}})(), plSeek=null, plBars=[];
+const fmt=x=>{x=Math.max(0,Math.round(x));return Math.floor(x/60)+':'+String(x%60).padStart(2,'0')};
+const plIdx=()=>COL[plKey].cur;
+const plTrack=(k=plIdx())=>tracksOf(plKey)[k];
+const plId=()=>plKey+':'+plIdx()+':'+root.dataset.theme+':'+plVoice;
+const plDur=()=>(plLoaded===plId()&&isFinite(au.duration)&&au.duration>0)?au.duration:plTrack().d;
+function plPeaks(n){
+  const w=plTrack().w, src=w?[...w].map(c=>parseInt(c,36)/35):null, out=[];
+  for(let i=0;i<n;i++){
+    let v;
+    if(src){const a=Math.floor(i/n*src.length), b=Math.max(a+1,Math.floor((i+1)/n*src.length)); v=Math.max(...src.slice(a,b))}
+    else v=.3+.5*Math.abs(Math.sin(i*1.7)*Math.cos(i*.37));
+    out.push(Math.max(.14,Math.min(1,v)));
+  }
+  return out;
+}
+function plDraw(){
+  const n=Math.max(10,Math.floor(plWave.clientWidth/4));
+  if(n!==plBars.length||plWave.dataset.k!==plId()){
+    plWave.dataset.k=plId();
+    plWave.innerHTML=plPeaks(n).map(v=>`<i style="--h:${Math.round(v*100)}%"></i>`).join('');
+    plBars=[...plWave.children];
+  }
+  plTick();
+}
+function plTick(){
+  const d=plDur(), t=plLoaded===plId()?au.currentTime:0, r=d?Math.min(1,t/d):0, cut=Math.round(r*plBars.length);
+  plBars.forEach((b,i)=>{b.classList.toggle('p',i<cut);b.classList.toggle('h',i===cut-1)});
+  plCur.textContent=fmt(t); plTot.textContent=fmt(d);
+  plWave.setAttribute('aria-valuenow',Math.round(r*100)); plWave.setAttribute('aria-valuetext',`${fmt(t)} / ${fmt(d)}`);
+}
+function plState(st){
+  player.dataset.state=st;
+  plBtn.setAttribute('aria-label',st==='playing'||st==='loading'?'Anlatımı duraklat':'Sesli anlatımı oynat');
+  plTitle.textContent=st==='error'?T('Ses kaydı yüklenemedi, tekrar dene','Ses kaydı yüklenemedi, tekrar deneyin'):COL[plKey].title(plIdx());
+  plSheetSync();
+}
+function plPlay(){
+  const id=plId();
+  if(plLoaded!==id){au.src=AUDIO_DIR+plTrack().f+'.mp3';plLoaded=id}
+  au.playbackRate=SPEEDS[plSpeedI][0];
+  plState('loading');
+  const p=au.play();
+  p&&p.catch(e=>{if(e&&e.name==='AbortError')return; if(id===plId()&&player.dataset.state==='loading'){plLoaded=null;plState('error')}});
+  plMedya();
+}
+/* Kilit ekranı / bildirim paneli oynatıcısı (medya.js): durak durak önceki/sonraki */
+function plMedya(){
+  if(!window.AppsMedya)return;
+  const key=plKey, k=plIdx(), n=COL[key].items.length, tr=tracksOf(key);
+  AppsMedya.ayarla('namaz',{
+    audio:au, baslik:COL[key].title(k), sanatci:'Namaz Yolculuğu',
+    album:`Sesli anlatım · ${k+1} / ${n}`,
+    oynat:plPlay, duraklat:plPause, kapat:plPause,
+    onceki:k>0&&tr[k-1].d?()=>{if(au.currentTime>3)plSeekTo(0);else plGo(k-1,true)}:null,
+    sonraki:k<n-1&&tr[k+1].d?()=>plGo(k+1,true):null,
+    git:t=>{if(plLoaded===plId()&&isFinite(au.duration)&&au.duration>0){au.currentTime=t;plTick()}}
+  });
+}
+function plPause(){if(!au.paused)au.pause()}
+function plToggle(){player.dataset.state==='playing'||player.dataset.state==='loading'?plPause():plPlay()}
+function plSync(){ // görünüm ya da durak değişti: çalanı durdur, alanı yeniden hazırla
+  if(COL[curView]) plKey=curView;
+  au.pause(); plLoaded=null; plSeek=null;
+  const slot=$('slot-'+plKey); if(player.parentElement!==slot) slot.appendChild(player);
+  player.hidden=!plTrack().d; plState('idle'); plDraw();
+  if(window.AppsMedya&&AppsMedya.sahip()==='namaz'){ if(plTrack().d) plMedya(); else AppsMedya.birak('namaz') }
+}
+function plGo(k,play){const c=COL[plKey]; if(k<0||k>=c.items.length)return; if(curView!==plKey)show(plKey); renderItem(plKey,k); play&&plPlay()}
+function plSeekTo(r){
+  r=Math.max(0,Math.min(1,r));
+  if(plLoaded===plId()&&isFinite(au.duration)&&au.duration>0){au.currentTime=r*au.duration;plTick()}
+  else{plSeek=r;plPlay()}
+}
+au.addEventListener('loadedmetadata',()=>{if(plSeek!==null){au.currentTime=plSeek*au.duration;plSeek=null}plTick()});
+au.addEventListener('playing',()=>plState('playing'));
+au.addEventListener('waiting',()=>{if(!au.paused)plState('loading')});
+au.addEventListener('pause',()=>{if(!au.ended&&player.dataset.state!=='idle'&&player.dataset.state!=='error')plState('paused')});
+au.addEventListener('timeupdate',plTick);
+au.addEventListener('error',()=>{if(plLoaded===plId()){plLoaded=null;plState('error')}});
+au.addEventListener('ended',()=>{
+  const key=plKey, k=plIdx(); au.currentTime=0; plState('idle'); plTick();
+  if(plAuto&&k<COL[key].items.length-1&&tracksOf(key)[k+1].d&&curView===key){
+    // Ekran kilitliyken/arka plandayken bekletmeden geçilir: iOS gecikmeli play() çağrısını engeller.
+    if(document.hidden) plGo(k+1,true);
+    else setTimeout(()=>{if(plKey===key&&plIdx()===k&&curView===key)plGo(k+1,true)},700);
+  }
+});
+plBtn.onclick=plToggle;
+plSpeed.onclick=()=>{plSpeedI=(plSpeedI+1)%SPEEDS.length;const [v,l,n]=SPEEDS[plSpeedI];au.playbackRate=v;plSpeed.textContent=l;plSpeed.setAttribute('aria-label','Okuma hızı: '+n)};
+{ let drag=false; const at=e=>{const b=plWave.getBoundingClientRect();return (e.clientX-b.left)/b.width};
+  plWave.addEventListener('pointerdown',e=>{drag=true;plWave.setPointerCapture(e.pointerId);plSeekTo(at(e))});
+  plWave.addEventListener('pointermove',e=>{if(drag&&plLoaded===plId()&&isFinite(au.duration))plSeekTo(at(e))});
+  const end=()=>{drag=false}; plWave.addEventListener('pointerup',end); plWave.addEventListener('pointercancel',end);
+  plWave.addEventListener('keydown',e=>{
+    const d=plDur()||1, t=plLoaded===plId()?au.currentTime:0;
+    if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();e.stopPropagation();plSeekTo((t+(e.key==='ArrowRight'?5:-5))/d)}
+    else if(e.key==='Home'){e.preventDefault();plSeekTo(0)}
+    else if(e.key===' '||e.key==='Enter'){e.preventDefault();plToggle()}
+  });
+}
+if('ResizeObserver' in window) new ResizeObserver(()=>{if(plWave.clientWidth)plDraw()}).observe(plWave);
+
+/* Sesli rehber paneli: bulunulan bölümün çalma listesi */
+function plSheetHtml(){
+  const c=COL[plKey], on=player.dataset.state==='playing'||player.dataset.state==='loading';
+  return `<h3>${emo('🎧')}Sesli Rehber</h3><p>${c.guide}: ${T('her başlığın kısa anlatımını dinle. Bir başlığa dokun, anlatım oradan başlasın.','her başlığın kısa anlatımını dinleyin. Bir başlığa dokunun, anlatım oradan başlasın.')}</p>
+   ${kid()?'':`<div class="voice" role="group" aria-label="Seslendiren"><span>Seslendiren</span><button data-voice="erkek" aria-pressed="${plVoice==='erkek'}">Erkek ses</button><button data-voice="kadin" aria-pressed="${plVoice==='kadin'}">Kadın ses</button></div>`}
+   <label class="sw"><input type="checkbox" id="plAutoT" ${plAuto?'checked':''}><span class="knob"></span><span><b>Sırayla dinle</b><small>Bir anlatım bitince sıradakine geçer</small></span></label>
+   <ol class="trks">${c.items.map((x,i)=>`<li><button class="trk ${i===c.cur?'on':''} ${i===c.cur&&on?'playing':''}" data-track="${i}" ${i===c.cur?'aria-current="true"':''} ${tracksOf(plKey)[i].d?'':'disabled'}><span class="n">${i+1}</span><span class="nm">${emo(c.items[i].e)}${c.name(i)}</span><span class="du"><span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>${tracksOf(plKey)[i].d?fmt(tracksOf(plKey)[i].d):''}</span></button></li>`).join('')}</ol>`;
+}
+function plSheetSync(){if(sheet.dataset.kind==='pl'&&sheet.classList.contains('on')&&!sheet.classList.contains('out'))sheetBody.innerHTML=plSheetHtml()}
+plList.onclick=()=>{openSheet(plSheetHtml());sheet.dataset.kind='pl'};
+
+/* =========================================================
+   GEZİNME
+   ========================================================= */
+const VIEWS=[['giris','home','Giriş','Başlangıç'],['hazirlik','prep','Hazırlık','Şartlar ve farzlar'],['adim','steps','Adımlar','11 durakta namaz'],['secde','sajda','Secde','Neden ve nasıl?'],['vakit','clock','Vakitler','Beş vakit ve rekâtlar'],['nafile','nafile','Nafile','Gönüllü namazlar']];
+const tabbar=$('tabbar'), hsub=$('hsub'), sheet=$('sheet'), sheetBody=$('sheetBody');
+tabbar.innerHTML=VIEWS.map(([k,i,l,d])=>`<button data-v="${k}">${ic(i)}<span>${l}</span><small>${d}</small></button>`).join('');
+tabbar.onclick=e=>{const b=e.target.closest('button');if(b)show(b.dataset.v)};
+function setHeader(){
+  const v=VIEWS.find(x=>x[0]===curView), c=COL[curView];
+  hsub.textContent=c?(curView==='adim'?`${c.cur+1}/${c.items.length} · ${c.name(c.cur)}`:c.name(c.cur)):v[2];
+}
+function show(v){
+  const vi=VIEWS.findIndex(x=>x[0]===v), pi=VIEWS.findIndex(x=>x[0]===curView);
+  document.querySelector('main').dataset.dir=vi<pi?'b':'f';
+  tabbar.style.setProperty('--tab',vi);
+  curView=v;
+  document.querySelectorAll('.view').forEach(x=>x.classList.toggle('on',x.id==='v-'+v));
+  tabbar.querySelectorAll('button').forEach(b=>{b.classList.toggle('on',b.dataset.v===v);b.dataset.v===v?b.setAttribute('aria-current','page'):b.removeAttribute('aria-current')});
+  if(COL[v]){renderStepper(v);plSync()} else plPause();
+  const d=decks['d-'+v]; requestAnimationFrame(()=>{d&&d.refresh();markMore()});
+  setHeader();
+}
+document.addEventListener('click',e=>{
+  const g=e.target.closest('[data-go]'); if(g){show(g.dataset.go);return}
+  if(e.target.closest('[data-info]')) openInfo();
+});
+document.addEventListener('keydown',e=>{
+  if(sheet.classList.contains('on')){if(e.key==='Escape')closeSheet();return}
+  const d=decks['d-'+curView]; if(!d)return;
+  if(e.key==='ArrowRight'){e.preventDefault();d.go(d.idx+1)} if(e.key==='ArrowLeft'){e.preventDefault();d.go(d.idx-1)}
+});
+window.addEventListener('resize',()=>{const d=decks['d-'+curView];d&&d.refresh()});
+
+/* Alt panel */
+function openSheet(html){clearTimeout(sheet._t);sheet.classList.remove('out');sheet.dataset.kind='';sheetBody.innerHTML=html;sheet.classList.add('on');sheet.firstElementChild.scrollTop=0}
+function closeSheet(){if(!sheet.classList.contains('on')||sheet.classList.contains('out'))return;sheet.classList.add('out');sheet._t=setTimeout(()=>sheet.classList.remove('on','out'),220)}
+$('sheetX').onclick=closeSheet; sheet.onclick=e=>{if(e.target===sheet)closeSheet()};
+sheetBody.addEventListener('click',e=>{
+  const v=e.target.closest('[data-voice]');
+  if(v){ if(v.dataset.voice!==plVoice){plVoice=v.dataset.voice;try{localStorage.setItem(VOICE_KEY,plVoice)}catch(err){} plSync()} return }
+  const b=e.target.closest('[data-track]');if(b){const k=+b.dataset.track;k===plIdx()?plToggle():plGo(k,true)}
+});
+sheetBody.addEventListener('change',e=>{if(e.target.id==='plAutoT'){plAuto=e.target.checked;try{localStorage.setItem(SIRA_KEY,plAuto?'1':'0')}catch(err){}}});
+function openInfo(){openSheet(`<h3>Bu rehber nasıl hazırlandı?</h3><p>Bilgiler Kur'an-ı Kerîm, sahih hadis kitapları (Buhârî, Müslim, Ebû Dâvûd, Tirmizî, İbn Mâce, Muvatta) ve Hanefî fıkıh geleneğine dayanır. Her bilginin türü etiketle belirtilmiştir: <b>Âyet</b> ve <b>Hadis</b> etiketliler doğrudan kaynaklardandır, <b>Âlimlerin açıklaması</b> etiketliler âlimlerin yorum ve tespitleridir. Hadis kaynakları kitap ve bölüm adıyla verilmiştir.</p>
+ <h3>Nafile namazlar</h3><p>Nafile namazlar bölümünde deliller yalnızca Kur'an âyetleri ile Buhârî ve Müslim'de yer alan hadislerden seçilmiştir. Rivayeti zayıf ya da tartışmalı olan namazlara yer verilmemiştir. Uygulamaya dair ayrıntılar Hanefî mezhebine göredir ve ayrıca belirtilmiştir.</p>
+ <h3>Mezhep farkları</h3><p>Namazın uygulanışında (ellerin bağlanacağı yer, kadın ve erkek arasındaki bazı farklar, sünnet rekâtları gibi) mezhepler arasında küçük farklar vardır. Bu rehber Hanefî mezhebini esas alır. Ayrıntılar için bir hocanıza veya Diyanet İşleri Başkanlığı'nın ilmihal kaynaklarına başvurabilirsiniz.</p>
+ <h3>Okunuşlar</h3><p>Türkçe harflerle yazılan okunuşlar yalnızca yardımcıdır; Arapça harfleri tam karşılamaz. Doğru telaffuz için sureleri ve duaları bir hocadan dinleyerek öğrenmek en iyisidir.</p>
+ <p class="amin">Allah namazlarımızı kabul etsin.</p>`)}
+$('infoBtn').onclick=openInfo;
+
+/* =========================================================
+   GÖRÜNÜM: tema (çocuk / yetişkin) ve renk (koyu / açık)
+   ========================================================= */
+const THEME_KEY='apps:tema', MODE_KEY='theme';
+const save=(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}};
+function paint(){
+  const m=document.querySelector('meta[name="theme-color"]');
+  m&&m.setAttribute('content',getComputedStyle(document.body).backgroundColor);
+}
+function withReveal(origin,change){
+  if(!origin||!document.startViewTransition||reduceMotion.matches){change();paint();return}
+  const b=origin.getBoundingClientRect(), x=b.left+b.width/2, y=b.top+b.height/2, r=Math.hypot(Math.max(x,innerWidth-x),Math.max(y,innerHeight-y));
+  root.classList.add('theme-vt');
+  const vt=document.startViewTransition(()=>{change();paint()});
+  vt.ready.then(()=>root.animate({clipPath:[`circle(0px at ${x}px ${y}px)`,`circle(${r}px at ${x}px ${y}px)`]},{duration:620,easing:'cubic-bezier(.3,.6,.2,1)',pseudoElement:'::view-transition-new(root)'})).catch(()=>{});
+  vt.finished.finally(()=>root.classList.remove('theme-vt'));
+}
+function setMode(m,origin){
+  if(m===root.dataset.mode)return;
+  save(MODE_KEY,m);
+  withReveal(origin,()=>{root.setAttribute('data-mode',m);lookSync()});
+}
+function setTheme(t,origin){
+  if(t===root.dataset.theme)return;
+  save(THEME_KEY,t);
+  withReveal(origin,()=>{root.setAttribute('data-theme',t);rebuild();lookSync()});
+}
+function rebuild(){ // tema değişince metinler, simgeler ve anlatım kayıtları yenilenir
+  const pos={}; for(const k in decks) pos[k]=decks[k].idx;
+  const was=started; started=false;
+  buildStatic();
+  renderItem('adim',COL.adim.cur); renderItem('nafile',COL.nafile.cur);
+  for(const k in decks) decks[k].go(pos[k]||0,true);
+  started=was;
+  show(curView);
+}
+function lookHtml(){
+  const t=root.dataset.theme, m=root.dataset.mode;
+  const opt=(attr,val,on,title,desc,sw)=>`<button class="opt" ${attr}="${val}" aria-pressed="${on}"><span class="sws">${sw.map(c=>`<i style="background:${c}"></i>`).join('')}</span><b>${title}</b><small>${desc}</small></button>`;
+  return `<h3>Görünüm</h3><p>Tema, uygulama ana ekranındaki seçimle ve diğer uygulamalarla ortaktır.</p>
+   <h3 style="font-size:1.15rem;margin-top:20px">Tema</h3>
+   <div class="optrow">${opt('data-set-theme','cocuk',t==='cocuk','Çocuk','Renkli ve sıcak; sade bir dille anlatır.',['#ffb703','#7b61ff','#219ebc'])}${opt('data-set-theme','yetiskin',t==='yetiskin','Yetişkin','Sakin ve ciddi; okumaya odaklanır.',['#1d5a47','#dab56d','#f3ecdf'])}</div>
+   <h3 style="font-size:1.15rem;margin-top:20px">Renk</h3>
+   <div class="optrow">${opt('data-set-mode','light',m==='light','Açık','Aydınlık ortamlar için.',['#fffdf8','#e9e0cf'])}${opt('data-set-mode','dark',m==='dark','Koyu','Loş ortamlar ve gece için.',['#0c1814','#22213a'])}</div>`;
+}
+function lookSync(){if(sheet.dataset.kind==='look'&&sheet.classList.contains('on'))sheetBody.innerHTML=lookHtml()}
+$('lookBtn').onclick=()=>{openSheet(lookHtml());sheet.dataset.kind='look'};
+sheetBody.addEventListener('click',e=>{
+  const t=e.target.closest('[data-set-theme]'); if(t){setTheme(t.dataset.setTheme,t);return}
+  const m=e.target.closest('[data-set-mode]'); if(m)setMode(m.dataset.setMode,m);
+});
+// başka bir sekmede (ana ekran ya da öteki uygulama) seçim değişirse buraya da yansısın
+window.addEventListener('storage',e=>{
+  if(e.key===THEME_KEY&&(e.newValue==='cocuk'||e.newValue==='yetiskin')&&e.newValue!==root.dataset.theme){root.setAttribute('data-theme',e.newValue);rebuild();lookSync();paint()}
+  if(e.key===MODE_KEY&&(e.newValue==='dark'||e.newValue==='light')){root.setAttribute('data-mode',e.newValue);lookSync();paint()}
+});
+
+/* Başlat */
+function buildStatic(){
+  createDeck('d-giris',GIRIS());
+  createDeck('d-hazirlik',HAZIRLIK());
+  createDeck('d-secde',SECDE());
+  createDeck('d-vakit',VAKITS());
+}
+buildStatic();
+renderItem('adim',0);
+renderItem('nafile',0);
+show('giris');
+started=true;
+paint();
+</script>
+<script src="pwa.js" defer></script>
+</body>
+</html>

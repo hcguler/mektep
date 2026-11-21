@@ -1,0 +1,104 @@
+/* ============================================
+   Sesli anlatım oynatıcısı — ortak stil (apps/anlatim.js)
+   Uygulamaların ortak değişkenlerini kullanır: --surface, --line, --ink, --gold, --primary …
+   data-theme="yetiskin" | "cocuk"  ·  data-mode="dark" | "light"
+   ============================================ */
+
+.anl{display:grid;gap:8px;margin-top:16px}
+.anl[hidden]{display:none}
+.anl__row,.anl-mini__in{
+  position:relative;display:grid;grid-template-columns:auto minmax(0,1fr) auto;grid-template-rows:auto auto;
+  align-items:center;column-gap:12px;row-gap:8px;padding:10px 12px 12px 10px;border-radius:20px;
+  border:1px solid var(--line-2);background:color-mix(in srgb,var(--surface) 82%,transparent);text-align:left
+}
+.anl__row.is-tam{background:linear-gradient(135deg,var(--gold-soft),color-mix(in srgb,var(--surface) 82%,transparent) 70%)}
+.anl__pp{
+  grid-row:span 2;position:relative;width:48px;height:48px;border-radius:50%;border:0;display:grid;place-items:center;
+  background:var(--primary);color:var(--primary-ink);cursor:pointer;transition:transform .3s var(--spring,ease),background .25s
+}
+.anl__pp:hover{background:var(--primary-2,var(--primary))}
+.anl__pp:active{transform:scale(.92)}
+.anl__pp span{position:absolute;inset:0;display:grid;place-items:center;transition:opacity .2s,transform .3s var(--spring,ease)}
+.anl__pp svg{width:22px;height:22px}
+.anl__pp .i-pause{opacity:0;transform:scale(.4)}
+[data-state="playing"]>.anl__pp .i-play,[data-state="playing"] .anl-mini__in>.anl__pp .i-play{opacity:0;transform:scale(.4)}
+[data-state="playing"]>.anl__pp .i-pause,[data-state="playing"] .anl-mini__in>.anl__pp .i-pause{opacity:1;transform:none}
+[data-state="loading"]>.anl__pp::after,[data-state="loading"] .anl-mini__in>.anl__pp::after{
+  content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid transparent;border-top-color:var(--gold);animation:anl-don 1s linear infinite
+}
+@keyframes anl-don{to{transform:rotate(360deg)}}
+.anl__meta{min-width:0;display:flex;flex-direction:column;gap:1px}
+.anl__meta b{font-size:.95rem;font-weight:600;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.anl__alt{font-size:.78rem;color:var(--soft);font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+[data-state="error"] .anl__alt{color:var(--danger);white-space:normal}
+.anl__hiz{
+  min-width:48px;min-height:44px;padding:0 10px;border-radius:999px;border:1px solid var(--line-2);background:transparent;
+  color:var(--ink);font:600 .82rem var(--font-b,inherit);font-variant-numeric:tabular-nums;cursor:pointer
+}
+.anl__hiz:hover{border-color:var(--gold);color:var(--gold)}
+.anl__row.has-sira{grid-template-columns:auto minmax(0,1fr) auto auto}
+/* Sırayla dinle: açıkken bir bölüm bitince sıradaki başlar (kilit ekranında da) */
+.anl__sira{
+  width:44px;height:44px;border-radius:50%;border:1px solid var(--line-2);background:transparent;color:var(--soft);
+  display:grid;place-items:center;cursor:pointer;transition:color .2s,border-color .2s,background .2s
+}
+.anl__sira svg{width:20px;height:20px}
+.anl__sira:hover{color:var(--ink)}
+.anl__sira[aria-pressed="true"]{color:var(--gold);border-color:var(--gold);background:color-mix(in srgb,var(--gold) 12%,transparent)}
+.anl__bar{
+  grid-column:2 / -1;position:relative;height:6px;border-radius:999px;background:var(--line-2);cursor:pointer;touch-action:none
+}
+.anl__bar::before{content:"";position:absolute;inset:-12px 0}
+.anl__bar i{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:inherit;background:var(--gold);transition:width .25s linear}
+.anl__bar:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.anl button:focus-visible,.anl-mini button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+/* Alttaki küçük oynatıcı: çalan kaydın satırı sayfada değilken */
+.anl-mini{position:fixed;left:0;right:0;bottom:calc(var(--navh,0px) + 10px);z-index:36;display:flex;justify-content:center;padding:0 12px;pointer-events:none}
+.anl-mini[hidden]{display:none}
+.anl-mini__in{
+  pointer-events:auto;width:100%;max-width:580px;grid-template-columns:auto minmax(0,1fr) auto auto;
+  background:var(--glass);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);box-shadow:0 18px 40px -20px rgba(0,0,0,.6)
+}
+.anl-mini .anl__bar{grid-column:2 / -1}
+.anl-mini__x{width:44px;height:44px;border-radius:50%;border:0;background:transparent;color:var(--soft);display:grid;place-items:center;cursor:pointer}
+.anl-mini__x svg{width:18px;height:18px}
+.anl-mini__x:hover{color:var(--ink)}
+body.has-anl main{padding-bottom:calc(var(--navh,0px) + 130px)}
+
+/* Çocuk teması: kalın, yuvarlak, tok düğmeler */
+[data-theme="cocuk"] .anl__row,[data-theme="cocuk"] .anl-mini__in{border-radius:24px;border-width:2px}
+[data-theme="cocuk"] .anl__meta b{font-weight:900}
+[data-theme="cocuk"] .anl__pp{box-shadow:0 4px 0 var(--primary-d,rgba(0,0,0,.25))}
+[data-theme="cocuk"] .anl__pp:active{transform:translateY(3px);box-shadow:0 1px 0 var(--primary-d,rgba(0,0,0,.25))}
+[data-theme="cocuk"] .anl__hiz{font-weight:900}
+[data-theme="cocuk"] .anl__sira{border-width:2px}
+[data-theme="cocuk"] .anl__bar{height:8px}
+
+@media (min-width:1000px) and (min-height:600px){
+  .anl-mini{left:var(--side,0px);bottom:18px}
+  body.has-anl main{padding-bottom:150px}
+}
+/* Dar ekranda "Sırayla dinle" ikinci satıra, ilerleme çubuğunun yanına iner; başlık kesilmez */
+@media (max-width:420px){
+  .anl__row.has-sira{grid-template-columns:auto minmax(0,1fr) auto}
+  .anl__row.has-sira .anl__sira{grid-column:3;grid-row:2;justify-self:end}
+  .anl__row.has-sira .anl__hiz{grid-column:3;grid-row:1}
+  .anl__row.has-sira .anl__bar{grid-column:2;grid-row:2}
+}
+@media (max-width:360px){
+  .anl__row,.anl-mini__in{column-gap:9px;padding:9px 9px 11px 8px}
+  .anl__pp{width:44px;height:44px}
+  .anl__hiz{min-width:44px;padding:0 6px}
+}
+@media (prefers-reduced-motion:reduce){
+  .anl__pp,.anl__pp span,.anl__bar i,.anl__sira{transition:none}
+  [data-state="loading"]>.anl__pp::after,[data-state="loading"] .anl-mini__in>.anl__pp::after{animation-duration:3s}
+}
+
+/* Ezberler'in kıraat oynatıcısı açıkken küçük oynatıcı onun üstünde durur */
+body.has-player .anl-mini{bottom:calc(var(--navh,0px) + 96px)}
+body.has-player.has-anl main{padding-bottom:calc(var(--navh,0px) + 210px)}
+@media (min-width:1000px) and (min-height:600px){
+  body.has-player .anl-mini{bottom:104px}
+}

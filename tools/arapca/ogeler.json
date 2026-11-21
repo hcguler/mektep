@@ -1,0 +1,4771 @@
+{
+ "_aciklama": "Ayet Ayet Arapça: elle yazılan öğretim ögeleri (edat, ek, kalıp, deyim, dil bilgisi). 'sayfa: 0' başlangıç dersindedir. 'eslesme' verilen öge Corpus çözümlemesinde ilk geçtiği sayfada öğretilir (sayfa başına sınırlı; taşan sonraki uygun sayfaya kayar); 'ornek' verilen öge o ayetin sayfasında öğretilir. eslesme: tur (N/V/P), lem (Corpus lemması), etiket (hepsi bulunmalı), yok (hiçbiri bulunmamalı), bicim (harekesiz biçim için düzenli ifade), bitisik (kelimenin ilk parçası değilse true). Dayanaklar: kaynaklar listesi. node tools/arapca-uret.mjs ile pakete girer.",
+ "kaynaklar": {
+  "gramer": "Arap dilinin klasik gramer kuralları: Birgivî Mehmed Efendi, el-Avâmil ve İzhâr (XVI. yy.; Türk medrese geleneği), İbn Hişâm, Katru'n-nedâ (XIV. yy.), W. Wright, A Grammar of the Arabic Language (1859–1862). Ayetteki çözümleme: Quranic Arabic Corpus v0.4.",
+  "sarf": "Kelime kalıpları (vezin): Emsile ve Binâ (Türk medrese geleneği), W. Wright, A Grammar of the Arabic Language. Ayetteki çözümleme: Quranic Arabic Corpus v0.4.",
+  "lugat": "Kelime anlamı: Râgıb el-İsfahânî, el-Müfredât fî garîbi'l-Kur'ân (XI. yy.); E. W. Lane, An Arabic-English Lexicon (1863–1893). Ayetteki anlam: Diyanet İşleri Başkanlığı meali."
+ },
+ "ogeler": [
+  {
+   "id": "g-kok",
+   "tur": "dilbilgisi",
+   "sayfa": 0,
+   "ornek": "1:2",
+   "ad": "Kök ve kalıp",
+   "ar": "جَذْر",
+   "okunus": "cezr",
+   "anlam": "Arapça kelimelerin çoğu üç harfli bir kökten türer.",
+   "aciklama": "Arapçada kelimelerin büyük çoğunluğu üç ünsüzden oluşan bir kökten türer. Kök, anlamın çekirdeğini taşır; bu harflerin etrafına konan ünlüler ve ekler kelimenin türünü belirler. Örneğin ha, mim, dal kökü övgü anlamı taşır: hamd (övgü), Ahmed ve Mahmûd (çok övülen) aynı kökten gelir. Bir kökü tanıyan, o kökten gelen pek çok kelimeyi tahmin edebilir.",
+   "akilda": "Kökü bulan, kelimenin ailesini bulur.",
+   "kaynak": "sarf",
+   "kelimeler": [
+    1
+   ]
+  },
+  {
+   "id": "g-kelime-turleri",
+   "tur": "dilbilgisi",
+   "sayfa": 0,
+   "ornek": "1:5",
+   "ad": "Kelimenin üç türü: isim, fiil, harf",
+   "ar": "اِسْم · فِعْل · حَرْف",
+   "okunus": "ism · fi'l · harf",
+   "anlam": "Arap gramerinde her kelime ya isim ya fiil ya da harftir.",
+   "aciklama": "Arap gramerinde kelime üç türe ayrılır. İsim bir varlığı ya da kavramı adlandırır; sıfat, zamir ve zarf da bu gruba girer. Fiil bir zamanda olan işi bildirir. Harf ise tek başına tam anlam taşımaz, isim ve fiilleri birbirine bağlar: ve, -de, -den, şüphesiz gibi. Fâtiha'nın beşinci ayetinde iyyâke bir zamirdir, yani isim türündendir; na'büdü bir fiildir; ve harfi ikisini bağlar.",
+   "akilda": "İsim adlandırır, fiil iş bildirir, harf bağlar.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "g-gunes-ay",
+   "tur": "dilbilgisi",
+   "sayfa": 0,
+   "ornek": "1:3",
+   "ad": "Güneş ve ay harfleri",
+   "ar": "اَلْحُرُوفُ الشَّمْسِيَّة وَالْقَمَرِيَّة",
+   "okunus": "el-hurûfu'ş-şemsiyye ve'l-kameriyye",
+   "anlam": "el- takısının lam harfi, bazı harflerden önce okunmaz.",
+   "aciklama": "Belirlilik takısı el- ile başlayan kelimede, takıdan sonraki harf on dört güneş harfinden biriyse lam okunmaz ve sonraki harf çift okunur: er-rahmân yerine errahmân denir. Ay harflerinde ise lam açıkça okunur: el-hamd. Güneş harfleri dilin ucuyla çıkan harflerdir: te, se, dal, zel, ra, ze, sin, şın, sad, dad, tı, zı, lam, nun. Bu yüzden yazıda görülen lam, okunuşta kaybolabilir.",
+   "akilda": "Güneş harfi lamı gizler, ay harfi gösterir.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1
+   ]
+  },
+  {
+   "id": "b-ve",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "و"
+   },
+   "ad": "ve",
+   "ar": "وَ",
+   "okunus": "ve",
+   "anlam": "ve; (cümle başında) bağlama; (bazen) iken",
+   "aciklama": "Kur'an'da en sık geçen kelimedir ve hep kendinden sonraki kelimeye bitişik yazılır. Çoğunlukla iki kelimeyi ya da iki cümleyi bağlar. Cümle başında yeni bir sözü önceki söze bağlar; bazı yerlerde iken anlamında bir durum bildirir. Yemin anlamındaki ve'yi ise ileride göreceğiz.",
+   "akilda": "Kelimenin başındaki tek vav çoğu zaman 've' demektir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-fe",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "ف"
+   },
+   "ad": "fe",
+   "ar": "فَ",
+   "okunus": "fe",
+   "anlam": "ve hemen; bunun üzerine; o hâlde",
+   "aciklama": "Fe de kendinden sonraki kelimeye bitişik yazılır. Ve harfinden farkı, ardışıklık ve sonuç bildirmesidir: bir olayın hemen ardından ötekinin geldiğini ya da bir şeyin sonucunu gösterir. Şart cümlelerinde cevabın başına gelir ve o hâlde diye çevrilir.",
+   "akilda": "Fe, arkası arkasına gelen işleri ve sonucu bağlar.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-bi",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "ب"
+   },
+   "ad": "bi",
+   "ar": "بِ",
+   "okunus": "bi",
+   "anlam": "ile; -de; -e; yoluyla",
+   "aciklama": "Bi harf-i cerdir, yani kendinden sonraki ismi mecrûr yapar ve ona bitişik yazılır. En sık anlamı ile ve vasıtasıyladır; bismillâh, Allah'ın adıyla demektir. Bazı fiillerle birlikte kalıplaşır: âmene bi, bir şeye iman etti demektir. Türkçeye çoğu zaman -e, -de ya da -ile ekiyle çevrilir.",
+   "akilda": "Bismillâh'taki bi, 'ile' demektir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-li",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "ل",
+    "etiket": [
+     "P"
+    ]
+   },
+   "ad": "li",
+   "ar": "لِ",
+   "okunus": "li",
+   "anlam": "için; -e; -in (aitlik)",
+   "aciklama": "Li de bitişik yazılan bir harf-i cerdir. Aitlik ve yönelme bildirir: lillâh, Allah'a ait ve Allah için demektir. Elhamdü lillâh, övgü Allah'a mahsustur anlamına gelir. Zamirle birleşince le olur: lehü, onun için ya da onundur.",
+   "akilda": "Lillâh: Allah'ındır, Allah içindir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-fi",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "فِي"
+   },
+   "ad": "fî",
+   "ar": "فِي",
+   "okunus": "fî",
+   "anlam": "içinde; -de; hakkında",
+   "aciklama": "Fî yer ve zaman bildiren harf-i cerdir ve Türkçedeki -de ekine karşılık gelir. Fîhi, onun içinde; fi'l-ard, yeryüzünde demektir. Kendinden sonraki isim mecrûr olur.",
+   "akilda": "Fî, Türkçedeki -de ekidir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-min",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "مِن"
+   },
+   "ad": "min",
+   "ar": "مِنْ",
+   "okunus": "min",
+   "anlam": "-den; bir kısmı; -den biri",
+   "aciklama": "Min başlangıç noktası bildirir ve -den ekine karşılık gelir: min rabbihim, Rablerinden demektir. Bir bütünün bir kısmını da gösterir: mimmâ, şeylerden bir kısmından demektir. Mim ve ma birleşince mimmâ olur.",
+   "akilda": "Min, nereden geldiğini söyler.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-ala",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "عَلَى"
+   },
+   "ad": "alâ",
+   "ar": "عَلَىٰ",
+   "okunus": "alâ",
+   "anlam": "üzerine; üstünde; -e karşı",
+   "aciklama": "Alâ üstünlük ve üzerinde olmayı bildirir. Zamirle birleşince aley olur: aleyhim, onların üzerine demektir. Fâtiha'daki ğayri'l-mağdûbi aleyhim, kendilerine gazap edilmişlerin değil anlamındadır.",
+   "akilda": "Alâ: üstünde; aleyhim: onların üzerine.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-ila",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "إِلَى"
+   },
+   "ad": "ilâ",
+   "ar": "إِلَىٰ",
+   "okunus": "ilâ",
+   "anlam": "-e doğru; -e kadar",
+   "aciklama": "İlâ yönelme ve varış noktası bildirir; -e ve -e kadar ekine karşılık gelir. Zamirle birleşince iley olur: ileyke, sana demektir.",
+   "akilda": "Min başlangıcı, ilâ varışı söyler.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-inne",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "إِنّ"
+   },
+   "ad": "inne",
+   "ar": "إِنَّ",
+   "okunus": "inne",
+   "anlam": "şüphesiz; gerçekten",
+   "aciklama": "İnne cümleyi pekiştirir: şüphesiz, gerçekten diye çevrilir. İsim cümlesinin başına gelir; kendinden sonraki ismi mansûb yapar. Zamirle birleşince innehû, innî, innâ gibi biçimler alır.",
+   "akilda": "İnne ile başlayan cümle, kesinlik bildirir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-la",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "tur": "P",
+    "lem": "لا"
+   },
+   "ad": "lâ",
+   "ar": "لَا",
+   "okunus": "lâ",
+   "anlam": "hayır; değil; yok; (fiille) -me",
+   "aciklama": "Lâ en sık kullanılan olumsuzluk edatıdır. Muzâri fiilin başına gelince olumsuz yapar: lâ yü'minûn, inanmazlar demektir. Bir ismin başına gelince hiç yoktur anlamı verir: lâ raybe, hiç şüphe yoktur. Emir yerine kullanılan fiille yasak bildirir: lâ tekûnû, olmayın.",
+   "akilda": "Lâ, 'yok' ve 'değil' demektir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-ma",
+   "tur": "edat",
+   "sayfa": 0,
+   "eslesme": {
+    "lem": "ما"
+   },
+   "ad": "mâ",
+   "ar": "مَا",
+   "okunus": "mâ",
+   "anlam": "şey ki; ne; (olumsuz) değil",
+   "aciklama": "Mâ, Kur'an'da farklı görevlerde geçer. İlgi zamiri olarak 'şey ki' demektir: mâ ünzile ileyke, sana indirilen şey. Soru edatı olarak 'ne' anlamındadır. Olumsuzluk edatı olarak da 'değil' demektir: ve mâ hüm bi-mü'minîn, onlar inanan değillerdir. Hangisi olduğu cümleden anlaşılır.",
+   "akilda": "Mâ: ya 'şey', ya 'ne', ya da 'değil'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-ellezi",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "الَّذِي"
+   },
+   "ad": "ellezî, ellezîne",
+   "ar": "الَّذِي · الَّذِينَ",
+   "okunus": "ellezî · ellezîne",
+   "anlam": "o ki, öyle ki; (çoğul) o kimseler ki",
+   "aciklama": "İlgi zamiridir (ism-i mevsûl): kendinden sonra gelen cümleyi bir isme bağlar. Ellezî tekil eril, ellezîne çoğul eril, elletî tekil dişildir. Türkçeye çoğu zaman sıfat-fiille çevrilir: ellezîne yü'minûne, iman edenler demektir.",
+   "akilda": "Ellezîne yapanlar: 'yapan kimseler'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-ayri-zamir",
+   "tur": "edat",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON"
+    ],
+    "bitisik": false
+   },
+   "ad": "Ayrı yazılan zamirler",
+   "ar": "هُوَ · هُمْ · أَنْتُمْ · نَحْنُ",
+   "okunus": "hüve · hüm · entüm · nahnü",
+   "anlam": "o, onlar, siz, biz…",
+   "aciklama": "Kelimeye bitişmeden tek başına yazılan zamirlerdir. Hüve o (eril), hiye o (dişil), hüm onlar, ente sen, entüm siz, ene ben, nahnü biz demektir. İyyâ ile kurulan biçimler de bu gruptandır: iyyâke, yalnız seni. Cümlede vurguyu taşırlar.",
+   "akilda": "Hüve o, hüm onlar, nahnü biz.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-isaret",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "ذا",
+    "etiket": [
+     "DEM"
+    ]
+   },
+   "ad": "İşaret isimleri",
+   "ar": "ذَٰلِكَ · هَٰذَا · أُولَٰئِكَ",
+   "okunus": "zâlike · hâzâ · ülâike",
+   "anlam": "o, işte o; bu; onlar",
+   "aciklama": "Hâzâ yakını, zâlike uzağı gösterir: bu ve o. Dişil biçimleri hâzihî ve tilke, çoğul biçimi ise hâülâi ve ülâike'dir. Zâlike'nin sonundaki ke, kendisine hitap edileni gösteren bir ektir. Bakara'nın ikinci ayeti zâlike'l-kitâb, işte o kitap diye başlar.",
+   "akilda": "Hâzâ bu, zâlike o.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-illa",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "إِلّا"
+   },
+   "ad": "illâ",
+   "ar": "إِلَّا",
+   "okunus": "illâ",
+   "anlam": "-den başka; ancak; dışında",
+   "aciklama": "İstisna edatıdır: bir şeyi genel hükmün dışında tutar. Olumsuz cümleden sonra gelince 'ancak, yalnızca' anlamı verir: ve mâ yahde'ûne illâ enfüsehüm, yalnızca kendilerini aldatırlar. Kelime-i tevhiddeki lâ ilâhe illallâh da bu yapıdadır.",
+   "akilda": "Lâ … illâ: 'yalnızca' demenin en güçlü yolu.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-summe",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "ثُمّ"
+   },
+   "ad": "sümme",
+   "ar": "ثُمَّ",
+   "okunus": "sümme",
+   "anlam": "sonra",
+   "aciklama": "Sümme sıralama bildirir ama fe'den farklı olarak arada zaman ya da derece farkı olduğunu gösterir: sonra, ardından bir süre geçince. Ayrı bir kelime olarak yazılır.",
+   "akilda": "Fe hemen sonra, sümme bir süre sonra.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-ev",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "أَو"
+   },
+   "ad": "ev",
+   "ar": "أَوْ",
+   "okunus": "ev",
+   "anlam": "veya; ya da",
+   "aciklama": "Ev seçenek bildiren bağlaçtır: veya, ya da. Benzetmelerde iki örneği sıralarken de kullanılır.",
+   "akilda": "Ev: 'veya'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-an",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "عَن"
+   },
+   "ad": "an",
+   "ar": "عَنْ",
+   "okunus": "an",
+   "anlam": "-den (uzaklaşma); hakkında",
+   "aciklama": "An uzaklaşma ve ayrılma bildiren harf-i cerdir: -den. Min başlangıç noktasını, an ise bir şeyden uzaklaşmayı anlatır. Bazı fiillerle kalıplaşır: sorma fiiliyle 'hakkında' demektir.",
+   "akilda": "An: bir şeyden uzaklaşmak.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-kad",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "قَد"
+   },
+   "ad": "kad",
+   "ar": "قَدْ",
+   "okunus": "kad",
+   "anlam": "(mâzîyle) gerçekten, -miştir; (muzâriyle) bazen",
+   "aciklama": "Kad mâzî fiilin önüne gelince işin gerçekten olup bittiğini pekiştirir: kad alimtüm, kesinlikle bildiniz. Muzâri fiille ise 'bazen, olabilir' anlamı verir. Önüne le gelirse lekad olur ve 'andolsun' diye çevrilir.",
+   "akilda": "Kad + geçmiş zaman = kesinlikle oldu.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-lem",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "لَم"
+   },
+   "ad": "lem",
+   "ar": "لَمْ",
+   "okunus": "lem",
+   "anlam": "(muzâriyle) -medi",
+   "aciklama": "Lem muzâri fiilin başına gelir ama anlamı geçmiş zamana çevirir ve olumsuz yapar: lem tünzirhüm, onları uyarmadın. Fiilin sonunu cezm eder, yani son harekeyi düşürür.",
+   "akilda": "Lem + muzâri = yapmadı.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-len",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "لَن"
+   },
+   "ad": "len",
+   "ar": "لَنْ",
+   "okunus": "len",
+   "anlam": "(muzâriyle) asla -meyecek",
+   "aciklama": "Len muzâri fiili gelecek zamanda olumsuz yapar ve kesinlik katar: ve len tef'alû, ve asla yapamayacaksınız. Fiilin sonunu nasb eder.",
+   "akilda": "Len: gelecekte asla.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-iza",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "إِذا"
+   },
+   "ad": "izâ",
+   "ar": "إِذَا",
+   "okunus": "izâ",
+   "anlam": "-dığı zaman; -ince",
+   "aciklama": "İzâ gelecekte gerçekleşmesi beklenen bir zamanı bildiren şart edatıdır: ve izâ kîle lehüm, onlara denildiği zaman. Kendinden sonra çoğunlukla mâzî fiil gelir ama anlam geniş zamandır.",
+   "akilda": "İzâ: '…dığı zaman'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-iz",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "إِذ"
+   },
+   "ad": "iz",
+   "ar": "إِذْ",
+   "okunus": "iz",
+   "anlam": "hani; o zaman ki",
+   "aciklama": "İz geçmişteki bir zamanı gösterir. Kur'an'da çoğu zaman ve iz diye bir kıssanın başında gelir ve 'hani, hatırla o zamanı ki' diye çevrilir. Bakara'nın otuzuncu ayeti Âdem kıssasını böyle açar.",
+   "akilda": "Ve iz: 'Hatırla o zamanı…'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-lealle",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "لَعَلّ"
+   },
+   "ad": "lealle",
+   "ar": "لَعَلَّ",
+   "okunus": "lealle",
+   "anlam": "umulur ki; -sin diye",
+   "aciklama": "Lealle umut ve beklenti bildirir; inne gibi kendinden sonraki ismi mansûb yapar. Kur'an'da çoğu zaman bir emrin ya da öğüdün amacını gösterir: lealleküm tettekûn, korunasınız diye.",
+   "akilda": "Lealleküm: 'umulur ki siz…'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-en",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "أَن"
+   },
+   "ad": "en",
+   "ar": "أَنْ",
+   "okunus": "en",
+   "anlam": "-mek, -mesi",
+   "aciklama": "En, kendinden sonraki fiili masdar anlamına çevirir: en yadribe, misal vermesi demektir. Muzâri fiilin sonunu nasb eder. Şeddeli enne ile karıştırılmamalıdır; enne isim cümlesine gelir ve 'ki, -dığı' demektir.",
+   "akilda": "En + fiil = '-mek'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-bel",
+   "tur": "edat",
+   "eslesme": {
+    "lem": "بَل"
+   },
+   "ad": "bel",
+   "ar": "بَلْ",
+   "okunus": "bel",
+   "anlam": "bilakis; hayır, aksine",
+   "aciklama": "Bel önceki sözü düzeltir ya da ondan daha güçlü bir söze geçer: bilakis, hayır aksine.",
+   "akilda": "Bel: 'hayır, aksine'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-el",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "P",
+    "lem": "ال"
+   },
+   "ad": "el- takısı",
+   "ar": "ال",
+   "okunus": "el",
+   "anlam": "belirlilik: 'o bilinen'",
+   "aciklama": "El- takısı ismi belirli yapar; Türkçede karşılığı yoktur ama 'o bilinen' anlamı verir: kitâbün bir kitap, el-kitâb o kitap demektir. İsme bitişik yazılır. Güneş harflerinde lamı okunmaz.",
+   "akilda": "El- takısı: 'herhangi biri' değil, 'o bilinen'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-ke-harf",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "P",
+    "lem": "ك"
+   },
+   "ad": "ke (benzetme)",
+   "ar": "كَ",
+   "okunus": "ke",
+   "anlam": "gibi",
+   "aciklama": "İsmin başına bitişen ke, benzetme bildiren harf-i cerdir: gibi. Kemeseli, misali gibi demektir. İsmin sonundaki ke zamiriyle karıştırılmamalıdır; o 'seni, senin' anlamındadır.",
+   "akilda": "Başta ke 'gibi', sonda ke 'senin'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-hu",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON"
+    ],
+    "bicim": "^ه$",
+    "bitisik": true
+   },
+   "ad": "-hu / -hî zamiri",
+   "ar": "ـهُ · ـهِ",
+   "okunus": "-hû · -hî",
+   "anlam": "onu, onun, ona (eril tekil)",
+   "aciklama": "Kelimenin sonuna bitişen he harfi 'o' zamiridir. İsme gelince 'onun', fiile gelince 'onu', harf-i cerre gelince 'ona' ya da 'onda' demektir: fîhi, onda; rabbihî, Rabbi. Önündeki harf esreli ise -hî, değilse -hû okunur.",
+   "akilda": "Sondaki he, 'o'dur.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-ha",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON"
+    ],
+    "bicim": "^ها$",
+    "bitisik": true
+   },
+   "ad": "-hâ zamiri",
+   "ar": "ـهَا",
+   "okunus": "-hâ",
+   "anlam": "onu, onun (dişil tekil; cansız çoğul)",
+   "aciklama": "Sondaki hâ, dişil 'o' zamiridir: onu, onun. Arapçada insan dışındaki varlıkların çoğulu da dişil tekil gibi işlem görür; bu yüzden hâ bazen 'onları' diye çevrilir. Fîhâ, orada ya da onların içinde demektir.",
+   "akilda": "Sondaki hâ, dişil 'o'dur.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-hum",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON"
+    ],
+    "bicim": "^هم$",
+    "bitisik": true
+   },
+   "ad": "-hüm / -him zamiri",
+   "ar": "ـهُمْ · ـهِمْ",
+   "okunus": "-hüm · -him",
+   "anlam": "onları, onların, onlara",
+   "aciklama": "Sondaki hüm, eril çoğul 'onlar' zamiridir. Rabbihim, Rablerinin; aleyhim, onların üzerine; razaknâhüm, onları rızıklandırdık demektir. Önündeki harf esreli ya da ye ise -him okunur.",
+   "akilda": "Sondaki hüm: 'onlar'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-ke-zamir",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON",
+     "2MS"
+    ],
+    "bicim": "^ك$",
+    "bitisik": true
+   },
+   "ad": "-ke zamiri",
+   "ar": "ـكَ",
+   "okunus": "-ke",
+   "anlam": "seni, senin, sana",
+   "aciklama": "Sondaki ke, ikinci tekil 'sen' zamiridir: rabbüke Rabbin; ileyke sana; iyyâke yalnız seni. Kur'an'da çoğu zaman Peygamberimize hitap eder.",
+   "akilda": "Sondaki ke: 'sen'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-kum",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON"
+    ],
+    "bicim": "^كم$",
+    "bitisik": true
+   },
+   "ad": "-küm zamiri",
+   "ar": "ـكُمْ",
+   "okunus": "-küm",
+   "anlam": "sizi, sizin, size",
+   "aciklama": "Sondaki küm, ikinci çoğul 'siz' zamiridir: rabbeküm Rabbiniz; aleyküm size, sizin üzerinize; lealleküm umulur ki siz.",
+   "akilda": "Sondaki küm: 'siz'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-na",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON"
+    ],
+    "bicim": "^نا$",
+    "bitisik": true
+   },
+   "ad": "-nâ zamiri",
+   "ar": "ـنَا",
+   "okunus": "-nâ",
+   "anlam": "biz; bizi, bizim",
+   "aciklama": "Sondaki nâ, birinci çoğul 'biz' zamiridir. Mâzî fiile gelince işi yapanı gösterir: razaknâ, rızık verdik. İsme ve öteki fiillere gelince 'bizi, bizim' demektir: ihdinâ, bizi ilet. Kur'an'da Allah kendinden çoğu zaman bu yüceltme diliyle bahseder.",
+   "akilda": "Sondaki nâ: 'biz'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-i",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON",
+     "1S"
+    ],
+    "bitisik": true
+   },
+   "ad": "-î / -nî zamiri",
+   "ar": "ـِي · ـنِي",
+   "okunus": "-î · -nî",
+   "anlam": "beni, benim",
+   "aciklama": "Sondaki ye, birinci tekil 'ben' zamiridir: ni'metî, nimetim. Fiile gelince araya nun girer: -nî, beni. Bazen ye yazılmaz, yalnız esre kalır: yâ kavmi, ey kavmim.",
+   "akilda": "Sondaki î: 'benim'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-u-ozne",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON",
+     "SUFF"
+    ],
+    "bicim": "^(وا|و|ون)$",
+    "bitisik": true
+   },
+   "ad": "-û / -ûne (çoğul özne)",
+   "ar": "ـُوا · ـُونَ",
+   "okunus": "-û · -ûne",
+   "anlam": "onlar / siz (fiilin çoğul öznesi)",
+   "aciklama": "Fiilin sonundaki vav, işi yapanın eril çoğul olduğunu gösterir. Mâzîde -û olur: keferû, inkâr ettiler. Muzâride -ûne olur: yü'minûne, inanırlar. Emirde yine -û olur: u'büdû, kulluk edin. Mâzî ve emirdeki vavdan sonra yazılan elif okunmaz.",
+   "akilda": "Fiilin sonundaki vav: 'onlar' ya da 'siz'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-tum",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON",
+     "SUFF",
+     "2MP"
+    ],
+    "bicim": "^تم$",
+    "bitisik": true
+   },
+   "ad": "-tüm (siz yaptınız)",
+   "ar": "ـتُمْ",
+   "okunus": "-tüm",
+   "anlam": "siz (mâzî fiilin öznesi)",
+   "aciklama": "Mâzî fiilin sonundaki tüm, işi yapanın 'siz' olduğunu gösterir: küntüm, idiniz; alimtüm, bildiniz. Tekili -te (sen), birinci tekili -tü (ben) olur.",
+   "akilda": "Mâzîde -tüm: 'siz yaptınız'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "e-te-tu",
+   "tur": "ek",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PRON",
+     "SUFF"
+    ],
+    "bicim": "^ت$",
+    "bitisik": true
+   },
+   "ad": "-te / -tü (sen, ben yaptın)",
+   "ar": "ـتَ · ـتُ",
+   "okunus": "-te · -tü",
+   "anlam": "sen; ben (mâzî fiilin öznesi)",
+   "aciklama": "Mâzî fiilin sonuna gelen te, işi yapanın 'sen' olduğunu gösterir: en'amte, nimet verdin. Ötreli tü ise 'ben' demektir: en'amtü, nimet verdim. Aradaki tek fark harekedir.",
+   "akilda": "-te sen, -tü ben.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "v-fail",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "ACT_PCPL",
+     "VF:1"
+    ]
+   },
+   "ad": "fâil kalıbı (yapan)",
+   "ar": "فَاعِل",
+   "okunus": "fâil",
+   "anlam": "işi yapan: mâlik (sahip), âlim (bilen)",
+   "aciklama": "Üç harfli kökün ilk harfinden sonra uzun â gelirse kelime 'o işi yapan' anlamı taşır. Bu kalıba ism-i fâil denir. Mâlik, mülk sahibi; kâfir, inkâr eden; zâlim, zulmeden demektir. Kökü bilen, fâil kalıbındaki kelimenin anlamını tahmin edebilir.",
+   "akilda": "Fâil kalıbı: işi yapan.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-meful",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PASS_PCPL",
+     "VF:1"
+    ]
+   },
+   "ad": "mef‘ûl kalıbı (yapılan)",
+   "ar": "مَفْعُول",
+   "okunus": "mef'ûl",
+   "anlam": "işten etkilenen: mağdûb (gazaba uğramış)",
+   "aciklama": "Başına me- gelen ve sonunda uzun û bulunan kalıp, 'o işe uğrayan' anlamı taşır; buna ism-i mef'ûl denir. Mağdûb, gazaba uğramış; mektûb, yazılmış; ma'lûm, bilinen demektir. Türkçeye geçmiş pek çok kelime bu kalıptadır.",
+   "akilda": "Mef'ûl kalıbı: işe uğrayan.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-mu-fail",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "ACT_PCPL"
+    ],
+    "yok": [
+     "VF:1"
+    ]
+   },
+   "ad": "mü- ile başlayan fâil (mezid)",
+   "ar": "مُفْعِل · مُسْتَفْعِل",
+   "okunus": "müf'il · müstef'il",
+   "anlam": "işi yapan: mü'min (inanan), müstakîm (dosdoğru)",
+   "aciklama": "Üç harften fazlasıyla kurulan (mezid) fiillerin ism-i fâili mü- ile başlar ve son harften önceki harf esrelidir. Mü'min, iman eden; müttakî, Allah'a karşı gelmekten sakınan; müflih, kurtuluşa eren; müstakîm, dosdoğru olan demektir.",
+   "akilda": "Mü- ile başlayan kelime çoğu zaman 'yapan'dır.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-mu-meful",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "PASS_PCPL"
+    ],
+    "yok": [
+     "VF:1"
+    ]
+   },
+   "ad": "mü- ile başlayan mef‘ûl (mezid)",
+   "ar": "مُفْعَل",
+   "okunus": "müf'al",
+   "anlam": "işe uğrayan: münzel (indirilmiş)",
+   "aciklama": "Mezid fiillerin ism-i mef'ûlü de mü- ile başlar; farkı son harften önceki harfin üstünlü olmasıdır: mü'min inanan, müemmen ise emin kılınmış demektir. Bir harekelik fark yapan ile yapılanı ayırır.",
+   "akilda": "Mü- … -i- yapan, mü- … -e- yapılan.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-masdar",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "N",
+    "etiket": [
+     "VN"
+    ]
+   },
+   "ad": "masdar (fiilin ismi)",
+   "ar": "مَصْدَر",
+   "okunus": "masdar",
+   "anlam": "-mek, -me, -iş",
+   "aciklama": "Masdar, fiilin bildirdiği işin adıdır; Türkçedeki -mek, -me ve -iş eklerine karşılık gelir. Üç harfli fiillerin masdarları çeşitli kalıplardadır ve sözlükten öğrenilir; mezid fiillerinki ise kurala bağlıdır: inzâr (uyarmak), istiğfâr (bağışlanma dilemek). Türkçedeki pek çok kelime Arapça masdardır.",
+   "akilda": "Masdar, işin kendisinin adıdır.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-ifal",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "V",
+    "etiket": [
+     "VF:4"
+    ]
+   },
+   "ad": "IV. kalıp: ef‘ale",
+   "ar": "أَفْعَلَ",
+   "okunus": "ef'ale",
+   "anlam": "çoğunlukla geçişli yapar: indirdi, nimet verdi",
+   "aciklama": "Kökün başına e- eklenerek kurulan kalıptır. Çoğu zaman fiili geçişli yapar: nezele indi, enzele indirdi demektir. Muzârisi yuf'ilu, masdarı if'âl, ism-i fâili muf'il olur: yünzilu, inzâl, münzil. Âmene (iman etti) ve en'ame (nimet verdi) de bu kalıptadır.",
+   "akilda": "Ef'ale: bir şeyi yaptırmak, geçişli kılmak.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-istifal",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "V",
+    "etiket": [
+     "VF:10"
+    ]
+   },
+   "ad": "X. kalıp: istef‘ale",
+   "ar": "اِسْتَفْعَلَ",
+   "okunus": "istef'ale",
+   "anlam": "istemek, dilemek; bir şey saymak",
+   "aciklama": "Kökün başına iste- eklenerek kurulan kalıptır ve çoğu zaman 'istemek, talep etmek' anlamı katar: avn yardım, isti'âne yardım istemek; ğufrân bağışlama, istiğfâr bağışlanma dilemek demektir. Fâtiha'daki neste'în, yalnız senden yardım isteriz demektir.",
+   "akilda": "İstef'ale: istemek.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-tefil",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "V",
+    "etiket": [
+     "VF:2"
+    ]
+   },
+   "ad": "II. kalıp: fe‘‘ale",
+   "ar": "فَعَّلَ",
+   "okunus": "fa''ale",
+   "anlam": "çoğaltma ve geçişlilik: azar azar indirdi, öğretti",
+   "aciklama": "Kökün orta harfi şeddeli, yani çift okunur. Bu kalıp işi çoğaltır ya da geçişli yapar: alime bildi, alleme öğretti; nezele indi, nezzele azar azar indirdi demektir. Masdarı tef'îl olur: ta'lîm, tenzîl.",
+   "akilda": "Orta harfi şeddeli fiil, işi çoğaltır ya da yaptırır.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-iftial",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "V",
+    "etiket": [
+     "VF:8"
+    ]
+   },
+   "ad": "VIII. kalıp: ifte‘ale",
+   "ar": "اِفْتَعَلَ",
+   "okunus": "ifte'ale",
+   "anlam": "kendisi için yapmak, edinmek",
+   "aciklama": "Kökün ilk harfinden sonra bir te eklenir. Çoğu zaman işin kişinin kendisi için yapıldığını gösterir: şerâ sattı ya da satın aldı, işterâ kendisi için satın aldı; hedâ doğru yolu gösterdi, ihtedâ doğru yolu buldu demektir. Müttakî de bu kalıbın ism-i fâilidir.",
+   "akilda": "İfte'ale: kendi için edinmek.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-mufaale",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "V",
+    "etiket": [
+     "VF:3"
+    ]
+   },
+   "ad": "III. kalıp: fâ‘ale",
+   "ar": "فَاعَلَ",
+   "okunus": "fâale",
+   "anlam": "karşılıklı ya da birine yönelik yapmak",
+   "aciklama": "Kökün ilk harfinden sonra uzun â gelir. İşin bir başkasına yöneltildiğini ya da karşılıklı yapıldığını gösterir: hade'a aldattı, hâde'a aldatmaya çalıştı. Masdarı mufâale ya da fiâl olur: muhâdea, cihâd.",
+   "akilda": "Fâale: birine karşı yapmak.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "v-tefaul",
+   "tur": "kalip",
+   "eslesme": {
+    "tur": "V",
+    "etiket": [
+     "VF:5"
+    ]
+   },
+   "ad": "V. kalıp: tefa‘‘ale",
+   "ar": "تَفَعَّلَ",
+   "okunus": "tefa''ale",
+   "anlam": "kendi üzerine almak, giderek olmak",
+   "aciklama": "II. kalıbın başına te eklenmiş hâlidir ve çoğu zaman o işin kişinin kendisinde gerçekleştiğini gösterir: alleme öğretti, teallem öğrendi. Tekabbel, kabul etti demektir.",
+   "akilda": "Tefa''ale: işi kendi üzerinde yaşamak.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "g-izafet",
+   "tur": "dilbilgisi",
+   "ornek": "1:2",
+   "ad": "İsim tamlaması (izafet)",
+   "ar": "إِضَافَة",
+   "okunus": "izâfe",
+   "anlam": "iki isim yan yana: 'âlemlerin Rabbi'",
+   "aciklama": "Arapçada isim tamlaması, Türkçenin tersine sırayla kurulur: önce tamlanan, sonra tamlayan gelir. Rabbü'l-âlemîn, âlemlerin Rabbi demektir. Tamlanan isim el- takısı ve tenvin almaz; tamlayan isim mecrûr olur. Bismillâh da bir tamlamadır: Allah'ın adı.",
+   "akilda": "Arapçada tamlama tersten okunur: Rabbi, âlemlerin.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    3,
+    4
+   ]
+  },
+  {
+   "id": "g-zaman",
+   "tur": "dilbilgisi",
+   "ornek": "1:7",
+   "ad": "Mâzî ve muzâri: iki temel zaman",
+   "ar": "اَلْمَاضِي وَالْمُضَارِع",
+   "okunus": "el-mâzî ve'l-muzâri",
+   "anlam": "yaptı / yapar",
+   "aciklama": "Arapça fiilin iki temel çekimi vardır. Mâzî bitmiş işi bildirir ve kişi ekleri sona gelir: en'amte, nimet verdin. Muzâri süren ya da tekrarlanan işi bildirir ve kişi ekleri başa gelir: na'büdü, kulluk ederiz. Muzârinin başındaki e-, ne-, te-, ye- harfleri kimin yaptığını gösterir: ben, biz, sen, o.",
+   "akilda": "Mâzîde ek sonda, muzâride başta.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    3
+   ]
+  },
+  {
+   "id": "g-sifat",
+   "tur": "dilbilgisi",
+   "ornek": "1:6",
+   "ad": "Sıfat tamlaması",
+   "ar": "اَلصِّفَة وَالْمَوْصُوف",
+   "okunus": "es-sıfa ve'l-mevsûf",
+   "anlam": "isim + sıfat: 'dosdoğru yol'",
+   "aciklama": "Arapçada sıfat, nitelediği isimden sonra gelir ve ona belirlilik, hâl, cinsiyet ve sayı bakımından uyar. Es-sırâta'l-müstakîm, dosdoğru yol demektir: iki kelime de el- takısı alır ve ikisi de mansûbdur. Tamlamadan farkı, ikinci kelimenin birinciye uymasıdır.",
+   "akilda": "Sıfat arkadan gelir ve önündekine uyar.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "g-irab",
+   "tur": "dilbilgisi",
+   "ornek": "2:2",
+   "ad": "İ‘râb: kelime sonundaki hareke",
+   "ar": "إِعْرَاب",
+   "okunus": "i'râb",
+   "anlam": "-u, -a, -i: cümledeki görev",
+   "aciklama": "Arapçada ismin son harekesi cümledeki görevine göre değişir. Ötre (merfû) özne ve haberi, üstün (mansûb) nesneyi, esre (mecrûr) tamlayanı ve edattan sonraki ismi gösterir. El-kitâbü merfûdur; lâ'dan sonra gelen raybe mansûbdur; fîhi'deki zamir ise edat yüzünden mecrûr konumundadır. Kelime sırası serbest olsa da bu harekelerden kimin ne yaptığı anlaşılır.",
+   "akilda": "Kelimenin son harekesi, cümledeki görevini söyler.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    2,
+    4
+   ]
+  },
+  {
+   "id": "d-la-raybe",
+   "tur": "deyim",
+   "ornek": "2:2",
+   "ad": "lâ raybe fîh",
+   "ar": "لَا رَيْبَ فِيهِ",
+   "okunus": "lâ raybe fîh",
+   "anlam": "onda hiç şüphe yoktur",
+   "aciklama": "Lâ'nın bir ismin başına gelip 'hiç yoktur' anlamı verdiği yapıya lâ-yı nefy-i cins denir: cinsin tamamını olumsuzlar. Bu ifade Kur'an'da birkaç kez Kitab'ın ve kıyametin gerçekliği için kullanılır.",
+   "akilda": "Lâ raybe: en ufak şüphe bile yok.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "id": "g-isim-cumlesi",
+   "tur": "dilbilgisi",
+   "ornek": "2:5",
+   "ad": "İsim cümlesi: mübteda ve haber",
+   "ar": "اَلْجُمْلَة الْاِسْمِيَّة",
+   "okunus": "el-cümletü'l-ismiyye",
+   "anlam": "fiilsiz cümle: 'onlar kurtuluşa erenlerdir'",
+   "aciklama": "İsimle başlayan cümleye isim cümlesi denir. Cümlenin konusu mübteda, onun hakkında söylenen şey haberdir; ikisi de merfûdur. Arapçada şimdiki zamanda 'dır, dir' ekinin karşılığı olan bir fiil yazılmaz: hümü'l-müflihûn, onlar kurtuluşa erenlerdir. Hüm mübteda, el-müflihûn haberdir.",
+   "akilda": "İsim cümlesinde 'dır' gizlidir.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    7,
+    8
+   ]
+  },
+  {
+   "id": "g-fiil-cumlesi",
+   "tur": "dilbilgisi",
+   "ornek": "2:7",
+   "ad": "Fiil cümlesi: önce fiil",
+   "ar": "اَلْجُمْلَة الْفِعْلِيَّة",
+   "okunus": "el-cümletü'l-fi'liyye",
+   "anlam": "fiil + özne + nesne",
+   "aciklama": "Fiille başlayan cümleye fiil cümlesi denir. Türkçede yüklem sonda iken Arapçada çoğu zaman başta gelir; ardından özne (fâil) ve nesne (mef'ûl) gelir. Hateme'llâhu alâ kulûbihim, Allah onların kalplerini mühürlemiştir: hateme fiil, Allâhu fâildir ve merfûdur.",
+   "akilda": "Arapça cümle çoğu zaman fiille açılır.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "g-olumsuz",
+   "tur": "dilbilgisi",
+   "ornek": "2:6",
+   "ad": "Olumsuzluk: lâ, lem, len, mâ",
+   "ar": "اَلنَّفْي",
+   "okunus": "en-nefy",
+   "anlam": "-me, -medi, -meyecek, değil",
+   "aciklama": "Arapçada olumsuzluk, fiilin başına gelen edatlarla kurulur. Lâ şimdiki ve geniş zamanı (lâ yü'minûn, inanmazlar), lem geçmişi (lem tünzirhüm, onları uyarmadın), len geleceği (len tef'alû, asla yapamayacaksınız) olumsuz yapar. Mâ hem fiil hem isim cümlesini olumsuzlar.",
+   "akilda": "Lâ şimdi, lem geçmiş, len gelecek.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    8,
+    9,
+    10,
+    11
+   ]
+  },
+  {
+   "id": "g-cogul",
+   "tur": "dilbilgisi",
+   "ornek": "2:8",
+   "ad": "Sağlam çoğul ve kırık çoğul",
+   "ar": "جَمْعُ السَّالِم · جَمْعُ التَّكْسِير",
+   "okunus": "cem'u's-sâlim · cem'u't-teksîr",
+   "anlam": "mü'minûn / kulûb",
+   "aciklama": "Eril sağlam çoğul, tekile -ûne (merfû) ya da -îne (mansûb ve mecrûr) eklenerek yapılır: mü'min, mü'minûn, mü'minîn. Dişil sağlam çoğul -ât ekiyle yapılır: semâvât. Pek çok ismin çoğulu ise kelimenin içi değiştirilerek yapılır; buna kırık çoğul denir: kalb, kulûb; ebsâr. Kırık çoğul ezberlenir.",
+   "akilda": "-ûne, -îne, -ât sağlam; içi değişen kırık çoğuldur.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    11
+   ]
+  },
+  {
+   "id": "g-emir",
+   "tur": "dilbilgisi",
+   "ornek": "2:21",
+   "ad": "Emir kipi",
+   "ar": "فِعْلُ الْأَمْر",
+   "okunus": "fi'lü'l-emr",
+   "anlam": "yap! yapın!",
+   "aciklama": "Emir, muzâriden kurulur: başındaki kişi harfi atılır, gerekirse başa bir elif eklenir ve son hareke düşer. Ta'büdûne (kulluk edersiniz) fiilinden u'büdû (kulluk edin) olur. Çoğul emirde sona -û gelir.",
+   "akilda": "U'büdû: kulluk edin.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    3
+   ]
+  },
+  {
+   "id": "d-ya-eyyuha",
+   "tur": "deyim",
+   "ornek": "2:21",
+   "ad": "yâ eyyühe'n-nâs",
+   "ar": "يَا أَيُّهَا النَّاسُ",
+   "okunus": "yâ eyyühe'n-nâs",
+   "anlam": "Ey insanlar!",
+   "aciklama": "Yâ, seslenme (nidâ) edatıdır; el- takılı bir isme seslenilirken araya eyyühâ girer. Kur'an'da yâ eyyühe'n-nâs bütün insanlara, yâ eyyühe'llezîne âmenû ise müminlere seslenir. Bu sesleniş, ardından önemli bir emir ya da öğüt geleceğini haber verir.",
+   "akilda": "Yâ eyyühâ duyunca kulak ver: bir çağrı geliyor.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "d-kulli-sey",
+   "tur": "deyim",
+   "ornek": "2:20",
+   "ad": "inna'llâhe alâ külli şey'in kadîr",
+   "ar": "إِنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+   "okunus": "inna'llâhe alâ külli şey'in kadîr",
+   "anlam": "Şüphesiz Allah her şeye hakkıyla gücü yetendir",
+   "aciklama": "Kur'an'da pek çok kez, çoğu zaman bir ayetin sonunda tekrar eden ifadedir. Külli şey'in, her şey demektir ve bir izafettir; kadîr ise fa'îl kalıbında, gücü yeten anlamında bir sıfattır.",
+   "akilda": "Alâ külli şey'in kadîr: gücü her şeye yeter.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+   ]
+  },
+  {
+   "id": "g-sart",
+   "tur": "dilbilgisi",
+   "ornek": "2:23",
+   "ad": "Şart cümlesi: in … fe",
+   "ar": "اَلشَّرْط",
+   "okunus": "eş-şart",
+   "anlam": "eğer … ise, o hâlde …",
+   "aciklama": "İn edatı 'eğer' demektir ve bir şart kurar. Şartın cevabı emir ya da isim cümlesi olursa başına fe gelir: ve in küntüm fî raybin … fe'tû bi-sûratin, eğer şüphe içindeyseniz … o hâlde bir sure getirin. İn ile şeddeli inne birbirine karıştırılmamalıdır.",
+   "akilda": "İn … fe: 'eğer … ise, o hâlde'.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1,
+    2,
+    9
+   ]
+  },
+  {
+   "id": "g-mechul",
+   "tur": "dilbilgisi",
+   "ornek": "2:25",
+   "ad": "Edilgen fiil (meçhul)",
+   "ar": "اَلْفِعْلُ الْمَبْنِيُّ لِلْمَجْهُول",
+   "okunus": "el-fi'lü'l-mebniyyü li'l-meçhûl",
+   "anlam": "yapıldı, verildi",
+   "aciklama": "İşi yapan söylenmediğinde fiil edilgen olur ve harekeleri değişir: mâzîde ilk harf ötre, son harften önceki esre alır. Razakâ rızık verdi, rüzikû rızıklandırıldılar demektir. Ünzile (indirildi) ve kîle (denildi) de böyledir.",
+   "akilda": "Ötre ile başlayan mâzî çoğu zaman edilgendir.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    14
+   ]
+  },
+  {
+   "id": "d-halidun",
+   "tur": "deyim",
+   "ornek": "2:25",
+   "ad": "hüm fîhâ hâlidûn",
+   "ar": "وَهُمْ فِيهَا خَالِدُونَ",
+   "okunus": "ve hüm fîhâ hâlidûn",
+   "anlam": "ve onlar orada ebedî kalacaklardır",
+   "aciklama": "Cennet ve cehennem anlatılırken sık tekrar eden bir isim cümlesidir. Hâlidûn, hulûd kökünden fâil kalıbında bir çoğuldur: sürekli kalanlar. Fîhâ'daki hâ zamiri cennete ya da cehenneme döner.",
+   "akilda": "Hâlid: sonsuza dek kalan.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    32,
+    33,
+    34
+   ]
+  },
+  {
+   "id": "g-kane",
+   "tur": "dilbilgisi",
+   "ornek": "2:28",
+   "ad": "Kâne: 'idi, oldu'",
+   "ar": "كَانَ",
+   "okunus": "kâne",
+   "anlam": "idi; oldu",
+   "aciklama": "Kâne, isim cümlesini geçmişe taşıyan yardımcı fiildir: ve küntüm emvâten, siz ölüler idiniz. Kâne'den sonraki haber mansûb olur. Muzâri fiille birlikte gelince sürekli yapılan bir işi anlatır: kânû yekzibûn, yalan söylüyorlardı.",
+   "akilda": "Kâne: 'idi'.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    4,
+    5
+   ]
+  },
+  {
+   "id": "g-soru",
+   "tur": "dilbilgisi",
+   "ornek": "2:28",
+   "ad": "Soru edatları",
+   "ar": "أَدَوَاتُ الْاِسْتِفْهَام",
+   "okunus": "edevâtü'l-istifhâm",
+   "anlam": "nasıl? ne? mi?",
+   "aciklama": "Arapçada soru, cümlenin başına gelen edatlarla kurulur. Keyfe nasıl, mâ ve mâzâ ne, men kim, hel ve e- ise mi demektir. Keyfe tekfürûne bi'llâh, Allah'ı nasıl inkâr edersiniz demektir; burada soru şaşırtma ve kınama bildirir.",
+   "akilda": "Keyfe nasıl, men kim, mâ ne.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1
+   ]
+  },
+  {
+   "id": "d-ve-iz",
+   "tur": "deyim",
+   "ornek": "2:30",
+   "ad": "ve iz kâle rabbük",
+   "ar": "وَإِذْ قَالَ رَبُّكَ",
+   "okunus": "ve iz kâle rabbük",
+   "anlam": "Hani Rabbin demişti ki",
+   "aciklama": "Kıssa başlatan kalıp bir ifadedir: ve iz, 'hatırla o zamanı'; kâle, dedi; rabbüke, Rabbin. Bakara'da Âdem kıssası ve İsrailoğulları kıssaları ve iz ile art arda açılır.",
+   "akilda": "Ve iz ile yeni bir kıssa başlar.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "id": "d-subhaneke",
+   "tur": "deyim",
+   "ornek": "2:32",
+   "ad": "sübhâneke",
+   "ar": "سُبْحَانَكَ",
+   "okunus": "sübhâneke",
+   "anlam": "Seni tenzih ederiz",
+   "aciklama": "Sübhân, Allah'ı her türlü eksiklikten uzak tutmak demektir; sona gelen ke zamiri hitabı gösterir: seni tenzih ederiz. Melekler bilmediklerini itiraf ederken bu sözle başlar. Namazdaki sübhânekellâhümme duası da aynı kelimeyle açılır.",
+   "akilda": "Sübhâneke: Sen her eksiklikten uzaksın.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    2
+   ]
+  },
+  {
+   "id": "g-isaret-tamlamasi",
+   "tur": "dilbilgisi",
+   "ornek": "2:35",
+   "ad": "İşaret ismi + el- takılı isim",
+   "ar": "هَٰذِهِ الشَّجَرَةَ",
+   "okunus": "hâzihi'ş-şecerah",
+   "anlam": "bu ağaç",
+   "aciklama": "İşaret isminden sonra el- takılı bir isim gelirse ikisi birlikte 'bu …' anlamı verir: hâzihi'ş-şecerah, bu ağaç. Ardından el- takısız bir isim gelirse cümle olur: hâzâ kitâbün, bu bir kitaptır. İşaret ismi, gösterdiği ismin cinsiyetine uyar: şecere dişil olduğu için hâzihî gelmiştir.",
+   "akilda": "Hâzihi'ş-şecerah 'bu ağaç'; hâzihî şecerah 'bu bir ağaçtır'.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    14,
+    15
+   ]
+  },
+  {
+   "id": "g-ikil",
+   "tur": "dilbilgisi",
+   "ornek": "2:35",
+   "ad": "İkil (müsennâ)",
+   "ar": "اَلْمُثَنَّى",
+   "okunus": "el-müsennâ",
+   "anlam": "iki kişi: 'ikiniz'",
+   "aciklama": "Arapçada tekil ve çoğulun yanında bir de ikil vardır. İsimde -âni ya da -ayni ekiyle, fiilde ve zamirde -â ve -tümâ ekleriyle gösterilir. Âdem ile eşine hitap eden kulâ (ikiniz yiyin) ve lâ takrabâ (ikiniz yaklaşmayın) fiilleri ikildir.",
+   "akilda": "Sondaki -â, -tümâ: iki kişi.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    7,
+    13
+   ]
+  },
+  {
+   "id": "d-beni-israil",
+   "tur": "deyim",
+   "ornek": "2:40",
+   "ad": "yâ benî isrâîl",
+   "ar": "يَا بَنِي إِسْرَائِيلَ",
+   "okunus": "yâ benî isrâîl",
+   "anlam": "Ey İsrailoğulları!",
+   "aciklama": "Benî, ibn (oğul) kelimesinin çoğulunun tamlamadaki biçimidir: oğulları. İsrâîl, Yakub peygamberin lakabıdır. Bakara'nın kırkıncı ayetinden itibaren uzun bir bölüm bu seslenişle onlara hitap eder.",
+   "akilda": "Benî: oğulları; yâ benî: ey oğulları.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "d-salat-zekat",
+   "tur": "deyim",
+   "ornek": "2:43",
+   "ad": "akîmu's-salâte ve âtu'z-zekâh",
+   "ar": "وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ",
+   "okunus": "ve ekîmu's-salâte ve âtu'z-zekâh",
+   "anlam": "Namazı dosdoğru kılın, zekâtı verin",
+   "aciklama": "Kur'an'da namaz ile zekâtın birlikte emredildiği kalıp ifadedir. Ekîmû, ikâme (ayakta tutmak, dosdoğru yapmak) masdarından emirdir; namaz 'kılınmaz', ayakta tutulur. Âtû, îtâ (vermek) masdarından emirdir.",
+   "akilda": "Namaz ayakta tutulur, zekât verilir.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "id": "g-nehy",
+   "tur": "dilbilgisi",
+   "ornek": "2:41",
+   "ad": "Yasaklama (nehy): lâ + muzâri",
+   "ar": "اَلنَّهْي",
+   "okunus": "en-nehy",
+   "anlam": "yapma! yapmayın!",
+   "aciklama": "Yasak, lâ ile meczûm muzâri fiil kullanılarak bildirilir: ve lâ tekûnû, olmayın; ve lâ teşterû, satmayın. Fiilin sonundaki nun düşer; bu, olumsuz lâ'dan farkını gösterir: lâ tekûnûne olmazsınız, lâ tekûnû olmayın demektir.",
+   "akilda": "Lâ + nunsuz muzâri: 'yapmayın'.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    7,
+    8,
+    12,
+    13
+   ]
+  },
+  {
+   "id": "d-efela-takilun",
+   "tur": "deyim",
+   "ornek": "2:44",
+   "ad": "e-felâ ta'kılûn",
+   "ar": "أَفَلَا تَعْقِلُونَ",
+   "okunus": "e-felâ ta'kılûn",
+   "anlam": "Hâlâ akıl erdirmeyecek misiniz?",
+   "aciklama": "Soru edatı e-, fe ve lâ birleşerek kınama ve uyarı bildiren bir soru kurar. Ta'kılûn, akl kökünden gelir: akıl erdirmek, düşünüp anlamak. Kur'an'da aklı kullanmaya çağıran bu soru sık tekrar eder.",
+   "akilda": "E-felâ ta'kılûn: aklını kullanmaya çağrı.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    9,
+    10
+   ]
+  },
+  {
+   "id": "g-tafdil",
+   "tur": "dilbilgisi",
+   "ornek": "2:114",
+   "ad": "Üstünlük kalıbı: ef‘al",
+   "ar": "اِسْمُ التَّفْضِيل",
+   "okunus": "ismü't-tafdîl",
+   "anlam": "daha …, en …",
+   "aciklama": "Ef'al kalıbındaki sıfat, karşılaştırma bildirir: daha, en. Ve men ezlemü, kimdir daha zalim demektir; zâlim kelimesiyle aynı köktendir. Ekber (daha büyük, en büyük) ve a'lem (daha iyi bilen) de bu kalıptadır.",
+   "akilda": "Ef'al: daha ve en.",
+   "kaynak": "sarf",
+   "kelimeler": [
+    1,
+    2
+   ]
+  },
+  {
+   "id": "d-basir",
+   "tur": "deyim",
+   "ornek": "2:110",
+   "ad": "inna'llâhe bimâ ta'melûne basîr",
+   "ar": "إِنَّ اللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+   "okunus": "inna'llâhe bimâ ta'melûne basîr",
+   "anlam": "Şüphesiz Allah yaptıklarınızı hakkıyla görendir",
+   "aciklama": "Ayet sonlarında tekrar eden bir ifadedir. Bimâ, bi edatı ile mâ ilgi zamirinin birleşimidir: yaptığınız şeyleri. Basîr, fa'îl kalıbında bir sıfattır: her şeyi gören.",
+   "akilda": "Basîr: her yaptığımızı görür.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    13,
+    14,
+    15,
+    16,
+    17
+   ]
+  },
+  {
+   "id": "d-rabbena",
+   "tur": "deyim",
+   "ornek": "2:127",
+   "ad": "rabbenâ tekabbel minnâ",
+   "ar": "رَبَّنَا تَقَبَّلْ مِنَّا",
+   "okunus": "rabbenâ tekabbel minnâ",
+   "anlam": "Rabbimiz! Bizden kabul buyur",
+   "aciklama": "İbrahim ve İsmail peygamberlerin Kâbe'nin temellerini yükseltirken ettikleri duanın başıdır. Rabbenâ, rab kelimesine nâ zamiri eklenerek kurulan bir seslenmedir: ey Rabbimiz. Tekabbel V. kalıptan emirdir; minnâ ise min ile nâ'nın birleşimidir: bizden.",
+   "akilda": "Rabbenâ ile başlayan dua: 'Ey Rabbimiz'.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "id": "g-sin",
+   "tur": "dilbilgisi",
+   "ornek": "2:137",
+   "ad": "Gelecek zaman: se- ve sevfe",
+   "ar": "اَلسِّين وَسَوْفَ",
+   "okunus": "es-sîn ve sevfe",
+   "anlam": "-ecek",
+   "aciklama": "Muzâri fiilin başına bitişen se- ya da ayrı yazılan sevfe, fiili gelecek zamana çevirir. Fe-se-yekfîkehümu'llâh, Allah onlara karşı sana yetecektir: tek kelimede fe (o hâlde), se (-ecek), yekfî (yeter), ke (sana), hüm (onlara karşı) birleşmiştir. Kur'an'ın en uzun kelimelerinden biridir.",
+   "akilda": "Se- ile başlayan fiil, geleceği anlatır.",
+   "kaynak": "gramer",
+   "kelimeler": [
+    15
+   ]
+  },
+  {
+   "id": "d-kezalike",
+   "tur": "deyim",
+   "ornek": "2:143",
+   "kelimeler": [
+    1
+   ],
+   "ad": "ve kezâlike",
+   "ar": "وَكَذَٰلِكَ",
+   "okunus": "ve kezâlike",
+   "anlam": "işte böylece; aynı şekilde",
+   "aciklama": "Ke (gibi) harfi ile zâlike (o) işaret isminin birleşimidir: onun gibi, işte böyle. Kur'an'da bir önceki sözü bağlayıp yeni bir hükmü onun benzeri olarak sunmak için sık kullanılır. Ve kezâlike ce'alnâküm ümmeten vesatan, işte böylece sizi orta bir ümmet kıldık demektir.",
+   "akilda": "Kezâlike: işte böylece.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-hayrat",
+   "tur": "deyim",
+   "ornek": "2:148",
+   "kelimeler": [
+    5,
+    6
+   ],
+   "ad": "festebiku'l-hayrât",
+   "ar": "فَاسْتَبِقُوا الْخَيْرَاتِ",
+   "okunus": "festebiku'l-hayrât",
+   "anlam": "hayırlarda yarışın",
+   "aciklama": "İstebeka, sebk (önde olmak, geçmek) kökünden VIII. kalıpta bir fiildir: birbirini geçmeye çalışmak, yarışmak. Emir hâli festebikû, o hâlde yarışın demektir. El-hayrât, hayır kelimesinin dişil sağlam çoğuludur: iyilikler.",
+   "akilda": "Mümin iyilikte yarışır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-emir-cevabi",
+   "tur": "dilbilgisi",
+   "ornek": "2:152",
+   "kelimeler": [
+    1,
+    2
+   ],
+   "ad": "Emrin cevabı",
+   "ar": "جَوَابُ الْأَمْر",
+   "okunus": "cevâbü'l-emr",
+   "anlam": "siz yapın, ben de yapayım",
+   "aciklama": "Bir emirden sonra gelen ve o emrin sonucunu bildiren muzâri fiil meczûm olur, yani son harekesini kaybeder. Fezkürûnî ezkürküm, beni anın ki ben de sizi anayım demektir: ezkürküm fiilinin sonundaki ötre düşmüştür. Bu yapı bir vaat bildirir: emri yerine getirene karşılığı verilecektir.",
+   "akilda": "Emirden sonra gelen meczûm fiil, karşılığı haber verir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ya-eyyuhellezine",
+   "tur": "deyim",
+   "ornek": "2:153",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ],
+   "ad": "yâ eyyühe'llezîne âmenû",
+   "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا",
+   "okunus": "yâ eyyühe'llezîne âmenû",
+   "anlam": "Ey iman edenler!",
+   "aciklama": "Kur'an'da müminlere doğrudan seslenen kalıptır ve seksenden fazla yerde geçer. Ardından çoğu zaman bir emir, bir yasak ya da bir öğüt gelir: burada sabır ve namazla yardım istemeleri istenir. Ellezîne âmenû, iman eden kimseler demektir.",
+   "akilda": "Yâ eyyühe'llezîne âmenû duyunca bil ki söz sana söyleniyor.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-istirca",
+   "tur": "deyim",
+   "ornek": "2:156",
+   "kelimeler": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "ad": "innâ lillâhi ve innâ ileyhi râci'ûn",
+   "ar": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+   "okunus": "innâ lillâhi ve innâ ileyhi râci'ûn",
+   "anlam": "Biz Allah'a aitiz ve şüphesiz O'na döneceğiz",
+   "aciklama": "Bir musibet karşısında sabredenlerin sözü olarak geçer; bu söze istircâ denir. İnnâ, inne ile nâ zamirinin birleşimidir: şüphesiz biz. Lillâh, Allah'a aitiz; ileyhi, O'na; râci'ûn, dönenler demektir ve fâil kalıbında bir çoğuldur.",
+   "akilda": "Her şey Allah'ındır ve O'na döner.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-tevhid",
+   "tur": "deyim",
+   "ornek": "2:163",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "lâ ilâhe illâ hû",
+   "ar": "لَا إِلَٰهَ إِلَّا هُوَ",
+   "okunus": "lâ ilâhe illâ hû",
+   "anlam": "O'ndan başka ilah yoktur",
+   "aciklama": "Cinsin tamamını olumsuzlayan lâ ile istisna edatı illâ'nın birleşimidir: önce bütün ilahlar olumsuzlanır, sonra yalnızca O ayrı tutulur. Kelime-i tevhiddeki lâ ilâhe illallâh da aynı yapıdadır. Hû, hüve zamirinin ayet sonundaki söylenişidir.",
+   "akilda": "Lâ … illâ: önce hepsini kaldır, sonra yalnız O'nu bırak.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-lam-tekid",
+   "tur": "dilbilgisi",
+   "ornek": "2:164",
+   "kelimeler": [
+    41
+   ],
+   "eslesme": {
+    "tur": "P",
+    "lem": "ل",
+    "etiket": [
+     "EMPH"
+    ]
+   },
+   "ad": "Pekiştirme lamı (le-)",
+   "ar": "لَامُ التَّوْكِيد",
+   "okunus": "lâmü't-tevkîd",
+   "anlam": "elbette, mutlaka",
+   "aciklama": "Kelimenin başına gelen üstünlü le-, sözü pekiştirir ve 'elbette, gerçekten' anlamı katar. Çoğu zaman inne ile kurulan cümlenin haberinde görülür: inne fî halkı's-semâvâti … le-âyâtin, göklerin yaratılışında elbette ayetler vardır. Harf-i cer olan li- ile karıştırılmamalıdır; li esrelidir ve -e, için anlamı verir.",
+   "akilda": "Üstünlü le- pekiştirir, esreli li- yöneltir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-lev",
+   "tur": "edat",
+   "ornek": "2:165",
+   "kelimeler": [
+    17,
+    18
+   ],
+   "eslesme": {
+    "lem": "لَو"
+   },
+   "ad": "lev",
+   "ar": "لَوْ",
+   "okunus": "lev",
+   "anlam": "eğer … olsaydı; keşke",
+   "aciklama": "Lev, gerçekleşmemiş ya da gerçekleşmesi beklenmeyen bir şartı bildirir: eğer … olsaydı. Cevabının başına çoğu zaman le- gelir. Ve lev yerâ'llezîne zalemû, zulmedenler bir görselerdi demektir. İn şartı mümkün olanı, lev ise varsayımı anlatır.",
+   "akilda": "İn 'eğer', lev 'eğer … olsaydı'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-kasr",
+   "tur": "dilbilgisi",
+   "ornek": "2:173",
+   "kelimeler": [
+    1,
+    2
+   ],
+   "ad": "Sınırlama: innemâ",
+   "ar": "إِنَّمَا",
+   "okunus": "innemâ",
+   "anlam": "ancak, sadece",
+   "aciklama": "İnne'ye mâ eklenince innemâ olur ve hükmü sınırlar: ancak, yalnızca. İnnemâ harreme aleykümü'l-meyteh, size yalnızca leşi … haram kıldı demektir; yani haram kılınanlar bunlardan ibarettir. İnnemâ'dan sonra gelen ismin harekesi değişmez, çünkü mâ inne'nin etkisini kaldırır.",
+   "akilda": "İnnemâ: yalnızca bu, başkası değil.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-leyse",
+   "tur": "dilbilgisi",
+   "ornek": "2:177",
+   "kelimeler": [
+    1,
+    2
+   ],
+   "ad": "Leyse: değildir",
+   "ar": "لَيْسَ",
+   "okunus": "leyse",
+   "anlam": "değildir",
+   "aciklama": "Leyse, isim cümlesini olumsuz yapan bir fiildir ve kâne gibi çekimlenir: leyse, leysû, leste. Haberi mansûb olur ya da başına bi gelir. Leyse'l-birra en tüvellû, iyilik yüzlerinizi çevirmeniz değildir demektir; burada haber öne alınmıştır.",
+   "akilda": "Leyse: 'değildir'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-lakin",
+   "tur": "edat",
+   "ornek": "2:177",
+   "kelimeler": [
+    9,
+    10
+   ],
+   "eslesme": {
+    "lem": "لٰكِنّ"
+   },
+   "ad": "lâkinne",
+   "ar": "لَٰكِنَّ",
+   "okunus": "lâkinne",
+   "anlam": "fakat, ama",
+   "aciklama": "Lâkinne, önceki sözü düzelten ya da ona karşı bir söz getiren bağlaçtır: fakat. İnne'nin kardeşlerindendir; kendinden sonraki ismi mansûb yapar. Şeddesiz lâkin de aynı anlamdadır ama ismin harekesine etki etmez. Ve lâkinne'l-birra men âmene, fakat iyilik, iman edenin iyiliğidir.",
+   "akilda": "Lâkinne: fakat.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-kutibe",
+   "tur": "deyim",
+   "ornek": "2:178",
+   "kelimeler": [
+    4,
+    5
+   ],
+   "ad": "kütibe aleyküm",
+   "ar": "كُتِبَ عَلَيْكُمُ",
+   "okunus": "kütibe aleyküm",
+   "anlam": "size farz kılındı",
+   "aciklama": "Kütibe, ketebe (yazdı) fiilinin edilgenidir: yazıldı. Alâ ile kullanılınca 'üzerinize yazıldı', yani farz kılındı anlamına gelir. Bakara'da kısas, vasiyet, oruç ve savaş hükümleri bu ifadeyle bildirilir; kütibe aleykümü's-sıyâm, oruç size farz kılındı demektir.",
+   "akilda": "Kütibe aleyküm: üzerinize yazıldı, size farz oldu.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-lam-emr",
+   "tur": "dilbilgisi",
+   "ornek": "2:186",
+   "kelimeler": [
+    12,
+    14
+   ],
+   "ad": "Üçüncü şahsa emir: li-",
+   "ar": "لَامُ الْأَمْر",
+   "okunus": "lâmü'l-emr",
+   "anlam": "yapsın, -sınlar",
+   "aciklama": "Muzâri fiilin başına li- getirilip sonu meczûm yapılırsa üçüncü şahsa emir olur: yapsın, yapsınlar. Önünde fe ya da ve bulunursa li'nin esresi düşer: felyestecîbû lî, öyleyse bana icabet etsinler; velyü'minû bî, bana iman etsinler.",
+   "akilda": "Li- + meczûm muzâri: 'yapsın'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-hatta",
+   "tur": "edat",
+   "ornek": "2:187",
+   "kelimeler": [
+    33,
+    34
+   ],
+   "ad": "hattâ",
+   "ar": "حَتَّىٰ",
+   "okunus": "hattâ",
+   "anlam": "-e kadar; -sın diye",
+   "aciklama": "Hattâ bir sınırın sonunu bildirir: -e kadar. Kendinden sonra isim gelirse harf-i cer gibi onu mecrûr yapar; muzâri fiil gelirse fiil mansûb olur. Hattâ yetebeyyene leküm, size belli oluncaya kadar demektir. Türkçedeki hatta kelimesi bundan gelir ama anlamı farklılaşmıştır.",
+   "akilda": "Hattâ: -e kadar.",
+   "kaynak": "gramer",
+   "eslesme": {
+    "lem": "حَتَّى"
+   }
+  },
+  {
+   "id": "d-yeselunek",
+   "tur": "deyim",
+   "ornek": "2:189",
+   "kelimeler": [
+    1,
+    2
+   ],
+   "ad": "yes'elûneke an … kul",
+   "ar": "يَسْأَلُونَكَ عَنِ … قُلْ",
+   "okunus": "yes'elûneke an … kul",
+   "anlam": "Sana … soruyorlar. De ki:",
+   "aciklama": "Kur'an'da Peygamberimize sorulan soruların ve cevaplarının kalıbıdır. Yes'elûneke, sana soruyorlar; an, hakkında; kul, de ki demektir. Bakara'da hilaller, infak, savaş, içki ve kumar, yetimler gibi konular bu kalıpla açılır.",
+   "akilda": "Yes'elûneke ile soru gelir, kul ile cevap.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-yuhibbu",
+   "tur": "deyim",
+   "ornek": "2:195",
+   "kelimeler": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "ad": "inna'llâhe yühibbü'l-muhsinîn",
+   "ar": "إِنَّ اللَّهَ يُحِبُّ الْمُحْسِنِينَ",
+   "okunus": "inna'llâhe yühibbü'l-muhsinîn",
+   "anlam": "Şüphesiz Allah iyilik yapanları sever",
+   "aciklama": "Kur'an'da Allah'ın sevdiği kulların vasıflarını bildiren bir kalıptır: muhsinler, tövbe edenler, temizlenenler, sabredenler, adaletli olanlar. Yühibbü, sever demektir; ardından gelen kelime çoğunlukla mansûb bir ism-i fâil çoğuludur. Muhsin, ihsan eden, işini güzel yapan demektir.",
+   "akilda": "Allah iyiliği güzel yapanı sever.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-sayilar",
+   "tur": "dilbilgisi",
+   "ornek": "2:196",
+   "kelimeler": [
+    49,
+    50,
+    53,
+    57
+   ],
+   "ad": "Sayılar: üçten ona",
+   "ar": "اَلْعَدَد",
+   "okunus": "el-aded",
+   "anlam": "selâse, seb'a, aşara",
+   "aciklama": "Arapçada üçten ona kadar sayılar, saydıkları ismin cinsiyetinin tersini alır: eril isimle dişil biçim, dişil isimle eril biçim kullanılır. Selâseti eyyâmin, üç gün demektir; yevm eril olduğu için sayı dişil yuvarlak te ile gelmiştir. Sayılan isim çoğul ve mecrûr olur. Ayetteki seb'a yedi, aşara on demektir.",
+   "akilda": "Üçten ona kadar sayı, ismin cinsiyetine ters gider.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-rabbena-atina",
+   "tur": "deyim",
+   "ornek": "2:201",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "ad": "rabbenâ âtinâ fi'd-dünyâ haseneten",
+   "ar": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً",
+   "okunus": "rabbenâ âtinâ fi'd-dünyâ haseneten",
+   "anlam": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de",
+   "aciklama": "Namazlarda da okunan, dünya ve ahiret iyiliğini birlikte isteyen duadır. Âtinâ, îtâ (vermek) masdarından emirdir ve nâ zamiriyle birleşmiştir: bize ver. Hasene, güzel ve iyi olan demektir. Kınâ, vikâye (korumak) masdarından emirdir: bizi koru.",
+   "akilda": "Mümin dünyayı da ahireti de Rabbinden ister.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-hel",
+   "tur": "edat",
+   "ornek": "2:210",
+   "kelimeler": [
+    1
+   ],
+   "eslesme": {
+    "lem": "هَل"
+   },
+   "ad": "hel",
+   "ar": "هَلْ",
+   "okunus": "hel",
+   "anlam": "mi? (soru)",
+   "aciklama": "Hel, evet ya da hayır cevabı beklenen soruyu kurar: mi? Kur'an'da çoğu zaman cevabı belli olan, düşündürmeye yönelik sorularda geçer. Hel yenzurûne illâ, ancak … beklemiyorlar mı demektir; illâ ile birlikte 'yalnızca bunu mu bekliyorlar' anlamı verir.",
+   "akilda": "Hel: 'mi?' diye sorar.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-em",
+   "tur": "edat",
+   "ornek": "2:214",
+   "kelimeler": [
+    1
+   ],
+   "eslesme": {
+    "lem": "أَم"
+   },
+   "ad": "em",
+   "ar": "أَمْ",
+   "okunus": "em",
+   "anlam": "yoksa; veya (soruda)",
+   "aciklama": "Em, soru cümlesinde iki seçeneği bağlar ya da yeni bir soruya geçer: yoksa. Em hasibtüm en tedhulu'l-cenneh, yoksa cennete gireceğinizi mi sandınız demektir. Bakara'nın altıncı ayetindeki e enzertehüm em lem tünzirhüm de aynı edatla kurulmuştur.",
+   "akilda": "Em: 'yoksa'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-maza",
+   "tur": "edat",
+   "ornek": "2:215",
+   "kelimeler": [
+    2
+   ],
+   "eslesme": {
+    "lem": "ماذا"
+   },
+   "ad": "mâzâ",
+   "ar": "مَاذَا",
+   "okunus": "mâzâ",
+   "anlam": "ne? neyi?",
+   "aciklama": "Mâzâ, mâ ile zâ'nın birleşimidir ve şeyleri soran bir soru edatıdır: ne, neyi. Yes'elûneke mâzâ yünfikûn, sana neyi infak edeceklerini soruyorlar demektir. Cevap, ayetin devamında kimlere harcanacağı biçiminde verilir.",
+   "akilda": "Mâzâ: 'ne?'.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-asa",
+   "tur": "dilbilgisi",
+   "ornek": "2:216",
+   "kelimeler": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "ad": "Umut fiili: asâ",
+   "ar": "عَسَى",
+   "okunus": "asâ",
+   "anlam": "olabilir ki, umulur ki",
+   "aciklama": "Asâ, çekimi sınırlı bir fiildir ve bir şeyin olabileceğini, umulduğunu bildirir. Çoğunlukla en ile kurulan bir fiil alır: ve asâ en tekrahû şey'en, olabilir ki bir şeyi hoş görmezsiniz. Ayet, insanın hoşlanmadığı şeyde hayır, sevdiği şeyde şer bulunabileceğini bu fiille iki kez söyler.",
+   "akilda": "Asâ: olabilir ki.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "v-mubalaga",
+   "tur": "kalip",
+   "ornek": "2:222",
+   "kelimeler": [
+    25
+   ],
+   "ad": "Mübalağa kalıpları: fa‘‘âl, fa‘ûl, fa‘îl",
+   "ar": "فَعَّال · فَعُول · فَعِيل",
+   "okunus": "fa''âl · fe'ûl · fe'îl",
+   "anlam": "çok yapan: tevvâb, gafûr, rahîm",
+   "aciklama": "Bir işi çok ve sürekli yapanı anlatan kalıplardır. Tevvâb, tövbeleri çokça kabul eden ya da çokça tövbe eden; gafûr, çok bağışlayan; rahîm, çok merhamet eden; alîm, çok iyi bilen demektir. Allah'ın isimlerinin çoğu bu kalıplardadır. Ayette et-tevvâbîn, çokça tövbe edenler anlamında bir çoğuldur.",
+   "akilda": "Fa''âl, fe'ûl, fe'îl: çok ve sürekli yapan.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "d-hudud",
+   "tur": "deyim",
+   "ornek": "2:229",
+   "kelimeler": [
+    35,
+    36,
+    37,
+    38,
+    39
+   ],
+   "ad": "tilke hudûdu'llâh",
+   "ar": "تِلْكَ حُدُودُ اللَّهِ",
+   "okunus": "tilke hudûdu'llâh",
+   "anlam": "İşte bunlar Allah'ın sınırlarıdır",
+   "aciklama": "Bir hükmü bildirdikten sonra onu Allah'ın koyduğu sınır olarak hatırlatan ifadedir. Tilke, dişil uzak işaret ismidir; hudûd, hadd (sınır) kelimesinin kırık çoğuludur. Ardından çoğunlukla bir yasak gelir: felâ ta'tedûhâ, onları aşmayın.",
+   "akilda": "Allah'ın koyduğu sınır aşılmaz.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-tukellef",
+   "tur": "deyim",
+   "ornek": "2:233",
+   "kelimeler": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "ad": "lâ tükellefü nefsün illâ vüs'ahâ",
+   "ar": "لَا تُكَلَّفُ نَفْسٌ إِلَّا وُسْعَهَا",
+   "okunus": "lâ tükellefü nefsün illâ vüs'ahâ",
+   "anlam": "Hiç kimse gücünün yeteceğinden fazlasıyla yükümlü tutulmaz",
+   "aciklama": "Tükellefü, teklîf (yükümlü kılmak) masdarından edilgen bir fiildir: yükümlü tutulur. Vüs', güç ve imkân demektir; Türkçedeki vüsat ve vasi aynı köktendir. Lâ … illâ yapısı burada da yalnızca anlamı verir: kişi yalnızca gücü ölçüsünde sorumludur.",
+   "akilda": "Yük, gücün ölçüsündedir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-cunah",
+   "tur": "deyim",
+   "ornek": "2:235",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ],
+   "ad": "lâ cünâha aleyküm",
+   "ar": "لَا جُنَاحَ عَلَيْكُمْ",
+   "okunus": "lâ cünâha aleyküm",
+   "anlam": "size bir günah yoktur",
+   "aciklama": "Bir şeyin izinli olduğunu, onda vebal bulunmadığını bildiren kalıptır. Cünâh, günah ve vebal demektir; lâ, cinsin tamamını olumsuzlar: hiçbir günah yoktur. Bakara'da aile hukukuna dair hükümlerde sık geçer.",
+   "akilda": "Lâ cünâha: bunda vebal yok.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-mutlak",
+   "tur": "dilbilgisi",
+   "ornek": "2:245",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "Mef‘ûl-i mutlak",
+   "ar": "اَلْمَفْعُولُ الْمُطْلَق",
+   "okunus": "el-mef'ûlü'l-mutlak",
+   "anlam": "fiilin kendi masdarıyla pekiştirilmesi",
+   "aciklama": "Fiilden sonra aynı kökten bir masdar mansûb olarak gelirse buna mef'ûl-i mutlak denir; işi pekiştirir ya da nasıl yapıldığını gösterir. Yukrıdu'llâhe karzan hasenen, Allah'a güzel bir borç verir demektir: yukrıdu ve karz aynı köktendir, hasen sıfatı borcun niteliğini bildirir.",
+   "akilda": "Fiil, kendi masdarıyla güçlenir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-elem-tera",
+   "tur": "deyim",
+   "ornek": "2:246",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ],
+   "ad": "e lem tera ilâ",
+   "ar": "أَلَمْ تَرَ إِلَىٰ",
+   "okunus": "e lem tera ilâ",
+   "anlam": "… görmedin mi? (… bilmiyor musun?)",
+   "aciklama": "Soru edatı e- ile olumsuzluk edatı lem birleşerek dikkat çeken bir soru kurar. Tera, re'y (görmek) kökünden muzâridir; lem yüzünden sonu düşmüştür. İlâ ile gelince 'şuna bakmadın mı, şunu bilmiyor musun' anlamı verir ve bir kıssayı başlatır.",
+   "akilda": "E lem tera: dikkat et, ibret var.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-kem",
+   "tur": "edat",
+   "ornek": "2:249",
+   "kelimeler": [
+    49,
+    50,
+    51,
+    52
+   ],
+   "eslesme": {
+    "lem": "كَم"
+   },
+   "ad": "kem",
+   "ar": "كَمْ",
+   "okunus": "kem",
+   "anlam": "nice; kaç?",
+   "aciklama": "Kem, soru olarak 'kaç' anlamına gelir; haber olarak ise çokluğu bildirir: nice. Kem min fietin kalîletin, nice az topluluk demektir; ardından gelen min, sayılanı açıklar. Ayet, az sayıdaki bir topluluğun Allah'ın izniyle çok sayıdaki bir topluluğa galip geldiğini hatırlatır.",
+   "akilda": "Kem min: nice nice.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-levla",
+   "tur": "edat",
+   "ornek": "2:251",
+   "kelimeler": [
+    14,
+    15,
+    16
+   ],
+   "eslesme": {
+    "lem": "لَوْلا"
+   },
+   "ad": "levlâ",
+   "ar": "لَوْلَا",
+   "okunus": "levlâ",
+   "anlam": "eğer … olmasaydı",
+   "aciklama": "Levlâ, bir şeyin varlığı yüzünden başka bir şeyin olmadığını bildirir: eğer … olmasaydı. Cevabının başına çoğu zaman le- gelir: ve levlâ def'u'llâhi'n-nâse … le-fesedeti'l-ard, Allah insanları birbiriyle savmasaydı yeryüzü bozulurdu.",
+   "akilda": "Levlâ: o olmasaydı.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-hayy-kayyum",
+   "tur": "deyim",
+   "ornek": "2:255",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "Allâhü lâ ilâhe illâ hüve'l-hayyü'l-kayyûm",
+   "ar": "اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+   "okunus": "Allâhü lâ ilâhe illâ hüve'l-hayyü'l-kayyûm",
+   "anlam": "Allah, O'ndan başka ilah yoktur; diridir, her şeyi ayakta tutandır",
+   "aciklama": "Âyetü'l-Kürsî bu sözle başlar. Hayy, ölümsüz diri; kayyûm, varlıkları ayakta tutan ve yöneten demektir. Kayyûm, kıyâm (ayakta durmak) kökünden mübalağa kalıbındadır: her an ayakta tutan. Aynı ifade Âl-i İmrân'ın ikinci ayetinde de geçer.",
+   "akilda": "Hayy diridir, kayyûm her şeyi ayakta tutar.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-ikrah",
+   "tur": "deyim",
+   "ornek": "2:256",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "lâ ikrâhe fi'd-dîn",
+   "ar": "لَا إِكْرَاهَ فِي الدِّينِ",
+   "okunus": "lâ ikrâhe fi'd-dîn",
+   "anlam": "Dinde zorlama yoktur",
+   "aciklama": "Cinsin tamamını olumsuzlayan lâ ile kurulmuş bir isim cümlesidir: hiçbir zorlama yoktur. İkrâh, kerh (hoşlanmamak) kökünden IV. kalıbın masdarıdır: birini istemediği bir şeye zorlamak. Ayetin devamı gerekçeyi verir: doğru yol, sapıklıktan ayrılıp açığa çıkmıştır.",
+   "akilda": "İman zorla değil, açık delille olur.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-zulumat-nur",
+   "tur": "deyim",
+   "ornek": "2:257",
+   "kelimeler": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "mine'z-zulümâti ile'n-nûr",
+   "ar": "مِنَ الظُّلُمَاتِ إِلَى النُّورِ",
+   "okunus": "mine'z-zulümâti ile'n-nûr",
+   "anlam": "karanlıklardan aydınlığa",
+   "aciklama": "Kur'an'da hidayeti anlatan ifadedir: min başlangıcı, ilâ varışı gösterir. Karanlık (zulümât) çoğul, aydınlık (nûr) tekil gelir; sapmanın yolları çok, doğru yol tektir. Aynı ayette ters yönü de söylenir: nurdan karanlıklara.",
+   "akilda": "Karanlıklar çok, nur tektir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-enna",
+   "tur": "edat",
+   "ornek": "2:259",
+   "kelimeler": [
+    11
+   ],
+   "ad": "ennâ",
+   "ar": "أَنَّىٰ",
+   "okunus": "ennâ",
+   "anlam": "nasıl? nereden? ne zaman?",
+   "aciklama": "Ennâ hem 'nasıl' hem 'nereden' anlamında soru edatıdır ve çoğu zaman hayret bildirir. Ennâ yuhyî hâzihi'llâh, Allah bunu nasıl diriltecek demektir. Meryem'in sözünde de geçer: ennâ yekûnü lî veled, benim nasıl çocuğum olur.",
+   "akilda": "Ennâ: nasıl, nereden?",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-nida-yasiz",
+   "tur": "dilbilgisi",
+   "ornek": "2:260",
+   "kelimeler": [
+    4,
+    5
+   ],
+   "ad": "Yâ'sız seslenme: Rabbi",
+   "ar": "رَبِّ",
+   "okunus": "rabbi",
+   "anlam": "Rabbim!",
+   "aciklama": "Kur'an'daki dualarda seslenme edatı yâ çoğu zaman düşer ve doğrudan rabbi ya da rabbenâ denir. Rabbi'nin sonundaki esre, düşmüş olan -î (benim) zamirinin yerini tutar: Rabbim. Rabbi erinî keyfe tuhyi'l-mevtâ, Rabbim bana ölüleri nasıl dirilttiğini göster demektir.",
+   "akilda": "Rabbi: yâ'sız, en yakın sesleniş.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mesel",
+   "tur": "deyim",
+   "ornek": "2:261",
+   "kelimeler": [
+    1,
+    8
+   ],
+   "ad": "meselü … ke-meseli",
+   "ar": "مَثَلُ … كَمَثَلِ",
+   "okunus": "meselü … ke-meseli",
+   "anlam": "… durumu, … durumu gibidir",
+   "aciklama": "Kur'an'ın benzetme kalıbıdır. Mesel, örnek ve durum demektir; ikinci meselin başındaki ke, gibi anlamındadır. Mallarını Allah yolunda harcayanların durumu, yedi başak bitiren bir tanenin durumu gibidir. Kur'an soyut bir gerçeği bu kalıpla gözle görülür bir örneğe bağlar.",
+   "akilda": "Meselü … ke-meseli: Kur'an'ın örnekle anlatma kalıbı.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ibtiga",
+   "tur": "deyim",
+   "ornek": "2:265",
+   "kelimeler": [
+    5,
+    6,
+    7
+   ],
+   "ad": "ibtiğâe merdâti'llâh",
+   "ar": "ابْتِغَاءَ مَرْضَاتِ اللَّهِ",
+   "okunus": "ibtiğâe merdâti'llâh",
+   "anlam": "Allah'ın rızasını kazanmak için",
+   "aciklama": "İbtiğâ, buğye (istemek) kökünden VIII. kalıbın masdarıdır: aramak, istemek. Burada mansûb gelerek bir işin amacını bildirir; buna mef'ûl-i lehû denir: için. Merdât, rızâ ile aynı köktendir: hoşnutluk. İyiliğin niyetini anlatan kalıp bir ifadedir.",
+   "akilda": "İyilik, Allah'ın rızası aranarak yapılır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-sirran",
+   "tur": "deyim",
+   "ornek": "2:274",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "bi'l-leyli ve'n-nehâri sirran ve alâniyeten",
+   "ar": "بِاللَّيْلِ وَالنَّهَارِ سِرًّا وَعَلَانِيَةً",
+   "okunus": "bi'l-leyli ve'n-nehâri sirran ve alâniyeten",
+   "anlam": "gece ve gündüz, gizli ve açık",
+   "aciklama": "Kur'an karşıt kelimeleri yan yana getirerek bütünü anlatır: gece ile gündüz bütün zamanı, gizli ile açık bütün hâlleri kapsar. Sirran ve alâniyeten mansûbdur ve işin nasıl yapıldığını bildirir; buna hâl denir. Türkçedeki sır ve alenî kelimeleri buradan gelir.",
+   "akilda": "Zıtlar yan yana: her zaman, her hâlde.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ahalle",
+   "tur": "deyim",
+   "ornek": "2:275",
+   "kelimeler": [
+    21,
+    22,
+    23,
+    24,
+    25
+   ],
+   "ad": "ve ehalle'llâhü'l-bey'a ve harreme'r-ribâ",
+   "ar": "وَأَحَلَّ اللَّهُ الْبَيْعَ وَحَرَّمَ الرِّبَا",
+   "okunus": "ve ehalle'llâhü'l-bey'a ve harreme'r-ribâ",
+   "anlam": "Allah alışverişi helal, faizi haram kılmıştır",
+   "aciklama": "Ehalle, hill (serbest olmak) kökünden IV. kalıptır: helal kıldı. Harrame, II. kalıptır: haram kıldı. Ayet, alışverişin faiz gibi olduğunu söyleyenlere cevap verir; iki fiil karşıt anlamlarıyla aynı cümlede yan yana gelir.",
+   "akilda": "Helal kılan da haram kılan da Allah'tır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "v-tefaul6",
+   "tur": "kalip",
+   "ornek": "2:282",
+   "kelimeler": [
+    5
+   ],
+   "eslesme": {
+    "tur": "V",
+    "etiket": [
+     "VF:6"
+    ]
+   },
+   "ad": "VI. kalıp: tefâ‘ale",
+   "ar": "تَفَاعَلَ",
+   "okunus": "tefâale",
+   "anlam": "karşılıklı yapmak",
+   "aciklama": "III. kalıbın başına te eklenmiş hâlidir ve işin iki ya da daha çok kişi arasında karşılıklı yapıldığını bildirir. İzâ tedâyentüm bi-deynin, birbirinize borçlandığınız zaman demektir. Teâvün (yardımlaşma) ve tekâsür (çoğalma yarışı) de bu kalıptadır.",
+   "akilda": "Tefâale: karşılıklı yapmak.",
+   "kaynak": "sarf"
+  },
+  {
+   "id": "d-semina",
+   "tur": "deyim",
+   "ornek": "2:285",
+   "kelimeler": [
+    22,
+    23,
+    24,
+    25
+   ],
+   "ad": "semi'nâ ve eta'nâ, ğufrâneke rabbenâ",
+   "ar": "سَمِعْنَا وَأَطَعْنَا غُفْرَانَكَ رَبَّنَا",
+   "okunus": "semi'nâ ve eta'nâ, ğufrâneke rabbenâ",
+   "anlam": "İşittik ve itaat ettik; Rabbimiz, bağışlamanı dileriz",
+   "aciklama": "Müminlerin Allah'ın hükmü karşısındaki sözüdür. Semi'nâ ve eta'nâ mâzî fiillerdir ve nâ öznesiyle 'biz' demektir. Ğufrâneke mansûb bir masdardır; başında 'dileriz' anlamında bir fiil düşünülür: bağışlamanı dileriz.",
+   "akilda": "İşittik ve itaat ettik.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-tuzig",
+   "tur": "deyim",
+   "ornek": "3:8",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "rabbenâ lâ tüziğ kulûbenâ",
+   "ar": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا",
+   "okunus": "rabbenâ lâ tüziğ kulûbenâ",
+   "anlam": "Rabbimiz! Kalplerimizi kaydırma",
+   "aciklama": "İlimde derinleşmiş olanların duasıdır. Tüziğ, zeyğ (kaymak, sapmak) kökünden IV. kalıptır: kaydırmak. Lâ ile gelip meczûm olduğu için burada bir yasak değil, Allah'a yönelen bir dua anlamı taşır: kalplerimizi doğrudan kaydırma.",
+   "akilda": "Doğru yol için dua, hidayetten sonra da sürer.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-hayr-min",
+   "tur": "dilbilgisi",
+   "ornek": "3:15",
+   "kelimeler": [
+    3,
+    4,
+    5
+   ],
+   "ad": "Karşılaştırma: hayrun min",
+   "ar": "خَيْرٌ مِنْ",
+   "okunus": "hayrun min",
+   "anlam": "-den daha hayırlı",
+   "aciklama": "Hayr ve şerr kelimeleri karşılaştırmada ef'al kalıbı yerine kullanılır: hayrun min, -den daha hayırlı demektir. Karşılaştırılan şey min ile gelir. E-ünebbiüküm bi-hayrin min zâliküm, size bundan daha hayırlısını haber vereyim mi demektir.",
+   "akilda": "Hayrun min: -den daha iyi.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-din-islam",
+   "tur": "deyim",
+   "ornek": "3:19",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "ad": "inne'd-dîne inda'llâhi'l-islâm",
+   "ar": "إِنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ",
+   "okunus": "inne'd-dîne inda'llâhi'l-islâm",
+   "anlam": "Allah katında din İslâm'dır",
+   "aciklama": "İnne ile pekiştirilmiş bir isim cümlesidir: ed-dîn ismi, el-islâm haberidir. İnda, katında anlamında bir zarftır. İslâm, silm (barış, teslimiyet) kökünden IV. kalıbın masdarıdır: teslim olmak.",
+   "akilda": "İslâm: Allah'a teslim olmak.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-allahumme",
+   "tur": "dilbilgisi",
+   "ornek": "3:26",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "Allâhümme",
+   "ar": "اللَّهُمَّ",
+   "okunus": "Allâhümme",
+   "anlam": "Allah'ım!",
+   "aciklama": "Allâhümme, Allah lafzına seslenmenin özel biçimidir: sondaki mim, düşen yâ edatının yerini tutar. Dualar bu sözle açılır. Kul illâhümme mâlike'l-mülk, de ki: Ey mülkün sahibi Allah'ım demektir; ardından gelen mâlike de seslenme olduğu için mansûbdur.",
+   "akilda": "Allâhümme: yâ Allah.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ittiba",
+   "tur": "deyim",
+   "ornek": "3:31",
+   "kelimeler": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "in küntüm tuhibbûna'llâhe fettebi'ûnî",
+   "ar": "إِنْ كُنْتُمْ تُحِبُّونَ اللَّهَ فَاتَّبِعُونِي يُحْبِبْكُمُ اللَّهُ",
+   "okunus": "in küntüm tuhibbûna'llâhe fettebi'ûnî yuhbibkümu'llâh",
+   "anlam": "Allah'ı seviyorsanız bana uyun ki Allah da sizi sevsin",
+   "aciklama": "Şart cümlesi, emir ve emrin cevabı bir arada gelir: eğer … ise, o hâlde bana uyun, Allah da sizi sevsin. Yuhbibküm, emrin cevabı olduğu için meczûmdur; bu yüzden şeddeli olan be harfleri ayrılmıştır. İttebi'û, VIII. kalıptan emirdir: uyun.",
+   "akilda": "Allah sevgisinin işareti, Peygamber'e uymaktır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-hunalike",
+   "tur": "edat",
+   "ornek": "3:38",
+   "kelimeler": [
+    1
+   ],
+   "eslesme": {
+    "lem": "هُنالِك"
+   },
+   "ad": "hünâlike",
+   "ar": "هُنَالِكَ",
+   "okunus": "hünâlike",
+   "anlam": "orada; o zaman",
+   "aciklama": "Hünâ yakın yeri, hünâlike uzak yeri gösteren işaret zarfıdır. Kur'an'da çoğu zaman 'o anda, o durumda' anlamında zaman bildirir. Hünâlike de'â zekeriyyâ rabbeh, o anda Zekeriya Rabbine dua etti demektir.",
+   "akilda": "Hünâ burada, hünâlike orada.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-kun",
+   "tur": "deyim",
+   "ornek": "3:47",
+   "kelimeler": [
+    22,
+    23
+   ],
+   "ad": "kün fe-yekûn",
+   "ar": "كُنْ فَيَكُونُ",
+   "okunus": "kün fe-yekûn",
+   "anlam": "Ol! der, o da hemen olur",
+   "aciklama": "Allah'ın yaratmasını anlatan ifadedir. Kün, kâne (olmak) fiilinden emirdir: ol. Fe-yekûn, fe ile gelen muzâridir: o da hemen olur. Fe harfi emrin ardından sonucun hiç gecikmeden geldiğini gösterir.",
+   "akilda": "Allah dileyince yalnızca 'Ol' der.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mumterin",
+   "tur": "deyim",
+   "ornek": "3:60",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "el-hakku min rabbike felâ tekün mine'l-mümterîn",
+   "ar": "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُنْ مِنَ الْمُمْتَرِينَ",
+   "okunus": "el-hakku min rabbike felâ tekün mine'l-mümterîn",
+   "anlam": "Gerçek Rabbindendir; sakın şüphecilerden olma",
+   "aciklama": "El-hakk mübteda, min rabbike haberdir. Felâ tekün, lâ ile yasaklanan meczûm muzâridir; kâne fiilinin sonundaki vav düşmüştür: tekûnu yerine tekün. Mümterî, mirye (şüphe) kökünden VIII. kalıbın ism-i fâilidir: şüphe eden.",
+   "akilda": "Gerçek Rabdendir; şüpheye yer yok.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ehl-kitab",
+   "tur": "deyim",
+   "ornek": "3:64",
+   "kelimeler": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "yâ ehle'l-kitâbi te'âlev ilâ kelimetin sevâin",
+   "ar": "يَا أَهْلَ الْكِتَابِ تَعَالَوْا إِلَىٰ كَلِمَةٍ سَوَاءٍ",
+   "okunus": "yâ ehle'l-kitâbi te'âlev ilâ kelimetin sevâin",
+   "anlam": "Ey kitap ehli! Ortak bir söze gelin",
+   "aciklama": "Ehl, sahip ve mensup demektir; ehle'l-kitâb, kendilerine kitap verilmiş olanlardır. Seslenme olduğu için ehle mansûbdur. Te'âlev, gelin anlamında bir emirdir. Kelimetün sevâ, aranızda eşit, ortak bir söz demektir; ayetin devamı bu sözü söyler: Allah'tan başkasına kulluk etmeyelim.",
+   "akilda": "Ortak söz: yalnız Allah'a kulluk.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-bela",
+   "tur": "edat",
+   "ornek": "3:76",
+   "kelimeler": [
+    1
+   ],
+   "eslesme": {
+    "lem": "بَلَى"
+   },
+   "ad": "belâ",
+   "ar": "بَلَىٰ",
+   "okunus": "belâ",
+   "anlam": "hayır, öyle değil; evet (olumsuz soruya)",
+   "aciklama": "Belâ, olumsuz bir söze ya da olumsuz bir soruya karşı verilen olumlu cevaptır. Türkçede 'hayır, öyle değil' ya da 'evet, öyledir' diye çevrilir. Elestü bi-rabbiküm, Rabbiniz değil miyim sorusuna verilen kâlû belâ cevabı da budur.",
+   "akilda": "Olumsuza karşı 'evet': belâ.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-nisbe",
+   "tur": "dilbilgisi",
+   "ornek": "3:79",
+   "kelimeler": [
+    21
+   ],
+   "ad": "Nisbet eki: -î",
+   "ar": "يَاءُ النِّسْبَة",
+   "okunus": "yâü'n-nisbe",
+   "anlam": "-e ait, -li",
+   "aciklama": "İsmin sonuna şeddeli ye eklenince ona ait ya da onunla ilgili anlamı çıkar: Mekke'den Mekkî, Arab'dan Arabî. Rabbânî, Rabbe ait ve bağlı olan demektir; ayette çoğul olarak geçer: rabbâniyyîn. Türkçedeki ilmî, dinî, millî gibi kelimeler bu ekle kurulmuştur.",
+   "akilda": "Sondaki şeddeli î: -e ait.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-men-sart",
+   "tur": "dilbilgisi",
+   "ornek": "3:85",
+   "kelimeler": [
+    1,
+    2,
+    6,
+    7
+   ],
+   "ad": "Şart ismi: men",
+   "ar": "مَنْ",
+   "okunus": "men",
+   "anlam": "kim … ise",
+   "aciklama": "Men, soru olarak 'kim' demektir; şart ismi olarak ise 'kim … ise' anlamı verir ve iki fiili meczûm yapar. Ve men yebtağı ğayra'l-islâmi dînen, kim İslâm'dan başka bir din ararsa demektir: yebtağı fiilinin sonundaki ye düşmüştür. Cevap len ile geldiği için başına fe gelmiştir.",
+   "akilda": "Men: kim … ise.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-len-tenalu",
+   "tur": "deyim",
+   "ornek": "3:92",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "len tenâlü'l-birra hattâ tünfikû mimmâ tühibbûn",
+   "ar": "لَنْ تَنَالُوا الْبِرَّ حَتَّىٰ تُنْفِقُوا مِمَّا تُحِبُّونَ",
+   "okunus": "len tenâlü'l-birra hattâ tünfikû mimmâ tühibbûn",
+   "anlam": "Sevdiğiniz şeylerden harcamadıkça iyiliğe erişemezsiniz",
+   "aciklama": "Len, gelecek zamanı kesin olarak olumsuzlar; hattâ ise bir sınır koyar: -e kadar. İkisi birlikte 'yapmadıkça asla' anlamı verir. Tenâlû, nevl (erişmek) kökündendir; len yüzünden sonundaki nun düşmüştür. Mimmâ, min ile mâ'nın birleşimidir: sevdiğiniz şeylerden.",
+   "akilda": "İyilik, sevdiğinden vermektir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-itisam",
+   "tur": "deyim",
+   "ornek": "3:103",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "va'tesımû bi-habli'llâhi cemî'an",
+   "ar": "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا",
+   "okunus": "va'tesımû bi-habli'llâhi cemî'an ve lâ teferrakû",
+   "anlam": "Hep birlikte Allah'ın ipine sımsıkı sarılın, parçalanmayın",
+   "aciklama": "İ'tesımû, ısmet (korunmak) kökünden VIII. kalıpta bir emirdir: sımsıkı tutunun. Habl ip demektir; Allah'ın ipi, kulu O'na bağlayan şeyi anlatan bir benzetmedir. Cemî'an, hepsi birlikte anlamında mansûb bir hâldir. Ve lâ teferrakû, V. kalıptan bir yasaktır: dağılmayın; başındaki iki te'den biri düşmüştür.",
+   "akilda": "Birlik, Allah'ın ipine birlikte tutunmaktır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-emr-maruf",
+   "tur": "deyim",
+   "ornek": "3:110",
+   "kelimeler": [
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "ad": "te'mürûne bi'l-ma'rûfi ve tenhevne ani'l-münker",
+   "ar": "تَأْمُرُونَ بِالْمَعْرُوفِ وَتَنْهَوْنَ عَنِ الْمُنْكَرِ",
+   "okunus": "te'mürûne bi'l-ma'rûfi ve tenhevne ani'l-münker",
+   "anlam": "iyiliği emreder, kötülükten alıkoyarsınız",
+   "aciklama": "Emr fiili bi edatıyla, nehy fiili an edatıyla kullanılır: bir şeyi emretmek, bir şeyden menetmek. Ma'rûf, bilinen ve kabul gören iyilik; münker, yadırganan kötülüktür; ikisi de karşıt anlamlı birer ism-i mef'ûldür. Bu kalıp Kur'an'da müminlerin vasfı olarak sık geçer.",
+   "akilda": "Emr bi, nehy an: iyiliği emret, kötülükten alıkoy.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "b-ha-tenbih",
+   "tur": "edat",
+   "ornek": "3:119",
+   "kelimeler": [
+    1,
+    2
+   ],
+   "ad": "hâ (dikkat çekme)",
+   "ar": "هَا أَنْتُمْ أُولَاءِ",
+   "okunus": "hâ entüm ülâi",
+   "anlam": "işte siz; bakın siz",
+   "aciklama": "Hâ, dikkat çekmek için zamirin ya da işaret isminin başına gelen bir harftir; buna tenbîh hâsı denir. Hâ entüm ülâi, işte siz öyle kimselersiniz demektir. Hâzâ (bu) işaret isminin başındaki hâ da aynı harftir.",
+   "akilda": "Hâ: dikkat, işte!",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-nasr",
+   "tur": "deyim",
+   "ornek": "3:126",
+   "kelimeler": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "ad": "ve me'n-nasru illâ min indi'llâh",
+   "ar": "وَمَا النَّصْرُ إِلَّا مِنْ عِنْدِ اللَّهِ",
+   "okunus": "ve me'n-nasru illâ min indi'llâh",
+   "anlam": "Zafer ancak Allah katındandır",
+   "aciklama": "Mâ ile olumsuzlanan bir isim cümlesine illâ eklenerek hüküm sınırlanır: zafer başka yerden değil, yalnızca Allah katındandır. Nasr, yardım ve zafer demektir; Türkçedeki nusret ve Nasreddin bu köktendir. İnd, katında anlamında bir zarftır.",
+   "akilda": "Mâ … illâ: yalnızca, ancak.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ealevn",
+   "tur": "deyim",
+   "ornek": "3:139",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "ve lâ tehinû ve lâ tahzenû ve entümü'l-a'levn",
+   "ar": "وَلَا تَهِنُوا وَلَا تَحْزَنُوا وَأَنْتُمُ الْأَعْلَوْنَ",
+   "okunus": "ve lâ tehinû ve lâ tahzenû ve entümü'l-a'levn",
+   "anlam": "Gevşemeyin, üzülmeyin; inanıyorsanız en üstün olan sizsiniz",
+   "aciklama": "İki yasak art arda gelir: tehinû, gevşeyip zayıflamak; tahzenû, üzülmek. Ve entümü'l-a'levn, hâl bildiren bir isim cümlesidir: oysa siz en üstünlersiniz. A'levn, ulüvv (yükseklik) kökünden ef'al kalıbının çoğuludur. Cümlenin sonundaki şart hükmü bağlar: eğer müminseniz.",
+   "akilda": "Üstünlük imana bağlıdır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ma-muhammed",
+   "tur": "deyim",
+   "ornek": "3:144",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "ve mâ muhammedün illâ resûl",
+   "ar": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ",
+   "okunus": "ve mâ muhammedün illâ resûl",
+   "anlam": "Muhammed ancak bir peygamberdir",
+   "aciklama": "Mâ … illâ yapısı hükmü sınırlar: Muhammed bir peygamberdir, ondan önce de peygamberler gelip geçmiştir. Muhammed, hamd kökünden II. kalıbın ism-i mef'ûlüdür: çok övülmüş. Resûl, gönderilen elçi demektir.",
+   "akilda": "Peygamber, elçidir; kulluk Allah'adır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mevlakum",
+   "tur": "deyim",
+   "ornek": "3:150",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "beli'llâhu mevlâküm ve hüve hayru'n-nâsırîn",
+   "ar": "بَلِ اللَّهُ مَوْلَاكُمْ ۖ وَهُوَ خَيْرُ النَّاصِرِينَ",
+   "okunus": "beli'llâhu mevlâküm ve hüve hayru'n-nâsırîn",
+   "anlam": "Hayır, sizin dostunuz Allah'tır; O, yardım edenlerin en hayırlısıdır",
+   "aciklama": "Bel, önceki sözü düzelten edattır: hayır, aksine. Mevlâ, velî ile aynı köktendir: dost, koruyucu, sahip. Hayru'n-nâsırîn bir izafettir: yardım edenlerin en hayırlısı. Hayr, burada üstünlük bildirir.",
+   "akilda": "Asıl dost ve yardımcı Allah'tır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-tekid-kull",
+   "tur": "dilbilgisi",
+   "ornek": "3:154",
+   "kelimeler": [
+    31,
+    32,
+    33
+   ],
+   "ad": "Pekiştirme: küllühû",
+   "ar": "اَلتَّوْكِيدُ بِكُلّ",
+   "okunus": "et-tevkîd bi-küll",
+   "anlam": "onun hepsi, tamamı",
+   "aciklama": "Bir isimden sonra zamirli küll gelirse o ismi pekiştirir ve onunla aynı hareke alır: inne'l-emra küllehû li'llâh, işin tamamı Allah'ındır. El-emra mansûb olduğu için küllehû da mansûbdur. Cemî' de aynı anlamda pekiştirme için kullanılır.",
+   "akilda": "Küllühû: hepsi, istisnasız.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-sura",
+   "tur": "deyim",
+   "ornek": "3:159",
+   "kelimeler": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "ad": "ve şâvirhüm fi'l-emr, fe-izâ azemte fe-tevekkel ale'llâh",
+   "ar": "وَشَاوِرْهُمْ فِي الْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اللَّهِ",
+   "okunus": "ve şâvirhüm fi'l-emr, fe-izâ azemte fe-tevekkel ale'llâh",
+   "anlam": "İşlerde onlara danış; karar verince de Allah'a dayan",
+   "aciklama": "Şâvir, III. kalıptan emirdir: karşılıklı görüşüp danış; meşveret ve şûrâ aynı köktendir. Azemte, kesin karar vermek demektir. Tevekkel, V. kalıptan emirdir ve alâ ile kullanılır: Allah'a dayan. Sıra önemlidir: önce danışmak, sonra karar, sonra tevekkül.",
+   "akilda": "Danış, karar ver, sonra Allah'a dayan.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-hasbunallah",
+   "tur": "deyim",
+   "ornek": "3:173",
+   "kelimeler": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "ad": "hasbüna'llâhu ve ni'me'l-vekîl",
+   "ar": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+   "okunus": "hasbüna'llâhu ve ni'me'l-vekîl",
+   "anlam": "Allah bize yeter; O ne güzel vekildir",
+   "aciklama": "Hasb, yeterli olan demektir; nâ zamiriyle hasbünâ, bize yeten olur. Ni'me, övgü bildiren bir fiildir: ne güzel; karşıtı bi'se (ne kötü) fiilidir. Vekîl, işini kendisine bırakılan güvenilir koruyucudur. Tehlike haberi karşısında imanları artan müminlerin sözüdür.",
+   "akilda": "Allah yeter; O ne güzel vekildir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-nun-tekid",
+   "tur": "dilbilgisi",
+   "ornek": "3:178",
+   "kelimeler": [
+    1,
+    2
+   ],
+   "ad": "Pekiştirme nunu (-enne)",
+   "ar": "نُونُ التَّوْكِيد",
+   "okunus": "nûnü't-tevkîd",
+   "anlam": "kesinlikle, sakın",
+   "aciklama": "Muzâri fiilin sonuna şeddeli nun eklenince fiil pekiştirilir. Yasaklama ile gelince 'sakın, asla' anlamını güçlendirir: ve lâ yahsebenne'llezîne keferû, inkâr edenler sakın sanmasınlar. Fiilin son harfi üstün olur: yahsebu yerine yahseben-ne.",
+   "akilda": "Sondaki şeddeli nun: kesinlikle, sakın.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-zaika",
+   "tur": "deyim",
+   "ornek": "3:185",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "küllü nefsin zâikatü'l-mevt",
+   "ar": "كُلُّ نَفْسٍ ذَائِقَةُ الْمَوْتِ",
+   "okunus": "küllü nefsin zâikatü'l-mevt",
+   "anlam": "Her canlı ölümü tadacaktır",
+   "aciklama": "Küll ile belirsiz bir isim gelince 'her' anlamı verir: küllü nefsin, her can. Zâika, zevk (tatmak) kökünden fâil kalıbında dişil bir isimdir, çünkü nefs dişildir: tadacak olan. Zâikatü'l-mevt bir izafettir: ölümü tadıcı. Kur'an'da üç yerde aynen geçer.",
+   "akilda": "Ölüm, her canın tadacağı bir gerçektir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ulul-elbab",
+   "tur": "deyim",
+   "ornek": "3:190",
+   "kelimeler": [
+    9,
+    10,
+    11
+   ],
+   "ad": "li-üli'l-elbâb",
+   "ar": "لِأُولِي الْأَلْبَابِ",
+   "okunus": "li-üli'l-elbâb",
+   "anlam": "akıl sahipleri için",
+   "aciklama": "Ülû, sahipler anlamına gelen ve yalnızca tamlamada kullanılan bir çoğuldur; mecrûr ve mansûb hâlde ülî olur. Elbâb, lübb kelimesinin çoğuludur: bir şeyin özü, saf akıl. Kur'an, göklerin ve yerin yaratılışındaki ayetleri görenleri bu sözle anar.",
+   "akilda": "Ülü'l-elbâb: özü kavrayan akıl sahipleri.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-sabiru",
+   "tur": "deyim",
+   "ornek": "3:200",
+   "kelimeler": [
+    4,
+    5,
+    6
+   ],
+   "ad": "ısbirû ve sâbirû ve râbitû",
+   "ar": "اصْبِرُوا وَصَابِرُوا وَرَابِطُوا",
+   "okunus": "ısbirû ve sâbirû ve râbitû",
+   "anlam": "Sabredin, sabırda yarışın, nöbette durun",
+   "aciklama": "Aynı kökün iki kalıbı yan yana gelir: ısbirû I. kalıptan, sabredin; sâbirû III. kalıptan, karşılıklı ve dayanışarak sabredin, sabırda direnin. Râbitû da III. kalıptandır: bağlı kalın, sınırda nöbet tutun. Âl-i İmrân bu üç emir ve takva emriyle biter.",
+   "akilda": "Sabır tek başına değil, birlikte ve sürekli olur.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-nefs-vahide",
+   "tur": "deyim",
+   "ornek": "4:1",
+   "kelimeler": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "halekaküm min nefsin vâhide",
+   "ar": "اتَّقُوا رَبَّكُمُ الَّذِي خَلَقَكُمْ مِنْ نَفْسٍ وَاحِدَةٍ",
+   "okunus": "ittekû rabbekümü'llezî halekaküm min nefsin vâhide",
+   "anlam": "Sizi tek bir candan yaratan Rabbinizden sakının",
+   "aciklama": "Nisâ suresi bütün insanlara bu sözle seslenir. Nefsin vâhide bir sıfat tamlamasıdır: tek bir can; nefs dişil olduğu için sıfatı da dişil gelmiştir. Ellezî ilgi zamiri, Rabb kelimesini kendinden sonraki cümleye bağlar: sizi yaratan Rab.",
+   "akilda": "Bütün insanlar tek bir candan gelir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-mesna",
+   "tur": "dilbilgisi",
+   "ornek": "4:3",
+   "kelimeler": [
+    13,
+    14,
+    15
+   ],
+   "ad": "Bölüştürme sayıları",
+   "ar": "مَثْنَىٰ وَثُلَاثَ وَرُبَاعَ",
+   "okunus": "mesnâ ve sülâse ve rubâ'",
+   "anlam": "ikişer, üçer, dörder",
+   "aciklama": "Sayıların özel bir kalıbı bölüştürmeyi bildirir: mesnâ ikişer, sülâs üçer, rubâ' dörder demektir. Bu kelimeler tenvin almaz. Fâtır suresinin başında meleklerin kanatları da aynı kelimelerle anlatılır: ikişer, üçer, dörder.",
+   "akilda": "Mesnâ, sülâs, rubâ': ikişer, üçer, dörder.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-yusikum",
+   "tur": "deyim",
+   "ornek": "4:11",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "yûsîkümu'llâhu fî evlâdiküm",
+   "ar": "يُوصِيكُمُ اللَّهُ فِي أَوْلَادِكُمْ",
+   "okunus": "yûsîkümu'llâhu fî evlâdiküm",
+   "anlam": "Allah size çocuklarınız hakkında emreder",
+   "aciklama": "Yûsî, vasiyyet ile aynı kökten IV. kalıptır: tavsiye etmek, emretmek. Fî burada 'hakkında' demektir. Evlâd, veled (çocuk) kelimesinin kırık çoğuludur. Miras hükümleri bu sözle başlar; Türkçedeki vasiyet ve vasi aynı köktendir.",
+   "akilda": "Fî bazen 'hakkında' demektir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-kesir",
+   "tur": "dilbilgisi",
+   "ornek": "4:12",
+   "kelimeler": [
+    2,
+    16,
+    40
+   ],
+   "ad": "Kesirler: nısf, rub', sumun",
+   "ar": "اَلْكُسُور",
+   "okunus": "el-küsûr",
+   "anlam": "yarım, dörtte bir, sekizde bir",
+   "aciklama": "Arapçada kesirler sayının kökünden fu'ul kalıbıyla yapılır: sülüs üçte bir, rub' dörtte bir, hums beşte bir, südüs altıda bir, sumun sekizde bir. Yarım ise nısf kelimesiyle söylenir. Miras ayetleri payları bu kelimelerle bildirir; Türkçedeki rubu ve humus da buradan gelir.",
+   "akilda": "Sülüs, rub', südüs, sumun: kökü sayıdan gelen kesirler.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-asiruhunne",
+   "tur": "deyim",
+   "ornek": "4:19",
+   "kelimeler": [
+    22,
+    23
+   ],
+   "ad": "ve âşirûhunne bi'l-ma'rûf",
+   "ar": "وَعَاشِرُوهُنَّ بِالْمَعْرُوفِ",
+   "okunus": "ve âşirûhunne bi'l-ma'rûf",
+   "anlam": "Onlarla iyi geçinin",
+   "aciklama": "Âşirû, III. kalıptan bir emirdir: birlikte yaşamak, karşılıklı geçinmek; aşîret ve muaşeret aynı köktendir. Hunne, dişil çoğul 'onlar' zamiridir. Bi'l-ma'rûf, örfe uygun ve güzel biçimde demektir.",
+   "akilda": "Aile hayatının ölçüsü, örfe uygun iyiliktir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-akrabalik",
+   "tur": "dilbilgisi",
+   "ornek": "4:23",
+   "kelimeler": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "ad": "Akrabalık kelimeleri",
+   "ar": "أُمّ · بِنْت · أُخْت · عَمَّة · خَالَة",
+   "okunus": "ümm · bint · uht · amme · hâle",
+   "anlam": "anne, kız, kız kardeş, hala, teyze",
+   "aciklama": "Ayet, evlenilmesi haram olan yakınları sayarken akrabalık kelimelerini çoğul ve zamirli olarak verir: ümmehât anneler, benât kızlar, ahavât kız kardeşler, ammât halalar, hâlât teyzeler. Benâtü'l-ah erkek kardeşin kızları, benâtü'l-uht kız kardeşin kızlarıdır. Türkçedeki amca, hala ve teyze karşılıkları bu kelimelerden ayrılır: amm amca, amme hala, hâl dayı, hâle teyzedir.",
+   "akilda": "Amm amca, amme hala; hâl dayı, hâle teyze.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-lam-talil",
+   "tur": "dilbilgisi",
+   "ornek": "4:26",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "Amaç bildiren li",
+   "ar": "لِ + يَفْعَلَ",
+   "okunus": "li + yef‘ale",
+   "anlam": "-mek için, -sın diye",
+   "aciklama": "Li harfi bir muzâri fiilin başına gelince amaç bildirir ve fiilin sonunu üstün (mansûb) yapar: yübeyyinü yerine li-yübeyyine. Yürîdu'llâhu li-yübeyyine leküm, Allah size açıklamak ister demektir. Üçüncü şahsa emir bildiren li fiilin sonunu sükûnlu yapar; amaç bildiren li ise üstünlü bırakır.",
+   "akilda": "Li + muzâri: -mek için, -sın diye.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-hal",
+   "tur": "dilbilgisi",
+   "ornek": "4:28",
+   "kelimeler": [
+    6,
+    7,
+    8
+   ],
+   "ad": "Hâl: nasıl olduğunu bildiren isim",
+   "ar": "اَلْحَال",
+   "okunus": "el-hâl",
+   "anlam": "… olarak, … iken",
+   "aciklama": "Hâl, iş yapılırken öznenin ya da nesnenin durumunu bildiren, sonu üstünlü (mansûb) bir isimdir; Türkçeye olarak, -arak ya da -ken diye çevrilir. Ve hulika'l-insânu da'îfâ, insan zayıf olarak yaratıldı demektir: da'îfen kelimesi insanın yaratılıştaki durumunu anlatır. Hâl, 'nasıl?' sorusuna cevap verir.",
+   "akilda": "Hâl: 'nasıl?' sorusunun cevabı, sonu üstünlü.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ibadet-ihsan",
+   "tur": "deyim",
+   "ornek": "4:36",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "va'büdu'llâhe ve lâ tüşrikû bihî şey'â",
+   "ar": "وَاعْبُدُوا اللَّهَ وَلَا تُشْرِكُوا بِهِ شَيْئًا وَبِالْوَالِدَيْنِ إِحْسَانًا",
+   "okunus": "va'büdu'llâhe ve lâ tüşrikû bihî şey'en ve bi'l-vâlideyni ihsânâ",
+   "anlam": "Allah'a kulluk edin, O'na hiçbir şeyi ortak koşmayın; ana babaya iyilik edin",
+   "aciklama": "U'büdû, ibâdet kökünden çoğul emirdir: kulluk edin. Tüşrikû, şirk kökünden IV. kalıptır; lâ ile yasak olur: ortak koşmayın. Şey'en belirsiz (nekre) olduğu için olumsuz cümlede 'hiçbir şey' anlamı kazanır. İhsânen, IV. kalıptan bir masdardır; öncesinde 'iyilik edin' fiili anlaşılır. Ayet bu emirden sonra iyilik edilecek kimseleri sayar: yakınlar, yetimler, yoksullar, komşular, yolcular.",
+   "akilda": "Önce tevhid, ardından ana babaya iyilik.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-miskal-zerre",
+   "tur": "deyim",
+   "ornek": "4:40",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "inna'llâhe lâ yazlimu miskâle zerreh",
+   "ar": "إِنَّ اللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ",
+   "okunus": "inna'llâhe lâ yazlimu miskâle zerreh",
+   "anlam": "Allah zerre kadar haksızlık yapmaz",
+   "aciklama": "Miskâl, sikal (ağırlık) kökünden gelir: bir şeyin ağırlığı, tartısı. Zerre, akla gelebilecek en küçük şeyi anlatır; sözlükler onu küçük karınca ve güneş ışığında görünen toz parçası olarak açıklar. Miskâle zerreh, zerre ağırlığınca, zerre kadar demektir. Türkçedeki miskal (bir ağırlık ölçüsü) ve zerre bu kelimelerdir.",
+   "akilda": "Allah zerre kadar haksızlık yapmaz.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-vav-hal",
+   "tur": "dilbilgisi",
+   "ornek": "4:43",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "Hâl vavı: ve entüm (siz … iken)",
+   "ar": "وَاوُ الْحَال",
+   "okunus": "vâvü'l-hâl",
+   "anlam": "… iken",
+   "aciklama": "Ve harfi her zaman 've' diye çevrilmez. Bir isim cümlesinin başına gelip asıl işin hangi durumda yapıldığını bildirince hâl vavı olur: … iken. Lâ takrabu's-salâte ve entüm sükârâ, sarhoşken namaza yaklaşmayın demektir; ve entüm sükârâ 'siz sarhoş iken' anlamındadır. Aynı ayetteki cünüben kelimesi de tek kelimelik bir hâldir: cünüp iken.",
+   "akilda": "Ve entüm: siz … iken.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-kefa",
+   "tur": "deyim",
+   "ornek": "4:45",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "ve kefâ bi'llâhi veliyyâ",
+   "ar": "وَكَفَىٰ بِاللَّهِ وَلِيًّا وَكَفَىٰ بِاللَّهِ نَصِيرًا",
+   "okunus": "ve kefâ bi'llâhi veliyyen ve kefâ bi'llâhi nasîrâ",
+   "anlam": "Allah dost olarak da yeter, yardımcı olarak da yeter",
+   "aciklama": "Kefâ, yetmek fiilidir. Bi'llâh'taki bi, anlamı pekiştiren fazladan bir harftir; cümlenin öznesi Allah'tır: Allah yeter. Veliyyen ve nasîran, neyin bakımından yettiğini açıklayan sonu üstünlü isimlerdir: dost olarak, yardımcı olarak. Bu kalıp Kur'an'da sık geçer: ve kefâ bi'llâhi şehîdâ, şahit olarak Allah yeter.",
+   "akilda": "Kefâ bi'llâh: Allah yeter.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-emanet",
+   "tur": "deyim",
+   "ornek": "4:58",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "inna'llâhe ye'müruküm en tü'eddü'l-emânâti ilâ ehlihâ",
+   "ar": "إِنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الْأَمَانَاتِ إِلَىٰ أَهْلِهَا",
+   "okunus": "inna'llâhe ye'müruküm en tü'eddü'l-emânâti ilâ ehlihâ",
+   "anlam": "Allah size emanetleri ehline teslim etmenizi emreder",
+   "aciklama": "Ye'müru, emr kökünden muzâridir; küm zamiriyle 'size emreder'. En tü'eddû, en ile masdar anlamı kazanır: teslim etmenizi. Tü'eddû, edâ (yerine getirmek, ödemek) kökünden II. kalıptandır; Türkçedeki edâ ve tediye aynı köktendir. Emânât, emânet kelimesinin çoğuludur ve emîn, îmân ile aynı kökten gelir. Ehl, bir şeyin sahibi ve ona layık olandır.",
+   "akilda": "Emanet, ehline teslim edilir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-nime-bise",
+   "tur": "dilbilgisi",
+   "ornek": "4:58",
+   "kelimeler": [
+    18,
+    19,
+    20
+   ],
+   "ad": "Övme ve yerme: ni'me, bi'se",
+   "ar": "نِعْمَ · بِئْسَ",
+   "okunus": "ni'me · bi'se",
+   "anlam": "ne güzel, ne kötü",
+   "aciklama": "Ni'me ve bi'se, çekimi olmayan iki fiildir; övgü ve yergi bildirir: ni'me ne güzel, bi'se ne kötü. Ni'me'l-vekîl ne güzel vekil, bi'se'l-masîr ne kötü dönüş yeri demektir. Ni'immâ, ni'me ile mâ'nın birleşmiş hâlidir: inna'llâhe ni'immâ ya'izuküm bih, Allah size ne güzel öğüt veriyor.",
+   "akilda": "Ni'me ne güzel, bi'se ne kötü.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-kasem",
+   "tur": "dilbilgisi",
+   "ornek": "4:65",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "Yemin: ve rabbike",
+   "ar": "اَلْقَسَم",
+   "okunus": "el-kasem",
+   "anlam": "… hakkı için, … and olsun ki",
+   "aciklama": "Arapçada yemin ve, bi ve te harfleriyle yapılır; yemin edilen isim esreli olur: ve rabbike, Rabbine and olsun. Türkçeye geçen vallahi, billahi, tallahi bu kalıptandır. Felâ ve rabbike lâ yü'minûn ifadesinde baştaki lâ, karşı tarafın iddiasını reddeder ve yemini güçlendirir: Hayır, Rabbine and olsun ki inanmış olmazlar.",
+   "akilda": "Ve, bi, te: yemin harfleri; vallahi, billahi, tallahi.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-nebiyyin",
+   "tur": "deyim",
+   "ornek": "4:69",
+   "kelimeler": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "ad": "mine'n-nebiyyîne ve's-sıddîkîne ve'ş-şühedâi ve's-sâlihîn",
+   "ar": "أَنْعَمَ اللَّهُ عَلَيْهِمْ مِنَ النَّبِيِّينَ وَالصِّدِّيقِينَ وَالشُّهَدَاءِ وَالصَّالِحِينَ",
+   "okunus": "en'ama'llâhu aleyhim mine'n-nebiyyîne ve's-sıddîkîne ve'ş-şühedâi ve's-sâlihîn",
+   "anlam": "Allah'ın nimet verdiği peygamberler, dosdoğru olanlar, şehitler ve iyiler",
+   "aciklama": "En'ama aleyhim, nimet verdi demektir; Fâtiha'daki en'amte aleyhim ile aynı fiildir. Nebiyyîn nebî'nin, sıddîkîn sıddîk'ın, şühedâ şehîd'in, sâlihîn sâlih'in çoğuludur. Sıddîk, sıdk (doğruluk) kökünden fi''îl kalıbında bir mübalağa ismidir: sözü ve özü çok doğru olan. Sâlih, salâh kökünden fâil kalıbıdır: iyi, düzgün iş yapan.",
+   "akilda": "Nebî, sıddîk, şehîd, sâlih: Allah'ın nimet verdikleri.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-temyiz",
+   "tur": "dilbilgisi",
+   "ornek": "4:69",
+   "kelimeler": [
+    16,
+    17,
+    18
+   ],
+   "ad": "Temyiz: ne bakımından?",
+   "ar": "اَلتَّمْيِيز",
+   "okunus": "et-temyîz",
+   "anlam": "… olarak, … bakımından",
+   "aciklama": "Temyiz, belirsiz kalan bir sözü 'ne bakımından?' sorusuyla açıklayan, sonu üstünlü bir isimdir. Ve hasune ülâike refîkâ, onlar arkadaş olarak ne güzeldir demektir: refîkan, güzelliğin hangi bakımdan olduğunu söyler. Kefâ bi'llâhi veliyyâ ve ahsenü te'vîlâ (sonuç bakımından daha güzel) ifadelerindeki son kelimeler de temyizdir. Hâl 'nasıl?', temyiz 'ne bakımından?' sorusuna cevap verir.",
+   "akilda": "Temyiz: 'ne bakımından?' sorusunun cevabı.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-eynema",
+   "tur": "dilbilgisi",
+   "ornek": "4:78",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "Şart ismi: eynemâ",
+   "ar": "أَيْنَمَا",
+   "okunus": "eynemâ",
+   "anlam": "nerede … olursa",
+   "aciklama": "Eyne 'nerede?' demektir; sonuna mâ eklenince eynemâ olur ve 'nerede … olursa' anlamında bir şart ismine dönüşür. Men gibi iki fiili meczûm yapar: eynemâ tekûnû yüdrikkümü'l-mevt, nerede olursanız olun ölüm size yetişir. Tekûnûne fiilinin sonundaki ne düşmüş, yüdrikü fiili de sükûnla bitmiştir.",
+   "akilda": "Eynemâ: nerede olursa.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-tedebbur",
+   "tur": "deyim",
+   "ornek": "4:82",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ],
+   "ad": "e-felâ yetedebberûne'l-kur'ân",
+   "ar": "أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ",
+   "okunus": "e-felâ yetedebberûne'l-kur'ân",
+   "anlam": "Kur'an'ı durup düşünmüyorlar mı?",
+   "aciklama": "E-felâ, soru hemzesi ile fe ve lâ'nın birleşimidir: … mı yoksa? Yetedebberûne, V. kalıptan bir fiildir; kökündeki debr bir şeyin arkası ve sonudur. Tedebbür, bir sözün arkasına ve varacağı sonuca bakarak derin düşünmek demektir. Türkçedeki tedbir de aynı köktendir: işin sonunu düşünerek önlem almak.",
+   "akilda": "Tedebbür: Kur'an'ı sonuna kadar düşünmek.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-tahiyye",
+   "tur": "deyim",
+   "ornek": "4:86",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "ve izâ huyyîtüm bi-tahiyyeh",
+   "ar": "وَإِذَا حُيِّيتُمْ بِتَحِيَّةٍ فَحَيُّوا بِأَحْسَنَ مِنْهَا أَوْ رُدُّوهَا",
+   "okunus": "ve izâ huyyîtüm bi-tahiyyetin fe-hayyû bi-ahsene minhâ ev ruddûhâ",
+   "anlam": "Size bir selam verildiğinde ondan daha güzeliyle selam verin ya da aynısıyla karşılık verin",
+   "aciklama": "Tahiyye selam, esenlik dileğidir; hayât (hayat) kökünden gelir ve aslı 'Allah sana hayat versin' dileğidir. Huyyîtüm, II. kalıptan edilgen bir fiildir: selamlandığınızda. Fe-hayyû emirdir: siz de selam verin. Bi-ahsene minhâ ondan daha güzeliyle, ruddûhâ onu aynen geri verin demektir. Namazdaki et-tahiyyâtü lillâh duası bu kelimenin çoğuluyla başlar.",
+   "akilda": "Selama daha güzeliyle ya da aynısıyla karşılık verilir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-esdak",
+   "tur": "deyim",
+   "ornek": "4:87",
+   "kelimeler": [
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "ad": "ve men asdaku mina'llâhi hadîsâ",
+   "ar": "وَمَنْ أَصْدَقُ مِنَ اللَّهِ حَدِيثًا",
+   "okunus": "ve men asdaku mina'llâhi hadîsâ",
+   "anlam": "Allah'tan daha doğru sözlü kim olabilir?",
+   "aciklama": "Bu soru cevap beklemez; olumsuz bir hükmü güçlü biçimde bildirir: Allah'tan daha doğru sözlü kimse yoktur. Böyle sorulara inkâr sorusu denir. Asdak, sıdk (doğruluk) kökünden üstünlük kalıbıdır; min ile karşılaştırma yapılır. Hadîsen temyizdir: söz bakımından. Aynı kalıp bu surede bir kez daha gelir: ve men asdaku mina'llâhi kîlâ.",
+   "akilda": "Allah'tan daha doğru sözlü kimse yoktur.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-darb",
+   "tur": "deyim",
+   "ornek": "4:94",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "izâ darabtüm fî sebîli'llâh",
+   "ar": "إِذَا ضَرَبْتُمْ فِي سَبِيلِ اللَّهِ",
+   "okunus": "izâ darabtüm fî sebîli'llâh",
+   "anlam": "Allah yolunda yola çıktığınız zaman",
+   "aciklama": "Darabe fiili çoğunlukla vurmak demektir. Fî harfiyle kullanılınca yolculuğa çıkmak, yeryüzünde yürümek anlamı kazanır: darabtüm fi'l-ard, yeryüzünde yolculuğa çıktığınızda. Aynı fiil darabe meselen kalıbında 'örnek verdi' anlamındadır. Fiilin anlamı, birlikte kullanıldığı harfe ve nesneye göre değişebilir.",
+   "akilda": "Darabe fî: yola çıktı; darabe mesel: örnek verdi.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-gayr",
+   "tur": "dilbilgisi",
+   "ornek": "4:95",
+   "kelimeler": [
+    6,
+    7,
+    8
+   ],
+   "ad": "Gayr: başka, değil, hariç",
+   "ar": "غَيْر",
+   "okunus": "gayr",
+   "anlam": "başka; değil; hariç",
+   "aciklama": "Gayr, 'başka' anlamında bir isimdir ve her zaman tamlama içinde gelir: gayru'llâh, Allah'tan başkası. Bir sıfatın yerine geçince 'değil' anlamı verir: gayri'l-mağdûbi aleyhim, gazaba uğrayanların değil. İllâ gibi istisna da bildirir. Gayru üli'd-darar, özür sahibi olmayanlar demektir; Diyanet meali 'özürsüz olarak' diye çevirir. Türkçedeki gayri ve gayrimenkul buradan gelir.",
+   "akilda": "Gayr: başka, değil.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mevkut",
+   "tur": "deyim",
+   "ornek": "4:103",
+   "kelimeler": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "ad": "inne's-salâte kânet ale'l-mü'minîne kitâben mevkûtâ",
+   "ar": "إِنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا",
+   "okunus": "inne's-salâte kânet ale'l-mü'minîne kitâben mevkûtâ",
+   "anlam": "Namaz, müminlere belirli vakitlerde farz kılınmıştır",
+   "aciklama": "Kitâb burada yazılmış, farz kılınmış hüküm demektir; kütibe aleyküm (size farz kılındı) ifadesindeki fiille aynı köktendir. Mevkût, vakt kökünden mef'ûl kalıbıdır: vakti belirlenmiş. Kânet, kâne fiilinin dişil biçimidir; çünkü salât kelimesi dişildir.",
+   "akilda": "Namazın vakti belirlenmiştir: kitâben mevkûtâ.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-cezm",
+   "tur": "dilbilgisi",
+   "ornek": "4:110",
+   "kelimeler": [
+    1,
+    2,
+    8,
+    9,
+    10,
+    11
+   ],
+   "ad": "Cezm: sükûnla biten fiil",
+   "ar": "اَلْجَزْم",
+   "okunus": "el-cezm",
+   "anlam": "fiilin sonundaki harekenin düşmesi",
+   "aciklama": "Şart edatları (in, men, eynemâ) ve lem, muzâri fiili meczûm yapar: sondaki ötre düşer, harf sükûnlu olur. Ve men ya'mel sû'en, kim bir kötülük yaparsa demektir: ya'melu yerine ya'mel. Arkadan elif-i vasl ile başlayan bir kelime gelirse okumayı kolaylaştırmak için sükûn yerine esre okunur: yestağfiri'llâh, yecidi'llâh. Sonu uzun ünlüyle biten fiilde bu ünlü kısalır ya da düşer.",
+   "akilda": "Şartta fiil sükûnla biter: men ya‘mel.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-islah",
+   "tur": "deyim",
+   "ornek": "4:114",
+   "kelimeler": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "ad": "illâ men emera bi-sadakatin ev ma'rûfin ev ıslâhın beyne'n-nâs",
+   "ar": "إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَاحٍ بَيْنَ النَّاسِ",
+   "okunus": "illâ men emera bi-sadakatin ev ma'rûfin ev ıslâhın beyne'n-nâs",
+   "anlam": "Sadakayı, iyiliği ya da insanların arasını düzeltmeyi emredenler hariç",
+   "aciklama": "Ayet, gizli konuşmaların çoğunda hayır olmadığını söyler; baştaki lâ hayra, lâ raybe gibi cinsin tamamını olumsuzlar. Ardından üç şeyi ayrı tutar: sadaka, ma'rûf (iyilik) ve insanların arasını bulmak. Islâh, salâh kökünden IV. kalıp masdardır: düzeltmek, barıştırmak; Türkçedeki ıslah ve sulh aynı köktendir. Beyne, iki şeyin arası demektir.",
+   "akilda": "Sadaka, iyilik ve barıştırmak için konuşmak hayırdır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-iki-meful",
+   "tur": "dilbilgisi",
+   "ornek": "4:125",
+   "kelimeler": [
+    14,
+    15,
+    16,
+    17
+   ],
+   "ad": "İki nesne alan fiiller: ittehaze",
+   "ar": "اِتَّخَذَ · جَعَلَ",
+   "okunus": "ittehaze · ce'ale",
+   "anlam": "-i … edinmek; -i … kılmak",
+   "aciklama": "Bazı fiiller iki nesne alır; ikinci nesne, birincinin ne olduğunu ya da neye dönüştüğünü söyler. Ve'ttehaza'llâhu ibrâhîme halîlâ, Allah İbrahim'i dost edindi demektir: İbrâhîme birinci, halîlen ikinci nesnedir. İttehaze (edinmek) ve ce'ale (kılmak) bu fiillerdendir. İttehaze, ehaze (almak) fiilinin VIII. kalıbıdır. Halîl, samimi dost demektir.",
+   "akilda": "İttehaze: -i … edindi; iki nesne alır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-sulh",
+   "tur": "deyim",
+   "ornek": "4:128",
+   "kelimeler": [
+    16,
+    17
+   ],
+   "ad": "ve's-sulhu hayr",
+   "ar": "وَالصُّلْحُ خَيْرٌ",
+   "okunus": "ve's-sulhu hayr",
+   "anlam": "Anlaşmak daha hayırlıdır",
+   "aciklama": "Sulh, anlaşma ve barıştır; ıslâh ile aynı köktendir. Hayr burada 'daha hayırlı' anlamındadır: hayr ve şerr, üstünlük bildirirken ef'al kalıbına girmeden kullanılır. İki kelimelik bu isim cümlesi, ayette genel bir kural gibi durur.",
+   "akilda": "Ve's-sulhu hayr: anlaşmak daha hayırlıdır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-takdim",
+   "tur": "dilbilgisi",
+   "ornek": "4:131",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "Öne alınan haber: li'llâhi mâ fi's-semâvât",
+   "ar": "اَلتَّقْدِيم",
+   "okunus": "et-takdîm",
+   "anlam": "yalnız … içindir",
+   "aciklama": "İsim cümlesinde haber normalde sonra gelir. Öne alınınca anlamı vurgular ve sınırlar. Ve li'llâhi mâ fi's-semâvâti ve mâ fi'l-ard, göklerde ve yerde ne varsa Allah'ındır demektir: li'llâh haber, mâ fi's-semâvât mübtedadır ve haberin öne alınması 'yalnız Allah'ın' vurgusunu verir. Fâtiha'daki iyyâke na'büdü de nesnenin öne alınmasıyla 'yalnız sana kulluk ederiz' anlamı kazanır.",
+   "akilda": "Öne alınan söz vurgulanır: li'llâhi, yalnız Allah'ın.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-kavvamin",
+   "tur": "deyim",
+   "ornek": "4:135",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "kûnû kavvâmîne bi'l-kıstı şühedâe li'llâh",
+   "ar": "كُونُوا قَوَّامِينَ بِالْقِسْطِ شُهَدَاءَ لِلَّهِ",
+   "okunus": "kûnû kavvâmîne bi'l-kıstı şühedâe li'llâh",
+   "anlam": "Allah için şahitler olarak adaleti ayakta tutan olun",
+   "aciklama": "Kûnû, kâne fiilinin çoğul emridir: olun. Kavvâm, kıyâm kökünden fa''âl kalıbında bir mübalağa ismidir: bir işi sürekli ve tam olarak ayakta tutan. Kıst adalet demektir. Şühedâ, şehîd'in çoğuludur: şahitler. Ayet, adaletin kişinin kendisi, ana babası ve yakınları aleyhine olsa bile gözetilmesini ister.",
+   "akilda": "Adalet, kendi aleyhine olsa da ayakta tutulur.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-muzebzeb",
+   "tur": "deyim",
+   "ornek": "4:143",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "müzebzebîne beyne zâlik",
+   "ar": "مُذَبْذَبِينَ بَيْنَ ذَٰلِكَ لَا إِلَىٰ هَٰؤُلَاءِ وَلَا إِلَىٰ هَٰؤُلَاءِ",
+   "okunus": "müzebzebîne beyne zâlike lâ ilâ hâülâi ve lâ ilâ hâülâ'",
+   "anlam": "ikisi arasında bocalayarak; ne onlara ne de bunlara",
+   "aciklama": "Müzebzeb, harfleri tekrarlanan dört harfli bir kökten gelir: z-b-z-b. Bir şeyin iki yana sallanıp durmasını anlatır: bocalayan, kararsız. Kelimenin sesi de anlamını yansıtır. Lâ ilâ hâülâi ve lâ ilâ hâülâi, ne onlara ne de bunlara demektir. Ayet bu sözle münafıkların iki taraf arasındaki kararsızlığını anlatır.",
+   "akilda": "Müzebzeb: iki yana sallanıp bocalayan.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-derk",
+   "tur": "deyim",
+   "ornek": "4:145",
+   "kelimeler": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "fi'd-derki'l-esfeli mine'n-nâr",
+   "ar": "فِي الدَّرْكِ الْأَسْفَلِ مِنَ النَّارِ",
+   "okunus": "fi'd-derki'l-esfeli mine'n-nâr",
+   "anlam": "ateşin en alt tabakasında",
+   "aciklama": "Derk, aşağıya doğru inen basamaktır; yukarı doğru çıkan basamağa derece denir. Râgıb el-İsfahânî bu farkı böyle açıklar. Esfel, süfl (alt) kökünden üstünlük kalıbıdır: en alt. Türkçedeki derece ve dereke, süflî ve esfel kelimeleri bu köklerdendir.",
+   "akilda": "Derece yukarı, derk aşağı basamaktır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-cehr",
+   "tur": "deyim",
+   "ornek": "4:148",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "ad": "lâ yühibbu'llâhü'l-cehra bi's-sû'i mine'l-kavl",
+   "ar": "لَا يُحِبُّ اللَّهُ الْجَهْرَ بِالسُّوءِ مِنَ الْقَوْلِ إِلَّا مَنْ ظُلِمَ",
+   "okunus": "lâ yühibbu'llâhü'l-cehra bi's-sû'i mine'l-kavli illâ men zulim",
+   "anlam": "Allah, zulme uğrayan dışında kimsenin kötü sözü açığa vurmasını sevmez",
+   "aciklama": "Cehr, sesi yükseltmek ve açığa vurmaktır; Türkçedeki cehrî (açıktan okunan) buradan gelir. Bi's-sû', kötülükle demektir. İllâ men zulim, zulme uğrayan hariç: zulime fiili edilgendir. Ayet, kötü sözün açığa vurulmasını genel olarak yasaklarken zulme uğrayanın hakkını ayrı tutar.",
+   "akilda": "Cehr: açığa vurmak; illâ men zulim: zulme uğrayan hariç.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-rasihun",
+   "tur": "deyim",
+   "ornek": "4:162",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "lâkini'r-râsihûne fi'l-ilm",
+   "ar": "لَٰكِنِ الرَّاسِخُونَ فِي الْعِلْمِ",
+   "okunus": "lâkini'r-râsihûne fi'l-ilmi minhüm",
+   "anlam": "fakat ilimde derinleşmiş olanlar",
+   "aciklama": "Râsih, rusûh kökünden fâil kalıbıdır: bir yere sağlamca yerleşmiş, kök salmış olan. Fi'l-ilm ile birlikte bilgide derinleşmiş, sağlam bilgi sahibi demektir; Türkçede 'rüsuh sahibi' de bu anlamdadır. Lâkin'in sonundaki nun, sonraki kelimenin elif-i vasl ile başlaması yüzünden esreyle okunur: lâkini'r-râsihûn.",
+   "akilda": "Râsih: kök salmış; ilimde derinleşmiş.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mubessir",
+   "tur": "deyim",
+   "ornek": "4:165",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ],
+   "ad": "rusülen mübeşşirîne ve münzirîn",
+   "ar": "رُسُلًا مُبَشِّرِينَ وَمُنْذِرِينَ",
+   "okunus": "rusülen mübeşşirîne ve münzirîn",
+   "anlam": "müjdeci ve uyarıcı peygamberler",
+   "aciklama": "Mübeşşir, büşrâ (müjde) kökünden II. kalıbın ism-i fâilidir: müjdeleyen. Münzir, inzâr kökünden IV. kalıbın ism-i fâilidir: uyaran, korkutarak uyaran. İkisi peygamberlerin görevini birlikte anlatır; Kur'an'da beşîr ve nezîr biçimleriyle de sık geçer. Türkçedeki beşaret ve inzar bu köklerdendir.",
+   "akilda": "Mübeşşir müjdeler, münzir uyarır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-guluv",
+   "tur": "deyim",
+   "ornek": "4:171",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "ad": "lâ tağlû fî dîniküm",
+   "ar": "يَا أَهْلَ الْكِتَابِ لَا تَغْلُوا فِي دِينِكُمْ وَلَا تَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ",
+   "okunus": "yâ ehle'l-kitâbi lâ tağlû fî dîniküm ve lâ tekûlû ala'llâhi ille'l-hakk",
+   "anlam": "Ey Kitap ehli! Dininizde taşkınlık etmeyin; Allah hakkında ancak gerçeği söyleyin",
+   "aciklama": "Tağlû, ğuluvv kökünden bir fiildir; lâ ile yasak olur: haddi aşmayın, taşkınlık etmeyin. Ğuluvv, bir şeyde ölçüyü aşmaktır; fiyatın aşırı yükselmesine de ğalâ denir. Türkçedeki gulüv (aşırılık) ve gâlî (aşırı giden) bu köktendir. Ala'llâh, Allah hakkında; ille'l-hakk, gerçekten başkasını değil demektir.",
+   "akilda": "Dinde ölçüyü aşmak yasaktır: lâ tağlû.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ukud",
+   "tur": "deyim",
+   "ornek": "5:1",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "ad": "evfû bi'l-ukûd",
+   "ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا أَوْفُوا بِالْعُقُودِ",
+   "okunus": "yâ eyyühe'llezîne âmenû evfû bi'l-ukûd",
+   "anlam": "Ey iman edenler! Akitleri yerine getirin",
+   "aciklama": "Evfû, vefâ kökünden IV. kalıpta çoğul emirdir: tam olarak yerine getirin. Ukûd, akd kelimesinin çoğuludur; akd aslında ipi düğümlemek demektir, sonra iki taraf arasında bağlanan söz ve sözleşme anlamını almıştır. Türkçedeki vefa, ifa, akit ve ukde bu köklerdendir.",
+   "akilda": "Evfû bi'l-ukûd: sözleşmeleri yerine getirin.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ikmal",
+   "tur": "deyim",
+   "ornek": "5:3",
+   "kelimeler": [
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+   ],
+   "ad": "el-yevme ekmeltü leküm dîneküm",
+   "ar": "الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا",
+   "okunus": "el-yevme ekmeltü leküm dîneküm ve etmemtü aleyküm ni'metî ve radîtü lekümü'l-islâme dînâ",
+   "anlam": "Bugün size dininizi bütünledim, üzerinize olan nimetimi tamamladım, din olarak sizin için İslam'ı beğendim",
+   "aciklama": "Ekmeltü, kemâl kökünden IV. kalıptır: bütünledim, eksiksiz kıldım. Etmemtü, temâm kökünden IV. kalıptır: tamamladım. İki fiil yakın anlamlıdır; biri eksiği kalmamayı, öteki sona ermeyi vurgular. Radîtü, rızâ kökündendir: beğendim, razı oldum. Dînen, din olarak demektir. Türkçedeki kemal, ikmal, tamam, itmam ve rıza bu köklerdendir.",
+   "akilda": "Ekmeltü: bütünledim; etmemtü: tamamladım.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-adl-takva",
+   "tur": "deyim",
+   "ornek": "5:8",
+   "kelimeler": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "ad": "i'dilû hüve akrabü li't-takvâ",
+   "ar": "وَلَا يَجْرِمَنَّكُمْ شَنَآنُ قَوْمٍ عَلَىٰ أَلَّا تَعْدِلُوا اعْدِلُوا هُوَ أَقْرَبُ لِلتَّقْوَىٰ",
+   "okunus": "ve lâ yecrimenneküm şeneânü kavmin alâ ellâ ta'dilû, i'dilû hüve akrabü li't-takvâ",
+   "anlam": "Bir topluluğa olan öfkeniz sizi adaletsizliğe sürüklemesin; adil olun, bu takvaya daha yakındır",
+   "aciklama": "Yecrimenneküm, pekiştirme nunu almış bir yasaktır: sizi sakın sürüklemesin. Şeneân, kin ve öfke demektir. Ellâ, en ile lâ'nın birleşmesidir: -memeye. İ'dilû, adl kökünden emirdir: adil olun. Hüve akrabü li't-takvâ, o takvaya daha yakındır; akrab, kurb kökünden üstünlük kalıbıdır.",
+   "akilda": "Öfke bile adaleti bozmamalı: i‘dilû.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-onlu-sayi",
+   "tur": "dilbilgisi",
+   "ornek": "5:12",
+   "kelimeler": [
+    9,
+    10,
+    11
+   ],
+   "ad": "Sayılar: on birden on dokuza",
+   "ar": "اِثْنَا عَشَرَ",
+   "okunus": "isnâ aşer",
+   "anlam": "on iki",
+   "aciklama": "On bir ile on dokuz arasındaki sayılar iki kelimeyle söylenir: birler basamağı ve aşer (on). İsnâ aşer on iki, selâsete aşer on üç demektir. Bu sayılardan sonra gelen isim tekil ve sonu üstünlü olur: isnâ aşera nakîben, on iki temsilci. İsneyn ikil olduğu için durumuna göre isnâ ya da isnay biçimini alır; ayette isnay okunur.",
+   "akilda": "On bir – on dokuz: sayı + aşer, sonra tekil isim.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-subul-selam",
+   "tur": "deyim",
+   "ornek": "5:16",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "sübüle's-selâm",
+   "ar": "يَهْدِي بِهِ اللَّهُ مَنِ اتَّبَعَ رِضْوَانَهُ سُبُلَ السَّلَامِ",
+   "okunus": "yehdî bihi'llâhü meni'ttebe'a rıdvânehû sübüle's-selâm",
+   "anlam": "Allah onunla, rızasını gözetenleri esenlik yollarına iletir",
+   "aciklama": "Sübül, sebîl (yol) kelimesinin çoğuludur. Selâm, esenlik ve güvenlik demektir; selâmet ve teslim aynı köktendir. Rıdvân, rızâ kökünden bir masdardır: hoşnutluk. Bihî, onunla demektir; zamir önceki ayette geçen nur ve apaçık Kitab'ı gösterir.",
+   "akilda": "Sübüle's-selâm: esenlik yolları.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ard-mukaddese",
+   "tur": "deyim",
+   "ornek": "5:21",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "el-arda'l-mukaddese",
+   "ar": "يَا قَوْمِ ادْخُلُوا الْأَرْضَ الْمُقَدَّسَةَ الَّتِي كَتَبَ اللَّهُ لَكُمْ",
+   "okunus": "yâ kavmi'dhulu'l-arda'l-mukaddesete'lletî keteba'llâhu leküm",
+   "anlam": "Ey kavmim! Allah'ın size yazdığı kutsal yere girin",
+   "aciklama": "Yâ kavmi, 'ey kavmim' demektir: sondaki -î (benim) zamiri düşmüş, yerinde esre kalmıştır. Mukaddes, kuds (temizlik, kutsallık) kökünden II. kalıbın ism-i mef'ûlüdür: kutsal kılınmış. Kudüs ve takdis aynı köktendir. Keteba leküm, sizin için yazdı, takdir etti demektir.",
+   "akilda": "El-ardu'l-mukaddese: kutsal kılınmış yer.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-ma-bi",
+   "tur": "dilbilgisi",
+   "ornek": "5:28",
+   "kelimeler": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "ad": "Olumsuz haberde bi: mâ ene bi-bâsitin",
+   "ar": "مَا … بِـ",
+   "okunus": "mâ … bi",
+   "anlam": "asla … değilim",
+   "aciklama": "Mâ isim cümlesini olumsuz yaptığında haberin başına çoğu zaman bi harfi gelir ve olumsuzluğu pekiştirir. Mâ ene bi-bâsitin yediye ileyke li-aktuleke, seni öldürmek için sana elimi uzatacak değilim demektir. Bâsit, bast (açmak, uzatmak) kökünden fâil kalıbıdır. Aynı ayette le-in basatte, eğer uzatırsan anlamındadır.",
+   "akilda": "Mâ ene bi-…: asla … değilim.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-veyleta",
+   "tur": "deyim",
+   "ornek": "5:31",
+   "kelimeler": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "ad": "yâ veyletâ",
+   "ar": "يَا وَيْلَتَا أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا الْغُرَابِ فَأُوَارِيَ سَوْءَةَ أَخِي",
+   "okunus": "yâ veyletâ e-aceztü en ekûne misle hâze'l-ğurâb",
+   "anlam": "Bana yazıklar olsun! Bu karga kadar olmaktan aciz mi kaldım?",
+   "aciklama": "Veyl, yıkım ve yazıklar olsun anlamında bir sözdür; yâ veyletâ, pişmanlık ve hayıflanma ünlemidir: vay başıma gelenler. Acaztü, acz kökündendir: güçsüz kaldım; Türkçedeki aciz ve mucize buradan gelir. Ğurâb karga demektir. Fe-asbaha mine'n-nâdimîn, pişman olanlardan oldu.",
+   "akilda": "Yâ veyletâ: eyvah, yazıklar olsun bana.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-keennema",
+   "tur": "dilbilgisi",
+   "ornek": "5:32",
+   "kelimeler": [
+    18,
+    19,
+    20,
+    21
+   ],
+   "ad": "Benzetme: keenne, keennemâ",
+   "ar": "كَأَنَّ · كَأَنَّمَا",
+   "okunus": "keenne · keennemâ",
+   "anlam": "sanki, … gibi",
+   "aciklama": "Keenne, benzetme harfi ke ile inne'nin birleşmesidir: sanki. Sonuna mâ eklenince keennemâ olur ve ardından fiil cümlesi gelebilir. Fe-keennemâ katele'n-nâse cemî'â, sanki bütün insanları öldürmüş gibi demektir. Ayet, bir canı haksız yere öldürmenin bütün insanları öldürmek gibi olduğunu, bir canı kurtarmanın da bütün insanları kurtarmak gibi olduğunu bildirir.",
+   "akilda": "Keennemâ: sanki … gibi.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-yahzunke",
+   "tur": "deyim",
+   "ornek": "5:41",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "yâ eyyühe'r-resûlü lâ yahzunke",
+   "ar": "يَا أَيُّهَا الرَّسُولُ لَا يَحْزُنْكَ الَّذِينَ يُسَارِعُونَ فِي الْكُفْرِ",
+   "okunus": "yâ eyyühe'r-resûlü lâ yahzunke'llezîne yüsâri'ûne fi'l-küfr",
+   "anlam": "Ey Peygamber! İnkâra koşanlar seni üzmesin",
+   "aciklama": "Lâ yahzunke, üçüncü şahsa yönelik bir yasaktır: seni üzmesin. Fiilin öznesi sonra gelen ellezîne'dir; ke zamiri nesnedir. Yahzun, hüzn kökünden meczûm muzâridir. Yüsâri'ûne, sür'at kökünden III. kalıptır: yarışırcasına koşarlar. Türkçedeki hüzün ve sürat bu köklerdendir.",
+   "akilda": "Lâ yahzunke: seni üzmesin.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-zamir-fasl",
+   "tur": "dilbilgisi",
+   "ornek": "5:44",
+   "kelimeler": [
+    39,
+    40,
+    41
+   ],
+   "ad": "Ayırıcı zamir: ülâike hümü'l-kâfirûn",
+   "ar": "ضَمِيرُ الْفَصْل",
+   "okunus": "damîrü'l-fasl",
+   "anlam": "işte onlar … olanlardır",
+   "aciklama": "İsim cümlesinde mübteda ile el- takılı haber arasına gelen zamir, haberin sıfat sanılmasını önler ve hükmü vurgular; buna ayırıcı zamir denir. Fe-ülâike hümü'l-kâfirûn, işte onlar kâfirlerin ta kendileridir demektir. Aynı kalıp art arda gelen ayetlerde üç kez geçer: hümü'l-kâfirûn, hümü'z-zâlimûn, hümü'l-fâsikûn.",
+   "akilda": "Ülâike hüm …: işte onlar tam da …",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-ba-mukabele",
+   "tur": "dilbilgisi",
+   "ornek": "5:45",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "ad": "Karşılık bildiren bi: en-nefse bi'n-nefs",
+   "ar": "بَاءُ الْمُقَابَلَة",
+   "okunus": "bâü'l-mukâbele",
+   "anlam": "… karşılığında",
+   "aciklama": "Bi harfi bir şeyin karşılığını da bildirir: en-nefse bi'n-nefs, cana can; ve'l-ayne bi'l-ayn, göze göz. Satın almada da aynı bi kullanılır: iştera bihî, onun karşılığında aldı. Ayette organ adları geçer: ayn göz, enf burun, üzün kulak, sinn diş. Kısâs, karşılıklı ödeşme demektir.",
+   "akilda": "En-nefse bi'n-nefs: cana can; bi, karşılık bildirir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-sira-minhac",
+   "tur": "deyim",
+   "ornek": "5:48",
+   "kelimeler": [
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "ad": "li-küllin ce'alnâ minküm şir'aten ve minhâcâ",
+   "ar": "لِكُلٍّ جَعَلْنَا مِنْكُمْ شِرْعَةً وَمِنْهَاجًا",
+   "okunus": "li-küllin ce'alnâ minküm şir'aten ve minhâcâ",
+   "anlam": "Her biriniz için bir yol ve bir yöntem kıldık",
+   "aciklama": "Şir'a, suya inilen yol demektir; buradan açık ve belirlenmiş yol, din yolu anlamına geçmiştir. Şeriat aynı köktendir. Minhâc, nehc kökünden açık ve geniş yoldur; Türkçede yöntem anlamında kullanılır. Li-küllin, her biri için; tenvin, sonra gelecek 'biriniz' sözünün yerini tutar.",
+   "akilda": "Şir'a ve minhâc: yol ve yöntem.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-yuhibbuhum",
+   "tur": "deyim",
+   "ornek": "5:54",
+   "kelimeler": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "ad": "yühibbühüm ve yühibbûneh",
+   "ar": "بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُ أَذِلَّةٍ عَلَى الْمُؤْمِنِينَ أَعِزَّةٍ عَلَى الْكَافِرِينَ",
+   "okunus": "bi-kavmin yühibbühüm ve yühibbûnehû ezilletin ale'l-mü'minîne e'izzetin ale'l-kâfirîn",
+   "anlam": "Allah'ın sevdiği ve onların da O'nu sevdiği, müminlere alçak gönüllü, inkârcılara karşı güçlü bir topluluk",
+   "aciklama": "Yühibbühüm, onları sever; yühibbûnehû, O'nu severler: aynı fiil iki yönlü sevgiyi anlatır. Ezille, zelîl'in çoğuludur; alâ ile 'birine karşı yumuşak ve alçak gönüllü' anlamı verir. E'izze, azîz'in çoğuludur: güçlü, onurlu. Ayetin devamındaki levmete lâim, kınayanın kınaması demektir.",
+   "akilda": "Müminlere yumuşak, inkârcılara karşı güçlü.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-nadeytum",
+   "tur": "deyim",
+   "ornek": "5:58",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "ve izâ nâdeytüm ile's-salâh",
+   "ar": "وَإِذَا نَادَيْتُمْ إِلَى الصَّلَاةِ",
+   "okunus": "ve izâ nâdeytüm ile's-salâh",
+   "anlam": "Namaza çağırdığınızda",
+   "aciklama": "Nâdeytüm, nidâ kökünden III. kalıpta bir fiildir: seslendiniz, çağırdınız. İlâ ile birlikte 'bir şeye çağırmak' anlamı verir. Ayet, namaza çağrıyı alaya alanları anlatır. Türkçedeki nida ve münadi aynı köktendir.",
+   "akilda": "Nâdâ ile's-salâh: namaza çağırdı.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-yed-maglule",
+   "tur": "deyim",
+   "ornek": "5:64",
+   "kelimeler": [
+    11,
+    12,
+    13,
+    14
+   ],
+   "ad": "bel yedâhü mebsûtatân",
+   "ar": "بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنْفِقُ",
+   "okunus": "bel yedâhü mebsûtatâni yünfiku keyfe yeşâ'",
+   "anlam": "Hayır, O'nun iki eli de açıktır; nasıl dilerse verir",
+   "aciklama": "Arapçada eli bağlı (mağlûl) cimri, eli açık (mebsût) cömert için kullanılan deyimlerdir; Türkçede de eli sıkı, eli açık denir. Ayet, 'Allah'ın eli bağlıdır' sözünü reddeder. Yedâni iki el demektir; tamlamaya girince sonundaki ni düşer: yedâhü, onun iki eli. Mebsûtatâni de ikil ve dişildir.",
+   "akilda": "Eli açık: cömert; yedâhü mebsûtatân.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-teblig",
+   "tur": "deyim",
+   "ornek": "5:67",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "yâ eyyühe'r-resûlü belliğ",
+   "ar": "يَا أَيُّهَا الرَّسُولُ بَلِّغْ مَا أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ",
+   "okunus": "yâ eyyühe'r-resûlü belliğ mâ ünzile ileyke min rabbik",
+   "anlam": "Ey Peygamber! Rabbinden sana indirileni tebliğ et",
+   "aciklama": "Belliğ, bulûğ (ulaşmak) kökünden II. kalıpta emirdir: ulaştır, tebliğ et. Ayetin devamındaki fe-mâ bellağte risâletehû, O'nun elçiliğini yapmamış olursun demektir. Risâlet, elçilik ve gönderilen mesajdır. Türkçedeki tebliğ, beliğ, mübalağa ve risale bu köklerdendir.",
+   "akilda": "Belliğ: ulaştır, tebliğ et.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-ikil-fiil",
+   "tur": "dilbilgisi",
+   "ornek": "5:75",
+   "kelimeler": [
+    14,
+    15,
+    16
+   ],
+   "ad": "İkil fiil: kânâ ye'külâni",
+   "ar": "يَفْعَلَانِ",
+   "okunus": "yef'alâni",
+   "anlam": "ikisi … yapar",
+   "aciklama": "Muzâri fiil ikil özneyle -âni ekini alır: ye'külâni, ikisi yer. Mâzî fiil -â alır: kânâ, ikisi idi. Kânâ ye'külâni't-ta'âm, ikisi de yemek yerlerdi demektir; kâne ile muzâri birlikte geçmişte süregelen bir alışkanlığı anlatır. Ayet, Mesih'in de annesinin de yemek yediğini bildirir.",
+   "akilda": "Kânâ ye'külâni: ikisi de yerlerdi.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-tefidu",
+   "tur": "deyim",
+   "ornek": "5:83",
+   "kelimeler": [
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "ad": "a'yünühüm tefîdu mine'd-dem'",
+   "ar": "تَرَىٰ أَعْيُنَهُمْ تَفِيضُ مِنَ الدَّمْعِ",
+   "okunus": "terâ a'yünehüm tefîdu mine'd-dem'",
+   "anlam": "gözlerinin yaşla dolup taştığını görürsün",
+   "aciklama": "Tefîdu, feyz kökünden bir fiildir: dolup taşmak. A'yün, ayn (göz) kelimesinin çoğuludur. Dem', gözyaşıdır. Mine'd-dem', gözyaşından demektir; gözler yaşla dolup taşar. Türkçedeki feyiz ve feyezan aynı köktendir.",
+   "akilda": "Tefîdu: dolup taşar; feyiz ve feyezan.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-lagv",
+   "tur": "deyim",
+   "ornek": "5:89",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "ad": "bi'l-lağvi fî eymâniküm",
+   "ar": "لَا يُؤَاخِذُكُمُ اللَّهُ بِاللَّغْوِ فِي أَيْمَانِكُمْ وَلَٰكِنْ يُؤَاخِذُكُمْ بِمَا عَقَّدْتُمُ الْأَيْمَانَ",
+   "okunus": "lâ yüâhızükümu'llâhu bi'l-lağvi fî eymâniküm ve lâkin yüâhızüküm bimâ akkadtümu'l-eymân",
+   "anlam": "Allah sizi rasgele yeminlerinizden dolayı değil, bile bile ettiğiniz yeminlerden ötürü sorumlu tutar",
+   "aciklama": "Lağv, boş ve kastedilmeden söylenmiş sözdür; meal burada 'rasgele yeminler' der. Türkçedeki lağvetmek (boşa çıkarmak) aynı köktendir. Karşısında akkadtüm gelir: akd kökünden, sıkıca bağlamak; yani bile bile bağlanan yemin. Yüâhızu, birini bir şeyden dolayı sorumlu tutmak, hesaba çekmek demektir. Ayetin devamındaki keffâret, kefr (örtmek) kökündendir: günahı örten.",
+   "akilda": "Lağv: rasgele söz; akd: bile bile bağlanan yemin.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-rics",
+   "tur": "deyim",
+   "ornek": "5:90",
+   "kelimeler": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "ad": "ricsün min ameli'ş-şeytân",
+   "ar": "رِجْسٌ مِنْ عَمَلِ الشَّيْطَانِ فَاجْتَنِبُوهُ",
+   "okunus": "ricsün min ameli'ş-şeytâni fe'ctenibûh",
+   "anlam": "şeytan işi pisliklerdir, bunlardan kaçının",
+   "aciklama": "Rics, pislik ve iğrenç şey demektir. Min ameli'ş-şeytân, şeytanın işinden olan anlamına gelir. Fe'ctenibûh, cenb (yan) kökünün VIII. kalıbından emirdir: bir şeyin yanından uzak durun, ondan kaçının. Türkçedeki ictinap (kaçınma) bu kalıptandır. Sondaki hû (onu) zamiri, şeytan işi denilen bu pisliği gösterir.",
+   "akilda": "Rics: pislik; ictinâb: uzak durmak, kaçınmak.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-muntehun",
+   "tur": "deyim",
+   "ornek": "5:91",
+   "kelimeler": [
+    18,
+    19,
+    20
+   ],
+   "ad": "fe-hel entüm müntehûn",
+   "ar": "فَهَلْ أَنْتُمْ مُنْتَهُونَ",
+   "okunus": "fe-hel entüm müntehûn",
+   "anlam": "Artık bunlardan vazgeçersiniz değil mi?",
+   "aciklama": "Müntehûn, nehy (yasak) kökünün VIII. kalıbı intihâdan ism-i fâil çoğuludur: duran, vazgeçen. Türkçedeki nihayet ve münteha da aynı köktendir: bir şeyin sona erdiği yer. Hel ile kurulan soru burada bilgi istemez; içki ve kumarın zararları sayıldıktan sonra güçlü bir çağrı olur: artık vazgeçin.",
+   "akilda": "Müntehûn: vazgeçenler; soru burada çağrıdır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-tesalu",
+   "tur": "deyim",
+   "ornek": "5:101",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "ad": "lâ tes'elû an eşyâ'",
+   "ar": "لَا تَسْأَلُوا عَنْ أَشْيَاءَ إِنْ تُبْدَ لَكُمْ تَسُؤْكُمْ",
+   "okunus": "lâ tes'elû an eşyâe in tübde leküm tesü'küm",
+   "anlam": "Size açıklanınca hoşunuza gitmeyecek şeyleri sormayın",
+   "aciklama": "Lâ tes'elû, sual (sormak) kökünden yasak fiilidir: sormayın. Eşyâ', şey'in çoğuludur; tenvin almaz, bu yüzden an'dan sonra da fethayla okunur. In tübde leküm tesü'küm bir şart cümlesidir: size açıklanırsa sizi üzer. Tübde (açıklanır) ve tesü' (üzer) cezm aldığı için sonları kısalmıştır.",
+   "akilda": "Lâ tes'elû: sormayın; in tübde... tesü'küm: açıklanırsa üzer.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-hasbuna-vecedna",
+   "tur": "deyim",
+   "ornek": "5:104",
+   "kelimeler": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "ad": "hasbünâ mâ vecednâ aleyhi âbâenâ",
+   "ar": "قَالُوا حَسْبُنَا مَا وَجَدْنَا عَلَيْهِ آبَاءَنَا أَوَلَوْ كَانَ آبَاؤُهُمْ",
+   "okunus": "kâlû hasbünâ mâ vecednâ aleyhi âbâenâ e-ve-lev kâne âbâühüm",
+   "anlam": "Atalarımızı üzerinde bulduğumuz yol bize yeter, derler; ya ataları... idiyseler?",
+   "aciklama": "Hasb, yeterlik demektir; hasbünâ, bize yeter (hasbuna'llâh ifadesinde de geçer). Mâ vecednâ aleyhi âbâenâ, babalarımızı üzerinde bulduğumuz şey. E-ve-lev, soru eki e, ve ve lev'den oluşur: ataları bir şey bilmeyen kimseler olsalar da mı? Bu soru kınama bildirir: körü körüne atalara uymanın yanlışlığını gösterir.",
+   "akilda": "Hasbünâ: bize yeter; e-ve-lev: ...olsa da mı?",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-ism-fiil",
+   "tur": "gramer",
+   "ornek": "5:105",
+   "kelimeler": [
+    4,
+    5
+   ],
+   "ad": "aleyküm enfüseküm",
+   "ar": "عَلَيْكُمْ أَنْفُسَكُمْ",
+   "okunus": "aleyküm enfüseküm",
+   "anlam": "Siz kendinize bakın",
+   "aciklama": "Aleyküm normalde 'sizin üzerinize' demektir. Burada ise ism-i fiil olur: emir anlamı taşır ve 'sıkı tutun, gözetin' demektir. Bu yüzden ardından gelen enfüseküm (kendinizi) mef'ûl olarak fethayla okunur. Meal bunu 'siz kendinize bakın' diye verir.",
+   "akilda": "Aleyküm + mef'ûl: ...yi sıkı tutun, gözetin.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ruhul-kudus",
+   "tur": "deyim",
+   "ornek": "5:110",
+   "kelimeler": [
+    13,
+    14,
+    15
+   ],
+   "ad": "eyyedtüke bi-rûhi'l-kudüs",
+   "ar": "أَيَّدْتُكَ بِرُوحِ الْقُدُسِ",
+   "okunus": "iz eyyedtüke bi-rûhi'l-kudüs",
+   "anlam": "Seni Ruhul Kudüs ile desteklemiştim",
+   "aciklama": "Eyyede, II. kalıptan bir fiildir: güçlendirmek, desteklemek. Türkçedeki teyit (doğrulama, destekleme) bu fiilin mastarıdır. Kudüs, k-d-s kökünden temizlik ve kutsallık demektir; takdis ve mukaddes de bu köktendir. Rûhu'l-kudüs bir isim tamlamasıdır: kutsallık ruhu.",
+   "akilda": "Eyyede: destekledi (teyit); kudüs: kutsallık.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-radiyallahu",
+   "tur": "deyim",
+   "ornek": "5:119",
+   "kelimeler": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "ad": "radıya'llâhu anhüm ve radû anh",
+   "ar": "رَضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ",
+   "okunus": "radıya'llâhu anhüm ve radû anh",
+   "anlam": "Allah onlardan hoşnut olmuştur, onlar da O'ndan hoşnut olmuşlardır",
+   "aciklama": "Radıye, rızâ kökünden bir fiildir: hoşnut olmak, razı olmak. An ile birlikte birinden razı olmak anlamına gelir. Aynı fiil iki yönde kullanılır: önce Allah'ın onlardan, sonra onların Allah'tan razı olması. Türkçedeki rıza, razı ve 'radıyallahu anh' duası bu köktendir.",
+   "akilda": "Radıye an: ...den razı oldu.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-yedilun",
+   "tur": "deyim",
+   "ornek": "6:1",
+   "kelimeler": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "ad": "sümme'llezîne keferû bi-rabbihim ya'dilûn",
+   "ar": "ثُمَّ الَّذِينَ كَفَرُوا بِرَبِّهِمْ يَعْدِلُونَ",
+   "okunus": "sümme'llezîne keferû bi-rabbihim ya'dilûn",
+   "anlam": "Öyle iken, inkâr edenler Rablerine başkalarını eşit tutuyorlar",
+   "aciklama": "Ya'dilûn, adl kökünden bir fiildir. Adl burada denklik demektir; bi ile kullanılınca bir şeyi başka şeye denk tutmak anlamına gelir. Sümme burada zaman sırası bildirmez; şaşırtıcı bir karşıtlık bildirir: gökleri ve yeri yaratan O iken onlar yine de O'na denk tutarlar. Türkçedeki adil ve muadil (denk) de bu köktendir.",
+   "akilda": "Ya'dilûn bi: ...e denk tutarlar; sümme: öyle iken.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ketebe-nefsihi",
+   "tur": "deyim",
+   "ornek": "6:12",
+   "kelimeler": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "ad": "ketebe alâ nefsihi'r-rahme",
+   "ar": "كَتَبَ عَلَىٰ نَفْسِهِ الرَّحْمَةَ",
+   "okunus": "ketebe alâ nefsihi'r-rahme",
+   "anlam": "rahmet etmeyi kendi üzerine almıştır",
+   "aciklama": "Ketebe, yazmak demektir; alâ ile birlikte bir şeyi birinin üzerine yazmak, yani onu üstlenmek anlamına gelir. Nefsihî, kendi nefsi. Böylece Allah rahmeti kendi üzerine yazmış, kendisine gerekli kılmıştır. Aynı ifade 6:54'te de geçer. Kutibe aleyküm (size yazıldı, farz kılındı) ifadesi de aynı kullanımdandır.",
+   "akilda": "Ketebe alâ nefsihi: kendi üzerine aldı.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-lev-tera",
+   "tur": "deyim",
+   "ornek": "6:27",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "ve lev terâ iz vukıfû ale'n-nâr",
+   "ar": "وَلَوْ تَرَىٰ إِذْ وُقِفُوا عَلَى النَّارِ فَقَالُوا يَا لَيْتَنَا نُرَدُّ",
+   "okunus": "ve lev terâ iz vukıfû ale'n-nâri fe-kâlû yâ leytenâ nüraddü",
+   "anlam": "ateşin kenarına getirilip durdurulduklarında, \"keşke geri döndürülseydik\" dediklerini bir görsen",
+   "aciklama": "Lev terâ, bir görsen! demektir. Lev'in cevabı söylenmez; görülecek manzaranın dehşeti dinleyenin hayaline bırakılır. Vukıfû, durdurulmak anlamında edilgen bir fiildir. Yâ leytenâ, ah keşke biz; leyte gerçekleşmeyecek bir dileği bildirir. Nüraddü, geri döndürülmek anlamında edilgen bir fiildir.",
+   "akilda": "Lev terâ: bir görsen! Leyte: keşke.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-lehv-laib",
+   "tur": "deyim",
+   "ornek": "6:32",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "ve me'l-hayâtü'd-dünyâ illâ la'ibün ve lehv",
+   "ar": "وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ",
+   "okunus": "ve me'l-hayâtü'd-dünyâ illâ la'ibün ve lehv",
+   "anlam": "Dünya hayatı sadece oyun ve oyalanmadır",
+   "aciklama": "Mâ ... illâ kalıbı ile hüküm daraltılır: dünya hayatı ancak oyun ve oyalanmadır. La'ib, oyundur: bir sonuç gözetmeden yapılan şey. Lehv, insanı önemli olandan alıkoyan oyalanmadır; Türkçedeki lehviyat (eğlenceler) bu köktendir. Ayetin devamında ahiret yurdu sakınanlar için daha iyi diye gösterilir.",
+   "akilda": "La'ib: oyun; lehv: oyalanma.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ma-ferratna",
+   "tur": "deyim",
+   "ornek": "6:38",
+   "kelimeler": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "ad": "mâ ferratnâ fi'l-kitâbi min şey'",
+   "ar": "مَا فَرَّطْنَا فِي الْكِتَابِ مِنْ شَيْءٍ",
+   "okunus": "mâ ferratnâ fi'l-kitâbi min şey'",
+   "anlam": "Kitap'ta Biz hiçbir şeyi eksik bırakmadık",
+   "aciklama": "Ferratnâ, f-r-t kökünün II. kalıbından bir fiildir: ihmal etmek, eksik bırakmak. Türkçedeki 'ifrat ve tefrit' (aşırılık ve eksiklik) sözünde tefrit bu fiilin mastarıdır. Olumsuz cümlede min şey', hiçbir şey anlamına gelir; buradaki min olumsuzluğu genelleştirir ve kuvvetlendirir.",
+   "akilda": "Tefrit: eksik bırakmak; mâ ... min şey': hiçbir şey.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-eraeytekum",
+   "tur": "gramer",
+   "ornek": "6:40",
+   "kelimeler": [
+    1,
+    2
+   ],
+   "ad": "kul e-ra'eyteküm",
+   "ar": "قُلْ أَرَأَيْتَكُمْ",
+   "okunus": "kul e-ra'eyteküm",
+   "anlam": "De ki: Söyleyin bakalım (bana bildirin)",
+   "aciklama": "E-ra'eyteküm, harfiyen 'gördünüz mü?' demektir: e soru eki, ra'ey görmek fiili. Kur'an'da kalıplaşmış olarak 'bana haber verin, söyleyin bakalım' anlamında kullanılır; meal de bunu 'bana bildirin' diye verir. Buradaki -küm, kime seslenildiğini gösteren bir hitap ekidir. Aynı kalıp 6:46'da e-ra'eytüm, 6:47'de yine e-ra'eyteküm biçiminde geçer.",
+   "akilda": "E-ra'eyteküm: söyleyin bakalım.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ama-basir",
+   "tur": "deyim",
+   "ornek": "6:50",
+   "kelimeler": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "ad": "hel yestevi'l-a'mâ ve'l-basîr",
+   "ar": "قُلْ هَلْ يَسْتَوِي الْأَعْمَىٰ وَالْبَصِيرُ أَفَلَا تَتَفَكَّرُونَ",
+   "okunus": "kul hel yestevi'l-a'mâ ve'l-basîru e-fe-lâ tetefekkerûn",
+   "anlam": "De ki: Görenle görmeyen bir midir? Düşünmüyor musunuz?",
+   "aciklama": "Yestevî, sevâ (eşitlik) kökünün VIII. kalıbıdır: eşit olmak. Hel ile kurulan soru 'hayır, bir değildir' cevabını bekler. A'mâ kör, basîr görendir. E-fe-lâ tetefekkerûn, düşünmüyor musunuz? demektir; tetefekkerûn, fikr kökünün V. kalıbıdır. Türkçedeki tefekkür bu kalıbın mastarıdır.",
+   "akilda": "Yestevî: eşit olur; tefekkür: düşünmek.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-selamun-aleykum",
+   "tur": "deyim",
+   "ornek": "6:54",
+   "kelimeler": [
+    6,
+    7,
+    8
+   ],
+   "ad": "fe-kul selâmün aleyküm",
+   "ar": "فَقُلْ سَلَامٌ عَلَيْكُمْ",
+   "okunus": "fe-kul selâmün aleyküm",
+   "anlam": "\"Size selam olsun\" de",
+   "aciklama": "Selâmün aleyküm, size selam (esenlik) olsun demektir. Selâm burada belirsiz isimdir, ama dua bildirdiği için cümlenin başında yer alabilir. Bu söz Türkçede de selamlaşma olarak bilinir. Ayet, ayetlere inananlar Peygamber'e geldiğinde onları bu sözle karşılamasını emreder.",
+   "akilda": "Selâmün aleyküm: size selam olsun.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mefatih",
+   "tur": "deyim",
+   "ornek": "6:59",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "ve indehû mefâtihu'l-ğayb",
+   "ar": "وَعِنْدَهُ مَفَاتِحُ الْغَيْبِ لَا يَعْلَمُهَا إِلَّا هُوَ",
+   "okunus": "ve indehû mefâtihu'l-ğaybi lâ ya'lemuhâ illâ hû",
+   "anlam": "Gaybın anahtarları O'nun katındadır, onları ancak O bilir",
+   "aciklama": "Mefâtih, anahtar demek olan mifteh kelimesinin çoğuludur; miftâh da aynı anlamdadır. İkisi de fetih (açmak) kökünden alet adı yapan kalıplardır: açacak, anahtar. Türkçedeki fetih ve miftah bu köktendir. Lâ ya'lemuhâ illâ hû bir daraltma (kasr) cümlesidir: onları O'ndan başkası bilmez.",
+   "akilda": "Mefâtih: anahtarlar (fetih: açmak).",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-teveffi",
+   "tur": "deyim",
+   "ornek": "6:60",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "yeteveffâküm bi'l-leyl",
+   "ar": "وَهُوَ الَّذِي يَتَوَفَّاكُمْ بِاللَّيْلِ وَيَعْلَمُ مَا جَرَحْتُمْ بِالنَّهَارِ",
+   "okunus": "ve hüve'llezî yeteveffâküm bi'l-leyli ve ya'lemu mâ cerahtüm bi'n-nehâr",
+   "anlam": "Geceleyin sizi ölü gibi uyutan, gündüzün yaptıklarınızı bilen O'dur",
+   "aciklama": "Yeteveffâ, vefâ kökünün V. kalıbıdır: bir şeyi tam olarak almak. Ölüm için kullanılan vefat bu köktendir. Ayet uykuyu da bir teveffî olarak anar; meal 'ölü gibi uyutan' der. Cerahtüm, cerh kökündendir ve burada işlemek, kazanmak demektir; 5:4'te avcı hayvanlar için geçen cevârih adı da bu köktendir.",
+   "akilda": "Teveffî: tam olarak almak; uyku da bir teveffîdir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-hayran",
+   "tur": "deyim",
+   "ornek": "6:71",
+   "kelimeler": [
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "ad": "ke'llezi'stehvethü'ş-şeyâtînu fi'l-ardı hayrân",
+   "ar": "كَالَّذِي اسْتَهْوَتْهُ الشَّيَاطِينُ فِي الْأَرْضِ حَيْرَانَ",
+   "okunus": "ke'llezi'stehvethü'ş-şeyâtînu fi'l-ardı hayrân",
+   "anlam": "şeytanların yeryüzünde şaşırttıkları bir kimse gibi",
+   "aciklama": "İstehvethu, heva (arzu, boşluk) kökünün X. kalıbıdır: birini ayartıp sürüklemek. Hayrân, hayret kökünden şaşkın kalmış demektir. Tenvin almaz, bu yüzden hayrâne diye fethayla okunur. Türkçedeki hayret ve hayran bu köktendir; hayran Türkçede 'şaşkın' anlamına da gelir. Ayet, doğru yola çağrıldığı halde yolunu şaşıran kimseyi örnek verir.",
+   "akilda": "Hayrân: şaşkın; istehvâ: ayartıp sürükledi.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-cenne-leyl",
+   "tur": "deyim",
+   "ornek": "6:76",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "ad": "fe-lemmâ cenne aleyhi'l-leyl",
+   "ar": "فَلَمَّا جَنَّ عَلَيْهِ اللَّيْلُ رَأَىٰ كَوْكَبًا قَالَ هَٰذَا رَبِّي فَلَمَّا أَفَلَ قَالَ لَا أُحِبُّ الْآفِلِينَ",
+   "okunus": "fe-lemmâ cenne aleyhi'l-leylu raâ kevkebâ ... lâ uhibbu'l-âfilîn",
+   "anlam": "Gece basınca bir yıldız gördü... \"batanları sevmem\" dedi",
+   "aciklama": "Cenne, c-n-n kökünden bir fiildir: örtmek; alâ ile birlikte gecenin birinin üstünü örtmesi, yani gece basması anlamına gelir. Cin (gözden gizli varlık), cennet (ağaçlarla örtülü bahçe), cenin ve mecnun bu köktendir. Âfilîn, ufûl (batmak) kökünden ism-i fâildir: batanlar. Fe-lemmâ ile kurulan cümleler olayları sırayla anlatır.",
+   "akilda": "Cenne: örttü (cin, cennet, cenin); ufûl: batmak.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-veccehtu",
+   "tur": "deyim",
+   "ornek": "6:79",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "innî veccehtü vechiye",
+   "ar": "إِنِّي وَجَّهْتُ وَجْهِيَ لِلَّذِي فَطَرَ السَّمَاوَاتِ وَالْأَرْضَ حَنِيفًا",
+   "okunus": "innî veccehtü vechiye lillezî fatara's-semâvâti ve'l-arda hanîfâ",
+   "anlam": "Doğrusu ben yüzümü, gökleri ve yeri yaratana, doğruya yönelerek çevirdim",
+   "aciklama": "Veccehtü ve vechiye aynı köktendir: v-c-h, yüz. Veccehe, II. kalıptan bir fiildir: yöneltmek, çevirmek. Türkçedeki teveccüh (yönelme) de bu köktendir. Fatara, yoktan yaratmak demektir; fıtrat bu köktendir. Hanîf, meale göre doğruya yönelen demektir; burada hal olarak gelir.",
+   "akilda": "Veccehtü vechiye: yüzümü çevirdim; fatara: yoktan yarattı.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-lebs-zulm",
+   "tur": "deyim",
+   "ornek": "6:82",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "ve lem yelbisû îmânehüm bi-zulm",
+   "ar": "الَّذِينَ آمَنُوا وَلَمْ يَلْبِسُوا إِيمَانَهُمْ بِظُلْمٍ أُولَٰئِكَ لَهُمُ الْأَمْنُ",
+   "okunus": "ellezîne âmenû ve lem yelbisû îmânehüm bi-zulmin ülâike lehümu'l-emn",
+   "anlam": "İşte güven, inanıp imanlarına haksızlık karıştırmayanlaradır",
+   "aciklama": "Yelbisû, lebs kökünden bir fiildir: bir şeyi başka şeyle karıştırmak, örtmek. Türkçedeki iltibas (karışma) bu köktendir. Lem ile olumsuz geçmiş olur: karıştırmadılar. Emn, güven demektir; emniyet ve emin bu köktendir. Ülâike lehümu'l-emn cümlesinde lehüm (onlar için) öne alınarak vurgulanmıştır.",
+   "akilda": "Lebs: karıştırmak (iltibas); emn: güven.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-iktida",
+   "tur": "deyim",
+   "ornek": "6:90",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "fe-bi-hüdâhümu'ktedih",
+   "ar": "أُولَٰئِكَ الَّذِينَ هَدَى اللَّهُ فَبِهُدَاهُمُ اقْتَدِهْ",
+   "okunus": "ülâike'llezîne hede'llâhu fe-bi-hüdâhümu'ktedih",
+   "anlam": "İşte bunlar Allah'ın doğru yola eriştirdikleridir, onların yoluna uy",
+   "aciklama": "İktedih, k-d-v kökünün VIII. kalıbı iktidâdan emirdir: uy, örnek al. Türkçedeki iktida (birine uymak) bu kalıptandır. Bi-hüdâhüm (onların yoluna) fiilden önce gelmiştir; bu öne alma vurgu bildirir. Sondaki hâ zamir değildir: duraklarken okunuşu korumak için eklenen sekte hâsıdır.",
+   "akilda": "İktidâ: uymak; sondaki hâ duraklama içindir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-hakka-kadrih",
+   "tur": "deyim",
+   "ornek": "6:91",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "ad": "ve mâ kaderu'llâhe hakka kadrih",
+   "ar": "وَمَا قَدَرُوا اللَّهَ حَقَّ قَدْرِهِ",
+   "okunus": "ve mâ kaderu'llâhe hakka kadrih",
+   "anlam": "Allah'ı gereği gibi değerlendiremediler",
+   "aciklama": "Kaderû, kadr kökünden bir fiildir: bir şeyin değerini ölçmek, takdir etmek. Hakka kadrih, değerinin hakkıyla, yani gereği gibi demektir. Bu söz, fiilin mastarı olan kadr ile kurulmuş ve mef'ûl-i mutlak yerinde kullanılmıştır. Türkçedeki kadir kıymet ve 'kadrini bilmek' sözleri bu köktendir.",
+   "akilda": "Hakka kadrih: gereği gibi (değerine yakışır şekilde).",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-falik",
+   "tur": "deyim",
+   "ornek": "6:95",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "ad": "fâliku'l-habbi ve'n-nevâ",
+   "ar": "إِنَّ اللَّهَ فَالِقُ الْحَبِّ وَالنَّوَىٰ",
+   "okunus": "inna'llâhe fâliku'l-habbi ve'n-nevâ",
+   "anlam": "Taneyi ve çekirdeği yaran şüphesiz Allah'tır",
+   "aciklama": "Fâlik, falk (yarmak) kökünden ism-i fâildir: yaran. Habb tane, nevâ çekirdektir. Bir sonraki ayette fâliku'l-isbâh, sabahı yaran olarak gelir. Felak suresinin adı da bu köktendir: sabahın aydınlığı karanlığı yarar.",
+   "akilda": "Fâlik: yaran; habb: tane, nevâ: çekirdek.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-idrak",
+   "tur": "deyim",
+   "ornek": "6:103",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "lâ tüdrikühü'l-ebsâr",
+   "ar": "لَا تُدْرِكُهُ الْأَبْصَارُ وَهُوَ يُدْرِكُ الْأَبْصَارَ",
+   "okunus": "lâ tüdrikühu'l-ebsâru ve hüve yüdriku'l-ebsâr",
+   "anlam": "Gözler O'nu görmez, O bütün gözleri görür",
+   "aciklama": "Tüdrik ve yüdrik, d-r-k kökünün IV. kalıbı idrâktandır: bir şeye ulaşmak, yetişmek. Türkçedeki idrak bu kalıbın mastarıdır. Meal bu fiili iki yerde de 'görmek' diye verir. Ebsâr, basarın (göz, görme) çoğuludur. Aynı fiilin önce olumsuz, sonra olumlu kullanılması iki cümle arasındaki karşıtlığı güçlendirir.",
+   "akilda": "İdrâk: ulaşmak, yetişmek; ebsâr: gözler.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-tesubbu",
+   "tur": "deyim",
+   "ornek": "6:108",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "ad": "ve lâ tesübbu'llezîne yed'ûne",
+   "ar": "وَلَا تَسُبُّوا الَّذِينَ يَدْعُونَ مِنْ دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْوًا بِغَيْرِ عِلْمٍ",
+   "okunus": "ve lâ tesübbu'llezîne yed'ûne min dûni'llâhi fe-yesübbu'llâhe adven bi-ğayri ilm",
+   "anlam": "Allah'tan başka yalvardıklarına sövmeyin ki onlar da cahillikle ileri giderek Allah'a sövmesinler",
+   "aciklama": "Lâ tesübbû, sebb (sövmek) kökünden yasak fiilidir: sövmeyin. Fe-yesübbû, yasağın sonucunu bildirir: yoksa onlar da söverler. Bu fe'den sonra fiil nasb alır; bu yüzden sondaki nun düşmüştür (yesübbûne değil yesübbû). Adven, haddi aşarak demektir. Bi-ğayri ilm, bilmeden ve cahillikle anlamına gelir.",
+   "akilda": "Lâ tesübbû: sövmeyin; fe-yesübbû: yoksa onlar da söver.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-zuhruf",
+   "tur": "deyim",
+   "ornek": "6:112",
+   "kelimeler": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "ad": "zuhrufe'l-kavli ğurûrâ",
+   "ar": "يُوحِي بَعْضُهُمْ إِلَىٰ بَعْضٍ زُخْرُفَ الْقَوْلِ غُرُورًا",
+   "okunus": "yûhî ba'duhum ilâ ba'din zuhrufe'l-kavli ğurûrâ",
+   "anlam": "aldatmak için birbirlerine cazip sözler fısıldarlar",
+   "aciklama": "Zuhruf, yaldız ve süs demektir; zuhrufe'l-kavl, süslü ve yaldızlı söz anlamına gelir. Zuhruf suresinin adı da bu kelimedir. Ğurûr, aldatma ve aldanmadır. Türkçedeki gurur kelimesi bu köktendir ama Türkçede kibir anlamı kazanmıştır. Yûhî, vahy kökünden bir fiildir; burada gizlice bildirmek, fısıldamak anlamındadır.",
+   "akilda": "Zuhruf: yaldız, süs; ğurûr: aldatma.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-meyt-ahyeyna",
+   "tur": "deyim",
+   "ornek": "6:122",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "e-ve men kâne meyten fe-ahyeynâh",
+   "ar": "أَوَمَنْ كَانَ مَيْتًا فَأَحْيَيْنَاهُ وَجَعَلْنَا لَهُ نُورًا",
+   "okunus": "e-ve men kâne meyten fe-ahyeynâhu ve ce'alnâ lehû nûrâ",
+   "anlam": "Ölü iken dirilttiğimiz ve kendisine bir nur verdiğimiz kimse...",
+   "aciklama": "Meyt ölü, ahyeynâ dirilttik demektir; ihyâ (diriltme) bu fiilin mastarıdır. Meal burada diriltilenin kalp olduğunu söyler: ölü ve diri sözleri iman ile inkârın benzetmesidir. E-ve men, soru eki e ile ve ve men'den oluşur: ...kimse gibi midir? Ayetin devamında karanlıklarda kalıp çıkamayan kimseyle karşılaştırılır.",
+   "akilda": "Meyt: ölü; ihyâ: diriltmek.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-serh-sadr",
+   "tur": "deyim",
+   "ornek": "6:125",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "yeşrah sadrahû li'l-islâm",
+   "ar": "فَمَنْ يُرِدِ اللَّهُ أَنْ يَهْدِيَهُ يَشْرَحْ صَدْرَهُ لِلْإِسْلَامِ",
+   "okunus": "fe-men yuridi'llâhu en yehdiyehû yeşrah sadrahû li'l-islâm",
+   "anlam": "Allah kimi doğru yola koymak isterse onun kalbini İslam'a açar",
+   "aciklama": "Şerh, açmak ve genişletmek demektir; sadr göğüs ve gönüldür. Şerh-i sadr, gönlün bir şeye açılmasıdır. Türkçedeki inşirah (ferahlama) ve şerh (açıklama) bu köktendir; İnşirah suresi de bu fiille başlar. Ayetin devamında saptırılanın göğsü dayyık ve harac, yani dar ve sıkıntılı diye anlatılır.",
+   "akilda": "Şerh-i sadr: gönlün açılması; dayyık: dar.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mekanet",
+   "tur": "deyim",
+   "ornek": "6:135",
+   "kelimeler": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "i'melû alâ mekânetiküm",
+   "ar": "يَا قَوْمِ اعْمَلُوا عَلَىٰ مَكَانَتِكُمْ إِنِّي عَامِلٌ",
+   "okunus": "yâ kavmi'melû alâ mekânetiküm innî âmil",
+   "anlam": "Ey milletim! Durumunuzun gerektirdiğini yapın, doğrusu ben de yapacağım",
+   "aciklama": "İ'melû, amel kökünden emirdir: yapın. Alâ mekânetiküm, durumunuza göre, gücünüz yettiğince demektir. Buradaki emir gerçek bir istek değildir; uyarı bildirir. Ayetin devamı bunu açıklar: sonucun kimin için hayırlı olacağını bileceksiniz. Âmil, aynı kökten ism-i fâildir: yapan, yapacak olan.",
+   "akilda": "İ'melû alâ mekânetiküm: elinizden geleni yapın (uyarı).",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-israf",
+   "tur": "deyim",
+   "ornek": "6:141",
+   "kelimeler": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "ad": "ve lâ tüsrifû",
+   "ar": "وَلَا تُسْرِفُوا إِنَّهُ لَا يُحِبُّ الْمُسْرِفِينَ",
+   "okunus": "ve lâ tüsrifû innehû lâ yuhıbbu'l-müsrifîn",
+   "anlam": "israf etmeyin, çünkü Allah müsrifleri sevmez",
+   "aciklama": "Tüsrifû, s-r-f kökünün IV. kalıbı isrâftandır: ölçüyü aşmak, savurganlık etmek. Lâ ile yasak olur: israf etmeyin. Müsrif aynı kalıbın ism-i fâilidir: israf eden. Türkçedeki israf ve müsrif bu kelimelerin kendisidir. Aynı emir 7:31'de de geçer.",
+   "akilda": "İsrâf: ölçüyü aşmak; müsrif: israf eden.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-nebbiuni",
+   "tur": "deyim",
+   "ornek": "6:143",
+   "kelimeler": [
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "ad": "nebbiûnî bi-ilm",
+   "ar": "نَبِّئُونِي بِعِلْمٍ إِنْ كُنْتُمْ صَادِقِينَ",
+   "okunus": "nebbiûnî bi-ilmin in küntüm sâdıkîn",
+   "anlam": "Doğru sözlü iseniz bana bilgiye dayanarak cevap verin",
+   "aciklama": "Nebbiû, nebe' (haber) kökünün II. kalıbından emirdir: haber verin, bildirin. Sondaki -nî, bana demektir. Bi-ilm, bilgiyle, yani bir dayanağa göre anlamına gelir. In küntüm sâdıkîn, doğru söylüyorsanız demektir. Ayet, bir şeyi haram saymanın bilgiye dayanması gerektiğini sorar.",
+   "akilda": "Nebbiûnî: bana haber verin; bi-ilm: bilgiyle.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-hucce-baliga",
+   "tur": "deyim",
+   "ornek": "6:149",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "fe-lillâhi'l-huccetu'l-bâliğa",
+   "ar": "قُلْ فَلِلَّهِ الْحُجَّةُ الْبَالِغَةُ",
+   "okunus": "kul fe-lillâhi'l-huccetu'l-bâliğa",
+   "anlam": "De ki: Üstün delil Allah'ın delilidir",
+   "aciklama": "Hüccet, delil ve kanıttır; Türkçede de hüccet olarak kullanılır. Bâliğa, belâğ kökünden ism-i fâildir: hedefine ulaşan, yani kesin ve üstün. Lillâhi öne alınmıştır; bu öne alma, üstün delilin yalnız Allah'a ait olduğunu vurgular.",
+   "akilda": "Hüccet: delil; bâliğa: hedefine ulaşan, üstün.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-teale-etlu",
+   "tur": "deyim",
+   "ornek": "6:151",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "teâlev etlu mâ harrame rabbüküm",
+   "ar": "قُلْ تَعَالَوْا أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ",
+   "okunus": "kul teâlev etlu mâ harrame rabbüküm aleyküm",
+   "anlam": "De ki: Gelin size Rabbinizin haram kıldığı şeyleri söyleyeyim",
+   "aciklama": "Teâlev, gelin demektir; ulüvv (yükseklik) kökünün VI. kalıbından emirdir. Etlu, tilâvet (okumak) kökünden bir fiildir: okuyayım, söyleyeyim. Emrin cevabı olduğu için cezm almıştır; sonundaki uzun û kısalmıştır. Ayetin devamında haram kılınan şeyler tek tek sayılır.",
+   "akilda": "Teâlev: gelin; etlu: okuyayım (emrin cevabı).",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-keyl-mizan",
+   "tur": "deyim",
+   "ornek": "6:152",
+   "kelimeler": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "ad": "ve evfu'l-keyle ve'l-mîzâne bi'l-kıst",
+   "ar": "وَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ بِالْقِسْطِ",
+   "okunus": "ve evfu'l-keyle ve'l-mîzâne bi'l-kıst",
+   "anlam": "ölçüyü ve tartıyı doğru yapın",
+   "aciklama": "Evfû, vefâ kökünün IV. kalıbından emirdir: tam yapın, eksiksiz verin. Türkçedeki vefa bu köktendir. Keyl, hacimle ölçmedir; mîzân, terazi ve tartıdır. Mîzân, vezn (tartmak) kökünden alet adı yapan bir kalıptır. Kıst, adalet ve doğruluk demektir.",
+   "akilda": "Keyl: ölçü; mîzân: terazi; kıst: adalet.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-asru-emsaliha",
+   "tur": "deyim",
+   "ornek": "6:160",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "fe-lehû aşru emsâlihâ",
+   "ar": "مَنْ جَاءَ بِالْحَسَنَةِ فَلَهُ عَشْرُ أَمْثَالِهَا",
+   "okunus": "men câe bi'l-haseneti fe-lehû aşru emsâlihâ",
+   "anlam": "Kim ortaya bir iyilik koyarsa ona on katı verilir",
+   "aciklama": "Câe bi, bir şeyi getirmek demektir; burada bir iyilikle gelmek, onu ortaya koymaktır. Aşru emsâlihâ harfiyen 'onun benzerlerinin onu' demektir, yani on katı. Emsâl, misl (benzer, denk) kelimesinin çoğuludur. Ayetin devamında kötülüğün ancak misliyle cezalandırılacağı bildirilir.",
+   "akilda": "Aşru emsâlihâ: on katı; misl: benzer, denk.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-la-teziru",
+   "tur": "deyim",
+   "ornek": "6:164",
+   "kelimeler": [
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "ad": "ve lâ teziru vâziratün vizra uhrâ",
+   "ar": "وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَىٰ",
+   "okunus": "ve lâ teziru vâziratün vizra uhrâ",
+   "anlam": "kimse başkasının yükünü taşımaz",
+   "aciklama": "Teziru, vizr (yük) kökünden bir fiildir: yük taşımak. Vâzira, aynı kökten ism-i fâildir: yük taşıyan. Dişil gelmesi, gizli olan nefs (kişi) kelimesine uymasındandır. Vizr burada günah yükü demektir. Türkçedeki vezir de bu köktendir: devletin yükünü taşıyan.",
+   "akilda": "Vizr: yük; kimse başkasının yükünü taşımaz.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-mevazin",
+   "tur": "deyim",
+   "ornek": "7:8",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "ad": "fe-men sekulet mevâzînüh",
+   "ar": "وَالْوَزْنُ يَوْمَئِذٍ الْحَقُّ فَمَنْ ثَقُلَتْ مَوَازِينُهُ فَأُولَٰئِكَ هُمُ الْمُفْلِحُونَ",
+   "okunus": "ve'l-veznu yevme'izini'l-hakk, fe-men sekulet mevâzînuhû fe-ülâike humu'l-muflihûn",
+   "anlam": "Gerçek tartı kıyamet günündedir. Tartıları ağır gelenler, işte onlar kurtulanlardır",
+   "aciklama": "Vezn, tartmak ve tartıdır. Mevâzîn, mîzânın (terazi) çoğuludur. Sekulet, sikl (ağırlık) kökünden bir fiildir: ağır geldi. Türkçedeki sıklet de bu köktendir. Yevme'izin, o gün demektir; sonundaki tenvin, söylenmeyen bir cümlenin yerini tutar.",
+   "akilda": "Mevâzîn: tartılar; sekulet: ağır geldi.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "g-la-zaide",
+   "tur": "gramer",
+   "ornek": "7:12",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "mâ meneake ellâ tescüde",
+   "ar": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ",
+   "okunus": "mâ meneake ellâ tescüde iz emertük",
+   "anlam": "Sana emrettiğim halde, seni secdeden alıkoyan nedir?",
+   "aciklama": "Ellâ, en ve lâ'nın birleşmiş biçimidir. Burada lâ olumsuzluk bildirmez; cümleyi pekiştirmek için gelmiştir ve buna zâid lâ denir. Bu yüzden anlam 'secde etmekten alıkoyan' olur. Aynı soru Sâd suresi 75. ayette lâ olmadan 'mâ meneake en tescüde' biçiminde geçer.",
+   "akilda": "Zâid lâ: olumsuzluk bildirmez, pekiştirir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-kuud-sirat",
+   "tur": "deyim",
+   "ornek": "7:16",
+   "kelimeler": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "ad": "le-ak'udenne lehüm sırâtake'l-müstakîm",
+   "ar": "فَبِمَا أَغْوَيْتَنِي لَأَقْعُدَنَّ لَهُمْ صِرَاطَكَ الْمُسْتَقِيمَ",
+   "okunus": "fe-bimâ ağveytenî le-ak'udenne lehüm sırâtake'l-müstakîm",
+   "anlam": "Beni azdırdığın için, and olsun ki, Senin doğru yolun üzerinde onlara karşı duracağım",
+   "aciklama": "Bu söz şeytanındır. Ak'udenne, ka'd (oturmak) kökünden bir fiildir; başındaki lam ve sonundaki şeddeli nun yemin ve kesinlik bildirir: mutlaka oturacağım, pusu kuracağım. Sırâtake (senin yolun) önünde 'üzerine' anlamında bir edat düşmüş gibi okunur. Ağveytenî, ğayy (azma, yoldan çıkma) kökündendir: beni azdırdın.",
+   "akilda": "Le-ak'udenne: mutlaka oturacağım (pusu kuracağım).",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-zalemna",
+   "tur": "deyim",
+   "ornek": "7:23",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "ad": "rabbenâ zalemnâ enfüsenâ",
+   "ar": "قَالَا رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ",
+   "okunus": "rabbenâ zalemnâ enfüsenâ ve in lem tağfir lenâ ve terhamnâ le-nekûnenne mine'l-hâsirîn",
+   "anlam": "Rabbimiz! Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz",
+   "aciklama": "Bu dua Âdem ile eşinin sözüdür. Zalemnâ enfüsenâ harfiyen 'kendimize zulmettik' demektir; meal bunu 'kendimize yazık ettik' diye verir. In lem tağfir lenâ, bizi bağışlamazsan. Le-nekûnenne'deki lam ve şeddeli nun kesinlik bildirir: mutlaka oluruz.",
+   "akilda": "Zalemnâ enfüsenâ: kendimize yazık ettik.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-libas-takva",
+   "tur": "deyim",
+   "ornek": "7:26",
+   "kelimeler": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "ad": "ve libâsü't-takvâ zâlike hayr",
+   "ar": "لِبَاسًا يُوَارِي سَوْآتِكُمْ وَرِيشًا وَلِبَاسُ التَّقْوَىٰ ذَٰلِكَ خَيْرٌ",
+   "okunus": "libâsen yüvârî sev'âtiküm ve rîşâ, ve libâsü't-takvâ zâlike hayr",
+   "anlam": "Ayıp yerlerinizi örtecek giyimlik ve süs elbiseleri gönderdik. Takva örtüsü ise daha hayırlıdır",
+   "aciklama": "Libâs giysi demektir; Türkçedeki libas bu kelimedir. Yüvârî, örter demektir. Rîş, aslında kuş tüyüdür; burada süs ve güzel giysi anlamındadır. Libâsü't-takvâ, takva elbisesi, yani sakınmanın örtüsüdür; ayet onu giysilerden daha hayırlı gösterir.",
+   "akilda": "Libâs: giysi; libâsü't-takvâ: takva örtüsü.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-yestehirun",
+   "tur": "deyim",
+   "ornek": "7:34",
+   "kelimeler": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "ad": "lâ yeste'hırûne sâ'aten ve lâ yestakdimûn",
+   "ar": "فَإِذَا جَاءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً وَلَا يَسْتَقْدِمُونَ",
+   "okunus": "fe-izâ câe ecelühüm lâ yeste'hırûne sâ'aten ve lâ yestakdimûn",
+   "anlam": "vakitleri dolunca ne bir saat gecikebilir ne de öne geçebilirler",
+   "aciklama": "Yeste'hırûn, te'hir (geri bırakma) kökünün X. kalıbıdır: geri kalmak. Yestakdimûn, takdim (öne alma) kökünün X. kalıbıdır: öne geçmek. Türkçedeki tehir ve takdim bu köklerdendir. Sâ'a burada kısa bir an demektir. Ecel, belirlenmiş süredir.",
+   "akilda": "Ecel gelince ne gecikilir ne öne geçilir.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-cemel-hiyat",
+   "tur": "deyim",
+   "ornek": "7:40",
+   "kelimeler": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "ad": "hattâ yelice'l-cemelu fî semmi'l-hıyât",
+   "ar": "وَلَا يَدْخُلُونَ الْجَنَّةَ حَتَّىٰ يَلِجَ الْجَمَلُ فِي سَمِّ الْخِيَاطِ",
+   "okunus": "ve lâ yedhulûne'l-cennete hattâ yelice'l-cemelu fî semmi'l-hıyât",
+   "anlam": "deve iğnenin deliğinden geçmedikçe cennete de giremezler",
+   "aciklama": "Yelic, vulûc kökünden bir fiildir: girmek, içinden geçmek. Cemel devedir. Semm burada delik, hıyât ise iğne demektir. Devenin iğne deliğinden geçmesi olmayacak bir şeydir; bu benzetme, ayetleri yalanlayıp büyüklük taslayanların cennete giremeyeceğini anlatır.",
+   "akilda": "Cemel: deve; semmü'l-hıyât: iğne deliği.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-araf",
+   "tur": "deyim",
+   "ornek": "7:46",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "ad": "ve ale'l-a'râfi ricâl",
+   "ar": "وَبَيْنَهُمَا حِجَابٌ وَعَلَى الْأَعْرَافِ رِجَالٌ يَعْرِفُونَ كُلًّا بِسِيمَاهُمْ",
+   "okunus": "ve beynehümâ hicâb, ve ale'l-a'râfi ricâlün ya'rifûne küllen bi-sîmâhüm",
+   "anlam": "İki taraf arasında bir perde ve burçlar üzerinde her iki tarafı da simalarından tanıyan adamlar vardır",
+   "aciklama": "Hicâb, perde ve engeldir; Türkçedeki hicap bu köktendir. A'râf, yüksek yerler demektir; meal 'burçlar' der ve surenin adı da buradan gelir. A'râf ile ya'rifûn (tanırlar) aynı köktendir. Sîmâ, yüzdeki işaret ve görünüştür; Türkçedeki sima bu kelimedir.",
+   "akilda": "A'râf: yüksek yerler, burçlar; sîmâ: yüz işareti.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-tadarru",
+   "tur": "deyim",
+   "ornek": "7:55",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "ad": "ud'û rabbeküm tadarru'an ve hufyeh",
+   "ar": "ادْعُوا رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً",
+   "okunus": "ud'û rabbeküm tadarru'an ve hufyeh",
+   "anlam": "Rabbinize gönülden ve gizlice yalvarın",
+   "aciklama": "Ud'û, duâ kökünden emirdir: yalvarın, dua edin. Tadarru', V. kalıbın mastarıdır: alçak gönüllülükle yalvarıp yakarmak. Hufye, gizlilik demektir; hafî ve ihfâ (gizleme) bu köktendir. İki mastar burada nasıl dua edileceğini anlatan hâl yerindedir.",
+   "akilda": "Tadarru': yalvarıp yakarma; hufye: gizlilik.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ma-lekum-ilah",
+   "tur": "deyim",
+   "ornek": "7:59",
+   "kelimeler": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "ad": "mâ leküm min ilâhin ğayruh",
+   "ar": "يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُمْ مِنْ إِلَٰهٍ غَيْرُهُ",
+   "okunus": "yâ kavmi'budu'llâhe mâ leküm min ilâhin ğayruh",
+   "anlam": "Ey milletim! Allah'a kulluk edin, O'ndan başka tanrınız yoktur",
+   "aciklama": "Bu söz bu cüzde Nuh, Hud, Salih ve Şuayb peygamberlerin milletlerine söylediği ortak çağrıdır (7:59, 7:65, 7:73, 7:85). Mâ leküm, sizin için yoktur demektir. Olumsuz cümledeki min, hiçbir anlamı katar: hiçbir tanrınız yoktur. Ğayruhû, O'ndan başka demektir ve ilâh kelimesinin sıfatıdır.",
+   "akilda": "Mâ leküm min ilâhin ğayruh: O'ndan başka tanrınız yoktur.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-ala",
+   "tur": "deyim",
+   "ornek": "7:69",
+   "kelimeler": [
+    23,
+    24,
+    25,
+    26,
+    27
+   ],
+   "ad": "fe'zkürû âlâ'allâh",
+   "ar": "فَاذْكُرُوا آلَاءَ اللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
+   "okunus": "fe'zkürû âlâ'allâhi le'alleküm tüflihûn",
+   "anlam": "başarıya erişebilmeniz için Allah'ın nimetlerini anın",
+   "aciklama": "Âlâ', nimetler demektir; bir nimet anlamındaki ilâ ya da elâ kelimesinin çoğuludur. Rahmân suresinde tekrarlanan 'Rabbinizin hangi nimetlerini yalanlarsınız' sorusunda da bu kelime geçer. Üzkürû, zikr kökünden emirdir: anın, hatırlayın.",
+   "akilda": "Âlâ': nimetler; üzkürû: anın, hatırlayın.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-nakat",
+   "tur": "deyim",
+   "ornek": "7:73",
+   "kelimeler": [
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "ad": "hâzihî nâkatu'llâhi leküm âyeh",
+   "ar": "هَٰذِهِ نَاقَةُ اللَّهِ لَكُمْ آيَةً",
+   "okunus": "hâzihî nâkatu'llâhi leküm âyeh",
+   "anlam": "Allah'ın bu dişi devesi size bir delildir",
+   "aciklama": "Nâka, dişi devedir. Nâkatu'llâh, Allah'ın devesi demektir; devenin Allah'a nispet edilmesi onun değerini ve bir delil olduğunu gösterir. Âyeten burada hal olarak gelir: bir delil olarak. Ayetin devamında ona kötülükle dokunmamaları, Allah'ın toprağında serbestçe otlamasına izin vermeleri istenir.",
+   "akilda": "Nâka: dişi deve; âyet: delil.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-recfe",
+   "tur": "deyim",
+   "ornek": "7:78",
+   "kelimeler": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "ad": "fe-ehazethümü'r-recfeh",
+   "ar": "فَأَخَذَتْهُمُ الرَّجْفَةُ فَأَصْبَحُوا فِي دَارِهِمْ جَاثِمِينَ",
+   "okunus": "fe-ehazethümü'r-recfetü fe-asbahû fî dârihim câsimîn",
+   "anlam": "Bu yüzden onları bir sarsıntı tuttu ve oldukları yerde diz üstü çöküverdiler",
+   "aciklama": "Recfe, şiddetli sarsıntı demektir. Ehazethüm, onları yakaladı, tuttu. Asbahû, harfiyen sabaha erdiler demektir; burada 'oluverdiler' anlamındadır. Câsimîn, yere çökmüş, diz üstü kalmış olanlardır. Dâr burada yurt ve evdir.",
+   "akilda": "Recfe: sarsıntı; câsim: diz üstü çökmüş.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-fahise",
+   "tur": "deyim",
+   "ornek": "7:80",
+   "kelimeler": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "ad": "e-te'tûne'l-fâhişe",
+   "ar": "أَتَأْتُونَ الْفَاحِشَةَ مَا سَبَقَكُمْ بِهَا مِنْ أَحَدٍ مِنَ الْعَالَمِينَ",
+   "okunus": "e-te'tûne'l-fâhişete mâ sebekaküm bihâ min ehadin mine'l-âlemîn",
+   "anlam": "Dünyalarda hiç kimsenin sizden önce yapmadığı bir hayasızlığı mı yapıyorsunuz?",
+   "aciklama": "Fâhişe, çirkinliği aşırı olan iş, hayasızlıktır; Türkçedeki fahiş (aşırı) bu köktendir. E-te'tûne, soru eki e ile 'yapıyorsunuz' fiilidir; soru burada kınama bildirir. Mâ sebekaküm bihâ, onu sizden önce yapmadı demektir. Min ehadin, hiç kimse anlamı katar.",
+   "akilda": "Fâhişe: hayasızlık; soru burada kınamadır.",
+   "kaynak": "gramer"
+  },
+  {
+   "id": "d-emtarna",
+   "tur": "deyim",
+   "ornek": "7:84",
+   "kelimeler": [
+    1,
+    2,
+    3
+   ],
+   "ad": "ve emtarnâ aleyhim matarâ",
+   "ar": "وَأَمْطَرْنَا عَلَيْهِمْ مَطَرًا",
+   "okunus": "ve emtarnâ aleyhim matarâ, fe'nzur keyfe kâne âkıbetü'l-mücrimîn",
+   "anlam": "Geriye kalanların üzerine öyle bir yağmur yağdırdık ki!",
+   "aciklama": "Emtarnâ, matar (yağmur) kökünün IV. kalıbından bir fiildir: yağdırdık. Mataren, aynı kökten gelen belirsiz bir isimdir. Bu belirsizlik, yağmurun ne kadar korkunç olduğunu bildirir; meal bunu 'öyle bir yağmur' diye verir. Ayetin devamı, suçluların sonunun nasıl olduğuna bakmayı ister.",
+   "akilda": "Emtarnâ: yağdırdık; mataren: öyle bir yağmur.",
+   "kaynak": "gramer"
+  }
+ ]
+}

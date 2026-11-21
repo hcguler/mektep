@@ -1,0 +1,238 @@
+{
+ "_aciklama": "ezberler sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Ezberler: tam anlatım",
+   "sure": 2380.96,
+   "imza": "520962039865366d"
+  },
+  "fatiha": {
+   "baslik": "Fâtiha Suresi",
+   "sure": 63.04,
+   "imza": "6fefcfbea1287436"
+  },
+  "duha": {
+   "baslik": "Duhâ Suresi",
+   "sure": 75.51,
+   "imza": "6ed7f8e17e62a6d6"
+  },
+  "insirah": {
+   "baslik": "İnşirâh Suresi",
+   "sure": 66.2,
+   "imza": "3c432b6ac3903995"
+  },
+  "tin": {
+   "baslik": "Tîn Suresi",
+   "sure": 65.71,
+   "imza": "98e8bb221d312262"
+  },
+  "alak": {
+   "baslik": "Alak Suresi",
+   "sure": 105.04,
+   "imza": "6b23472171cacaa9"
+  },
+  "kadir": {
+   "baslik": "Kadir Suresi",
+   "sure": 58.4,
+   "imza": "b6bacaad67f7ce20"
+  },
+  "beyyine": {
+   "baslik": "Beyyine Suresi",
+   "sure": 109.49,
+   "imza": "15df88e8b8e10c35"
+  },
+  "zilzal": {
+   "baslik": "Zilzâl Suresi",
+   "sure": 66.98,
+   "imza": "787a6bb57ae33870"
+  },
+  "adiyat": {
+   "baslik": "Âdiyât Suresi",
+   "sure": 71.42,
+   "imza": "80df0ad65b0f2e01"
+  },
+  "karia": {
+   "baslik": "Kâria Suresi",
+   "sure": 66.11,
+   "imza": "d28fd4b5c5e877d5"
+  },
+  "tekasur": {
+   "baslik": "Tekâsür Suresi",
+   "sure": 66.64,
+   "imza": "37e0aaed32b22775"
+  },
+  "asr": {
+   "baslik": "Asr Suresi",
+   "sure": 56.13,
+   "imza": "45863586002026fd"
+  },
+  "humeze": {
+   "baslik": "Hümeze Suresi",
+   "sure": 64.53,
+   "imza": "e95492a51efa2677"
+  },
+  "fil": {
+   "baslik": "Fîl Suresi",
+   "sure": 51.97,
+   "imza": "ff4e2b8591b8641b"
+  },
+  "kureys": {
+   "baslik": "Kureyş Suresi",
+   "sure": 55.39,
+   "imza": "53336c81ea86e744"
+  },
+  "maun": {
+   "baslik": "Mâûn Suresi",
+   "sure": 54.6,
+   "imza": "425a70edfd588981"
+  },
+  "kevser": {
+   "baslik": "Kevser Suresi",
+   "sure": 50.73,
+   "imza": "d5f67f15ab905fd0"
+  },
+  "kafirun": {
+   "baslik": "Kâfirûn Suresi",
+   "sure": 61.52,
+   "imza": "ccfe9b79bafd48a2"
+  },
+  "nasr": {
+   "baslik": "Nasr Suresi",
+   "sure": 49.72,
+   "imza": "e5b377491dd0eb1e"
+  },
+  "tebbet": {
+   "baslik": "Tebbet Suresi",
+   "sure": 56.27,
+   "imza": "e136bae168bb7dc8"
+  },
+  "ihlas": {
+   "baslik": "İhlâs Suresi",
+   "sure": 52.54,
+   "imza": "6958f1f06f2d5331"
+  },
+  "felak": {
+   "baslik": "Felak Suresi",
+   "sure": 52.91,
+   "imza": "b2094cc86097a747"
+  },
+  "nas": {
+   "baslik": "Nâs Suresi",
+   "sure": 52.85,
+   "imza": "d6d93779cf034532"
+  },
+  "ezan-duasi": {
+   "baslik": "Ezan Duası",
+   "sure": 37.71,
+   "imza": "9f5e3f1403ad36f0"
+  },
+  "subhaneke": {
+   "baslik": "Sübhâneke",
+   "sure": 39.67,
+   "imza": "c095c82f67fa5950"
+  },
+  "euzu-besmele": {
+   "baslik": "Eûzü Besmele",
+   "sure": 33.68,
+   "imza": "a6f0046215675bf6"
+  },
+  "ruku-tesbihi": {
+   "baslik": "Rükû Tesbihi",
+   "sure": 29.09,
+   "imza": "62c3e9cbae3a11a9"
+  },
+  "rukudan-kalkarken": {
+   "baslik": "Rükûdan Kalkarken",
+   "sure": 37.45,
+   "imza": "ada57ccdbdefcc5b"
+  },
+  "secde-tesbihi": {
+   "baslik": "Secde Tesbihi",
+   "sure": 32.33,
+   "imza": "863a0e54c5aac3fa"
+  },
+  "tahiyyat": {
+   "baslik": "Tahiyyat",
+   "sure": 51.96,
+   "imza": "1ec7d26d08050190"
+  },
+  "salli": {
+   "baslik": "Allâhümme Salli",
+   "sure": 41.29,
+   "imza": "fb163d8c611aaaf6"
+  },
+  "barik": {
+   "baslik": "Allâhümme Bârik",
+   "sure": 36.47,
+   "imza": "3a22c2cfe200edb1"
+  },
+  "rabbena-atina": {
+   "baslik": "Rabbenâ Âtinâ",
+   "sure": 36.4,
+   "imza": "c312acc0ea68ba2c"
+  },
+  "rabbenagfirli": {
+   "baslik": "Rabbenağfirlî",
+   "sure": 36.31,
+   "imza": "e910d7b713191abd"
+  },
+  "kunut-1": {
+   "baslik": "Kunut Duası 1",
+   "sure": 57.79,
+   "imza": "f9071cf6c23f113f"
+  },
+  "kunut-2": {
+   "baslik": "Kunut Duası 2",
+   "sure": 42.94,
+   "imza": "0de19ab53c610268"
+  },
+  "namaz-sonrasi": {
+   "baslik": "Namaz Sonrası İstiğfar ve Selâm Duası",
+   "sure": 45.36,
+   "imza": "cd283890891487b5"
+  },
+  "ayetel-kursi": {
+   "baslik": "Âyetü'l-Kürsî",
+   "sure": 66.21,
+   "imza": "63411bc0a7a2ca1a"
+  },
+  "tesbihat": {
+   "baslik": "Namaz Tesbihatı",
+   "sure": 37.45,
+   "imza": "715812a2566e2d2a"
+  },
+  "tehlil": {
+   "baslik": "Kelime-i Tevhid",
+   "sure": 36.24,
+   "imza": "aef212d5a8a723fe"
+  },
+  "einni": {
+   "baslik": "Allâhümme Eınnî",
+   "sure": 33.83,
+   "imza": "0da471cad4edd753"
+  },
+  "seyyidul-istigfar": {
+   "baslik": "Seyyidü'l-İstiğfâr",
+   "sure": 52.64,
+   "imza": "daebd1b492888b3e"
+  },
+  "iki-kelime": {
+   "baslik": "Dile Hafif İki Söz",
+   "sure": 35.66,
+   "imza": "89eaf73afcf7480f"
+  },
+  "havkale": {
+   "baslik": "Lâ Havle",
+   "sure": 28.46,
+   "imza": "8a712cf60d0ba81c"
+  },
+  "salavat": {
+   "baslik": "Salavat",
+   "sure": 30.62,
+   "imza": "21b1b7b735b6eeff"
+  }
+ }
+}

@@ -1,0 +1,54 @@
+Mektep — lisans özeti / license overview
+
+Bu depoda iki ayrı lisans uygulanır:
+
+  1. KOD            → MIT Lisansı (aşağıda)
+  2. İÇERİK         → Creative Commons Atıf-GayriTicari 4.0 (CC BY-NC 4.0), bkz. LICENSE-CONTENT
+
+Hangi dosyanın hangisine girdiği:
+
+KOD (MIT)
+  - tools/ altındaki bütün betikler (*.mjs, *.py)
+  - docs/ altındaki uygulama kodu: *.html, *.css, *.js (aşağıdaki içerik dosyaları hariç),
+    sw.js, pwa.js, manifest.webmanifest
+  - .claude/launch.json, .gitignore
+
+İÇERİK (CC BY-NC 4.0)
+  - Uygulama verisi ve metinleri: docs/**/data.js, docs/**/kunye.js, docs/**/hesap.js
+    ve uygulamaların Türkçe metin/anlatım içeriği
+  - Anlatım metinleri: tools/*-anlatim.json
+  - Üretilmiş sesli anlatım kayıtları: docs/**/anlatim/**, docs/namaz-audio/**
+  - Simgeler ve görseller: docs/icons/**, docs/assets/**
+  - planlar/ ve bütün README.md / CLAUDE.md metinleri
+
+ÜÇÜNCÜ TARAF MATERYAL (bu iki lisansın DIŞINDA)
+  - Kur'an metni (Tanzil), Diyanet İşleri Başkanlığı meali, EveryAyah.com kıraat kayıtları,
+    hadis metinleri ve diğer alıntılar kendi sahiplerinin kullanım koşullarına tabidir.
+    Üretilmiş dosyalar (ayetler.js, metinler.js, isimler.js, tools/arapca/**) bu materyali içerir;
+    bu dosyalardaki üçüncü taraf kısımlar için bu depodaki lisanslar hak vermez.
+
+Belirsiz kalan dosyada üstteki ayrım esas alınır: çalıştırılan şey kod, okunan/dinlenen şey içeriktir.
+
+-------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Hüseyin Cihad Güler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

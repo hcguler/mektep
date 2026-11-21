@@ -1,0 +1,1418 @@
+{
+ "_aciklama": "Kur’an’dan Mucizeler sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt (giris, her mucize için <sıra>-<id>, olcu). Her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça ayet metni, anahtar ifade ve okunuş seslendirilmez, meali okunur. Bu dosya tools/mucizeler-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Kur’an’dan Mucizeler: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-rum",
+   "02-ebuleheb",
+   "03-bedir",
+   "04-mescid",
+   "05-koruma",
+   "06-benzeri",
+   "07-yaratilis",
+   "08-ay",
+   "09-daglar",
+   "10-genisleme",
+   "11-denizler",
+   "12-ayrilma",
+   "olcu"
+  ],
+  "parcalar": [
+   [
+    "Kur’an’dan Mucizeler.",
+    0.8
+   ],
+   "Kur’an bir bilim kitabı değil, insanlığa yol gösteren bir kitaptır.",
+   "Bu uygulamada iki tür ayet var: Kur’an’ın önceden haber verdiği ve sonra gerçekleşen olaylar; indiği dönemde bilinmeyen, bugün bilimin ortaya koyduğu bilgilerle birlikte düşünülen ayetler.",
+   [
+    "Önce altı haber, sonra altı ayet dinleyeceğiz.",
+    0.6
+   ],
+   "Her sayfada ayetin anlamını, ayetin ne bildirdiğini ve ardından ya gerçekleşen olayı ya da bugünkü bilgiyi öğreneceğiz.",
+   "Ayetlerin anlamı, Diyanet İşleri Başkanlığı mealinden okunur.",
+   "Ayetle bilimsel bilgi arasında kurulan bağ, yirminci yüzyılda öne çıkan ve bazı âlimlerin benimsediği bir yorumdur, bilimsel icaz.",
+   "Bilim yenilendikçe değişebilir, ayet değişmez.",
+   [
+    "Bu yüzden her sayfada ayetin meali, bugünkü bilgi ve bu bağı kimin kurduğu ayrı ayrı yazılır.",
+    1.6
+   ],
+   [
+    "Gelecekten haberler.",
+    0.8
+   ],
+   [
+    "Rumların zaferi.",
+    0.7
+   ],
+   "Yenilen Rumların birkaç yıl içinde galip geleceği haber verildi.",
+   [
+    "Bu, Rûm suresinde anlatılır.",
+    0.7
+   ],
+   "Rûm Suresi, ikinci ile beşinci ayetler arasının anlamı şöyledir.",
+   "Rumlar en yakın bir yerde yenildiler.",
+   "Onlar bu yenilgilerinden bir kaç yıl sonra galip geleceklerdir.",
+   "İş, eninde sonunda Allah'a aittir.",
+   "İşte o gün, inananlar, istediğine yardım eden Allah'ın yardımına sevineceklerdir.",
+   [
+    "O güçlüdür, merhametlidir.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Rûm suresi Mekke’de, Rumların yani Bizanslıların İranlılara yenildiği yıllarda indi.",
+   "Ayet bu yenilgiyi bildirir ve Rumların birkaç yıl içinde galip geleceğini haber verir.",
+   "Ayetteki bidı sinîn ifadesi, Arapçada üç ile dokuz arasındaki bir sayıyı anlatır; Diyanet meali bir kaç yıl diye çevirir.",
+   [
+    "O gün Bizans’ın yeniden ayağa kalkacağını kimse beklemiyordu.",
+    0.7
+   ],
+   [
+    "Ne oldu?",
+    0.5
+   ],
+   "İranlılar altı yüz on üçte Bizans ordusunu Antakya’da yendi, altı yüz on dörtte Kudüs’ü aldı.",
+   "İmparator Herakleios altı yüz yirmi ikide karşı saldırıya geçti ve altı yüz yirmi yedide Ninova yakınlarında İran ordusunu ağır bir yenilgiye uğrattı.",
+   "Savaş altı yüz yirmi sekizde barışla bitti.",
+   [
+    "Böylece Rumlar, ayetin bildirdiği gibi, büyük yenilgiden birkaç yıl sonra galip geldiler.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Herkesin bittiğini sandığı bir iş, Allah dilerse birkaç yıl içinde tersine döner.",
+    1.6
+   ],
+   [
+    "Ebu Leheb.",
+    0.7
+   ],
+   "Peygamberimizin amcası Ebu Leheb’in iman etmeyeceği, o daha hayattayken bildirildi.",
+   [
+    "Bu, Tebbet suresinde anlatılır.",
+    0.7
+   ],
+   "Tebbet Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+   "Ebu Leheb'in elleri kurusun; kurudu da.",
+   "Malı ve kazandığı kendisine fayda vermedi.",
+   "Alevli ateşe yaslanacaktır.",
+   [
+    "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Tebbet suresi, Peygamberimize düşmanlık eden amcası Ebu Leheb ve karısı hakkında indi.",
+   "Bir müşrikin adıyla anılarak karısıyla birlikte uyarıldığı ilk ayetler bunlardır.",
+   "Sure, Ebu Leheb’in alevli ateşe gireceğini bildirir.",
+   "Bu, onun inkâr üzere öleceğini haber vermektir.",
+   [
+    "Ebu Leheb sure indikten sonra da yıllarca yaşadı.",
+    0.7
+   ],
+   [
+    "Ne oldu?",
+    0.5
+   ],
+   "Ebu Leheb, hiç değilse görünüşte Müslüman olduğunu söyleyerek bu haberi yalanlayabilirdi.",
+   "Bunu yapmadı; hayatı boyunca Peygamberimize karşı çıkanlardan biri olarak kaldı.",
+   [
+    "Bedir’de müşriklerin yenildiğini öğrendikten birkaç gün sonra, hicretin ikinci yılında, yani altı yüz yirmi dört yılında, Mekke’de öldü.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bir insanın ne yapacağını ancak Allah bilir; Kur’an onu yıllar önce bildirdi.",
+    1.6
+   ],
+   [
+    "Bedir’deki bozgun.",
+    0.7
+   ],
+   "Güçlerine güvenen inkârcıların bozguna uğrayacağı, Müslümanlar Mekke’de azken haber verildi.",
+   [
+    "Bu, Kamer suresinde anlatılır.",
+    0.7
+   ],
+   "Kamer Suresi, kırk dördüncü ve kırk beşinci ayetlerin anlamı şöyledir.",
+   "Yoksa: Biz öç alabilecek bir topluluğuz mu diyorlar.",
+   [
+    "Toplulukları dağıtılacak, yüzgeri edileceklerdir.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Kamer suresi Mekke’de indi.",
+   "O günlerde Müslümanlar az ve güçsüzdü; Mekkeli inkârcılar ise Biz öç alabilecek bir topluluğuz diyordu.",
+   [
+    "Ayet, bu topluluğun dağıtılacağını ve arkasını dönüp kaçacağını bildirir.",
+    0.7
+   ],
+   [
+    "Ne oldu?",
+    0.5
+   ],
+   "Hicretin ikinci yılında, yani altı yüz yirmi dört yılında, Bedir’de karşılaşan iki ordudan Mekke ordusu bozguna uğradı ve geri çekildi.",
+   [
+    "Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre ayet, Kureyş’in Bedir’de bozguna uğrayacağını müjdeler.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sayıya ve güce güvenen değil, Allah’a güvenen kazanır.",
+    1.6
+   ],
+   [
+    "Mescid-i Haram’a giriş.",
+    0.7
+   ],
+   "Kâbe’ye gidemeden geri dönen Müslümanlara, oraya güven içinde girecekleri bildirildi.",
+   [
+    "Bu, Fetih suresinde anlatılır.",
+    0.7
+   ],
+   "Fetih Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+   "And olsun ki Allah, Peygamberinin rüyasının gerçek olduğunu tasdik eder.",
+   "Ey inananlar!",
+   "Siz, Allah dilerse, güven içinde, başlarınızı tıraş etmiş veya saçlarınızı kısaltmış olarak, korkmadan Mescidi Haram'a gireceksiniz.",
+   "Allah, sizin bilmediğinizi bilir.",
+   [
+    "Size, bundan başka, yakın zamanda bir zafer verecektir.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Hicretin altıncı yılında Müslümanlar umre için yola çıktılar ama Mekkeliler onları Kâbe’ye sokmadı; Hudeybiye’de antlaşma yapılıp geri dönüldü.",
+   [
+    "Bu ayet, Peygamberimizin gördüğü rüyanın doğru olduğunu bildirir: Müslümanlar Mescid-i Haram’a güven içinde, başlarını tıraş etmiş ya da saçlarını kısaltmış olarak, korkmadan gireceklerdi.",
+    0.7
+   ],
+   [
+    "Ne oldu?",
+    0.5
+   ],
+   "Ertesi yıl, hicretin yedinci yılında, yani altı yüz yirmi dokuz yılında, Müslümanlar Mekke’ye gidip umrelerini yaptılar.",
+   "Bu umreye, önceki yıl yapılamayanın yerine yapıldığı için Umretü’l-kazâ denir.",
+   [
+    "Türkiye Diyanet Vakfı İslâm Ansiklopedisi bu umreyi, ayetteki rüyanın aynen gerçekleşmesi olarak anlatır.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah’ın vaadi ertelense de yerine gelir.",
+    1.6
+   ],
+   [
+    "Kur’an’ın korunması.",
+    0.7
+   ],
+   "Kur’an’ın korunacağı, daha inmesi tamamlanmadan bildirildi.",
+   [
+    "Bu, Hicr suresinde anlatılır.",
+    0.7
+   ],
+   "Hicr Suresi, dokuzuncu ayetin anlamı şöyledir.",
+   [
+    "Doğrusu Kitap'ı Biz indirdik, onun koruyucusu elbette Biziz.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Hicr suresi Mekke’de indi.",
+   "O gün Kur’an’ın inişi daha bitmemişti ve onu ezberleyip yazanlar bir avuç insandı.",
+   [
+    "Ayet, Kur’an’ı Allah’ın indirdiğini ve onu yine Allah’ın koruyacağını bildirir.",
+    0.7
+   ],
+   [
+    "Ne oldu?",
+    0.5
+   ],
+   "Kur’an hem ezberlenerek hem yazılarak korundu.",
+   "Peygamberimizden sonra Hazreti Ebû Bekir döneminde bir araya getirildi, Hazreti Osman döneminde çoğaltılıp şehirlere gönderildi.",
+   [
+    "On dört asırdır dünyanın her yerinde aynı metin okunur ve milyonlarca hâfız onu ezberinde taşır.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kur’an’ı koruyan Allah’tır; onu ezberleyen ve okuyan her insan bu korumaya vesile olur.",
+    1.6
+   ],
+   [
+    "Benzeri getirilemez.",
+    0.7
+   ],
+   "Kur’an’dan şüphe edenlere bir sure getirmeleri söylendi ve bunu asla yapamayacakları bildirildi.",
+   [
+    "Bu, Bakara ve İsrâ surelerinde anlatılır.",
+    0.7
+   ],
+   "Bakara Suresi, yirmi üçüncü ve yirmi dördüncü ayetlerin anlamı şöyledir.",
+   "Kulumuza indirdiğimiz Kuran'dan şüphe ediyorsanız, siz de onun benzeri bir sure meydana getirin; eğer doğru sözlü iseniz, Allah'tan başka, güvendiklerinizi de yardıma çağırın.",
+   [
+    "Yapamazsanız ki yapamayacaksınız o takdirde, inkar edenler için hazırlanan ve yakıtı insanlarla taş olan ateşten sakının.",
+    0.7
+   ],
+   "İsrâ Suresi, seksen sekizinci ayetin anlamı şöyledir.",
+   [
+    "De ki: İnsanlar ve cinler, birbirine yardımcı olarak bu Kuran'ın bir benzerini ortaya koymak için bir araya gelseler, and olsun ki, yine de benzerini ortaya koyamazlar.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Kur’an, ondan şüphe edenleri benzeri bir sure getirmeye çağırır.",
+   "Bakara suresinin ayeti, yapamazsanız, ki asla yapamayacaksınız diyerek bir haber de verir.",
+   [
+    "İsrâ suresindeki ayet ise insanların ve cinlerin birbirine yardım etse bile Kur’an’ın benzerini ortaya koyamayacağını bildirir.",
+    0.7
+   ],
+   [
+    "Ne oldu?",
+    0.5
+   ],
+   "Bu çağrı, şiir ve söz ustalığıyla övünen Araplara yapıldı.",
+   "Kur’an’a karşı çıkanlar onunla savaşmayı bile göze aldılar ama bir sure getirerek çağrıya karşılık veremediler.",
+   [
+    "O günden bu yana yapılan denemelerin hiçbiri Kur’an’ın benzeri sayılmadı.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kur’an’ın sözü insan sözüne benzemez; ondan şüphe edenlere hâlâ aynı çağrıyı yapar.",
+    1.6
+   ],
+   [
+    "O gün bilinmeyenler.",
+    0.8
+   ],
+   [
+    "Ana rahminde yaratılış.",
+    0.7
+   ],
+   "İnsanın ana rahmindeki gelişimi aşama aşama anlatıldı.",
+   [
+    "Bu, Mü’minûn suresinde anlatılır.",
+    0.7
+   ],
+   "Mü’minûn Suresi, on ikinci ile on dördüncü ayetler arasının anlamı şöyledir.",
+   "And olsun ki, insanı süzme çamurdan yarattık.",
+   "Sonra onu nutfe halinde sağlam bir yere yerleştirdik.",
+   "Sonra nutfeyi kan pıhtısına çevirdik, kan pıhtısını bir çiğnemlik et yaptık, bir çiğnemlik etten kemikler yarattık, kemiklere de et giydirdik.",
+   [
+    "Sonra onu başka bir yaratık yaptık: Biçim verenlerin en güzeli olan Allah ne uludur.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Ayetler insanın yaratılışını sırayla anlatır: süzme çamur, sağlam bir yere yerleştirilen nutfe, alaka, Diyanet meali: kan pıhtısı, bir çiğnemlik et, kemikler ve kemiklere giydirilen et.",
+   [
+    "Ayet, Biçim verenlerin en güzeli olan Allah ne yücedir sözüyle biter.",
+    0.7
+   ],
+   [
+    "Bugün bildiğimiz.",
+    0.5
+   ],
+   "Embriyoloji, bebeğin ana rahminde birbirini izleyen evrelerle geliştiğini gösterir.",
+   "Haftalar ilerledikçe kıkırdaktan bir iskelet taslağı belirir, kaslar bu iskeletin çevresinde gelişip onu sarar.",
+   [
+    "Bu evreleri ayrıntısıyla görmek mikroskopla mümkün oldu; bilimsel embriyoloji on yedinci yüzyıldan sonra gelişti.",
+    0.6
+   ],
+   [
+    "Yorum notu.",
+    0.4
+   ],
+   "İbn Kesîr bu ayetleri aşama aşama açıklar ve insanın böyle yaratılmasını ölümün ve yeniden dirilişin kesinliğine bağlar.",
+   [
+    "Ayetleri bugünkü embriyolojiyle karşılaştırmak, yirminci yüzyılda öne çıkan bilimsel icaz yorumudur.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her insan, aşama aşama yaratılmış bir emanettir.",
+    1.6
+   ],
+   [
+    "Ay’ın evreleri ve yörüngeler.",
+    0.7
+   ],
+   "Ay’ın konakları, hilal hâli ve gök cisimlerinin kendi yörüngelerinde yürüdüğü anlatıldı.",
+   [
+    "Bu, Yâsîn suresinde anlatılır.",
+    0.7
+   ],
+   "Yâsîn Suresi, otuz sekizinci ayetin anlamı şöyledir.",
+   "Güneş de yörüngesinde yürüyüp gitmektedir.",
+   [
+    "Bu, güçlü ve bilgin olan Allah'ın kanunudur.",
+    0.7
+   ],
+   "Yâsîn Suresi, otuz dokuzuncu ayetin anlamı şöyledir.",
+   [
+    "Ay için de sonunda kuru bir hurma dalına döneceği konaklar tayin etmişizdir.",
+    0.7
+   ],
+   "Yâsîn Suresi, kırkıncı ayetin anlamı şöyledir.",
+   "Aya erişmek güneşe düşmez.",
+   "Gece de gündüzü geçemez.",
+   [
+    "Her biri bir yörüngede yürürler.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Yâsîn suresinin ayetleri güneşin yörüngesinde yürüyüp gittiğini, Ay için konaklar belirlendiğini ve her birinin bir yörüngede yürüdüğünü bildirir.",
+   "Ay, konaklarını geçtikçe incelir ve sonunda kuru, eğri bir hurma dalına benzer.",
+   [
+    "Bu benzetme Ay’ın görünüşünü, yani incecik hilal hâlini anlatır; Ay’ın yörüngesini değil.",
+    0.7
+   ],
+   [
+    "Bugün bildiğimiz.",
+    0.5
+   ],
+   "Ay, Dünya’nın çevresinde dolanırken Güneş’in aydınlattığı yüzünü bize her gece farklı ölçüde gösterir; ayın sonunda geriye ince, kavisli bir hilal kalır.",
+   "Ay Dünya’nın, Dünya Güneş’in çevresinde dolanır.",
+   [
+    "Güneş de yerinde durmaz: Samanyolu galaksisinin merkezi çevresinde saniyede yaklaşık iki yüz otuz kilometre hızla yol alır.",
+    0.6
+   ],
+   [
+    "Yorum notu.",
+    0.4
+   ],
+   "İbn Kesîr Ay’ın konaklarını onun büyüyüp küçülen evreleriyle, kuru hurma dalını da hurma salkımını ağaca bağlayan eğri sapla açıklar; Güneş’in yörüngesi için farklı görüşleri aktarır.",
+   "Gök cisimlerinin hareketi gözle de görülüyordu.",
+   [
+    "Ayeti Güneş’in de galaksi içinde yol aldığını gösteren bugünkü bilgiyle ilişkilendirmek çağdaş bir yorumdur.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gökteki her şey belirlenmiş bir ölçüyle yürür.",
+    1.6
+   ],
+   [
+    "Dağların hareketi.",
+    0.7
+   ],
+   "Yerinde durur sanılan dağların bulutlar gibi geçtiği bildirildi.",
+   [
+    "Bu, Neml suresinde anlatılır.",
+    0.7
+   ],
+   "Neml Suresi, seksen yedinci ayetin anlamı şöyledir.",
+   "Sura üfürüldüğü gün, Allah'ın diledikleri bir yana, göklerde olanlar da yerde olanlar da, korku içinde kalırlar.",
+   [
+    "Hepsi Allah'a boyunları bükülmüş olarak gelirler.",
+    0.7
+   ],
+   "Neml Suresi, seksen sekizinci ayetin anlamı şöyledir.",
+   "Dağları yerinde donmuş gibi durur görürsün, oysa onlar bulutlar gibi geçerler.",
+   "Bu her şeyi sağlam tutan Allah'ın işidir.",
+   [
+    "Doğrusu O, yaptıklarınızdan haberdardır.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Ayet, dağları yerinde donmuş gibi durur gördüğümüzü ama onların bulutlar gibi geçtiğini bildirir ve Bu her şeyi sağlam tutan Allah’ın işidir der.",
+   [
+    "Ayetten hemen önce Sûr’a üfürüleceği gün anlatılır.",
+    0.7
+   ],
+   [
+    "Bugün bildiğimiz.",
+    0.5
+   ],
+   "Dünya kendi çevresinde döner ve Güneş’in çevresinde dolanır; üzerindeki dağlar da onunla birlikte hareket eder.",
+   [
+    "Yer kabuğunu oluşturan levhalar da yılda birkaç santimetre kayar; dağlar bu levhaların üzerinde yer değiştirir.",
+    0.6
+   ],
+   [
+    "Yorum notu.",
+    0.4
+   ],
+   "Bu ayet Sûr’a üfürülme anlatımının içinde yer alır.",
+   "Kur’an Yolu tefsiri dahil müfessirlerin çoğu dağların geçişini kıyamet günüyle açıklar.",
+   [
+    "Bazı müfessirler ise ayeti Dünya’nın hareketine işaret olarak değerlendirmiştir; bu çağdaş bir yorumdur.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sapasağlam görünen dağlar bile Allah’ın dilediği gibi hareket eder.",
+    1.6
+   ],
+   [
+    "Evrenin genişlemesi.",
+    0.7
+   ],
+   "Göğü Allah’ın kurduğu ve onu genişlettiği bildirildi.",
+   [
+    "Bu, Zâriyât suresinde anlatılır.",
+    0.7
+   ],
+   "Zâriyât Suresi, kırk yedinci ayetin anlamı şöyledir.",
+   [
+    "Göğü, gücümüzle Biz kurduk; şüphesiz biz onu genişleticiyiz.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Ayet, göğü Allah’ın kudretiyle kurduğunu bildirir.",
+   [
+    "Diyanet meali ayetin sonunu Şüphesiz biz onu genişleticiyiz diye çevirir.",
+    0.7
+   ],
+   [
+    "Bugün bildiğimiz.",
+    0.5
+   ],
+   "Yirminci yüzyılın başına kadar evren durağan sanılıyordu.",
+   "Ancak bin dokuz yüz yirmili yıllarda yapılan gözlemler galaksilerin bizden uzaklaştığını, yani evrenin genişlediğini gösterdi.",
+   [
+    "Bugün evrenin genişlemesi gökbilimin temel bulgularından biridir.",
+    0.6
+   ],
+   [
+    "Yorum notu.",
+    0.4
+   ],
+   "İbn Kesîr bu ifadeyi, Allah’ın göğü geniş kıldığı ve onu direksiz yükselttiği anlamında açıklar.",
+   [
+    "Ayeti evrenin genişlemesiyle ilişkilendirmek çağdaş bir yorumdur.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Evren, onu kuran Allah’ın kudretiyle genişler.",
+    1.6
+   ],
+   [
+    "İki deniz arasındaki engel.",
+    0.7
+   ],
+   "Tatlı ve tuzlu suyun buluştuğu yerde aralarında bir engel olduğu bildirildi.",
+   [
+    "Bu, Rahmân ve Furkan surelerinde anlatılır.",
+    0.7
+   ],
+   "Rahmân Suresi, on dokuzuncu ve yirminci ayetlerin anlamı şöyledir.",
+   "Acı ve tatlı sulu iki denizi birbirine kavuşmamak üzere salıvermiştir.",
+   [
+    "Aralarında bir engel vardır; birbirinin sınırını aşamazlar.",
+    0.7
+   ],
+   "Furkan Suresi, elli üçüncü ayetin anlamı şöyledir.",
+   [
+    "Birinin suyu tatlı ve kolay içimli, diğerininki tuzlu ve acı olan iki denizi salıverip aralarına da, karışmalarına engel olan bir sınır koyan Allah'tır.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   "Rahmân suresi, acı ve tatlı sulu iki denizin birbirine kavuşmamak üzere salıverildiğini, aralarında bir engel bulunduğunu bildirir.",
+   [
+    "Furkan suresindeki ayet de iki denizin arasına karışmalarına engel olan bir sınır konduğunu söyler.",
+    0.7
+   ],
+   [
+    "Bugün bildiğimiz.",
+    0.5
+   ],
+   "Tuzluluğu, sıcaklığı ve yoğunluğu farklı sular karşılaştıkları yerde hemen karışmaz; aralarında bir geçiş bölgesi oluşur.",
+   [
+    "Örneğin Akdeniz’in daha tuzlu ve ağır suyu Cebelitarık Boğazı’ndan Atlas Okyanusu’na geçerken derinlerde uzun süre kendi özelliğini korur.",
+    0.6
+   ],
+   [
+    "Yorum notu.",
+    0.4
+   ],
+   "İbn Kesîr tatlı suyun akan ırmaklardan geldiğini söyler ve engeli iki suyun arasındaki bir kara parçası olarak açıklar.",
+   [
+    "Bu engeli suların yoğunluk farkıyla açıklamak çağdaş bir yorumdur; Türkiye Diyanet Vakfı İslâm Ansiklopedisi, tatlı ve tuzlu su arasındaki engeli bilimsel icaz yorumunun örnekleri arasında sayar.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah, birbirine karışacak gibi duran suların arasına bile bir ölçü koymuştur.",
+    1.6
+   ],
+   [
+    "Göklerin ve yerin ayrılması.",
+    0.7
+   ],
+   "Göklerle yerin bitişikken ayrıldığı ve bütün canlıların sudan yaratıldığı bildirildi.",
+   [
+    "Bu, Enbiyâ suresinde anlatılır.",
+    0.7
+   ],
+   "Enbiyâ Suresi, otuzuncu ayetin anlamı şöyledir.",
+   "İnkar edenler, gökler ve yer yapışıkken onları ayırdığımızı ve bütün canlıları sudan meydana getirdiğimizi bilmezler mi?",
+   [
+    "İnanmıyorlar mı.",
+    0.7
+   ],
+   [
+    "Ayet ne bildiriyor?",
+    0.5
+   ],
+   [
+    "Ayet, göklerin ve yerin yapışıkken ayrıldığını ve bütün canlıların sudan meydana getirildiğini bildirir; sonra Yine de inanmıyorlar mı? diye sorar.",
+    0.7
+   ],
+   [
+    "Bugün bildiğimiz.",
+    0.5
+   ],
+   "Bugünkü gökbilim, evrenin yaklaşık on üç milyar sekiz yüz milyon yıl önce çok yoğun bir başlangıç hâlinden genişleyerek oluştuğunu söyler.",
+   [
+    "Canlıların hücrelerinin büyük kısmı sudur; bilinen hiçbir canlı su olmadan yaşayamaz.",
+    0.6
+   ],
+   [
+    "Yorum notu.",
+    0.4
+   ],
+   "İbn Kesîr ratk, bitişiklik, ve fatk, ayırma, kelimelerini göklerle yerin bitişikken ayrılması olarak açıklar; İbn Abbâs’tan, bitişikken yağmur yağmadığı ve bitki bitmediği, ayrılınca gökten yağmur yağıp yerden bitki bittiği yorumunu da aktarır.",
+   [
+    "Ayeti evrenin bir başlangıçtan genişleyerek oluşmasıyla ilişkilendirmek çağdaş bir yorumdur.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gökleri ayıran da canlıya sudan hayat veren de Allah’tır.",
+    1.6
+   ],
+   [
+    "Bu sayfalar nasıl okunmalı?",
+    0.8
+   ],
+   "Birinci ölçü: yalnızca Kur’an. Mucizeler Kur’an ayetlerinden seçildi. Hadis rivayetlerine dayanan mucizeler bu uygulamada yer almaz.",
+   "İkinci ölçü: gelecekten haberler. Bunlar, ayetin indiği gün henüz olmamış, sonra gerçekleşmiş olaylardır. Gerçekleşmeyi anlatan tarih bilgisi ayrıca verilir.",
+   [
+    "Üçüncü ölçü: o gün bilinmeyenler.",
+    0.3
+   ],
+   "Ayetle bilimsel bilgi arasında kurulan bağ, yirminci yüzyılda öne çıkan ve bazı âlimlerin benimsediği bir yorumdur, bilimsel icaz.",
+   "Bilim yenilendikçe değişebilir, ayet değişmez.",
+   "Bu yüzden her sayfada ayetin meali, bugünkü bilgi ve bu bağı kimin kurduğu ayrı ayrı yazılır.",
+   "Dördüncü ölçü: klasik tefsir de söylenir. Müfessirlerin ayeti nasıl anladığı yorum notunda yer alır; çağdaş yorumla ayrıldığı yer açıkça belirtilir.",
+   [
+    "Türkiye Diyanet Vakfı İslâm Ansiklopedisi, Kur’an’ın benzerinin getirilemeyişini ve gelecekten verdiği haberleri icazın yönleri arasında sayar; bilimsel icazı ise yirminci yüzyılda öne çıkan, bazı âlimlerin benimsediği bir yorum olarak aktarır.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Kur’an’dan Mucizeler",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Kur’an’dan Mucizeler.",
+     0.8
+    ],
+    "Kur’an bir bilim kitabı değil, insanlığa yol gösteren bir kitaptır.",
+    "Bu uygulamada iki tür ayet var: Kur’an’ın önceden haber verdiği ve sonra gerçekleşen olaylar; indiği dönemde bilinmeyen, bugün bilimin ortaya koyduğu bilgilerle birlikte düşünülen ayetler.",
+    [
+     "Önce altı haber, sonra altı ayet dinleyeceğiz.",
+     0.6
+    ],
+    "Her sayfada ayetin anlamını, ayetin ne bildirdiğini ve ardından ya gerçekleşen olayı ya da bugünkü bilgiyi öğreneceğiz.",
+    "Ayetlerin anlamı, Diyanet İşleri Başkanlığı mealinden okunur.",
+    "Ayetle bilimsel bilgi arasında kurulan bağ, yirminci yüzyılda öne çıkan ve bazı âlimlerin benimsediği bir yorumdur, bilimsel icaz.",
+    "Bilim yenilendikçe değişebilir, ayet değişmez.",
+    [
+     "Bu yüzden her sayfada ayetin meali, bugünkü bilgi ve bu bağı kimin kurduğu ayrı ayrı yazılır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-rum",
+   "baslik": "Rumların zaferi",
+   "tur": "Gelecekten haberler",
+   "parcalar": [
+    [
+     "Gelecekten haberler.",
+     0.8
+    ],
+    [
+     "Rumların zaferi.",
+     0.7
+    ],
+    "Yenilen Rumların birkaç yıl içinde galip geleceği haber verildi.",
+    [
+     "Bu, Rûm suresinde anlatılır.",
+     0.7
+    ],
+    "Rûm Suresi, ikinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Rumlar en yakın bir yerde yenildiler.",
+    "Onlar bu yenilgilerinden bir kaç yıl sonra galip geleceklerdir.",
+    "İş, eninde sonunda Allah'a aittir.",
+    "İşte o gün, inananlar, istediğine yardım eden Allah'ın yardımına sevineceklerdir.",
+    [
+     "O güçlüdür, merhametlidir.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Rûm suresi Mekke’de, Rumların yani Bizanslıların İranlılara yenildiği yıllarda indi.",
+    "Ayet bu yenilgiyi bildirir ve Rumların birkaç yıl içinde galip geleceğini haber verir.",
+    "Ayetteki bidı sinîn ifadesi, Arapçada üç ile dokuz arasındaki bir sayıyı anlatır; Diyanet meali bir kaç yıl diye çevirir.",
+    [
+     "O gün Bizans’ın yeniden ayağa kalkacağını kimse beklemiyordu.",
+     0.7
+    ],
+    [
+     "Ne oldu?",
+     0.5
+    ],
+    "İranlılar altı yüz on üçte Bizans ordusunu Antakya’da yendi, altı yüz on dörtte Kudüs’ü aldı.",
+    "İmparator Herakleios altı yüz yirmi ikide karşı saldırıya geçti ve altı yüz yirmi yedide Ninova yakınlarında İran ordusunu ağır bir yenilgiye uğrattı.",
+    "Savaş altı yüz yirmi sekizde barışla bitti.",
+    [
+     "Böylece Rumlar, ayetin bildirdiği gibi, büyük yenilgiden birkaç yıl sonra galip geldiler.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Herkesin bittiğini sandığı bir iş, Allah dilerse birkaç yıl içinde tersine döner.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-ebuleheb",
+   "baslik": "Ebu Leheb",
+   "tur": "Gelecekten haberler",
+   "parcalar": [
+    [
+     "Ebu Leheb.",
+     0.7
+    ],
+    "Peygamberimizin amcası Ebu Leheb’in iman etmeyeceği, o daha hayattayken bildirildi.",
+    [
+     "Bu, Tebbet suresinde anlatılır.",
+     0.7
+    ],
+    "Tebbet Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Ebu Leheb'in elleri kurusun; kurudu da.",
+    "Malı ve kazandığı kendisine fayda vermedi.",
+    "Alevli ateşe yaslanacaktır.",
+    [
+     "Karısı da, boynunda bir ip olduğu halde ona odun taşıyacaktır.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Tebbet suresi, Peygamberimize düşmanlık eden amcası Ebu Leheb ve karısı hakkında indi.",
+    "Bir müşrikin adıyla anılarak karısıyla birlikte uyarıldığı ilk ayetler bunlardır.",
+    "Sure, Ebu Leheb’in alevli ateşe gireceğini bildirir.",
+    "Bu, onun inkâr üzere öleceğini haber vermektir.",
+    [
+     "Ebu Leheb sure indikten sonra da yıllarca yaşadı.",
+     0.7
+    ],
+    [
+     "Ne oldu?",
+     0.5
+    ],
+    "Ebu Leheb, hiç değilse görünüşte Müslüman olduğunu söyleyerek bu haberi yalanlayabilirdi.",
+    "Bunu yapmadı; hayatı boyunca Peygamberimize karşı çıkanlardan biri olarak kaldı.",
+    [
+     "Bedir’de müşriklerin yenildiğini öğrendikten birkaç gün sonra, hicretin ikinci yılında, yani altı yüz yirmi dört yılında, Mekke’de öldü.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bir insanın ne yapacağını ancak Allah bilir; Kur’an onu yıllar önce bildirdi.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-bedir",
+   "baslik": "Bedir’deki bozgun",
+   "tur": "Gelecekten haberler",
+   "parcalar": [
+    [
+     "Bedir’deki bozgun.",
+     0.7
+    ],
+    "Güçlerine güvenen inkârcıların bozguna uğrayacağı, Müslümanlar Mekke’de azken haber verildi.",
+    [
+     "Bu, Kamer suresinde anlatılır.",
+     0.7
+    ],
+    "Kamer Suresi, kırk dördüncü ve kırk beşinci ayetlerin anlamı şöyledir.",
+    "Yoksa: Biz öç alabilecek bir topluluğuz mu diyorlar.",
+    [
+     "Toplulukları dağıtılacak, yüzgeri edileceklerdir.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Kamer suresi Mekke’de indi.",
+    "O günlerde Müslümanlar az ve güçsüzdü; Mekkeli inkârcılar ise Biz öç alabilecek bir topluluğuz diyordu.",
+    [
+     "Ayet, bu topluluğun dağıtılacağını ve arkasını dönüp kaçacağını bildirir.",
+     0.7
+    ],
+    [
+     "Ne oldu?",
+     0.5
+    ],
+    "Hicretin ikinci yılında, yani altı yüz yirmi dört yılında, Bedir’de karşılaşan iki ordudan Mekke ordusu bozguna uğradı ve geri çekildi.",
+    [
+     "Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre ayet, Kureyş’in Bedir’de bozguna uğrayacağını müjdeler.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sayıya ve güce güvenen değil, Allah’a güvenen kazanır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-mescid",
+   "baslik": "Mescid-i Haram’a giriş",
+   "tur": "Gelecekten haberler",
+   "parcalar": [
+    [
+     "Mescid-i Haram’a giriş.",
+     0.7
+    ],
+    "Kâbe’ye gidemeden geri dönen Müslümanlara, oraya güven içinde girecekleri bildirildi.",
+    [
+     "Bu, Fetih suresinde anlatılır.",
+     0.7
+    ],
+    "Fetih Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+    "And olsun ki Allah, Peygamberinin rüyasının gerçek olduğunu tasdik eder.",
+    "Ey inananlar!",
+    "Siz, Allah dilerse, güven içinde, başlarınızı tıraş etmiş veya saçlarınızı kısaltmış olarak, korkmadan Mescidi Haram'a gireceksiniz.",
+    "Allah, sizin bilmediğinizi bilir.",
+    [
+     "Size, bundan başka, yakın zamanda bir zafer verecektir.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Hicretin altıncı yılında Müslümanlar umre için yola çıktılar ama Mekkeliler onları Kâbe’ye sokmadı; Hudeybiye’de antlaşma yapılıp geri dönüldü.",
+    [
+     "Bu ayet, Peygamberimizin gördüğü rüyanın doğru olduğunu bildirir: Müslümanlar Mescid-i Haram’a güven içinde, başlarını tıraş etmiş ya da saçlarını kısaltmış olarak, korkmadan gireceklerdi.",
+     0.7
+    ],
+    [
+     "Ne oldu?",
+     0.5
+    ],
+    "Ertesi yıl, hicretin yedinci yılında, yani altı yüz yirmi dokuz yılında, Müslümanlar Mekke’ye gidip umrelerini yaptılar.",
+    "Bu umreye, önceki yıl yapılamayanın yerine yapıldığı için Umretü’l-kazâ denir.",
+    [
+     "Türkiye Diyanet Vakfı İslâm Ansiklopedisi bu umreyi, ayetteki rüyanın aynen gerçekleşmesi olarak anlatır.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ın vaadi ertelense de yerine gelir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-koruma",
+   "baslik": "Kur’an’ın korunması",
+   "tur": "Gelecekten haberler",
+   "parcalar": [
+    [
+     "Kur’an’ın korunması.",
+     0.7
+    ],
+    "Kur’an’ın korunacağı, daha inmesi tamamlanmadan bildirildi.",
+    [
+     "Bu, Hicr suresinde anlatılır.",
+     0.7
+    ],
+    "Hicr Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Doğrusu Kitap'ı Biz indirdik, onun koruyucusu elbette Biziz.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Hicr suresi Mekke’de indi.",
+    "O gün Kur’an’ın inişi daha bitmemişti ve onu ezberleyip yazanlar bir avuç insandı.",
+    [
+     "Ayet, Kur’an’ı Allah’ın indirdiğini ve onu yine Allah’ın koruyacağını bildirir.",
+     0.7
+    ],
+    [
+     "Ne oldu?",
+     0.5
+    ],
+    "Kur’an hem ezberlenerek hem yazılarak korundu.",
+    "Peygamberimizden sonra Hazreti Ebû Bekir döneminde bir araya getirildi, Hazreti Osman döneminde çoğaltılıp şehirlere gönderildi.",
+    [
+     "On dört asırdır dünyanın her yerinde aynı metin okunur ve milyonlarca hâfız onu ezberinde taşır.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an’ı koruyan Allah’tır; onu ezberleyen ve okuyan her insan bu korumaya vesile olur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-benzeri",
+   "baslik": "Benzeri getirilemez",
+   "tur": "Gelecekten haberler",
+   "parcalar": [
+    [
+     "Benzeri getirilemez.",
+     0.7
+    ],
+    "Kur’an’dan şüphe edenlere bir sure getirmeleri söylendi ve bunu asla yapamayacakları bildirildi.",
+    [
+     "Bu, Bakara ve İsrâ surelerinde anlatılır.",
+     0.7
+    ],
+    "Bakara Suresi, yirmi üçüncü ve yirmi dördüncü ayetlerin anlamı şöyledir.",
+    "Kulumuza indirdiğimiz Kuran'dan şüphe ediyorsanız, siz de onun benzeri bir sure meydana getirin; eğer doğru sözlü iseniz, Allah'tan başka, güvendiklerinizi de yardıma çağırın.",
+    [
+     "Yapamazsanız ki yapamayacaksınız o takdirde, inkar edenler için hazırlanan ve yakıtı insanlarla taş olan ateşten sakının.",
+     0.7
+    ],
+    "İsrâ Suresi, seksen sekizinci ayetin anlamı şöyledir.",
+    [
+     "De ki: İnsanlar ve cinler, birbirine yardımcı olarak bu Kuran'ın bir benzerini ortaya koymak için bir araya gelseler, and olsun ki, yine de benzerini ortaya koyamazlar.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Kur’an, ondan şüphe edenleri benzeri bir sure getirmeye çağırır.",
+    "Bakara suresinin ayeti, yapamazsanız, ki asla yapamayacaksınız diyerek bir haber de verir.",
+    [
+     "İsrâ suresindeki ayet ise insanların ve cinlerin birbirine yardım etse bile Kur’an’ın benzerini ortaya koyamayacağını bildirir.",
+     0.7
+    ],
+    [
+     "Ne oldu?",
+     0.5
+    ],
+    "Bu çağrı, şiir ve söz ustalığıyla övünen Araplara yapıldı.",
+    "Kur’an’a karşı çıkanlar onunla savaşmayı bile göze aldılar ama bir sure getirerek çağrıya karşılık veremediler.",
+    [
+     "O günden bu yana yapılan denemelerin hiçbiri Kur’an’ın benzeri sayılmadı.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an’ın sözü insan sözüne benzemez; ondan şüphe edenlere hâlâ aynı çağrıyı yapar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-yaratilis",
+   "baslik": "Ana rahminde yaratılış",
+   "tur": "O gün bilinmeyenler",
+   "parcalar": [
+    [
+     "O gün bilinmeyenler.",
+     0.8
+    ],
+    [
+     "Ana rahminde yaratılış.",
+     0.7
+    ],
+    "İnsanın ana rahmindeki gelişimi aşama aşama anlatıldı.",
+    [
+     "Bu, Mü’minûn suresinde anlatılır.",
+     0.7
+    ],
+    "Mü’minûn Suresi, on ikinci ile on dördüncü ayetler arasının anlamı şöyledir.",
+    "And olsun ki, insanı süzme çamurdan yarattık.",
+    "Sonra onu nutfe halinde sağlam bir yere yerleştirdik.",
+    "Sonra nutfeyi kan pıhtısına çevirdik, kan pıhtısını bir çiğnemlik et yaptık, bir çiğnemlik etten kemikler yarattık, kemiklere de et giydirdik.",
+    [
+     "Sonra onu başka bir yaratık yaptık: Biçim verenlerin en güzeli olan Allah ne uludur.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Ayetler insanın yaratılışını sırayla anlatır: süzme çamur, sağlam bir yere yerleştirilen nutfe, alaka, Diyanet meali: kan pıhtısı, bir çiğnemlik et, kemikler ve kemiklere giydirilen et.",
+    [
+     "Ayet, Biçim verenlerin en güzeli olan Allah ne yücedir sözüyle biter.",
+     0.7
+    ],
+    [
+     "Bugün bildiğimiz.",
+     0.5
+    ],
+    "Embriyoloji, bebeğin ana rahminde birbirini izleyen evrelerle geliştiğini gösterir.",
+    "Haftalar ilerledikçe kıkırdaktan bir iskelet taslağı belirir, kaslar bu iskeletin çevresinde gelişip onu sarar.",
+    [
+     "Bu evreleri ayrıntısıyla görmek mikroskopla mümkün oldu; bilimsel embriyoloji on yedinci yüzyıldan sonra gelişti.",
+     0.6
+    ],
+    [
+     "Yorum notu.",
+     0.4
+    ],
+    "İbn Kesîr bu ayetleri aşama aşama açıklar ve insanın böyle yaratılmasını ölümün ve yeniden dirilişin kesinliğine bağlar.",
+    [
+     "Ayetleri bugünkü embriyolojiyle karşılaştırmak, yirminci yüzyılda öne çıkan bilimsel icaz yorumudur.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her insan, aşama aşama yaratılmış bir emanettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-ay",
+   "baslik": "Ay’ın evreleri ve yörüngeler",
+   "tur": "O gün bilinmeyenler",
+   "parcalar": [
+    [
+     "Ay’ın evreleri ve yörüngeler.",
+     0.7
+    ],
+    "Ay’ın konakları, hilal hâli ve gök cisimlerinin kendi yörüngelerinde yürüdüğü anlatıldı.",
+    [
+     "Bu, Yâsîn suresinde anlatılır.",
+     0.7
+    ],
+    "Yâsîn Suresi, otuz sekizinci ayetin anlamı şöyledir.",
+    "Güneş de yörüngesinde yürüyüp gitmektedir.",
+    [
+     "Bu, güçlü ve bilgin olan Allah'ın kanunudur.",
+     0.7
+    ],
+    "Yâsîn Suresi, otuz dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Ay için de sonunda kuru bir hurma dalına döneceği konaklar tayin etmişizdir.",
+     0.7
+    ],
+    "Yâsîn Suresi, kırkıncı ayetin anlamı şöyledir.",
+    "Aya erişmek güneşe düşmez.",
+    "Gece de gündüzü geçemez.",
+    [
+     "Her biri bir yörüngede yürürler.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Yâsîn suresinin ayetleri güneşin yörüngesinde yürüyüp gittiğini, Ay için konaklar belirlendiğini ve her birinin bir yörüngede yürüdüğünü bildirir.",
+    "Ay, konaklarını geçtikçe incelir ve sonunda kuru, eğri bir hurma dalına benzer.",
+    [
+     "Bu benzetme Ay’ın görünüşünü, yani incecik hilal hâlini anlatır; Ay’ın yörüngesini değil.",
+     0.7
+    ],
+    [
+     "Bugün bildiğimiz.",
+     0.5
+    ],
+    "Ay, Dünya’nın çevresinde dolanırken Güneş’in aydınlattığı yüzünü bize her gece farklı ölçüde gösterir; ayın sonunda geriye ince, kavisli bir hilal kalır.",
+    "Ay Dünya’nın, Dünya Güneş’in çevresinde dolanır.",
+    [
+     "Güneş de yerinde durmaz: Samanyolu galaksisinin merkezi çevresinde saniyede yaklaşık iki yüz otuz kilometre hızla yol alır.",
+     0.6
+    ],
+    [
+     "Yorum notu.",
+     0.4
+    ],
+    "İbn Kesîr Ay’ın konaklarını onun büyüyüp küçülen evreleriyle, kuru hurma dalını da hurma salkımını ağaca bağlayan eğri sapla açıklar; Güneş’in yörüngesi için farklı görüşleri aktarır.",
+    "Gök cisimlerinin hareketi gözle de görülüyordu.",
+    [
+     "Ayeti Güneş’in de galaksi içinde yol aldığını gösteren bugünkü bilgiyle ilişkilendirmek çağdaş bir yorumdur.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gökteki her şey belirlenmiş bir ölçüyle yürür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-daglar",
+   "baslik": "Dağların hareketi",
+   "tur": "O gün bilinmeyenler",
+   "parcalar": [
+    [
+     "Dağların hareketi.",
+     0.7
+    ],
+    "Yerinde durur sanılan dağların bulutlar gibi geçtiği bildirildi.",
+    [
+     "Bu, Neml suresinde anlatılır.",
+     0.7
+    ],
+    "Neml Suresi, seksen yedinci ayetin anlamı şöyledir.",
+    "Sura üfürüldüğü gün, Allah'ın diledikleri bir yana, göklerde olanlar da yerde olanlar da, korku içinde kalırlar.",
+    [
+     "Hepsi Allah'a boyunları bükülmüş olarak gelirler.",
+     0.7
+    ],
+    "Neml Suresi, seksen sekizinci ayetin anlamı şöyledir.",
+    "Dağları yerinde donmuş gibi durur görürsün, oysa onlar bulutlar gibi geçerler.",
+    "Bu her şeyi sağlam tutan Allah'ın işidir.",
+    [
+     "Doğrusu O, yaptıklarınızdan haberdardır.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Ayet, dağları yerinde donmuş gibi durur gördüğümüzü ama onların bulutlar gibi geçtiğini bildirir ve Bu her şeyi sağlam tutan Allah’ın işidir der.",
+    [
+     "Ayetten hemen önce Sûr’a üfürüleceği gün anlatılır.",
+     0.7
+    ],
+    [
+     "Bugün bildiğimiz.",
+     0.5
+    ],
+    "Dünya kendi çevresinde döner ve Güneş’in çevresinde dolanır; üzerindeki dağlar da onunla birlikte hareket eder.",
+    [
+     "Yer kabuğunu oluşturan levhalar da yılda birkaç santimetre kayar; dağlar bu levhaların üzerinde yer değiştirir.",
+     0.6
+    ],
+    [
+     "Yorum notu.",
+     0.4
+    ],
+    "Bu ayet Sûr’a üfürülme anlatımının içinde yer alır.",
+    "Kur’an Yolu tefsiri dahil müfessirlerin çoğu dağların geçişini kıyamet günüyle açıklar.",
+    [
+     "Bazı müfessirler ise ayeti Dünya’nın hareketine işaret olarak değerlendirmiştir; bu çağdaş bir yorumdur.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sapasağlam görünen dağlar bile Allah’ın dilediği gibi hareket eder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-genisleme",
+   "baslik": "Evrenin genişlemesi",
+   "tur": "O gün bilinmeyenler",
+   "parcalar": [
+    [
+     "Evrenin genişlemesi.",
+     0.7
+    ],
+    "Göğü Allah’ın kurduğu ve onu genişlettiği bildirildi.",
+    [
+     "Bu, Zâriyât suresinde anlatılır.",
+     0.7
+    ],
+    "Zâriyât Suresi, kırk yedinci ayetin anlamı şöyledir.",
+    [
+     "Göğü, gücümüzle Biz kurduk; şüphesiz biz onu genişleticiyiz.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Ayet, göğü Allah’ın kudretiyle kurduğunu bildirir.",
+    [
+     "Diyanet meali ayetin sonunu Şüphesiz biz onu genişleticiyiz diye çevirir.",
+     0.7
+    ],
+    [
+     "Bugün bildiğimiz.",
+     0.5
+    ],
+    "Yirminci yüzyılın başına kadar evren durağan sanılıyordu.",
+    "Ancak bin dokuz yüz yirmili yıllarda yapılan gözlemler galaksilerin bizden uzaklaştığını, yani evrenin genişlediğini gösterdi.",
+    [
+     "Bugün evrenin genişlemesi gökbilimin temel bulgularından biridir.",
+     0.6
+    ],
+    [
+     "Yorum notu.",
+     0.4
+    ],
+    "İbn Kesîr bu ifadeyi, Allah’ın göğü geniş kıldığı ve onu direksiz yükselttiği anlamında açıklar.",
+    [
+     "Ayeti evrenin genişlemesiyle ilişkilendirmek çağdaş bir yorumdur.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Evren, onu kuran Allah’ın kudretiyle genişler.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-denizler",
+   "baslik": "İki deniz arasındaki engel",
+   "tur": "O gün bilinmeyenler",
+   "parcalar": [
+    [
+     "İki deniz arasındaki engel.",
+     0.7
+    ],
+    "Tatlı ve tuzlu suyun buluştuğu yerde aralarında bir engel olduğu bildirildi.",
+    [
+     "Bu, Rahmân ve Furkan surelerinde anlatılır.",
+     0.7
+    ],
+    "Rahmân Suresi, on dokuzuncu ve yirminci ayetlerin anlamı şöyledir.",
+    "Acı ve tatlı sulu iki denizi birbirine kavuşmamak üzere salıvermiştir.",
+    [
+     "Aralarında bir engel vardır; birbirinin sınırını aşamazlar.",
+     0.7
+    ],
+    "Furkan Suresi, elli üçüncü ayetin anlamı şöyledir.",
+    [
+     "Birinin suyu tatlı ve kolay içimli, diğerininki tuzlu ve acı olan iki denizi salıverip aralarına da, karışmalarına engel olan bir sınır koyan Allah'tır.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    "Rahmân suresi, acı ve tatlı sulu iki denizin birbirine kavuşmamak üzere salıverildiğini, aralarında bir engel bulunduğunu bildirir.",
+    [
+     "Furkan suresindeki ayet de iki denizin arasına karışmalarına engel olan bir sınır konduğunu söyler.",
+     0.7
+    ],
+    [
+     "Bugün bildiğimiz.",
+     0.5
+    ],
+    "Tuzluluğu, sıcaklığı ve yoğunluğu farklı sular karşılaştıkları yerde hemen karışmaz; aralarında bir geçiş bölgesi oluşur.",
+    [
+     "Örneğin Akdeniz’in daha tuzlu ve ağır suyu Cebelitarık Boğazı’ndan Atlas Okyanusu’na geçerken derinlerde uzun süre kendi özelliğini korur.",
+     0.6
+    ],
+    [
+     "Yorum notu.",
+     0.4
+    ],
+    "İbn Kesîr tatlı suyun akan ırmaklardan geldiğini söyler ve engeli iki suyun arasındaki bir kara parçası olarak açıklar.",
+    [
+     "Bu engeli suların yoğunluk farkıyla açıklamak çağdaş bir yorumdur; Türkiye Diyanet Vakfı İslâm Ansiklopedisi, tatlı ve tuzlu su arasındaki engeli bilimsel icaz yorumunun örnekleri arasında sayar.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah, birbirine karışacak gibi duran suların arasına bile bir ölçü koymuştur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-ayrilma",
+   "baslik": "Göklerin ve yerin ayrılması",
+   "tur": "O gün bilinmeyenler",
+   "parcalar": [
+    [
+     "Göklerin ve yerin ayrılması.",
+     0.7
+    ],
+    "Göklerle yerin bitişikken ayrıldığı ve bütün canlıların sudan yaratıldığı bildirildi.",
+    [
+     "Bu, Enbiyâ suresinde anlatılır.",
+     0.7
+    ],
+    "Enbiyâ Suresi, otuzuncu ayetin anlamı şöyledir.",
+    "İnkar edenler, gökler ve yer yapışıkken onları ayırdığımızı ve bütün canlıları sudan meydana getirdiğimizi bilmezler mi?",
+    [
+     "İnanmıyorlar mı.",
+     0.7
+    ],
+    [
+     "Ayet ne bildiriyor?",
+     0.5
+    ],
+    [
+     "Ayet, göklerin ve yerin yapışıkken ayrıldığını ve bütün canlıların sudan meydana getirildiğini bildirir; sonra Yine de inanmıyorlar mı? diye sorar.",
+     0.7
+    ],
+    [
+     "Bugün bildiğimiz.",
+     0.5
+    ],
+    "Bugünkü gökbilim, evrenin yaklaşık on üç milyar sekiz yüz milyon yıl önce çok yoğun bir başlangıç hâlinden genişleyerek oluştuğunu söyler.",
+    [
+     "Canlıların hücrelerinin büyük kısmı sudur; bilinen hiçbir canlı su olmadan yaşayamaz.",
+     0.6
+    ],
+    [
+     "Yorum notu.",
+     0.4
+    ],
+    "İbn Kesîr ratk, bitişiklik, ve fatk, ayırma, kelimelerini göklerle yerin bitişikken ayrılması olarak açıklar; İbn Abbâs’tan, bitişikken yağmur yağmadığı ve bitki bitmediği, ayrılınca gökten yağmur yağıp yerden bitki bittiği yorumunu da aktarır.",
+    [
+     "Ayeti evrenin bir başlangıçtan genişleyerek oluşmasıyla ilişkilendirmek çağdaş bir yorumdur.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gökleri ayıran da canlıya sudan hayat veren de Allah’tır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "olcu",
+   "baslik": "Ölçü",
+   "tur": "Ölçü",
+   "parcalar": [
+    [
+     "Bu sayfalar nasıl okunmalı?",
+     0.8
+    ],
+    "Birinci ölçü: yalnızca Kur’an. Mucizeler Kur’an ayetlerinden seçildi. Hadis rivayetlerine dayanan mucizeler bu uygulamada yer almaz.",
+    "İkinci ölçü: gelecekten haberler. Bunlar, ayetin indiği gün henüz olmamış, sonra gerçekleşmiş olaylardır. Gerçekleşmeyi anlatan tarih bilgisi ayrıca verilir.",
+    [
+     "Üçüncü ölçü: o gün bilinmeyenler.",
+     0.3
+    ],
+    "Ayetle bilimsel bilgi arasında kurulan bağ, yirminci yüzyılda öne çıkan ve bazı âlimlerin benimsediği bir yorumdur, bilimsel icaz.",
+    "Bilim yenilendikçe değişebilir, ayet değişmez.",
+    "Bu yüzden her sayfada ayetin meali, bugünkü bilgi ve bu bağı kimin kurduğu ayrı ayrı yazılır.",
+    "Dördüncü ölçü: klasik tefsir de söylenir. Müfessirlerin ayeti nasıl anladığı yorum notunda yer alır; çağdaş yorumla ayrıldığı yer açıkça belirtilir.",
+    [
+     "Türkiye Diyanet Vakfı İslâm Ansiklopedisi, Kur’an’ın benzerinin getirilemeyişini ve gelecekten verdiği haberleri icazın yönleri arasında sayar; bilimsel icazı ise yirminci yüzyılda öne çıkan, bazı âlimlerin benimsediği bir yorum olarak aktarır.",
+     1
+    ]
+   ]
+  }
+ ]
+}

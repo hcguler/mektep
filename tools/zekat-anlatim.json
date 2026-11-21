@@ -1,0 +1,2920 @@
+{
+ "_aciklama": "Zekât ve Sadaka Rehberi sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: giriş ve her konu ayrı kayıt. Hesaplayıcı anlatıma girmez. Her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça metin seslendirilmez; ayetin Diyanet meali okunur. Bu dosya tools/zekat-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Zekât ve Sadaka Rehberi: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-zekat-nedir",
+   "02-zekat-vermemek",
+   "03-kime-farz",
+   "04-borclar",
+   "05-yil",
+   "06-niyet-temlik",
+   "07-nisap",
+   "08-gumus-nisabi",
+   "09-kirkta-bir",
+   "10-para",
+   "11-altin-ziynet",
+   "12-ticaret",
+   "13-hisse",
+   "14-alacak",
+   "15-hayvan",
+   "16-osur",
+   "17-muaf",
+   "18-sekiz-sinif",
+   "19-fakir-miskin",
+   "20-akraba",
+   "21-kurumlar",
+   "22-verme-adabi",
+   "23-usul-furu",
+   "24-es",
+   "25-zengin",
+   "26-gayrimuslim",
+   "27-peygamber-ailesi",
+   "28-yanilma",
+   "29-fitir-sadakasi",
+   "30-fitre-kim-verir",
+   "31-fitre-zamani",
+   "32-fitre-kime",
+   "33-fitre-zekat",
+   "34-oruc-fidyesi",
+   "35-oruc-kefareti",
+   "36-yemin-kefareti",
+   "37-infak",
+   "38-sadaka",
+   "39-her-iyilik",
+   "40-sadaka-adabi",
+   "41-once-yakinlar",
+   "42-sadaka-i-cariye",
+   "43-adak"
+  ],
+  "parcalar": [
+   [
+    "Zekât ve Sadaka Rehberi.",
+    0.8
+   ],
+   [
+    "Zekâtı, fıtır sadakasını, fidyeyi, kefareti ve gönüllü sadakayı kaynağıyla birlikte öğreneceğiz.",
+    0.6
+   ],
+   "Bana zekât düşüyor mu, ne kadar, kime verebilirim, fitre ile zekâtın farkı ne? Bu soruların cevabını bölüm bölüm bulacaksınız.",
+   "Her konuda önce kısa açıklamayı, varsa ayetin mealini ve Peygamberimizin sahih hadisini dinleyeceksiniz.",
+   "Hükümler Diyanet İşleri Başkanlığının yayınlarına ve Din İşleri Yüksek Kurulunun fetvalarına dayanır. Mezhep farkı olan yerlerde Şâfiî mezhebinin görüşü de söylenir.",
+   [
+    "Kendi malınız ve durumunuz için müftülüğe danışın.",
+    1.6
+   ],
+   [
+    "Zekât.",
+    0.8
+   ],
+   [
+    "Zekât nedir?",
+    0.5
+   ],
+   [
+    "Hükmü: farzdır.",
+    0.6
+   ],
+   "Zekât sözlükte artma, çoğalma, arınma ve bereket demektir.",
+   "Dinî terim olarak, dinen zenginlik ölçüsü kabul edilen miktarda, nisap, mala sahip olan kimsenin Allah rızası için belli kişilere vermesi gereken belli miktardır.",
+   "Zekât İslam’ın beş temel esasından biridir; Medine döneminde, hicretin ikinci yılında farz kılınmıştır.",
+   "Kur’an’da çoğu yerde namazla birlikte anılır: namaz bedenî, zekât malî bir ibadettir.",
+   "Ayette zekât, malı ve sahibini temizleyip arıtan bir sadaka olarak anılır.",
+   [
+    "Peygamberimiz de Muâz’ı Yemen’e gönderirken zekâtın zenginlerden alınıp fakirlere verileceğini öğretmiştir.",
+    0.8
+   ],
+   "Bakara Suresi, kırk üçüncü ayetin anlamı şöyledir.",
+   [
+    "Namazı kılın, zekatı verin, rüku edenlerle birlikte rüku edin.",
+    0.8
+   ],
+   "Tevbe Suresi, yüz üçüncü ayetin anlamı şöyledir.",
+   "Mallarının bir kısmını, kendilerini temizleyip arıtacak sadaka olarak al, onlara dua et; senin duan onlar için bir güvendir.",
+   [
+    "Allah işitir ve bilir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Abdullah bin Abbas.",
+   "Peygamberimiz Muâz’ı Yemen’e gönderirken şöyle dedi: Onları Allah’tan başka ilah olmadığına ve benim Allah’ın elçisi olduğuma şahitlik etmeye davet et.",
+   [
+    "Kabul ederlerse onlara, Allah’ın mallarında zekâtı farz kıldığını, bunun zenginlerinden alınıp fakirlerine verileceğini bildir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekât, malın içindeki ihtiyaç sahibinin hakkıdır.",
+    1.6
+   ],
+   [
+    "Zekâtı vermemek.",
+    0.5
+   ],
+   "Ayet, altın ve gümüşü biriktirip Allah yolunda harcamayanları uyarır; o mallar ateşte kızdırılıp sahiplerinin alınları, böğürleri ve sırtları onlarla dağlanacaktır.",
+   "Abdullah bin Ömer, bu ayetlerin zekât ayetlerinden önce indiğini; zekât farz kılınınca Allah’ın onu malı temizleyen bir şey yaptığını söylemiştir.",
+   "Yani zekâtı verilen mal, ayetteki kınanan birikim değildir.",
+   [
+    "Peygamberimiz, Allah’ın mal verdiği hâlde zekâtını vermeyen kimsenin malının kıyamet günü bir yılan suretinde boynuna dolanacağını bildirmiştir.",
+    0.8
+   ],
+   "Tevbe Suresi, otuz dördüncü ve otuz beşinci ayetlerin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Hahamlar ve rahiplerin çoğu, insanların mallarını haksızlıkla yerler.",
+   "Allah yolundan alıkoyarlar.",
+   [
+    "Altın ve gümüşü biriktirip Allah yolunda sarf etmeyenlere can yakıcı bir azabı müjdele Bunlar cehennem ateşinde kızdırıldığı gün, alınları, böğürleri ve sırtları onlarla dağlanacak, Bu, kendiniz için biriktirdiğinizdir; biriktirdiğinizi tadın denecek.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   "Allah’ın kendisine mal verdiği hâlde zekâtını vermeyen kimsenin malı kıyamet günü gözlerinin üstünde iki siyah benek bulunan zehirli bir yılan suretine sokulur.",
+   [
+    "Yılan onun boynuna dolanır, çenelerinden yakalar ve Ben senin malınım, ben senin hazinenim der.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Hâlid bin Eslem.",
+   "Abdullah bin Ömer’e Altın ve gümüşü biriktirenler ayeti soruldu.",
+   "Kim onları biriktirip zekâtını vermezse yazık ona.",
+   [
+    "Bu ayetler zekât ayetlerinden önce inmişti; zekât ayetleri inince Allah zekâtı mallar için bir temizlik kıldı dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekâtı verilen mal temizlenir; verilmeyen mal sahibine yük olur.",
+    1.6
+   ],
+   [
+    "Kime farzdır?",
+    0.5
+   ],
+   [
+    "Hükmü: farzdır.",
+    0.6
+   ],
+   "Zekâtın farz olması için kişinin müslüman, akıllı, ergenlik çağına girmiş ve hür olması gerekir.",
+   "Malla ilgili şartlar şunlardır: mal tam mülk olmalı; nisap miktarına ulaşmalı; bir yıllık borcundan ve aslî ihtiyaçlarından fazla olmalı; artıcı, nâmî, olmalı, yani gelir, kâr ya da fayda sağlayabilecek nitelikte bulunmalı; üzerinden bir kamerî yıl geçmelidir.",
+   "Aslî ihtiyaçlar; barınma, yiyecek, giyecek, sağlık, ulaşım, eğitim, ev eşyası, meslek aletleri, kitaplar ve elektrik, su, yakıt, aidat gibi cari giderlerdir.",
+   "Bunlar zekât hesabına girmez.",
+   [
+    "Hanefîlere göre zengin de olsa ergenlik çağına girmemiş çocuğun malından zekât gerekmez; yalnız çocuğa ait tarım ürünlerinin öşrü verilir.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre zekât için akıl ve ergenlik şart değildir; çocuğun ve akıl hastasının malından da zekâtı velisi verir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nisap, ihtiyaç fazlası ve bir yıl: zekâtın üç ölçüsü.",
+    1.6
+   ],
+   [
+    "Borçlar düşülür mü?",
+    0.5
+   ],
+   "Zekât vermekle yükümlü olan kişi, zekâta tabi malından kul hakkı olan borçlarını düşer; borcu çıktıktan sonra kalan nisaba ulaşmıyorsa zekât gerekmez.",
+   "Kamu, Toplu Konut İdaresi, kooperatif ve kredi gibi on, yirmi yıla yayılan borçların tamamı zekât malından düşülmemelidir.",
+   "Din İşleri Yüksek Kurulu’na göre yalnızca o zekât yılına ait birikmiş borçlar ile vadesi o yıl içinde dolmuş ya da dolacak borçlar düşülür; çünkü zekât yıllık bir ibadettir.",
+   [
+    "Hanefî mezhebinin genel görüşünde vadesi gelmiş ve gelmemiş borçlar aynı hükümdedir; bazı Hanefî âlimlere göre ise yalnız vadesi gelmiş ve istenen borç düşülür.",
+    0.8
+   ],
+   [
+    "Örnek: Konut kredisinin bu yıl ödenecek taksitleri düşülür; gelecek yılların taksitleri düşülmez.",
+    0.6
+   ],
+   [
+    "Şâfiî mezhebinin meşhur görüşüne göre hiçbir borç zekâta tabi maldan düşülmez; borçlu olmak zekâta engel değildir.",
+    0.6
+   ],
+   [
+    "Kendi durumunuz için müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bu yılın borcu düşülür, yılların borcu düşülmez.",
+    1.6
+   ],
+   [
+    "Bir yıl şartı ve zamanı.",
+    0.5
+   ],
+   "Nisap miktarı mala sahip olunduğu gün zekât yılı başlar; üzerinden bir kamerî yıl geçtiğinde nisap hâlâ varsa malın kırkta biri zekât olarak verilir.",
+   "Yıl içindeki artış ve azalışlara bakılmaz.",
+   "Maaş ve ücret gibi yıl içinde gelen paralar mevcut birikime katılır ve yıl sonunda hepsinin zekâtı birlikte verilir; paranın yılın sonuna doğru gelmesi bu hükmü değiştirmez.",
+   "Zekâtın belli bir ayı yoktur; Ramazan’ı beklemek gerekmez.",
+   "Farz olduğu andan itibaren en kısa zamanda verilmelidir.",
+   [
+    "Dileyen yıl dolmadan önceden de verebilir; peşin ödeme imkânı yoksa bir yıl içinde taksitle verebilir.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre miras ya da hibe gibi yollarla ayrıca elde edilen para mevcut birikime katılmaz; her biri kendi kamerî yılını doldurunca zekâtı verilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nisap gününden bir kamerî yıl sonra: zekât günü.",
+    1.6
+   ],
+   [
+    "Niyet ve temlik.",
+    0.5
+   ],
+   "Zekât bir ibadet olduğu için niyetsiz verilmez.",
+   "Ayrıca zekâtın fakire teslim edilip onun mülküne geçirilmesi, temlik, şarttır.",
+   "Bu yüzden sofra kurup yemek yedirmek zekât yerine geçmez; belediye, dernek ya da aşevlerinin hazırladığı iftar yemekleri de zekât sayılmaz.",
+   "Aynı yemek zekât niyetiyle fakire teslim edilirse zekât verilmiş olur.",
+   "Daha önce borç verilmiş paranın sonradan zekât niyetiyle bağışlanması da zekât olmaz; dört mezhep âlimleri bu görüştedir.",
+   [
+    "Zekât elden, vekil aracılığıyla ya da havale ile verilebilir; önemli olan hak sahibine ulaşmasıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekât, niyetle ve ihtiyaç sahibinin eline vererek olur.",
+    1.6
+   ],
+   [
+    "Nisap ve oran.",
+    0.8
+   ],
+   [
+    "Nisap.",
+    0.5
+   ],
+   "Nisap, zekâtla yükümlü olmak için esas alınan zenginlik ölçüsüdür.",
+   "Peygamberimiz beş ukıyyeden, yani iki yüz dirhemden az gümüşte zekât olmadığını bildirmiş; altının nisabı yirmi miskal olarak belirlenmiştir.",
+   "Din İşleri Yüksek Kurulu, yirmi miskal altını seksen virgül on sekiz gram, iki yüz dirhem gümüşü beş yüz altmış bir virgül iki gram olarak esas alır.",
+   "Hayvanlarda nisap devede beş, sığırda otuz, koyun ve keçide kırk adettir.",
+   "Para, döviz, altın, gümüş ve ticaret malı birlikte nisaba ulaşabilir.",
+   [
+    "Nisabın parayla karşılığı altının o günkü fiyatına göre değişir; bu yüzden uygulama gram fiyatı yazmaz, siz girersiniz.",
+    0.8
+   ],
+   [
+    "Şâfiî ve Hanbelî mezheplerine göre altın ve gümüş, nisabı tamamlamak için birbirine eklenmez; Hanefîlere göre eklenir.",
+    0.6
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Saîd el-Hudrî.",
+   [
+    "Beş ukıyyeden az gümüşte, beş deveden az devede ve beş veskten az hurma ve tahılda zekât yoktur.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nisap: ihtiyaç fazlası seksen virgül on sekiz gram altın ya da değeri.",
+    1.6
+   ],
+   [
+    "Gümüş nisabı.",
+    0.5
+   ],
+   "Peygamberimiz döneminde altın ve gümüş nisapları aşağı yukarı aynı değerdeydi.",
+   "Bugün iki yüz dirhem gümüş ile yirmi miskal altın arasında büyük bir değer farkı vardır.",
+   "Diyanet İlmihali, zamanımızda gümüşün değeri çok düştüğü için beş yüz altmış bir virgül iki gram gümüşün parasal karşılığının nisap sayılamayacağını, altının esas alınması gerektiğini söyler.",
+   "Hadislerle İslâm da altının ekonomik değerini koruduğunu belirterek altının esas alınmasını daha isabetli bulur.",
+   [
+    "Gümüşün kendisi zekâta tabidir: elinizdeki gümüşün değeri diğer mallarınıza eklenir ve toplam altın nisabına ulaşırsa kırkta biri verilir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gümüş zekâta tabidir; nisap ölçüsü olarak bugün altın esas alınır.",
+    1.6
+   ],
+   [
+    "Kırkta bir.",
+    0.5
+   ],
+   "Altın, gümüş, para ve ticaret malının zekâtı kırkta birdir, yani yüzde iki buçuk.",
+   "Nisabı aşan kısım da aynı oranda hesaplanır.",
+   "Toprak ürünlerinde oran farklıdır, onda bir ya da yirmide bir; hayvanların zekâtı ise sayıya göre belirlenir.",
+   [
+    "Farklı ayarlarda altını olan kişi, nisap için bütün altınlarının ağırlığını toplar; zekâtı ise her ayarın kendi değeri üzerinden hesaplar.",
+    0.8
+   ],
+   [
+    "Örnek: Borçları düşüldükten sonra dört yüz bin Türk liralık birikimi olan ve bu tutar nisabın üzerinde olan kimse, yıl dolunca on bin Türk lirası zekât verir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kırkta bir: yüz liranın iki buçuk lirası.",
+    1.6
+   ],
+   [
+    "Zekâta tabi mallar.",
+    0.8
+   ],
+   [
+    "Para ve döviz.",
+    0.5
+   ],
+   "Günümüzde kâğıt para, altın ve gümüşün mübadele aracı olarak gördüğü işi görmektedir.",
+   "Bu yüzden madenî ve kâğıt paralar altın, gümüş ve ticaret malı hükmündedir.",
+   "Nakit, banka hesabı ve döviz, tek başına ya da altın, gümüş ve ticaret malıyla birlikte nisaba ulaşınca, üzerinden bir yıl geçtiğinde kırkta biri zekât olarak verilir.",
+   [
+    "Döviz, zekât günündeki Türk lirası karşılığıyla hesaplanır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Para da altın gibidir: nisap, yıl ve kırkta bir.",
+    1.6
+   ],
+   [
+    "Altın, gümüş ve takılar.",
+    0.5
+   ],
+   "Altın ve gümüş, külçe ya da para olarak bulunsun, nisaba ulaşınca zekâta tabidir.",
+   "Hanefîlere göre altın ve gümüşten yapılmış bilezik, kolye gibi takılar da diğer şartları taşıyorsa zekâta tabidir: seksen virgül on sekiz gram ya da daha fazla olup üzerinden bir yıl geçmişse kırkta biri verilir.",
+   "Altın ve gümüş dışındaki maden ve taşlardan yapılan takılar zekâta tabi değildir.",
+   [
+    "Ayarı farklı altınların ağırlıkları nisap için toplanır.",
+    0.8
+   ],
+   [
+    "Şâfiî, Mâlikî ve Hanbelî âlimlerine göre kadının normal olarak takıp kullandığı takı aslî ihtiyaç sayılır ve zekâta tabi değildir; Şâfiîlere göre israf derecesindeki takının zekâtı verilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Takı da altındır: Hanefîlere göre zekâtı verilir.",
+    1.6
+   ],
+   [
+    "Ticaret malı.",
+    0.5
+   ],
+   "Kâr amacıyla alınıp satılan mallara ticaret malı denir.",
+   "Nisap değerinde ticaret malı olan kişi, nisaba sahip olmasının üzerinden bir yıl geçince kırkta birini verir.",
+   "İleride elde edilecek kâr hesaba katılmaz; zekâtın verileceği tarihteki maliyet değeri esas alınır.",
+   "Zekât parayla verilebileceği gibi malın kendi cinsinden de verilebilir.",
+   "Alıp satmak ya da değerlenince satmak için tutulan arsa, ev gibi taşınmazlar da zekâta tabidir; bunların zekâtı her yıl piyasa değeri üzerinden verilir.",
+   [
+    "Oturmak, dükkân, tarla ya da bağ bahçe yapmak için alınan arsa zekâta tabi değildir.",
+    0.8
+   ],
+   [
+    "Kendi durumunuz için müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Satmak için tutulan mal, ticaret malıdır.",
+    1.6
+   ],
+   [
+    "Şirket ve hisse senedi.",
+    0.5
+   ],
+   "Şirketin kendisi değil, ortaklardan her birinin payı zekâta tabidir.",
+   "Bina, makine, alet gibi duran varlıklar zekâttan muaftır; borçlar ve giderler çıktıktan sonra dönen varlıklar, stok, hammadde, nakit, çek, alacak, kârla birlikte kırkta bir oranında zekâta tabidir.",
+   "Hisse senedi alıp satmak için tutuluyorsa ticaret malıdır; piyasa değeri üzerinden zekâtı verilir.",
+   "Kâr payı için elde tutuluyorsa, alınan kâr payı nisaba ulaşıp üzerinden bir yıl geçince zekâta tabidir.",
+   [
+    "Şirket hesabı ayrıntılı bir konudur; kendi şirketiniz ya da hisseleriniz için müftülüğe danışın.",
+    0.8
+   ],
+   [
+    "Kendi durumunuz için müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Satmak için tutulan hisse ticaret malıdır.",
+    1.6
+   ],
+   [
+    "Alacaklar.",
+    0.5
+   ],
+   "Borç olarak verilen para ve ticaret malının bedeli gibi kuvvetli alacaklar, borçlu kabul ediyor ya da kesin delil varsa, her yıl diğer mallarla birlikte zekâta tabidir.",
+   "Önceki yılların zekâtı verilmemişse alacak tahsil edilince verilir.",
+   "Ev kirası gibi alacaklarda da geçmiş yılların zekâtı doğar; ancak ödeme için en az nisap miktarı tahsil edilmiş olmalıdır.",
+   "Mehir, vasiyet ve diyet gibi alacaklar ise tahsil edilip üzerinden bir yıl geçince zekâta tabi olur.",
+   [
+    "Borçlunun inkâr ettiği ya da geri alınması umulmayan alacak için her yıl zekât gerekmez; sonradan tahsil edilirse yalnız o yılın zekâtı verilir.",
+    0.8
+   ],
+   [
+    "Kendi durumunuz için müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Alınması umulan alacak, elde gibidir.",
+    1.6
+   ],
+   [
+    "Hayvanların zekâtı.",
+    0.5
+   ],
+   "Hayvanlarda nisap devede beş, sığırda otuz, koyun ve keçide kırk adettir.",
+   "Zekâtın miktarı hayvanın sayısına göre belirlenir.",
+   "Hayvanların zekâtı kendi cinsinden verilebileceği gibi değeri üzerinden parayla da verilebilir; fakirin yararına olanı tercih etmek daha uygundur.",
+   [
+    "Ayrıntılı hesap bu uygulamanın kapsamı dışındadır; hayvan sahipleri hesabı müftülükten öğrenmelidir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Beş deve, otuz sığır, kırk koyun.",
+    1.6
+   ],
+   [
+    "Toprak ürünleri: öşür.",
+    0.5
+   ],
+   "Öşür sözlükte onda bir demektir; tarım ürünlerinden verilen zekâtın adıdır.",
+   "Ayet, ürünün devşirildiği gün hakkının verilmesini emreder.",
+   "Peygamberimiz yağmur ve nehir sularıyla sulanan üründe onda bir, emek ve masrafla sulanan üründe yirmide bir öşür belirlemiştir.",
+   "Din İşleri Yüksek Kurulu’na göre gübre, ilaç, mazot gibi masraflar çıkarıldıktan sonra nisaba ulaşan ürünün onda biri verilir; masraflar çıkarılmazsa yirmide biri verilir.",
+   "Saklanabilir ürünlerde nisap beş vesktir; bu, ürüne göre altı yüz elli üç ile bin kilogram arasındadır, buğdayda altı yüz elli üç kilogramdır.",
+   [
+    "Ayrıntılı hesap kapsam dışıdır.",
+    0.8
+   ],
+   "En‘âm Suresi, yüz kırk birinci ayetin anlamı şöyledir.",
+   "Çardaklı ve çardaksız bağları inşa eden Allah'tır.",
+   "Tadları çeşitli ekin ve hurmaları, zeytin ve narı birbirine benzer ve benzemez şekilde yaratan O'dur.",
+   [
+    "Ürün verdiği zaman ürününden yiyin, devşirildiği ve biçildiği gün hakkını verin; israf etmeyin, çünkü Allah müsrifleri sevmez.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Yağmurun ve pınarların suladığı ya da kendiliğinden sulanan üründe onda bir; kuyudan, emekle, sulananda ise onda birin yarısı zekât vardır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Toprak da zekât verir: onda bir ya da yirmide bir.",
+    1.6
+   ],
+   [
+    "Zekât gerekmeyen mallar.",
+    0.5
+   ],
+   "Aslî ihtiyaç sayılan mallar zekâta tabi değildir: oturulan ev, ev eşyası, giyecek, kullanılan araç, kitaplar ve kişinin mesleğinde kullandığı alet, makine ve malzemeler.",
+   "Kişinin kendi mesleği için değil de ticaret için ürettiği ya da alıp sattığı alet ve makineler ise ticaret malıdır ve zekâta tabidir.",
+   [
+    "Gayrimeşru yolla elde edilen kazancın zekâtı olmaz; sahibi belliyse ona iade edilir, belli değilse karşılığında sevap beklenmeden yoksullara ya da hayır kurumlarına verilerek elden çıkarılır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kullandığın eşya değil, biriktirdiğin servet zekâta tabidir.",
+    1.6
+   ],
+   [
+    "Kimlere verilir?.",
+    0.8
+   ],
+   [
+    "Sekiz sınıf.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilebilir.",
+    0.6
+   ],
+   "Zekât; fakirlere, miskinlere, zekât toplamakla görevli memurlara, kalpleri İslam’a ısındırılmak istenenlere, hürriyetine kavuşmaya çalışan kölelere, borçlulara, Allah yolunda olanlara ve yolda kalmışlara verilir.",
+   "Borçlu, kul hakkı olarak borcu olan ve borcunu ödeyecek maldan başka nisap miktarı malı bulunmayan kimsedir.",
+   "Yolda kalmış, memleketinde malı olsa bile yolculukta parasız kalıp parasına ulaşamayan kimsedir; bugün banka kartıyla parasına ulaşabilen yolcuya zekât verilmez.",
+   "Hanefîlere göre zekât bu sınıflardan yalnız birine de verilebilir.",
+   [
+    "Zekâtın en başta gelen hak sahipleri fakir ve miskinlerdir.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre zekâtı sahibi ya da vekili dağıtıyorsa, zekât memurları dışında bulunabilen yedi sınıfa eşit olarak ve her sınıftan en az üç kişiye verilmelidir.",
+    0.6
+   ],
+   "Tevbe Suresi, altmışıncı ayetin anlamı şöyledir.",
+   "Zekatlar; Allah'tan bir farz olarak yoksullara, düşkünlere, onu toplayan memurlara, kalbleri Müslümanlığa ısındırılacaklara verilir; kölelerin, borçluların, Allah yolunda olanların ve yolda kalanların uğrunda sarfedilir.",
+   [
+    "Allah bilendir, hakimdir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekâtın adresini Allah belirlemiştir.",
+    1.6
+   ],
+   [
+    "Fakir kimdir?",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilebilir.",
+    0.6
+   ],
+   "Fakir ve miskin, temel ihtiyaçları dışında nisap miktarı mala sahip olmayan kimsedir.",
+   "Hanefîlere göre fakirin az da olsa malı vardır; miskinin ise hiçbir şeyi yoktur.",
+   "Bir geliri olduğu hâlde temel ihtiyaçlarını karşılayamayan ya da temel ihtiyaçlarından sonra elinde seksen virgül on sekiz gram altın değerinde malı kalmayan kişiye zekât verilebilir; memur, esnaf ya da işsiz olması fark etmez.",
+   "Bununla birlikte, kendisinin ve bakmakla yükümlü olduklarının ihtiyacını karşılayabilene zekât verilemeyeceğini söyleyen âlimler de olduğu için daha yoksul olanlara öncelik verilmesi uygundur.",
+   [
+    "Durumunu kimseye açmayan iffetli yoksullar araştırılıp bulunmalıdır.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebinde ölçü nisap değil yeterliliktir, kifâye: malı ve kazancı kendisine ve ailesine yetmeyen kimse, nisabın üstünde malı olsa da zekât alabilir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+   "Sadakalarınızı, kendilerini Allah yoluna adayıp yeryüzünde dolaşamayanlara, hayalarından dolayı, kendilerini tanımayanların zengin saydıkları yoksullara verin.",
+   "Onları yüzlerinden tanırsın, insanlardan yüzsüzlük ederek bir şey istemezler.",
+   [
+    "Sarfettiğiniz iyi bir şeyi Allah şüphesiz bilir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İhtiyacını söyleyemeyen yoksulu bul.",
+    1.6
+   ],
+   [
+    "Kardeş ve diğer akrabalar.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilebilir.",
+    0.6
+   ],
+   "Usûl, anne, baba, dede, nine, ve fürû, çocuk, torun, dışındaki akrabalara, zengin değillerse zekât, fitre ve fidye verilebilir: kardeş, amca, hala, dayı, teyze ve onların çocukları, gelin, damat, kayınpeder ve kayınvalide.",
+   "Üvey anne, üvey baba ve üvey çocuklarla süt anne ve süt babaya da fakir iseler zekât verilebilir; çünkü aralarında usûl ve fürû ilişkisi yoktur ve kişi normal durumlarda onlara bakmakla yükümlü değildir.",
+   [
+    "Zekâtın, kendisine zekât verilebilecek akrabaya verilmesi daha faziletlidir: önce muhtaç kardeşlere, sonra onların çocuklarına, sonra amca, hala ve diğer akrabalara, komşulara.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekât önce yakındaki ihtiyaç sahibine.",
+    1.6
+   ],
+   [
+    "Cami, okul ve kurumlar.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilemez.",
+    0.6
+   ],
+   "Zekâtın sahih olması için zekât alması caiz olan gerçek kişilere temlik edilmesi gerekir.",
+   "Bu yüzden zekât ve fitrenin cami, köprü, yol, okul, yurt, çeşme gibi yerlere harcanması caiz değildir; okullar, Kur’an kursları ve camiler Allah yolunda sınıfına girmez.",
+   "Zekâtı fakirlere ulaştıran güvenilir bir hayır kurumu aracı olabilir; zekâtı inşaat, aydınlatma, büro masrafı gibi genel giderlerde kullanacak kuruluşa zekât verilmez.",
+   [
+    "Bu kurumlar zekât dışındaki gönüllü bağışlarla desteklenir; böyle kalıcı hayırlar sadaka-i câriyedir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekât yoksulun hakkıdır; cami ve okula sadaka verilir.",
+    1.6
+   ],
+   [
+    "Zekât vermenin âdâbı.",
+    0.5
+   ],
+   "Zekât yalnız Allah rızası için, başa kakmadan ve incitmeden verilir.",
+   "Helal kazançtan verilir; mal olarak veriliyorsa, kişinin kendisine verilmesini istemeyeceği değersiz şeyler verilmez.",
+   "Hanefîlere göre zekâtın, alanın onurunu korumak için gizlice verilmesi daha iyidir.",
+   "Zekât geciktirilmez; öncelikle malın bulunduğu yerdeki fakirlere verilir.",
+   "Verirken bu zekâttır demek gerekmez; alanı incitebileceği için söylememek daha iyidir.",
+   [
+    "Zekât güvenilir bir vekil aracılığıyla da verilebilir.",
+    0.8
+   ],
+   [
+    "Şâfiî ve Hanbelî mezheplerine göre, insanları bu ibadete teşvik etmek için zekâtın açıkça verilmesi daha uygundur; nafile sadakayı gizli vermek ise bütün fakihlere göre daha faziletlidir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz altmış yedinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Kazandıklarınızın temizlerinden ve size yerden çıkardıklarımızdan sarfedin; iğrenmeden alamıyacağınız pis şeyleri vermeye kalkmayın.",
+   [
+    "Allah'ın müstağni ve övülmeye layık olduğunu bilin.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz yetmiş birinci ayetin anlamı şöyledir.",
+   "Sadakaları açıkça verirseniz o ne güzel!",
+   "Eğer onları yoksullara gizlice verirseniz sizin için daha iyidir.",
+   "Allah onları kötülüklerinizden bir kısmına karşı tutar.",
+   [
+    "Allah işlediklerinizden haberdardır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Verdiğini helalinden, iyisinden ve incitmeden ver.",
+    1.6
+   ],
+   [
+    "Kimlere verilmez?.",
+    0.8
+   ],
+   [
+    "Anne baba, çocuk ve torun.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilemez.",
+    0.6
+   ],
+   "Hanefîlere göre kişi zekâtını, fitresini ve fidyesini anne, baba, büyük anne ve büyük babalarına; oğul, kız ve onların çocuklarına veremez.",
+   "Zekât veren, verdiği zekâttan hiçbir şekilde yararlanmamalıdır.",
+   "Bu yakınlara verilen zekât nafaka borcundan kurtulma ya da miras gibi yollarla dolaylı olarak kendisine döner; temlik tam gerçekleşmez.",
+   [
+    "Bu kimselere zekât dışındaki maldan yardım etmek, bakmak ve ihtiyaçlarını karşılamak ise ayrıca bir görevdir.",
+    0.8
+   ],
+   [
+    "Şâfiî, Mâlikî ve Hanbelî mezheplerinde ölçü nafakadır: kişi, nafakasını sağlamakla hukuken yükümlü olduğu akrabasına zekât veremez.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Anne babaya ve çocuğa zekât değil, nafaka verilir.",
+    1.6
+   ],
+   [
+    "Eş.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilemez.",
+    0.6
+   ],
+   "Hanefîlere göre kişi zekâtını eşine veremez; çünkü aralarında bakma yükümlülüğü ilişkisi vardır ve verilen zekât dolaylı olarak kendisine döner.",
+   "Ebû Hanîfe’ye göre kadın da zekâtını fakir kocasına veremez.",
+   [
+    "Diyanet’in yayınlarında eşlerin birbirine zekât, fitre ve fidye veremeyeceği açıkça yazılıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Eşler birbirinin zekâtını alamaz.",
+    1.6
+   ],
+   [
+    "Zengin.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilemez.",
+    0.6
+   ],
+   "Hanefîlere göre aslî ihtiyaçları dışında, artıcı olsun olmasın, nisap miktarı malı olan kimse zengindir; ona zekât verilmez.",
+   "Bu kişi zekât vermekle yükümlü olmasa bile zekât alamaz; fitre vermesi ve kurban kesmesi gerekir.",
+   "Babası zengin olan ve ergenlik çağına girmemiş çocuğa da zekât verilmez.",
+   [
+    "Zengin bir kişinin fakir olan babasına, büyük çocuğuna ya da eşine ise başkası zekât verebilir; çünkü onlar babanın ya da eşin servetiyle zengin sayılmaz.",
+    0.8
+   ],
+   [
+    "Şâfiî, Mâlikî ve Hanbelî mezheplerinde zenginliğin ölçüsü nisap değil yeterliliktir, kifâye; malı kendisine ve ailesine yetmeyen kimse nisabın üstünde malı olsa da zekât alabilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nisabı olan zekât verir, zekât almaz.",
+    1.6
+   ],
+   [
+    "Müslüman olmayan.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilemez.",
+    0.6
+   ],
+   "Zekât ibadet içerikli bir yükümlülük olduğu için fakihlerin ittifakıyla müslüman olmayana verilmez.",
+   "Dört mezhep imamının da aralarında bulunduğu çoğunluğa göre İslam toplumundaki gayrimüslim vatandaşa da zekât verilemez.",
+   "Fitrede Ebû Hanîfe, İslam ülkesinin gayrimüslim vatandaşına fitre verilebileceğini söylemiştir; Ebû Yûsuf ve fakihlerin çoğunluğuna göre verilemez.",
+   "Hanefî mezhebinde fetva Ebû Yûsuf’un görüşüne göredir.",
+   [
+    "Gayrimüslim komşuya zekât dışındaki maldan yardım etmek, ona iyilik etmek ise güzeldir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekât müslüman yoksulun; iyilik herkesin hakkıdır.",
+    1.6
+   ],
+   [
+    "Peygamberimizin yakınları.",
+    0.5
+   ],
+   [
+    "Hükmü: zekât ve fitre verilemez.",
+    0.6
+   ],
+   "Peygamberimiz, torunu Hasan zekât hurmalarından birini ağzına alınca onu çıkarttırmış ve zekât malını kendilerinin yemediğini söylemiştir.",
+   "Başka hadislerde de zekâtın Peygamberimize ve yakınlarına verilmeyeceği bildirilmiştir.",
+   "Diyanet İlmihali, fakihlerin Peygamberimizin yakınlarının kimler olduğu konusunda farklı görüşler ileri sürdüğünü belirtir.",
+   [
+    "Bu yasağın bir hikmeti, Peygamberimizin kendisini ve yakınlarını her türlü töhmetten uzak tutmak istemesidir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   "Hasan bin Ali, zekât hurmalarından birini alıp ağzına koydu.",
+   "Peygamberimiz Çıkar onu!",
+   [
+    "Bilmiyor musun, biz sadaka, zekât, olarak verilen şeyi yemeyiz buyurdu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Peygamberimiz zekâtı kendisine ve ailesine almadı.",
+    1.6
+   ],
+   [
+    "Yanlış kişiye verilirse.",
+    0.5
+   ],
+   "Zekât veren kişi, kime verdiğini araştırmalıdır.",
+   "Araştırıp zekât verilebilecek biri olduğu kanaatine vardığı kişiye verir de sonra onun zengin olduğu anlaşılırsa zekâtı geçerlidir.",
+   [
+    "Araştırmadan verir de sonradan kişinin zekât verilebilecek biri olduğu anlaşılırsa zekâtı yine geçerlidir; ama öyle olmadığı anlaşılırsa zekâtı geçerli olmaz, yeniden vermesi gerekir.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebindeki yerleşik görüşe göre zekât ehline ulaşmadıkça, borç başkasına ödenmiş gibi, zekât borcu düşmez.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Araştırarak ver; gerisini Allah bilir.",
+    1.6
+   ],
+   [
+    "Fıtır sadakası.",
+    0.8
+   ],
+   [
+    "Fıtır sadakası, fitre.",
+    0.5
+   ],
+   [
+    "Hükmü: vaciptir.",
+    0.6
+   ],
+   "Halk arasında fitre denen fıtır sadakası, dinen zengin olup Ramazan’ın sonuna ulaşan müslümanın vermesi vacip olan sadakadır.",
+   "Kişi kendisinin ve küçük çocuklarının fitresini verir.",
+   "Bayram namazından önce verilmesi müstehaptır; Ramazan’ın ilk günlerinde vermek de caizdir.",
+   "Kişinin bakmakla yükümlü olduğu yakınlarına ve eşine verilmez.",
+   "Fitre, insan olarak yaratılmanın ve Ramazan orucunu tutup bayrama ulaşmanın şükrüdür; fakirin bayram sevincine katılmasını sağlar.",
+   [
+    "Ölçüsü, kişinin bir günlük normal gıda ihtiyacıdır; Din İşleri Yüksek Kurulu her yıl en az tutarı açıklar.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre fitre farzdır ve nisap şartı yoktur; bayram günü ve gecesine yetecek azığı olan her müslüman fitre verir.",
+    0.6
+   ],
+   [
+    "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir kişinin fıtır sadakası için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+    0.6
+   ],
+   "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Peygamberimiz köle ya da hür, erkek ya da kadın, küçük ya da büyük her müslümana fıtır sadakası olarak bir sâ hurma ya da bir sâ arpa vermeyi farz kıldı ve insanlar bayram namazına çıkmadan önce verilmesini emretti.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fitre, bayram sevincini yoksulla paylaşmaktır.",
+    1.6
+   ],
+   [
+    "Kim fitre verir?",
+    0.5
+   ],
+   [
+    "Hükmü: vaciptir.",
+    0.6
+   ],
+   "Ramazan Bayramı’na kavuşan, temel ihtiyaçlarının ve bir yıllık borçlarının dışında nisap miktarı, seksen virgül on sekiz gram altın ya da değeri, mala sahip olan müslüman fitre vermekle yükümlüdür.",
+   "Zekâttan farklı olarak bu malın artıcı olması ve üzerinden bir yıl geçmesi gerekmez.",
+   "Kişi kendisinin ve ergenlik çağına girmemiş çocuklarının fitresini verir.",
+   [
+    "Anne babası, büyük çocukları, eşi ve kardeşleri için vermesi gerekmez; ama onlar adına verirse geçerli olur.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre fitre için nisap gerekmez; varlıklı kimse, bakmakla yükümlü olduğu müslüman eşi, çocukları, anne babası ve diğer yakınları için de fitre verir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fitrede nisap yeter; yıl beklenmez.",
+    1.6
+   ],
+   [
+    "Fitre ne zaman verilir?",
+    0.5
+   ],
+   "Hanefîlere göre fitre, Ramazan Bayramı’nın birinci günü tan yeri ağarınca vacip olur.",
+   "Bununla birlikte Ramazan ayı içinde de verilebilir; fakirlerin bayram ihtiyacını karşılaması için bayramdan önce vermek daha faziletlidir.",
+   "Peygamberimizin uygulamasına uyarak bayram namazına gitmeden önce vermek müstehaptır.",
+   [
+    "Bayram sabahına kadar verilmemişse bayram günlerinde, o da olmazsa ilk fırsatta verilir; borç düşmez.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre fitre Ramazan’ın son günü güneş batınca vacip olur; meşru bir mazeret olmadan bayramın birinci günü güneş batışından sonraya bırakmak haramdır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fitreyi bayramdan önce ver ki yoksul da bayram etsin.",
+    1.6
+   ],
+   [
+    "Fitre kime verilir?",
+    0.5
+   ],
+   "Fitre, zekâtın verildiği kimselere verilir; zekât verilemeyen kimseye fitre de verilemez.",
+   "Kişi fitresini dinen zengin sayılana, usûlüne, anne, baba, dede, nine, fürûuna, çocuk, torun, ve eşine veremez.",
+   "Fitreler bir fakire verilebileceği gibi birkaç fakire de dağıtılabilir; ancak bir kişiye verilen miktar bir fitreden az olmamalıdır.",
+   "Birkaç kişi de fitrelerini aynı fakire verebilir.",
+   "Fitre buğday, arpa, hurma ya da üzüm olarak verilebileceği gibi değeri para olarak da verilebilir; fakirin yararına olanı tercih etmek daha uygundur.",
+   [
+    "Askıda ekmek uygulamasıyla verilen ekmek fitre yerine geçmez; çünkü fitre verilebilecek kişiye ulaştığı bilinemez.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fitre de zekâtın yoluna gider.",
+    1.6
+   ],
+   [
+    "Fitre ile zekât farkı.",
+    0.5
+   ],
+   "Zekât farzdır; fitre Hanefîlere göre vaciptir.",
+   "Zekât malın kırkta biridir; fitre kişi başına belli bir tutardır, ölçüsü bir günlük gıda ihtiyacıdır.",
+   "Zekât için nisap miktarı malın artıcı olması ve üzerinden bir kamerî yıl geçmesi gerekir; fitre için nisap yeterlidir, artıcılık ve yıl şartı yoktur.",
+   "Zekât nisaba ulaşılan günden bir yıl sonra verilir; fitre Ramazan’da ya da bayram sabahı verilir.",
+   [
+    "İkisi de aynı kimselere verilir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zekât malın şükrü, fitre canın şükrüdür.",
+    1.6
+   ],
+   [
+    "Fidye ve kefaret.",
+    0.8
+   ],
+   [
+    "Oruç fidyesi.",
+    0.5
+   ],
+   "Fidye, oruç tutmaya gücü yetmeyen yaşlılar ile iyileşme ümidi olmayan hastaların tutamadıkları her gün için verdikleri bedeldir.",
+   "Bir günün fidyesi bir fıtır sadakası kadardır, yani bir kişiyi bir gün doyuracak yiyecek ya da bunun parasıdır.",
+   "Fidye Ramazan’ın başında, içinde ya da sonunda verilebilir; hepsi bir yoksula topluca ya da ayrı ayrı yoksullara verilebilir.",
+   "Kişinin anne babası, dede ve ninesi, çocukları ve torunları ile eşine verilmez.",
+   "Gücü yettiği hâlde oruç tutmayan ya da geçici bir mazeretle tutamayan kimse için fidye yoktur; o, orucunu kaza eder.",
+   "Fidye veren kimse sonradan oruç tutabilecek duruma gelirse Hanefîlere göre tutamadığı oruçları kaza eder ve verdiği fidye sadaka sayılır.",
+   [
+    "Fidye verecek gücü olmayan kimse Allah’tan bağışlanma diler.",
+    0.8
+   ],
+   [
+    "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir günlük oruç fidyesi için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+   "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+   "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+   "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+   [
+    "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fidye, oruca gücü hiç yetmeyenin kolaylığıdır.",
+    1.6
+   ],
+   [
+    "Oruç kefareti.",
+    0.5
+   ],
+   "Oruç kefareti, Ramazan orucunu mazeretsiz ve bilerek bozan kimsenin yerine getirmesi gereken telafidir.",
+   "Kefaret, iki kamerî ay ya da altmış gün ara vermeden oruç tutmaktır; buna gücü yetmeyen altmış yoksulu bir gün ya da bir yoksulu altmış gün doyurur.",
+   "Hanefîlere göre bu sıraya uyulur.",
+   "Kefaretin yanında bozulan günün kazası ve tövbe de gerekir.",
+   "Kadının âdet ve lohusalık hâli kefaret orucunun ardı ardınalığını bozmaz; temizlenince kaldığı yerden devam eder.",
+   [
+    "Aynı Ramazan’da birden fazla gün bozulmuşsa bir kefaret yeterli görülmüştür.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Ramazan’da orucunu bozan adama Peygamberimiz sırasıyla köle azat etmeyi, iki ay peş peşe oruç tutmayı ve altmış yoksulu doyurmayı sordu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kefaret: altmış gün oruç ya da altmış yoksula yemek.",
+    1.6
+   ],
+   [
+    "Yemin kefareti.",
+    0.5
+   ],
+   "Bilerek ettiği yemini bozan kimse kefaret öder: on yoksulu sabahlı akşamlı doyurur ya da onları orta seviyede giydirir.",
+   "Ayette köle azat etmek de sayılır.",
+   "Bu seçeneklerden dilediğini sıraya uymadan seçebilir.",
+   "Bunlara gücü yetmeyen üç gün oruç tutar; Hanefîlere göre bu üç gün ardı ardına tutulmalıdır.",
+   "On yoksul bir günde doyurulabileceği gibi bir yoksul on gün doyurulabilir; yemek yerine bedeli de verilebilir.",
+   "Din İşleri Yüksek Kurulu’na göre bir yoksula verilecek yemin kefareti miktarı bir fitre miktarıdır.",
+   [
+    "Ağızdan kasıtsız çıkıveren yeminler için kefaret gerekmez.",
+    0.8
+   ],
+   "Mâide Suresi, seksen dokuzuncu ayetin anlamı şöyledir.",
+   "Allah size rasgele yeminlerinizden dolayı değil, bile bile ettiğiniz yeminlerden ötürü hesap sorar.",
+   "Yeminin keffareti, ailenize yedirdiğinizin ortalamasından on düşkünü yedirmek yahut giydirmek ya da bir köle azad etmektir.",
+   "Bulamayan üç gün oruç tutmalıdır; yeminlerinizin keffareti budur.",
+   "Yemin ettiğinizde yeminlerinizi tutun.",
+   [
+    "Şükredesiniz diye Allah size böylece ayetlerini açıklıyor.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sözünü tutamadıysan on yoksulu doyur.",
+    1.6
+   ],
+   [
+    "Sadaka ve infak.",
+    0.8
+   ],
+   [
+    "Allah yolunda harcamak.",
+    0.5
+   ],
+   "İnfak, Allah’ın verdiği maldan Allah rızası için harcamaktır; zekât, fitre ve gönüllü sadakanın hepsi infaktır.",
+   "Kur’an, Allah yolunda harcananı her başağında yüz tane olan yedi başak veren bir taneye benzetir.",
+   "Başka bir ayet, insanın sevdiği şeylerden harcamadıkça iyiliğe erişemeyeceğini bildirir.",
+   [
+    "Peygamberimiz her gün iki meleğin indiğini; birinin infak edene karşılığını vermesi, ötekinin cimrinin malını telef etmesi için dua ettiğini haber vermiştir.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz altmış birinci ayetin anlamı şöyledir.",
+   "Mallarını Allah yolunda sarfedenlerin durumu, her başağında yüz tane olmak üzere yedi başak veren tanenin durumu gibidir.",
+   "Allah dilediğine kat kat verir.",
+   [
+    "Allah'ın lütfü geniştir, O her şeyi bilendir.",
+    0.8
+   ],
+   "Âl-i İmrân Suresi, doksan ikinci ayetin anlamı şöyledir.",
+   "Sevdiğiniz şeylerden sarfetmedikçe iyiliğe erişemezsiniz.",
+   [
+    "Her ne sarfederseniz, şüphesiz Allah onu bilir.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   "Kulların sabaha çıktığı her gün iki melek iner.",
+   [
+    "Biri Allah’ım, infak edene karşılığını ver der; öteki Allah’ım, malını, tutana telef ver der.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Verilen eksilmez, kat kat artar.",
+    1.6
+   ],
+   [
+    "Gönüllü sadaka.",
+    0.5
+   ],
+   "Sadaka, farz olan zekât ve vacip olan fitre dışında, Allah rızası için gönüllü olarak verilen her şeydir.",
+   "Belli bir miktarı ve zamanı yoktur.",
+   "Allah yalnız helal ve temiz olanı kabul eder.",
+   "Helal kazançtan verilen bir hurma kadar sadaka bile Allah katında büyür.",
+   "Yarım hurmayla bile olsa sadaka vererek cehennemden korunmak istenmiştir.",
+   [
+    "Gece gündüz, gizli ve açık sadaka verenlerin mükâfatını Rableri verecektir.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz yetmiş dördüncü ayetin anlamı şöyledir.",
+   "Gece gündüz, açık gizli, mallarını sarfedenlerin mükafatlarını Rab'leri verecektir.",
+   [
+    "Onlara korku yoktur ve onlar üzülmeyeceklerdir.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Kim helal kazancından bir hurma kadar sadaka verirse —Allah ancak helali kabul eder— Allah onu kabul eder, sonra sizden birinin tayını büyüttüğü gibi onu sahibi için büyütür; sonunda dağ gibi olur.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Adî bin Hâtim.",
+   [
+    "Yarım hurmayla da olsa kendinizi ateşten koruyun.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Az da olsa ver; helalinden ver.",
+    1.6
+   ],
+   [
+    "Her iyilik sadakadır.",
+    0.5
+   ],
+   "Sadaka yalnız para değildir.",
+   "Peygamberimiz her iyiliğin sadaka olduğunu bildirmiştir.",
+   "İki kişinin arasını bulmak, birinin yükünü hayvanına yüklemesine yardım etmek, güzel bir söz, namaza giderken atılan her adım ve yoldan insanlara eziyet veren bir şeyi kaldırmak sadakadır.",
+   "Hiçbir iyiliği küçük görmemek gerekir; kardeşini güler yüzle karşılamak bile bir iyiliktir.",
+   [
+    "Malı olmayan da böylece sadaka verebilir.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Huzeyfe.",
+   [
+    "Her iyilik sadakadır.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   "Güneşin doğduğu her gün insanın her eklemi için bir sadaka gerekir.",
+   [
+    "İki kişinin arasında adaletle hükmetmek sadakadır; birine hayvanına binmesinde ya da yükünü yüklemesinde yardım etmek sadakadır; güzel söz sadakadır; namaza giderken atılan her adım sadakadır; yoldan eziyet veren şeyi kaldırmak sadakadır.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Zer.",
+   [
+    "İyilikten hiçbir şeyi küçük görme; kardeşini güler yüzle karşılamak bile olsa.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gülümsemek de bir iyiliktir; iyiliğin küçüğü olmaz.",
+    1.6
+   ],
+   [
+    "Başa kakmadan, gizlice.",
+    0.5
+   ],
+   "Malını Allah yolunda harcayıp ardından başa kakmayan ve incitmeyenlerin mükâfatı Rableri katındadır.",
+   "Başa kakmak ve incitmek sadakayı, üzerindeki toprağı yağmurla akıp giden çıplak bir kaya gibi boşa çıkarır.",
+   "Gönüllü sadakayı gizli vermek bütün fakihlere göre daha faziletlidir.",
+   [
+    "Peygamberimiz, sağ elinin verdiğini sol eli bilmeyecek kadar gizli sadaka vereni, kıyamet günü Allah’ın gölgelendireceği yedi kişiden saymıştır.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz altmış ikinci ayetin anlamı şöyledir.",
+   "Mallarını Allah yolunda sarfedip sonra sarfettikleri şeyin ardından başa kakmayan ve eza etmeyenlerin ecirleri Rablerinin katındadır.",
+   [
+    "Onlara korku yoktur ve onlar üzülmeyeceklerdir.",
+    0.8
+   ],
+   "Bakara Suresi, iki yüz altmış dördüncü ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Allah'a ve ahiret gününe inanmayıp, insanlara gösteriş için malını sarfeden kimse gibi, sadakalarınızı başa kakma ve eza etmekle boşa çıkarmayın.",
+   "Onun durumu, üzerinde toprak bulunan kayanın durumu gibidir, üzerine bol yağmur yağdığındaonu cascavlak bırakır.",
+   "Kazandıklarından hiçbir şey elde edemezler.",
+   [
+    "Allah inkar eden kimseleri doğru yola eriştirmez.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Allah’ın gölgesinden başka gölgenin bulunmadığı günde Allah’ın gölgelendireceği yedi kişiden biri de sağ elinin verdiğini sol eli bilmeyecek kadar gizli sadaka veren kimsedir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sağ elin verdiğini sol el bilmesin.",
+    1.6
+   ],
+   [
+    "Önce yakınlar.",
+    0.5
+   ],
+   "Peygamberimiz veren elin alan elden üstün olduğunu, vermeye bakmakla yükümlü olunan kimselerden başlanmasını ve en hayırlı sadakanın ihtiyaç fazlasından verilen olduğunu bildirmiştir.",
+   "Kişinin Allah rızasını umarak ailesi için yaptığı harcama da onun için sadakadır.",
+   [
+    "Ayet, asıl iyiliğin imanla birlikte Allah sevgisiyle yakınlara, yetimlere, düşkünlere, yolculara, yoksullara ve köleler uğrunda mal vermek olduğunu bildirir.",
+    0.8
+   ],
+   "Bakara Suresi, yüz yetmiş yedinci ayetin anlamı şöyledir.",
+   "Yüzlerinizi doğudan yana ve batıdan yana çevirmeniz iyi olmak demek değildir; Lakin iyi olan, Allah'a, ahiret gününe, meleklere, Kitap'a, peygamberlere inanan, O'nun sevgisiyle, yakınlarına, yetimlere, düşkünlere, yolculara, yoksullara ve köleler uğrunda mal veren, namaz kılan, zekat veren ve ahidleştiklerinde ahidlerine vefa gösterenler, zorda, darda ve savaş alanında sabredenlerdir.",
+   [
+    "İşte onlar doğru olanlardır ve sakınanlar ancak onlardır.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Hakîm bin Hizâm.",
+   "Üstteki el alttaki elden hayırlıdır., Vermeye, bakmakla yükümlü olduğun kimselerden başla.",
+   "Sadakanın hayırlısı ihtiyaç fazlasından verilendir.",
+   [
+    "Kim istemekten sakınırsa Allah onu korur; kim yetinirse Allah onu zengin kılar.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Mesûd.",
+   [
+    "Müslüman, sevabını Allah’tan umarak ailesine harcama yaptığında bu onun için sadaka olur.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İyilik evden başlar.",
+    1.6
+   ],
+   [
+    "Sadaka-i câriye.",
+    0.5
+   ],
+   "Sadaka-i câriye, akan, süren sadaka demektir: ardından nesiller boyu yararlanılacak bir hayır bırakmaktır.",
+   "Peygamberimiz, insan ölünce amelinin kesildiğini, yalnız üç şeyin devam ettiğini bildirmiştir.",
+   "Cami, çeşme, hastane, kütüphane, köprü ve okul gibi eserler sadaka-i câriyenin örnekleridir.",
+   "Zekât bu tür yerlere harcanmaz; çünkü zekât fakirin hakkıdır.",
+   [
+    "Kalıcı hayırlar zekât dışındaki gönüllü bağışlarla yapılır.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "İnsan ölünce ameli kesilir; yalnız üç şey müstesna: sadaka-i câriye, yararlanılan ilim ve kendisine dua eden hayırlı evlat.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ardında akan bir hayır bırak.",
+    1.6
+   ],
+   [
+    "Adak.",
+    0.5
+   ],
+   [
+    "Hükmü: vaciptir.",
+    0.6
+   ],
+   "Adak, nezir, kişinin dinen yükümlü olmadığı, farz ya da vacip cinsinden bir ibadeti kendisine borç kılmasıdır: namaz kılmak, oruç tutmak, sadaka vermek ya da kurban kesmek gibi.",
+   "Allah’a isyan içeren bir şey adanmaz; adanmışsa yerine getirilmez.",
+   "Peygamberimiz adağın kaderi değiştirmediğini, onunla ancak cimriden mal çıkarıldığını söylemiştir.",
+   "Dünyevî bir dileğe bağlanan adak bir pazarlık gibi görülebileceği için hoş karşılanmamıştır; ama yapılmışsa yerine getirilmesi vaciptir.",
+   "Türbelerde mum yakmak, bez bağlamak, horoz kesmek, şeker ve helva dağıtmak gibi adetlerin İslam’da yeri yoktur.",
+   [
+    "Adak kurbanının etinden adayan ve bakmakla yükümlü olduğu kimseler yiyemez.",
+    0.8
+   ],
+   "Şâfiî mezhebine ve Ahmed bin Hanbel’e göre adak adamak mekruhtur; Hanefîler Allah’a ibadet kabilinden adağı mubah görür.",
+   [
+    "Yapılan adağı yerine getirmek ise hepsine göre gereklidir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz yetmişinci ayetin anlamı şöyledir.",
+   "Sarfettiğiniz harcı ve adadığınız adağı şüphesiz Allah bilir.",
+   [
+    "Zulmedenlerin hiç yardımcıları yoktur.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+   [
+    "Kim Allah’a itaat etmeyi adarsa ona itaat etsin; kim Allah’a isyan etmeyi adarsa ona isyan etmesin.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Peygamberimiz adak adamayı yasakladı ve Adak hiçbir şeyi geri çeviremez; onunla ancak cimriden mal çıkarılır buyurdu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Adak Allah’la pazarlık değil, verilmiş bir sözdür.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Zekât ve Sadaka Rehberi",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Zekât ve Sadaka Rehberi.",
+     0.8
+    ],
+    [
+     "Zekâtı, fıtır sadakasını, fidyeyi, kefareti ve gönüllü sadakayı kaynağıyla birlikte öğreneceğiz.",
+     0.6
+    ],
+    "Bana zekât düşüyor mu, ne kadar, kime verebilirim, fitre ile zekâtın farkı ne? Bu soruların cevabını bölüm bölüm bulacaksınız.",
+    "Her konuda önce kısa açıklamayı, varsa ayetin mealini ve Peygamberimizin sahih hadisini dinleyeceksiniz.",
+    "Hükümler Diyanet İşleri Başkanlığının yayınlarına ve Din İşleri Yüksek Kurulunun fetvalarına dayanır. Mezhep farkı olan yerlerde Şâfiî mezhebinin görüşü de söylenir.",
+    [
+     "Kendi malınız ve durumunuz için müftülüğe danışın.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-zekat-nedir",
+   "baslik": "Zekât nedir?",
+   "tur": "Zekât",
+   "parcalar": [
+    [
+     "Zekât.",
+     0.8
+    ],
+    [
+     "Zekât nedir?",
+     0.5
+    ],
+    [
+     "Hükmü: farzdır.",
+     0.6
+    ],
+    "Zekât sözlükte artma, çoğalma, arınma ve bereket demektir.",
+    "Dinî terim olarak, dinen zenginlik ölçüsü kabul edilen miktarda, nisap, mala sahip olan kimsenin Allah rızası için belli kişilere vermesi gereken belli miktardır.",
+    "Zekât İslam’ın beş temel esasından biridir; Medine döneminde, hicretin ikinci yılında farz kılınmıştır.",
+    "Kur’an’da çoğu yerde namazla birlikte anılır: namaz bedenî, zekât malî bir ibadettir.",
+    "Ayette zekât, malı ve sahibini temizleyip arıtan bir sadaka olarak anılır.",
+    [
+     "Peygamberimiz de Muâz’ı Yemen’e gönderirken zekâtın zenginlerden alınıp fakirlere verileceğini öğretmiştir.",
+     0.8
+    ],
+    "Bakara Suresi, kırk üçüncü ayetin anlamı şöyledir.",
+    [
+     "Namazı kılın, zekatı verin, rüku edenlerle birlikte rüku edin.",
+     0.8
+    ],
+    "Tevbe Suresi, yüz üçüncü ayetin anlamı şöyledir.",
+    "Mallarının bir kısmını, kendilerini temizleyip arıtacak sadaka olarak al, onlara dua et; senin duan onlar için bir güvendir.",
+    [
+     "Allah işitir ve bilir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Abdullah bin Abbas.",
+    "Peygamberimiz Muâz’ı Yemen’e gönderirken şöyle dedi: Onları Allah’tan başka ilah olmadığına ve benim Allah’ın elçisi olduğuma şahitlik etmeye davet et.",
+    [
+     "Kabul ederlerse onlara, Allah’ın mallarında zekâtı farz kıldığını, bunun zenginlerinden alınıp fakirlerine verileceğini bildir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekât, malın içindeki ihtiyaç sahibinin hakkıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-zekat-vermemek",
+   "baslik": "Zekâtı vermemek",
+   "tur": "Zekât",
+   "parcalar": [
+    [
+     "Zekâtı vermemek.",
+     0.5
+    ],
+    "Ayet, altın ve gümüşü biriktirip Allah yolunda harcamayanları uyarır; o mallar ateşte kızdırılıp sahiplerinin alınları, böğürleri ve sırtları onlarla dağlanacaktır.",
+    "Abdullah bin Ömer, bu ayetlerin zekât ayetlerinden önce indiğini; zekât farz kılınınca Allah’ın onu malı temizleyen bir şey yaptığını söylemiştir.",
+    "Yani zekâtı verilen mal, ayetteki kınanan birikim değildir.",
+    [
+     "Peygamberimiz, Allah’ın mal verdiği hâlde zekâtını vermeyen kimsenin malının kıyamet günü bir yılan suretinde boynuna dolanacağını bildirmiştir.",
+     0.8
+    ],
+    "Tevbe Suresi, otuz dördüncü ve otuz beşinci ayetlerin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Hahamlar ve rahiplerin çoğu, insanların mallarını haksızlıkla yerler.",
+    "Allah yolundan alıkoyarlar.",
+    [
+     "Altın ve gümüşü biriktirip Allah yolunda sarf etmeyenlere can yakıcı bir azabı müjdele Bunlar cehennem ateşinde kızdırıldığı gün, alınları, böğürleri ve sırtları onlarla dağlanacak, Bu, kendiniz için biriktirdiğinizdir; biriktirdiğinizi tadın denecek.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    "Allah’ın kendisine mal verdiği hâlde zekâtını vermeyen kimsenin malı kıyamet günü gözlerinin üstünde iki siyah benek bulunan zehirli bir yılan suretine sokulur.",
+    [
+     "Yılan onun boynuna dolanır, çenelerinden yakalar ve Ben senin malınım, ben senin hazinenim der.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Hâlid bin Eslem.",
+    "Abdullah bin Ömer’e Altın ve gümüşü biriktirenler ayeti soruldu.",
+    "Kim onları biriktirip zekâtını vermezse yazık ona.",
+    [
+     "Bu ayetler zekât ayetlerinden önce inmişti; zekât ayetleri inince Allah zekâtı mallar için bir temizlik kıldı dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekâtı verilen mal temizlenir; verilmeyen mal sahibine yük olur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-kime-farz",
+   "baslik": "Kime farzdır?",
+   "tur": "Zekât",
+   "parcalar": [
+    [
+     "Kime farzdır?",
+     0.5
+    ],
+    [
+     "Hükmü: farzdır.",
+     0.6
+    ],
+    "Zekâtın farz olması için kişinin müslüman, akıllı, ergenlik çağına girmiş ve hür olması gerekir.",
+    "Malla ilgili şartlar şunlardır: mal tam mülk olmalı; nisap miktarına ulaşmalı; bir yıllık borcundan ve aslî ihtiyaçlarından fazla olmalı; artıcı, nâmî, olmalı, yani gelir, kâr ya da fayda sağlayabilecek nitelikte bulunmalı; üzerinden bir kamerî yıl geçmelidir.",
+    "Aslî ihtiyaçlar; barınma, yiyecek, giyecek, sağlık, ulaşım, eğitim, ev eşyası, meslek aletleri, kitaplar ve elektrik, su, yakıt, aidat gibi cari giderlerdir.",
+    "Bunlar zekât hesabına girmez.",
+    [
+     "Hanefîlere göre zengin de olsa ergenlik çağına girmemiş çocuğun malından zekât gerekmez; yalnız çocuğa ait tarım ürünlerinin öşrü verilir.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre zekât için akıl ve ergenlik şart değildir; çocuğun ve akıl hastasının malından da zekâtı velisi verir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nisap, ihtiyaç fazlası ve bir yıl: zekâtın üç ölçüsü.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-borclar",
+   "baslik": "Borçlar düşülür mü?",
+   "tur": "Zekât",
+   "parcalar": [
+    [
+     "Borçlar düşülür mü?",
+     0.5
+    ],
+    "Zekât vermekle yükümlü olan kişi, zekâta tabi malından kul hakkı olan borçlarını düşer; borcu çıktıktan sonra kalan nisaba ulaşmıyorsa zekât gerekmez.",
+    "Kamu, Toplu Konut İdaresi, kooperatif ve kredi gibi on, yirmi yıla yayılan borçların tamamı zekât malından düşülmemelidir.",
+    "Din İşleri Yüksek Kurulu’na göre yalnızca o zekât yılına ait birikmiş borçlar ile vadesi o yıl içinde dolmuş ya da dolacak borçlar düşülür; çünkü zekât yıllık bir ibadettir.",
+    [
+     "Hanefî mezhebinin genel görüşünde vadesi gelmiş ve gelmemiş borçlar aynı hükümdedir; bazı Hanefî âlimlere göre ise yalnız vadesi gelmiş ve istenen borç düşülür.",
+     0.8
+    ],
+    [
+     "Örnek: Konut kredisinin bu yıl ödenecek taksitleri düşülür; gelecek yılların taksitleri düşülmez.",
+     0.6
+    ],
+    [
+     "Şâfiî mezhebinin meşhur görüşüne göre hiçbir borç zekâta tabi maldan düşülmez; borçlu olmak zekâta engel değildir.",
+     0.6
+    ],
+    [
+     "Kendi durumunuz için müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bu yılın borcu düşülür, yılların borcu düşülmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-yil",
+   "baslik": "Bir yıl şartı ve zamanı",
+   "tur": "Zekât",
+   "parcalar": [
+    [
+     "Bir yıl şartı ve zamanı.",
+     0.5
+    ],
+    "Nisap miktarı mala sahip olunduğu gün zekât yılı başlar; üzerinden bir kamerî yıl geçtiğinde nisap hâlâ varsa malın kırkta biri zekât olarak verilir.",
+    "Yıl içindeki artış ve azalışlara bakılmaz.",
+    "Maaş ve ücret gibi yıl içinde gelen paralar mevcut birikime katılır ve yıl sonunda hepsinin zekâtı birlikte verilir; paranın yılın sonuna doğru gelmesi bu hükmü değiştirmez.",
+    "Zekâtın belli bir ayı yoktur; Ramazan’ı beklemek gerekmez.",
+    "Farz olduğu andan itibaren en kısa zamanda verilmelidir.",
+    [
+     "Dileyen yıl dolmadan önceden de verebilir; peşin ödeme imkânı yoksa bir yıl içinde taksitle verebilir.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre miras ya da hibe gibi yollarla ayrıca elde edilen para mevcut birikime katılmaz; her biri kendi kamerî yılını doldurunca zekâtı verilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nisap gününden bir kamerî yıl sonra: zekât günü.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-niyet-temlik",
+   "baslik": "Niyet ve temlik",
+   "tur": "Zekât",
+   "parcalar": [
+    [
+     "Niyet ve temlik.",
+     0.5
+    ],
+    "Zekât bir ibadet olduğu için niyetsiz verilmez.",
+    "Ayrıca zekâtın fakire teslim edilip onun mülküne geçirilmesi, temlik, şarttır.",
+    "Bu yüzden sofra kurup yemek yedirmek zekât yerine geçmez; belediye, dernek ya da aşevlerinin hazırladığı iftar yemekleri de zekât sayılmaz.",
+    "Aynı yemek zekât niyetiyle fakire teslim edilirse zekât verilmiş olur.",
+    "Daha önce borç verilmiş paranın sonradan zekât niyetiyle bağışlanması da zekât olmaz; dört mezhep âlimleri bu görüştedir.",
+    [
+     "Zekât elden, vekil aracılığıyla ya da havale ile verilebilir; önemli olan hak sahibine ulaşmasıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekât, niyetle ve ihtiyaç sahibinin eline vererek olur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-nisap",
+   "baslik": "Nisap",
+   "tur": "Nisap ve oran",
+   "parcalar": [
+    [
+     "Nisap ve oran.",
+     0.8
+    ],
+    [
+     "Nisap.",
+     0.5
+    ],
+    "Nisap, zekâtla yükümlü olmak için esas alınan zenginlik ölçüsüdür.",
+    "Peygamberimiz beş ukıyyeden, yani iki yüz dirhemden az gümüşte zekât olmadığını bildirmiş; altının nisabı yirmi miskal olarak belirlenmiştir.",
+    "Din İşleri Yüksek Kurulu, yirmi miskal altını seksen virgül on sekiz gram, iki yüz dirhem gümüşü beş yüz altmış bir virgül iki gram olarak esas alır.",
+    "Hayvanlarda nisap devede beş, sığırda otuz, koyun ve keçide kırk adettir.",
+    "Para, döviz, altın, gümüş ve ticaret malı birlikte nisaba ulaşabilir.",
+    [
+     "Nisabın parayla karşılığı altının o günkü fiyatına göre değişir; bu yüzden uygulama gram fiyatı yazmaz, siz girersiniz.",
+     0.8
+    ],
+    [
+     "Şâfiî ve Hanbelî mezheplerine göre altın ve gümüş, nisabı tamamlamak için birbirine eklenmez; Hanefîlere göre eklenir.",
+     0.6
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Saîd el-Hudrî.",
+    [
+     "Beş ukıyyeden az gümüşte, beş deveden az devede ve beş veskten az hurma ve tahılda zekât yoktur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nisap: ihtiyaç fazlası seksen virgül on sekiz gram altın ya da değeri.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-gumus-nisabi",
+   "baslik": "Gümüş nisabı",
+   "tur": "Nisap ve oran",
+   "parcalar": [
+    [
+     "Gümüş nisabı.",
+     0.5
+    ],
+    "Peygamberimiz döneminde altın ve gümüş nisapları aşağı yukarı aynı değerdeydi.",
+    "Bugün iki yüz dirhem gümüş ile yirmi miskal altın arasında büyük bir değer farkı vardır.",
+    "Diyanet İlmihali, zamanımızda gümüşün değeri çok düştüğü için beş yüz altmış bir virgül iki gram gümüşün parasal karşılığının nisap sayılamayacağını, altının esas alınması gerektiğini söyler.",
+    "Hadislerle İslâm da altının ekonomik değerini koruduğunu belirterek altının esas alınmasını daha isabetli bulur.",
+    [
+     "Gümüşün kendisi zekâta tabidir: elinizdeki gümüşün değeri diğer mallarınıza eklenir ve toplam altın nisabına ulaşırsa kırkta biri verilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gümüş zekâta tabidir; nisap ölçüsü olarak bugün altın esas alınır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-kirkta-bir",
+   "baslik": "Kırkta bir",
+   "tur": "Nisap ve oran",
+   "parcalar": [
+    [
+     "Kırkta bir.",
+     0.5
+    ],
+    "Altın, gümüş, para ve ticaret malının zekâtı kırkta birdir, yani yüzde iki buçuk.",
+    "Nisabı aşan kısım da aynı oranda hesaplanır.",
+    "Toprak ürünlerinde oran farklıdır, onda bir ya da yirmide bir; hayvanların zekâtı ise sayıya göre belirlenir.",
+    [
+     "Farklı ayarlarda altını olan kişi, nisap için bütün altınlarının ağırlığını toplar; zekâtı ise her ayarın kendi değeri üzerinden hesaplar.",
+     0.8
+    ],
+    [
+     "Örnek: Borçları düşüldükten sonra dört yüz bin Türk liralık birikimi olan ve bu tutar nisabın üzerinde olan kimse, yıl dolunca on bin Türk lirası zekât verir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kırkta bir: yüz liranın iki buçuk lirası.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-para",
+   "baslik": "Para ve döviz",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Zekâta tabi mallar.",
+     0.8
+    ],
+    [
+     "Para ve döviz.",
+     0.5
+    ],
+    "Günümüzde kâğıt para, altın ve gümüşün mübadele aracı olarak gördüğü işi görmektedir.",
+    "Bu yüzden madenî ve kâğıt paralar altın, gümüş ve ticaret malı hükmündedir.",
+    "Nakit, banka hesabı ve döviz, tek başına ya da altın, gümüş ve ticaret malıyla birlikte nisaba ulaşınca, üzerinden bir yıl geçtiğinde kırkta biri zekât olarak verilir.",
+    [
+     "Döviz, zekât günündeki Türk lirası karşılığıyla hesaplanır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Para da altın gibidir: nisap, yıl ve kırkta bir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-altin-ziynet",
+   "baslik": "Altın, gümüş ve takılar",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Altın, gümüş ve takılar.",
+     0.5
+    ],
+    "Altın ve gümüş, külçe ya da para olarak bulunsun, nisaba ulaşınca zekâta tabidir.",
+    "Hanefîlere göre altın ve gümüşten yapılmış bilezik, kolye gibi takılar da diğer şartları taşıyorsa zekâta tabidir: seksen virgül on sekiz gram ya da daha fazla olup üzerinden bir yıl geçmişse kırkta biri verilir.",
+    "Altın ve gümüş dışındaki maden ve taşlardan yapılan takılar zekâta tabi değildir.",
+    [
+     "Ayarı farklı altınların ağırlıkları nisap için toplanır.",
+     0.8
+    ],
+    [
+     "Şâfiî, Mâlikî ve Hanbelî âlimlerine göre kadının normal olarak takıp kullandığı takı aslî ihtiyaç sayılır ve zekâta tabi değildir; Şâfiîlere göre israf derecesindeki takının zekâtı verilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Takı da altındır: Hanefîlere göre zekâtı verilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-ticaret",
+   "baslik": "Ticaret malı",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Ticaret malı.",
+     0.5
+    ],
+    "Kâr amacıyla alınıp satılan mallara ticaret malı denir.",
+    "Nisap değerinde ticaret malı olan kişi, nisaba sahip olmasının üzerinden bir yıl geçince kırkta birini verir.",
+    "İleride elde edilecek kâr hesaba katılmaz; zekâtın verileceği tarihteki maliyet değeri esas alınır.",
+    "Zekât parayla verilebileceği gibi malın kendi cinsinden de verilebilir.",
+    "Alıp satmak ya da değerlenince satmak için tutulan arsa, ev gibi taşınmazlar da zekâta tabidir; bunların zekâtı her yıl piyasa değeri üzerinden verilir.",
+    [
+     "Oturmak, dükkân, tarla ya da bağ bahçe yapmak için alınan arsa zekâta tabi değildir.",
+     0.8
+    ],
+    [
+     "Kendi durumunuz için müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Satmak için tutulan mal, ticaret malıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-hisse",
+   "baslik": "Şirket ve hisse senedi",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Şirket ve hisse senedi.",
+     0.5
+    ],
+    "Şirketin kendisi değil, ortaklardan her birinin payı zekâta tabidir.",
+    "Bina, makine, alet gibi duran varlıklar zekâttan muaftır; borçlar ve giderler çıktıktan sonra dönen varlıklar, stok, hammadde, nakit, çek, alacak, kârla birlikte kırkta bir oranında zekâta tabidir.",
+    "Hisse senedi alıp satmak için tutuluyorsa ticaret malıdır; piyasa değeri üzerinden zekâtı verilir.",
+    "Kâr payı için elde tutuluyorsa, alınan kâr payı nisaba ulaşıp üzerinden bir yıl geçince zekâta tabidir.",
+    [
+     "Şirket hesabı ayrıntılı bir konudur; kendi şirketiniz ya da hisseleriniz için müftülüğe danışın.",
+     0.8
+    ],
+    [
+     "Kendi durumunuz için müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Satmak için tutulan hisse ticaret malıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-alacak",
+   "baslik": "Alacaklar",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Alacaklar.",
+     0.5
+    ],
+    "Borç olarak verilen para ve ticaret malının bedeli gibi kuvvetli alacaklar, borçlu kabul ediyor ya da kesin delil varsa, her yıl diğer mallarla birlikte zekâta tabidir.",
+    "Önceki yılların zekâtı verilmemişse alacak tahsil edilince verilir.",
+    "Ev kirası gibi alacaklarda da geçmiş yılların zekâtı doğar; ancak ödeme için en az nisap miktarı tahsil edilmiş olmalıdır.",
+    "Mehir, vasiyet ve diyet gibi alacaklar ise tahsil edilip üzerinden bir yıl geçince zekâta tabi olur.",
+    [
+     "Borçlunun inkâr ettiği ya da geri alınması umulmayan alacak için her yıl zekât gerekmez; sonradan tahsil edilirse yalnız o yılın zekâtı verilir.",
+     0.8
+    ],
+    [
+     "Kendi durumunuz için müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Alınması umulan alacak, elde gibidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-hayvan",
+   "baslik": "Hayvanların zekâtı",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Hayvanların zekâtı.",
+     0.5
+    ],
+    "Hayvanlarda nisap devede beş, sığırda otuz, koyun ve keçide kırk adettir.",
+    "Zekâtın miktarı hayvanın sayısına göre belirlenir.",
+    "Hayvanların zekâtı kendi cinsinden verilebileceği gibi değeri üzerinden parayla da verilebilir; fakirin yararına olanı tercih etmek daha uygundur.",
+    [
+     "Ayrıntılı hesap bu uygulamanın kapsamı dışındadır; hayvan sahipleri hesabı müftülükten öğrenmelidir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Beş deve, otuz sığır, kırk koyun.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "16-osur",
+   "baslik": "Toprak ürünleri: öşür",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Toprak ürünleri: öşür.",
+     0.5
+    ],
+    "Öşür sözlükte onda bir demektir; tarım ürünlerinden verilen zekâtın adıdır.",
+    "Ayet, ürünün devşirildiği gün hakkının verilmesini emreder.",
+    "Peygamberimiz yağmur ve nehir sularıyla sulanan üründe onda bir, emek ve masrafla sulanan üründe yirmide bir öşür belirlemiştir.",
+    "Din İşleri Yüksek Kurulu’na göre gübre, ilaç, mazot gibi masraflar çıkarıldıktan sonra nisaba ulaşan ürünün onda biri verilir; masraflar çıkarılmazsa yirmide biri verilir.",
+    "Saklanabilir ürünlerde nisap beş vesktir; bu, ürüne göre altı yüz elli üç ile bin kilogram arasındadır, buğdayda altı yüz elli üç kilogramdır.",
+    [
+     "Ayrıntılı hesap kapsam dışıdır.",
+     0.8
+    ],
+    "En‘âm Suresi, yüz kırk birinci ayetin anlamı şöyledir.",
+    "Çardaklı ve çardaksız bağları inşa eden Allah'tır.",
+    "Tadları çeşitli ekin ve hurmaları, zeytin ve narı birbirine benzer ve benzemez şekilde yaratan O'dur.",
+    [
+     "Ürün verdiği zaman ürününden yiyin, devşirildiği ve biçildiği gün hakkını verin; israf etmeyin, çünkü Allah müsrifleri sevmez.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Yağmurun ve pınarların suladığı ya da kendiliğinden sulanan üründe onda bir; kuyudan, emekle, sulananda ise onda birin yarısı zekât vardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Toprak da zekât verir: onda bir ya da yirmide bir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "17-muaf",
+   "baslik": "Zekât gerekmeyen mallar",
+   "tur": "Zekâta tabi mallar",
+   "parcalar": [
+    [
+     "Zekât gerekmeyen mallar.",
+     0.5
+    ],
+    "Aslî ihtiyaç sayılan mallar zekâta tabi değildir: oturulan ev, ev eşyası, giyecek, kullanılan araç, kitaplar ve kişinin mesleğinde kullandığı alet, makine ve malzemeler.",
+    "Kişinin kendi mesleği için değil de ticaret için ürettiği ya da alıp sattığı alet ve makineler ise ticaret malıdır ve zekâta tabidir.",
+    [
+     "Gayrimeşru yolla elde edilen kazancın zekâtı olmaz; sahibi belliyse ona iade edilir, belli değilse karşılığında sevap beklenmeden yoksullara ya da hayır kurumlarına verilerek elden çıkarılır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kullandığın eşya değil, biriktirdiğin servet zekâta tabidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "18-sekiz-sinif",
+   "baslik": "Sekiz sınıf",
+   "tur": "Kimlere verilir?",
+   "parcalar": [
+    [
+     "Kimlere verilir?.",
+     0.8
+    ],
+    [
+     "Sekiz sınıf.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilebilir.",
+     0.6
+    ],
+    "Zekât; fakirlere, miskinlere, zekât toplamakla görevli memurlara, kalpleri İslam’a ısındırılmak istenenlere, hürriyetine kavuşmaya çalışan kölelere, borçlulara, Allah yolunda olanlara ve yolda kalmışlara verilir.",
+    "Borçlu, kul hakkı olarak borcu olan ve borcunu ödeyecek maldan başka nisap miktarı malı bulunmayan kimsedir.",
+    "Yolda kalmış, memleketinde malı olsa bile yolculukta parasız kalıp parasına ulaşamayan kimsedir; bugün banka kartıyla parasına ulaşabilen yolcuya zekât verilmez.",
+    "Hanefîlere göre zekât bu sınıflardan yalnız birine de verilebilir.",
+    [
+     "Zekâtın en başta gelen hak sahipleri fakir ve miskinlerdir.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre zekâtı sahibi ya da vekili dağıtıyorsa, zekât memurları dışında bulunabilen yedi sınıfa eşit olarak ve her sınıftan en az üç kişiye verilmelidir.",
+     0.6
+    ],
+    "Tevbe Suresi, altmışıncı ayetin anlamı şöyledir.",
+    "Zekatlar; Allah'tan bir farz olarak yoksullara, düşkünlere, onu toplayan memurlara, kalbleri Müslümanlığa ısındırılacaklara verilir; kölelerin, borçluların, Allah yolunda olanların ve yolda kalanların uğrunda sarfedilir.",
+    [
+     "Allah bilendir, hakimdir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekâtın adresini Allah belirlemiştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "19-fakir-miskin",
+   "baslik": "Fakir kimdir?",
+   "tur": "Kimlere verilir?",
+   "parcalar": [
+    [
+     "Fakir kimdir?",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilebilir.",
+     0.6
+    ],
+    "Fakir ve miskin, temel ihtiyaçları dışında nisap miktarı mala sahip olmayan kimsedir.",
+    "Hanefîlere göre fakirin az da olsa malı vardır; miskinin ise hiçbir şeyi yoktur.",
+    "Bir geliri olduğu hâlde temel ihtiyaçlarını karşılayamayan ya da temel ihtiyaçlarından sonra elinde seksen virgül on sekiz gram altın değerinde malı kalmayan kişiye zekât verilebilir; memur, esnaf ya da işsiz olması fark etmez.",
+    "Bununla birlikte, kendisinin ve bakmakla yükümlü olduklarının ihtiyacını karşılayabilene zekât verilemeyeceğini söyleyen âlimler de olduğu için daha yoksul olanlara öncelik verilmesi uygundur.",
+    [
+     "Durumunu kimseye açmayan iffetli yoksullar araştırılıp bulunmalıdır.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebinde ölçü nisap değil yeterliliktir, kifâye: malı ve kazancı kendisine ve ailesine yetmeyen kimse, nisabın üstünde malı olsa da zekât alabilir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+    "Sadakalarınızı, kendilerini Allah yoluna adayıp yeryüzünde dolaşamayanlara, hayalarından dolayı, kendilerini tanımayanların zengin saydıkları yoksullara verin.",
+    "Onları yüzlerinden tanırsın, insanlardan yüzsüzlük ederek bir şey istemezler.",
+    [
+     "Sarfettiğiniz iyi bir şeyi Allah şüphesiz bilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İhtiyacını söyleyemeyen yoksulu bul.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "20-akraba",
+   "baslik": "Kardeş ve diğer akrabalar",
+   "tur": "Kimlere verilir?",
+   "parcalar": [
+    [
+     "Kardeş ve diğer akrabalar.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilebilir.",
+     0.6
+    ],
+    "Usûl, anne, baba, dede, nine, ve fürû, çocuk, torun, dışındaki akrabalara, zengin değillerse zekât, fitre ve fidye verilebilir: kardeş, amca, hala, dayı, teyze ve onların çocukları, gelin, damat, kayınpeder ve kayınvalide.",
+    "Üvey anne, üvey baba ve üvey çocuklarla süt anne ve süt babaya da fakir iseler zekât verilebilir; çünkü aralarında usûl ve fürû ilişkisi yoktur ve kişi normal durumlarda onlara bakmakla yükümlü değildir.",
+    [
+     "Zekâtın, kendisine zekât verilebilecek akrabaya verilmesi daha faziletlidir: önce muhtaç kardeşlere, sonra onların çocuklarına, sonra amca, hala ve diğer akrabalara, komşulara.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekât önce yakındaki ihtiyaç sahibine.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "21-kurumlar",
+   "baslik": "Cami, okul ve kurumlar",
+   "tur": "Kimlere verilir?",
+   "parcalar": [
+    [
+     "Cami, okul ve kurumlar.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilemez.",
+     0.6
+    ],
+    "Zekâtın sahih olması için zekât alması caiz olan gerçek kişilere temlik edilmesi gerekir.",
+    "Bu yüzden zekât ve fitrenin cami, köprü, yol, okul, yurt, çeşme gibi yerlere harcanması caiz değildir; okullar, Kur’an kursları ve camiler Allah yolunda sınıfına girmez.",
+    "Zekâtı fakirlere ulaştıran güvenilir bir hayır kurumu aracı olabilir; zekâtı inşaat, aydınlatma, büro masrafı gibi genel giderlerde kullanacak kuruluşa zekât verilmez.",
+    [
+     "Bu kurumlar zekât dışındaki gönüllü bağışlarla desteklenir; böyle kalıcı hayırlar sadaka-i câriyedir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekât yoksulun hakkıdır; cami ve okula sadaka verilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "22-verme-adabi",
+   "baslik": "Zekât vermenin âdâbı",
+   "tur": "Kimlere verilir?",
+   "parcalar": [
+    [
+     "Zekât vermenin âdâbı.",
+     0.5
+    ],
+    "Zekât yalnız Allah rızası için, başa kakmadan ve incitmeden verilir.",
+    "Helal kazançtan verilir; mal olarak veriliyorsa, kişinin kendisine verilmesini istemeyeceği değersiz şeyler verilmez.",
+    "Hanefîlere göre zekâtın, alanın onurunu korumak için gizlice verilmesi daha iyidir.",
+    "Zekât geciktirilmez; öncelikle malın bulunduğu yerdeki fakirlere verilir.",
+    "Verirken bu zekâttır demek gerekmez; alanı incitebileceği için söylememek daha iyidir.",
+    [
+     "Zekât güvenilir bir vekil aracılığıyla da verilebilir.",
+     0.8
+    ],
+    [
+     "Şâfiî ve Hanbelî mezheplerine göre, insanları bu ibadete teşvik etmek için zekâtın açıkça verilmesi daha uygundur; nafile sadakayı gizli vermek ise bütün fakihlere göre daha faziletlidir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz altmış yedinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Kazandıklarınızın temizlerinden ve size yerden çıkardıklarımızdan sarfedin; iğrenmeden alamıyacağınız pis şeyleri vermeye kalkmayın.",
+    [
+     "Allah'ın müstağni ve övülmeye layık olduğunu bilin.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz yetmiş birinci ayetin anlamı şöyledir.",
+    "Sadakaları açıkça verirseniz o ne güzel!",
+    "Eğer onları yoksullara gizlice verirseniz sizin için daha iyidir.",
+    "Allah onları kötülüklerinizden bir kısmına karşı tutar.",
+    [
+     "Allah işlediklerinizden haberdardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Verdiğini helalinden, iyisinden ve incitmeden ver.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "23-usul-furu",
+   "baslik": "Anne baba, çocuk ve torun",
+   "tur": "Kimlere verilmez?",
+   "parcalar": [
+    [
+     "Kimlere verilmez?.",
+     0.8
+    ],
+    [
+     "Anne baba, çocuk ve torun.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilemez.",
+     0.6
+    ],
+    "Hanefîlere göre kişi zekâtını, fitresini ve fidyesini anne, baba, büyük anne ve büyük babalarına; oğul, kız ve onların çocuklarına veremez.",
+    "Zekât veren, verdiği zekâttan hiçbir şekilde yararlanmamalıdır.",
+    "Bu yakınlara verilen zekât nafaka borcundan kurtulma ya da miras gibi yollarla dolaylı olarak kendisine döner; temlik tam gerçekleşmez.",
+    [
+     "Bu kimselere zekât dışındaki maldan yardım etmek, bakmak ve ihtiyaçlarını karşılamak ise ayrıca bir görevdir.",
+     0.8
+    ],
+    [
+     "Şâfiî, Mâlikî ve Hanbelî mezheplerinde ölçü nafakadır: kişi, nafakasını sağlamakla hukuken yükümlü olduğu akrabasına zekât veremez.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Anne babaya ve çocuğa zekât değil, nafaka verilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "24-es",
+   "baslik": "Eş",
+   "tur": "Kimlere verilmez?",
+   "parcalar": [
+    [
+     "Eş.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilemez.",
+     0.6
+    ],
+    "Hanefîlere göre kişi zekâtını eşine veremez; çünkü aralarında bakma yükümlülüğü ilişkisi vardır ve verilen zekât dolaylı olarak kendisine döner.",
+    "Ebû Hanîfe’ye göre kadın da zekâtını fakir kocasına veremez.",
+    [
+     "Diyanet’in yayınlarında eşlerin birbirine zekât, fitre ve fidye veremeyeceği açıkça yazılıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Eşler birbirinin zekâtını alamaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "25-zengin",
+   "baslik": "Zengin",
+   "tur": "Kimlere verilmez?",
+   "parcalar": [
+    [
+     "Zengin.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilemez.",
+     0.6
+    ],
+    "Hanefîlere göre aslî ihtiyaçları dışında, artıcı olsun olmasın, nisap miktarı malı olan kimse zengindir; ona zekât verilmez.",
+    "Bu kişi zekât vermekle yükümlü olmasa bile zekât alamaz; fitre vermesi ve kurban kesmesi gerekir.",
+    "Babası zengin olan ve ergenlik çağına girmemiş çocuğa da zekât verilmez.",
+    [
+     "Zengin bir kişinin fakir olan babasına, büyük çocuğuna ya da eşine ise başkası zekât verebilir; çünkü onlar babanın ya da eşin servetiyle zengin sayılmaz.",
+     0.8
+    ],
+    [
+     "Şâfiî, Mâlikî ve Hanbelî mezheplerinde zenginliğin ölçüsü nisap değil yeterliliktir, kifâye; malı kendisine ve ailesine yetmeyen kimse nisabın üstünde malı olsa da zekât alabilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nisabı olan zekât verir, zekât almaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "26-gayrimuslim",
+   "baslik": "Müslüman olmayan",
+   "tur": "Kimlere verilmez?",
+   "parcalar": [
+    [
+     "Müslüman olmayan.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilemez.",
+     0.6
+    ],
+    "Zekât ibadet içerikli bir yükümlülük olduğu için fakihlerin ittifakıyla müslüman olmayana verilmez.",
+    "Dört mezhep imamının da aralarında bulunduğu çoğunluğa göre İslam toplumundaki gayrimüslim vatandaşa da zekât verilemez.",
+    "Fitrede Ebû Hanîfe, İslam ülkesinin gayrimüslim vatandaşına fitre verilebileceğini söylemiştir; Ebû Yûsuf ve fakihlerin çoğunluğuna göre verilemez.",
+    "Hanefî mezhebinde fetva Ebû Yûsuf’un görüşüne göredir.",
+    [
+     "Gayrimüslim komşuya zekât dışındaki maldan yardım etmek, ona iyilik etmek ise güzeldir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekât müslüman yoksulun; iyilik herkesin hakkıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "27-peygamber-ailesi",
+   "baslik": "Peygamberimizin yakınları",
+   "tur": "Kimlere verilmez?",
+   "parcalar": [
+    [
+     "Peygamberimizin yakınları.",
+     0.5
+    ],
+    [
+     "Hükmü: zekât ve fitre verilemez.",
+     0.6
+    ],
+    "Peygamberimiz, torunu Hasan zekât hurmalarından birini ağzına alınca onu çıkarttırmış ve zekât malını kendilerinin yemediğini söylemiştir.",
+    "Başka hadislerde de zekâtın Peygamberimize ve yakınlarına verilmeyeceği bildirilmiştir.",
+    "Diyanet İlmihali, fakihlerin Peygamberimizin yakınlarının kimler olduğu konusunda farklı görüşler ileri sürdüğünü belirtir.",
+    [
+     "Bu yasağın bir hikmeti, Peygamberimizin kendisini ve yakınlarını her türlü töhmetten uzak tutmak istemesidir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    "Hasan bin Ali, zekât hurmalarından birini alıp ağzına koydu.",
+    "Peygamberimiz Çıkar onu!",
+    [
+     "Bilmiyor musun, biz sadaka, zekât, olarak verilen şeyi yemeyiz buyurdu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Peygamberimiz zekâtı kendisine ve ailesine almadı.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "28-yanilma",
+   "baslik": "Yanlış kişiye verilirse",
+   "tur": "Kimlere verilmez?",
+   "parcalar": [
+    [
+     "Yanlış kişiye verilirse.",
+     0.5
+    ],
+    "Zekât veren kişi, kime verdiğini araştırmalıdır.",
+    "Araştırıp zekât verilebilecek biri olduğu kanaatine vardığı kişiye verir de sonra onun zengin olduğu anlaşılırsa zekâtı geçerlidir.",
+    [
+     "Araştırmadan verir de sonradan kişinin zekât verilebilecek biri olduğu anlaşılırsa zekâtı yine geçerlidir; ama öyle olmadığı anlaşılırsa zekâtı geçerli olmaz, yeniden vermesi gerekir.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebindeki yerleşik görüşe göre zekât ehline ulaşmadıkça, borç başkasına ödenmiş gibi, zekât borcu düşmez.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Araştırarak ver; gerisini Allah bilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "29-fitir-sadakasi",
+   "baslik": "Fıtır sadakası (fitre)",
+   "tur": "Fıtır sadakası",
+   "parcalar": [
+    [
+     "Fıtır sadakası.",
+     0.8
+    ],
+    [
+     "Fıtır sadakası, fitre.",
+     0.5
+    ],
+    [
+     "Hükmü: vaciptir.",
+     0.6
+    ],
+    "Halk arasında fitre denen fıtır sadakası, dinen zengin olup Ramazan’ın sonuna ulaşan müslümanın vermesi vacip olan sadakadır.",
+    "Kişi kendisinin ve küçük çocuklarının fitresini verir.",
+    "Bayram namazından önce verilmesi müstehaptır; Ramazan’ın ilk günlerinde vermek de caizdir.",
+    "Kişinin bakmakla yükümlü olduğu yakınlarına ve eşine verilmez.",
+    "Fitre, insan olarak yaratılmanın ve Ramazan orucunu tutup bayrama ulaşmanın şükrüdür; fakirin bayram sevincine katılmasını sağlar.",
+    [
+     "Ölçüsü, kişinin bir günlük normal gıda ihtiyacıdır; Din İşleri Yüksek Kurulu her yıl en az tutarı açıklar.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre fitre farzdır ve nisap şartı yoktur; bayram günü ve gecesine yetecek azığı olan her müslüman fitre verir.",
+     0.6
+    ],
+    [
+     "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir kişinin fıtır sadakası için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+     0.6
+    ],
+    "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Peygamberimiz köle ya da hür, erkek ya da kadın, küçük ya da büyük her müslümana fıtır sadakası olarak bir sâ hurma ya da bir sâ arpa vermeyi farz kıldı ve insanlar bayram namazına çıkmadan önce verilmesini emretti.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fitre, bayram sevincini yoksulla paylaşmaktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "30-fitre-kim-verir",
+   "baslik": "Kim fitre verir?",
+   "tur": "Fıtır sadakası",
+   "parcalar": [
+    [
+     "Kim fitre verir?",
+     0.5
+    ],
+    [
+     "Hükmü: vaciptir.",
+     0.6
+    ],
+    "Ramazan Bayramı’na kavuşan, temel ihtiyaçlarının ve bir yıllık borçlarının dışında nisap miktarı, seksen virgül on sekiz gram altın ya da değeri, mala sahip olan müslüman fitre vermekle yükümlüdür.",
+    "Zekâttan farklı olarak bu malın artıcı olması ve üzerinden bir yıl geçmesi gerekmez.",
+    "Kişi kendisinin ve ergenlik çağına girmemiş çocuklarının fitresini verir.",
+    [
+     "Anne babası, büyük çocukları, eşi ve kardeşleri için vermesi gerekmez; ama onlar adına verirse geçerli olur.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre fitre için nisap gerekmez; varlıklı kimse, bakmakla yükümlü olduğu müslüman eşi, çocukları, anne babası ve diğer yakınları için de fitre verir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fitrede nisap yeter; yıl beklenmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "31-fitre-zamani",
+   "baslik": "Fitre ne zaman verilir?",
+   "tur": "Fıtır sadakası",
+   "parcalar": [
+    [
+     "Fitre ne zaman verilir?",
+     0.5
+    ],
+    "Hanefîlere göre fitre, Ramazan Bayramı’nın birinci günü tan yeri ağarınca vacip olur.",
+    "Bununla birlikte Ramazan ayı içinde de verilebilir; fakirlerin bayram ihtiyacını karşılaması için bayramdan önce vermek daha faziletlidir.",
+    "Peygamberimizin uygulamasına uyarak bayram namazına gitmeden önce vermek müstehaptır.",
+    [
+     "Bayram sabahına kadar verilmemişse bayram günlerinde, o da olmazsa ilk fırsatta verilir; borç düşmez.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre fitre Ramazan’ın son günü güneş batınca vacip olur; meşru bir mazeret olmadan bayramın birinci günü güneş batışından sonraya bırakmak haramdır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fitreyi bayramdan önce ver ki yoksul da bayram etsin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "32-fitre-kime",
+   "baslik": "Fitre kime verilir?",
+   "tur": "Fıtır sadakası",
+   "parcalar": [
+    [
+     "Fitre kime verilir?",
+     0.5
+    ],
+    "Fitre, zekâtın verildiği kimselere verilir; zekât verilemeyen kimseye fitre de verilemez.",
+    "Kişi fitresini dinen zengin sayılana, usûlüne, anne, baba, dede, nine, fürûuna, çocuk, torun, ve eşine veremez.",
+    "Fitreler bir fakire verilebileceği gibi birkaç fakire de dağıtılabilir; ancak bir kişiye verilen miktar bir fitreden az olmamalıdır.",
+    "Birkaç kişi de fitrelerini aynı fakire verebilir.",
+    "Fitre buğday, arpa, hurma ya da üzüm olarak verilebileceği gibi değeri para olarak da verilebilir; fakirin yararına olanı tercih etmek daha uygundur.",
+    [
+     "Askıda ekmek uygulamasıyla verilen ekmek fitre yerine geçmez; çünkü fitre verilebilecek kişiye ulaştığı bilinemez.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fitre de zekâtın yoluna gider.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "33-fitre-zekat",
+   "baslik": "Fitre ile zekât farkı",
+   "tur": "Fıtır sadakası",
+   "parcalar": [
+    [
+     "Fitre ile zekât farkı.",
+     0.5
+    ],
+    "Zekât farzdır; fitre Hanefîlere göre vaciptir.",
+    "Zekât malın kırkta biridir; fitre kişi başına belli bir tutardır, ölçüsü bir günlük gıda ihtiyacıdır.",
+    "Zekât için nisap miktarı malın artıcı olması ve üzerinden bir kamerî yıl geçmesi gerekir; fitre için nisap yeterlidir, artıcılık ve yıl şartı yoktur.",
+    "Zekât nisaba ulaşılan günden bir yıl sonra verilir; fitre Ramazan’da ya da bayram sabahı verilir.",
+    [
+     "İkisi de aynı kimselere verilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zekât malın şükrü, fitre canın şükrüdür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "34-oruc-fidyesi",
+   "baslik": "Oruç fidyesi",
+   "tur": "Fidye ve kefaret",
+   "parcalar": [
+    [
+     "Fidye ve kefaret.",
+     0.8
+    ],
+    [
+     "Oruç fidyesi.",
+     0.5
+    ],
+    "Fidye, oruç tutmaya gücü yetmeyen yaşlılar ile iyileşme ümidi olmayan hastaların tutamadıkları her gün için verdikleri bedeldir.",
+    "Bir günün fidyesi bir fıtır sadakası kadardır, yani bir kişiyi bir gün doyuracak yiyecek ya da bunun parasıdır.",
+    "Fidye Ramazan’ın başında, içinde ya da sonunda verilebilir; hepsi bir yoksula topluca ya da ayrı ayrı yoksullara verilebilir.",
+    "Kişinin anne babası, dede ve ninesi, çocukları ve torunları ile eşine verilmez.",
+    "Gücü yettiği hâlde oruç tutmayan ya da geçici bir mazeretle tutamayan kimse için fidye yoktur; o, orucunu kaza eder.",
+    "Fidye veren kimse sonradan oruç tutabilecek duruma gelirse Hanefîlere göre tutamadığı oruçları kaza eder ve verdiği fidye sadaka sayılır.",
+    [
+     "Fidye verecek gücü olmayan kimse Allah’tan bağışlanma diler.",
+     0.8
+    ],
+    [
+     "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir günlük oruç fidyesi için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+    "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+    "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+    "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+    [
+     "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fidye, oruca gücü hiç yetmeyenin kolaylığıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "35-oruc-kefareti",
+   "baslik": "Oruç kefareti",
+   "tur": "Fidye ve kefaret",
+   "parcalar": [
+    [
+     "Oruç kefareti.",
+     0.5
+    ],
+    "Oruç kefareti, Ramazan orucunu mazeretsiz ve bilerek bozan kimsenin yerine getirmesi gereken telafidir.",
+    "Kefaret, iki kamerî ay ya da altmış gün ara vermeden oruç tutmaktır; buna gücü yetmeyen altmış yoksulu bir gün ya da bir yoksulu altmış gün doyurur.",
+    "Hanefîlere göre bu sıraya uyulur.",
+    "Kefaretin yanında bozulan günün kazası ve tövbe de gerekir.",
+    "Kadının âdet ve lohusalık hâli kefaret orucunun ardı ardınalığını bozmaz; temizlenince kaldığı yerden devam eder.",
+    [
+     "Aynı Ramazan’da birden fazla gün bozulmuşsa bir kefaret yeterli görülmüştür.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Ramazan’da orucunu bozan adama Peygamberimiz sırasıyla köle azat etmeyi, iki ay peş peşe oruç tutmayı ve altmış yoksulu doyurmayı sordu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kefaret: altmış gün oruç ya da altmış yoksula yemek.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "36-yemin-kefareti",
+   "baslik": "Yemin kefareti",
+   "tur": "Fidye ve kefaret",
+   "parcalar": [
+    [
+     "Yemin kefareti.",
+     0.5
+    ],
+    "Bilerek ettiği yemini bozan kimse kefaret öder: on yoksulu sabahlı akşamlı doyurur ya da onları orta seviyede giydirir.",
+    "Ayette köle azat etmek de sayılır.",
+    "Bu seçeneklerden dilediğini sıraya uymadan seçebilir.",
+    "Bunlara gücü yetmeyen üç gün oruç tutar; Hanefîlere göre bu üç gün ardı ardına tutulmalıdır.",
+    "On yoksul bir günde doyurulabileceği gibi bir yoksul on gün doyurulabilir; yemek yerine bedeli de verilebilir.",
+    "Din İşleri Yüksek Kurulu’na göre bir yoksula verilecek yemin kefareti miktarı bir fitre miktarıdır.",
+    [
+     "Ağızdan kasıtsız çıkıveren yeminler için kefaret gerekmez.",
+     0.8
+    ],
+    "Mâide Suresi, seksen dokuzuncu ayetin anlamı şöyledir.",
+    "Allah size rasgele yeminlerinizden dolayı değil, bile bile ettiğiniz yeminlerden ötürü hesap sorar.",
+    "Yeminin keffareti, ailenize yedirdiğinizin ortalamasından on düşkünü yedirmek yahut giydirmek ya da bir köle azad etmektir.",
+    "Bulamayan üç gün oruç tutmalıdır; yeminlerinizin keffareti budur.",
+    "Yemin ettiğinizde yeminlerinizi tutun.",
+    [
+     "Şükredesiniz diye Allah size böylece ayetlerini açıklıyor.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sözünü tutamadıysan on yoksulu doyur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "37-infak",
+   "baslik": "Allah yolunda harcamak",
+   "tur": "Sadaka ve infak",
+   "parcalar": [
+    [
+     "Sadaka ve infak.",
+     0.8
+    ],
+    [
+     "Allah yolunda harcamak.",
+     0.5
+    ],
+    "İnfak, Allah’ın verdiği maldan Allah rızası için harcamaktır; zekât, fitre ve gönüllü sadakanın hepsi infaktır.",
+    "Kur’an, Allah yolunda harcananı her başağında yüz tane olan yedi başak veren bir taneye benzetir.",
+    "Başka bir ayet, insanın sevdiği şeylerden harcamadıkça iyiliğe erişemeyeceğini bildirir.",
+    [
+     "Peygamberimiz her gün iki meleğin indiğini; birinin infak edene karşılığını vermesi, ötekinin cimrinin malını telef etmesi için dua ettiğini haber vermiştir.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz altmış birinci ayetin anlamı şöyledir.",
+    "Mallarını Allah yolunda sarfedenlerin durumu, her başağında yüz tane olmak üzere yedi başak veren tanenin durumu gibidir.",
+    "Allah dilediğine kat kat verir.",
+    [
+     "Allah'ın lütfü geniştir, O her şeyi bilendir.",
+     0.8
+    ],
+    "Âl-i İmrân Suresi, doksan ikinci ayetin anlamı şöyledir.",
+    "Sevdiğiniz şeylerden sarfetmedikçe iyiliğe erişemezsiniz.",
+    [
+     "Her ne sarfederseniz, şüphesiz Allah onu bilir.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    "Kulların sabaha çıktığı her gün iki melek iner.",
+    [
+     "Biri Allah’ım, infak edene karşılığını ver der; öteki Allah’ım, malını, tutana telef ver der.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Verilen eksilmez, kat kat artar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "38-sadaka",
+   "baslik": "Gönüllü sadaka",
+   "tur": "Sadaka ve infak",
+   "parcalar": [
+    [
+     "Gönüllü sadaka.",
+     0.5
+    ],
+    "Sadaka, farz olan zekât ve vacip olan fitre dışında, Allah rızası için gönüllü olarak verilen her şeydir.",
+    "Belli bir miktarı ve zamanı yoktur.",
+    "Allah yalnız helal ve temiz olanı kabul eder.",
+    "Helal kazançtan verilen bir hurma kadar sadaka bile Allah katında büyür.",
+    "Yarım hurmayla bile olsa sadaka vererek cehennemden korunmak istenmiştir.",
+    [
+     "Gece gündüz, gizli ve açık sadaka verenlerin mükâfatını Rableri verecektir.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz yetmiş dördüncü ayetin anlamı şöyledir.",
+    "Gece gündüz, açık gizli, mallarını sarfedenlerin mükafatlarını Rab'leri verecektir.",
+    [
+     "Onlara korku yoktur ve onlar üzülmeyeceklerdir.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Kim helal kazancından bir hurma kadar sadaka verirse —Allah ancak helali kabul eder— Allah onu kabul eder, sonra sizden birinin tayını büyüttüğü gibi onu sahibi için büyütür; sonunda dağ gibi olur.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Adî bin Hâtim.",
+    [
+     "Yarım hurmayla da olsa kendinizi ateşten koruyun.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Az da olsa ver; helalinden ver.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "39-her-iyilik",
+   "baslik": "Her iyilik sadakadır",
+   "tur": "Sadaka ve infak",
+   "parcalar": [
+    [
+     "Her iyilik sadakadır.",
+     0.5
+    ],
+    "Sadaka yalnız para değildir.",
+    "Peygamberimiz her iyiliğin sadaka olduğunu bildirmiştir.",
+    "İki kişinin arasını bulmak, birinin yükünü hayvanına yüklemesine yardım etmek, güzel bir söz, namaza giderken atılan her adım ve yoldan insanlara eziyet veren bir şeyi kaldırmak sadakadır.",
+    "Hiçbir iyiliği küçük görmemek gerekir; kardeşini güler yüzle karşılamak bile bir iyiliktir.",
+    [
+     "Malı olmayan da böylece sadaka verebilir.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Huzeyfe.",
+    [
+     "Her iyilik sadakadır.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    "Güneşin doğduğu her gün insanın her eklemi için bir sadaka gerekir.",
+    [
+     "İki kişinin arasında adaletle hükmetmek sadakadır; birine hayvanına binmesinde ya da yükünü yüklemesinde yardım etmek sadakadır; güzel söz sadakadır; namaza giderken atılan her adım sadakadır; yoldan eziyet veren şeyi kaldırmak sadakadır.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Zer.",
+    [
+     "İyilikten hiçbir şeyi küçük görme; kardeşini güler yüzle karşılamak bile olsa.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gülümsemek de bir iyiliktir; iyiliğin küçüğü olmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "40-sadaka-adabi",
+   "baslik": "Başa kakmadan, gizlice",
+   "tur": "Sadaka ve infak",
+   "parcalar": [
+    [
+     "Başa kakmadan, gizlice.",
+     0.5
+    ],
+    "Malını Allah yolunda harcayıp ardından başa kakmayan ve incitmeyenlerin mükâfatı Rableri katındadır.",
+    "Başa kakmak ve incitmek sadakayı, üzerindeki toprağı yağmurla akıp giden çıplak bir kaya gibi boşa çıkarır.",
+    "Gönüllü sadakayı gizli vermek bütün fakihlere göre daha faziletlidir.",
+    [
+     "Peygamberimiz, sağ elinin verdiğini sol eli bilmeyecek kadar gizli sadaka vereni, kıyamet günü Allah’ın gölgelendireceği yedi kişiden saymıştır.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz altmış ikinci ayetin anlamı şöyledir.",
+    "Mallarını Allah yolunda sarfedip sonra sarfettikleri şeyin ardından başa kakmayan ve eza etmeyenlerin ecirleri Rablerinin katındadır.",
+    [
+     "Onlara korku yoktur ve onlar üzülmeyeceklerdir.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz altmış dördüncü ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Allah'a ve ahiret gününe inanmayıp, insanlara gösteriş için malını sarfeden kimse gibi, sadakalarınızı başa kakma ve eza etmekle boşa çıkarmayın.",
+    "Onun durumu, üzerinde toprak bulunan kayanın durumu gibidir, üzerine bol yağmur yağdığındaonu cascavlak bırakır.",
+    "Kazandıklarından hiçbir şey elde edemezler.",
+    [
+     "Allah inkar eden kimseleri doğru yola eriştirmez.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Allah’ın gölgesinden başka gölgenin bulunmadığı günde Allah’ın gölgelendireceği yedi kişiden biri de sağ elinin verdiğini sol eli bilmeyecek kadar gizli sadaka veren kimsedir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sağ elin verdiğini sol el bilmesin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "41-once-yakinlar",
+   "baslik": "Önce yakınlar",
+   "tur": "Sadaka ve infak",
+   "parcalar": [
+    [
+     "Önce yakınlar.",
+     0.5
+    ],
+    "Peygamberimiz veren elin alan elden üstün olduğunu, vermeye bakmakla yükümlü olunan kimselerden başlanmasını ve en hayırlı sadakanın ihtiyaç fazlasından verilen olduğunu bildirmiştir.",
+    "Kişinin Allah rızasını umarak ailesi için yaptığı harcama da onun için sadakadır.",
+    [
+     "Ayet, asıl iyiliğin imanla birlikte Allah sevgisiyle yakınlara, yetimlere, düşkünlere, yolculara, yoksullara ve köleler uğrunda mal vermek olduğunu bildirir.",
+     0.8
+    ],
+    "Bakara Suresi, yüz yetmiş yedinci ayetin anlamı şöyledir.",
+    "Yüzlerinizi doğudan yana ve batıdan yana çevirmeniz iyi olmak demek değildir; Lakin iyi olan, Allah'a, ahiret gününe, meleklere, Kitap'a, peygamberlere inanan, O'nun sevgisiyle, yakınlarına, yetimlere, düşkünlere, yolculara, yoksullara ve köleler uğrunda mal veren, namaz kılan, zekat veren ve ahidleştiklerinde ahidlerine vefa gösterenler, zorda, darda ve savaş alanında sabredenlerdir.",
+    [
+     "İşte onlar doğru olanlardır ve sakınanlar ancak onlardır.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Hakîm bin Hizâm.",
+    "Üstteki el alttaki elden hayırlıdır., Vermeye, bakmakla yükümlü olduğun kimselerden başla.",
+    "Sadakanın hayırlısı ihtiyaç fazlasından verilendir.",
+    [
+     "Kim istemekten sakınırsa Allah onu korur; kim yetinirse Allah onu zengin kılar.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Mesûd.",
+    [
+     "Müslüman, sevabını Allah’tan umarak ailesine harcama yaptığında bu onun için sadaka olur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyilik evden başlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "42-sadaka-i-cariye",
+   "baslik": "Sadaka-i câriye",
+   "tur": "Sadaka ve infak",
+   "parcalar": [
+    [
+     "Sadaka-i câriye.",
+     0.5
+    ],
+    "Sadaka-i câriye, akan, süren sadaka demektir: ardından nesiller boyu yararlanılacak bir hayır bırakmaktır.",
+    "Peygamberimiz, insan ölünce amelinin kesildiğini, yalnız üç şeyin devam ettiğini bildirmiştir.",
+    "Cami, çeşme, hastane, kütüphane, köprü ve okul gibi eserler sadaka-i câriyenin örnekleridir.",
+    "Zekât bu tür yerlere harcanmaz; çünkü zekât fakirin hakkıdır.",
+    [
+     "Kalıcı hayırlar zekât dışındaki gönüllü bağışlarla yapılır.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "İnsan ölünce ameli kesilir; yalnız üç şey müstesna: sadaka-i câriye, yararlanılan ilim ve kendisine dua eden hayırlı evlat.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ardında akan bir hayır bırak.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "43-adak",
+   "baslik": "Adak",
+   "tur": "Sadaka ve infak",
+   "parcalar": [
+    [
+     "Adak.",
+     0.5
+    ],
+    [
+     "Hükmü: vaciptir.",
+     0.6
+    ],
+    "Adak, nezir, kişinin dinen yükümlü olmadığı, farz ya da vacip cinsinden bir ibadeti kendisine borç kılmasıdır: namaz kılmak, oruç tutmak, sadaka vermek ya da kurban kesmek gibi.",
+    "Allah’a isyan içeren bir şey adanmaz; adanmışsa yerine getirilmez.",
+    "Peygamberimiz adağın kaderi değiştirmediğini, onunla ancak cimriden mal çıkarıldığını söylemiştir.",
+    "Dünyevî bir dileğe bağlanan adak bir pazarlık gibi görülebileceği için hoş karşılanmamıştır; ama yapılmışsa yerine getirilmesi vaciptir.",
+    "Türbelerde mum yakmak, bez bağlamak, horoz kesmek, şeker ve helva dağıtmak gibi adetlerin İslam’da yeri yoktur.",
+    [
+     "Adak kurbanının etinden adayan ve bakmakla yükümlü olduğu kimseler yiyemez.",
+     0.8
+    ],
+    "Şâfiî mezhebine ve Ahmed bin Hanbel’e göre adak adamak mekruhtur; Hanefîler Allah’a ibadet kabilinden adağı mubah görür.",
+    [
+     "Yapılan adağı yerine getirmek ise hepsine göre gereklidir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz yetmişinci ayetin anlamı şöyledir.",
+    "Sarfettiğiniz harcı ve adadığınız adağı şüphesiz Allah bilir.",
+    [
+     "Zulmedenlerin hiç yardımcıları yoktur.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+    [
+     "Kim Allah’a itaat etmeyi adarsa ona itaat etsin; kim Allah’a isyan etmeyi adarsa ona isyan etmesin.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Peygamberimiz adak adamayı yasakladı ve Adak hiçbir şeyi geri çeviremez; onunla ancak cimriden mal çıkarılır buyurdu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Adak Allah’la pazarlık değil, verilmiş bir sözdür.",
+     1
+    ]
+   ]
+  }
+ ]
+}

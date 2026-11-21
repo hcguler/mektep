@@ -1,0 +1,378 @@
+{
+ "_aciklama": "davranis sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Kur'an'dan Davranış Modeli: tam anlatım",
+   "sure": 3764.27,
+   "imza": "d67ec8ae86a8abe1"
+  },
+  "giris": {
+   "baslik": "Model",
+   "sure": 78.94,
+   "imza": "78d806058c02cbd2"
+  },
+  "ihlas": {
+   "baslik": "Her işi Allah rızası için yapmak",
+   "sure": 42.04,
+   "imza": "d2a6389ff20ad187"
+  },
+  "sukur": {
+   "baslik": "Şükretmek",
+   "sure": 50.6,
+   "imza": "d8e1a20b6f426f6d"
+  },
+  "tevekkul": {
+   "baslik": "Allah’a güvenmek",
+   "sure": 54.66,
+   "imza": "59843aba2656bef4"
+  },
+  "zikir": {
+   "baslik": "Allah’ı çokça anmak",
+   "sure": 43.54,
+   "imza": "dadceebb6cd373f7"
+  },
+  "dua": {
+   "baslik": "Dua etmek",
+   "sure": 54.15,
+   "imza": "7ca2f80cfdbd02be"
+  },
+  "tovbe": {
+   "baslik": "Hata edince tövbe etmek",
+   "sure": 71.49,
+   "imza": "9db3fd006569fc8d"
+  },
+  "umit": {
+   "baslik": "Ümitsizliğe düşmemek",
+   "sure": 42.99,
+   "imza": "75aa35603a6584f1"
+  },
+  "muhasebe": {
+   "baslik": "Kendini hesaba çekmek",
+   "sure": 38.74,
+   "imza": "23eae5d808665cfe"
+  },
+  "sabir": {
+   "baslik": "Sabretmek",
+   "sure": 45.55,
+   "imza": "718546787b388da4"
+  },
+  "ofke": {
+   "baslik": "Öfkeyi yenmek",
+   "sure": 40.66,
+   "imza": "4a4cb9003bf7addb"
+  },
+  "tevazu": {
+   "baslik": "Alçak gönüllü olmak",
+   "sure": 36.38,
+   "imza": "fecba275171275c2"
+  },
+  "kibir": {
+   "baslik": "Böbürlenmemek",
+   "sure": 49.86,
+   "imza": "4f99b72c78e74600"
+  },
+  "kiskanma": {
+   "baslik": "Kıskanmamak",
+   "sure": 68.99,
+   "imza": "cbbee7ad149bb49f"
+  },
+  "kiyas": {
+   "baslik": "Kendini başkalarıyla kıyaslamamak",
+   "sure": 61.14,
+   "imza": "c7753e3562284135"
+  },
+  "olculu": {
+   "baslik": "Ölçülü olmak",
+   "sure": 48.18,
+   "imza": "767a8401abb38850"
+  },
+  "iffet": {
+   "baslik": "Gözünü ve iffetini korumak",
+   "sure": 51.04,
+   "imza": "5cf46451ef2b4c27"
+  },
+  "temizlik": {
+   "baslik": "Temiz olmak",
+   "sure": 53.44,
+   "imza": "7831cb6e264e4e80"
+  },
+  "icki": {
+   "baslik": "İçki ve kumardan uzak durmak",
+   "sure": 40.16,
+   "imza": "593a2dd1e342c5b5"
+  },
+  "dogru-soz": {
+   "baslik": "Doğru söylemek",
+   "sure": 42.56,
+   "imza": "1c0f70d3c7a99fb7"
+  },
+  "yalan": {
+   "baslik": "Yalan söylememek",
+   "sure": 41.14,
+   "imza": "b71cacac09e125bb"
+  },
+  "guzel-soz": {
+   "baslik": "Güzel konuşmak",
+   "sure": 58.64,
+   "imza": "ed93a763cc56de02"
+  },
+  "bagirma": {
+   "baslik": "Bağırmamak, sesini yükseltmemek",
+   "sure": 61.18,
+   "imza": "34fad103e9dc6061"
+  },
+  "giybet": {
+   "baslik": "Gıybet etmemek",
+   "sure": 51.99,
+   "imza": "db30454e5e356c00"
+  },
+  "zan": {
+   "baslik": "Kötü zan beslememek, kusur araştırmamak",
+   "sure": 51.11,
+   "imza": "f6ceffc9845b0964"
+  },
+  "alay": {
+   "baslik": "Alay etmemek, lakap takmamak",
+   "sure": 58.09,
+   "imza": "133a886aab77e6f3"
+  },
+  "haber": {
+   "baslik": "Duyduğunu araştırmadan yaymamak",
+   "sure": 55.56,
+   "imza": "57afe334b1e5ab20"
+  },
+  "bilmedigi": {
+   "baslik": "Bilmediğin konuda konuşmamak",
+   "sure": 35.16,
+   "imza": "edce6448806c4481"
+  },
+  "bos-soz": {
+   "baslik": "Boş sözden uzak durmak",
+   "sure": 44.95,
+   "imza": "7d39c1d7f78a93b1"
+  },
+  "iftira": {
+   "baslik": "İftira etmemek",
+   "sure": 50.71,
+   "imza": "d9117e4fa10c06c0"
+  },
+  "sahitlik": {
+   "baslik": "Yalan yere şahitlik etmemek",
+   "sure": 42.26,
+   "imza": "adb61e8cc77c4c39"
+  },
+  "laf-tasima": {
+   "baslik": "Laf taşımamak, iğnelememek",
+   "sure": 56.02,
+   "imza": "2ebc9062d010f7f3"
+  },
+  "soz-oz": {
+   "baslik": "Söylediğini yapmak",
+   "sure": 37.29,
+   "imza": "d3881167b8fe1209"
+  },
+  "sovme": {
+   "baslik": "Başkalarının kutsallarına sövmemek",
+   "sure": 44.48,
+   "imza": "0c2f8bec34436814"
+  },
+  "kotu-soz": {
+   "baslik": "Kötülüğü dillendirip yaymamak",
+   "sure": 53.49,
+   "imza": "2c251c9ba12a9dcf"
+  },
+  "anne-baba": {
+   "baslik": "Anne babaya iyilik etmek",
+   "sure": 65.79,
+   "imza": "005b3e868433ea46"
+  },
+  "of": {
+   "baslik": "Anne babaya “öf” bile dememek",
+   "sure": 44.2,
+   "imza": "a3f374bd14273176"
+  },
+  "anne-baba-dua": {
+   "baslik": "Anne baba için dua etmek",
+   "sure": 39.56,
+   "imza": "c599d02c88953c29"
+  },
+  "es": {
+   "baslik": "Eşiyle güzel geçinmek",
+   "sure": 63.15,
+   "imza": "605268d975459452"
+  },
+  "aile-iyilik": {
+   "baslik": "Ailesini iyiliğe yönlendirmek",
+   "sure": 59.6,
+   "imza": "968b07c36c760701"
+  },
+  "akraba": {
+   "baslik": "Akrabayı gözetmek",
+   "sure": 54.28,
+   "imza": "74b5acd3fbab4f95"
+  },
+  "adalet": {
+   "baslik": "Adaletli olmak",
+   "sure": 74.37,
+   "imza": "01602d8f964f25c5"
+  },
+  "emanet": {
+   "baslik": "Emanete riayet etmek",
+   "sure": 46.63,
+   "imza": "c63e73099cc0b883"
+  },
+  "soz": {
+   "baslik": "Sözünü tutmak",
+   "sure": 49.05,
+   "imza": "a3d1e79a5396fede"
+  },
+  "selam": {
+   "baslik": "Selamlaşmak",
+   "sure": 34.64,
+   "imza": "0bb6544afb6d81ea"
+  },
+  "izin": {
+   "baslik": "İzin almadan girmemek",
+   "sure": 40.4,
+   "imza": "d44f2e3bd3f949e8"
+  },
+  "affetmek": {
+   "baslik": "Affetmek",
+   "sure": 57.82,
+   "imza": "9c7777d31f5310e4"
+  },
+  "iyilikle-sav": {
+   "baslik": "Kötülüğe iyilikle karşılık vermek",
+   "sure": 41.33,
+   "imza": "216e9c6a81365b75"
+  },
+  "yardimlasma": {
+   "baslik": "İyilikte yardımlaşmak",
+   "sure": 58.67,
+   "imza": "996c06089c51daa0"
+  },
+  "baristirma": {
+   "baslik": "Küsleri barıştırmak",
+   "sure": 32.89,
+   "imza": "312b7fc627a43925"
+  },
+  "komsu": {
+   "baslik": "Komşuya iyilik etmek",
+   "sure": 43.31,
+   "imza": "487c46f8dd8e74a1"
+  },
+  "yetim": {
+   "baslik": "Yetimi gözetmek",
+   "sure": 35.68,
+   "imza": "8568412f51a3d142"
+  },
+  "isteyen": {
+   "baslik": "İsteyeni azarlamamak",
+   "sure": 40.38,
+   "imza": "728cbe40f54fe39c"
+  },
+  "yoksul": {
+   "baslik": "Yoksulu doyurmak",
+   "sure": 42.28,
+   "imza": "c5b5ec31ac74f250"
+  },
+  "yumusak": {
+   "baslik": "Yumuşak davranmak ve danışmak",
+   "sure": 51.27,
+   "imza": "884aef4a1a6d8467"
+  },
+  "kucumseme": {
+   "baslik": "İnsanları küçümsememek",
+   "sure": 65.05,
+   "imza": "4a3d5baf4d85a9a4"
+  },
+  "iyilige-cagir": {
+   "baslik": "İyiliği tavsiye etmek",
+   "sure": 48.96,
+   "imza": "9b894d5392c4e437"
+  },
+  "iyi-arkadas": {
+   "baslik": "İyi insanlarla beraber olmak",
+   "sure": 32.72,
+   "imza": "b5759bc3228ae794"
+  },
+  "can": {
+   "baslik": "Cana değer vermek",
+   "sure": 61.17,
+   "imza": "f33687e01043a6b3"
+  },
+  "olcu": {
+   "baslik": "Ölçü ve tartıda doğru olmak",
+   "sure": 51.63,
+   "imza": "5d39a51e83461e73"
+  },
+  "hirsizlik": {
+   "baslik": "Hırsızlık yapmamak",
+   "sure": 55.03,
+   "imza": "6fcda14e81732c28"
+  },
+  "haksiz-kazanc": {
+   "baslik": "Haksız kazançtan ve rüşvetten uzak durmak",
+   "sure": 55.76,
+   "imza": "6b09e38f5df30aeb"
+  },
+  "faiz": {
+   "baslik": "Faizden uzak durmak",
+   "sure": 53.01,
+   "imza": "1570e60feffb58eb"
+  },
+  "borc-yaz": {
+   "baslik": "Borcu yazmak",
+   "sure": 98.24,
+   "imza": "9d58415a6cbfbac7"
+  },
+  "muhlet": {
+   "baslik": "Darda olan borçluya süre tanımak",
+   "sure": 36.19,
+   "imza": "b7a465e6cd5ad381"
+  },
+  "yetim-mal": {
+   "baslik": "Yetimin malını korumak",
+   "sure": 62.71,
+   "imza": "87a09eec8ceb5013"
+  },
+  "infak": {
+   "baslik": "Sevdiğin şeylerden paylaşmak",
+   "sure": 52.68,
+   "imza": "dd0db5edc1a809e6"
+  },
+  "basa-kakma": {
+   "baslik": "Yaptığı iyiliği başa kakmamak",
+   "sure": 69.7,
+   "imza": "ec447905ec408b77"
+  },
+  "gizli-iyilik": {
+   "baslik": "Yardımı gösterişsiz yapmak",
+   "sure": 40.0,
+   "imza": "9cc1ad4af015b3d0"
+  },
+  "helal-rizik": {
+   "baslik": "Helal ve temiz rızık aramak",
+   "sure": 48.94,
+   "imza": "80e34c98f51c4fed"
+  },
+  "bozgunculuk": {
+   "baslik": "Yeryüzünde bozgunculuk yapmamak",
+   "sure": 59.23,
+   "imza": "6650012ca674b886"
+  },
+  "israf": {
+   "baslik": "İsraf etmemek",
+   "sure": 53.3,
+   "imza": "8591f2c946bfd19c"
+  },
+  "imar": {
+   "baslik": "Yeryüzünü imar etmek",
+   "sure": 51.44,
+   "imza": "176a961fe7b8e7d8"
+  }
+ }
+}

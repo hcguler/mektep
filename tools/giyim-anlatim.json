@@ -1,0 +1,1748 @@
+{
+ "_aciklama": "Giyim ve Görünüş sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça metin seslendirilmez, ayetin Diyanet meali okunur. Bu dosya tools/giyim-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Giyim ve Görünüş: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-en-guzel-bicim",
+   "02-elbise-nimeti",
+   "03-guzel-giyinmek",
+   "04-temizlik",
+   "05-fitrat",
+   "06-sagdan-baslamak",
+   "07-benzememek",
+   "08-yaratilisi-degistirmemek",
+   "09-sac-bakimi",
+   "10-sac-boyamak",
+   "11-peygamberimizin-gorunusu",
+   "12-erkegin-ortunmesi",
+   "13-sakal-biyik",
+   "14-altin-ipek",
+   "15-kibirle-surumek",
+   "16-tesettur",
+   "17-ortunun-nitelikleri",
+   "18-kadinin-saci",
+   "19-kaz",
+   "20-cocugun-ortunmesi"
+  ],
+  "parcalar": [
+   [
+    "Giyim ve Görünüş.",
+    0.8
+   ],
+   [
+    "Erkek, kadın ve çocuk için kıyafet, örtünme, saç ve sakal.",
+    0.6
+   ],
+   "Her konuda önce ayeti, sonra Peygamberimizin sahih hadisini, ardından Diyanet’in ve mezheplerin görüşünü dinleyeceksiniz.",
+   [
+    "Çizimleri ve kaynakları ekranda bulabilirsiniz.",
+    1.6
+   ],
+   [
+    "Herkes için.",
+    0.8
+   ],
+   [
+    "En güzel biçimde yaratılış.",
+    0.5
+   ],
+   [
+    "Hükmü: Temel ilke.",
+    0.6
+   ],
+   "Kur’an, insanın en güzel biçimde yaratıldığını ve ona güzel bir şekil verildiğini bildirir.",
+   [
+    "Giyim ve görünüşle ilgili bütün ölçüler bu nimetin üzerine kurulur: Bedeni korumak, temiz ve güzel tutmak, yaratılışı bozmamak.",
+    0.8
+   ],
+   "Tîn Suresi, dördüncü ayetin anlamı şöyledir.",
+   [
+    "Biz insanı en güzel şekilde yarattık.",
+    0.8
+   ],
+   "Teğâbün Suresi, üçüncü ayetin anlamı şöyledir.",
+   "Gökleri ve yeri gerektiği gibi yaratmıştır.",
+   "Size şekil vermiş ve şeklinizi güzel yapmıştır.",
+   [
+    "Dönüş O'nadır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güzel görünmek, güzel yaratana şükürdür.",
+    1.6
+   ],
+   [
+    "Elbise bir nimettir.",
+    0.5
+   ],
+   [
+    "Hükmü: Temel ilke.",
+    0.6
+   ],
+   "Allah elbiseyi insana üç amaçla verdiğini bildirir: Ayıp yerleri örtmek, insanı süslemek ve sıcaktan korumak.",
+   [
+    "Ayet, bunlardan daha hayırlı olanın takva örtüsü olduğunu hatırlatır; dış görünüş, içteki saygının ve hayânın aynasıdır.",
+    0.8
+   ],
+   "A‘râf Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+   "Ey İnsanoğulları!",
+   "Ayıp yerlerinizi örtecek giyimlikle sizi süsleyecek elbiseler gönderdik.",
+   "Takva örtüsü ise bunlardan daha hayırlıdır.",
+   [
+    "Allah'ın bu ayetleri öğüt almanız içindir.",
+    0.8
+   ],
+   "Nahl Suresi, seksen birinci ayetin anlamı şöyledir.",
+   "Allah yarattıklarından size gölgeler yapmış; dağlarda sığınacağınız barınaklar var etmiş, sizi sıcaktan koruyacak elbiseler, harpte sizi koruyacak zırhlar vermiştir.",
+   [
+    "Size olan nimetini müslüman olasınız diye işte bu şekilde tamamlamaktadır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Elbise bedeni örter, takva kalbi.",
+    1.6
+   ],
+   [
+    "Güzel giyinmek, kibirden uzak durmak.",
+    0.5
+   ],
+   [
+    "Hükmü: Güzel giyinmek övülür, kibir haram.",
+    0.6
+   ],
+   "Kur’an, mescide giderken güzel elbiselerin giyilmesini ister ve Allah’ın kulları için yarattığı süsü haram kılmaya kimsenin hakkı olmadığını bildirir.",
+   "Peygamberimiz, güzel elbise ve ayakkabıyı sevmenin kibir olmadığını, kibrin hakkı tanımamak ve insanları küçümsemek olduğunu açıklamıştır.",
+   [
+    "Ölçü israf etmemek ve kendini üstün görmemektir.",
+    0.8
+   ],
+   "A‘râf Suresi, otuz birinci ayetin anlamı şöyledir.",
+   "Ey Ademoğulları!",
+   [
+    "Her mescide güzel elbiselerinizi giyinerek gidin; yiyin için fakat israf etmeyin, çünkü Allah müsrifleri sevmez.",
+    0.8
+   ],
+   "A‘râf Suresi, otuz ikinci ayetin anlamı şöyledir.",
+   "Allah'ın kulları için yarattığı ziynet ve temiz rızıkları haram kılan kimdir?",
+   "Bunlar, dünya hayatında inananlarındır, kıyamet gününde de yalnız onlar içindir de.",
+   [
+    "Bilen kimseler için ayetlerimizi böylece uzun uzun açıklıyoruz.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Abdullah bin Mes‘ûd.",
+   "Kalbinde zerre kadar kibir bulunan cennete giremez.",
+   "Bir adam, İnsan elbisesinin güzel, ayakkabısının güzel olmasını sever deyince Resûlullah sallallahu aleyhi ve sellem şöyle buyurdu: Allah güzeldir, güzeli sever.",
+   [
+    "Kibir, hakkı tanımamak ve insanları küçümsemektir..",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güzel giyin; ama kendini kimseden üstün görme.",
+    1.6
+   ],
+   [
+    "Temiz beden, temiz elbise.",
+    0.5
+   ],
+   [
+    "Hükmü: Temel ilke.",
+    0.6
+   ],
+   "İlk inen ayetlerden biri, Peygamberimize giydiklerini temiz tutmasını emreder.",
+   "Temizlik hem namazın şartıdır hem de Müslümanın her an taşıdığı bir özelliktir.",
+   [
+    "Pahalı değil, temiz ve bakımlı giyinmek esastır.",
+    0.8
+   ],
+   "Müddessir Suresi, dördüncü ayetin anlamı şöyledir.",
+   [
+    "Giydiklerini temiz tut.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Mâlik el-Eş‘arî.",
+   [
+    "Temizlik imanın yarısıdır.",
+    0.8
+   ],
+   "Fıkıhta.",
+   [
+    "Namazın sahih olması için bedenin, elbisenin ve namaz kılınan yerin necasetten temiz olması şarttır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Temiz giyinmek, pahalı giyinmekten önce gelir.",
+    1.6
+   ],
+   [
+    "Fıtrat temizliği.",
+    0.5
+   ],
+   [
+    "Hükmü: Sünnet.",
+    0.6
+   ],
+   "Peygamberimiz beş davranışı fıtrattan, yani insanın yaratılışına uygun temizlikten saymıştır: Sünnet olmak, kasık kıllarını temizlemek, bıyıkları kısaltmak, tırnakları kesmek ve koltuk altı kıllarını temizlemek.",
+   [
+    "Bunlar hem temizliğin hem de Müslümanca görünüşün parçasıdır.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Beş şey fıtrattandır: Sünnet olmak, kasık kıllarını temizlemek, bıyığı kısaltmak, tırnakları kesmek ve koltuk altı kıllarını yolmak.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Küçük bakımlar, büyük bir temizliğin parçasıdır.",
+    1.6
+   ],
+   [
+    "Giyinmeye sağdan başlamak.",
+    0.5
+   ],
+   [
+    "Hükmü: Sünnet.",
+    0.6
+   ],
+   "Peygamberimiz ayakkabı giymekte, saç taramakta ve temizlenmekte sağdan başlamayı severdi.",
+   "Ayakkabı giyerken önce sağ ayağın, çıkarırken önce sol ayağın kullanılmasını öğretmiştir.",
+   [
+    "Küçük bir alışkanlıkla gün boyu sünnet yaşanır.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   "Biriniz ayakkabısını giyerken sağdan, çıkarırken soldan başlasın.",
+   [
+    "Sağ ayak giyilirken ilk, çıkarılırken son olsun.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Hazreti Âişe.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem ayakkabı giymekte, saçını taramakta, temizlenmekte ve bütün işlerinde sağdan başlamayı severdi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sağdan başla; sünnet küçük işlerde de yaşanır.",
+    1.6
+   ],
+   [
+    "Erkek ve kadın kendi yaratılışına uygun.",
+    0.5
+   ],
+   [
+    "Hükmü: Haram.",
+    0.6
+   ],
+   "Peygamberimiz, giyimde, süste ve tavırda kadınlara benzemeye çalışan erkekleri ve erkeklere benzemeye çalışan kadınları kınamıştır.",
+   "Ölçü, toplumda bir cinse ait sayılan giyim ve süsün bilerek öbür cins tarafından benimsenmesidir.",
+   [
+    "Herkes kendi yaratılışıyla değerlidir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Abdullah bin Abbâs.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem, kadınlara benzemeye çalışan erkeklere ve erkeklere benzemeye çalışan kadınlara lanet etti.",
+    0.8
+   ],
+   "Fıkıhta.",
+   [
+    "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu, küpeyi kadınlara ait bir süslenme biçimi saymış ve erkeklerin küpe takmasını mekruh görmüştür.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kendin ol; yaratılışın bir değerdir.",
+    1.6
+   ],
+   [
+    "Dövme, saç ekleme ve kaş aldırma.",
+    0.5
+   ],
+   [
+    "Hükmü: Haram, tedavi hariç.",
+    0.6
+   ],
+   "Peygamberimiz; dövme yapan ve yaptıranı, başkasının saçını ekleyen ve ekleteni, güzellik için yüzündeki kılları yolduranı ve dişlerini seyrelteni kınamıştır.",
+   "Gerekçe, süs için Allah’ın yaratışını değiştirmek ve insanları aldatmaktır.",
+   [
+    "Hastalık ve kusur gidermek için yapılan tedavi bu yasağa girmez.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Allah, saç ekleyene ve ekletene, dövme yapana ve yaptırana lanet etsin.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Mes‘ûd.",
+   "Allah; dövme yapana ve yaptırana, yüzündeki kılları yolduranlara, güzellik için dişlerini seyreltenlere, Allah’ın yaratışını değiştirenlere lanet etsin.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem’ın lanet ettiğine ben neden lanet etmeyeyim?",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Esmâ bint Ebû Bekir.",
+   "Bir kadın gelip, hastalık yüzünden saçları dökülen yeni evli kızına takma saç ekleyip ekleyemeyeceğini sordu.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem saç ekleyene ve ekletene lanet etti.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu, Fetvalar kitabında dövme yaptırmanın, kaş aldırmanın ve başkasının saçını kullanmanın caiz olmadığını, yalnızca tedavi amaçlı estetiğin caiz olduğunu bildirir; peruk ve saç ektirmeyi zorunlu hâller dışında caiz görmez.",
+   "Vücudunda dövme bulunan kişi mümkünse onu giderir, mümkün değilse Allah’tan bağışlanma diler.",
+   "Diyanet İlmihali’ne göre hadiste yasaklanan, kaşları inceltmek için kıl yolmaktır; yüzde sonradan biten ve yüzü çirkinleştiren kılları almak bu yasağa girmez.",
+   [
+    "Saçsızlık hastalığında saç ektirmenin tedavi sayılarak caiz olduğuna dair fetvalar vardır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Süslen; ama yaratılışı değiştirme.",
+    1.6
+   ],
+   [
+    "Saçın bakımı ve uzunluğu.",
+    0.5
+   ],
+   [
+    "Hükmü: Caiz, bakım sünnet.",
+    0.6
+   ],
+   "Peygamberimiz saçını sağdan başlayarak tarar, temiz ve bakımlı tutardı.",
+   "Saçları bazen kulak memelerine, bazen omuzlarına kadar inerdi.",
+   [
+    "Erkek için saçın uzun ya da kısa olması dinen belirlenmiş değildir; temizlik ve bulunulan toplumun örfü ölçüdür.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Berâ bin Âzib.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem orta boylu, omuzları geniş biriydi; saçları kulak memelerine kadar inerdi.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem ayakkabı giymekte, saçını taramakta ve temizlenmekte sağdan başlamayı severdi.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu’na göre saçların temizliğine dikkat etmek şartıyla erkeklerin saçlarını uzatmasında ve dilediği şekilde taramasında dinen sakınca yoktur; ancak bulunulan ortamın örfü dikkate alınır.",
+   [
+    "Hazreti Peygamber saçını bazen omuzlarına kadar uzatmış, bazen kısa kestirmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Uzun ya da kısa; önce temiz ve bakımlı.",
+    1.6
+   ],
+   [
+    "Ağaran saçı boyamak.",
+    0.5
+   ],
+   [
+    "Hükmü: Caiz, siyah mekruh.",
+    0.6
+   ],
+   "Peygamberimiz, ağarmış saç ve sakalların boyanmasını tavsiye etmiş, boyamayan Yahudi ve Hristiyanlardan farklı olmayı istemiştir.",
+   [
+    "Mekke’nin fethi günü saçı sakalı bembeyaz olan Ebû Kuhâfe için Bunu bir şeyle değiştirin, siyahtan kaçının buyurmuştur.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Yahudiler ve Hristiyanlar saçlarını boyamazlar; siz onlara muhalefet edin.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Câbir bin Abdullah.",
+   "Mekke’nin fethi günü Ebû Kuhâfe getirildi; başı ve sakalı bembeyazdı.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem: Bunu bir şeyle değiştirin, siyahtan kaçının buyurdu.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu’na göre başkalarını yanıltma kastı olmaksızın saç, sakal ve bıyık boyanabilir; erkeğin saçını siyaha boyaması mekruh, kına gibi başka renklerle boyaması caizdir.",
+   [
+    "Siyaha boyamada âlimlerin görüşleri farklıdır; evli kadınların eşleri için siyah dahil istedikleri renge boyamasında sakınca görülmemiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ak saç bir nimettir; boyarsan aldatma.",
+    1.6
+   ],
+   [
+    "Örnek: Peygamberimizin görünüşü.",
+    0.5
+   ],
+   [
+    "Hükmü: Bilgi.",
+    0.6
+   ],
+   "Sahabe, Peygamberimizin görünüşünü sevgiyle anlatmıştır.",
+   "Orta boylu, güzel yüzlü, saçı ne kıvırcık ne düz bir insandı.",
+   [
+    "Bu bölümde peygamberlerin ve sahabenin yüzü ve bedeni çizilmez; yalnızca sahih rivayetler aktarılır.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Enes bin Mâlik.",
+   "İnsanlar arasında orta boyluydu; ne uzun ne kısaydı.",
+   "Rengi pembe beyazdı; ne bembeyaz ne esmerdi.",
+   [
+    "Saçı ne çok kıvırcık ne de dümdüzdü.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Berâ bin Âzib.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem insanların yüzü en güzeli ve yaratılışı en güzeli idi; ne çok uzun ne de kısaydı.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Onu sevmek, ahlakına ve sünnetine uymaktır.",
+    1.6
+   ],
+   [
+    "Erkek.",
+    0.8
+   ],
+   [
+    "Erkeğin örtünmesi.",
+    0.5
+   ],
+   [
+    "Hükmü: Farz.",
+    0.6
+   ],
+   "Kur’an, mümin erkeklere gözlerini haramdan sakınmalarını ve mahrem yerlerini korumalarını emreder.",
+   "Fıkıhta erkeğin her durumda örtmesi gereken yer göbek ile diz kapağı arasıdır.",
+   [
+    "Bu sınır en azıdır; bunun dışındaki yerler de örfe ve edebe göre örtülür.",
+    0.8
+   ],
+   "Nûr Suresi, otuzuncu ayetin anlamı şöyledir.",
+   "Mümin erkeklere söyle: Gözlerini bakılması yasak olandan çevirsinler, mahrem yerlerini, korusunlar.",
+   "Bu, onların arınmasını daha iyi sağlar.",
+   [
+    "Allah yaptıklarından şüphesiz haberdardır.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Erkeğin avret yeri göbek ile diz kapağı arasıdır.",
+   "Hanefî mezhebinde diz kapağı avrete dahildir, göbek dahil değildir; Şâfiî ve Hanbelî mezheplerinde göbek de diz kapağı da dahil değildir.",
+   "Diyanet İlmihali’nde Hanefî görüş esas alınır: göbek altından diz kapağına kadar, diz kapağı dahil.",
+   [
+    "Bu sınırın dışındaki yerlerin her ortamda açılabileceği anlamına gelmez; örf ve görgü kuralları da gözetilir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hayâ yalnız kadına değil, erkeğe de emredilmiştir.",
+    1.6
+   ],
+   [
+    "Sakal ve bıyık.",
+    0.5
+   ],
+   [
+    "Hükmü: Sünnet.",
+    0.6
+   ],
+   "Peygamberimiz sakalın bırakılmasını ve bıyığın kısaltılmasını istemiştir.",
+   "Kur’an da Hazreti Hârûn’un sakalından söz eder.",
+   "Sahabeden İbn Ömer, hac ve umrede sakalını avucuyla tutar, taşan kısmı keserdi.",
+   [
+    "Sakal bırakmak sünnettir; kesmenin hükmünde mezhepler farklı görüşlere sahiptir.",
+    0.8
+   ],
+   "Tâhâ Suresi, doksan dördüncü ayetin anlamı şöyledir.",
+   "Harun: Ey Annemoğlu!",
+   [
+    "Saçımdan sakalımdan tutma; doğrusu İsrailoğulları arasına ayrılık koydun, sözüme bakmadın demenden korktum dedi.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Müşriklere muhalefet edin: Sakalları bırakın, bıyıkları kısaltın., İbn Ömer, hac ya da umre yaptığında sakalını avucuyla tutar, avucundan taşanı keserdi..",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Diyanet İslam İlmihali’ne göre sakal bırakmak Hazreti Peygamber’in sünnetlerindendir.",
+   "Kesmenin hükmünde görüşler farklıdır: Hanefîlerde tahrîmen mekruh terimi kullanılır; Şâfiîlerde yaygın görüş mekruh olduğudur.",
+   "Son dönem âlimlerinin bir kısmı sakalı esasen örfle ilgili saymış, Peygamber’e uyma niyetiyle bırakılınca sünnet ya da müstehap olacağını söylemiştir.",
+   [
+    "Bıyığı kısaltma emri fakihlerin görüş birliğiyle farz anlamına gelmez.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sakal bir sünnettir; onu taşıyan, ahlakıyla da süslesin.",
+    1.6
+   ],
+   [
+    "Altın ve ipek erkeğe yasak.",
+    0.5
+   ],
+   [
+    "Hükmü: Haram.",
+    0.6
+   ],
+   "Peygamberimiz erkeklerin altın yüzük takmasını ve ipek giymesini yasaklamış, bir adamın elindeki altın yüzüğü çıkarıp atmıştır.",
+   "Bu yasak erkeklere yöneliktir; kadınların altın ve ipek kullanması caizdir.",
+   [
+    "Erkekler gümüş yüzük takabilir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Berâ bin Âzib.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem bize altın yüzüğü, ipeği ve ipekli kumaşları, gümüş kapları kullanmayı yasakladı.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Abdullah bin Abbâs.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem bir adamın elinde altın yüzük gördü; onu çıkarıp attı ve Sizden biri ateşten bir kor alıp eline takıyor buyurdu.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Enes bin Mâlik.",
+   [
+    "Dünyada ipek giyen, ahirette onu giymez.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Âlimlerin çoğunluğuna göre altın yüzük ve saf ipek elbise erkeklere haramdır; az sayıda âlim farklı görüştedir.",
+   "Kadınlar için caizdir.",
+   "Erkeklerin gümüş yüzük takması mubahtır.",
+   [
+    "Başka elbisesi varken ipek elbiseyle kılınan namaz mekruh olmakla birlikte geçerlidir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Erkeğin süsü sadeliktir.",
+    1.6
+   ],
+   [
+    "Elbiseyi kibirle yerde sürümek.",
+    0.5
+   ],
+   [
+    "Hükmü: Kibirle: haram.",
+    0.6
+   ],
+   "Kur’an yeryüzünde böbürlenerek yürümeyi yasaklar.",
+   "Peygamberimiz de elbisesini kibirle yerde sürüyene Allah’ın kıyamet günü bakmayacağını bildirmiştir.",
+   [
+    "Hazreti Ebû Bekir, dikkat etmezse elbisesinin bir tarafının sarktığını söyleyince Peygamberimiz onun bunu kibirle yapanlardan olmadığını söylemiştir.",
+    0.8
+   ],
+   "Lokmân Suresi, on sekizinci ayetin anlamı şöyledir.",
+   [
+    "İnsanları küçümseyip yüz çevirme, yeryüzünde böbürlenerek yürüme; Allah, kendini beğenip övünen hiç kimseyi şüphesiz ki sevmez.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Allah, elbisesini kibirle yerde sürüyene kıyamet günü bakmaz.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Ebû Bekir, Dikkat etmezsem elbisemin bir tarafı sarkıyor deyince Resûlullah sallallahu aleyhi ve sellem: Sen onu kibirle yapanlardan değilsin buyurdu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Elbisenin boyu değil, kalbin kibri ölçülür.",
+    1.6
+   ],
+   [
+    "Kadın.",
+    0.8
+   ],
+   [
+    "Kadının örtünmesi, tesettür.",
+    0.5
+   ],
+   [
+    "Hükmü: Farz.",
+    0.6
+   ],
+   "Kur’an, mümin kadınlara süslerini kendiliğinden görünen kısım dışında açmamalarını ve başörtülerini yakalarının üzerine salmalarını emreder; dışarı çıkarken üstlerine örtü almalarını ister.",
+   "Ayet inince ilk muhacir kadınlar örtülerini keserek hemen örtündüler.",
+   [
+    "Örtünme, Allah’a saygının ve hayânın ifadesidir.",
+    0.8
+   ],
+   "Nûr Suresi, otuz birinci ayetin anlamı şöyledir.",
+   "Mümin kadınlara da söyle: Gözlerini bakılması yasak olandan çevirsinler, iffetlerini korusunlar.",
+   "Süslerini, kendiliğinden görünen kısmı müstesna, açmasınlar.",
+   "Baş örtülerini yakalarının üzerine salsınlar.",
+   "Süslerini kocaları veya babaları ve kayınpederleri veya oğulları veya kocalarının oğulları veya kardeşleri veya erkek kardeşlerinin oğulları veya kızkardeşlerinin oğulları veya müslüman kadınları veya cariyeleri veya erkekliği kalmamış hizmetçiler, ya da kadınların mahrem yerlerini henüz anlamayan çocuklardan başkasına göstermesinler.",
+   "Gizledikleri süslerin bilinmesi için ayaklarını yere vurmasınlar.",
+   "Ey inananlar!",
+   [
+    "Saadete ermeniz için hepiniz tevbe ederek Allah'ın hükmüne dönün.",
+    0.8
+   ],
+   "Ahzâb Suresi, elli dokuzuncu ayetin anlamı şöyledir.",
+   "Ey Peygamber!",
+   "Eşlerine, kızlarına ve müminlerin kadınlarına, dışarı çıkarken üstlerine örtü almalarını söyle; bu, onların hür ve namuslu bilinmelerini ve bundan dolayı incitilmemelerini daha iyi sağlar.",
+   [
+    "Allah bağışlar ve merhamet eder.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+   "Allah ilk muhacir kadınlara rahmet etsin.",
+   [
+    "Başörtülerini yakalarının üzerine salsınlar ayeti inince, örtülerini kesip onlarla örtündüler.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu’nun otuz Aralık 1980, yetmiş yedi, ve üç Aralık 1993, altı, tarihli kararlarına göre başörtüsü Kur’an, Sünnet ve Müslümanların ortak kabulüne dayanan dinî bir vecîbedir.",
+   "Hanefî mezhebinde kadının yüzü, elleri ve ayakları dışında, sarkan saçları dahil bütün bedeni avrettir.",
+   "Şâfiî ve Hanbelî mezheplerinde namazda yüz ve eller dışındaki beden avrettir; bu iki mezhepte ağırlıklı görüş namaz dışında yüz ve ellerin de örtülmesi yönündedir.",
+   [
+    "Başörtüsü takmamak kişiyi dinden çıkarmaz; takva ve dindarlık açısından değerlendirilir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Örtü bir sınır değil, saygıyla çizilmiş bir çerçevedir.",
+    1.6
+   ],
+   [
+    "Örtünün nitelikleri.",
+    0.5
+   ],
+   [
+    "Hükmü: Farz.",
+    0.6
+   ],
+   "Örtünmenin amacı gerçekleşmelidir: Elbise teni gösterecek kadar ince ya da vücut hatlarını belli edecek kadar dar olmamalıdır.",
+   "Peygamberimiz giyinik oldukları hâlde çıplak olanlardan söz ederek bu ölçüye dikkat çekmiştir.",
+   [
+    "Örtünün biçimi, rengi ve kumaşı ise bu amaç sağlandıkça örfe bırakılmıştır.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem, cehennem ehlinden henüz görmediği iki sınıfı anlatırken giyinik oldukları hâlde çıplak olan kadınlardan söz etti ve onların cennete giremeyeceğini, kokusunu bile alamayacağını bildirdi.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Cildin rengini gösterecek kadar ince elbiseyle avret örtülmüş sayılmaz; kıyafet vücut hatlarını belli etmemeli ve teni göstermemelidir.",
+   "İslam örtünmeyi emretmekle birlikte biçimi konusunda ayrıntıya girmemiş, bunu örfe bırakmıştır.",
+   [
+    "Çağdaş âlimlerin genel yaklaşımına göre normal giysi örtünmenin amaçlarını karşılıyorsa çarşaf gibi ayrı bir dış kıyafet zorunlu değildir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Örtünün ölçüsü, örttüğü kadardır.",
+    1.6
+   ],
+   [
+    "Kadının saçı.",
+    0.5
+   ],
+   [
+    "Hükmü: Caiz.",
+    0.6
+   ],
+   "Peygamberimizin hanımları saçlarını kulak hizasına kadar kısaltırlardı.",
+   "Kadının saçını kısaltmasında sakınca yoktur; tamamen kazıtması ise uygun görülmemiştir.",
+   [
+    "Saç, mahrem olmayan erkeklere karşı örtülen süslerdendir.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Seleme bin Abdurrahman.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem’ın hanımları saçlarını kulak hizasına kadar kısaltırlardı.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Hazreti Peygamber, toplumsal kabul doğrultusunda kadınların saçını kısaltmasında sakınca görmemiş, kazıtmasını ise uygun bulmamıştır.",
+   [
+    "Nûr otuz bir. ayet, kadının saçını mahrem olmayan erkeklere göstermemesi şeklinde anlaşılmıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Saç bir süstür; korunur ve özenle taşınır.",
+    1.6
+   ],
+   [
+    "Çocuk.",
+    0.8
+   ],
+   [
+    "Saçın bir kısmını kazıyıp bırakmamak, kaza.",
+    0.5
+   ],
+   [
+    "Hükmü: Uygun görülmez.",
+    0.6
+   ],
+   "Peygamberimiz, çocuğun başının bir kısmını tıraş edip bir kısmını perçem hâlinde bırakmak anlamına gelen kazaı yasaklamıştır.",
+   [
+    "Saç kesilirken baş bir bütün olarak düzenlenir; yamalı, yer yer kazınmış bir görünüm uygun görülmez.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Resûlullah sallallahu aleyhi ve sellem kazaı yasakladı., Nâfi‘: Kaz‘, çocuğun başının bir kısmının tıraş edilip bir kısmının bırakılmasıdır..",
+    0.8
+   ],
+   "Fıkıhta.",
+   [
+    "Çocukların saçının bir kısmının tıraş edilip bir kısmının perçem hâlinde bırakılmasını Hazreti Peygamber uygun bulmamıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Saç bir bütündür; düzenli ve bakımlı olsun.",
+    1.6
+   ],
+   [
+    "Çocuğun örtünmesi ve sorumluluk çağı.",
+    0.5
+   ],
+   [
+    "Hükmü: Bulûğda farz.",
+    0.6
+   ],
+   "Kur’an, ergenlik çağına ermemiş çocukların yalnızca belli vakitlerde, ergenliğe erenlerin ise her zaman izin isteyerek odaya girmesini öğretir; mahremiyet bilinci küçük yaşta başlar.",
+   "Örtünme ve diğer dinî yükümlülükler bulûğ, ergenlik, ile başlar.",
+   [
+    "O zamana kadar çocuğa giyinme edebi sevdirerek ve zorlamadan öğretilir.",
+    0.8
+   ],
+   "Nûr Suresi, elli sekizinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Ellerinizin altında olan köle ve cariyeler ve sizden henüz erginliğe ermemiş olanlar, sabah namazından önce, öğle sıcağında soyunduğunuzda ve yatsı namazından sonra yanınıza gireceklerinde üç defa izin istesinler.",
+   "Bunlar, sizin açık bulunabileceğiniz üç vakittir.",
+   "Bu vakitlerin dışında birbirinizin yanına girip çıkmakta size de, onlara da bir sorumluluk yoktur.",
+   "Allah size ayetlerini böylece açıklar.",
+   [
+    "Allah bilendir, Hakim'dir.",
+    0.8
+   ],
+   "Nûr Suresi, elli dokuzuncu ayetin anlamı şöyledir.",
+   "Çocuklarınız erginlik çağına gelince, büyüklerinin izin istediği gibi, onlar da her defasında izin istesinler.",
+   "Allah size ayetlerini böylece açıklar.",
+   [
+    "Allah bilendir, Hakim'dir.",
+    0.8
+   ],
+   "Fıkıhta.",
+   "Bulûğ çağına ermemiş çocuklar dinî emirlerle yükümlü değildir.",
+   "Hukukçular yedi yaşı temyiz, iyiyi kötüden ayırma, gücünün başlangıcı kabul eder; çocuk bu yaştan sonra ibadetlere ve edebe alıştırılır.",
+   [
+    "Nûr otuz bir. ayette kadınların süslerini gösterebileceği kimseler arasında kadınların mahrem yerlerini henüz anlamayan çocuklar da sayılmıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sorumluluk ergenlikle gelir; sevgi ise bugünden başlar.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Giyim ve Görünüş",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Giyim ve Görünüş.",
+     0.8
+    ],
+    [
+     "Erkek, kadın ve çocuk için kıyafet, örtünme, saç ve sakal.",
+     0.6
+    ],
+    "Her konuda önce ayeti, sonra Peygamberimizin sahih hadisini, ardından Diyanet’in ve mezheplerin görüşünü dinleyeceksiniz.",
+    [
+     "Çizimleri ve kaynakları ekranda bulabilirsiniz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-en-guzel-bicim",
+   "baslik": "En güzel biçimde yaratılış",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Herkes için.",
+     0.8
+    ],
+    [
+     "En güzel biçimde yaratılış.",
+     0.5
+    ],
+    [
+     "Hükmü: Temel ilke.",
+     0.6
+    ],
+    "Kur’an, insanın en güzel biçimde yaratıldığını ve ona güzel bir şekil verildiğini bildirir.",
+    [
+     "Giyim ve görünüşle ilgili bütün ölçüler bu nimetin üzerine kurulur: Bedeni korumak, temiz ve güzel tutmak, yaratılışı bozmamak.",
+     0.8
+    ],
+    "Tîn Suresi, dördüncü ayetin anlamı şöyledir.",
+    [
+     "Biz insanı en güzel şekilde yarattık.",
+     0.8
+    ],
+    "Teğâbün Suresi, üçüncü ayetin anlamı şöyledir.",
+    "Gökleri ve yeri gerektiği gibi yaratmıştır.",
+    "Size şekil vermiş ve şeklinizi güzel yapmıştır.",
+    [
+     "Dönüş O'nadır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güzel görünmek, güzel yaratana şükürdür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-elbise-nimeti",
+   "baslik": "Elbise bir nimettir",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Elbise bir nimettir.",
+     0.5
+    ],
+    [
+     "Hükmü: Temel ilke.",
+     0.6
+    ],
+    "Allah elbiseyi insana üç amaçla verdiğini bildirir: Ayıp yerleri örtmek, insanı süslemek ve sıcaktan korumak.",
+    [
+     "Ayet, bunlardan daha hayırlı olanın takva örtüsü olduğunu hatırlatır; dış görünüş, içteki saygının ve hayânın aynasıdır.",
+     0.8
+    ],
+    "A‘râf Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+    "Ey İnsanoğulları!",
+    "Ayıp yerlerinizi örtecek giyimlikle sizi süsleyecek elbiseler gönderdik.",
+    "Takva örtüsü ise bunlardan daha hayırlıdır.",
+    [
+     "Allah'ın bu ayetleri öğüt almanız içindir.",
+     0.8
+    ],
+    "Nahl Suresi, seksen birinci ayetin anlamı şöyledir.",
+    "Allah yarattıklarından size gölgeler yapmış; dağlarda sığınacağınız barınaklar var etmiş, sizi sıcaktan koruyacak elbiseler, harpte sizi koruyacak zırhlar vermiştir.",
+    [
+     "Size olan nimetini müslüman olasınız diye işte bu şekilde tamamlamaktadır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Elbise bedeni örter, takva kalbi.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-guzel-giyinmek",
+   "baslik": "Güzel giyinmek, kibirden uzak durmak",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Güzel giyinmek, kibirden uzak durmak.",
+     0.5
+    ],
+    [
+     "Hükmü: Güzel giyinmek övülür, kibir haram.",
+     0.6
+    ],
+    "Kur’an, mescide giderken güzel elbiselerin giyilmesini ister ve Allah’ın kulları için yarattığı süsü haram kılmaya kimsenin hakkı olmadığını bildirir.",
+    "Peygamberimiz, güzel elbise ve ayakkabıyı sevmenin kibir olmadığını, kibrin hakkı tanımamak ve insanları küçümsemek olduğunu açıklamıştır.",
+    [
+     "Ölçü israf etmemek ve kendini üstün görmemektir.",
+     0.8
+    ],
+    "A‘râf Suresi, otuz birinci ayetin anlamı şöyledir.",
+    "Ey Ademoğulları!",
+    [
+     "Her mescide güzel elbiselerinizi giyinerek gidin; yiyin için fakat israf etmeyin, çünkü Allah müsrifleri sevmez.",
+     0.8
+    ],
+    "A‘râf Suresi, otuz ikinci ayetin anlamı şöyledir.",
+    "Allah'ın kulları için yarattığı ziynet ve temiz rızıkları haram kılan kimdir?",
+    "Bunlar, dünya hayatında inananlarındır, kıyamet gününde de yalnız onlar içindir de.",
+    [
+     "Bilen kimseler için ayetlerimizi böylece uzun uzun açıklıyoruz.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Abdullah bin Mes‘ûd.",
+    "Kalbinde zerre kadar kibir bulunan cennete giremez.",
+    "Bir adam, İnsan elbisesinin güzel, ayakkabısının güzel olmasını sever deyince Resûlullah sallallahu aleyhi ve sellem şöyle buyurdu: Allah güzeldir, güzeli sever.",
+    [
+     "Kibir, hakkı tanımamak ve insanları küçümsemektir..",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güzel giyin; ama kendini kimseden üstün görme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-temizlik",
+   "baslik": "Temiz beden, temiz elbise",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Temiz beden, temiz elbise.",
+     0.5
+    ],
+    [
+     "Hükmü: Temel ilke.",
+     0.6
+    ],
+    "İlk inen ayetlerden biri, Peygamberimize giydiklerini temiz tutmasını emreder.",
+    "Temizlik hem namazın şartıdır hem de Müslümanın her an taşıdığı bir özelliktir.",
+    [
+     "Pahalı değil, temiz ve bakımlı giyinmek esastır.",
+     0.8
+    ],
+    "Müddessir Suresi, dördüncü ayetin anlamı şöyledir.",
+    [
+     "Giydiklerini temiz tut.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Mâlik el-Eş‘arî.",
+    [
+     "Temizlik imanın yarısıdır.",
+     0.8
+    ],
+    "Fıkıhta.",
+    [
+     "Namazın sahih olması için bedenin, elbisenin ve namaz kılınan yerin necasetten temiz olması şarttır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Temiz giyinmek, pahalı giyinmekten önce gelir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-fitrat",
+   "baslik": "Fıtrat temizliği",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Fıtrat temizliği.",
+     0.5
+    ],
+    [
+     "Hükmü: Sünnet.",
+     0.6
+    ],
+    "Peygamberimiz beş davranışı fıtrattan, yani insanın yaratılışına uygun temizlikten saymıştır: Sünnet olmak, kasık kıllarını temizlemek, bıyıkları kısaltmak, tırnakları kesmek ve koltuk altı kıllarını temizlemek.",
+    [
+     "Bunlar hem temizliğin hem de Müslümanca görünüşün parçasıdır.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Beş şey fıtrattandır: Sünnet olmak, kasık kıllarını temizlemek, bıyığı kısaltmak, tırnakları kesmek ve koltuk altı kıllarını yolmak.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Küçük bakımlar, büyük bir temizliğin parçasıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-sagdan-baslamak",
+   "baslik": "Giyinmeye sağdan başlamak",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Giyinmeye sağdan başlamak.",
+     0.5
+    ],
+    [
+     "Hükmü: Sünnet.",
+     0.6
+    ],
+    "Peygamberimiz ayakkabı giymekte, saç taramakta ve temizlenmekte sağdan başlamayı severdi.",
+    "Ayakkabı giyerken önce sağ ayağın, çıkarırken önce sol ayağın kullanılmasını öğretmiştir.",
+    [
+     "Küçük bir alışkanlıkla gün boyu sünnet yaşanır.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    "Biriniz ayakkabısını giyerken sağdan, çıkarırken soldan başlasın.",
+    [
+     "Sağ ayak giyilirken ilk, çıkarılırken son olsun.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Hazreti Âişe.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem ayakkabı giymekte, saçını taramakta, temizlenmekte ve bütün işlerinde sağdan başlamayı severdi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sağdan başla; sünnet küçük işlerde de yaşanır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-benzememek",
+   "baslik": "Erkek ve kadın kendi yaratılışına uygun",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Erkek ve kadın kendi yaratılışına uygun.",
+     0.5
+    ],
+    [
+     "Hükmü: Haram.",
+     0.6
+    ],
+    "Peygamberimiz, giyimde, süste ve tavırda kadınlara benzemeye çalışan erkekleri ve erkeklere benzemeye çalışan kadınları kınamıştır.",
+    "Ölçü, toplumda bir cinse ait sayılan giyim ve süsün bilerek öbür cins tarafından benimsenmesidir.",
+    [
+     "Herkes kendi yaratılışıyla değerlidir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Abdullah bin Abbâs.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem, kadınlara benzemeye çalışan erkeklere ve erkeklere benzemeye çalışan kadınlara lanet etti.",
+     0.8
+    ],
+    "Fıkıhta.",
+    [
+     "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu, küpeyi kadınlara ait bir süslenme biçimi saymış ve erkeklerin küpe takmasını mekruh görmüştür.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kendin ol; yaratılışın bir değerdir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-yaratilisi-degistirmemek",
+   "baslik": "Dövme, saç ekleme ve kaş aldırma",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Dövme, saç ekleme ve kaş aldırma.",
+     0.5
+    ],
+    [
+     "Hükmü: Haram, tedavi hariç.",
+     0.6
+    ],
+    "Peygamberimiz; dövme yapan ve yaptıranı, başkasının saçını ekleyen ve ekleteni, güzellik için yüzündeki kılları yolduranı ve dişlerini seyrelteni kınamıştır.",
+    "Gerekçe, süs için Allah’ın yaratışını değiştirmek ve insanları aldatmaktır.",
+    [
+     "Hastalık ve kusur gidermek için yapılan tedavi bu yasağa girmez.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Allah, saç ekleyene ve ekletene, dövme yapana ve yaptırana lanet etsin.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Mes‘ûd.",
+    "Allah; dövme yapana ve yaptırana, yüzündeki kılları yolduranlara, güzellik için dişlerini seyreltenlere, Allah’ın yaratışını değiştirenlere lanet etsin.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem’ın lanet ettiğine ben neden lanet etmeyeyim?",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Esmâ bint Ebû Bekir.",
+    "Bir kadın gelip, hastalık yüzünden saçları dökülen yeni evli kızına takma saç ekleyip ekleyemeyeceğini sordu.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem saç ekleyene ve ekletene lanet etti.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu, Fetvalar kitabında dövme yaptırmanın, kaş aldırmanın ve başkasının saçını kullanmanın caiz olmadığını, yalnızca tedavi amaçlı estetiğin caiz olduğunu bildirir; peruk ve saç ektirmeyi zorunlu hâller dışında caiz görmez.",
+    "Vücudunda dövme bulunan kişi mümkünse onu giderir, mümkün değilse Allah’tan bağışlanma diler.",
+    "Diyanet İlmihali’ne göre hadiste yasaklanan, kaşları inceltmek için kıl yolmaktır; yüzde sonradan biten ve yüzü çirkinleştiren kılları almak bu yasağa girmez.",
+    [
+     "Saçsızlık hastalığında saç ektirmenin tedavi sayılarak caiz olduğuna dair fetvalar vardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Süslen; ama yaratılışı değiştirme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-sac-bakimi",
+   "baslik": "Saçın bakımı ve uzunluğu",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Saçın bakımı ve uzunluğu.",
+     0.5
+    ],
+    [
+     "Hükmü: Caiz, bakım sünnet.",
+     0.6
+    ],
+    "Peygamberimiz saçını sağdan başlayarak tarar, temiz ve bakımlı tutardı.",
+    "Saçları bazen kulak memelerine, bazen omuzlarına kadar inerdi.",
+    [
+     "Erkek için saçın uzun ya da kısa olması dinen belirlenmiş değildir; temizlik ve bulunulan toplumun örfü ölçüdür.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Berâ bin Âzib.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem orta boylu, omuzları geniş biriydi; saçları kulak memelerine kadar inerdi.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem ayakkabı giymekte, saçını taramakta ve temizlenmekte sağdan başlamayı severdi.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu’na göre saçların temizliğine dikkat etmek şartıyla erkeklerin saçlarını uzatmasında ve dilediği şekilde taramasında dinen sakınca yoktur; ancak bulunulan ortamın örfü dikkate alınır.",
+    [
+     "Hazreti Peygamber saçını bazen omuzlarına kadar uzatmış, bazen kısa kestirmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Uzun ya da kısa; önce temiz ve bakımlı.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-sac-boyamak",
+   "baslik": "Ağaran saçı boyamak",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Ağaran saçı boyamak.",
+     0.5
+    ],
+    [
+     "Hükmü: Caiz, siyah mekruh.",
+     0.6
+    ],
+    "Peygamberimiz, ağarmış saç ve sakalların boyanmasını tavsiye etmiş, boyamayan Yahudi ve Hristiyanlardan farklı olmayı istemiştir.",
+    [
+     "Mekke’nin fethi günü saçı sakalı bembeyaz olan Ebû Kuhâfe için Bunu bir şeyle değiştirin, siyahtan kaçının buyurmuştur.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Yahudiler ve Hristiyanlar saçlarını boyamazlar; siz onlara muhalefet edin.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Câbir bin Abdullah.",
+    "Mekke’nin fethi günü Ebû Kuhâfe getirildi; başı ve sakalı bembeyazdı.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem: Bunu bir şeyle değiştirin, siyahtan kaçının buyurdu.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu’na göre başkalarını yanıltma kastı olmaksızın saç, sakal ve bıyık boyanabilir; erkeğin saçını siyaha boyaması mekruh, kına gibi başka renklerle boyaması caizdir.",
+    [
+     "Siyaha boyamada âlimlerin görüşleri farklıdır; evli kadınların eşleri için siyah dahil istedikleri renge boyamasında sakınca görülmemiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ak saç bir nimettir; boyarsan aldatma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-peygamberimizin-gorunusu",
+   "baslik": "Örnek: Peygamberimizin görünüşü",
+   "tur": "Herkes için",
+   "parcalar": [
+    [
+     "Örnek: Peygamberimizin görünüşü.",
+     0.5
+    ],
+    [
+     "Hükmü: Bilgi.",
+     0.6
+    ],
+    "Sahabe, Peygamberimizin görünüşünü sevgiyle anlatmıştır.",
+    "Orta boylu, güzel yüzlü, saçı ne kıvırcık ne düz bir insandı.",
+    [
+     "Bu bölümde peygamberlerin ve sahabenin yüzü ve bedeni çizilmez; yalnızca sahih rivayetler aktarılır.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Enes bin Mâlik.",
+    "İnsanlar arasında orta boyluydu; ne uzun ne kısaydı.",
+    "Rengi pembe beyazdı; ne bembeyaz ne esmerdi.",
+    [
+     "Saçı ne çok kıvırcık ne de dümdüzdü.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Berâ bin Âzib.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem insanların yüzü en güzeli ve yaratılışı en güzeli idi; ne çok uzun ne de kısaydı.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Onu sevmek, ahlakına ve sünnetine uymaktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-erkegin-ortunmesi",
+   "baslik": "Erkeğin örtünmesi",
+   "tur": "Erkek",
+   "parcalar": [
+    [
+     "Erkek.",
+     0.8
+    ],
+    [
+     "Erkeğin örtünmesi.",
+     0.5
+    ],
+    [
+     "Hükmü: Farz.",
+     0.6
+    ],
+    "Kur’an, mümin erkeklere gözlerini haramdan sakınmalarını ve mahrem yerlerini korumalarını emreder.",
+    "Fıkıhta erkeğin her durumda örtmesi gereken yer göbek ile diz kapağı arasıdır.",
+    [
+     "Bu sınır en azıdır; bunun dışındaki yerler de örfe ve edebe göre örtülür.",
+     0.8
+    ],
+    "Nûr Suresi, otuzuncu ayetin anlamı şöyledir.",
+    "Mümin erkeklere söyle: Gözlerini bakılması yasak olandan çevirsinler, mahrem yerlerini, korusunlar.",
+    "Bu, onların arınmasını daha iyi sağlar.",
+    [
+     "Allah yaptıklarından şüphesiz haberdardır.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Erkeğin avret yeri göbek ile diz kapağı arasıdır.",
+    "Hanefî mezhebinde diz kapağı avrete dahildir, göbek dahil değildir; Şâfiî ve Hanbelî mezheplerinde göbek de diz kapağı da dahil değildir.",
+    "Diyanet İlmihali’nde Hanefî görüş esas alınır: göbek altından diz kapağına kadar, diz kapağı dahil.",
+    [
+     "Bu sınırın dışındaki yerlerin her ortamda açılabileceği anlamına gelmez; örf ve görgü kuralları da gözetilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hayâ yalnız kadına değil, erkeğe de emredilmiştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-sakal-biyik",
+   "baslik": "Sakal ve bıyık",
+   "tur": "Erkek",
+   "parcalar": [
+    [
+     "Sakal ve bıyık.",
+     0.5
+    ],
+    [
+     "Hükmü: Sünnet.",
+     0.6
+    ],
+    "Peygamberimiz sakalın bırakılmasını ve bıyığın kısaltılmasını istemiştir.",
+    "Kur’an da Hazreti Hârûn’un sakalından söz eder.",
+    "Sahabeden İbn Ömer, hac ve umrede sakalını avucuyla tutar, taşan kısmı keserdi.",
+    [
+     "Sakal bırakmak sünnettir; kesmenin hükmünde mezhepler farklı görüşlere sahiptir.",
+     0.8
+    ],
+    "Tâhâ Suresi, doksan dördüncü ayetin anlamı şöyledir.",
+    "Harun: Ey Annemoğlu!",
+    [
+     "Saçımdan sakalımdan tutma; doğrusu İsrailoğulları arasına ayrılık koydun, sözüme bakmadın demenden korktum dedi.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Müşriklere muhalefet edin: Sakalları bırakın, bıyıkları kısaltın., İbn Ömer, hac ya da umre yaptığında sakalını avucuyla tutar, avucundan taşanı keserdi..",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Diyanet İslam İlmihali’ne göre sakal bırakmak Hazreti Peygamber’in sünnetlerindendir.",
+    "Kesmenin hükmünde görüşler farklıdır: Hanefîlerde tahrîmen mekruh terimi kullanılır; Şâfiîlerde yaygın görüş mekruh olduğudur.",
+    "Son dönem âlimlerinin bir kısmı sakalı esasen örfle ilgili saymış, Peygamber’e uyma niyetiyle bırakılınca sünnet ya da müstehap olacağını söylemiştir.",
+    [
+     "Bıyığı kısaltma emri fakihlerin görüş birliğiyle farz anlamına gelmez.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sakal bir sünnettir; onu taşıyan, ahlakıyla da süslesin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-altin-ipek",
+   "baslik": "Altın ve ipek erkeğe yasak",
+   "tur": "Erkek",
+   "parcalar": [
+    [
+     "Altın ve ipek erkeğe yasak.",
+     0.5
+    ],
+    [
+     "Hükmü: Haram.",
+     0.6
+    ],
+    "Peygamberimiz erkeklerin altın yüzük takmasını ve ipek giymesini yasaklamış, bir adamın elindeki altın yüzüğü çıkarıp atmıştır.",
+    "Bu yasak erkeklere yöneliktir; kadınların altın ve ipek kullanması caizdir.",
+    [
+     "Erkekler gümüş yüzük takabilir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Berâ bin Âzib.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem bize altın yüzüğü, ipeği ve ipekli kumaşları, gümüş kapları kullanmayı yasakladı.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Abdullah bin Abbâs.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem bir adamın elinde altın yüzük gördü; onu çıkarıp attı ve Sizden biri ateşten bir kor alıp eline takıyor buyurdu.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Enes bin Mâlik.",
+    [
+     "Dünyada ipek giyen, ahirette onu giymez.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Âlimlerin çoğunluğuna göre altın yüzük ve saf ipek elbise erkeklere haramdır; az sayıda âlim farklı görüştedir.",
+    "Kadınlar için caizdir.",
+    "Erkeklerin gümüş yüzük takması mubahtır.",
+    [
+     "Başka elbisesi varken ipek elbiseyle kılınan namaz mekruh olmakla birlikte geçerlidir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Erkeğin süsü sadeliktir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-kibirle-surumek",
+   "baslik": "Elbiseyi kibirle yerde sürümek",
+   "tur": "Erkek",
+   "parcalar": [
+    [
+     "Elbiseyi kibirle yerde sürümek.",
+     0.5
+    ],
+    [
+     "Hükmü: Kibirle: haram.",
+     0.6
+    ],
+    "Kur’an yeryüzünde böbürlenerek yürümeyi yasaklar.",
+    "Peygamberimiz de elbisesini kibirle yerde sürüyene Allah’ın kıyamet günü bakmayacağını bildirmiştir.",
+    [
+     "Hazreti Ebû Bekir, dikkat etmezse elbisesinin bir tarafının sarktığını söyleyince Peygamberimiz onun bunu kibirle yapanlardan olmadığını söylemiştir.",
+     0.8
+    ],
+    "Lokmân Suresi, on sekizinci ayetin anlamı şöyledir.",
+    [
+     "İnsanları küçümseyip yüz çevirme, yeryüzünde böbürlenerek yürüme; Allah, kendini beğenip övünen hiç kimseyi şüphesiz ki sevmez.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Allah, elbisesini kibirle yerde sürüyene kıyamet günü bakmaz.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Ebû Bekir, Dikkat etmezsem elbisemin bir tarafı sarkıyor deyince Resûlullah sallallahu aleyhi ve sellem: Sen onu kibirle yapanlardan değilsin buyurdu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Elbisenin boyu değil, kalbin kibri ölçülür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "16-tesettur",
+   "baslik": "Kadının örtünmesi (tesettür)",
+   "tur": "Kadın",
+   "parcalar": [
+    [
+     "Kadın.",
+     0.8
+    ],
+    [
+     "Kadının örtünmesi, tesettür.",
+     0.5
+    ],
+    [
+     "Hükmü: Farz.",
+     0.6
+    ],
+    "Kur’an, mümin kadınlara süslerini kendiliğinden görünen kısım dışında açmamalarını ve başörtülerini yakalarının üzerine salmalarını emreder; dışarı çıkarken üstlerine örtü almalarını ister.",
+    "Ayet inince ilk muhacir kadınlar örtülerini keserek hemen örtündüler.",
+    [
+     "Örtünme, Allah’a saygının ve hayânın ifadesidir.",
+     0.8
+    ],
+    "Nûr Suresi, otuz birinci ayetin anlamı şöyledir.",
+    "Mümin kadınlara da söyle: Gözlerini bakılması yasak olandan çevirsinler, iffetlerini korusunlar.",
+    "Süslerini, kendiliğinden görünen kısmı müstesna, açmasınlar.",
+    "Baş örtülerini yakalarının üzerine salsınlar.",
+    "Süslerini kocaları veya babaları ve kayınpederleri veya oğulları veya kocalarının oğulları veya kardeşleri veya erkek kardeşlerinin oğulları veya kızkardeşlerinin oğulları veya müslüman kadınları veya cariyeleri veya erkekliği kalmamış hizmetçiler, ya da kadınların mahrem yerlerini henüz anlamayan çocuklardan başkasına göstermesinler.",
+    "Gizledikleri süslerin bilinmesi için ayaklarını yere vurmasınlar.",
+    "Ey inananlar!",
+    [
+     "Saadete ermeniz için hepiniz tevbe ederek Allah'ın hükmüne dönün.",
+     0.8
+    ],
+    "Ahzâb Suresi, elli dokuzuncu ayetin anlamı şöyledir.",
+    "Ey Peygamber!",
+    "Eşlerine, kızlarına ve müminlerin kadınlarına, dışarı çıkarken üstlerine örtü almalarını söyle; bu, onların hür ve namuslu bilinmelerini ve bundan dolayı incitilmemelerini daha iyi sağlar.",
+    [
+     "Allah bağışlar ve merhamet eder.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+    "Allah ilk muhacir kadınlara rahmet etsin.",
+    [
+     "Başörtülerini yakalarının üzerine salsınlar ayeti inince, örtülerini kesip onlarla örtündüler.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu’nun otuz Aralık 1980, yetmiş yedi, ve üç Aralık 1993, altı, tarihli kararlarına göre başörtüsü Kur’an, Sünnet ve Müslümanların ortak kabulüne dayanan dinî bir vecîbedir.",
+    "Hanefî mezhebinde kadının yüzü, elleri ve ayakları dışında, sarkan saçları dahil bütün bedeni avrettir.",
+    "Şâfiî ve Hanbelî mezheplerinde namazda yüz ve eller dışındaki beden avrettir; bu iki mezhepte ağırlıklı görüş namaz dışında yüz ve ellerin de örtülmesi yönündedir.",
+    [
+     "Başörtüsü takmamak kişiyi dinden çıkarmaz; takva ve dindarlık açısından değerlendirilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Örtü bir sınır değil, saygıyla çizilmiş bir çerçevedir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "17-ortunun-nitelikleri",
+   "baslik": "Örtünün nitelikleri",
+   "tur": "Kadın",
+   "parcalar": [
+    [
+     "Örtünün nitelikleri.",
+     0.5
+    ],
+    [
+     "Hükmü: Farz.",
+     0.6
+    ],
+    "Örtünmenin amacı gerçekleşmelidir: Elbise teni gösterecek kadar ince ya da vücut hatlarını belli edecek kadar dar olmamalıdır.",
+    "Peygamberimiz giyinik oldukları hâlde çıplak olanlardan söz ederek bu ölçüye dikkat çekmiştir.",
+    [
+     "Örtünün biçimi, rengi ve kumaşı ise bu amaç sağlandıkça örfe bırakılmıştır.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem, cehennem ehlinden henüz görmediği iki sınıfı anlatırken giyinik oldukları hâlde çıplak olan kadınlardan söz etti ve onların cennete giremeyeceğini, kokusunu bile alamayacağını bildirdi.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Cildin rengini gösterecek kadar ince elbiseyle avret örtülmüş sayılmaz; kıyafet vücut hatlarını belli etmemeli ve teni göstermemelidir.",
+    "İslam örtünmeyi emretmekle birlikte biçimi konusunda ayrıntıya girmemiş, bunu örfe bırakmıştır.",
+    [
+     "Çağdaş âlimlerin genel yaklaşımına göre normal giysi örtünmenin amaçlarını karşılıyorsa çarşaf gibi ayrı bir dış kıyafet zorunlu değildir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Örtünün ölçüsü, örttüğü kadardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "18-kadinin-saci",
+   "baslik": "Kadının saçı",
+   "tur": "Kadın",
+   "parcalar": [
+    [
+     "Kadının saçı.",
+     0.5
+    ],
+    [
+     "Hükmü: Caiz.",
+     0.6
+    ],
+    "Peygamberimizin hanımları saçlarını kulak hizasına kadar kısaltırlardı.",
+    "Kadının saçını kısaltmasında sakınca yoktur; tamamen kazıtması ise uygun görülmemiştir.",
+    [
+     "Saç, mahrem olmayan erkeklere karşı örtülen süslerdendir.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Seleme bin Abdurrahman.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem’ın hanımları saçlarını kulak hizasına kadar kısaltırlardı.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Hazreti Peygamber, toplumsal kabul doğrultusunda kadınların saçını kısaltmasında sakınca görmemiş, kazıtmasını ise uygun bulmamıştır.",
+    [
+     "Nûr otuz bir. ayet, kadının saçını mahrem olmayan erkeklere göstermemesi şeklinde anlaşılmıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Saç bir süstür; korunur ve özenle taşınır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "19-kaz",
+   "baslik": "Saçın bir kısmını kazıyıp bırakmamak (kaz‘)",
+   "tur": "Çocuk",
+   "parcalar": [
+    [
+     "Çocuk.",
+     0.8
+    ],
+    [
+     "Saçın bir kısmını kazıyıp bırakmamak, kaza.",
+     0.5
+    ],
+    [
+     "Hükmü: Uygun görülmez.",
+     0.6
+    ],
+    "Peygamberimiz, çocuğun başının bir kısmını tıraş edip bir kısmını perçem hâlinde bırakmak anlamına gelen kazaı yasaklamıştır.",
+    [
+     "Saç kesilirken baş bir bütün olarak düzenlenir; yamalı, yer yer kazınmış bir görünüm uygun görülmez.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Resûlullah sallallahu aleyhi ve sellem kazaı yasakladı., Nâfi‘: Kaz‘, çocuğun başının bir kısmının tıraş edilip bir kısmının bırakılmasıdır..",
+     0.8
+    ],
+    "Fıkıhta.",
+    [
+     "Çocukların saçının bir kısmının tıraş edilip bir kısmının perçem hâlinde bırakılmasını Hazreti Peygamber uygun bulmamıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Saç bir bütündür; düzenli ve bakımlı olsun.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "20-cocugun-ortunmesi",
+   "baslik": "Çocuğun örtünmesi ve sorumluluk çağı",
+   "tur": "Çocuk",
+   "parcalar": [
+    [
+     "Çocuğun örtünmesi ve sorumluluk çağı.",
+     0.5
+    ],
+    [
+     "Hükmü: Bulûğda farz.",
+     0.6
+    ],
+    "Kur’an, ergenlik çağına ermemiş çocukların yalnızca belli vakitlerde, ergenliğe erenlerin ise her zaman izin isteyerek odaya girmesini öğretir; mahremiyet bilinci küçük yaşta başlar.",
+    "Örtünme ve diğer dinî yükümlülükler bulûğ, ergenlik, ile başlar.",
+    [
+     "O zamana kadar çocuğa giyinme edebi sevdirerek ve zorlamadan öğretilir.",
+     0.8
+    ],
+    "Nûr Suresi, elli sekizinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Ellerinizin altında olan köle ve cariyeler ve sizden henüz erginliğe ermemiş olanlar, sabah namazından önce, öğle sıcağında soyunduğunuzda ve yatsı namazından sonra yanınıza gireceklerinde üç defa izin istesinler.",
+    "Bunlar, sizin açık bulunabileceğiniz üç vakittir.",
+    "Bu vakitlerin dışında birbirinizin yanına girip çıkmakta size de, onlara da bir sorumluluk yoktur.",
+    "Allah size ayetlerini böylece açıklar.",
+    [
+     "Allah bilendir, Hakim'dir.",
+     0.8
+    ],
+    "Nûr Suresi, elli dokuzuncu ayetin anlamı şöyledir.",
+    "Çocuklarınız erginlik çağına gelince, büyüklerinin izin istediği gibi, onlar da her defasında izin istesinler.",
+    "Allah size ayetlerini böylece açıklar.",
+    [
+     "Allah bilendir, Hakim'dir.",
+     0.8
+    ],
+    "Fıkıhta.",
+    "Bulûğ çağına ermemiş çocuklar dinî emirlerle yükümlü değildir.",
+    "Hukukçular yedi yaşı temyiz, iyiyi kötüden ayırma, gücünün başlangıcı kabul eder; çocuk bu yaştan sonra ibadetlere ve edebe alıştırılır.",
+    [
+     "Nûr otuz bir. ayette kadınların süslerini gösterebileceği kimseler arasında kadınların mahrem yerlerini henüz anlamayan çocuklar da sayılmıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sorumluluk ergenlikle gelir; sevgi ise bugünden başlar.",
+     1
+    ]
+   ]
+  }
+ ]
+}

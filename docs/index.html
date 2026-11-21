@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark" data-root="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Mektep: kaynağı belli öğrenme uygulamaları; çocuk ve yetişkin için, tarayıcıda ve çevrimdışı çalışır. Hüseyin Cihad Güler.">
+    <meta name="author" content="Hüseyin Cihad Güler">
+    <meta name="theme-color" content="#0b0d10">
+
+    <title>Mektep | Hüseyin Cihad Güler</title>
+
+    <!-- Tema tercihini ilk boyamadan önce uygula -->
+    <script>
+        (function () {
+            var d = document.documentElement;
+            d.classList.add('js');
+            try {
+                var t = localStorage.getItem('theme');
+                if (t !== 'dark' && t !== 'light') {
+                    t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                }
+                d.setAttribute('data-theme', t);
+            } catch (e) {}
+        })();
+    </script>
+
+    <!-- Uygulama olarak yüklendiyse (standalone / tam ekran) ya da ?launcher ile: telefon ana ekranı görünümü -->
+    <script>
+        (function () {
+            var m = function (q) { return window.matchMedia('(display-mode: ' + q + ')').matches; };
+            if (m('standalone') || m('fullscreen') || m('minimal-ui') || navigator.standalone === true || /[?&]launcher\b/.test(location.search)) {
+                var d = document.documentElement;
+                d.classList.add('is-launcher');
+                var f = document.createElement('link');
+                f.rel = 'stylesheet';
+                f.href = 'https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&family=Nunito:wght@400;700;800;900&display=swap';
+                document.head.appendChild(f);
+            }
+        })();
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="launcher.css">
+    <link rel="stylesheet" href="favori.css">
+
+    <!-- Favicon ve PWA (ana ekrana eklenebilir; apps/manifest.webmanifest, apps/sw.js, apps/pwa.js) -->
+    <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Mektep">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="backdrop" aria-hidden="true"><i></i><i></i></div>
+    <canvas id="mesh" class="mesh" aria-hidden="true"></canvas>
+
+    <!-- Navigation -->
+    <header class="nav hub-nav" id="navbar">
+        <div class="nav__inner">
+            <a href="https://hcguler.github.io/" class="hub-back">
+                <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-left"/></svg>
+                <span data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</span>
+            </a>
+            <p class="hub-crumb">&lt;HCG /&gt; <b>apps</b></p>
+            <div class="controls">
+                <button id="lang-toggle" class="control-btn" aria-label="Toggle language">
+                    <span class="lang-text">EN</span>
+                </button>
+                <button id="theme-toggle" class="control-btn" aria-label="Toggle theme">
+                    <svg class="icon icon-moon" aria-hidden="true"><use href="assets/icons.svg#moon"/></svg>
+                    <svg class="icon icon-sun" aria-hidden="true"><use href="assets/icons.svg#sun"/></svg>
+                </button>
+            </div>
+            <div class="nav__progress" aria-hidden="true"><span></span></div>
+        </div>
+    </header>
+
+    <!-- Apps home screen -->
+    <main class="hub">
+        <div class="container">
+            <header class="hub-head">
+                <p class="hub-eyebrow" data-enter style="--i:0">hcguler.github.io/mektep</p>
+                <h1 class="hub-title" data-enter style="--i:1">
+                    <em data-tr="Mektep" data-en="Mektep">Mektep</em>
+                </h1>
+                <p class="hub-lead" data-enter style="--i:2" data-tr="Kaynağı belli öğrenme uygulamaları; çocuk ve yetişkin için. Temanı seç, bir karta dokun; uygulama o temayla açılsın." data-en="Learning apps with clear sources, for kids and adults. Pick a theme, tap a card, and the app opens in it.">
+                    Kaynağı belli öğrenme uygulamaları; çocuk ve yetişkin için. Temanı seç, bir karta dokun; uygulama o temayla açılsın.
+                </p>
+
+                <!-- Tema seçimi: uygulamalar da bu temayla açılır -->
+                <div class="hub-theme" data-enter style="--i:3" role="group" aria-label="Tema">
+                    <span class="hub-theme__label" data-tr="Tema" data-en="Theme">Tema</span>
+                    <div class="hub-theme__opts">
+                        <button type="button" class="hub-theme__opt" data-app-theme="cocuk" aria-pressed="false">
+                            <span class="hub-theme__swatch hub-theme__swatch--cocuk" aria-hidden="true"><i></i><i></i></span>
+                            <span data-tr="Çocuk" data-en="Kids">Çocuk</span>
+                        </button>
+                        <button type="button" class="hub-theme__opt" data-app-theme="yetiskin" aria-pressed="true">
+                            <span class="hub-theme__swatch hub-theme__swatch--yetiskin" aria-hidden="true"><i></i><i></i></span>
+                            <span data-tr="Yetişkin" data-en="Adult">Yetişkin</span>
+                        </button>
+                    </div>
+                    <span class="hub-theme__hint" data-tr="Uygulamanın içinden de değiştirebilirsin." data-en="You can also change it inside each app.">Uygulamanın içinden de değiştirebilirsin.</span>
+                </div>
+
+                <!-- Ana ekrana ekle: tarayıcı destekliyorsa pwa.js gösterir -->
+                <div class="hub-install" data-pwa-install hidden>
+                    <img class="hub-install__icon" src="icons/icon-192.png" alt="" width="52" height="52">
+                    <div class="hub-install__text">
+                        <b data-tr="Ana ekrana ekle" data-en="Add to Home Screen">Ana ekrana ekle</b>
+                        <span data-tr="Mektep ana ekranından açılır, çevrimdışı da çalışır; yeni uygulama gelince haber verir." data-en="Open Mektep from your home screen, use it offline, and get notified when a new app arrives.">Mektep ana ekranından açılır, çevrimdışı da çalışır; yeni uygulama gelince haber verir.</span>
+                    </div>
+                    <button type="button" class="hub-install__btn" data-pwa-install-btn>
+                        <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#plus"/></svg>
+                        <span data-tr="Ekle" data-en="Add">Ekle</span>
+                    </button>
+                </div>
+            </header>
+
+            <div class="hub-tools" id="hub-tools" hidden>
+                <label class="hub-search">
+                    <svg class="icon" aria-hidden="true"><use href="assets/icons.svg#search"/></svg>
+                    <input type="search" id="hub-search" autocomplete="off" placeholder="Uygulama ara…" aria-label="Uygulama ara" data-tr-placeholder="Uygulama ara…" data-en-placeholder="Search apps…">
+                </label>
+                <span class="hub-count" id="hub-count"></span>
+            </div>
+
+            <!-- Kartlar apps.js içindeki listeden üretilir -->
+            <div class="hub-grid" id="hub-grid"></div>
+            <noscript>
+                <p><a href="namaz.html">Namaz Yolculuğu – Adım adım namaz rehberi</a></p>
+                <p><a href="ezberler/">Ezberler – Sureler, Namaz Duaları ve Zikirler</a></p>
+                <p><a href="kavram/">İslam'da Kavram Haritası – Helal, haram, mubah, müstehab…</a></p>
+                <p><a href="davranis/">Kur'an'dan Davranış Modeli – Herkes için, günün yirmi dört saatinde</a></p>
+                <p><a href="esma/">Esmâ-ül Hüsnâ – Allah'ın güzel isimleri</a></p>
+                <p><a href="peygamberler/">Peygamberler Yolculuğu – Kur'an'da adı geçen yirmi beş peygamber</a></p>
+                <p><a href="siyer/">Siyer Çizelgesi – Peygamberimizin hayatı yıl yıl</a></p>
+                <p><a href="dualar/">Kur'an Duaları – Rabbenâ ile başlayan dualar</a></p>
+            </noscript>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>&lt;HCG /&gt;</span>
+                </div>
+                <p class="footer-text" data-tr="Öğren, Uygula ve Paylaş." data-en="Learn, Apply and Share.">
+                    Öğren, Uygula ve Paylaş.
+                </p>
+                <p class="footer-copyright">
+                    © <span id="current-year"></span> Hüseyin Cihad Güler.
+                    <span data-tr="Tüm hakları saklıdır." data-en="All rights reserved.">Tüm hakları saklıdır.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Ana ekran görünümünde sitenin hareketli arka planı çalışmasın
+        if (document.documentElement.classList.contains('is-launcher')) {
+            ['mesh'].forEach(function (id) { var e = document.getElementById(id); if (e) e.remove(); });
+        }
+    </script>
+    <script src="js/site.js"></script>
+    <script src="apps.js"></script>
+    <script src="favori.js"></script>
+    <script src="hub.js"></script>
+    <script src="launcher.js"></script>
+    <script src="pwa.js" defer></script>
+</body>
+</html>

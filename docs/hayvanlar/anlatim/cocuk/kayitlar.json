@@ -1,0 +1,98 @@
+{
+ "_aciklama": "hayvanlar sesli anlatım kayıtları, cocuk profili (kadın sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "cocuk",
+ "ses": "kadin",
+ "motor": "ema-lightning",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Kur’an’da Hayvanlar: tam anlatım",
+   "sure": 1660.16,
+   "imza": "c1958a8dddeb6bb0"
+  },
+  "giris": {
+   "baslik": "Kur’an’da Hayvanlar",
+   "sure": 31.9,
+   "imza": "24236db5c4bce556"
+  },
+  "01-karinca": {
+   "baslik": "Karınca",
+   "sure": 93.95,
+   "imza": "fda72993217a7055"
+  },
+  "02-hudhud": {
+   "baslik": "Hüdhüd kuşu",
+   "sure": 114.11,
+   "imza": "db7436cf9ed423b3"
+  },
+  "03-dortkus": {
+   "baslik": "Dört kuş",
+   "sure": 101.79,
+   "imza": "a72f77ffc3048445"
+  },
+  "04-balik": {
+   "baslik": "Balık",
+   "sure": 108.74,
+   "imza": "ffd5954974914995"
+  },
+  "05-disideve": {
+   "baslik": "Dişi deve",
+   "sure": 123.18,
+   "imza": "a1637bb434e5c488"
+  },
+  "06-inek": {
+   "baslik": "İnek",
+   "sure": 141.83,
+   "imza": "00cf469fe51df6bd"
+  },
+  "07-kurt": {
+   "baslik": "Kurt",
+   "sure": 96.21,
+   "imza": "d2e9832e458bfaa1"
+  },
+  "08-kopek": {
+   "baslik": "Köpek",
+   "sure": 142.02,
+   "imza": "5327466c9e41a4a8"
+  },
+  "09-karga": {
+   "baslik": "Karga",
+   "sure": 106.2,
+   "imza": "72a0cee73184c1b9"
+  },
+  "10-fil": {
+   "baslik": "Fil",
+   "sure": 75.4,
+   "imza": "0ba9f96e3093c0fd"
+  },
+  "11-ebabil": {
+   "baslik": "Ebâbîl kuşları",
+   "sure": 56.71,
+   "imza": "a17663fc17aef1d7"
+  },
+  "12-ari": {
+   "baslik": "Arı",
+   "sure": 100.91,
+   "imza": "b198b1ea6b30b6f0"
+  },
+  "13-orumcek": {
+   "baslik": "Örümcek",
+   "sure": 47.44,
+   "imza": "360c3aa733ae5630"
+  },
+  "14-sivrisinek": {
+   "baslik": "Sivrisinek",
+   "sure": 63.28,
+   "imza": "17bc87af5c506475"
+  },
+  "15-deve": {
+   "baslik": "Deve",
+   "sure": 67.98,
+   "imza": "3d6b1766a7e22980"
+  },
+  "merhamet": {
+   "baslik": "Hayvanlara merhamet",
+   "sure": 180.5,
+   "imza": "ed297e7b1fbbe3f0"
+  }
+ }
+}

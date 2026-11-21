@@ -1,0 +1,233 @@
+{
+ "_aciklama": "zekat sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Zekât ve Sadaka Rehberi: tam anlatım",
+   "sure": 2741.47,
+   "imza": "ce04f70c77d76831"
+  },
+  "giris": {
+   "baslik": "Zekât ve Sadaka Rehberi",
+   "sure": 38.15,
+   "imza": "d2cb0fa8545174b3"
+  },
+  "01-zekat-nedir": {
+   "baslik": "Zekât nedir?",
+   "sure": 94.97,
+   "imza": "921865bf75f053eb"
+  },
+  "02-zekat-vermemek": {
+   "baslik": "Zekâtı vermemek",
+   "sure": 108.6,
+   "imza": "d266f775847c72b4"
+  },
+  "03-kime-farz": {
+   "baslik": "Kime farzdır?",
+   "sure": 66.67,
+   "imza": "306d4ff462ee5939"
+  },
+  "04-borclar": {
+   "baslik": "Borçlar düşülür mü?",
+   "sure": 66.21,
+   "imza": "19dd94bd2d37561b"
+  },
+  "05-yil": {
+   "baslik": "Bir yıl şartı ve zamanı",
+   "sure": 56.86,
+   "imza": "1cb39b0a89264418"
+  },
+  "06-niyet-temlik": {
+   "baslik": "Niyet ve temlik",
+   "sure": 45.05,
+   "imza": "1475406d1196edd9"
+  },
+  "07-nisap": {
+   "baslik": "Nisap",
+   "sure": 72.9,
+   "imza": "ff4bdfaab88adde8"
+  },
+  "08-gumus-nisabi": {
+   "baslik": "Gümüş nisabı",
+   "sure": 46.83,
+   "imza": "9f6997b251cc4734"
+  },
+  "09-kirkta-bir": {
+   "baslik": "Kırkta bir",
+   "sure": 43.6,
+   "imza": "54b0f1a3283ac0ff"
+  },
+  "10-para": {
+   "baslik": "Para ve döviz",
+   "sure": 35.99,
+   "imza": "1c572fec059219b9"
+  },
+  "11-altin-ziynet": {
+   "baslik": "Altın, gümüş ve takılar",
+   "sure": 49.16,
+   "imza": "b5647edf35c8c694"
+  },
+  "12-ticaret": {
+   "baslik": "Ticaret malı",
+   "sure": 47.11,
+   "imza": "0c8f616731b521a8"
+  },
+  "13-hisse": {
+   "baslik": "Şirket ve hisse senedi",
+   "sure": 48.42,
+   "imza": "4eeb3ccbffa76ae0"
+  },
+  "14-alacak": {
+   "baslik": "Alacaklar",
+   "sure": 48.5,
+   "imza": "513d10e4b098572b"
+  },
+  "15-hayvan": {
+   "baslik": "Hayvanların zekâtı",
+   "sure": 31.42,
+   "imza": "23cc4e5fa86d8ad8"
+  },
+  "16-osur": {
+   "baslik": "Toprak ürünleri: öşür",
+   "sure": 85.23,
+   "imza": "94ca3950c94eae23"
+  },
+  "17-muaf": {
+   "baslik": "Zekât gerekmeyen mallar",
+   "sure": 41.62,
+   "imza": "1fcb2b7884984227"
+  },
+  "18-sekiz-sinif": {
+   "baslik": "Sekiz sınıf",
+   "sure": 82.32,
+   "imza": "176d07d60701ff25"
+  },
+  "19-fakir-miskin": {
+   "baslik": "Fakir kimdir?",
+   "sure": 83.23,
+   "imza": "8ea4f084bdeac6c9"
+  },
+  "20-akraba": {
+   "baslik": "Kardeş ve diğer akrabalar",
+   "sure": 52.25,
+   "imza": "b85d0e6589d3059c"
+  },
+  "21-kurumlar": {
+   "baslik": "Cami, okul ve kurumlar",
+   "sure": 47.9,
+   "imza": "651e6bab6ed3fffc"
+  },
+  "22-verme-adabi": {
+   "baslik": "Zekât vermenin âdâbı",
+   "sure": 87.92,
+   "imza": "2e9dfc7174a6561d"
+  },
+  "23-usul-furu": {
+   "baslik": "Anne baba, çocuk ve torun",
+   "sure": 52.44,
+   "imza": "4a966181cfaf9ad7"
+  },
+  "24-es": {
+   "baslik": "Eş",
+   "sure": 28.2,
+   "imza": "fbc00afa709f15f8"
+  },
+  "25-zengin": {
+   "baslik": "Zengin",
+   "sure": 52.69,
+   "imza": "2cb3d71407cff579"
+  },
+  "26-gayrimuslim": {
+   "baslik": "Müslüman olmayan",
+   "sure": 43.37,
+   "imza": "68722ac31b2fa786"
+  },
+  "27-peygamber-ailesi": {
+   "baslik": "Peygamberimizin yakınları",
+   "sure": 53.5,
+   "imza": "ff6c052d7d195c70"
+  },
+  "28-yanilma": {
+   "baslik": "Yanlış kişiye verilirse",
+   "sure": 39.97,
+   "imza": "40e4ad06cc4f5fa1"
+  },
+  "29-fitir-sadakasi": {
+   "baslik": "Fıtır sadakası (fitre)",
+   "sure": 89.53,
+   "imza": "02edfe1dc5d65df3"
+  },
+  "30-fitre-kim-verir": {
+   "baslik": "Kim fitre verir?",
+   "sure": 51.35,
+   "imza": "ad3e25e75defa5d2"
+  },
+  "31-fitre-zamani": {
+   "baslik": "Fitre ne zaman verilir?",
+   "sure": 44.31,
+   "imza": "4318ffad641ea0ad"
+  },
+  "32-fitre-kime": {
+   "baslik": "Fitre kime verilir?",
+   "sure": 49.47,
+   "imza": "ac4eb3a63c05794b"
+  },
+  "33-fitre-zekat": {
+   "baslik": "Fitre ile zekât farkı",
+   "sure": 37.78,
+   "imza": "b8ef28f0e0d1ccac"
+  },
+  "34-oruc-fidyesi": {
+   "baslik": "Oruç fidyesi",
+   "sure": 104.49,
+   "imza": "11948f3ec6a17765"
+  },
+  "35-oruc-kefareti": {
+   "baslik": "Oruç kefareti",
+   "sure": 56.05,
+   "imza": "4e05f4a941a143c5"
+  },
+  "36-yemin-kefareti": {
+   "baslik": "Yemin kefareti",
+   "sure": 72.96,
+   "imza": "8c59745bf721d073"
+  },
+  "37-infak": {
+   "baslik": "Allah yolunda harcamak",
+   "sure": 82.71,
+   "imza": "711739b4d32eaa87"
+  },
+  "38-sadaka": {
+   "baslik": "Gönüllü sadaka",
+   "sure": 72.6,
+   "imza": "1a46684a5d41bb63"
+  },
+  "39-her-iyilik": {
+   "baslik": "Her iyilik sadakadır",
+   "sure": 72.22,
+   "imza": "28c95a6731dcddbd"
+  },
+  "40-sadaka-adabi": {
+   "baslik": "Başa kakmadan, gizlice",
+   "sure": 93.16,
+   "imza": "83e015a8c72c0883"
+  },
+  "41-once-yakinlar": {
+   "baslik": "Önce yakınlar",
+   "sure": 94.64,
+   "imza": "f1bdfe3a5c015ac0"
+  },
+  "42-sadaka-i-cariye": {
+   "baslik": "Sadaka-i câriye",
+   "sure": 48.13,
+   "imza": "88aa70b368bbd6a4"
+  },
+  "43-adak": {
+   "baslik": "Adak",
+   "sure": 99.51,
+   "imza": "8ea4dabe4382df1c"
+  }
+ }
+}

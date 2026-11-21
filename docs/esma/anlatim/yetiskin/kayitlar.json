@@ -1,0 +1,513 @@
+{
+ "_aciklama": "esma sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Esmâ-ül Hüsnâ: tam anlatım",
+   "sure": 3036.05,
+   "imza": "82a85a9b8997bace"
+  },
+  "giris": {
+   "baslik": "Esmâ-ül Hüsnâ",
+   "sure": 46.05,
+   "imza": "3b64780e35cfcf6c"
+  },
+  "01-allah": {
+   "baslik": "Allah",
+   "sure": 29.5,
+   "imza": "bf4b7ef4c0626e39"
+  },
+  "02-er-rahman": {
+   "baslik": "er-Rahmân",
+   "sure": 31.49,
+   "imza": "49fb4df774a5894c"
+  },
+  "03-er-rahim": {
+   "baslik": "er-Rahîm",
+   "sure": 28.84,
+   "imza": "62b9727f82e67d72"
+  },
+  "04-el-melik": {
+   "baslik": "el-Melik",
+   "sure": 36.49,
+   "imza": "888ef5a442d438a4"
+  },
+  "05-el-kuddus": {
+   "baslik": "el-Kuddûs",
+   "sure": 36.4,
+   "imza": "29f9d12ce5b1f379"
+  },
+  "06-es-selam": {
+   "baslik": "es-Selâm",
+   "sure": 38.15,
+   "imza": "404c3ee89952fe8c"
+  },
+  "07-el-mumin": {
+   "baslik": "el-Mü’min",
+   "sure": 34.58,
+   "imza": "220fd882ad554a65"
+  },
+  "08-el-muheymin": {
+   "baslik": "el-Müheymin",
+   "sure": 33.76,
+   "imza": "017c1c2e46c489cf"
+  },
+  "09-el-aziz": {
+   "baslik": "el-Azîz",
+   "sure": 35.08,
+   "imza": "0bbe2e69ba4444ae"
+  },
+  "10-el-cebbar": {
+   "baslik": "el-Cebbâr",
+   "sure": 35.9,
+   "imza": "1035f6f511917023"
+  },
+  "11-el-mutekebbir": {
+   "baslik": "el-Mütekebbir",
+   "sure": 36.38,
+   "imza": "d209bbb85753abfb"
+  },
+  "12-el-halık": {
+   "baslik": "el-Hâlık",
+   "sure": 29.91,
+   "imza": "3632e9b00ed9bc16"
+  },
+  "13-el-bari": {
+   "baslik": "el-Bâri’",
+   "sure": 30.5,
+   "imza": "23d4059c601d8d4c"
+  },
+  "14-el-musavvir": {
+   "baslik": "el-Musavvir",
+   "sure": 31.21,
+   "imza": "e003998f9ff5ca77"
+  },
+  "15-el-gaffar": {
+   "baslik": "el-Gaffâr",
+   "sure": 26.74,
+   "imza": "c864594a6a779a2f"
+  },
+  "16-el-kahhar": {
+   "baslik": "el-Kahhâr",
+   "sure": 43.65,
+   "imza": "defed62a39d354da"
+  },
+  "17-el-vehhab": {
+   "baslik": "el-Vehhâb",
+   "sure": 26.05,
+   "imza": "b70d97757e8603cf"
+  },
+  "18-er-rezzak": {
+   "baslik": "er-Rezzâk",
+   "sure": 22.96,
+   "imza": "a1df6653853edb94"
+  },
+  "19-el-fettah": {
+   "baslik": "el-Fettâh",
+   "sure": 28.46,
+   "imza": "52dca9f5b38793a0"
+  },
+  "20-el-alim": {
+   "baslik": "el-Alîm",
+   "sure": 24.96,
+   "imza": "58f3e6d43349734c"
+  },
+  "21-el-kabız": {
+   "baslik": "el-Kâbız",
+   "sure": 33.67,
+   "imza": "a6cf4fc69b572cf2"
+  },
+  "22-el-basıt": {
+   "baslik": "el-Bâsıt",
+   "sure": 32.04,
+   "imza": "d02a914930dd8c34"
+  },
+  "23-el-hafıd": {
+   "baslik": "el-Hâfıd",
+   "sure": 18.72,
+   "imza": "8a9524be32f5526a"
+  },
+  "24-er-rafi": {
+   "baslik": "er-Râfi’",
+   "sure": 31.97,
+   "imza": "051ed9e008e2a5c8"
+  },
+  "25-el-muiz": {
+   "baslik": "el-Muiz",
+   "sure": 35.24,
+   "imza": "e1981f12a9f2dfd4"
+  },
+  "26-el-muzil": {
+   "baslik": "el-Müzil",
+   "sure": 35.39,
+   "imza": "636666739dabdc59"
+  },
+  "27-es-semi": {
+   "baslik": "es-Semî’",
+   "sure": 30.68,
+   "imza": "973fb2d076ba07ad"
+  },
+  "28-el-basir": {
+   "baslik": "el-Basîr",
+   "sure": 28.41,
+   "imza": "44d5cffeb4600109"
+  },
+  "29-el-hakem": {
+   "baslik": "el-Hakem",
+   "sure": 30.46,
+   "imza": "5119c2a3dcdc8064"
+  },
+  "30-el-adl": {
+   "baslik": "el-Adl",
+   "sure": 29.28,
+   "imza": "20488870a9acd757"
+  },
+  "31-el-latif": {
+   "baslik": "el-Latîf",
+   "sure": 23.36,
+   "imza": "3d8ef0ff922d16b2"
+  },
+  "32-el-habir": {
+   "baslik": "el-Habîr",
+   "sure": 21.8,
+   "imza": "95b37a87a4403c95"
+  },
+  "33-el-halim": {
+   "baslik": "el-Halîm",
+   "sure": 30.03,
+   "imza": "96aa87b433b46552"
+  },
+  "34-el-azim": {
+   "baslik": "el-Azîm",
+   "sure": 44.89,
+   "imza": "6e2cf8af697c9541"
+  },
+  "35-el-gafur": {
+   "baslik": "el-Gafûr",
+   "sure": 21.18,
+   "imza": "7a3a1ef9f7950bbe"
+  },
+  "36-es-sekur": {
+   "baslik": "eş-Şekûr",
+   "sure": 26.57,
+   "imza": "b452a35b21f57551"
+  },
+  "37-el-aliyy": {
+   "baslik": "el-Aliyy",
+   "sure": 44.25,
+   "imza": "fc1fb50f0bad7f89"
+  },
+  "38-el-kebir": {
+   "baslik": "el-Kebîr",
+   "sure": 27.85,
+   "imza": "327f6910a592b12f"
+  },
+  "39-el-hafiz": {
+   "baslik": "el-Hafîz",
+   "sure": 24.81,
+   "imza": "5a48fbd0afee80c1"
+  },
+  "40-el-mukit": {
+   "baslik": "el-Mukît",
+   "sure": 30.51,
+   "imza": "46524c519c2e24e1"
+  },
+  "41-el-hasib": {
+   "baslik": "el-Hasîb",
+   "sure": 42.3,
+   "imza": "5cc5a833733d17c4"
+  },
+  "42-el-celil": {
+   "baslik": "el-Celîl",
+   "sure": 27.17,
+   "imza": "2ca33363eff8b4eb"
+  },
+  "43-el-kerim": {
+   "baslik": "el-Kerîm",
+   "sure": 29.03,
+   "imza": "340f444c7ab63b8d"
+  },
+  "44-er-rakib": {
+   "baslik": "er-Rakîb",
+   "sure": 35.51,
+   "imza": "4c5c8fec5fbbfb1b"
+  },
+  "45-el-mucib": {
+   "baslik": "el-Mücîb",
+   "sure": 36.11,
+   "imza": "c72cc86987e48d39"
+  },
+  "46-el-vasi": {
+   "baslik": "el-Vâsi’",
+   "sure": 24.59,
+   "imza": "4fef03784a338c65"
+  },
+  "47-el-hakim": {
+   "baslik": "el-Hakîm",
+   "sure": 27.6,
+   "imza": "04629ce9173aa9ac"
+  },
+  "48-el-vedud": {
+   "baslik": "el-Vedûd",
+   "sure": 22.8,
+   "imza": "e7605f77a6618ee0"
+  },
+  "49-el-mecid": {
+   "baslik": "el-Mecîd",
+   "sure": 27.86,
+   "imza": "ba4ad5389cd98550"
+  },
+  "50-el-bais": {
+   "baslik": "el-Bâis",
+   "sure": 35.73,
+   "imza": "0ed414bc5e30cfb0"
+  },
+  "51-es-sehid": {
+   "baslik": "eş-Şehîd",
+   "sure": 25.9,
+   "imza": "38bf471d704814b3"
+  },
+  "52-el-hak": {
+   "baslik": "el-Hak",
+   "sure": 27.86,
+   "imza": "1e6c9bb4708c312a"
+  },
+  "53-el-vekil": {
+   "baslik": "el-Vekîl",
+   "sure": 31.5,
+   "imza": "8d50334087e020fa"
+  },
+  "54-el-kaviyy": {
+   "baslik": "el-Kaviyy",
+   "sure": 22.11,
+   "imza": "e0a7ce35ac894532"
+  },
+  "55-el-metin": {
+   "baslik": "el-Metîn",
+   "sure": 21.76,
+   "imza": "39367bf420374693"
+  },
+  "56-el-veliyy": {
+   "baslik": "el-Veliyy",
+   "sure": 25.75,
+   "imza": "eb54e95faaf5ea64"
+  },
+  "57-el-hamid": {
+   "baslik": "el-Hamîd",
+   "sure": 24.82,
+   "imza": "6f81a0e11bc55b96"
+  },
+  "58-el-muhsi": {
+   "baslik": "el-Muhsî",
+   "sure": 38.87,
+   "imza": "28101c87e62a24f2"
+  },
+  "59-el-mubdi": {
+   "baslik": "el-Mübdi’",
+   "sure": 24.79,
+   "imza": "9734203c5a913d7e"
+  },
+  "60-el-muid": {
+   "baslik": "el-Muîd",
+   "sure": 23.45,
+   "imza": "9ab787f00be19719"
+  },
+  "61-el-muhyi": {
+   "baslik": "el-Muhyî",
+   "sure": 25.76,
+   "imza": "09781b4c71b0430e"
+  },
+  "62-el-mumit": {
+   "baslik": "el-Mümît",
+   "sure": 26.78,
+   "imza": "b34d3ca14284075b"
+  },
+  "63-el-hayy": {
+   "baslik": "el-Hayy",
+   "sure": 43.65,
+   "imza": "b15d5d61cd848bd9"
+  },
+  "64-el-kayyum": {
+   "baslik": "el-Kayyûm",
+   "sure": 45.56,
+   "imza": "c7dce10b46e4b8aa"
+  },
+  "65-el-vacid": {
+   "baslik": "el-Vâcid",
+   "sure": 20.88,
+   "imza": "a66bc880700d1ac6"
+  },
+  "66-el-macid": {
+   "baslik": "el-Mâcid",
+   "sure": 17.34,
+   "imza": "64701078b5491cdd"
+  },
+  "67-el-vahid": {
+   "baslik": "el-Vâhid",
+   "sure": 43.74,
+   "imza": "5f82433818642ec4"
+  },
+  "68-es-samed": {
+   "baslik": "es-Samed",
+   "sure": 23.53,
+   "imza": "c7971759afdf2819"
+  },
+  "69-el-kadir": {
+   "baslik": "el-Kâdir",
+   "sure": 29.01,
+   "imza": "83c70fd4b2084c04"
+  },
+  "70-el-muktedir": {
+   "baslik": "el-Muktedir",
+   "sure": 24.11,
+   "imza": "ddc52f8ccb8c574f"
+  },
+  "71-el-mukaddim": {
+   "baslik": "el-Mukaddim",
+   "sure": 32.57,
+   "imza": "8cbc75e89673f799"
+  },
+  "72-el-muahhir": {
+   "baslik": "el-Muahhir",
+   "sure": 31.7,
+   "imza": "014d8652a1b5dd96"
+  },
+  "73-el-evvel": {
+   "baslik": "el-Evvel",
+   "sure": 27.71,
+   "imza": "040cae1c91e9053d"
+  },
+  "74-el-ahir": {
+   "baslik": "el-Âhir",
+   "sure": 27.99,
+   "imza": "bbf9e5d7e7976c0b"
+  },
+  "75-ez-zahir": {
+   "baslik": "ez-Zâhir",
+   "sure": 27.06,
+   "imza": "6726e810e2ad12f9"
+  },
+  "76-el-batın": {
+   "baslik": "el-Bâtın",
+   "sure": 29.89,
+   "imza": "3c0703314c0f379d"
+  },
+  "77-el-vali": {
+   "baslik": "el-Vâlî",
+   "sure": 33.11,
+   "imza": "1d18d65dc7297161"
+  },
+  "78-el-muteali": {
+   "baslik": "el-Müteâlî",
+   "sure": 29.73,
+   "imza": "5fd731780d51612f"
+  },
+  "79-el-berr": {
+   "baslik": "el-Berr",
+   "sure": 29.62,
+   "imza": "7fca0ad216815983"
+  },
+  "80-et-tevvab": {
+   "baslik": "et-Tevvâb",
+   "sure": 27.28,
+   "imza": "1a100e145a1a2873"
+  },
+  "81-el-muntekim": {
+   "baslik": "el-Müntekim",
+   "sure": 31.01,
+   "imza": "553f94d71d1ff61d"
+  },
+  "82-el-afuvv": {
+   "baslik": "el-Afüvv",
+   "sure": 23.08,
+   "imza": "9eed956d90cffcc8"
+  },
+  "83-er-rauf": {
+   "baslik": "er-Raûf",
+   "sure": 41.71,
+   "imza": "43af5647e1b9fc95"
+  },
+  "84-malikul-mulk": {
+   "baslik": "Mâlikü’l-mülk",
+   "sure": 31.11,
+   "imza": "bd82e198e98ff13f"
+  },
+  "85-zul-celali-vel-ikram": {
+   "baslik": "Zü’l-celâli ve’l-ikrâm",
+   "sure": 22.43,
+   "imza": "5636a54999d1a6f4"
+  },
+  "86-el-muksit": {
+   "baslik": "el-Muksit",
+   "sure": 18.45,
+   "imza": "a8efbd6e539fd6e6"
+  },
+  "87-el-cami": {
+   "baslik": "el-Câmi’",
+   "sure": 27.5,
+   "imza": "0db272d7944b8116"
+  },
+  "88-el-ganiyy": {
+   "baslik": "el-Ganiyy",
+   "sure": 32.02,
+   "imza": "e5820d5c8b35fe9b"
+  },
+  "89-el-mugni": {
+   "baslik": "el-Muğnî",
+   "sure": 40.35,
+   "imza": "ce05fb6c6cf62b0e"
+  },
+  "90-el-mani": {
+   "baslik": "el-Mâni’",
+   "sure": 19.08,
+   "imza": "164f1b08c1eee45c"
+  },
+  "91-ed-darr": {
+   "baslik": "ed-Dârr",
+   "sure": 33.74,
+   "imza": "91c74edbf45eac4e"
+  },
+  "92-en-nafi": {
+   "baslik": "en-Nâfi’",
+   "sure": 16.73,
+   "imza": "4e51b4af30f78f6d"
+  },
+  "93-en-nur": {
+   "baslik": "en-Nûr",
+   "sure": 45.23,
+   "imza": "b1ffaf644002e019"
+  },
+  "94-el-hadi": {
+   "baslik": "el-Hâdî",
+   "sure": 27.46,
+   "imza": "2c307060d5ee8944"
+  },
+  "95-el-bedi": {
+   "baslik": "el-Bedî’",
+   "sure": 25.72,
+   "imza": "773b7fb1d723f7f6"
+  },
+  "96-el-baki": {
+   "baslik": "el-Bâkî",
+   "sure": 25.53,
+   "imza": "35a0dda8884e7bf9"
+  },
+  "97-el-varis": {
+   "baslik": "el-Vâris",
+   "sure": 27.08,
+   "imza": "5903162d4f040258"
+  },
+  "98-er-resid": {
+   "baslik": "er-Reşîd",
+   "sure": 19.57,
+   "imza": "9a8bfbdc85d7cf6e"
+  },
+  "99-es-sabur": {
+   "baslik": "es-Sabûr",
+   "sure": 17.98,
+   "imza": "aa3174d3d462fa33"
+  }
+ }
+}

@@ -1,0 +1,233 @@
+{
+ "_aciklama": "dualar sesli anlatım kayıtları, cocuk profili (kadın sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "cocuk",
+ "ses": "kadin",
+ "motor": "ema-lightning",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Kur'an Duaları: tam anlatım",
+   "sure": 1294.74,
+   "imza": "e799e3218f4b6bb8"
+  },
+  "giris": {
+   "baslik": "Kur'an Duaları",
+   "sure": 13.63,
+   "imza": "e8d2bcb3deaf25fb"
+  },
+  "01-adem": {
+   "baslik": "Rabbenâ zalemnâ",
+   "sure": 30.48,
+   "imza": "556b0523f16c56ba"
+  },
+  "02-nuh-ilim": {
+   "baslik": "Rabbi innî eûzü bike",
+   "sure": 31.09,
+   "imza": "e970778b465bc263"
+  },
+  "03-nuh-menzil": {
+   "baslik": "Rabbi enzilnî münzelen mübâraken",
+   "sure": 25.62,
+   "imza": "9bcdd1a40c5d0587"
+  },
+  "04-nuh-bagis": {
+   "baslik": "Rabbiğfir lî ve li-vâlideyye",
+   "sure": 30.67,
+   "imza": "abac4ed1639194c9"
+  },
+  "05-ibrahim-kabul": {
+   "baslik": "Rabbenâ tekabbel minnâ",
+   "sure": 26.2,
+   "imza": "ab01cc2c0a09ebb2"
+  },
+  "06-ibrahim-ummet": {
+   "baslik": "Rabbenâ vec‘alnâ müslimeyni lek",
+   "sure": 36.26,
+   "imza": "22da0ced4d3e7437"
+  },
+  "07-ibrahim-namaz": {
+   "baslik": "Rabbic‘alnî mukîme’s-salâti",
+   "sure": 36.44,
+   "imza": "2e36f1eb44333324"
+  },
+  "08-ibrahim-hikmet": {
+   "baslik": "Rabbi heb lî hukmen",
+   "sure": 34.57,
+   "imza": "a027b1d0f3b3cf55"
+  },
+  "09-ibrahim-salih": {
+   "baslik": "Rabbi heb lî mine’s-sâlihîn",
+   "sure": 24.51,
+   "imza": "fe86e43fcd3c1452"
+  },
+  "10-ibrahim-tevekkul": {
+   "baslik": "Rabbenâ aleyke tevekkelnâ",
+   "sure": 30.54,
+   "imza": "171d0048a409ccf5"
+  },
+  "11-yusuf": {
+   "baslik": "Teveffenî müslimen",
+   "sure": 33.74,
+   "imza": "a24aaa39a945bfad"
+  },
+  "12-eyyub": {
+   "baslik": "Ennî messeniye’d-durr",
+   "sure": 28.17,
+   "imza": "d13fd2d9a7f4bfdf"
+  },
+  "13-musa-sadr": {
+   "baslik": "Rabbişrah lî sadrî",
+   "sure": 28.95,
+   "imza": "43b967561b584026"
+  },
+  "14-musa-zulm": {
+   "baslik": "Rabbi innî zalemtü nefsî",
+   "sure": 24.84,
+   "imza": "3b68b7360c0c3788"
+  },
+  "15-musa-hayr": {
+   "baslik": "Rabbi innî limâ enzelte",
+   "sure": 25.16,
+   "imza": "c93c64fc98cadaaf"
+  },
+  "16-suleyman": {
+   "baslik": "Rabbi evzi‘nî en eşküra",
+   "sure": 30.78,
+   "imza": "2b6f88d76fc3621e"
+  },
+  "17-yunus": {
+   "baslik": "Lâ ilâhe illâ ente sübhâneke",
+   "sure": 26.18,
+   "imza": "39a38c7d86e76b96"
+  },
+  "18-zekeriyya-soy": {
+   "baslik": "Rabbi heb lî min ledünke zürriyyeten",
+   "sure": 26.74,
+   "imza": "bc8fbe4552cc168b"
+  },
+  "19-zekeriyya-tek": {
+   "baslik": "Rabbi lâ tezernî ferden",
+   "sure": 25.72,
+   "imza": "74e1731103a4f9e8"
+  },
+  "20-ilim": {
+   "baslik": "Rabbi zidnî ilmâ",
+   "sure": 23.11,
+   "imza": "e321b450927a54c0"
+  },
+  "21-sidk": {
+   "baslik": "Rabbi edhılnî müdhale sıdkın",
+   "sure": 33.21,
+   "imza": "603ad368ce698ab6"
+  },
+  "22-seytan": {
+   "baslik": "Rabbi eûzü bike min hemezâti’ş-şeyâtîn",
+   "sure": 30.92,
+   "imza": "991ffa9f2b95ea39"
+  },
+  "23-rahmet": {
+   "baslik": "Rabbiğfir verham",
+   "sure": 25.82,
+   "imza": "d3fa8bd7af5ce55c"
+  },
+  "24-hasbiyallah": {
+   "baslik": "Hasbiyallâhü lâ ilâhe illâ hüve",
+   "sure": 27.57,
+   "imza": "0252042a66b09ea4"
+  },
+  "25-dunya-ahiret": {
+   "baslik": "Rabbenâ âtinâ",
+   "sure": 31.85,
+   "imza": "d69514d75413047b"
+  },
+  "26-talut": {
+   "baslik": "Rabbenâ efriğ aleynâ sabran",
+   "sure": 28.33,
+   "imza": "f3a1399f87fb0196"
+  },
+  "27-bakara-son": {
+   "baslik": "Rabbenâ lâ tüâhiznâ",
+   "sure": 40.49,
+   "imza": "3f45717645524a4c"
+  },
+  "28-kalp": {
+   "baslik": "Rabbenâ lâ tuziğ kulûbenâ",
+   "sure": 29.82,
+   "imza": "8363ffe814139435"
+  },
+  "29-ates": {
+   "baslik": "Rabbenâ innenâ âmennâ",
+   "sure": 31.44,
+   "imza": "019a517b764c18dc"
+  },
+  "30-havari": {
+   "baslik": "Rabbenâ âmennâ bimâ enzelte",
+   "sure": 29.77,
+   "imza": "2075041d3d9a3c86"
+  },
+  "31-sebat": {
+   "baslik": "Rabbenağfir lenâ zünûbenâ",
+   "sure": 33.72,
+   "imza": "2268be55aa7c9ce5"
+  },
+  "32-tefekkur": {
+   "baslik": "Rabbenâ mâ halakte hâzâ bâtılen",
+   "sure": 28.98,
+   "imza": "7ba0b0cb5e8eb7ec"
+  },
+  "33-hasbunallah": {
+   "baslik": "Hasbünallâhü ve ni‘me’l-vekîl",
+   "sure": 30.19,
+   "imza": "15d9526628b32d9a"
+  },
+  "34-sihirbazlar": {
+   "baslik": "Rabbenâ efriğ aleynâ sabran ve teveffenâ",
+   "sure": 28.67,
+   "imza": "befabfd368363ab4"
+  },
+  "35-musa-kavmi": {
+   "baslik": "Rabbenâ lâ tec‘alnâ fitneten",
+   "sure": 29.03,
+   "imza": "7734a5f048023948"
+  },
+  "36-anne-baba": {
+   "baslik": "Rabbirhamhümâ",
+   "sure": 25.81,
+   "imza": "b8313ff613bed6df"
+  },
+  "37-kehf": {
+   "baslik": "Rabbenâ âtinâ min ledünke rahmeten",
+   "sure": 25.08,
+   "imza": "25dcb934a147cddd"
+  },
+  "38-cehennem": {
+   "baslik": "Rabbenasrif annâ azâbe cehennem",
+   "sure": 25.52,
+   "imza": "99ac09d5d33404e6"
+  },
+  "39-aile": {
+   "baslik": "Rabbenâ heb lenâ min ezvâcinâ",
+   "sure": 28.85,
+   "imza": "2c47b7dbc123df7c"
+  },
+  "40-kardesler": {
+   "baslik": "Rabbenağfir lenâ ve li-ihvâninâ",
+   "sure": 31.07,
+   "imza": "19a1bcd803f880a0"
+  },
+  "41-nur": {
+   "baslik": "Rabbenâ etmim lenâ nûrenâ",
+   "sure": 24.09,
+   "imza": "f1dce918a38e0cf4"
+  },
+  "42-asiye": {
+   "baslik": "Rabbibni lî indeke beyten",
+   "sure": 28.44,
+   "imza": "a7408bfa908021de"
+  },
+  "43-melekler": {
+   "baslik": "Rabbenâ vesi‘te külle şey’in",
+   "sure": 31.15,
+   "imza": "e074bb04648b3fc3"
+  }
+ }
+}

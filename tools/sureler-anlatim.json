@@ -1,0 +1,4413 @@
+{
+ "_aciklama": "Sureler Atlası sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. Bu uygulamada tek tam kayıt yoktur (114 sure 1,5–2 saat sürerdi; kullanıcı kararı 16.11.2026); ana ekranda giriş çalar, sureler “sırayla dinle” ile arka arkaya çalar. duraklar: giriş ve konu özeti yazılmış her sure ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça ayet metni seslendirilmez, meali okunur. Bu dosya tools/sureler-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Sureler Atlası",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Sureler Atlası.",
+     0.8
+    ],
+    "Kur’an-ı Kerim’de yüz on dört sure vardır.",
+    [
+     "Toplam ayet sayısı altı bin iki yüz otuz altıdır.",
+     0.6
+    ],
+    "Bu atlasta her surenin adını, Mekke’de mi Medine’de mi indiğini, iniş sırasını ve ayet sayısını bulacaksınız.",
+    [
+     "Her surenin konusunu, öne çıkan bir ayetini ve akılda kalacak bir cümlesini anlatacağız.",
+     0.6
+    ],
+    "İniş yeri ve iniş sırası Tanzil verisine göredir. İniş sırası geleneksel bir listeye dayanır, yaklaşık kabul edilmelidir.",
+    [
+     "Dokuz surenin Mekke’de mi Medine’de mi indiği konusunda âlimler arasında belirgin bir görüş farkı vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "001-fatiha",
+   "baslik": "Fâtiha Suresi",
+   "tur": "Birinci cüz",
+   "parcalar": [
+    [
+     "Fatiha Suresi.",
+     0.7
+    ],
+    "Adının anlamı: açılış.",
+    [
+     "Mekke’de inmiştir. Yedi ayettir, iniş sırasına göre beşinci suredir.",
+     0.7
+    ],
+    "Kur’an’ın ilk suresidir ve Kur’an’a bir giriş gibidir.",
+    "Hamdin yalnızca âlemlerin Rabbi Allah’a ait olduğunu, O’nun Rahmân, Rahîm ve hesap gününün sahibi olduğunu bildirir.",
+    "Kul yalnızca Allah’a ibadet edeceğini ve yalnızca O’ndan yardım dileyeceğini söyler, dosdoğru yola iletilmeyi ister.",
+    [
+     "Her namazda okunur.",
+     0.8
+    ],
+    "Fatiha Suresi, beşinci ayetin anlamı şöyledir.",
+    [
+     "Ancak Sana kulluk eder ve yalnız Senden yardım dileriz.",
+     0.8
+    ],
+    "Ebû Saîd bin el-Muallâ anlatıyor.",
+    "Resûlullah bana Kur’an’daki en büyük sureyi öğreteceğini söyledi.",
+    "Sonra bunun Fatiha suresi olduğunu bildirdi ve O, tekrar tekrar okunan yedi ayet ve bana verilen yüce Kur’an’dır dedi.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kulluk da yardım dilemek de yalnızca Allah’adır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "002-bakara",
+   "baslik": "Bakara Suresi",
+   "tur": "Birinci cüz",
+   "parcalar": [
+    [
+     "Bakara Suresi.",
+     0.7
+    ],
+    "Adının anlamı: inek.",
+    [
+     "Medine’de inmiştir. İki yüz seksen altı ayettir, iniş sırasına göre seksen yedinci suredir.",
+     0.7
+    ],
+    "Kur’an’ın en uzun suresidir; adını İsrâiloğulları’na bir inek kesmelerinin emredildiği kıssadan alır.",
+    "İman esaslarını, insanların hidayet karşısındaki durumlarını ve İsrâiloğulları’nın geçmişinden ibret verici örnekleri anlatır.",
+    "Namaz, oruç, hac, aile, borç ve alışveriş gibi konularda müslüman toplumun hayatını düzenleyen hükümler getirir.",
+    [
+     "Ayetel Kürsi ve sık okunan son iki ayet bu suredendir.",
+     0.8
+    ],
+    "Bakara Suresi, iki yüz seksen altıncı ayetin anlamı şöyledir.",
+    "Allah kişiye ancak gücünün yeteceği kadar yükler; kazandığı iyilik lehine, ettiği kötülük de aleyhinedir.",
+    "Rabbimiz!",
+    "Eğer unutacak veya yanılacak olursak bizi sorumlu tutma.",
+    "Rabbimiz bizden öncekilere yüklediğin gibi, bize de ağır yük yükleme.",
+    "Rabbimiz!",
+    "Bize gücümüzün yetmeyeceği şeyi taşıtma, bizi affet, bizi bağışla, bize acı.",
+    [
+     "Sen Mevlamızsın, kafirlere karşı bize yardım et.",
+     0.8
+    ],
+    "Ebû Mesûd el-Ensârî rivayet ediyor. Peygamberimiz şöyle buyurmuştur.",
+    "Kim geceleyin Bakara suresinin son iki ayetini okursa bu ona yeter.",
+    [
+     "Bu hadisi Buhari ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah kimseye gücünün yetmeyeceği yükü yüklemez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "003-al-i-imran",
+   "baslik": "Âl-i İmrân Suresi",
+   "tur": "Üçüncü cüz",
+   "parcalar": [
+    [
+     "Ali İmran Suresi.",
+     0.7
+    ],
+    "Adının anlamı: imrân ailesi.",
+    [
+     "Medine’de inmiştir. İki yüz ayettir, iniş sırasına göre seksen dokuzuncu suredir.",
+     0.7
+    ],
+    "Medine döneminde inmiştir; adını Âdem, Nûh ve İbrâhim ailesiyle birlikte seçkin kılındığı bildirilen İmrân ailesinden alır.",
+    "Allah katındaki dinin İslâm olduğunu ve peygamberlerin görevini işler; Hazreti Meryem’in, Yahyâ’nın ve Îsâ’nın doğumunu anlatarak Hıristiyanların Îsâ hakkındaki inancına cevap verir.",
+    [
+     "Uhud Savaşı’nda yaşananlardan dersler çıkarır; müminleri Allah’ın ipine sarılmaya, iyiliği emredip kötülükten alıkoymaya ve sabırla sebat etmeye çağırır.",
+     0.8
+    ],
+    "Ali İmran Suresi, yüz üçüncü ayetin anlamı şöyledir.",
+    "Toptan Allah'ın ipine sarılın, ayrılmayın.",
+    "Allah'ın size olan nimetini anın: Düşmandınız, kalblerinizin arasını uzlaştırdı da onun nimeti sayesinde kardeş oldunuz.",
+    "Bir ateş çukurunun kenarında idiniz, sizi oradan kurtardı.",
+    [
+     "Allah, doğru yola erişesiniz diye size böylece ayetlerini açıklar.",
+     0.8
+    ],
+    "Ebû Ümâme rivayet ediyor. Peygamberimiz şöyle buyurmuştur.",
+    "Kur’an okuyun; çünkü o kıyamet günü kendisini okuyanlara şefaatçi olarak gelecektir.",
+    "İki parlak sureyi, Bakara ve Ali İmran surelerini okuyun; çünkü onlar kıyamet günü iki bulut ya da iki gölgelik gibi gelip kendilerini okuyanları savunacaklardır.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Müminler hep birlikte Allah’ın ipine sarılır, ayrılığa düşmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "004-nisa",
+   "baslik": "Nisâ Suresi",
+   "tur": "Dördüncü cüz",
+   "parcalar": [
+    [
+     "Nisa Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kadınlar.",
+    [
+     "Medine’de inmiştir. Yüz yetmiş altı ayettir, iniş sırasına göre doksan ikinci suredir.",
+     0.7
+    ],
+    "Medine’de, savaşların ardından geride yetimlerin ve dul kadınların kaldığı bir dönemde inmiştir; adını içinde sıkça geçen kadınlar kelimesinden alır.",
+    "İnsanların tek bir nefisten yaratıldığını hatırlatarak akrabalık haklarını, yetimlerin korunmasını, mirası, evliliği ve aile içi barışı düzenler.",
+    [
+     "Emanetlerin ehline verilmesini ve kişinin kendi aleyhine de olsa adaletten ayrılmamasını emreder; münafıkların tutumunu ve Ehl-i kitapla ilgili meseleleri ele alır.",
+     0.8
+    ],
+    "Nisa Suresi, elli sekizinci ayetin anlamı şöyledir.",
+    "Hiç şüphesiz Allah size, emanetleri ehline teslim etmenizi ve insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emreder.",
+    "Allah size ne güzel öğüt veriyor.",
+    [
+     "Şüphesiz Allah işitir ve görür.",
+     0.8
+    ],
+    "Abdullah bin Mesûd anlatıyor.",
+    "Resûlullah bana Bana Kur’an oku dedi.",
+    "Kur’an sana indirilmişken ben mi sana okuyayım? dedim.",
+    "Onu başkasından dinlemeyi severim buyurdu.",
+    "Nisâ suresini okudum; Her ümmete bir şahit getirdiğimiz ve seni de bunlara şahit getirdiğimiz vakit durumları nasıl olacak? ayetine gelince Dur dedi; bir de baktım ki gözlerinden yaşlar akıyordu.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Adalet, kendi aleyhimize olsa bile gözetilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "005-maide",
+   "baslik": "Mâide Suresi",
+   "tur": "Altıncı cüz",
+   "parcalar": [
+    [
+     "Maide Suresi.",
+     0.7
+    ],
+    "Adının anlamı: sofra.",
+    [
+     "Medine’de inmiştir. Yüz yirmi ayettir, iniş sırasına göre yüz on ikinci suredir.",
+     0.7
+    ],
+    "Medine döneminin sonlarında inmiştir; adını havârîlerin Hazreti Îsâ’dan istediği, gökten inen sofradan alır.",
+    "Sözleşmelere bağlı kalmayı emreder; yiyecekler, abdest, teyemmüm, şahitlik, hırsızlık, içki ve kumar gibi konularda hükümler getirir ve dinin tamamlandığını bildirir.",
+    [
+     "Âdem’in iki oğlunun kıssasıyla haksız yere bir cana kıymanın bütün insanları öldürmek gibi olduğunu anlatır; Yahudilerle Hıristiyanların yanlış inanç ve tutumlarını eleştirir.",
+     0.8
+    ],
+    "Maide Suresi, otuz ikinci ayetin anlamı şöyledir.",
+    "Bunun için İsrailoğullarına şöyle yazdık: Kim bir kimseyi bir kimseye veya yeryüzünde bozgunculuğa karşılık olmadan öldürürse, bütün insanları öldürmüş gibi olur.",
+    "Kim de onu diriltirse, ölümden kurtarırsa, bütün insanları diriltmiş gibi olur.",
+    [
+     "And olsun ki, onlara belgelerle peygamberlerimiz geldi, sonra buna rağmen, onların çoğu yeryüzünde taşkınlık edenler oldu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bir canı kurtaran, bütün insanları yaşatmış gibidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "006-enam",
+   "baslik": "En‘âm Suresi",
+   "tur": "Yedinci cüz",
+   "parcalar": [
+    [
+     "Enam Suresi.",
+     0.7
+    ],
+    "Adının anlamı: hayvanlar, deve, sığır, koyun ve keçi.",
+    [
+     "Mekke’de inmiştir. Yüz altmış beş ayettir, iniş sırasına göre elli beşinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin sonlarında inmiştir ve tamamının bir defada indiği kabul edilir; adını müşriklerin hayvanlarla ilgili uydurdukları hükümlerin anlatıldığı ayetlerden alır.",
+    "Allah’ın birliğini, peygamberliği ve öldükten sonra dirilişi delillerle anlatır, inkârcıların itirazlarına cevap verir; Hazreti İbrâhim’in putperestliğe karşı mücadelesini anlatır.",
+    [
+     "Sonunda şirk, anne babaya kötü davranmak, haksız yere cana kıymak, yetim malı yemek ve ölçüde hile yapmak gibi yasakları sıralar.",
+     0.8
+    ],
+    "Enam Suresi, yüz altmış ikinci ve yüz altmış üçüncü ayetlerin anlamı şöyledir.",
+    "De ki: Namazım, ibadetlerim, hayatım ve ölümüm, alemlerin Rabbi Allah içindir.",
+    [
+     "O'nun hiçbir ortağı yoktur; böyle emrolundum ve ben Müslümanların ilkiyim.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Namaz da ibadet de hayat da ölüm de yalnızca Allah içindir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "007-araf",
+   "baslik": "A‘râf Suresi",
+   "tur": "Sekizinci cüz",
+   "parcalar": [
+    [
+     "Araf Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yüksek yerler, burçlar.",
+    [
+     "Mekke’de inmiştir. İki yüz altı ayettir, iniş sırasına göre otuz dokuzuncu suredir.",
+     0.7
+    ],
+    "Mekke döneminde inen en uzun suredir; adını cennetle cehennem arasındaki yüksek yerlerden alır.",
+    "Vahye uymaya çağırarak başlar, amellerin tartılacağını bildirir; İblîs’in Âdem’e secde etmeyişini, Âdem ile eşinin hatalarından dönüp Rablerine yalvarışını anlatır.",
+    [
+     "Nûh, Hûd, Sâlih, Lût ve Şuayb peygamberlerin kavimlerinin helâkini, Hazreti Mûsâ’nın Firavun ve İsrâiloğulları ile yaşadıklarını ayrıntılı olarak anlatır.",
+     0.8
+    ],
+    "Araf Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "Her ikisi, Rabbimiz!",
+    [
+     "Kendimize yazık ettik; bizi bağışlamaz ve bize merhamet etmezsen biz kaybedenlerden oluruz dediler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hata eden, Âdem gibi pişman olup Rabbine yönelir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "008-enfal",
+   "baslik": "Enfâl Suresi",
+   "tur": "Dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Enfal Suresi.",
+     0.7
+    ],
+    "Adının anlamı: ganimetler.",
+    [
+     "Medine’de inmiştir. Yetmiş beş ayettir, iniş sırasına göre seksen sekizinci suredir.",
+     0.7
+    ],
+    "Hicretin ikinci yılında, Bedir Savaşı’nın ardından inmiştir; adını ilk ayette geçen ve savaş ganimetleri anlamına gelen kelimeden alır.",
+    "Ganimetlerin Allah’a ve Resûlü’ne ait olduğunu bildirir ve Bedir zaferinin Allah’ın yardımıyla kazanıldığını hatırlatır.",
+    [
+     "Allah’a ve Resûlü’ne itaati, birliği, sabrı ve sebatı öğütler; hicret eden ve onlara kucak açan müminlerin birbirinin dostu olduğunu bildirir.",
+     0.8
+    ],
+    "Enfal Suresi, kırk altıncı ayetin anlamı şöyledir.",
+    "Allah'a ve Peygamberine itaat edin; çekişmeyin, yoksa korkar başarısızlığa düşersiniz ve kuvvetiniz gider.",
+    [
+     "Sabredin, doğrusu Allah sabredenlerle beraberdir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Çekişme gücü götürür; birlik ve sabır zaferi getirir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "009-tevbe",
+   "baslik": "Tevbe Suresi",
+   "tur": "Onuncu cüz",
+   "parcalar": [
+    [
+     "Tevbe Suresi.",
+     0.7
+    ],
+    "Adının anlamı: tövbe.",
+    [
+     "Medine’de inmiştir. Yüz yirmi dokuz ayettir, iniş sırasına göre yüz on üçüncü suredir.",
+     0.7
+    ],
+    "Başında besmele bulunmaz; Medine’de tamamı inen son surelerdendir.",
+    "Mekke’nin fethinden sonra müşriklerle yapılan antlaşmalar, savaş ve barış şartları ve haram aylarla ilgili hükümleri bildirir.",
+    "Tebük Seferi sırasında münafıkların tutumlarını geniş olarak anlatır; seferden geri kalıp içtenlikle pişman olan üç kişinin tövbesinin kabul edildiğini bildirir.",
+    [
+     "Peygamberimizin müminlere düşkün, şefkatli ve merhametli olduğunu anlatan ayetlerle sona erer.",
+     0.8
+    ],
+    "Tevbe Suresi, yüz yirmi sekizinci ve yüz yirmi dokuzuncu ayetlerin anlamı şöyledir.",
+    "Ey inananlar!",
+    "And olsun ki, içinizden size, sıkıntıya uğramanız kendisine ağır gelen, size düşkün, inananlara şefkatli ve merhametli bir peygamber gelmiştir.",
+    [
+     "Eğer yüz çevirirlerse de ki: Allah bana yeter; O'ndan başka tanrı yoktur, yalnız O'na güveniyorum; O büyük arşın Rabbidir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah, içtenlikle tövbe edenin tövbesini kabul eder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "010-yunus",
+   "baslik": "Yûnus Suresi",
+   "tur": "On birinci cüz",
+   "parcalar": [
+    [
+     "Yunus Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yûnus peygamber.",
+    [
+     "Mekke’de inmiştir. Yüz dokuz ayettir, iniş sırasına göre elli birinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, büyük ihtimalle hicretten bir yıl önce inmiştir; adını, kavmi iman ettiği için azaptan kurtulan Yûnus peygamberden alır.",
+    "Allah’ın birliğini, Peygamberimizin peygamberliğini ve âhireti tabiattaki delillerle anlatır; inkârcılara Kur’an’ın benzerini getirmeleri için meydan okur.",
+    [
+     "Kur’an’ın bir öğüt, kalplere şifa ve rahmet olduğunu bildirir; Nûh ve Mûsâ peygamberlerin kıssalarını anlatır.",
+     0.8
+    ],
+    "Yunus Suresi, elli yedinci ayetin anlamı şöyledir.",
+    "Ey insanlar!",
+    [
+     "Rabbinizden size bir öğüt ve kalblerde olana şifa, inananlara doğruyu gösteren bir rehber ve rahmet gelmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an, kalplere şifa ve müminlere rahmettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "011-hud",
+   "baslik": "Hûd Suresi",
+   "tur": "On birinci cüz",
+   "parcalar": [
+    [
+     "Hud Suresi.",
+     0.7
+    ],
+    "Adının anlamı: hûd peygamber.",
+    [
+     "Mekke’de inmiştir. Yüz yirmi üç ayettir, iniş sırasına göre elli ikinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Yûnus suresinden sonra inmiştir; adını Âd kavmine gönderilen Hûd peygamberden alır.",
+    "Kur’an’ın tevhide çağrısını, Allah’ın ilmini ve kudretini anlatır.",
+    "Nûh, Hûd, Sâlih, İbrâhim, Lût, Şuayb ve Mûsâ peygamberlerin kıssalarını, özellikle Nûh tufanını anlatır ve helâk edilen kavimlerin kendi kötülükleri yüzünden cezalandırıldığını bildirir.",
+    [
+     "Peygamberimize ve müminlere dosdoğru olmayı, sabretmeyi ve namaz kılmayı öğütler.",
+     0.8
+    ],
+    "Hud Suresi, yüz on ikinci ayetin anlamı şöyledir.",
+    "Sen, beraberindeki tevbe edenlerle birlikte emrolunduğun gibi dosdoğru ol.",
+    [
+     "Aşırı gitmeyin, doğrusu Allah yaptıklarınızı görür.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Emrolunduğun gibi dosdoğru ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "012-yusuf",
+   "baslik": "Yûsuf Suresi",
+   "tur": "On ikinci cüz",
+   "parcalar": [
+    [
+     "Yusuf Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yûsuf peygamber.",
+    [
+     "Mekke’de inmiştir. Yüz on bir ayettir, iniş sırasına göre elli üçüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminde, peygamberliğin sekizinci ile onuncu yılları arasında inmiştir; Hazreti Yûsuf’un hayatını baştan sona tek bir kıssa olarak anlatır.",
+    "Rüyasını, kardeşlerinin onu kıskanıp kuyuya atmasını, Mısır’a satılmasını, iffetini korumasını ve haksız yere hapse atılmasını anlatır.",
+    [
+     "Hükümdarın rüyasını yorumlayıp ülkenin hazinelerinin başına geçtiğini, sonunda kardeşlerini bağışlayıp ailesine kavuştuğunu bildirir.",
+     0.8
+    ],
+    "Yusuf Suresi, seksen yedinci ayetin anlamı şöyledir.",
+    "Ey Oğullarım!",
+    "Gidin, Yusuf'u ve kardeşini arayın.",
+    [
+     "Allah'ın rahmetinden ümidinizi kesmeyin; doğrusu kafirlerden başkası Allah'ın rahmetinden ümidini kesmez.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabreden ve Allah’ın rahmetinden ümit kesmeyen, sonunda kavuşur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "013-rad",
+   "baslik": "Ra‘d Suresi",
+   "tur": "On üçüncü cüz",
+   "parcalar": [
+    [
+     "Rad Suresi.",
+     0.7
+    ],
+    "Adının anlamı: gök gürültüsü.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Kırk üç ayettir, iniş sırasına göre doksan altıncı suredir.",
+     0.7
+    ],
+    "Adını, gök gürültüsünün Allah’ı hamd ile tesbih ettiğini bildiren ayetten alır; üslubu ve konuları Mekke dönemi surelerine benzer.",
+    "Göklerin direksiz yükseltilmesi, yeryüzü, dağlar, ırmaklar ve meyveler gibi delillerle Allah’ın birliğini ve kudretini anlatır; öldükten sonra dirilişi inkâr edenlere ve mucize isteyenlere cevap verir.",
+    "Sözünde duran, akrabalık bağını gözeten, sabredip namaz kılan akıl sahiplerini cennetle müjdeler ve bir toplum kendi durumunu değiştirmedikçe Allah’ın onların durumunu değiştirmeyeceğini bildirir.",
+    [
+     "Kur’an’ın Allah katından geldiğini bildirerek Peygamberimizi teselli eder.",
+     0.8
+    ],
+    "Rad Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+    "Onlar inanmışlar, kalbleri Allah'ı anmakla huzura kavuşmuştur.",
+    [
+     "Dikkat edin, kalbler ancak Allah'ı anmakla huzura kavuşur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalpler ancak Allah’ı anmakla huzur bulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "014-ibrahim",
+   "baslik": "İbrâhîm Suresi",
+   "tur": "On üçüncü cüz",
+   "parcalar": [
+    [
+     "İbrahim Suresi.",
+     0.7
+    ],
+    "Adının anlamı: ibrâhim peygamber.",
+    [
+     "Mekke’de inmiştir. Elli iki ayettir, iniş sırasına göre yetmiş ikinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, hicrete yakın bir zamanda inmiştir; adını Hazreti İbrâhim’in Mekke için yaptığı duadan alır.",
+    "Peygamberlerin davetine karşı direnişi ve inkârcıların âkıbetini anlatır; şükredenlere nimetin artırılacağını, nankörlük edenlerin ise azaba uğrayacağını bildirir.",
+    [
+     "İbrâhim peygamberin Mekke’nin güvenli olması, soyunun putlardan uzak tutulması ve namazı dosdoğru kılması için ettiği dualarla müminlere örnek verir.",
+     0.8
+    ],
+    "İbrahim Suresi, kırkıncı ve kırk birinci ayetlerin anlamı şöyledir.",
+    "Rabbim!",
+    "Beni ve çocuklarımı namaz kılanlardan eyle.",
+    "Rabbimiz!",
+    "Duamı kabul buyur.",
+    "Rabbimiz!",
+    [
+     "Hesap görülecek günde, beni, anamı babamı ve inananları bağışla.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şükrettikçe nimet artar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "015-hicr",
+   "baslik": "Hicr Suresi",
+   "tur": "On dördüncü cüz",
+   "parcalar": [
+    [
+     "Hicr Suresi.",
+     0.7
+    ],
+    "Adının anlamı: hicr, semûd kavminin yurdu.",
+    [
+     "Mekke’de inmiştir. Doksan dokuz ayettir, iniş sırasına göre elli dördüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminde, müşriklerin baskısının arttığı yıllarda inmiştir; adını Sâlih peygamberi yalanlayan ve dağlara oyulmuş evlerde yaşayan Semûd kavminin yurdu Hicr’den alır.",
+    "Kur’an’ı Allah’ın indirdiğini ve onu koruyanın da O olduğunu bildirir.",
+    [
+     "İblîs’in Âdem’e secde etmeyişini, İbrâhim peygambere bir oğul müjdelenmesini, Lût kavminin ve Eyke halkının helâkini anlatır; Peygamberimize ölüm gelinceye kadar Rabbine kulluk etmesini emreder.",
+     0.8
+    ],
+    "Hicr Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Doğrusu Kitap'ı Biz indirdik, onun koruyucusu elbette Biziz.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an’ı indiren Allah, onu korumayı da üstlenmiştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "016-nahl",
+   "baslik": "Nahl Suresi",
+   "tur": "On dördüncü cüz",
+   "parcalar": [
+    [
+     "Nahl Suresi.",
+     0.7
+    ],
+    "Adının anlamı: bal arısı.",
+    [
+     "Mekke’de inmiştir. Yüz yirmi sekiz ayettir, iniş sırasına göre yetmişinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, hicretten kısa bir süre önce inmiştir; adını bal arısına verilen ilhamı anlatan ayetlerden alır ve saydığı nimetler sebebiyle Nimetler suresi diye de anılır.",
+    "Hayvanlar, yağmur, bitkiler, denizler, dağlar, hurma, üzüm ve bal gibi nimetleri sayarak Allah’ın birliğine ve şükre çağırır.",
+    [
+     "Adaleti, iyiliği ve akrabaya yardımı emredip hayasızlığı, kötülüğü ve zulmü yasaklayan ayeti içerir; sözleşmelere bağlı kalmayı ve insanları Allah yoluna hikmetle, güzel öğütle çağırmayı öğretir.",
+     0.8
+    ],
+    "Nahl Suresi, doksanıncı ayetin anlamı şöyledir.",
+    "Allah şüphesiz adaleti, iyilik yapmayı, yakınlara bakmayı emreder; hayasızlığı, fenalığı ve haddi aşmayı yasak eder.",
+    [
+     "Tutasınız diye size öğüt verir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah adaleti, iyiliği ve yakınlara yardımı emreder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "017-isra",
+   "baslik": "İsrâ Suresi",
+   "tur": "On beşinci cüz",
+   "parcalar": [
+    [
+     "İsra Suresi.",
+     0.7
+    ],
+    "Adının anlamı: gece yolculuğu.",
+    [
+     "Mekke’de inmiştir. Yüz on bir ayettir, iniş sırasına göre ellinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin son surelerindendir; adını Peygamberimizin bir gece Mescid-i Harâm’dan Mescid-i Aksâ’ya götürülmesini anlatan ilk ayetten alır.",
+    "İsrâiloğulları’nın tarihinden ibretler verir.",
+    "Yalnızca Allah’a kulluğu, anne babaya iyiliği, akrabaya ve yoksula hakkını vermeyi emreder; cimriliği, israfı, yetim malına el uzatmayı, ölçüde hileyi ve kibirli yürümeyi yasaklar.",
+    [
+     "Kur’an’ın benzerinin getirilemeyeceğini bildirir ve ruh hakkındaki soruya cevap verir.",
+     0.8
+    ],
+    "İsra Suresi, yirmi üçüncü ve yirmi dördüncü ayetlerin anlamı şöyledir.",
+    "Rabbin, yalnız Kendisine tapmanızı ve ana babaya iyilik etmeyi buyurmuştur.",
+    "Eğer ikisinden biri veya her ikisi, senin yanında iken ihtiyarlayacak olursa, onlara karşı Öf bile demeyesin, onları azarlamayasın.",
+    "İkisine de hep tatlı söz söyleyesin.",
+    "Onlara acıyarak alçak gönüllülük kanatlarını ger ve: Rabbim!",
+    [
+     "Küçükken beni yetiştirdikleri gibi sen de onlara merhamet et! de.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Anne babaya öf bile denmez; onlara hep tatlı söz söylenir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "018-kehf",
+   "baslik": "Kehf Suresi",
+   "tur": "On beşinci cüz",
+   "parcalar": [
+    [
+     "Kehf Suresi.",
+     0.7
+    ],
+    "Adının anlamı: mağara.",
+    [
+     "Mekke’de inmiştir. Yüz on ayettir, iniş sırasına göre altmış dokuzuncu suredir.",
+     0.7
+    ],
+    "Allah’ın çocuk edinmekten uzak olduğunu ve Kur’an’ın hak olduğunu bildirerek başlar.",
+    "İnançlarını korumak için bir mağaraya sığınan gençlerin, Ashab-ı Kehf, kıssasını, Hazreti Mûsâ’nın Allah’ın kendisine ilim verdiği bir kulla, Hızır olarak bilinir, yolculuğunu ve Zülkarneyn’in kıssasını anlatır.",
+    [
+     "İki bahçe sahibinin örneğiyle dünya hayatının ve malın geçici olduğunu hatırlatır.",
+     0.8
+    ],
+    "Kehf Suresi, onuncu ayetin anlamı şöyledir.",
+    "Birkaç genç mağaraya sığınmış: Rabbimiz!",
+    [
+     "Katından bize rahmet ver ve işimizde doğruyu göster, bizi başarılı kıl demişlerdi.",
+     0.8
+    ],
+    "Ebü’d-Derdâ rivayet ediyor. Peygamberimiz şöyle buyurmuştur.",
+    "Kim Kehf suresinin ilk on ayetini ezberlerse Deccâl’den korunur.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mal da evlat da dünyanın süsüdür; kalıcı olan iyiliklerdir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "019-meryem",
+   "baslik": "Meryem Suresi",
+   "tur": "On altıncı cüz",
+   "parcalar": [
+    [
+     "Meryem Suresi.",
+     0.7
+    ],
+    "Adının anlamı: hazreti meryem.",
+    [
+     "Mekke’de inmiştir. Doksan sekiz ayettir, iniş sırasına göre kırk dördüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Habeşistan’a hicretten önce inmiştir; adını kıssası geniş biçimde anlatılan Hazreti Meryem’den alır.",
+    "Zekeriyyâ peygambere yaşlılığında Yahyâ’nın müjdelenmesini, Meryem’e Îsâ’nın müjdelenmesini ve Îsâ’nın beşikte konuşarak Allah’ın kulu olduğunu bildirmesini anlatır.",
+    [
+     "İbrâhim, Mûsâ, İsmâil ve İdrîs peygamberleri anar; Allah’a çocuk isnat etmenin büyük bir iftira olduğunu bildirir ve öldükten sonra dirilişi inkâr edenleri uyarır.",
+     0.8
+    ],
+    "Meryem Suresi, otuzuncu ile otuz üçüncü ayetler arasının anlamı şöyledir.",
+    "Çocuk: Ben şüphesiz Allah'ın kuluyum.",
+    "Bana kitap verdi ve beni peygamber yaptı, nerede olursam olayım beni mübarek kıldı.",
+    "Yaşadığım müddetçe namaz kılmamı, zekat vermemi ve anneme iyi davranmamı emretti.",
+    "Beni bedbaht bir zorba kılmadı.",
+    [
+     "Doğduğum günde, öleceğim günde, dirileceğim günde bana selam olsun dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Îsâ beşikteyken Ben Allah’ın kuluyum demiştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "020-taha",
+   "baslik": "Tâhâ Suresi",
+   "tur": "On altıncı cüz",
+   "parcalar": [
+    [
+     "Taha Suresi.",
+     0.7
+    ],
+    "Adının anlamı: tâ ve hâ harfleri.",
+    [
+     "Mekke’de inmiştir. Yüz otuz beş ayettir, iniş sırasına göre kırk beşinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Meryem suresinden sonra inmiştir; adını başındaki iki harften alır ve Kur’an’ın insanı sıkıntıya sokmak için değil, öğüt olsun diye indirildiğini bildirerek başlar.",
+    "Muhtevasının çoğu Hazreti Mûsâ’ya ayrılmıştır: peygamberliğe seçilişini, Firavun’la mücadelesini, denizin yarılmasını ve İsrâiloğulları’nın Sâmirî’nin yaptığı buzağıya tapmasını anlatır.",
+    [
+     "Âdem’in şeytana kanmasını hatırlatarak sabrı, namazı ve Allah’ı tesbih etmeyi öğütler.",
+     0.8
+    ],
+    "Taha Suresi, yüz on dördüncü ayetin anlamı şöyledir.",
+    "Gerçek hükümdar olan Allah Yüce'dir.",
+    [
+     "Kuran sana vahyedilirken, vahy bitmezden önce, unutmamak için, tekrarda acele edip durma, Rabbim! ilmimi artır de.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Rabbim, ilmimi artır! diye dua edilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "021-enbiya",
+   "baslik": "Enbiyâ Suresi",
+   "tur": "On yedinci cüz",
+   "parcalar": [
+    [
+     "Enbiya Suresi.",
+     0.7
+    ],
+    "Adının anlamı: peygamberler.",
+    [
+     "Mekke’de inmiştir. Yüz on iki ayettir, iniş sırasına göre yetmiş üçüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını hayatlarından ve özelliklerinden söz edilen on sekiz peygamberden alır.",
+    "Hesap günü yaklaştığı hâlde gaflet içinde olan müşrikleri uyarır; peygamberlerin de insan olduğunu, onları ayıranın vahiy olduğunu bildirir ve kâinattaki düzeni Allah’ın birliğine delil gösterir.",
+    [
+     "İbrâhim peygamberin ateşten korunmasını, Nûh, Eyyûb, Yûnus ve Zekeriyyâ peygamberlerin dualarının kabul edildiğini anlatır; Peygamberimizin âlemlere rahmet olarak gönderildiğini bildirir.",
+     0.8
+    ],
+    "Enbiya Suresi, yüz yedinci ayetin anlamı şöyledir.",
+    [
+     "Biz seni ancak alemlere rahmet olarak gönderdik.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Peygamberimiz bütün âlemlere rahmet olarak gönderilmiştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "022-hac",
+   "baslik": "Hac Suresi",
+   "tur": "On yedinci cüz",
+   "parcalar": [
+    [
+     "Hac Suresi.",
+     0.7
+    ],
+    "Adının anlamı: hac, kâbe’yi ziyaret.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Yetmiş sekiz ayettir, iniş sırasına göre yüz üçüncü suredir.",
+     0.7
+    ],
+    "Adını Hazreti İbrâhim’e insanları hacca çağırmasının emredildiği ayetten alır; kıyametin dehşetini ve ölülerin diriltilmesini anlatarak başlar.",
+    "Haccın amacını, kurbanı ve takvayı anlatır; kurbanların etinin ve kanının değil, takvanın Allah’a ulaştığını bildirir.",
+    [
+     "Zulme uğrayan müminlere savunma için savaş izni verildiğini bildirir; geçmiş toplumların harabelerinden ibret almaya ve namaz, zekât gibi ibadetlere çağırır.",
+     0.8
+    ],
+    "Hac Suresi, otuz yedinci ayetin anlamı şöyledir.",
+    "Bu hayvanların ne etleri ve ne de kanları Allah'a ulaşacaktır.",
+    "Allah'a ulaşacak olan ancak sizin O'nun için yaptığınız gösterişten uzak amel ve ibadettir.",
+    "Size doğru yolu gösterdiğinden, Allah'ı yüceltmeniz için onları böylece sizin buyruğunuza vermiştir.",
+    [
+     "İyilik yapanlara müjde et.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’a ulaşan, kurbanın eti değil, kalpteki takvadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "023-muminun",
+   "baslik": "Mü’minûn Suresi",
+   "tur": "On sekizinci cüz",
+   "parcalar": [
+    [
+     "Müminun Suresi.",
+     0.7
+    ],
+    "Adının anlamı: müminler.",
+    [
+     "Mekke’de inmiştir. Yüz on sekiz ayettir, iniş sırasına göre yetmiş dördüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminin son yıllarında inmiştir; adını kurtuluşa eren müminlerin özelliklerini sayan ilk ayetlerden alır.",
+    "Namazda huşû, boş söz ve davranıştan uzak durma, zekât, iffet, emanete ve söze bağlılık gibi özellikleri sayar; insanın yaratılış aşamalarını ve kâinattaki düzeni Allah’ın kudretine delil gösterir.",
+    [
+     "Nûh’tan Mûsâ ve Îsâ’ya kadar peygamberlerin mücadelesini anlatır, kötülüğü en güzel şekilde savmayı öğütler ve Rabbim, bağışla, merhamet et duasıyla sona erer.",
+     0.8
+    ],
+    "Müminun Suresi, birinci ve ikinci ayetlerin anlamı şöyledir.",
+    "Müminler saadete ermişlerdir.",
+    [
+     "Onlar namazda huşu içindedirler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kurtuluşa eren mümin, namazını huşû içinde kılar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "024-nur",
+   "baslik": "Nûr Suresi",
+   "tur": "On sekizinci cüz",
+   "parcalar": [
+    [
+     "Nur Suresi.",
+     0.7
+    ],
+    "Adının anlamı: nur, ışık.",
+    [
+     "Medine’de inmiştir. Altmış dört ayettir, iniş sırasına göre yüz ikinci suredir.",
+     0.7
+    ],
+    "Medine’de, hicretin beşinci yılının sonlarında Benî Mustalik Gazvesi’nin ardından inmiştir; adını Allah’ın göklerin ve yerin nuru olduğunu bildiren nur ayetinden alır.",
+    "Ailenin ve toplumun iffetini koruyan hükümler getirir; Hazreti Âişe’ye atılan iftirayı büyük bir iftira olarak niteler ve müminlere, duydukları haberi yaymak yerine birbirleri hakkında iyi düşünmeyi öğretir.",
+    [
+     "Başkasının evine izinsiz girmemeyi, bakışları korumayı ve örtünmeyi emreder; münafıkların tutumunu anlatır ve Peygamberimizin meclisindeki edebi öğretir.",
+     0.8
+    ],
+    "Nur Suresi, otuz beşinci ayetin anlamı şöyledir.",
+    "Allah göklerin ve yerin Nur'udur.",
+    "O'nun nuru, içinde ışık bulunan bir kandil yuvasına benzer.",
+    "O ışık bir cam içindedir, cam ise, sanki inci gibi parlayan bir yıldızdır; bu ne yalnız doğuda ve ne de yalnız batıda bulunan bereketli zeytin ağacından yakılır.",
+    "Ateş değmese bile, nerdeyse yağın kendisi aydınlatacak!",
+    "Nur üstüne nurdur.",
+    "Allah dilediğini nuruna kavuşturur.",
+    "Allah insanlara misaller verir.",
+    [
+     "O, herşeyi bilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Duyulan her söz yayılmaz; mümin, kardeşi hakkında iyi düşünür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "025-furkan",
+   "baslik": "Furkān Suresi",
+   "tur": "On sekizinci cüz",
+   "parcalar": [
+    [
+     "Furkan Suresi.",
+     0.7
+    ],
+    "Adının anlamı: hakla bâtılı ayıran.",
+    [
+     "Mekke’de inmiştir. Yetmiş yedi ayettir, iniş sırasına göre kırk ikinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin sonlarında inmiştir; adını Kur’an’ın bir adı olan ve hakla bâtılı ayıran anlamına gelen furkān kelimesinden alır.",
+    "Müşriklerin Kur’an’ı uydurma saymalarına, Peygamberimizin yiyip içmesine ve çarşıda gezmesine itiraz etmelerine cevap verir; Kur’an’ın bölüm bölüm indirilmesinin hikmetini açıklar.",
+    [
+     "Geçmiş kavimlerin helâkini ve kâinattaki delilleri hatırlatır; alçak gönüllü yürüyen, cahillere selamla karşılık veren, geceyi ibadetle geçiren, israftan ve cimrilikten uzak duran Rahmân’ın kullarının özelliklerini sayar.",
+     0.8
+    ],
+    "Furkan Suresi, altmış üçüncü ayetin anlamı şöyledir.",
+    "Rahman'ın kulları yeryüzünde mütevazı yürürler.",
+    [
+     "Bilgisizler kendilerine takıldıkları zaman onlara güzel ve yumuşak söz söylerler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Rahmân’ın kulları alçak gönüllü yürür, kaba sözlere güzel sözle karşılık verir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "026-suara",
+   "baslik": "Şuarâ Suresi",
+   "tur": "On dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Şuara Suresi.",
+     0.7
+    ],
+    "Adının anlamı: şairler.",
+    [
+     "Mekke’de inmiştir. İki yüz yirmi yedi ayettir, iniş sırasına göre kırk yedinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin ortalarında inmiştir; adını sonundaki şairlerden söz eden ayetlerden alır.",
+    "İnkârcıların iman etmemesine üzülen Peygamberimizi teselli eder; Mûsâ ile Firavun’un mücadelesini geniş olarak, ardından İbrâhim, Nûh, Hûd, Sâlih, Lût ve Şuayb peygamberlerin kavimleriyle yaşadıklarını anlatır.",
+    "Rabbin mutlak güç ve merhamet sahibi olduğunu bildiren ayet surede sekiz defa tekrarlanır.",
+    [
+     "Kur’an’ın Cebrâil aracılığıyla indirildiğini bildirir, Peygamberimize en yakın akrabasını uyarmasını emreder ve iman edip iyi işler yapanlar dışındaki şairlerin yolunu eleştirir.",
+     0.8
+    ],
+    "Şuara Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Rabbin şüphesiz güçlüdür, merhametlidir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Rabbin hem mutlak güç hem engin merhamet sahibidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "027-neml",
+   "baslik": "Neml Suresi",
+   "tur": "On dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Neml Suresi.",
+     0.7
+    ],
+    "Adının anlamı: karıncalar.",
+    [
+     "Mekke’de inmiştir. Doksan üç ayettir, iniş sırasına göre kırk sekizinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Şuarâ suresinden sonra inmiştir; adını Hazreti Süleymân’ın ordusu geçerken diğer karıncaları uyaran karıncanın kıssasından alır.",
+    "Mûsâ peygamberin hayatından bir kesit verir; Süleymân peygamberin hükümdarlığını, hüdhüd kuşunun getirdiği haberi ve Sebe melikesinin iman edişini anlatır, ardından Sâlih ve Lût peygamberlerin kavimlerini anar.",
+    [
+     "Göklerin ve yerin yaratılışı, yağmur ve bitkiler gibi delilleri sayarak Allah ile beraber başka bir ilâh mı? sorusunu tekrar tekrar sorar; gaybı yalnızca Allah’ın bildiğini bildirir.",
+     0.8
+    ],
+    "Neml Suresi, on sekizinci ve on dokuzuncu ayetlerin anlamı şöyledir.",
+    "Sonunda, karıncaların bulunduğu vadiye geldiklerinde bir dişi, kraliçe, karınca: Ey karıncalar!",
+    "Yuvalarınıza girin, Süleyman'ın ordusu farkına varmadan sizi ezmesin dedi.",
+    "Süleyman, onun sözüne hafifçe güldü ve: Rabbim!",
+    "Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl.",
+    [
+     "Rahmetinle, beni iyi kullarının arasına koy dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Süleymân gibi güçlü olan da nimet için Rabbine şükreder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "028-kasas",
+   "baslik": "Kasas Suresi",
+   "tur": "Yirminci cüz",
+   "parcalar": [
+    [
+     "Kasas Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kıssalar, olaylar.",
+    [
+     "Mekke’de inmiştir. Seksen sekiz ayettir, iniş sırasına göre kırk dokuzuncu suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Neml suresinden sonra inmiştir; adını kıssa kelimesinin çoğulu olan ve sure içinde geçen kelimeden alır.",
+    "Firavun’un İsrâiloğulları’na zulmünü ve Mûsâ peygamberin bebekken suya bırakılmasından Firavun’un boğulmasına kadar hayatını anlatır.",
+    "Peygamberimizin peygamberliğine yöneltilen itirazlara cevap verir; hidayetin Allah’ın dilemesine bağlı olduğunu ve dünya hayatının geçici olduğunu bildirir.",
+    [
+     "Servetiyle böbürlenen Kārûn’un yerin dibine geçirilmesini anlatır; âhiret yurdunun, yeryüzünde büyüklenmeyen ve bozgunculuk istemeyenler için olduğunu bildirir.",
+     0.8
+    ],
+    "Kasas Suresi, yetmiş altıncı ve yetmiş yedinci ayetlerin anlamı şöyledir.",
+    "Karun, Musa'nın milletindendi; ama onlara karşı azdı.",
+    "Biz ona, anahtarlarını güçlü bir topluluğun zor taşıdığı hazineler vermiştik.",
+    "Milleti ona: Böbürlenme, Allah şüphesiz ki böbürlenenleri sevmez.",
+    [
+     "Allah'ın sana verdiği şeylerde, ahiret yurdunu gözet, dünyadaki payını da unutma; Allah'ın sana yaptığı iyilik gibi, sen de iyilik yap; yeryüzünde bozgunculuk isteme; doğrusu Allah bozguncuları sevmez demişlerdi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Âhireti gözet, dünyadaki payını da unutma; Allah sana iyilik ettiği gibi sen de iyilik et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "029-ankebut",
+   "baslik": "Ankebût Suresi",
+   "tur": "Yirminci cüz",
+   "parcalar": [
+    [
+     "Ankebut Suresi.",
+     0.7
+    ],
+    "Adının anlamı: örümcek.",
+    [
+     "Mekke’de inmiştir. Altmış dokuz ayettir, iniş sırasına göre seksen beşinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin sonlarında, hicrete yakın bir zamanda inmiştir; adını Allah’tan başka dostlar edinenlerin hâlini örümcek yuvasına benzeten ayetten alır.",
+    "İman ettik demenin yeterli olmadığını, müminlerin sıkıntılarla sınanacağını bildirir; anne babaya iyiliği emreder, ancak şirke zorlarlarsa onlara uyulmayacağını söyler.",
+    "Nûh, İbrâhim, Lût ve Şuayb peygamberlerin kıssalarıyla inkârcı kavimlerin âkıbetini hatırlatır.",
+    [
+     "Namazın hayasızlıktan ve kötülükten alıkoyduğunu, rızkın Allah’tan olduğunu ve O’nun yolunda çaba gösterenlere yollarının gösterileceğini bildirir.",
+     0.8
+    ],
+    "Ankebut Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+    "And olsun, biz kendilerinden öncekileri de denemişken, insanlar, İnandık deyince, denenmeden bırakılacaklarını mı sanırlar?",
+    [
+     "Allah elbette doğruları ortaya koyacak ve elbette yalancıları da ortaya çıkaracaktır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İman, sınanarak sağlamlaşır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "030-rum",
+   "baslik": "Rûm Suresi",
+   "tur": "Yirmi birinci cüz",
+   "parcalar": [
+    [
+     "Rum Suresi.",
+     0.7
+    ],
+    "Adının anlamı: rumlar, bizanslılar.",
+    [
+     "Mekke’de inmiştir. Altmış ayettir, iniş sırasına göre seksen dördüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminin sonlarında inmiştir; adını Bizanslıların İranlılara yenildiğini ve birkaç yıl içinde galip geleceklerini haber veren ilk ayetlerden alır.",
+    "Bu haber, müşriklerin yenilgiyi müslümanların aleyhine kullandığı bir sırada gelmiş ve bildirildiği gibi gerçekleşmiştir.",
+    "Göklerin ve yerin yaratılışı, eşler arasındaki sevgi ve merhamet, dillerin ve renklerin farklılığı, uyku, şimşek ve yağmur gibi delillerle Allah’ın birliğini ve öldükten sonra dirilişi anlatır.",
+    [
+     "İnsanı, Allah’ın yaratılışta verdiği fıtrata uygun olan hanîf dine yönelmeye çağırır.",
+     0.8
+    ],
+    "Rum Suresi, yirmi birinci ayetin anlamı şöyledir.",
+    "İçinizden, kendileriyle huzura kavuşacağınız eşler yaratıp; aranızda muhabbet ve rahmet var etmesi, O'nun varlığının belgelerindendir.",
+    [
+     "Bunlarda, düşünen millet için dersler vardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Eşler arasındaki sevgi ve merhamet Allah’ın ayetlerindendir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "031-lokman",
+   "baslik": "Lokmân Suresi",
+   "tur": "Yirmi birinci cüz",
+   "parcalar": [
+    [
+     "Lokman Suresi.",
+     0.7
+    ],
+    "Adının anlamı: lokmân, hikmet verilen kişi.",
+    [
+     "Mekke’de inmiştir. Otuz dört ayettir, iniş sırasına göre elli yedinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını Allah’ın kendisine hikmet verdiği Lokmân’dan alır.",
+    "Kur’an’ın iyilik yapanlara hidayet ve rahmet olduğunu bildirir.",
+    "Lokmân’ın oğluna öğütlerini anlatır: Allah’a ortak koşmamak, anne babaya iyilik etmek, namaz kılmak, iyiliği emredip kötülükten alıkoymak, sabretmek, kibirlenmemek ve sesini alçaltmak.",
+    [
+     "Allah’ın nimetlerini hatırlatır; kıyametin vaktini yalnızca Allah’ın bildiğini, yağmuru O’nun indirdiğini, rahimlerdekini O’nun bildiğini, kimsenin yarın ne kazanacağını ve nerede öleceğini bilemeyeceğini bildirir.",
+     0.8
+    ],
+    "Lokman Suresi, on yedinci ayetin anlamı şöyledir.",
+    "Ey oğulcuğum!",
+    [
+     "Namazı kıl, uygun olanı buyurup fenalığı önle, başına gelene sabret; doğrusu bunlar, azmedilmeğe değer işlerdir.",
+     0.8
+    ],
+    "Abdullah bin Ömer anlatıyor.",
+    "Resûlullah Gaybın anahtarları beştir buyurdu, sonra Kıyamet saatini bilmek ancak Allah’a mahsustur diye başlayan ayeti okudu.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Namazı kıl, iyiliği emret, kötülükten alıkoy, başına gelene sabret.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "032-secde",
+   "baslik": "Secde Suresi",
+   "tur": "Yirmi birinci cüz",
+   "parcalar": [
+    [
+     "Secde Suresi.",
+     0.7
+    ],
+    "Adının anlamı: secde.",
+    [
+     "Mekke’de inmiştir. Otuz ayettir, iniş sırasına göre yetmiş beşinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin son yıllarında, Müminun suresinden sonra inmiştir; adını ayetler hatırlatıldığında secdeye kapanan müminleri anlatan ayetten alır ve bu ayet bir secde ayetidir.",
+    "Kur’an’ın Allah katından indiğini, göklerin ve yerin yaratılışını, insanın çamurdan yaratılıp ona ruh üflenmesini anlatır.",
+    [
+     "Âhireti inkâr edenlerin pişmanlığını ve geceleri yataklarından kalkıp korku ve ümitle Rablerine yalvaran müminlerin mükâfatını anlatır; mümin ile yoldan çıkmışın bir olmadığını bildirir.",
+     0.8
+    ],
+    "Secde Suresi, on beşinci ve on altıncı ayetlerin anlamı şöyledir.",
+    [
+     "Ayetlerimize ancak, kendilerine hatırlatıldığı zaman secdeye kapananlar, büyüklük taslamayarak Rablerini överek yüceltenler, vücudlarını yataklardan uzak tutup korkarak ve umarak Rablerine yalvaranlar ve verdiğimiz rızıklardan sarfedenler inanır.",
+     0.8
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Resûlullah cuma günü sabah namazında birinci rekâtta Secde suresini, ikinci rekâtta İnsân suresini okurdu.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mümin, geceleri de korku ve ümitle Rabbine yalvarır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "033-ahzab",
+   "baslik": "Ahzâb Suresi",
+   "tur": "Yirmi birinci cüz",
+   "parcalar": [
+    [
+     "Ahzab Suresi.",
+     0.7
+    ],
+    "Adının anlamı: birleşik düşman grupları.",
+    [
+     "Medine’de inmiştir. Yetmiş üç ayettir, iniş sırasına göre doksanıncı suredir.",
+     0.7
+    ],
+    "Medine döneminde inmiştir; adını Medine’yi kuşatmaya gelen müttefik düşman kuvvetlerinden alır ve bir bölümü Hendek Savaşı üzerine inmiştir.",
+    "Evlatlığın öz evlat sayılması gibi cahiliye âdetlerini kaldırır; kuşatmada müminlerin sebatını, münafıkların bahanelerini anlatır ve Resûlullah’ın müminler için en güzel örnek olduğunu bildirir.",
+    [
+     "Peygamberimizin peygamberlerin sonuncusu olduğunu bildirir; aile hayatı, eşleri ve görgü kuralları hakkında hükümler getirir, Allah’ı çokça anmayı, doğru söz söylemeyi ve emanete riayeti öğütler.",
+     0.8
+    ],
+    "Ahzab Suresi, yirmi birinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "And olsun ki, sizin için, Allah'a ve ahiret gününe kavuşmayı umanlar ve Allah'ı çok anan kimseler için Resulullah, Allah'ın Elçisi, en güzel örnektir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Resûlullah, müminler için en güzel örnektir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "034-sebe",
+   "baslik": "Sebe’ Suresi",
+   "tur": "Yirmi ikinci cüz",
+   "parcalar": [
+    [
+     "Sebe Suresi.",
+     0.7
+    ],
+    "Adının anlamı: sebe kavmi.",
+    [
+     "Mekke’de inmiştir. Elli dört ayettir, iniş sırasına göre elli sekizinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Lokmân suresinden sonra inmiştir; adını nimetlere nankörlük ettiği için sel ile cezalandırılan Sebe kavminden alır.",
+    "Öldükten sonra dirilişin mümkün olduğunu ve herkesin yaptığının karşılığını göreceğini bildirir.",
+    "Dâvûd ve Süleymân peygamberlere verilen nimetleri, bahçeleri yok olan Sebe halkının nankörlüğüyle karşılaştırır.",
+    [
+     "Mal ve evladın insanı Allah’a yaklaştırmadığını, Peygamberimizin bütün insanlara müjdeleyici ve uyarıcı olarak gönderildiğini bildirir; insanları Allah için kalkıp düşünmeye çağırır.",
+     0.8
+    ],
+    "Sebe Suresi, kırk altıncı ayetin anlamı şöyledir.",
+    "De ki: Size tek bir öğüdüm vardır: Allah için ikişer ikişer ve tek tek kalkınız, sonra düşününüz, göreceksiniz ki arkadaşınızda bir delilik yoktur.",
+    [
+     "O yalnız çetin bir azabın öncesinde sizi uyarmaktadır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nimet, şükürle korunur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "035-fatir",
+   "baslik": "Fâtır Suresi",
+   "tur": "Yirmi ikinci cüz",
+   "parcalar": [
+    [
+     "Fatır Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yoktan yaratan.",
+    [
+     "Mekke’de inmiştir. Kırk beş ayettir, iniş sırasına göre kırk üçüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminin ortalarında inmiştir; adını ilk ayette Allah’ın sıfatı olarak geçen ve yoktan yaratan anlamına gelen kelimeden alır, Melâike suresi diye de anılır.",
+    "Gökleri ve yeri yaratanın, melekleri elçi kılanın, yağmurla ölü toprağı canlandıranın Allah olduğunu, O’ndan başka yalvarılanların hiçbir şeye sahip olmadığını bildirir.",
+    [
+     "Kimsenin başkasının günah yükünü taşımayacağını, Allah’tan en çok bilginlerin korktuğunu ve Allah’ın kitabını okuyup namaz kılan, rızkından infak edenlerin asla zarar etmeyecek bir kazanç umduğunu bildirir.",
+     0.8
+    ],
+    "Fatır Suresi, on beşinci ayetin anlamı şöyledir.",
+    "Ey insanlar!",
+    [
+     "Siz Allah'a muhtaçsınız, Allah ise müstağnidir, övülmeğe layık olandır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnsan Allah’a muhtaçtır; Allah ise hiçbir şeye muhtaç değildir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "036-yasin",
+   "baslik": "Yâsîn Suresi",
+   "tur": "Yirmi ikinci cüz",
+   "parcalar": [
+    [
+     "Yasin Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yâ ve sîn harfleri.",
+    [
+     "Mekke’de inmiştir. Seksen üç ayettir, iniş sırasına göre kırk birinci suredir.",
+     0.7
+    ],
+    "Adını başındaki iki harften alır.",
+    "Tevhid, peygamberlik ve âhiret inancını işler; Kur’an’ın Allah katından geldiğini ve Peygamberimizin gönderilmiş bir elçi olduğunu bildirir.",
+    [
+     "Elçileri yalanlayan bir kasaba halkının kıssasını anlatır, tabiattaki düzeni delil olarak gösterir ve öldükten sonra dirilişi hatırlatır.",
+     0.8
+    ],
+    "Yasin Suresi, seksen ikinci ayetin anlamı şöyledir.",
+    [
+     "Bir şeyi dilediği zaman, O'nun buyruğu sadece, o şeye Ol demektir, hemen olur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah bir şeyi dilediğinde ona Ol! der, o da hemen olur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "037-saffat",
+   "baslik": "Sâffât Suresi",
+   "tur": "Yirmi üçüncü cüz",
+   "parcalar": [
+    [
+     "Saffat Suresi.",
+     0.7
+    ],
+    "Adının anlamı: saf saf dizilenler.",
+    [
+     "Mekke’de inmiştir. Yüz seksen iki ayettir, iniş sırasına göre elli altıncı suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını saf saf dizilen meleklere yeminle başlayan ilk ayetten alır.",
+    "Allah’ın bir olduğunu ve âhiret hayatını anlatır; cennet ehlinin nimetlerini ve cehennem ehlinin hâlini tasvir eder.",
+    "Nûh, İbrâhim, Mûsâ, Hârûn, İlyâs, Lût ve Yûnus peygamberlerin kıssalarını anlatır; İbrâhim peygamberin oğlunu kurban etmekle sınanmasını ve teslimiyetini bildirir.",
+    [
+     "Melekleri Allah’ın kızları sayan müşriklerin inancını reddeder; Allah’ı tesbih, peygamberlere selam ve âlemlerin Rabbine hamd ile sona erer.",
+     0.8
+    ],
+    "Saffat Suresi, yüz sekseninci ile yüz seksen ikinci ayetler arasının anlamı şöyledir.",
+    "Senin güçlü olan Rabbin, onların vasıflandırmalarından münezzehtir.",
+    "Ve selam, peygamberleredir.",
+    [
+     "Hamd de Alemlerin Rabbi Allah'adır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hamd, âlemlerin Rabbi Allah’adır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "038-sad",
+   "baslik": "Sâd Suresi",
+   "tur": "Yirmi üçüncü cüz",
+   "parcalar": [
+    [
+     "Sad Suresi.",
+     0.7
+    ],
+    "Adının anlamı: sâd harfi.",
+    [
+     "Mekke’de inmiştir. Seksen sekiz ayettir, iniş sırasına göre otuz sekizinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını başındaki sâd harfinden alır.",
+    "Rivayete göre ilk ayetleri, Kureyş’in ileri gelenlerinin Ebû Tâlib’e gelip Peygamberimizin davetini durdurmasını istemeleri üzerine inmiştir.",
+    "Dâvûd, Süleymân, Eyyûb, İbrâhim, İshak, Yâkub, İsmâil, Elyesa ve Zülkifl peygamberleri anarak onların sabrını, tevbesini ve şükrünü örnek gösterir; cennet ve cehennem ehlinin hâlini anlatır.",
+    [
+     "Âdem’in yaratılışını ve İblîs’in kibirlenerek secde etmeyi reddedişini anlatarak sona erer.",
+     0.8
+    ],
+    "Sad Suresi, yirmi dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "Sana indirdiğimiz bu Kitap mübarektir; ayetlerini düşünsünler, aklı olanlar da öğüt alsınlar.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an, ayetleri üzerinde düşünülsün diye indirilmiş mübarek bir kitaptır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "039-zumer",
+   "baslik": "Zümer Suresi",
+   "tur": "Yirmi üçüncü cüz",
+   "parcalar": [
+    [
+     "Zümer Suresi.",
+     0.7
+    ],
+    "Adının anlamı: zümreler, topluluklar.",
+    [
+     "Mekke’de inmiştir. Yetmiş beş ayettir, iniş sırasına göre elli dokuzuncu suredir.",
+     0.7
+    ],
+    "Mekke döneminin ortalarında inmiştir; adını âhirette inkârcıların ve müminlerin zümre zümre cehenneme ve cennete götürülmesini anlatan ayetlerden alır.",
+    "Kur’an’ın Allah katından indiğini bildirir, dini yalnızca Allah’a has kılarak O’na kulluk etmeye çağırır.",
+    "Kur’an’ı sözün en güzeli olarak niteler, uykuyu ölüme benzetir ve sıkıntıda Allah’a yalvarıp nimete kavuşunca O’nu unutan insanı eleştirir.",
+    [
+     "Günahlarla kendine kötülük edenlere Allah’ın rahmetinden ümit kesmemelerini, tövbe edip O’na yönelmelerini söyler.",
+     0.8
+    ],
+    "Zümer Suresi, elli üçüncü ayetin anlamı şöyledir.",
+    "De ki: Ey kendilerine kötülük edip aşırı giden kullarım!",
+    "Allah'ın rahmetinden umudunuzu kesmeyin.",
+    "Doğrusu Allah günahların hepsini bağışlar.",
+    [
+     "Çünkü O, bağışlayandır, merhametlidir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ın rahmetinden ümit kesilmez; tövbe edene kapı her zaman açıktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "040-mumin",
+   "baslik": "Mü’min Suresi",
+   "tur": "Yirmi dördüncü cüz",
+   "parcalar": [
+    [
+     "Mümin Suresi.",
+     0.7
+    ],
+    "Adının anlamı: mümin, inanan kişi.",
+    [
+     "Mekke’de inmiştir. Seksen beş ayettir, iniş sırasına göre altmışıncı suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını Firavun ailesinden olup imanını gizleyen bir müminin konuşmalarından alır ve Hâ mîm ile başlayan yedi surenin ilkidir.",
+    "Allah’ın günahları bağışlayan, tövbeleri kabul eden ve cezası çetin olan tek ilâh olduğunu bildirir; arşı taşıyan meleklerin müminler için bağışlanma dilediğini anlatır.",
+    "Mûsâ ile Firavun’un mücadelesini ve o mümin kişinin kavmine öğütlerini anlatır.",
+    [
+     "Peygamberimize ve müminlere sabrı, bağışlanma dilemeyi ve Allah’a dua etmeyi öğütler; azabı görünce getirilen imanın fayda vermeyeceğini bildirir.",
+     0.8
+    ],
+    "Mümin Suresi, altmışıncı ayetin anlamı şöyledir.",
+    "Rabbiniz: Bana dua edin ki duanıza icabet edeyim.",
+    [
+     "Bana kulluk etmeyi büyüklüklerine yediremeyenler alçalmış olarak cehenneme gireceklerdir buyurmuştur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah, kendisine dua edenin duasına icabet eder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "041-fussilet",
+   "baslik": "Fussılet Suresi",
+   "tur": "Yirmi dördüncü cüz",
+   "parcalar": [
+    [
+     "Fussılet Suresi.",
+     0.7
+    ],
+    "Adının anlamı: ayrıntılı olarak açıklanmış.",
+    [
+     "Mekke’de inmiştir. Elli dört ayettir, iniş sırasına göre altmış birinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin sonlarında inmiştir; adını Kur’an’ın ayetlerinin ayrıntılı olarak açıklandığını bildiren ayetten alır ve içinde bir secde ayeti vardır.",
+    "Göklerin ve yerin yaratılışını anlatır, Âd ve Semûd kavimlerinin helâkini hatırlatır; âhirette inkârcıların kulaklarının, gözlerinin ve derilerinin aleyhlerine şahitlik edeceğini bildirir.",
+    "Rabbimiz Allah’tır deyip dosdoğru olanlara meleklerin inip müjde vereceğini, kötülüğü en güzel şekilde savmanın düşmanı dosta çevireceğini öğretir.",
+    [
+     "Kur’an’ın müminler için hidayet ve şifa olduğunu bildirir.",
+     0.8
+    ],
+    "Fussılet Suresi, otuz dördüncü ayetin anlamı şöyledir.",
+    "İyilik ve fenalık bir değildir.",
+    [
+     "Ey inanan kişi: Sen, fenalığı en güzel şekilde sav; o zaman, seninle arasında düşmanlık bulunan kişinin yakın bir dost gibi olduğunu görürsün.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kötülüğü iyilikle savan, düşmanını dosta çevirebilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "042-sura",
+   "baslik": "Şûrâ Suresi",
+   "tur": "Yirmi beşinci cüz",
+   "parcalar": [
+    [
+     "Şura Suresi.",
+     0.7
+    ],
+    "Adının anlamı: danışma.",
+    [
+     "Mekke’de inmiştir. Elli üç ayettir, iniş sırasına göre altmış ikinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Fussılet suresinden sonra inmiştir; adını müminlerin işlerini aralarında danışarak yürüttüğünü bildiren ayetten alır.",
+    "Allah’ın birliğini, vahyin ve peygamberliğin tek kaynaktan geldiğini, bütün peygamberlere dini ayakta tutup ayrılığa düşmemenin emredildiğini bildirir.",
+    "Dünya metaının geçici olduğunu hatırlatır; Allah’a güvenen, büyük günahlardan kaçınan, öfkelendiğinde bağışlayan, namaz kılan, işlerini danışarak yürüten ve infak eden müminleri över.",
+    [
+     "Allah’ın insanla ancak vahiy yoluyla, perde arkasından ya da bir elçi göndererek konuştuğunu bildirerek sona erer.",
+     0.8
+    ],
+    "Şura Suresi, otuz altıncı ile otuz sekizinci ayetler arasının anlamı şöyledir.",
+    "Size verilen herhangi bir şey, sadece dünya hayatının bir geçimliğidir.",
+    "Allah katında olan; inanıp Rablerine güvenen, büyük günahlardan ve hayasızlıklardan çekinen, öfkelendiklerinde bile bağışlayanlar, Rablerinin çağrısına cevap verenler ve namaz kılanlar için daha iyi ve daha süreklidir.",
+    "Onların işleri aralarında danışma iledir.",
+    [
+     "Kendilerine verdiğimiz rızıktan da sarfederler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Müminler işlerini aralarında danışarak yürütür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "043-zuhruf",
+   "baslik": "Zuhruf Suresi",
+   "tur": "Yirmi beşinci cüz",
+   "parcalar": [
+    [
+     "Zuhruf Suresi.",
+     0.7
+    ],
+    "Adının anlamı: altın, süs.",
+    [
+     "Mekke’de inmiştir. Seksen dokuz ayettir, iniş sırasına göre altmış üçüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını dünya süsünün Allah katındaki değersizliğini anlatan ayette geçen zuhruf kelimesinden alır.",
+    "Melekleri Allah’ın kızları sayanları ve atalarını körü körüne taklit edenleri eleştirir; İbrâhim peygamberin tevhid inancını soyuna miras bıraktığını anlatır.",
+    "Kur’an’ın zengin bir adama indirilmesi gerektiğini söyleyenlere cevap verir; Mûsâ ile Firavun’un mücadelesini ve Îsâ hakkındaki tartışmaları anlatır.",
+    [
+     "Kıyametin ansızın geleceğini, o gün takva sahipleri dışında dostların birbirine düşman olacağını bildirir.",
+     0.8
+    ],
+    "Zuhruf Suresi, altmış yedinci ayetin anlamı şöyledir.",
+    [
+     "O gün Allah'a karşı gelmekten sakınanlar dışında, dost olanlar birbirine düşman olurlar.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Takva üzerine kurulan dostluk âhirette de sürer.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "044-duhan",
+   "baslik": "Duhân Suresi",
+   "tur": "Yirmi beşinci cüz",
+   "parcalar": [
+    [
+     "Duhan Suresi.",
+     0.7
+    ],
+    "Adının anlamı: duman.",
+    [
+     "Mekke’de inmiştir. Elli dokuz ayettir, iniş sırasına göre altmış dördüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminin sonlarında inmiştir; adını inkârcıları saracak bir azap olarak gökten inecek dumanı haber veren ayetten alır.",
+    "Kur’an’ın mübarek bir gecede, Allah’tan bir rahmet olarak indirildiğini bildirerek başlar.",
+    "Firavun ve kavminin helâkini Mekke müşriklerine ibret olarak anlatır; helâk olanlar için ne göğün ne de yerin ağladığını bildirir.",
+    [
+     "İnkârcıları bekleyen azabı ve takva sahiplerine vaat edilen cennet nimetlerini anlatır; Kur’an’ın öğüt alınsın diye kolaylaştırıldığını bildirerek sona erer.",
+     0.8
+    ],
+    "Duhan Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+    "Apaçık olan Kitap'a and olsun ki, Biz onu, kutlu bir gecede indirdik.",
+    [
+     "Doğrusu Biz, insanları uyarmaktayız.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an, mübarek bir gecede bir rahmet olarak indirilmiştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "045-casiye",
+   "baslik": "Câsiye Suresi",
+   "tur": "Yirmi beşinci cüz",
+   "parcalar": [
+    [
+     "Casiye Suresi.",
+     0.7
+    ],
+    "Adının anlamı: diz çöken.",
+    [
+     "Mekke’de inmiştir. Otuz yedi ayettir, iniş sırasına göre altmış beşinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Duhân suresinden sonra inmiştir; adını kıyamet günü her ümmetin diz çökmüş hâlde kitabına çağrılacağını bildiren ayetten alır.",
+    "Göklerde, yerde, gece ile gündüzün art arda gelişinde ve yağmurla canlanan toprakta düşünenler için deliller bulunduğunu bildirir.",
+    "İsrâiloğulları’na verilen kitabı ve peygamberliği hatırlatır; hevesini ilâh edinenleri ve Bizi ancak zaman yok eder diyerek âhireti inkâr edenleri eleştirir.",
+    [
+     "Herkesin yaptığının karşılığını göreceğini bildirir ve Allah’a hamd ile sona erer.",
+     0.8
+    ],
+    "Casiye Suresi, on beşinci ayetin anlamı şöyledir.",
+    "Kim yararlı iş işlerse kendinedir; kim kötülük yaparsa kendi aleyhinedir.",
+    [
+     "Sonra Rabbinize döndürülürsünüz.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyilik yapan kendi iyiliğine, kötülük yapan kendi aleyhine yapar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "046-ahkaf",
+   "baslik": "Ahkāf Suresi",
+   "tur": "Yirmi altıncı cüz",
+   "parcalar": [
+    [
+     "Ahkaf Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kum tepeleri.",
+    [
+     "Mekke’de inmiştir. Otuz beş ayettir, iniş sırasına göre altmış altıncı suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Câsiye suresinden sonra inmiştir; adını Hûd peygamberin Âd kavmini uyardığı kum tepeleriyle kaplı bölgeden alır.",
+    "Göklerin ve yerin bir amaçla yaratıldığını, Allah’tan başkasına yalvarmanın anlamsızlığını ve Kur’an’ın vahiy olduğunu bildirir.",
+    "Anne babaya iyilik etmeyi emreder ve olgunluk çağına eren müminin şükür duasını öğretir; Âd kavminin helâkini ibret olarak anlatır.",
+    [
+     "Kur’an’ı dinleyip kavimlerine uyarıcı olarak dönen bir grup cinden söz eder ve Peygamberimize, azim sahibi peygamberler gibi sabretmesini öğütler.",
+     0.8
+    ],
+    "Ahkaf Suresi, on beşinci ayetin anlamı şöyledir.",
+    "Biz insana, anne ve babasına karşı iyi davranmasını tavsiye etmişizdir; zira annesi, onu, karnında, zorluğa uğrayarak taşımış; onu güçlükle doğurmuştur.",
+    "Taşınması ve sütten kesilmesi otuz ay sürer.",
+    "Sonunda erginlik çağına erince ve kırk yaşına varınca: Rabbim!",
+    [
+     "Bana ve anne babama verdiğin nimete şükretmemi ve benim hoşnut olacağın yararlı bir işi yapmamı sağla; bana verdiğin gibi soyuma da salah ver; doğrusu Sana yöneldim, ben, kendini Sana verenlerdenim demesi gerekir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Anne babaya iyilik, Allah’ın insana tavsiyesidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "047-muhammed",
+   "baslik": "Muhammed Suresi",
+   "tur": "Yirmi altıncı cüz",
+   "parcalar": [
+    [
+     "Muhammed Suresi.",
+     0.7
+    ],
+    "Adının anlamı: muhammed, peygamberimizin adı.",
+    [
+     "Medine’de inmiştir. Otuz sekiz ayettir, iniş sırasına göre doksan beşinci suredir.",
+     0.7
+    ],
+    "Medine döneminde inmiştir; adını ikinci ayette geçen Peygamberimizin adından alır ve Kıtâl, savaş, suresi diye de anılır.",
+    "İnkâr edip Allah yolundan alıkoyanlarla iman edip iyi işler yapanların durumunu karşılaştırır; savaşla ilgili hükümleri ve esirlere yapılacak muameleyi bildirir, Allah’ın dinine yardım edenlere Allah’ın da yardım edeceğini müjdeler.",
+    "Takva sahiplerine vaat edilen cenneti ırmaklarıyla tasvir eder; münafıkların iki yüzlülüğünü ve Kur’an üzerinde düşünmeyişlerini eleştirir.",
+    [
+     "Müminleri sebata, itaate ve Allah yolunda harcamaya çağırır; yüz çevirirlerse Allah’ın yerlerine başka bir toplum getireceğini bildirir.",
+     0.8
+    ],
+    "Muhammed Suresi, yedinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Siz Allah'ın dinine yardım ederseniz, O da size yardım eder, ayaklarınızı savaşta sabit kılar.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ın dinine yardım edene Allah da yardım eder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "048-fetih",
+   "baslik": "Fetih Suresi",
+   "tur": "Yirmi altıncı cüz",
+   "parcalar": [
+    [
+     "Fetih Suresi.",
+     0.7
+    ],
+    "Adının anlamı: zafer, açılış.",
+    [
+     "Medine’de inmiştir. Yirmi dokuz ayettir, iniş sırasına göre yüz on birinci suredir.",
+     0.7
+    ],
+    "Hudeybiye Antlaşması’ndan sonra Medine’ye dönüş yolunda inmiştir.",
+    "Görünüşte geri dönüş olan bu antlaşmayı apaçık bir zafer olarak müjdeler ve müminlerin kalplerine huzur verir.",
+    [
+     "Ağaç altında Peygamberimize biat eden müminlerden Allah’ın hoşnut olduğunu bildirir, sefere katılmayan bedevîleri eleştirir ve yakın bir zaferi haber verir.",
+     0.8
+    ],
+    "Fetih Suresi, birinci ayetin anlamı şöyledir.",
+    [
+     "Doğrusu Biz sana apaçık bir zafer sağlamışızdır.",
+     0.8
+    ],
+    "Hazreti Ömer anlatıyor.",
+    "Bir yolculukta Resûlullah, Bu gece bana bir sure indi ki benim için üzerine güneşin doğduğu her şeyden daha sevimlidir buyurdu ve Doğrusu Biz sana apaçık bir zafer sağlamışızdır ayetini okudu.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabırla yapılan barış, zaferin kapısını açabilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "049-hucurat",
+   "baslik": "Hucurât Suresi",
+   "tur": "Yirmi altıncı cüz",
+   "parcalar": [
+    [
+     "Hucurat Suresi.",
+     0.7
+    ],
+    "Adının anlamı: odalar.",
+    [
+     "Medine’de inmiştir. On sekiz ayettir, iniş sırasına göre yüz altıncı suredir.",
+     0.7
+    ],
+    "Medine döneminin son yıllarında inmiştir; adını Peygamberimizin ailesinin mescidin yanındaki odalarından alır.",
+    "Allah’a ve Resûlü’ne saygıyı, gelen haberi araştırmayı ve müminler arasında barışı emreder.",
+    "Alay etmeyi, kötü lakap takmayı, kötü zannı, birbirinin kusurunu araştırmayı ve gıybeti yasaklar.",
+    [
+     "İnsanların bir erkekle bir dişiden yaratıldığını, Allah katında üstünlüğün yalnızca takvada olduğunu bildirir.",
+     0.8
+    ],
+    "Hucurat Suresi, on üçüncü ayetin anlamı şöyledir.",
+    "Ey insanlar!",
+    "Doğrusu Biz sizleri bir erkekle bir dişiden yarattık.",
+    "Sizi milletler ve kabileler haline koyduk ki birbirinizi kolayca tanıyasınız.",
+    "Şüphesiz, Allah katında en değerliniz, O'na karşı gelmekten en çok sakınanızdır.",
+    [
+     "Allah bilendir, haberdardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah katında en değerli olan, O’na karşı gelmekten en çok sakınandır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "050-kaf",
+   "baslik": "Kāf Suresi",
+   "tur": "Yirmi altıncı cüz",
+   "parcalar": [
+    [
+     "Kaf Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kāf harfi.",
+    [
+     "Mekke’de inmiştir. Kırk beş ayettir, iniş sırasına göre otuz dördüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını başındaki kāf harfinden alır.",
+    "Gök, yer, dağlar, yağmur, hurma ağaçları ve bitkiler gibi delilleri sayarak öldükten sonra dirilmenin Allah için kolay olduğunu bildirir; peygamberlerini yalanlayan eski kavimleri hatırlatarak Peygamberimizi teselli eder.",
+    "Allah’ın insana şah damarından daha yakın olduğunu, gönlünden geçeni bildiğini ve iki meleğin onun her sözünü yazdığını haber verir.",
+    [
+     "Ölüm sarhoşluğunu, kıyameti, cehennemi ve takva sahiplerine yaklaştırılan cenneti anlatır; Peygamberimize sabretmeyi ve Rabbini tesbih etmeyi öğütler.",
+     0.8
+    ],
+    "Kaf Suresi, on altıncı ayetin anlamı şöyledir.",
+    [
+     "And olsun ki insanı Biz yarattık; nefsinin kendisine fısıldadıklarını biliriz; Biz ona şah damarından daha yakınız.",
+     0.8
+    ],
+    "Ümmü Hişâm bint Hârise anlatıyor.",
+    "Kāf suresini ancak Resûlullah’ın ağzından öğrendim; o, her cuma minberde insanlara hutbe okurken bu sureyi okurdu.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah insana şah damarından daha yakındır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "051-zariyat",
+   "baslik": "Zâriyât Suresi",
+   "tur": "Yirmi altıncı cüz",
+   "parcalar": [
+    [
+     "Zariyat Suresi.",
+     0.7
+    ],
+    "Adının anlamı: savuran rüzgârlar.",
+    [
+     "Mekke’de inmiştir. Altmış ayettir, iniş sırasına göre altmış yedinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin ortalarında inmiştir; adını savuran rüzgârlara yeminle başlayan ilk ayetten alır.",
+    "Âhiretin mutlaka gerçekleşeceğini bildirir; geceleri az uyuyup seherlerde bağışlanma dileyen, mallarında isteyenin ve yoksulun hakkını gözeten takva sahiplerini över.",
+    "İbrâhim peygamberin misafirlerini, Lût, Firavun, Âd, Semûd ve Nûh kavimlerinin helâkini anlatır.",
+    [
+     "Göğün kuruluşunu, yerin döşenişini ve her şeyin çift yaratılışını hatırlatır; cinlerin ve insanların yalnızca Allah’a kulluk etmek için yaratıldığını bildirir.",
+     0.8
+    ],
+    "Zariyat Suresi, elli altıncı ayetin anlamı şöyledir.",
+    [
+     "Cinleri ve insanları ancak Bana kulluk etmeleri için yaratmışımdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnsan, Allah’a kulluk etmek için yaratılmıştır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "052-tur",
+   "baslik": "Tûr Suresi",
+   "tur": "Yirmi yedinci cüz",
+   "parcalar": [
+    [
+     "Tur Suresi.",
+     0.7
+    ],
+    "Adının anlamı: dağ, tûr dağı.",
+    [
+     "Mekke’de inmiştir. Kırk dokuz ayettir, iniş sırasına göre yetmiş altıncı suredir.",
+     0.7
+    ],
+    "Mekke döneminin ikinci yarısında, müşriklerin müminlere baskı yaptığı yıllarda inmiştir; adını yeminle başlayan ilk ayetteki Tûr dağından alır.",
+    "Tûr dağına, yazılmış kitaba, göğe ve kaynayan denize yemin ederek Allah’ın azabının mutlaka geleceğini bildirir.",
+    "Takva sahiplerinin cennette, imanda kendilerine uyan nesilleriyle birlikte olacağını anlatır.",
+    [
+     "Peygamberimize kâhin, mecnun ve şair diyenlere cevap verir; ona sabretmesini ve Rabbini hamd ile tesbih etmesini öğütler.",
+     0.8
+    ],
+    "Tur Suresi, kırk sekizinci ayetin anlamı şöyledir.",
+    [
+     "Rabbinin hükmü yerine gelinceye kadar sabret; doğrusu sen, Bizim nezaretimiz altındasın; kalkarken Rabbini överek tesbih et.",
+     0.8
+    ],
+    "Cübeyr bin Mutim anlatıyor.",
+    "Peygamberimizi akşam namazında Tûr suresini okurken işittim.",
+    "Onlar, yaratan olmaksızın mı yaratıldılar yoksa yaratanlar kendileri midir? ayetlerine gelince kalbim neredeyse yerinden uçacaktı.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabreden mümin, Rabbinin gözetimi altındadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "053-necm",
+   "baslik": "Necm Suresi",
+   "tur": "Yirmi yedinci cüz",
+   "parcalar": [
+    [
+     "Necm Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yıldız.",
+    [
+     "Mekke’de inmiştir. Altmış iki ayettir, iniş sırasına göre yirmi üçüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir ve iniş sırasına göre içinde secde ayeti bulunan ilk suredir; adını yeminle başlayan ilk ayetteki yıldız kelimesinden alır.",
+    "Peygamberimizin doğru yoldan sapmadığını, kendi arzusuyla konuşmadığını ve Kur’an’ın Cebrâil aracılığıyla gelen bir vahiy olduğunu bildirir.",
+    "Lât, Uzzâ ve Menât gibi putlara tapmanın anlamsızlığını gösterir.",
+    [
+     "İnsan için ancak çalıştığının olduğunu, kimsenin başkasının yükünü taşımayacağını bildirir ve Allah’a secde etmeye çağırarak sona erer.",
+     0.8
+    ],
+    "Necm Suresi, otuz dokuzuncu ile kırk birinci ayetler arasının anlamı şöyledir.",
+    "İnsan ancak çalıştığına erişir.",
+    "Onun çalışması şüphesiz görülecektir.",
+    [
+     "Sonra ona karşılığı eksiksiz verilecektir.",
+     0.8
+    ],
+    "İbn Abbas anlatıyor.",
+    "Peygamberimiz Necm suresini okuyup bitirince secde etti; yanındaki müslümanlar, müşrikler, cinler ve insanlar da onunla birlikte secde etti.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnsan için ancak çalıştığı vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "054-kamer",
+   "baslik": "Kamer Suresi",
+   "tur": "Yirmi yedinci cüz",
+   "parcalar": [
+    [
+     "Kamer Suresi.",
+     0.7
+    ],
+    "Adının anlamı: ay.",
+    [
+     "Mekke’de inmiştir. Elli beş ayettir, iniş sırasına göre otuz yedinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin ilk yıllarında inmiştir; adını kıyametin yaklaştığını ve ayın yarıldığını bildiren ilk ayetten alır.",
+    "Bu mucizeyi görüp de süregelen bir büyü diyerek yüz çeviren inkârcıları uyarır.",
+    "Nûh, Âd, Semûd, Lût ve Firavun kavimlerinin peygamberlerini yalanlayıp helâk edilmesini anlatır; Kur’an’ın öğüt alınsın diye kolaylaştırıldığını bildiren ayet surede dört defa tekrarlanır.",
+    [
+     "Her şeyin bir ölçüyle yaratıldığını bildirir ve takva sahiplerinin cennetteki yerini anlatarak sona erer.",
+     0.8
+    ],
+    "Kamer Suresi, on yedinci ayetin anlamı şöyledir.",
+    [
+     "And olsun ki Kuran'ı, öğüt olsun diye kolaylaştırdık; öğüt alan yok mudur.",
+     0.8
+    ],
+    "Abdullah bin Mesûd anlatıyor.",
+    "Resûlullah’ın zamanında ay iki parçaya ayrıldı; bir parçası dağın üzerinde kaldı, diğeri dağın ötesine geçti.",
+    "Resûlullah Şahit olun buyurdu.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an, öğüt almak isteyen herkes için kolaylaştırılmıştır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "055-rahman",
+   "baslik": "Rahmân Suresi",
+   "tur": "Yirmi yedinci cüz",
+   "parcalar": [
+    [
+     "Rahman Suresi.",
+     0.7
+    ],
+    "Adının anlamı: merhameti sonsuz olan.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Yetmiş sekiz ayettir, iniş sırasına göre doksan yedinci suredir.",
+     0.7
+    ],
+    "Adını ilk ayetindeki Rahmân isminden alır ve büyük bölümünde ilâhî rahmetin izlerini anlatır.",
+    "Kur’an’ı öğretmesi, insana konuşmayı öğretmesi, gök, yer, denizler ve rızıklar gibi nimetleri sayar; Rabbinizin nimetlerinden hangisini yalanlarsınız? sorusunu tekrar tekrar sorar.",
+    [
+     "Yeryüzündeki her şeyin yok olacağını, yalnızca Allah’ın baki kalacağını bildirir; inkârcıların âkıbetini ve müminlerin cennetteki hayatını tasvir eder.",
+     0.8
+    ],
+    "Rahman Suresi, on üçüncü ayetin anlamı şöyledir.",
+    "Ey insanlar ve cinler!",
+    [
+     "Öyleyken, Rabbinizin nimetlerinden hangisini yalanlarsınız.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her nimet Allah’tandır; şükür, bu nimetleri görmekle başlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "056-vakia",
+   "baslik": "Vâkıa Suresi",
+   "tur": "Yirmi yedinci cüz",
+   "parcalar": [
+    [
+     "Vakıa Suresi.",
+     0.7
+    ],
+    "Adının anlamı: mutlaka gerçekleşecek olay.",
+    [
+     "Mekke’de inmiştir. Doksan altı ayettir, iniş sırasına göre kırk altıncı suredir.",
+     0.7
+    ],
+    "Kıyametin mutlaka kopacağını ve o gün insanların üç gruba ayrılacağını anlatır: öne geçenler, sağdakiler ve soldakiler.",
+    "Öne geçenlerin ve sağdakilerin cennetteki nimetlerini, soldakilerin azabını tasvir eder.",
+    [
+     "İnsanın yaratılışı, ekin, su ve ateş örnekleriyle öldükten sonra diriltmenin Allah’ın gücü içinde olduğunu hatırlatır.",
+     0.8
+    ],
+    "Vakıa Suresi, altmış ikinci ayetin anlamı şöyledir.",
+    [
+     "And olsun ki, ilk yaratmayı bilirsiniz, yine de düşünmez misiniz.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İlk defa yaratan, yeniden diriltmeye de kadirdir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "057-hadid",
+   "baslik": "Hadîd Suresi",
+   "tur": "Yirmi yedinci cüz",
+   "parcalar": [
+    [
+     "Hadid Suresi.",
+     0.7
+    ],
+    "Adının anlamı: demir.",
+    [
+     "Medine’de inmiştir. Yirmi dokuz ayettir, iniş sırasına göre doksan dördüncü suredir.",
+     0.7
+    ],
+    "Çoğunluğa göre Medine’de inmiştir; adını insanlara birçok faydası olan demirin indirildiğini bildiren ayetten alır ve tesbihle başlayan, müsebbihât denilen beş surenin ilkidir.",
+    "Göklerde ve yerde ne varsa Allah’ı tesbih ettiğini, O’nun ilminin ve kudretinin her şeyi kuşattığını bildirir; Allah’a ve Resûlü’ne iman edip Allah yolunda harcamaya çağırır.",
+    "Âhirette müminlerin nurlarının önlerinde koşacağını, münafıkların ise karanlıkta kalacağını anlatır; dünya hayatının bir oyun, eğlence ve övünme olduğunu hatırlatarak bağışlanma ve cennet için yarışmaya çağırır.",
+    [
+     "Peygamberlerin, insanlar adaleti ayakta tutsun diye kitap ve ölçüyle gönderildiğini bildirir.",
+     0.8
+    ],
+    "Hadid Suresi, yedinci ayetin anlamı şöyledir.",
+    "Ey insanlar!",
+    [
+     "Allah'a ve Peygamberine inanın; sizi varis kıldığı şeylerden sarfedin; aranızdan, inanıp da sarfeden kimselere büyük ecir vardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dünya geçicidir; asıl yarışılacak olan Allah’ın bağışlaması ve cennettir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "058-mucadele",
+   "baslik": "Mücâdele Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Mücadele Suresi.",
+     0.7
+    ],
+    "Adının anlamı: tartışan kadın.",
+    [
+     "Medine’de inmiştir. Yirmi iki ayettir, iniş sırasına göre yüz beşinci suredir.",
+     0.7
+    ],
+    "Medine döneminin son yıllarında inmiştir; adını, kocası cahiliye âdeti olan zıhâr ile onu kendine haram kılınca Peygamberimize gelip tartışan ve Allah’a şikâyette bulunan Havle bint Salebe’den söz eden ilk ayetten alır.",
+    "Allah’ın bu kadının sözünü işittiğini bildirir, zıhârı geçersiz sayar ve bunu yapanın keffâret ödemesini emreder.",
+    "Müminlere karşı gizli fısıldaşmayı ve Peygamberimizi alaylı biçimde selamlamayı kınar; toplantılarda yer açmayı öğretir ve Allah’ın iman edenleri ve ilim verilenleri derecelerle yükselteceğini bildirir.",
+    [
+     "Müminlerin, akrabaları bile olsa Allah’a ve Resûlü’ne düşmanlık edenleri dost edinmeyeceğini bildirir.",
+     0.8
+    ],
+    "Mücadele Suresi, on birinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Toplantılarda, size, Yer açın denince yer açın ki Allah da size genişlik versin; Kalkın denildiği zaman da hemen kalkın ki, Allah, içinizden inanmış olanları ve kendilerine ilim verilenleri derecelerle yükseltsin.",
+    [
+     "Allah işlediklerinizden haberdardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah, kendisine derdini açan kulunun sesini işitir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "059-hasr",
+   "baslik": "Haşr Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Haşr Suresi.",
+     0.7
+    ],
+    "Adının anlamı: toplama, sürgün.",
+    [
+     "Medine’de inmiştir. Yirmi dört ayettir, iniş sırasına göre yüz birinci suredir.",
+     0.7
+    ],
+    "Medine’de, Uhud Savaşı’ndan sonra inmiştir; adını, antlaşmayı bozan Benî Nadîr yahudilerinin Medine’den ilk sürgününü anlatan ayetteki ifadeden alır.",
+    "Bu olayı ve onlardan savaşsız elde edilen malların, servet yalnızca zenginler arasında dolaşmasın diye nasıl paylaştırılacağını bildirir.",
+    "Muhacirleri kendilerine tercih eden ensarın cömertliğini över, münafıkların aldatıcı vaatlerini anlatır.",
+    [
+     "Herkesi yarın için ne hazırladığına bakmaya çağırır ve Allah’ın güzel isimlerini sayan ayetlerle sona erer.",
+     0.8
+    ],
+    "Haşr Suresi, yirmi ikinci ile yirmi dördüncü ayetler arasının anlamı şöyledir.",
+    "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır.",
+    "O, acıyıcı olandır, acıyandır.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır.",
+    "Göklerde ve yerde olanlar O'nu tesbih ederler.",
+    [
+     "O güçlüdür, Hakim'dir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mümin, ihtiyacı olsa bile kardeşini kendine tercih edebilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "060-mumtehine",
+   "baslik": "Mümtehine Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Mümtehine Suresi.",
+     0.7
+    ],
+    "Adının anlamı: imtihan edilen kadın.",
+    [
+     "Medine’de inmiştir. On üç ayettir, iniş sırasına göre doksan birinci suredir.",
+     0.7
+    ],
+    "Medine’de, Hudeybiye Antlaşması ile Mekke’nin fethi arasında inmiştir; adını hicret edip gelen kadınların imanlarının sınanmasını emreden ayetten alır.",
+    "Büyük bölümü, bir sahâbînin Peygamberimizin sefer hazırlığını Mekkeli akrabalarına gizlice bildirmeye çalışması üzerine inmiştir; müminlere, dinleri yüzünden kendileriyle savaşan inkârcıları dost edinmemelerini öğütler ve İbrâhim peygamberi örnek gösterir.",
+    "Din uğrunda savaşmayan ve yurtlarından çıkarmayanlara iyilik ve adaletle davranmanın yasaklanmadığını bildirir.",
+    [
+     "Hicret eden mümin kadınların durumunu ve kadınların Peygamberimize verdiği biatın şartlarını anlatır.",
+     0.8
+    ],
+    "Mümtehine Suresi, sekizinci ayetin anlamı şöyledir.",
+    [
+     "Allah, din uğrunda sizinle savaşmayan, sizi yurdunuzdan çıkarmayan kimselere iyilik yapmanızı ve onlara karşı adil davranmanızı yasak kılmaz; doğrusu Allah adil olanları sever.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Müminlere düşmanlık etmeyenlere iyilik ve adaletle davranılır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "061-saf",
+   "baslik": "Saf Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Saf Suresi.",
+     0.7
+    ],
+    "Adının anlamı: saf, sıra.",
+    [
+     "Medine’de inmiştir. On dört ayettir, iniş sırasına göre yüz dokuzuncu suredir.",
+     0.7
+    ],
+    "Çoğunluğa göre Medine’de, Uhud Savaşı’ndan sonra inmiştir; adını Allah yolunda kenetlenmiş bir duvar gibi saf bağlayanları anlatan ayetten alır.",
+    "Müminleri yapmayacakları şeyi söylememeye, sözleriyle davranışlarını uyumlu kılmaya çağırır; Mûsâ’nın kavminin ona eziyet ettiğini hatırlatır.",
+    "Îsâ’nın Tevrat’ı doğruladığını ve kendisinden sonra Ahmed adında bir peygamber geleceğini müjdelediğini bildirir.",
+    [
+     "Müminleri malları ve canlarıyla Allah yolunda çaba göstermeye çağırır, havârîleri örnek gösterir.",
+     0.8
+    ],
+    "Saf Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Yapmayacağınız şeyi niçin söylersiniz.",
+    [
+     "Yapmayacağınız şeyi söylemeniz, Allah katında büyük gazaba sebep olur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mümin, yapmayacağı şeyi söylemez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "062-cuma",
+   "baslik": "Cuma Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Cuma Suresi.",
+     0.7
+    ],
+    "Adının anlamı: cuma, toplanma günü.",
+    [
+     "Medine’de inmiştir. On bir ayettir, iniş sırasına göre yüz onuncu suredir.",
+     0.7
+    ],
+    "Medine’de, muhtemelen hicretin ilk yılında inmiştir.",
+    "Peygamberimizin ayetleri okuyup insanları arındırdığını, onlara kitabı ve hikmeti öğrettiğini bildirir.",
+    "Kendilerine Tevrat öğretildiği hâlde gereğini yapmayanları kitap yüklü merkebe benzetir.",
+    [
+     "Cuma günü ezan okununca alışverişi bırakıp Allah’ı anmaya koşmayı, namaz bitince de yeryüzüne dağılıp Allah’ı çokça anmayı emreder.",
+     0.8
+    ],
+    "Cuma Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Cuma günü namaz için ezan okunduğu zaman Allah'ı anmaya koşun; alım satımı bırakın; bilseniz, bu sizin için daha iyidir.",
+     0.8
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Resûlullah’ı cuma namazında bu iki sureyi, Cuma ve Münâfikûn surelerini okurken işittim.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Cuma namazının vakti gelince dünya işi bir kenara bırakılır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "063-munafikun",
+   "baslik": "Münâfikūn Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Münafikun Suresi.",
+     0.7
+    ],
+    "Adının anlamı: münafıklar, iki yüzlüler.",
+    [
+     "Medine’de inmiştir. On bir ayettir, iniş sırasına göre yüz dördüncü suredir.",
+     0.7
+    ],
+    "Medine’de inmiştir; ilk ayetleri Benî Mustalik Gazvesi sırasında, münafıkların başı Abdullah İbn Übey’in Medine’ye dönersek şerefli olanlar alçakları oradan çıkaracak demesi üzerine inmiştir.",
+    "Münafıkların iman ettiklerine dair yeminlerini, dış görünüşleri hoş olsa da içlerinin boş olduğunu anlatır ve şerefin Allah’a, Peygamberine ve müminlere ait olduğunu bildirir.",
+    [
+     "Müminleri, mallarının ve çocuklarının kendilerini Allah’ı anmaktan alıkoymasına karşı uyarır; ölüm gelmeden önce Allah yolunda harcamaya çağırır.",
+     0.8
+    ],
+    "Münafikun Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    [
+     "Sizi, mallarınız ve çocuklarınız Allah'ı anmaktan alıkoymasın; böyle olanlar hüsrana uğrayanlardır.",
+     0.8
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Resûlullah’ı cuma namazında bu iki sureyi, Cuma ve Münâfikûn surelerini okurken işittim.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mal ve çocuk, Allah’ı anmaya engel olmamalıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "064-tegabun",
+   "baslik": "Teğâbün Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Teğabün Suresi.",
+     0.7
+    ],
+    "Adının anlamı: aldanış.",
+    [
+     "Medine’de inmiştir. On sekiz ayettir, iniş sırasına göre yüz sekizinci suredir.",
+     0.7
+    ],
+    "Çoğunluğa göre Medine’de inmiştir ve tesbihle başlayan beş surenin sonuncusudur; adını kıyamet gününü kimin aldandığının ortaya çıkacağı gün olarak niteleyen ayetten alır.",
+    "Göklerde ve yerde ne varsa Allah’ı tesbih ettiğini, Allah’ın insanı en güzel biçimde yarattığını ve gizli açık her şeyi bildiğini bildirir; Allah’a, Peygamberine ve indirilen nura iman etmeye çağırır.",
+    "Hiçbir musibetin Allah’ın izni olmadan gelmeyeceğini bildirir.",
+    [
+     "Malın ve çocukların bir imtihan olduğunu hatırlatır; affetmeyi, gücü yettiğince Allah’tan sakınmayı ve cimrilikten kurtulup infak etmeyi öğütler.",
+     0.8
+    ],
+    "Teğabün Suresi, on altıncı ayetin anlamı şöyledir.",
+    [
+     "Allah'a karşı gelmekten gücünüzün yettiği kadar sakının, buyruklarını dinleyin, itaat edin; kendinizin iyiliğine olarak mallarınızdan sarfedin; nefsinin tamahkarlığından korunan kimseler, işte onlar saadete erenlerdir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kurtuluş, gönül cimriliğinden korunup paylaşmaktadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "065-talak",
+   "baslik": "Talâk Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Talak Suresi.",
+     0.7
+    ],
+    "Adının anlamı: boşanma.",
+    [
+     "Medine’de inmiştir. On iki ayettir, iniş sırasına göre doksan dokuzuncu suredir.",
+     0.7
+    ],
+    "Medine döneminin ortalarında inmiştir; adını boşanmayla ilgili hükümlerle başlamasından alır.",
+    "Boşanmanın iddet gözetilerek yapılmasını, iddet süresince kadınların evlerinden çıkarılmamasını, nafakalarının verilmesini, hamile olanlara doğuma kadar bakılmasını ve çocuğunu emziren annelere ücret ödenmesini emreder.",
+    "Bu hükümleri Allah’tan sakınma ve iyilikle davranma öğütleriyle birlikte anlatır; Allah’tan sakınana bir çıkış yolu açılacağını ve Allah’a güvenene O’nun yeteceğini bildirir.",
+    [
+     "Emrine karşı gelen kavimlerin âkıbetini hatırlatır ve Allah’ın yedi göğü ve yeri yarattığını bildirerek sona erer.",
+     0.8
+    ],
+    "Talak Suresi, ikinci ve üçüncü ayetlerin anlamı şöyledir.",
+    "Kadınların iddet süreleri biteceğinde, onları ya uygun bir şekilde alıkoyun, ya da onlardan ayrılın; içinizden de iki adil şahit getirin; şahidliği Allah için yapın; işte bu, Allah'a ve ahiret gününe inanan kimseye verilen öğüttür.",
+    "Allah, kendisine karşı gelmekten sakınan kimseye kurtuluş yolu sağlar, ona beklemediği yerden rızık verir.",
+    "Allah'a güvenen kimseye O yeter.",
+    "Allah, buyruğunu yerine getirendir.",
+    [
+     "Allah her şey için bir ölçü var etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’a güvenene Allah yeter.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "066-tahrim",
+   "baslik": "Tahrîm Suresi",
+   "tur": "Yirmi sekizinci cüz",
+   "parcalar": [
+    [
+     "Tahrim Suresi.",
+     0.7
+    ],
+    "Adının anlamı: haram kılma, yasaklama.",
+    [
+     "Medine’de inmiştir. On iki ayettir, iniş sırasına göre yüz yedinci suredir.",
+     0.7
+    ],
+    "Medine döneminin ikinci yarısında inmiştir; adını Peygamberimizin eşlerinin rızasını gözeterek kendine helâl olan bir şeyi yasak etmesiyle ilgili ilk ayetten alır.",
+    "Yeminin keffâretle çözülebileceğini bildirir ve Peygamberimizin gizli bir sözünü başkasına aktaran eşlerinden ikisini tövbeye çağırır.",
+    "Müminlere kendilerini ve ailelerini ateşten korumayı ve içtenlikle tövbe etmeyi emreder.",
+    [
+     "Nûh’un ve Lût’un eşlerini inkârın, Firavun’un eşini ve Meryem’i imanın örneği olarak gösterir.",
+     0.8
+    ],
+    "Tahrim Suresi, sekizinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Yürekten tevbe ederek Allah'a dönün ki, Rabbiniz kötülüklerinizi örtsün, sizi, içlerinden ırmaklar akan cennetlere koysun.",
+    "Allah'ın Peygamberini ve onunla beraber olan müminleri utandırmayacağı o gün, ışıkları önlerinde ve defterleri sağlarından verilmiş olarak yürürler ve: Rabbimiz!",
+    [
+     "Işığımızı tamamla, bizi bağışla, doğrusu Sen herşeye Kadir'sin derler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mümin, kendini ve ailesini kötülükten korur, içtenlikle tövbe eder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "067-mulk",
+   "baslik": "Mülk Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Mülk Suresi.",
+     0.7
+    ],
+    "Adının anlamı: hükümranlık.",
+    [
+     "Mekke’de inmiştir. Otuz ayettir, iniş sırasına göre yetmiş yedinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir ve adını ilk ayetteki mülk kelimesinden alır.",
+    "Bütün hükümranlığın Allah’ın elinde olduğunu, ölümü ve hayatı insanların hangisinin daha güzel iş yapacağını ortaya koymak için yarattığını bildirir.",
+    [
+     "Göklerdeki kusursuz düzene bakmaya, akıl ve duyuları kullanarak düşünmeye çağırır; inkârcıların âhiretteki pişmanlığını anlatır.",
+     0.8
+    ],
+    "Mülk Suresi, ikinci ayetin anlamı şöyledir.",
+    "Hanginizin daha iyi iş işlediğini belirtmek için, ölümü ve dirimi, hayatı, yaratan O'dur.",
+    [
+     "O, güçlüdür, bağışlayandır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hayat bir imtihandır; ölçü, işin en güzelini yapmaktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "068-kalem",
+   "baslik": "Kalem Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Kalem Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kalem.",
+    [
+     "Mekke’de inmiştir. Elli iki ayettir, iniş sırasına göre ikinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin ilk yıllarında inmiştir; adını kaleme ve yazılanlara yeminle başlayan ilk ayetten alır.",
+    "Peygamberimizin mecnun olmadığını, büyük bir ahlak üzere olduğunu bildirir; çok yemin eden, laf taşıyan, iyiliği engelleyen, haddi aşan ve kaba kimselere uymamasını öğütler.",
+    "Yoksullara pay vermemek için sözleşip ürününü kaybeden bahçe sahiplerinin kıssasıyla nimetin bir imtihan olduğunu anlatır.",
+    [
+     "Kıyamet gününü tasvir eder; Yûnus peygamberi hatırlatarak Peygamberimize sabretmesini öğütler.",
+     0.8
+    ],
+    "Kalem Suresi, dördüncü ayetin anlamı şöyledir.",
+    [
+     "Şüphesiz sen büyük bir ahlaka sahipsindir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Peygamberimiz büyük bir ahlaka sahiptir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "069-hakka",
+   "baslik": "Hâkka Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Hakka Suresi.",
+     0.7
+    ],
+    "Adının anlamı: mutlaka gerçekleşecek olan.",
+    [
+     "Mekke’de inmiştir. Elli iki ayettir, iniş sırasına göre yetmiş sekizinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin ilk yıllarında inmiştir; adını kıyameti ifade eden ve mutlaka gerçekleşecek olan anlamına gelen ilk kelimeden alır.",
+    "Peygamberlerini yalanlayan Semûd, Âd, Firavun ve Lût kavimlerinin helâkini hatırlatır; kıyamet günü sûra üflenmesini, Rabbin arşını sekiz meleğin taşıyacağını ve herkesin hesap vereceğini anlatır.",
+    "Kitabı sağından verilenin sevincini, solundan verilenin pişmanlığını tasvir eder; yoksulu doyurmaya teşvik etmeyenlerin âkıbetini bildirir.",
+    [
+     "Kur’an’ın şair ya da kâhin sözü değil, âlemlerin Rabbinden indirilmiş bir söz olduğunu bildirir ve Rabbin yüce adını tesbih emriyle sona erer.",
+     0.8
+    ],
+    "Hakka Suresi, otuz sekizinci ile kırk üçüncü ayetler arasının anlamı şöyledir.",
+    "Görebildikleriniz ve göremedikleriniz üzerine yemin ederim ki, Kuran şerefli bir elçinin getirdiği sözdür.",
+    "O, şair sözü değildir; ne az inanıyorsunuz.",
+    "Kahin sözü de değildir; ne az düşünüyorsunuz.",
+    [
+     "Kuran, Alemlerin Rabbinden indirilmedir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an, âlemlerin Rabbinden indirilmiş bir sözdür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "070-mearic",
+   "baslik": "Meâric Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Mearic Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yükselme yerleri, dereceler.",
+    [
+     "Mekke’de inmiştir. Kırk dört ayettir, iniş sırasına göre yetmiş dokuzuncu suredir.",
+     0.7
+    ],
+    "Mekke döneminin ortalarında inmiştir; adını Allah’ın sıfatı olarak geçen ve yükselme yerleri anlamına gelen kelimeden alır.",
+    "İnkârcıların alayla sorduğu azabın mutlaka geleceğini, kıyamet gününün dehşetini ve o gün kimsenin yakınına yardım edemeyeceğini anlatır.",
+    "İnsanın sıkıntıda sızlanan, nimete kavuşunca cimrileşen yapısını anlatır; namazlarını sürekli kılan, mallarında yoksulun hakkını gözeten, hesap gününe inanan, iffetini koruyan, emanete ve sözüne bağlı kalan ve şahitliğini dosdoğru yapan müminleri bundan ayırır.",
+    [
+     "Bu özelliklere sahip olanların cennette ağırlanacağını bildirir.",
+     0.8
+    ],
+    "Mearic Suresi, yirmi ikinci ile yirmi yedinci ayetler arasının anlamı şöyledir.",
+    [
+     "Ancak namaz kılıp namazlarında yoksul ve yoksuna belirli bir hak tanıyanlar, ceza gününü doğrulayanlar, Rablerinin azabından korkanlar böyle değildir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Namazını sürdüren ve malında yoksulun hakkını gözeten, insanın zaaflarından kurtulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "071-nuh",
+   "baslik": "Nûh Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Nuh Suresi.",
+     0.7
+    ],
+    "Adının anlamı: nûh peygamber.",
+    [
+     "Mekke’de inmiştir. Yirmi sekiz ayettir, iniş sırasına göre yetmiş birinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını yalnızca Nûh peygamberin ve kavminin kıssasını anlatmasından alır.",
+    "Nûh peygamberin kavmini gece gündüz, açıktan ve gizlice Allah’a çağırdığını, onların ise kulaklarını tıkayıp büyüklendiklerini anlatır.",
+    "Bağışlanma dilerlerse Allah’ın onlara bol yağmur, mal, evlat, bahçeler ve ırmaklar vereceğini bildirdiğini, göklerin, ayın, güneşin ve yeryüzünün yaratılışını delil gösterdiğini anlatır.",
+    [
+     "Kavminin Ved, Süvâ, Yegūs, Yeûk ve Nesr adlı putlarda direnmesi üzerine boğulduklarını bildirir; Nûh peygamberin kendisi, anne babası ve bütün müminler için bağışlanma duasıyla sona erer.",
+     0.8
+    ],
+    "Nuh Suresi, onuncu ile on ikinci ayetler arasının anlamı şöyledir.",
+    "Dedim ki: Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır.",
+    "Size gökten bol bol yağmur indirsin.",
+    [
+     "Sizi, mallar ve oğullarla desteklesin; sizin için bahçeler var etsin, ırmaklar akıtsın.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bağışlanma dilemek, rahmetin ve bereketin kapısını açar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "072-cin",
+   "baslik": "Cin Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Cin Suresi.",
+     0.7
+    ],
+    "Adının anlamı: cinler.",
+    [
+     "Mekke’de inmiştir. Yirmi sekiz ayettir, iniş sırasına göre kırkıncı suredir.",
+     0.7
+    ],
+    "Mekke döneminde inmiştir; adını Kur’an’ı dinleyip iman eden bir grup cinin anlatıldığı ilk ayetten alır ve De ki emriyle başlayan surelerin en uzunudur.",
+    "Cinlerin Kur’an’ı hayranlıkla dinleyip Rablerine hiçbir şeyi ortak koşmayacaklarını söylediklerini aktarır.",
+    "Cinlerin de müminleri ve inkâr edenleri olduğunu, gökten haber almalarının engellendiğini, insanların cinlere sığınmasının onların azgınlığını artırdığını bildirir.",
+    [
+     "Mescitlerin Allah’a ait olduğunu, Allah ile birlikte başka birine yalvarılmayacağını ve gaybı yalnızca Allah’ın bildiğini, onu ancak razı olduğu elçiye bildirdiğini anlatır.",
+     0.8
+    ],
+    "Cin Suresi, birinci ve ikinci ayetlerin anlamı şöyledir.",
+    [
+     "De ki: Cinlerden bir topluluğun Kuran'ı dinlediği bana vahyolundu; onlar şöyle demişlerdir; Doğrusu biz, doğru yola götüren, hayrete düşüren bir Kuran dinledik de ona inandık; biz, Rabbimize hiçbir şeyi ortak koşmayacağız.",
+     0.8
+    ],
+    "İbn Abbas anlatıyor.",
+    "Resûlullah ashabından bir toplulukla Ukâz panayırına giderken Nahle’de sabah namazı kıldırıyordu.",
+    "Şeytanlarla gökten gelen haber arasına engel konmuş, üzerlerine alevler gönderilmişti; bunun sebebini araştırmak için yola çıkan şeytanlardan Tihâme’ye yönelenler, Kur’an’ı duyunca dinlediler ve Gökten gelen haberle aranıza giren engel işte budur dediler.",
+    "Kavimlerine dönüp Biz doğru yola ileten, hayranlık verici bir Kur’an dinledik ve ona iman ettik dediler.",
+    "Bunun üzerine Allah, De ki: Cinlerden bir topluluğun Kur’an’ı dinlediği bana vahyolundu diye başlayan Cin suresini indirdi.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an’ı dinleyen kalp, doğru yolu bulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "073-muzzemmil",
+   "baslik": "Müzzemmil Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Müzzemmil Suresi.",
+     0.7
+    ],
+    "Adının anlamı: örtünüp bürünen.",
+    [
+     "Mekke’de inmiştir. Yirmi ayettir, iniş sırasına göre üçüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminin ilk yıllarında inmiştir; adını Peygamberimize Ey örtünüp bürünen diye seslenen ilk ayetten alır.",
+    "Peygamberimize, ağır bir sorumluluğa hazırlanmak için gecenin bir bölümünde kalkıp namaz kılmasını, Kur’an’ı ağır ağır okumasını, Rabbinin adını anıp yalnız O’na yönelmesini emreder.",
+    "İnkârcıların sözlerine sabretmesini, onlardan güzellikle uzaklaşmasını öğütler ve Firavun’un âkıbetini hatırlatır.",
+    [
+     "Son ayeti gece ibadetinde kolaylık getirir; Kur’an’dan kolay geleni okumayı, namaz kılmayı, zekât vermeyi ve bağışlanma dilemeyi emreder.",
+     0.8
+    ],
+    "Müzzemmil Suresi, sekizinci ve dokuzuncu ayetlerin anlamı şöyledir.",
+    "Rabbinin adını an; herşeyi bırakıp yalnız O'na yönel.",
+    "O, doğunun ve batının Rabbidir; O'ndan başka tanrı yoktur.",
+    [
+     "Öyleyse O'nu vekil tut.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gece ibadeti ve ağır ağır okunan Kur’an, kalbi büyük işlere hazırlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "074-muddessir",
+   "baslik": "Müddessir Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Müddessir Suresi.",
+     0.7
+    ],
+    "Adının anlamı: örtüye bürünen.",
+    [
+     "Mekke’de inmiştir. Elli altı ayettir, iniş sırasına göre dördüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminin ilk yıllarında, çoğu âlime göre Alak suresinin ilk ayetlerinden sonra inmiştir; adını Peygamberimize Ey örtüye bürünen diye seslenen ilk ayetten alır.",
+    "Peygamberimize kalkıp insanları uyarmasını, Rabbini yüceltmesini, giysilerini temiz tutmasını, kötülükten uzak durmasını, yaptığı iyiliği çok görmemesini ve sabretmesini emreder.",
+    "Kur’an’a büyü diyen zengin ve kibirli bir inkârcının âkıbetini anlatır ve cehennemi tasvir eder.",
+    [
+     "Namaz kılmayan, yoksulu doyurmayan ve hesap gününü yalanlayan kimselerin cehenneme girdiğini bildirir.",
+     0.8
+    ],
+    "Müddessir Suresi, birinci ile yedinci ayetler arasının anlamı şöyledir.",
+    "Ey örtüye bürünen.",
+    "Kalk da uyar.",
+    "Rabbini yücelt.",
+    "Giydiklerini temiz tut.",
+    "Kötü şeyleri terke devam et.",
+    "Yaptığın iyiliği çok görerek başa kakma.",
+    [
+     "Rabbin için sabret.",
+     0.8
+    ],
+    "Câbir bin Abdullah rivayet ediyor. Peygamberimiz şöyle buyurmuştur.",
+    "Ben yürürken gökten bir ses işittim.",
+    "Başımı kaldırınca Hirâ’da bana gelen meleği gökle yer arasında bir kürsüde otururken gördüm; korkudan yere düştüm.",
+    "Eşime gidip Beni örtün, beni örtün dedim; beni örttüler.",
+    "Bunun üzerine Allah Ey örtüye bürünen!",
+    "Kalk da uyar diye başlayan ayetleri indirdi.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mümin, Rabbini yüceltir, temiz olur ve yaptığı iyiliği başa kakmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "075-kiyame",
+   "baslik": "Kıyâme Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Kıyame Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kıyamet, diriliş.",
+    [
+     "Mekke’de inmiştir. Kırk ayettir, iniş sırasına göre otuz birinci suredir.",
+     0.7
+    ],
+    "Mekke döneminde, Kāria suresinden sonra inmiştir; adını kıyamet gününe yeminle başlayan ilk ayetten alır.",
+    "Kendini kınayan nefse de yemin ederek çürümüş kemikleri bir araya getirmenin, hatta parmak uçlarını yeniden düzenlemenin Allah’a kolay olduğunu bildirir.",
+    "Peygamberimize vahyi unutmamak için acele etmemesini söyler; Kur’an’ı kalbine yerleştirmenin, okutmanın ve açıklamanın Allah’a ait olduğunu bildirir.",
+    [
+     "Dünyayı sevip âhireti bırakanları uyarır; o gün bazı yüzlerin Rablerine bakarak parlayacağını, bazılarının ise asık olacağını anlatır ve insanın yaratılış aşamalarını dirilişe delil gösterir.",
+     0.8
+    ],
+    "Kıyame Suresi, on altıncı ile on dokuzuncu ayetler arasının anlamı şöyledir.",
+    "Cebrail sana Kuran okurken, unutmamak için acele edip onunla beraber söyleme, yalnız dinle.",
+    "Doğrusu o vahyolunanı kalbine yerleştirmek ve onu sana okutturmak Bize düşer.",
+    "Biz onu Cebrail'e okuttuğumuz zaman, onun okumasını dinle.",
+    [
+     "Sonra onu sana açıklamak Bize düşer.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Parmak uçlarımızı bile yeniden düzenlemeye gücü yeten Allah, insanı mutlaka diriltecektir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "076-insan",
+   "baslik": "İnsân Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "İnsan Suresi.",
+     0.7
+    ],
+    "Adının anlamı: insan.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Otuz bir ayettir, iniş sırasına göre doksan sekizinci suredir.",
+     0.7
+    ],
+    "Adını, insanın anılmaya değer bir şey değilken var edildiğini hatırlatan ilk ayetten alır; Dehr ve Hel eta diye de anılır.",
+    "İnsanın karışık bir damladan yaratılıp ona işitme ve görme verildiğini, imtihan için yol gösterildiğini ve şükür ile nankörlük arasında seçim yapacağını bildirir.",
+    "Sözlerini yerine getiren, sevdikleri hâlde yemeği yoksula, yetime ve esire yediren ve bunu yalnızca Allah rızası için yapan iyileri anlatır; onları bekleyen cennet nimetlerini tasvir eder.",
+    [
+     "Peygamberimize Rabbinin hükmüne sabretmesini, sabah akşam O’nun adını anmasını öğütler.",
+     0.8
+    ],
+    "İnsan Suresi, sekizinci ile onuncu ayetler arasının anlamı şöyledir.",
+    "Onlar içleri çektiği halde, yiyeceği yoksula, öksüze ve esire yedirirler.",
+    "Biz sizi ancak Allah rızası için doyuruyoruz, bir karşılık ve teşekkür beklemiyoruz.",
+    [
+     "Doğrusu biz çok asık suratların bulunacağı bir günde Rabbimizden korkarız derler.",
+     0.8
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Resûlullah cuma günü sabah namazında birinci rekâtta Secde suresini, ikinci rekâtta İnsân suresini okurdu.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyilik, karşılık ve teşekkür beklemeden yalnızca Allah için yapılır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "077-murselat",
+   "baslik": "Mürselât Suresi",
+   "tur": "Yirmi dokuzuncu cüz",
+   "parcalar": [
+    [
+     "Mürselat Suresi.",
+     0.7
+    ],
+    "Adının anlamı: gönderilenler.",
+    [
+     "Mekke’de inmiştir. Elli ayettir, iniş sırasına göre otuz üçüncü suredir.",
+     0.7
+    ],
+    "Mekke döneminin ilk yıllarında inmiştir; adını ardı ardına gönderilenlere yeminle başlayan ilk ayetten alır.",
+    "Kıyametin, yani ayırım gününün mutlaka geleceğini, o gün yıldızların sönüp göğün yarılacağını bildirir.",
+    "İnsanın bayağı bir sudan yaratılışını ve yeryüzünün diriler ve ölüler için toplanma yeri kılınışını hatırlatır; O gün yalanlayanların vay hâline uyarısını on defa tekrarlar.",
+    [
+     "Takva sahiplerinin gölgeliklerde ve pınar başlarında olacağını bildirir.",
+     0.8
+    ],
+    "Mürselat Suresi, kırk birinci ile kırk dördüncü ayetler arasının anlamı şöyledir.",
+    "Allah'a karşı gelmekten sakınmış olanlar, elbette gölgeliklerde ve pınar başlarındadırlar.",
+    "Canlarının istediği meyveler arasındadırlar.",
+    "Onlara denir ki: İşlediklerinize karşılık afiyetle yiyiniz, içiniz.",
+    [
+     "Biz, iyi davrananlara işte böyle karşılık veririz.",
+     0.8
+    ],
+    "Abdullah bin Mesûd anlatıyor.",
+    "Resûlullah ile birlikte bir mağaradaydık; Mürselât suresi ona indi ve biz onu indiği anda onun ağzından öğreniyorduk.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Takva sahiplerini gölgeler, pınarlar ve canlarının çektiği meyveler bekler.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "078-nebe",
+   "baslik": "Nebe’ Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Nebe Suresi.",
+     0.7
+    ],
+    "Adının anlamı: büyük haber.",
+    [
+     "Mekke’de inmiştir. Kırk ayettir, iniş sırasına göre sekseninci suredir.",
+     0.7
+    ],
+    "Otuzuncu cüz bu sureyle başlar.",
+    "İnkârcıların birbirine sorduğu büyük haber, yani öldükten sonra diriliş üzerinde durur; yeryüzünün beşik, dağların direk kılınması, gece ile gündüz, uyku ve yağmur gibi nimetleri dirilişin delilleri olarak sayar.",
+    [
+     "Hüküm gününü, cehennemi ve cenneti kısaca tasvir eder; o gün Rahmân’ın izni olmadan kimsenin konuşamayacağını bildirir.",
+     0.8
+    ],
+    "Nebe Suresi, altıncı ve yedinci ayetlerin anlamı şöyledir.",
+    [
+     "Biz yeryüzünü bir beşik, dağları da onun için birer direk kılmadık mı.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Düzenle yaratılan kâinat, insanın boşuna yaratılmadığını gösterir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "079-naziat",
+   "baslik": "Nâziât Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Naziat Suresi.",
+     0.7
+    ],
+    "Adının anlamı: çekip alanlar.",
+    [
+     "Mekke’de inmiştir. Kırk altı ayettir, iniş sırasına göre seksen birinci suredir.",
+     0.7
+    ],
+    "Canları şiddetle çekip alanlara yeminle başlar ve kıyametin mutlaka kopacağını bildirir.",
+    "Firavun’un kibrini ve ibret verici sonunu Hazreti Mûsâ kıssasıyla anlatır.",
+    [
+     "Dünya hayatını tercih edenle Rabbinin huzurunda durmaktan korkup nefsini kötü arzulardan alıkoyanın âkıbetini karşılaştırır; kıyametin vaktini yalnızca Allah’ın bildiğini hatırlatır.",
+     0.8
+    ],
+    "Naziat Suresi, kırkıncı ve kırk birinci ayetlerin anlamı şöyledir.",
+    [
+     "Ama kim Rabbinin azametinden korkup da kendini kötülükten alıkoymuşsa, varacağı yer şüphesiz cennettir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nefsini kötülükten alıkoyanı cennet bekler.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "080-abese",
+   "baslik": "Abese Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Abese Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yüzünü ekşitti.",
+    [
+     "Mekke’de inmiştir. Kırk iki ayettir, iniş sırasına göre yirmi dördüncü suredir.",
+     0.7
+    ],
+    "Peygamberimiz Kureyş’in ileri gelenleriyle konuşurken yanına gelen âmâ sahâbî İbn Ümmü Mektûm’la ilgilenmemesi üzerine inmiştir.",
+    "Hakikati arayan kimseye öncelik verilmesi gerektiğini öğretir.",
+    [
+     "İnsanı yiyeceğine bakıp Allah’ın nimetlerini düşünmeye çağırır ve kıyamet gününde herkesin kendi derdine düşeceğini anlatır.",
+     0.8
+    ],
+    "Abese Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+    [
+     "İnsan, yiyeceğine bir baksın.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hakikati arayan kimse, makamına bakılmadan değerlidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "081-tekvir",
+   "baslik": "Tekvîr Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Tekvir Suresi.",
+     0.7
+    ],
+    "Adının anlamı: dürülmek.",
+    [
+     "Mekke’de inmiştir. Yirmi dokuz ayettir, iniş sırasına göre yedinci suredir.",
+     0.7
+    ],
+    "Mekke döneminin ilk yıllarında inmiştir.",
+    "Güneşin dürülmesi, dağların yürütülmesi ve denizlerin kaynaştırılması gibi kıyamet sahneleriyle başlar; diri diri gömülen kız çocuğuna hangi suçtan öldürüldüğünün sorulacağını ve o gün herkesin önceden ne hazırladığını göreceğini bildirir.",
+    [
+     "Kur’an’ın Cebrâil aracılığıyla getirilen bir vahiy olduğunu, Peygamberimizin mecnun olmadığını vurgular.",
+     0.8
+    ],
+    "Tekvir Suresi, on dördüncü ayetin anlamı şöyledir.",
+    [
+     "İnsanoğlu önceden ne hazırladığını görecektir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Herkes, önceden ne hazırladığını o gün görecektir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "082-infitar",
+   "baslik": "İnfitâr Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "İnfitar Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yarılmak.",
+    [
+     "Mekke’de inmiştir. On dokuz ayettir, iniş sırasına göre seksen ikinci suredir.",
+     0.7
+    ],
+    "Göğün yarılması, yıldızların dağılması ve kabirlerin açılması gibi kıyamet olaylarını anlatır.",
+    "İnsana, kendisini yaratıp düzenleyen cömert Rabbine karşı onu neyin aldattığını sorar.",
+    [
+     "Amelleri yazan değerli meleklerden söz eder; iyilerin nimet içinde, kötülerin cehennemde olacağını ve o gün hükmün yalnızca Allah’a ait olduğunu bildirir.",
+     0.8
+    ],
+    "İnfitar Suresi, altıncı ile sekizinci ayetler arasının anlamı şöyledir.",
+    "Ey insanoğlu!",
+    [
+     "Seni yaratıp sonra şekil veren, düzenleyen, mütenasip kılan, istediği şekilde seni terkip eden, çok cömert olan Rabbine karşı seni aldatan nedir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Cömert Rabbin lütfu, insanı gaflete değil şükre götürmelidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "083-mutaffifin",
+   "baslik": "Mutaffifîn Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Mutaffifin Suresi.",
+     0.7
+    ],
+    "Adının anlamı: ölçüde ve tartıda hile yapanlar.",
+    [
+     "Mekke’de inmiştir. Otuz altı ayettir, iniş sırasına göre seksen altıncı suredir.",
+     0.7
+    ],
+    "Ölçüde ve tartıda hile yapanları uyarır ve bu davranışı hesap gününe inanmamakla ilişkilendirir.",
+    "Kötülerin amel defterinin siccînde, iyilerinkinin illiyyînde olduğunu bildirir ve cennetteki nimetleri anlatır.",
+    [
+     "Dünyada müminlerle alay edenlerin âhirette aşağılanacağını haber verir.",
+     0.8
+    ],
+    "Mutaffifin Suresi, birinci ile üçüncü ayetler arasının anlamı şöyledir.",
+    [
+     "İnsanlardan, kendileri bir şeyi ölçerek aldıkları zaman tam alan; ama onlara bir şeyi ölçüp tartarak verdiklerinde eksik tutan kimselerin, vay haline.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hakkı tam vermek, hesap gününe inanmanın gereğidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "084-insikak",
+   "baslik": "İnşikāk Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "İnşikak Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yarılmak.",
+    [
+     "Mekke’de inmiştir. Yirmi beş ayettir, iniş sırasına göre seksen üçüncü suredir.",
+     0.7
+    ],
+    "Göğün yarılması ve yerin düzleştirilmesiyle kıyamet gününü anlatır.",
+    "İnsanın Rabbine kavuşuncaya kadar çalışıp çabaladığını, amel defterini sağından alanın kolay bir hesapla sevineceğini, arkasından alanın ise yıkıma uğrayacağını bildirir.",
+    [
+     "Kur’an okunduğunda secde etmeyenleri uyarır; surede bir secde ayeti vardır.",
+     0.8
+    ],
+    "İnşikak Suresi, altıncı ayetin anlamı şöyledir.",
+    "Ey insanoğlu!",
+    [
+     "Sen Rabbine kavuşuncaya kadar çalışıp çabalarsın, sonunda O'na kavuşacaksın.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her çaba, bir gün Rabbin huzurunda karşılık bulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "085-buruc",
+   "baslik": "Bürûc Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Büruc Suresi.",
+     0.7
+    ],
+    "Adının anlamı: burçlar.",
+    [
+     "Mekke’de inmiştir. Yirmi iki ayettir, iniş sırasına göre yirmi yedinci suredir.",
+     0.7
+    ],
+    "Müşriklerin müminlere işkence etmeye başladığı Mekke döneminde inmiştir.",
+    "İnananları ateşle dolu hendeklerde yakan hendek sahiplerinin kıssasını anlatarak zalimlerin cezasını ve sabreden müminlerin mükâfatını bildirir.",
+    [
+     "Firavun’un ve Semûd’un helâkini hatırlatarak her dönemde zulme uğrayan müminleri teselli eder.",
+     0.8
+    ],
+    "Büruc Suresi, on birinci ayetin anlamı şöyledir.",
+    "Şüphesiz inanıp yararlı işler işleyenlere, onlara, içlerinden ırmaklar akan cennetler vardır.",
+    [
+     "Bu, büyük kurtuluştur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zulüm geçicidir; iman edip sabredenleri büyük kurtuluş bekler.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "086-tarik",
+   "baslik": "Târık Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Tarık Suresi.",
+     0.7
+    ],
+    "Adının anlamı: geceleyin gelen parlak yıldız.",
+    [
+     "Mekke’de inmiştir. On yedi ayettir, iniş sırasına göre otuz altıncı suredir.",
+     0.7
+    ],
+    "Geceleyin görünen parlak yıldıza yeminle başlar ve her insanın üzerinde bir gözetici bulunduğunu bildirir.",
+    "İnsanın atılan bir sudan yaratıldığını hatırlatarak onu yeniden diriltmenin Allah’a kolay olduğunu vurgular.",
+    [
+     "Kur’an’ın hakla bâtılı ayıran ciddi bir söz olduğunu bildirir ve Peygamberimize, inkârcılara biraz süre tanımasını söyler.",
+     0.8
+    ],
+    "Tarık Suresi, dördüncü ayetin anlamı şöyledir.",
+    [
+     "Üzerinde gözetici olmayan kimse yoktur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hiç kimse başıboş değildir; her insanın üzerinde bir gözetici vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "087-ala",
+   "baslik": "A‘lâ Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Ala Suresi.",
+     0.7
+    ],
+    "Adının anlamı: en yüce.",
+    [
+     "Mekke’de inmiştir. On dokuz ayettir, iniş sırasına göre sekizinci suredir.",
+     0.7
+    ],
+    "En yüce Rabbin adını tesbih etmeyi emrederek başlar.",
+    "Allah’ın yaratıp şekil verdiğini, her şeyi ölçüyle yapıp yol gösterdiğini anlatır; Peygamberimize Kur’an’ı unutmayacağını vaat eder.",
+    [
+     "Arınıp Rabbinin adını anarak namaz kılanın kurtuluşa ereceğini, âhiretin dünyadan daha hayırlı ve kalıcı olduğunu bildirir.",
+     0.8
+    ],
+    "Ala Suresi, on dördüncü ve on beşinci ayetlerin anlamı şöyledir.",
+    [
+     "Arınmış olan, Rabbinin adını anıp namaz kılan, saadete erişecektir.",
+     0.8
+    ],
+    "Numân bin Beşîr anlatıyor.",
+    "Resûlullah iki bayram namazında ve cuma namazında Alâ ve Gâşiye surelerini okurdu.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Âhiret, dünyadan daha hayırlı ve daha kalıcıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "088-gasiye",
+   "baslik": "Gāşiye Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Gaşiye Suresi.",
+     0.7
+    ],
+    "Adının anlamı: her yeri kaplayan olay.",
+    [
+     "Mekke’de inmiştir. Yirmi altı ayettir, iniş sırasına göre altmış sekizinci suredir.",
+     0.7
+    ],
+    "Kıyameti, ansızın gelip her şeyi saran olay diye anar.",
+    "Cehennem ehlinin perişan hâlini ve cennet ehlinin mutluluğunu karşılaştırır.",
+    [
+     "Devenin yaratılışına, göğün yükseltilişine, dağlara ve yeryüzüne bakıp düşünmeye çağırır; Peygamberimizin görevinin zor kullanmak değil öğüt vermek olduğunu bildirir.",
+     0.8
+    ],
+    "Gaşiye Suresi, on yedinci ile yirminci ayetler arasının anlamı şöyledir.",
+    [
+     "Bu insanlar, devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine, yerin nasıl yayıldığına bir bakmazlar mı.",
+     0.8
+    ],
+    "Numân bin Beşîr anlatıyor.",
+    "Resûlullah iki bayram namazında ve cuma namazında Alâ ve Gâşiye surelerini okurdu.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yaratılışa dikkatle bakan, Yaratanın kudretini görür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "089-fecr",
+   "baslik": "Fecr Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Fecr Suresi.",
+     0.7
+    ],
+    "Adının anlamı: tan yerinin ağarması.",
+    [
+     "Mekke’de inmiştir. Otuz ayettir, iniş sırasına göre onuncu suredir.",
+     0.7
+    ],
+    "Fecir vaktine ve Zilhicce’nin ilk on gecesine yeminle başlar.",
+    "Âd, Semûd ve Firavun’un helâkini ibret olarak anlatır.",
+    [
+     "Bolluk da darlık da bir imtihan olduğu hâlde bunu anlamayan, yetime ikram etmeyen, yoksulu doyurmaya teşvik etmeyen ve malı aşırı seven insanı eleştirir; huzura ermiş nefse Rabbine hoşnut olarak dönme müjdesi verir.",
+     0.8
+    ],
+    "Fecr Suresi, yirmi yedinci ve yirmi sekizinci ayetlerin anlamı şöyledir.",
+    "Ey huzur içinde olan can.",
+    [
+     "O, senden, sen de O'ndan hoşnut olarak Rabbine dön.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zenginlik de yoksulluk da bir imtihandır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "090-beled",
+   "baslik": "Beled Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Beled Suresi.",
+     0.7
+    ],
+    "Adının anlamı: şehir, mekke.",
+    [
+     "Mekke’de inmiştir. Yirmi ayettir, iniş sırasına göre otuz beşinci suredir.",
+     0.7
+    ],
+    "Mekke şehrine yeminle başlar ve insanın zorluklar içinde yaratıldığını bildirir.",
+    "İnsana iyi ve kötü iki yolun gösterildiğini hatırlatır; zor geçidi aşmayı, yani köle azat etmeyi, açlık gününde yakını olan bir yetimi ya da yoksulu doyurmayı öğütler.",
+    [
+     "Birbirine sabrı ve merhameti tavsiye eden müminlerin kurtuluşa ereceğini bildirir.",
+     0.8
+    ],
+    "Beled Suresi, onuncu ayetin anlamı şöyledir.",
+    [
+     "Biz ona eğri ve doğru iki yolu da göstermedik mi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyilik yolu zor bir geçittir; onu aşan, merhametle aşar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "091-sems",
+   "baslik": "Şems Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Şems Suresi.",
+     0.7
+    ],
+    "Adının anlamı: güneş.",
+    [
+     "Mekke’de inmiştir. On beş ayettir, iniş sırasına göre yirmi altıncı suredir.",
+     0.7
+    ],
+    "Güneş, ay, gündüz, gece, gök ve yer üzerine art arda yeminlerle başlar.",
+    "İnsan nefsine hem kötülüğün hem de takvanın bildirildiğini, nefsini arındıranın kurtuluşa erdiğini, onu kötülüğe gömenin ziyana uğradığını bildirir.",
+    [
+     "Hazreti Sâlih’in uyarısına rağmen Allah’ın devesine zarar veren Semûd kavminin helâkini ibret olarak anlatır.",
+     0.8
+    ],
+    "Şems Suresi, dokuzuncu ve onuncu ayetlerin anlamı şöyledir.",
+    "Kendini arıtan saadete ermiştir.",
+    [
+     "Kendini fenalıklara gömen kimse de ziyana uğramıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kurtuluş, nefsi arındırmakla başlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "092-leyl",
+   "baslik": "Leyl Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Leyl Suresi.",
+     0.7
+    ],
+    "Adının anlamı: gece.",
+    [
+     "Mekke’de inmiştir. Yirmi bir ayettir, iniş sırasına göre dokuzuncu suredir.",
+     0.7
+    ],
+    "Gece, gündüz ve erkekle dişinin yaratılışı üzerine yeminle başlar; insanların çabalarının farklı farklı olduğunu bildirir.",
+    "Malından verip Allah’a karşı gelmekten sakınan ve en güzeli doğrulayan kişiye kolaylık yolunun açılacağını, cimrilik edip kendini yeterli göreni ise zorluğun beklediğini anlatır.",
+    [
+     "Arınmak için malını veren kişinin ateşten uzak tutulacağını müjdeler.",
+     0.8
+    ],
+    "Leyl Suresi, beşinci ile yedinci ayetler arasının anlamı şöyledir.",
+    [
+     "Elinde bulunandan verenin, Allah'a karşı gelmekten sakınanın, en güzel söz olan Allah'ın birliğini doğrulayanın işlerini kolaylaştırırız.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Cömertlik kolaylığa, cimrilik zorluğa götürür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "093-duha",
+   "baslik": "Duhâ Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Duha Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kuşluk vakti.",
+    [
+     "Mekke’de inmiştir. On bir ayettir, iniş sırasına göre on birinci suredir.",
+     0.7
+    ],
+    "Vahyin bir süre gelmemesi üzerine müşriklerin Rabbi onu terk etti demesiyle Peygamberimizin üzülmesi üzerine inmiş ve onu teselli etmiştir.",
+    "Rabbinin onu bırakmadığını, sonrasının öncesinden daha hayırlı olacağını ve kendisine hoşnut olacağı şeyler verileceğini müjdeler.",
+    [
+     "Yetim iken barındırıldığını, fakir iken zengin kılındığını hatırlatır; yetimi ezmemeyi, isteyeni azarlamamayı ve Rabbinin nimetini anlatmayı emreder.",
+     0.8
+    ],
+    "Duha Suresi, beşinci ayetin anlamı şöyledir.",
+    [
+     "Rabbin şüphesiz sana verecek ve sen de hoşnut olacaksın.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah, kulunu yalnız bırakmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "094-insirah",
+   "baslik": "İnşirâh Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "İnşirah Suresi.",
+     0.7
+    ],
+    "Adının anlamı: göğsün açılması, ferahlık.",
+    [
+     "Mekke’de inmiştir. Sekiz ayettir, iniş sırasına göre on ikinci suredir.",
+     0.7
+    ],
+    "Duhâ suresinden sonra inmiştir ve onun gibi Peygamberimizi teselli eder.",
+    "Göğsünün açıldığını, belini büken yükün kaldırıldığını ve şanının yüceltildiğini hatırlatır.",
+    [
+     "Her güçlükle birlikte bir kolaylık bulunduğunu iki kez bildirir; bir işi bitirince başka bir işe koyulmayı ve yalnızca Rabbine yönelmeyi emreder.",
+     0.8
+    ],
+    "İnşirah Suresi, beşinci ve altıncı ayetlerin anlamı şöyledir.",
+    "Elbette güçlükle beraber şüphesiz bir kolaylık vardır.",
+    [
+     "Gerçekten, güçlükle beraber bir kolaylık vardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her güçlükle birlikte bir kolaylık vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "095-tin",
+   "baslik": "Tîn Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Tin Suresi.",
+     0.7
+    ],
+    "Adının anlamı: incir.",
+    [
+     "Mekke’de inmiştir. Sekiz ayettir, iniş sırasına göre yirmi sekizinci suredir.",
+     0.7
+    ],
+    "İncir, zeytin, Sînâ dağı ve güvenli şehir Mekke üzerine yeminle başlar.",
+    "İnsanın en güzel biçimde yaratıldığını, ancak inkâr yoluna gidenin aşağıların aşağısına düşürüleceğini bildirir.",
+    [
+     "İman edip salih amel işleyenlere kesintisiz bir mükâfat verileceğini müjdeler.",
+     0.8
+    ],
+    "Tin Suresi, dördüncü ayetin anlamı şöyledir.",
+    [
+     "Biz insanı en güzel şekilde yarattık.",
+     0.8
+    ],
+    "Berâ bin Âzib anlatıyor.",
+    "Resûlullah bir yolculukta yatsı namazının ilk iki rekâtından birinde Tîn suresini okudu.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnsan en güzel biçimde yaratılmıştır; değerini imanla ve iyilikle korur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "096-alak",
+   "baslik": "Alak Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Alak Suresi.",
+     0.7
+    ],
+    "Adının anlamı: alak, insanın ilk yaratılış evresi.",
+    [
+     "Mekke’de inmiştir. On dokuz ayettir, iniş sırasına göre birinci suredir.",
+     0.7
+    ],
+    "Tercih edilen görüşe göre ilk beş ayeti, Hira mağarasında Peygamberimize inen ilk vahiydir.",
+    "Yaratan Rabbinin adıyla oku! emriyle başlar; insanın alaktan yaratıldığını ve Allah’ın kalemle öğrettiğini bildirerek okumanın ve bilginin değerini öne çıkarır.",
+    [
+     "Kendini yeterli görüp azan ve namaz kılanı engellemeye çalışan kişiyi uyarır; secde edip Rabbine yaklaşmayı emreder.",
+     0.8
+    ],
+    "Alak Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Yaratan Rabbinin adıyla oku.",
+    "O, insanı pıhtılaşmış kandan, alak'tan, yarattı.",
+    "Oku!",
+    [
+     "Kalemle öğreten, insana bilmediğini bildiren Rabbin, en büyük kerem sahibidir.",
+     0.8
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Hira mağarasında melek Peygamberimize gelip Oku! dedi.",
+    "Üçüncü defasında Yaratan Rabbinin adıyla oku!",
+    "O, insanı alaktan yarattı.",
+    "Oku!",
+    "Rabbin en büyük kerem sahibidir ayetlerini okudu.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Okumak, Yaratanın adıyla başladığında insanı yüceltir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "097-kadr",
+   "baslik": "Kadr Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Kadr Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kadir, değer, şeref.",
+    [
+     "Mekke’de inmiştir. Beş ayettir, iniş sırasına göre yirmi beşinci suredir.",
+     0.7
+    ],
+    "Kur’an’ın Kadir gecesinde indirildiğini bildirir.",
+    "Bu gecenin bin aydan daha hayırlı olduğunu, o gece meleklerin ve Cebrâil’in Rablerinin izniyle indiğini anlatır.",
+    [
+     "Gecenin tan yeri ağarıncaya kadar esenlik olduğunu bildirerek Kur’an’ın insanlık için değerini öne çıkarır.",
+     0.8
+    ],
+    "Kadr Suresi, üçüncü ayetin anlamı şöyledir.",
+    [
+     "Kadir gecesi bin aydan hayırlıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an’ın indiği gece, bin aydan daha hayırlıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "098-beyyine",
+   "baslik": "Beyyine Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Beyyine Suresi.",
+     0.7
+    ],
+    "Adının anlamı: apaçık belge.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Sekiz ayettir, iniş sırasına göre yüzüncü suredir.",
+     0.7
+    ],
+    "Kitap ehlinden ve müşriklerden inkâr edenlerin, kendilerine apaçık bir belge olarak arınmış sayfaları okuyan bir peygamber gelinceye kadar inkârdan ayrılmayacaklarını bildirir.",
+    "Hak dinin özünü özetler: dini yalnızca Allah’a has kılarak O’na kulluk etmek, namaz kılmak ve zekât vermek.",
+    [
+     "İnkâr edenlerin ve iman edip salih amel işleyenlerin âkıbetini karşılaştırır.",
+     0.8
+    ],
+    "Beyyine Suresi, beşinci ayetin anlamı şöyledir.",
+    "Oysa onlar, doğruya yönelerek, dini yalnız Allah'a has kılarak O'na kulluk etmek, namazı kılmak ve zekatı vermekle emrolunmuşlardı.",
+    [
+     "Dosdoğru olan din de budur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dinin özü; Allah’a ihlasla kulluk, namaz ve zekâttır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "099-zilzal",
+   "baslik": "Zilzâl Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Zilzal Suresi.",
+     0.7
+    ],
+    "Adının anlamı: sarsıntı, deprem.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Sekiz ayettir, iniş sırasına göre doksan üçüncü suredir.",
+     0.7
+    ],
+    "Kıyamet günü yerin şiddetle sarsılacağını ve içindeki ağırlıkları dışarı çıkaracağını anlatır.",
+    "O gün yeryüzünün, üzerinde yapılanları haber vereceğini bildirir.",
+    [
+     "İnsanların amellerini görmek üzere bölük bölük çıkacaklarını, zerre kadar iyiliğin de kötülüğün de karşılıksız kalmayacağını vurgular.",
+     0.8
+    ],
+    "Zilzal Suresi, yedinci ve sekizinci ayetlerin anlamı şöyledir.",
+    "Kim zerre kadar iyilik yapmışsa onu görür.",
+    [
+     "Kim de zerre kadar kötülük yapmışsa onu görür.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zerre kadar iyilik de kötülük de karşılıksız kalmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "100-adiyat",
+   "baslik": "Âdiyât Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Adiyat Suresi.",
+     0.7
+    ],
+    "Adının anlamı: koşan atlar.",
+    [
+     "Mekke’de inmiştir. On bir ayettir, iniş sırasına göre on dördüncü suredir.",
+     0.7
+    ],
+    "Soluk soluğa koşan, kıvılcımlar saçan ve sabah baskını yapan atlara yeminle başlar.",
+    "İnsanın Rabbine karşı nankör olduğunu ve mal sevgisine aşırı düşkün olduğunu bildirir.",
+    [
+     "Kabirlerdekilerin çıkarılacağı ve kalplerdekinin ortaya konulacağı günü hatırlatır; Rablerinin o gün onların her hâlinden haberdar olduğunu vurgular.",
+     0.8
+    ],
+    "Adiyat Suresi, altıncı ayetin anlamı şöyledir.",
+    [
+     "İnsan gerçekten Rabbine karşı pek nankördür.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nimeti vereni unutan insan nankörleşir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "101-karia",
+   "baslik": "Kāria Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Karia Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kapıyı çalan, kıyamet.",
+    [
+     "Mekke’de inmiştir. On bir ayettir, iniş sırasına göre otuzuncu suredir.",
+     0.7
+    ],
+    "Kıyameti, yürekleri hoplatan bir çarpış olarak anar ve dehşetini anlatır.",
+    "O gün insanların ateş etrafında dökülen pervanelere, dağların atılmış renkli yüne döneceğini bildirir.",
+    [
+     "Tartıları ağır gelenin hoş bir hayata, hafif gelenin ise kızgın ateşe varacağını haber verir.",
+     0.8
+    ],
+    "Karia Suresi, altıncı ve yedinci ayetlerin anlamı şöyledir.",
+    [
+     "Ama tartıları ağır gelen kimse hoş bir hayat içinde olacaktır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "O gün değer, tartıda ağır gelen iyiliklerdedir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "102-tekasur",
+   "baslik": "Tekâsür Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Tekasür Suresi.",
+     0.7
+    ],
+    "Adının anlamı: çoklukla övünme yarışı.",
+    [
+     "Mekke’de inmiştir. Sekiz ayettir, iniş sırasına göre on altıncı suredir.",
+     0.7
+    ],
+    "Mal, nüfus ve soyla övünüp çoğalma yarışının insanı kabirlere girinceye kadar oyaladığını bildirir.",
+    "İnsanların cehennemi mutlaka göreceğini kesin bir dille haber verir.",
+    [
+     "O gün dünyada verilen her nimetten hesap sorulacağını hatırlatır.",
+     0.8
+    ],
+    "Tekasür Suresi, sekizinci ayetin anlamı şöyledir.",
+    [
+     "Sonra o gün, size verilmiş olan her nimetten sorguya çekileceksiniz.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her nimet bir emanettir; hesabı sorulacaktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "103-asr",
+   "baslik": "Asr Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Asr Suresi.",
+     0.7
+    ],
+    "Adının anlamı: zaman, ikindi vakti.",
+    [
+     "Mekke’de inmiştir. Üç ayettir, iniş sırasına göre on üçüncü suredir.",
+     0.7
+    ],
+    "Zamana yemin ederek insanın ziyan içinde olduğunu bildirir.",
+    "Bu ziyandan kurtulanları dört özellikle tanıtır: iman edenler, salih amel işleyenler, birbirine hakkı tavsiye edenler ve sabrı tavsiye edenler.",
+    [
+     "Kısa olmasına rağmen Kur’an’ın öğütlerinin özünü taşıdığı kabul edilir.",
+     0.8
+    ],
+    "Asr Suresi, birinci ile üçüncü ayetler arasının anlamı şöyledir.",
+    "İkindi vaktine, Asra; çağa, and olsun ki.",
+    "İnsan hiç şüphesiz hüsran içindedir.",
+    [
+     "Ancak inanıp yararlı iş işleyenler, birbirlerine gerçeği tavsiye edenler ve sabırlı olmayı tavsiye edenler bunun dışındadır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zamanı iman, iyilik, hak ve sabırla dolduran kazanır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "104-humeze",
+   "baslik": "Hümeze Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Hümeze Suresi.",
+     0.7
+    ],
+    "Adının anlamı: arkadan çekiştiren.",
+    [
+     "Mekke’de inmiştir. Dokuz ayettir, iniş sırasına göre otuz ikinci suredir.",
+     0.7
+    ],
+    "İnsanları arkalarından çekiştiren ve yüzlerine karşı ayıplayan kimseleri uyarır.",
+    "Mal toplayıp onu tekrar tekrar sayan ve malının kendisini ölümsüz kılacağını sanan kişinin Hutame ateşine atılacağını bildirir.",
+    [
+     "Malını ve gücünü üstünlük sayıp insanları küçümsemenin âkıbetini anlatır.",
+     0.8
+    ],
+    "Hümeze Suresi, birinci ve ikinci ayetlerin anlamı şöyledir.",
+    [
+     "Mal toplayarak onu tekrar tekrar sayan, diliyle çekiştirip alay eden kimsenin vay haline.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mal insanı ölümsüz kılmaz; insanları küçümsemek de kimseyi yüceltmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "105-fil",
+   "baslik": "Fîl Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Fil Suresi.",
+     0.7
+    ],
+    "Adının anlamı: fil.",
+    [
+     "Mekke’de inmiştir. Beş ayettir, iniş sırasına göre on dokuzuncu suredir.",
+     0.7
+    ],
+    "Peygamberimizin doğduğu yıl ya da biraz önce Kâbe’yi yıkmak için gelen Ebrehe’nin fil ordusunun başına gelenleri anlatır.",
+    "Allah’ın onların üzerine sert taşlar atan sürü sürü kuşlar gönderdiğini ve onları yenilmiş ekin gibi yaptığını bildirir.",
+    [
+     "Mekke müşriklerine Kâbe’yi koruyan kudreti hatırlatarak ibret almalarını öğütler.",
+     0.8
+    ],
+    "Fil Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Fil sahiplerine Rabbinin ne ettiğini görmedin mi.",
+    "Onların düzenlerini boşa çıkarmadı mı.",
+    "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+    [
+     "Sonunda onları, yenilmiş ekin gibi yaptı.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ın koruduğuna hiçbir ordu zarar veremez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "106-kureys",
+   "baslik": "Kureyş Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Kureyş Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kureyş kabilesi.",
+    [
+     "Mekke’de inmiştir. Dört ayettir, iniş sırasına göre yirmi dokuzuncu suredir.",
+     0.7
+    ],
+    "Fîl suresinin devamı niteliğindedir ve Allah’ın Kureyş kabilesine verdiği nimetleri hatırlatır.",
+    "Kışın ve yazın yaptıkları ticaret yolculuklarına alıştırıldıklarını bildirir.",
+    [
+     "Kendilerini açlıktan doyuran ve korkudan emin kılan bu Ev’in, yani Kâbe’nin Rabbine kulluk etmeye çağırır.",
+     0.8
+    ],
+    "Kureyş Suresi, üçüncü ve dördüncü ayetlerin anlamı şöyledir.",
+    [
+     "Öyleyse kendilerini açken doyuran ve korku içindeyken güven veren bu Ev'in, Kabe'nin, Rabbine kulluk etsinler.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nimetin şükrü, nimeti verene kulluktur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "107-maun",
+   "baslik": "Mâûn Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Maun Suresi.",
+     0.7
+    ],
+    "Adının anlamı: küçük yardım, ödünç eşya.",
+    [
+     "Mekke’de inmiştir. Yedi ayettir, iniş sırasına göre on yedinci suredir.",
+     0.7
+    ],
+    "Dini yalanlayan kimseyi tanıtır: yetimi itip kakan ve yoksulu doyurmaya yanaşmayan kişi.",
+    "Kıldıkları namazdan gafil olanları, gösteriş yapanları ve basit şeyleri bile vermeyenleri kınar.",
+    [
+     "İbadetin yardımlaşmadan ayrı düşünülemeyeceğini öğretir.",
+     0.8
+    ],
+    "Maun Suresi, birinci ile üçüncü ayetler arasının anlamı şöyledir.",
+    "Dini yalan sayanı gördün mü.",
+    [
+     "Öksüzü kakıştıran, yoksulu doyurmaya yanaşmayan kimse işte odur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yetime ve yoksula sırt çeviren, dinin özünü kaçırmıştır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "108-kevser",
+   "baslik": "Kevser Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Kevser Suresi.",
+     0.7
+    ],
+    "Adının anlamı: bol hayır.",
+    [
+     "Mekke’de inmiştir. Üç ayettir, iniş sırasına göre on beşinci suredir.",
+     0.7
+    ],
+    "Kur’an’ın en kısa suresidir.",
+    "Peygamberimize kevser, yani pek çok hayır verildiğini bildirir ve şükür olarak Rabbi için namaz kılıp kurban kesmesini emreder.",
+    [
+     "Peygamberimizi soyu kesik diye küçümseyenlere, asıl soyu kesik olanın kendileri olduğunu bildirerek onu teselli eder.",
+     0.8
+    ],
+    "Kevser Suresi, birinci ve ikinci ayetlerin anlamı şöyledir.",
+    "Doğrusu sana pek çok nimet vermişizdir.",
+    [
+     "Öyleyse Rabbin için namaz kıl, kurban kes.",
+     0.8
+    ],
+    "Enes bin Mâlik anlatıyor.",
+    "Resûlullah aramızda otururken hafifçe daldı, sonra gülümseyerek başını kaldırdı ve Bana az önce bir sure indi diyerek Kevser suresini okudu.",
+    "Ardından kevserin, Rabbinin kendisine vaat ettiği ve içinde çok hayır bulunan bir nehir olduğunu bildirdi.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Verilen nimetin şükrü, Allah için kulluktur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "109-kafirun",
+   "baslik": "Kâfirûn Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Kafirun Suresi.",
+     0.7
+    ],
+    "Adının anlamı: inkâr edenler.",
+    [
+     "Mekke’de inmiştir. Altı ayettir, iniş sırasına göre on sekizinci suredir.",
+     0.7
+    ],
+    "Rivayete göre Kureyş’in ileri gelenlerinin Bir yıl sen bizim ilahlarımıza tap, bir yıl biz senin ilahına tapalım teklifi üzerine inmiştir.",
+    "Peygamberimizin onların taptıklarına asla tapmayacağını açıkça bildirir.",
+    [
+     "Sizin dininiz size, benim dinim bana diyerek tevhid inancında taviz verilmeyeceğini ortaya koyar.",
+     0.8
+    ],
+    "Kafirun Suresi, altıncı ayetin anlamı şöyledir.",
+    [
+     "Sizin dininiz size, benim dinim banadır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnançta taviz olmaz; herkes kendi yolunun hesabını verir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "110-nasr",
+   "baslik": "Nasr Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Nasr Suresi.",
+     0.7
+    ],
+    "Adının anlamı: yardım, zafer.",
+    [
+     "Medine’de inmiştir. Üç ayettir, iniş sırasına göre yüz on dördüncü suredir.",
+     0.7
+    ],
+    "Bütün olarak indirilen son suredir; Veda haccı sırasında Minâ’da indiği rivayeti ağırlık kazanmıştır.",
+    "Allah’ın yardımı ve zafer gelip insanların akın akın Allah’ın dinine girdiğini görünce Rabbini hamd ile tesbih etmeyi ve O’ndan bağışlanma dilemeyi emreder.",
+    [
+     "İbn Abbas bu sureyi Peygamberimizin vefatının yaklaştığına işaret olarak yorumlamış, Hazreti Ömer de bu yorumu onaylamıştır.",
+     0.8
+    ],
+    "Nasr Suresi, birinci ile üçüncü ayetler arasının anlamı şöyledir.",
+    [
+     "Allah'ın yardımı ve zafer günü gelip, insanların Allah'ın dinine akın akın girdiklerini görünce, Rabbini överek tesbih et; O'ndan bağışlama dile, çünkü O, tevbeleri daima kabul edendir.",
+     0.8
+    ],
+    "İbn Abbas anlatıyor.",
+    "Hazreti Ömer, Bedir’e katılan büyüklerin yanında Nasr suresinin anlamını sordu.",
+    "İbn Abbas Bu, Allah’ın Resûlü’ne bildirdiği vefatının işaretidir dedi.",
+    "Hazreti Ömer de Ben de bu sureden senin söylediğinden başkasını bilmiyorum dedi.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zafer anı, şükür ve istiğfar anıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "111-tebbet",
+   "baslik": "Tebbet Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Tebbet Suresi.",
+     0.7
+    ],
+    "Adının anlamı: kurusun.",
+    [
+     "Mekke’de inmiştir. Beş ayettir, iniş sırasına göre altıncı suredir.",
+     0.7
+    ],
+    "Peygamberimiz Safâ tepesinde Kureyş’i uyardığında amcası Ebû Leheb’in ona beddua etmesi üzerine inmiştir.",
+    "Ebû Leheb’in ellerinin kuruyacağını, malının ve kazancının ona fayda vermeyeceğini, alevli bir ateşe gireceğini bildirir.",
+    [
+     "Karısının da boynunda bir ip olduğu hâlde odun taşıyacağını haber verir.",
+     0.8
+    ],
+    "Tebbet Suresi, birinci ve ikinci ayetlerin anlamı şöyledir.",
+    "Ebu Leheb'in elleri kurusun; kurudu da.",
+    [
+     "Malı ve kazandığı kendisine fayda vermedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mal da akrabalık da hakka düşmanlık edeni kurtarmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "112-ihlas",
+   "baslik": "İhlâs Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "İhlas Suresi.",
+     0.7
+    ],
+    "Adının anlamı: içtenlik, katıksız bağlılık.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Dört ayettir, iniş sırasına göre yirmi ikinci suredir.",
+     0.7
+    ],
+    "Allah’ın birliğini en özlü biçimde anlatır: O tektir, her şey O’na muhtaçtır ve O hiçbir şeye muhtaç değildir.",
+    "Doğurmadığını ve doğmadığını, hiçbir şeyin O’na denk olmadığını bildirir.",
+    [
+     "Rivayetlere göre Allah hakkında sorulan sorulara cevap olarak inmiştir.",
+     0.8
+    ],
+    "İhlas Suresi, birinci ile dördüncü ayetler arasının anlamı şöyledir.",
+    "De ki: O Allah bir tektir.",
+    "Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+    "O doğurmamış ve doğmamıştır.",
+    [
+     "Hiçbir şey O'na denk değildir.",
+     0.8
+    ],
+    "Ebû Saîd el-Hudrî rivayet ediyor. Peygamberimiz şöyle buyurmuştur.",
+    "Canımı elinde tutan Allah’a yemin ederim ki bu sure, Kur’an’ın üçte birine denktir.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah birdir; hiçbir şey O’na denk değildir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "113-felak",
+   "baslik": "Felak Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Felak Suresi.",
+     0.7
+    ],
+    "Adının anlamı: sabah aydınlığı.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Beş ayettir, iniş sırasına göre yirminci suredir.",
+     0.7
+    ],
+    "Nâs suresiyle birlikte inmiştir; ikisine birlikte muavvizeteyn, yani sığınma sureleri denir.",
+    "Tan yerini ağartan Rabbe; yarattıklarının, bastıran karanlığın, düğümlere üfleyenlerin ve haset edenin şerrinden sığınmayı öğretir.",
+    [
+     "Görünen ve görünmeyen her kötülüğe karşı sığınılacak tek kapının Allah olduğunu bildirir.",
+     0.8
+    ],
+    "Felak Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    [
+     "De ki: Yaratıkların şerrinden, bastırdığı zaman karanlığın şerrinden, düğümlere nefes eden büyücülerin şerrinden, hased ettiği zaman hasedcilerin şerrinden, tan yerini ağartan Rabbe sığınırım.",
+     0.8
+    ],
+    "Ukbe bin Âmir rivayet ediyor. Peygamberimiz şöyle buyurmuştur.",
+    "Bana öyle ayetler indirildi ki benzerleri hiç görülmemiştir: Felak ve Nâs sureleri.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her türlü kötülüğe karşı sığınılacak tek kapı Allah’tır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "114-nas",
+   "baslik": "Nâs Suresi",
+   "tur": "Otuzuncu cüz",
+   "parcalar": [
+    [
+     "Nas Suresi.",
+     0.7
+    ],
+    "Adının anlamı: insanlar.",
+    "Mekke’de mi Medine’de mi indiği konusunda âlimler arasında farklı görüş vardır.",
+    [
+     "Altı ayettir, iniş sırasına göre yirmi birinci suredir.",
+     0.7
+    ],
+    "Felak suresiyle birlikte inmiştir.",
+    "İnsanların Rabbi, Meliki ve İlâhı olan Allah’a, insanların gönlüne vesvese veren sinsi vesvesecinin şerrinden sığınmayı öğretir.",
+    [
+     "Bu vesvesecinin cinlerden de insanlardan da olabileceğini bildirir.",
+     0.8
+    ],
+    "Nas Suresi, birinci ile altıncı ayetler arasının anlamı şöyledir.",
+    [
+     "De ki: İnsanlardan ve cinlerden ve insanların gönüllerine vesvese veren o sinsi vesvesecinin şerrinden, insanların Tanrısı, insanların Hükümranı ve insanların Rabbi olan Allah'a sığınırım.",
+     0.8
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Resûlullah hastalandığında Felak ve Nâs surelerini okuyup kendine üflerdi.",
+    "Hastalığı ağırlaşınca bu sureleri ben okur, bereketini umarak onun elini vücuduna sürerdim.",
+    [
+     "Bu hadisi Buhari rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalbe gelen kötü düşüncelere karşı Allah’a sığınılır.",
+     1
+    ]
+   ]
+  }
+ ]
+}

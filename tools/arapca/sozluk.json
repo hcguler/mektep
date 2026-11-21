@@ -1,0 +1,7811 @@
+{
+ "N:رَبّ": {
+  "anlam": "Rab; sahip, efendi; terbiye edip yetiştiren",
+  "akraba": [
+   "Rab",
+   "rabbani",
+   "rububiyet"
+  ]
+ },
+ "N:يَوْم": {
+  "anlam": "gün; zaman, devir",
+  "akraba": [
+   "yevmiye"
+  ]
+ },
+ "N:غَيْر": {
+  "anlam": "değil, -sız; başka, -den başka",
+  "akraba": [
+   "gayri",
+   "mugayir",
+   "gayret"
+  ],
+  "not": "Kendinden sonraki isme tamlama ile bağlanır ve onu olumsuzlar ya da 'ondan başkası' anlamı verir."
+ },
+ "V:هَدَى": {
+  "anlam": "doğru yola eriştirmek, iletmek; yol göstermek",
+  "akraba": [
+   "hidayet",
+   "mehdi",
+   "mühtedi",
+   "hediye"
+  ],
+  "not": "Gidilecek yer hem doğrudan nesne olarak (اهْدِنَا الصِّرَاطَ) hem de إِلَى ya da لِ edatıyla gelebilir."
+ },
+ "V:عَبَدَ": {
+  "anlam": "kulluk etmek, ibadet etmek",
+  "akraba": [
+   "ibadet",
+   "mabet",
+   "âbit"
+  ]
+ },
+ "N:رَحِيم": {
+  "anlam": "Rahîm; çok merhametli, merhamet eden",
+  "akraba": [
+   "rahmet",
+   "merhamet",
+   "merhum",
+   "Rahman"
+  ]
+ },
+ "N:دِين": {
+  "anlam": "din; karşılık, ceza, hesap; boyun eğme, itaat",
+  "akraba": [
+   "din",
+   "diyanet",
+   "mütedeyyin"
+  ],
+  "not": "يَوْمُ الدِّينِ 'karşılık ve hesap günü', yani kıyamet günü demektir."
+ },
+ "N:عالَم": {
+  "anlam": "âlem; yaratılmışların bütünü; dünya",
+  "akraba": [
+   "âlem",
+   "ilim",
+   "âlim",
+   "malum"
+  ]
+ },
+ "V:آمَنَ": {
+  "anlam": "inanmak, iman etmek; güven vermek, emin kılmak",
+  "akraba": [
+   "iman",
+   "mümin",
+   "emin",
+   "emniyet"
+  ],
+  "not": "İnanılan şey çoğunlukla بِ edatıyla gelir: يُؤْمِنُونَ بِالْغَيْبِ 'gaybe inanırlar'."
+ },
+ "N:كِتاب": {
+  "anlam": "kitap; yazı, yazılı belge; yazılmış hüküm, farz",
+  "akraba": [
+   "kitap",
+   "kâtip",
+   "mektup",
+   "mektep"
+  ],
+  "simge": "kitap"
+ },
+ "N:قَبْل": {
+  "anlam": "önce; ön",
+  "akraba": [
+   "kabul",
+   "kıble",
+   "mukabele",
+   "istikbal"
+  ],
+  "not": "Çoğunlukla مِنْ ile مِنْ قَبْلِ 'daha önce, -den önce' biçiminde kullanılır."
+ },
+ "V:أَنزَلَ": {
+  "anlam": "indirmek; (bir yere) konaklatmak, yerleştirmek",
+  "akraba": [
+   "nüzul",
+   "menzil",
+   "tenzilat",
+   "nezle"
+  ]
+ },
+ "N:آخِر": {
+  "anlam": "âhiret (dişil biçimi الْآخِرَة); son, sonuncu",
+  "akraba": [
+   "âhiret",
+   "âhir",
+   "tehir"
+  ],
+  "not": "Dişil biçimi الْآخِرَة 'son yurt', yani âhiret anlamında kalıplaşmıştır."
+ },
+ "N:هُدًى": {
+  "anlam": "yol gösterme, hidayet; doğru yol",
+  "akraba": [
+   "hidayet",
+   "mehdi",
+   "hediye"
+  ]
+ },
+ "N:صَلاة": {
+  "anlam": "namaz; dua; (Allah'tan kuluna) rahmet",
+  "akraba": [
+   "salât",
+   "salavat",
+   "musalla"
+  ],
+  "not": "أَقَامَ الصَّلَاةَ 'namazı dosdoğru ve devamlı kılmak' demektir."
+ },
+ "V:أَنفَقَ": {
+  "anlam": "sarf etmek, harcamak; infak etmek (hayır yolunda vermek)",
+  "akraba": [
+   "infak",
+   "nafaka",
+   "nifak",
+   "münafık"
+  ]
+ },
+ "V:قالَ": {
+  "anlam": "demek, söylemek",
+  "akraba": [
+   "makale",
+   "mukavele",
+   "kavil"
+  ],
+  "not": "Söylenen söz doğrudan aktarılır; kendisine söylenen kişi لِ edatıyla gelir: قَالَ لَهُمْ 'onlara dedi'."
+ },
+ "V:كانَ": {
+  "anlam": "olmak; var olmak, meydana gelmek",
+  "akraba": [
+   "kâinat"
+  ],
+  "not": "Çoğu zaman yardımcı fiildir; ardından muzâri gelince geçmişte süreklilik bildirir: كَانُوا يَكْذِبُونَ 'yalan söylüyorlardı'."
+ },
+ "N:أَرْض": {
+  "anlam": "yeryüzü, yer; toprak; ülke",
+  "akraba": [
+   "arazi"
+  ],
+  "simge": "yeryuzu"
+ },
+ "N:إِذا": {
+  "anlam": "-dığı zaman, -ınca; bir de bakarsın (ani durum)",
+  "not": "Çoğunlukla gelecekle ilgili şart bildirir; ardından gelen mâzî fiil şimdiki ya da gelecek zamanla çevrilir."
+ },
+ "V:عَلِمَ": {
+  "anlam": "bilmek; öğrenmek, tanımak",
+  "akraba": [
+   "ilim",
+   "âlim",
+   "malum",
+   "muallim"
+  ]
+ },
+ "N:عَذاب": {
+  "anlam": "azap; ceza, eziyet",
+  "akraba": [
+   "azap"
+  ]
+ },
+ "N:نَفْس": {
+  "anlam": "kendi; can, kişi; nefis",
+  "akraba": [
+   "nefis",
+   "nefes",
+   "enfes",
+   "teneffüs"
+  ],
+  "not": "Zamirle birlikte 'kendi' anlamı verir: أَنْفُسَهُمْ 'kendilerini'."
+ },
+ "V:كَفَرَ": {
+  "anlam": "inkâr etmek, kâfir olmak; nankörlük etmek; örtmek",
+  "akraba": [
+   "kâfir",
+   "küfür",
+   "kefaret"
+  ],
+  "not": "İnkâr edilen şey بِ edatıyla gelir: كَفَرَ بِاللّٰهِ 'Allah'ı inkâr etti'."
+ },
+ "N:كُلّ": {
+  "anlam": "her; bütün, hepsi",
+  "akraba": [
+   "külliyat",
+   "külliye",
+   "küllî"
+  ],
+  "not": "Belirsiz tekil isimle 'her', belirli ya da çoğul isimle 'bütün, hepsi' anlamı verir."
+ },
+ "V:جَعَلَ": {
+  "anlam": "koymak, tıkamak; kılmak, yapmak; var etmek",
+  "not": "İki nesne aldığında 'bir şeyi başka bir şey kılmak' anlamına gelir."
+ },
+ "N:سَماء": {
+  "anlam": "gök, gökyüzü; yukarıda olan her şey; yağmur",
+  "akraba": [
+   "semâ",
+   "semavi"
+  ],
+  "simge": "gok"
+ },
+ "N:شَىْء": {
+  "anlam": "şey, nesne",
+  "akraba": [
+   "eşya"
+  ]
+ },
+ "V:أَتَى": {
+  "anlam": "getirmek (بِ ile); gelmek; yapmak, işlemek",
+  "akraba": [
+   "âti"
+  ],
+  "not": "بِ edatıyla kullanıldığında 'getirmek' anlamına gelir: فَأْتُوا بِسُورَةٍ 'bir sure getirin'."
+ },
+ "N:ناس": {
+  "anlam": "insanlar",
+  "akraba": [
+   "insan",
+   "ünsiyet"
+  ]
+ },
+ "V:شاءَ": {
+  "anlam": "dilemek, istemek",
+  "akraba": [
+   "inşallah",
+   "maşallah",
+   "meşiyet"
+  ]
+ },
+ "N:أَيّ": {
+  "anlam": "ey (يَا أَيُّهَا kalıbında); hangi, hangisi",
+  "not": "يَا أَيُّهَا (dişili يَا أَيَّتُهَا) 'ey' anlamında hitap kalıbıdır; ardından gelen belirli isim hitap edilendir."
+ },
+ "V:عَمِلَ": {
+  "anlam": "yapmak, işlemek; çalışmak",
+  "akraba": [
+   "amel",
+   "amele",
+   "muamele",
+   "imal"
+  ]
+ },
+ "N:حَقّ": {
+  "anlam": "gerçek, hak; doğru; hak edilen pay, gereken ödev",
+  "akraba": [
+   "hak",
+   "hakikat",
+   "hukuk",
+   "tahkik"
+  ]
+ },
+ "N:بَعْد": {
+  "anlam": "sonra; ardından",
+  "not": "Çoğunlukla مِنْ ile مِنْ بَعْدِ '-den sonra' biçiminde kullanılır."
+ },
+ "V:خَلَقَ": {
+  "anlam": "yaratmak; ölçüp biçmek, takdir etmek",
+  "akraba": [
+   "mahluk",
+   "ahlak",
+   "halk",
+   "hilkat"
+  ]
+ },
+ "N:عَلِيم": {
+  "anlam": "Alîm; her şeyi bilen, hakkıyla bilen",
+  "akraba": [
+   "ilim",
+   "âlim",
+   "malum",
+   "muallim"
+  ]
+ },
+ "N:جَنَّة": {
+  "anlam": "cennet; ağaçlarla örtülü bahçe",
+  "akraba": [
+   "cennet",
+   "cenin",
+   "mecnun",
+   "cin"
+  ]
+ },
+ "V:أَرادَ": {
+  "anlam": "murat etmek, kastetmek; istemek, dilemek",
+  "akraba": [
+   "irade",
+   "murat",
+   "mürit"
+  ]
+ },
+ "N:مَثَل": {
+  "anlam": "misal, örnek; benzetme, temsil; durum, sıfat",
+  "akraba": [
+   "misal",
+   "temsil",
+   "mesel",
+   "timsal"
+  ]
+ },
+ "N:إِذ": {
+  "anlam": "hani, o zaman ki; -dığı zaman (geçmişte)",
+  "not": "Geçmişteki bir olayı hatırlatır; وَإِذْ ile başlayan ayetler çoğu zaman 'Hani ... (hatırla)' anlamı taşır."
+ },
+ "N:بَعْض": {
+  "anlam": "kimi, bir kısmı; bazı",
+  "akraba": [
+   "bazı",
+   "bazen"
+  ],
+  "not": "بَعْضُكُمْ لِبَعْضٍ 'birbiriniz için' demektir."
+ },
+ "N:كافِر": {
+  "anlam": "inkâr eden, kâfir; nankör",
+  "akraba": [
+   "kâfir",
+   "küfür",
+   "kefaret"
+  ]
+ },
+ "N:لَمّا": {
+  "anlam": "-ınca, -dığı zaman; henüz ... değil",
+  "not": "Ardından mâzî fiil gelirse '-ınca' anlamı verir; meczûm muzâri ile 'henüz ... -medi' demektir."
+ },
+ "N:ظالِم": {
+  "anlam": "zalim, zulmeden; haksızlık eden",
+  "akraba": [
+   "zalim",
+   "zulüm",
+   "mazlum",
+   "zulmet"
+  ]
+ },
+ "N:عِلْم": {
+  "anlam": "bilgi, ilim",
+  "akraba": [
+   "ilim",
+   "âlim",
+   "malum",
+   "muallim"
+  ]
+ },
+ "V:أَخْرَجَ": {
+  "anlam": "çıkarmak; (bitki) bitirmek",
+  "akraba": [
+   "ihraç",
+   "hariç",
+   "mahreç",
+   "haraç"
+  ]
+ },
+ "N:حَكِيم": {
+  "anlam": "Hakîm; hikmet sahibi, her işi yerinde yapan",
+  "akraba": [
+   "hikmet",
+   "hekim",
+   "hüküm",
+   "mahkeme"
+  ]
+ },
+ "N:مَن": {
+  "anlam": "... olan kimse, kim ki; kim? (soru); kim ... ise (şart)",
+  "not": "Yalnız akıllı varlıklar için kullanılır; مِنْ ('-den') edatıyla karıştırılmamalıdır."
+ },
+ "N:آيَة": {
+  "anlam": "ayet; işaret, alamet; delil, mucize",
+  "akraba": [
+   "ayet"
+  ]
+ },
+ "V:آتَى": {
+  "anlam": "vermek; ihsan etmek",
+  "not": "أَتَى 'gelmek' fiilinin IV. kalıbıdır ve 'vermek' anlamına gelir: آتُوا الزَّكَاةَ 'zekâtı verin'."
+ },
+ "V:كَذَّبَ": {
+  "anlam": "yalan saymak, yalanlamak",
+  "akraba": [
+   "tekzip"
+  ],
+  "not": "Yalanlanan şey بِ edatıyla ya da doğrudan nesne olarak gelir: كَذَّبُوا بِآيَاتِنَا 'ayetlerimizi yalanladılar'."
+ },
+ "V:اتَّقَى": {
+  "anlam": "sakınmak, korunmak; (Allah'a karşı gelmekten) sakınmak, takva sahibi olmak",
+  "akraba": [
+   "takva",
+   "müttaki"
+  ],
+  "not": "Sakınılan doğrudan nesne olarak gelir: اتَّقُوا اللّٰهَ 'Allah'a karşı gelmekten sakının'."
+ },
+ "N:مَع": {
+  "anlam": "yanında; ile, beraber",
+  "akraba": [
+   "maiyet"
+  ]
+ },
+ "N:نار": {
+  "anlam": "cehennem ateşi, cehennem; ateş",
+  "akraba": [
+   "nur",
+   "münevver",
+   "tenvir"
+  ],
+  "not": "أَصْحَابُ النَّارِ 'ateş ehli', yani cehennemlikler demektir."
+ },
+ "V:أَخَذَ": {
+  "anlam": "almak; tutmak, yakalamak; cezalandırmak",
+  "akraba": [
+   "muaheze",
+   "ahize",
+   "mehaz"
+  ]
+ },
+ "N:قَوْم": {
+  "anlam": "millet, kavim; topluluk, halk",
+  "akraba": [
+   "kavim",
+   "kıyamet",
+   "makam",
+   "ikamet"
+  ]
+ },
+ "V:رَأَى": {
+  "anlam": "görmek; bilmek, kanaatine varmak",
+  "akraba": [
+   "rüya",
+   "rey",
+   "riya"
+  ],
+  "not": "أَرَأَيْتَ kalıbı 'gördün mü?, haber ver bakalım' anlamında dikkat çekmek için kullanılır."
+ },
+ "N:عِند": {
+  "anlam": "katında, yanında; -de"
+ },
+ "N:خَيْر": {
+  "anlam": "daha hayırlı, daha iyi; hayır, iyilik; mal",
+  "akraba": [
+   "hayır",
+   "muhtar",
+   "ihtiyar"
+  ]
+ },
+ "V:اتَّخَذَ": {
+  "anlam": "edinmek; (bir şeyi bir şey) kabul etmek, tutmak",
+  "not": "Çoğunlukla iki nesne alır: اتَّخَذُوا الْعِجْلَ إِلٰهًا 'buzağıyı tanrı edindiler'."
+ },
+ "V:ظَلَمَ": {
+  "anlam": "(kendine) yazık etmek, haksızlık etmek; zulmetmek; eksik bırakmak",
+  "akraba": [
+   "zulüm",
+   "zalim",
+   "mazlum"
+  ]
+ },
+ "N:عَظِيم": {
+  "anlam": "büyük; azametli, yüce",
+  "akraba": [
+   "muazzam",
+   "azamet",
+   "azami",
+   "tazim"
+  ]
+ },
+ "V:أَكَلَ": {
+  "anlam": "yemek; (haksız yere) yiyip tüketmek"
+ },
+ "V:دَعا": {
+  "anlam": "yalvarmak, dua etmek; çağırmak, davet etmek",
+  "akraba": [
+   "dua",
+   "davet",
+   "dava",
+   "iddia"
+  ],
+  "not": "دَعَا رَبَّهُ 'Rabbine dua etti', دَعَا إِلَى 'bir şeye çağırdı' demektir."
+ },
+ "V:سَأَلَ": {
+  "anlam": "istemek; sormak",
+  "akraba": [
+   "sual",
+   "mesele",
+   "mesul"
+  ],
+  "not": "Sorulan konu عَنْ ile gelir: يَسْأَلُونَكَ عَنْ ... 'sana ... hakkında soruyorlar'."
+ },
+ "N:قَوْل": {
+  "anlam": "söz; söyleme",
+  "akraba": [
+   "kavil",
+   "makale",
+   "mukavele"
+  ]
+ },
+ "V:قَتَلَ": {
+  "anlam": "öldürmek",
+  "akraba": [
+   "katil",
+   "maktul",
+   "katliam"
+  ]
+ },
+ "V:دَخَلَ": {
+  "anlam": "girmek",
+  "akraba": [
+   "dahil",
+   "müdahale",
+   "dahiliye"
+  ]
+ },
+ "N:نَبِيّ": {
+  "anlam": "peygamber, nebi",
+  "akraba": [
+   "nebi",
+   "nübüvvet",
+   "enbiya"
+  ]
+ },
+ "N:إِنسان": {
+  "anlam": "insan; insanlar, topluluk (أُنَاس biçimi)",
+  "akraba": [
+   "insan",
+   "insaniyet",
+   "ünsiyet"
+  ],
+  "not": "كُلُّ أُنَاسٍ 'her topluluk, herkes' demektir."
+ },
+ "V:غَفَرَ": {
+  "anlam": "bağışlamak, mağfiret etmek; örtmek",
+  "akraba": [
+   "mağfiret",
+   "istiğfar",
+   "gafur"
+  ]
+ },
+ "N:ما": {
+  "anlam": "... olan şey, şey ki; ne? (soru); ne ... ise (şart)",
+  "not": "Ayrıca 'değil' anlamında olumsuzluk edatı olarak da kullanılır; görevi bağlamdan anlaşılır."
+ },
+ "N:بَيْن": {
+  "anlam": "arası, arasında; (بَيْنَ يَدَيْ) önü, öncesi",
+  "akraba": [
+   "beyan",
+   "beyanname"
+  ],
+  "not": "بَيْنَ يَدَيْهِ 'iki elinin arası', yani 'önünde, kendinden önce' anlamında bir deyimdir."
+ },
+ "N:يَد": {
+  "anlam": "el; güç, kudret; nimet, iyilik",
+  "akraba": [
+   "yediemin"
+  ],
+  "simge": "el"
+ },
+ "N:رَحْمَة": {
+  "anlam": "merhamet, rahmet; lütuf, nimet",
+  "akraba": [
+   "rahmet",
+   "merhamet",
+   "merhum",
+   "Rahman"
+  ]
+ },
+ "N:أَجْر": {
+  "anlam": "ecir, mükâfat; ücret, karşılık",
+  "akraba": [
+   "ecir",
+   "ücret",
+   "icar"
+  ]
+ },
+ "V:فَعَلَ": {
+  "anlam": "yapmak, işlemek",
+  "akraba": [
+   "fiil",
+   "faal",
+   "fail",
+   "faaliyet"
+  ]
+ },
+ "V:ذَكَرَ": {
+  "anlam": "hatırlamak, hatırda tutmak; anmak, zikretmek; söz etmek",
+  "akraba": [
+   "zikir",
+   "tezkere",
+   "müzakere",
+   "mezkûr"
+  ]
+ },
+ "N:فَضْل": {
+  "anlam": "nimet, lütuf, ihsan; üstünlük; fazlalık",
+  "akraba": [
+   "fazilet",
+   "fazla"
+  ]
+ },
+ "V:جاءَ": {
+  "anlam": "(بِ ile) getirmek, ortaya koymak; gelmek",
+  "not": "بِ edatıyla 'getirmek' anlamı kazanır: جِئْتَ بِالْحَقِّ 'gerçeği getirdin'."
+ },
+ "N:قَلْب": {
+  "anlam": "kalp, yürek; gönül, akıl",
+  "akraba": [
+   "kalp",
+   "inkılap",
+   "kalıp"
+  ],
+  "simge": "kalp"
+ },
+ "V:سَمِعَ": {
+  "anlam": "işitmek, duymak; dinleyip kabul etmek",
+  "akraba": [
+   "istima"
+  ],
+  "not": "Kabul edip uymak anlamında da kullanılır: سَمِعْنَا وَأَطَعْنَا 'işittik ve itaat ettik'."
+ },
+ "N:ماء": {
+  "anlam": "su",
+  "akraba": [
+   "mavi"
+  ],
+  "simge": "su"
+ },
+ "V:ضَرَبَ": {
+  "anlam": "vurmak; (örnek) vermek; yolculuk etmek (فِي الْأَرْضِ ile)",
+  "akraba": [
+   "darbe",
+   "darp",
+   "ıstırap",
+   "darbımesel"
+  ],
+  "not": "ضَرَبَ مَثَلًا 'örnek verdi', ضَرَبَ فِي الْأَرْضِ 'yeryüzünde yolculuk etti' demektir."
+ },
+ "N:نَهَر": {
+  "anlam": "ırmak, nehir",
+  "akraba": [
+   "nehir"
+  ],
+  "simge": "nehir"
+ },
+ "V:خَرَجَ": {
+  "anlam": "çıkmak",
+  "akraba": [
+   "hariç",
+   "ihraç",
+   "mahreç"
+  ]
+ },
+ "V:أَحْيا": {
+  "anlam": "diriltmek, hayat vermek",
+  "akraba": [
+   "hayat",
+   "ihya",
+   "hayvan"
+  ]
+ },
+ "N:ذُو": {
+  "anlam": "sahibi, ... sahibi olan, -lı",
+  "akraba": [
+   "zat"
+  ],
+  "not": "Ardından gelen isimle tamlama kurar ve hâline göre ذُو / ذَا / ذِي olur: ذِي الْقُرْبَىٰ 'yakınlık sahibi', yani yakınlar."
+ },
+ "N:بُنَىّ": {
+  "anlam": "oğullar, çocuklar (بَنُو / بَنِي); oğulcuğum (يَا بُنَيَّ)",
+  "not": "بَنُو إِسْرَائِيلَ / بَنِي إِسْرَائِيلَ 'İsrailoğulları' demektir; tekili ابْن 'oğul'dur."
+ },
+ "N:أَصْحاب": {
+  "anlam": "ehli, sahipleri; arkadaşlar, dostlar",
+  "akraba": [
+   "sahip",
+   "sahabe",
+   "sohbet",
+   "ashap"
+  ],
+  "not": "Tekili صَاحِب'tir; أَصْحَابُ النَّارِ 'cehennemlikler', أَصْحَابُ الْجَنَّةِ 'cennetlikler' demektir."
+ },
+ "V:تَوَلَّى": {
+  "anlam": "dönmek, yüz çevirmek; dost edinmek; üstlenmek",
+  "akraba": [
+   "veli",
+   "vali",
+   "evliya",
+   "mevla"
+  ],
+  "not": "Nesnesiz ya da عَنْ ile 'yüz çevirmek', doğrudan nesneyle 'dost edinmek' anlamı verir."
+ },
+ "N:خالِد": {
+  "anlam": "temelli kalan, ebedî kalıcı"
+ },
+ "N:قَلِيل": {
+  "anlam": "az, azıcık",
+  "akraba": [
+   "istiklal",
+   "müstakil"
+  ]
+ },
+ "N:صالِحَة": {
+  "anlam": "yararlı iş, iyi amel; iyi, salih (dişil)",
+  "akraba": [
+   "salih",
+   "sulh",
+   "ıslah",
+   "maslahat"
+  ],
+  "not": "عَمِلُوا الصَّالِحَاتِ 'yararlı işler yaptılar' kalıbında çok geçer."
+ },
+ "V:كَسَبَ": {
+  "anlam": "kazanmak, elde etmek; (iyi ya da kötü) işlemek",
+  "akraba": [
+   "kesp",
+   "müktesep"
+  ]
+ },
+ "N:رَسُول": {
+  "anlam": "peygamber, resul; elçi",
+  "akraba": [
+   "resul",
+   "risalet",
+   "risale",
+   "irsaliye"
+  ]
+ },
+ "N:دُنْيا": {
+  "anlam": "dünya; en yakın olan, aşağı olan",
+  "akraba": [
+   "dünya",
+   "tedenni"
+  ],
+  "not": "Kelime anlamı 'en yakın'dır; الْحَيَاةُ الدُّنْيَا 'dünya hayatı' demektir."
+ },
+ "N:حَياة": {
+  "anlam": "hayat, yaşam",
+  "akraba": [
+   "hayat",
+   "ihya",
+   "hayvan"
+  ]
+ },
+ "N:بَيِّنَة": {
+  "anlam": "belge, açık delil; apaçık mucize",
+  "akraba": [
+   "beyan",
+   "beyyine"
+  ]
+ },
+ "N:قِيامَة": {
+  "anlam": "kıyamet; kalkış, diriliş",
+  "akraba": [
+   "kıyamet",
+   "kıyam",
+   "makam",
+   "ikamet"
+  ],
+  "not": "يَوْمُ الْقِيَامَةِ 'kalkış günü', yani kıyamet günü demektir."
+ },
+ "N:ابْن": {
+  "anlam": "oğul",
+  "not": "Çoğulu أَبْنَاء ve بَنُونَ / بَنِينَ'dir."
+ },
+ "V:نَصَرَ": {
+  "anlam": "yardım etmek; zafer vermek, kurtarmak",
+  "akraba": [
+   "nusret",
+   "ensar"
+  ]
+ },
+ "N:دار": {
+  "anlam": "yurt, ev; ülke; (الدَّار) âhiret yurdu",
+  "akraba": [
+   "daire",
+   "idare",
+   "müdür",
+   "devir"
+  ],
+  "simge": "ev"
+ },
+ "N:مُؤْمِن": {
+  "anlam": "inanan, mümin; güven veren (Allah'ın adı olarak)",
+  "akraba": [
+   "mümin",
+   "iman",
+   "emin",
+   "emniyet"
+  ]
+ },
+ "N:عَبْد": {
+  "anlam": "kul; köle",
+  "akraba": [
+   "ibadet",
+   "mabet",
+   "âbit"
+  ]
+ },
+ "V:أَمَرَ": {
+  "anlam": "emretmek, buyurmak",
+  "akraba": [
+   "emir",
+   "amir",
+   "memur"
+  ],
+  "not": "Emredilen şey بِ edatıyla gelir: يَأْمُرُكُمْ بِهِ 'size onu emrediyor'."
+ },
+ "V:نَزَّلَ": {
+  "anlam": "indirmek; parça parça indirmek",
+  "akraba": [
+   "tenzilat",
+   "nüzul",
+   "menzil"
+  ],
+  "not": "II. kalıptır; bazı âlimlere göre أَنْزَلَ'den farklı olarak 'parça parça, tekrar tekrar indirmek' anlamını taşır."
+ },
+ "N:إِيمان": {
+  "anlam": "iman, inanç",
+  "akraba": [
+   "iman",
+   "mümin",
+   "emin",
+   "emniyet"
+  ]
+ },
+ "N:فَوْق": {
+  "anlam": "üstünde, üzerinde; daha üstün, daha fazla",
+  "akraba": [
+   "fevkalade",
+   "faik"
+  ]
+ },
+ "V:بِئْسَ": {
+  "anlam": "ne kötü!, ne fena!",
+  "akraba": [
+   "beis"
+  ],
+  "not": "Çekimi olmayan bir yerme fiilidir; zıddı نِعْمَ 'ne güzel!'dir."
+ },
+ "N:كُفْر": {
+  "anlam": "inkâr, küfür; nankörlük",
+  "akraba": [
+   "küfür",
+   "kâfir",
+   "kefaret"
+  ]
+ },
+ "N:دُون": {
+  "anlam": "başka, -den başka; beri, aşağı",
+  "not": "مِنْ دُونِ اللّٰهِ 'Allah'tan başka' anlamında çok geçer."
+ },
+ "V:وَجَدَ": {
+  "anlam": "bulmak, görmek; (bir şeyin öyle olduğunu) bulmak",
+  "akraba": [
+   "vicdan",
+   "vücut",
+   "mevcut",
+   "icat"
+  ]
+ },
+ "N:مَلَك": {
+  "anlam": "melek"
+ },
+ "N:أَكْثَر": {
+  "anlam": "çoğu; daha çok, en çok",
+  "akraba": [
+   "ekseriyet",
+   "ekseri",
+   "teksir"
+  ],
+  "not": "أَكْثَرُهُمْ 'onların çoğu' demektir."
+ },
+ "N:أَحَد": {
+  "anlam": "biri; bir, tek; (olumsuz cümlede) hiç kimse"
+ },
+ "V:أَشْرَكَ": {
+  "anlam": "(Allah'a) eş koşmak, ortak koşmak; ortak etmek",
+  "akraba": [
+   "şirk",
+   "şirket",
+   "müşrik",
+   "iştirak"
+  ],
+  "not": "Ortak koşulan şey بِ edatıyla gelir: أَشْرَكَ بِاللّٰهِ 'Allah'a ortak koştu'."
+ },
+ "N:صادِق": {
+  "anlam": "doğru sözlü, sadık; doğru",
+  "akraba": [
+   "sadık",
+   "sadakat",
+   "tasdik",
+   "sadaka"
+  ]
+ },
+ "N:بَصِير": {
+  "anlam": "gören, Basîr; basiret sahibi",
+  "akraba": [
+   "basiret"
+  ]
+ },
+ "V:اتَّبَعَ": {
+  "anlam": "uymak, tâbi olmak; ardından gitmek",
+  "akraba": [
+   "tâbi",
+   "tebaa",
+   "tâbiiyet"
+  ]
+ },
+ "N:أَهْل": {
+  "anlam": "ehli, mensupları; aile, halk; layık olan",
+  "akraba": [
+   "ehil",
+   "ehliyet",
+   "ahali",
+   "müteehhil"
+  ]
+ },
+ "V:نَظَرَ": {
+  "anlam": "gözetmek, bakmak; beklemek, mühlet vermek; düşünmek",
+  "akraba": [
+   "nazar",
+   "manzara",
+   "nezaret",
+   "nazariye"
+  ],
+  "not": "إِلَى ile 'bir şeye bakmak', فِي ile 'üzerinde düşünmek', doğrudan nesneyle 'beklemek, gözetmek' anlamı verir."
+ },
+ "N:زَوْج": {
+  "anlam": "eş (karı ya da koca); çift, tür",
+  "akraba": [
+   "zevce",
+   "zevç",
+   "izdivaç"
+  ]
+ },
+ "N:أَلِيم": {
+  "anlam": "elem verici, acı veren",
+  "akraba": [
+   "elem",
+   "elim"
+  ]
+ },
+ "V:تَلَى": {
+  "anlam": "okumak, okuyup anlatmak; ardından gelmek, izlemek",
+  "akraba": [
+   "tilavet",
+   "tâli"
+  ]
+ },
+ "N:مُلْك": {
+  "anlam": "hükümdarlık, saltanat; mülk",
+  "akraba": [
+   "mülk",
+   "melik",
+   "memleket",
+   "mülkiyet"
+  ]
+ },
+ "N:مُشْرِك": {
+  "anlam": "müşrik, (Allah'a) eş koşan",
+  "akraba": [
+   "müşrik",
+   "şirk",
+   "şirket",
+   "iştirak"
+  ]
+ },
+ "N:سَبِيل": {
+  "anlam": "yol; yöntem, çare",
+  "akraba": [
+   "sebil"
+  ],
+  "simge": "yol"
+ },
+ "N:أَمْر": {
+  "anlam": "emir, buyruk; iş, durum",
+  "akraba": [
+   "emir",
+   "amir",
+   "memur"
+  ]
+ },
+ "N:وَلِيّ": {
+  "anlam": "dost; koruyucu, yardımcı; veli, yakın",
+  "akraba": [
+   "veli",
+   "evliya",
+   "vali",
+   "mevla"
+  ]
+ },
+ "N:مِثْل": {
+  "anlam": "benzer, misil; eş, aynısı",
+  "akraba": [
+   "misil",
+   "misal",
+   "temsil",
+   "mümessil"
+  ],
+  "not": "مَثَل ('örnek, misal') ile karıştırılmamalıdır; مِثْل 'benzer, aynısı' demektir."
+ },
+ "N:وَجْه": {
+  "anlam": "yüz; kendisi, zat; yön, taraf",
+  "akraba": [
+   "teveccüh",
+   "cihet",
+   "muvacehe",
+   "vecih"
+  ],
+  "not": "أَسْلَمَ وَجْهَهُ لِلّٰهِ 'yüzünü, yani kendini Allah'a teslim etti' demektir."
+ },
+ "N:كَثِير": {
+  "anlam": "çok",
+  "akraba": [
+   "ekseriyet",
+   "kesret",
+   "teksir"
+  ]
+ },
+ "V:أَقامَ": {
+  "anlam": "(namazı) kılmak, dosdoğru yerine getirmek; ikamet etmek; dikmek",
+  "akraba": [
+   "ikamet",
+   "kıyam",
+   "istikamet",
+   "mukim"
+  ],
+  "not": "أَقِيمُوا الصَّلَاةَ 'namazı dosdoğru kılın' kalıbında çok geçer."
+ },
+ "V:ضَلَّ": {
+  "anlam": "sapmak, yolunu kaybetmek; kaybolmak",
+  "akraba": [
+   "dalalet"
+  ],
+  "not": "Sapılan yol عَنْ ile gelir: ضَلَّ عَنْ سَبِيلِهِ 'O'nun yolundan saptı'."
+ },
+ "V:أَرْسَلَ": {
+  "anlam": "göndermek; salıvermek",
+  "akraba": [
+   "resul",
+   "risale",
+   "irsaliye"
+  ]
+ },
+ "V:لَيْسَ": {
+  "anlam": "değil(dir); yoktur",
+  "not": "Olumsuzluk bildiren eksik fiildir; mâzî biçiminde olduğu hâlde 'şu an değil' anlamı verir, haberi çoğu zaman بِ ile gelir."
+ },
+ "V:قَضَى": {
+  "anlam": "karar vermek, hükmetmek; tamamlamak, yerine getirmek; yaratmak",
+  "akraba": [
+   "kaza",
+   "kadı",
+   "iktiza"
+  ]
+ },
+ "N:نَذِير": {
+  "anlam": "uyarıcı, korkutucu"
+ },
+ "N:وَلَد": {
+  "anlam": "oğul, çocuk; evlat",
+  "akraba": [
+   "evlat",
+   "mevlit",
+   "valide",
+   "veladet"
+  ],
+  "not": "Erkek ve kız çocuk için, tekil ve çoğul anlamda kullanılabilir; ayette 'oğul' diye çevrilmiştir."
+ },
+ "V:حَكَمَ": {
+  "anlam": "hüküm vermek, hükmetmek",
+  "akraba": [
+   "hüküm",
+   "hakem",
+   "hâkim",
+   "mahkeme"
+  ]
+ },
+ "N:سُبْحان": {
+  "anlam": "münezzehtir, haşa; tesbih etmek",
+  "akraba": [
+   "tesbih",
+   "sübhanallah"
+  ],
+  "not": "Çoğunlukla سُبْحَانَ اللّٰهِ / سُبْحَانَهُ biçiminde Allah'ı her türlü eksiklikten tenzih etmek için kullanılır."
+ },
+ "N:اسْم": {
+  "anlam": "isim, ad",
+  "akraba": [
+   "isim",
+   "esma",
+   "müsemma"
+  ]
+ },
+ "V:جَزَى": {
+  "anlam": "(yerine) ödemek, yetmek; karşılığını vermek (ceza ya da mükâfat)",
+  "akraba": [
+   "ceza",
+   "cizye",
+   "mücazat"
+  ]
+ },
+ "N:بَيْت": {
+  "anlam": "Kâbe (الْبَيْت); ev",
+  "akraba": [
+   "beyit",
+   "beytülmal"
+  ],
+  "simge": "ev"
+ },
+ "V:رَزَقَ": {
+  "anlam": "rızık vermek, rızıklandırmak",
+  "akraba": [
+   "rızık",
+   "erzak",
+   "Rezzak"
+  ]
+ },
+ "N:نِعْمَة": {
+  "anlam": "nimet; iyilik, lütuf",
+  "akraba": [
+   "nimet"
+  ]
+ },
+ "N:كَلِمَة": {
+  "anlam": "emir, söz; kelime",
+  "akraba": [
+   "kelime",
+   "kelam",
+   "mükâleme"
+  ]
+ },
+ "V:رَضِيَ": {
+  "anlam": "razı olmak, hoşnut olmak; beğenmek",
+  "akraba": [
+   "rıza",
+   "razı",
+   "rıdvan"
+  ],
+  "not": "Razı olunan kişi عَنْ, beğenilen şey بِ ile gelir: رَضِيَ اللّٰهُ عَنْهُمْ 'Allah onlardan razı oldu'."
+ },
+ "N:نَصِير": {
+  "anlam": "yardımcı",
+  "akraba": [
+   "nusret",
+   "ensar"
+  ]
+ },
+ "N:خاسِر": {
+  "anlam": "kaybeden, ziyana uğrayan",
+  "akraba": [
+   "hüsran",
+   "hasar"
+  ]
+ },
+ "N:إِلٰه": {
+  "anlam": "tanrı, ilah; ibadet edilen",
+  "akraba": [
+   "ilah",
+   "ilahi",
+   "ilahiyat",
+   "uluhiyet"
+  ]
+ },
+ "N:عَزِيز": {
+  "anlam": "güçlü, mutlak galip, Azîz; değerli; ağır gelen",
+  "akraba": [
+   "aziz",
+   "izzet",
+   "muazzez"
+  ]
+ },
+ "N:صالِح": {
+  "anlam": "iyi, salih; düzgün, uygun",
+  "akraba": [
+   "salih",
+   "sulh",
+   "ıslah",
+   "maslahat"
+  ]
+ },
+ "N:أُمَّة": {
+  "anlam": "ümmet, topluluk; din, yol; süre, bir zaman",
+  "akraba": [
+   "ümmet",
+   "imam",
+   "ümmi"
+  ]
+ },
+ "N:آباء": {
+  "anlam": "atalar, babalar",
+  "akraba": [
+   "ebeveyn"
+  ],
+  "not": "Tekili أَب 'baba'dır."
+ },
+ "V:تابَ": {
+  "anlam": "(Allah için) tövbeyi kabul etmek; tövbe etmek, (Allah'a) dönmek",
+  "akraba": [
+   "tövbe"
+  ],
+  "not": "Kul için إِلَى ile 'tövbe edip Allah'a dönmek', Allah için عَلَى ile 'tövbesini kabul etmek' demektir."
+ },
+ "N:شَهِيد": {
+  "anlam": "hazır bulunan, gören; şahit, tanık; şehit",
+  "akraba": [
+   "şahit",
+   "şehit",
+   "şahadet",
+   "müşahede"
+  ]
+ },
+ "V:بَعَثَ": {
+  "anlam": "göndermek; (ölüleri) diriltmek",
+  "akraba": [
+   "mebus",
+   "bais"
+  ]
+ },
+ "N:عَمَل": {
+  "anlam": "yapılan iş, amel",
+  "akraba": [
+   "amel",
+   "amele",
+   "muamele",
+   "imal"
+  ]
+ },
+ "N:أَعْلَم": {
+  "anlam": "daha iyi bilen, en iyi bilen",
+  "akraba": [
+   "ilim",
+   "âlim",
+   "malum",
+   "muallim"
+  ]
+ },
+ "N:سَمِيع": {
+  "anlam": "işiten, her şeyi işiten (Semî)"
+ },
+ "V:اهْتَدَى": {
+  "anlam": "doğru yolu bulmak, hidayete ermek",
+  "akraba": [
+   "hidayet",
+   "mühtedi",
+   "mehdi"
+  ]
+ },
+ "N:مُسْلِم": {
+  "anlam": "(Allah'a) teslim olan; Müslüman",
+  "akraba": [
+   "İslam",
+   "Müslüman",
+   "teslim",
+   "selam"
+  ]
+ },
+ "N:أَحْسَن": {
+  "anlam": "daha güzel, en güzel",
+  "akraba": [
+   "ihsan",
+   "hüsün",
+   "hasene",
+   "tahsin"
+  ]
+ },
+ "V:كَفَى": {
+  "anlam": "yetmek, kâfi gelmek",
+  "akraba": [
+   "kâfi",
+   "kifayet",
+   "iktifa"
+  ],
+  "not": "Çoğunlukla كَفَى بِاللّٰهِ ... 'Allah ... olarak yeter' kalıbında بِ ile kullanılır."
+ },
+ "N:غافِل": {
+  "anlam": "gafil, habersiz",
+  "akraba": [
+   "gafil",
+   "gaflet"
+  ]
+ },
+ "N:صِراط": {
+  "anlam": "yol; doğru yol",
+  "akraba": [
+   "sırat"
+  ],
+  "simge": "yol"
+ },
+ "N:مُسْتَقِيم": {
+  "anlam": "doğru, dosdoğru; dimdik duran",
+  "akraba": [
+   "müstakim",
+   "istikamet",
+   "kıyamet",
+   "ikamet"
+  ]
+ },
+ "N:حَرام": {
+  "anlam": "dokunulmaz, saygın (Mescid-i Haram'da); haram, yasak",
+  "akraba": [
+   "haram",
+   "harem",
+   "mahrem",
+   "hürmet"
+  ]
+ },
+ "N:حَيْث": {
+  "anlam": "-dığı yer, nerede; her nerede",
+  "akraba": [
+   "haysiyet"
+  ]
+ },
+ "V:وَلَّى": {
+  "anlam": "çevirmek, döndürmek; yüz çevirmek, dönüp gitmek",
+  "akraba": [
+   "veli",
+   "vali",
+   "evliya",
+   "mütevelli"
+  ]
+ },
+ "N:مَسْجِد": {
+  "anlam": "mescit; secde yeri",
+  "akraba": [
+   "mescit",
+   "secde",
+   "seccade"
+  ]
+ },
+ "N:أَهْواء": {
+  "anlam": "hevesler, nefsin arzuları (tekili hevâ)",
+  "akraba": [
+   "hevâ",
+   "hava"
+  ]
+ },
+ "V:انقَلَبَ": {
+  "anlam": "geri dönmek, cayıp vazgeçmek; dönüşmek",
+  "akraba": [
+   "inkılap",
+   "kalp"
+  ]
+ },
+ "N:جَمِيع": {
+  "anlam": "hep birlikte, bir arada; bütün, hepsi",
+  "akraba": [
+   "cem",
+   "cemiyet",
+   "cemaat",
+   "cami"
+  ]
+ },
+ "V:شَكَرَ": {
+  "anlam": "şükretmek; nimeti tanıyıp karşılığını göstermek",
+  "akraba": [
+   "şükür",
+   "teşekkür",
+   "şakir",
+   "müteşekkir"
+  ]
+ },
+ "N:قَدِير": {
+  "anlam": "Kadîr; her şeye gücü yeten",
+  "akraba": [
+   "kader",
+   "kudret",
+   "takdir",
+   "kadir"
+  ]
+ },
+ "V:عَلَّمَ": {
+  "anlam": "öğretmek; bildirmek",
+  "akraba": [
+   "muallim",
+   "talim",
+   "ilim",
+   "malumat"
+  ]
+ },
+ "V:خَشِيَ": {
+  "anlam": "korkmak; saygıyla çekinmek",
+  "akraba": [
+   "haşyet"
+  ]
+ },
+ "N:فَرِيق": {
+  "anlam": "takım, grup, bir kısım",
+  "akraba": [
+   "fark",
+   "fırka",
+   "tefrika"
+  ]
+ },
+ "V:كَتَمَ": {
+  "anlam": "gizlemek, saklamak",
+  "akraba": [
+   "ketum"
+  ]
+ },
+ "V:عَرَفَ": {
+  "anlam": "tanımak; bilmek",
+  "akraba": [
+   "marifet",
+   "irfan",
+   "örf",
+   "tarif"
+  ]
+ },
+ "N:مال": {
+  "anlam": "mal, servet",
+  "akraba": [
+   "mal",
+   "maliye",
+   "emval"
+  ]
+ },
+ "V:أَصابَ": {
+  "anlam": "gelip çatmak, başa gelmek; isabet etmek, erişmek",
+  "akraba": [
+   "isabet",
+   "musibet"
+  ]
+ },
+ "N:رَحْمٰن": {
+  "anlam": "Rahmân; merhamet eden, rahmeti her şeyi kuşatan",
+  "akraba": [
+   "rahmet",
+   "merhamet",
+   "Rahman",
+   "merhum"
+  ],
+  "not": "Yalnızca Allah için kullanılır; başka hiçbir varlığa ad ya da sıfat olarak verilmez."
+ },
+ "V:ماتَ": {
+  "anlam": "ölmek",
+  "akraba": [
+   "memat",
+   "mevta"
+  ]
+ },
+ "V:بُشِّرَ": {
+  "anlam": "müjdelemek, sevindirici haber vermek",
+  "akraba": [
+   "beşaret",
+   "mübeşşir"
+  ]
+ },
+ "N:مَيِّت": {
+  "anlam": "ölü; ölmüş",
+  "akraba": [
+   "meyyit",
+   "mevta",
+   "memat"
+  ]
+ },
+ "V:بَيَّنُ": {
+  "anlam": "açıklamak, apaçık bildirmek",
+  "akraba": [
+   "beyan",
+   "beyanname",
+   "beyyine"
+  ]
+ },
+ "N:واحِد": {
+  "anlam": "bir, tek",
+  "akraba": [
+   "vahdet",
+   "tevhit",
+   "ittihat",
+   "Vahit"
+  ]
+ },
+ "N:مُبِين": {
+  "anlam": "apaçık; açıklayan",
+  "akraba": [
+   "beyan",
+   "mübin"
+  ]
+ },
+ "N:لَيْل": {
+  "anlam": "gece",
+  "simge": "gece"
+ },
+ "V:أَحْبَبْ": {
+  "anlam": "sevmek",
+  "akraba": [
+   "muhabbet",
+   "habip",
+   "mahbup"
+  ]
+ },
+ "V:جَرَيْ": {
+  "anlam": "süzülüp gitmek, akmak; cereyan etmek",
+  "akraba": [
+   "cereyan",
+   "cari",
+   "mecra",
+   "icra"
+  ]
+ },
+ "N:نَهار": {
+  "anlam": "gündüz",
+  "akraba": [
+   "nehir"
+  ],
+  "simge": "gunduz"
+ },
+ "N:شَدِيد": {
+  "anlam": "şiddetli; çetin, sert",
+  "akraba": [
+   "şiddet",
+   "şedit",
+   "şedde"
+  ]
+ },
+ "N:خَلْق": {
+  "anlam": "yaratma, yaratılış; yaratılmışlar",
+  "akraba": [
+   "halk",
+   "mahluk",
+   "hilkat",
+   "ahlak"
+  ]
+ },
+ "N:مَوْت": {
+  "anlam": "ölüm",
+  "akraba": [
+   "memat",
+   "mevta"
+  ]
+ },
+ "N:غَفُور": {
+  "anlam": "Gafûr; çok bağışlayan",
+  "akraba": [
+   "mağfiret",
+   "istiğfar",
+   "Gafur"
+  ]
+ },
+ "V:صَبَرَ": {
+  "anlam": "sabretmek; dayanmak, katlanmak",
+  "akraba": [
+   "sabır",
+   "sabur",
+   "Sabri"
+  ]
+ },
+ "V:عَقَلُ": {
+  "anlam": "akletmek, aklını kullanmak; anlamak",
+  "akraba": [
+   "akıl",
+   "akli",
+   "makul",
+   "ukala"
+  ]
+ },
+ "V:حَرَّمَ": {
+  "anlam": "haram kılmak, yasaklamak",
+  "akraba": [
+   "haram",
+   "tahrim",
+   "muharrem",
+   "mahrem"
+  ]
+ },
+ "N:إِثْم": {
+  "anlam": "günah; suç"
+ },
+ "V:اخْتَلَفَ": {
+  "anlam": "ayrılığa düşmek, anlaşmazlığa düşmek; birbiri ardınca gelmek; farklı olmak",
+  "akraba": [
+   "ihtilaf",
+   "muhtelif",
+   "hilaf",
+   "halef"
+  ]
+ },
+ "N:طَيِّبَة": {
+  "anlam": "temiz, helal ve hoş şey; güzel"
+ },
+ "N:عاد": {
+  "anlam": "haddi aşan, aşırı giden",
+  "akraba": [
+   "adavet"
+  ]
+ },
+ "N:أَخ": {
+  "anlam": "kardeş",
+  "akraba": [
+   "uhuvvet",
+   "ihvan"
+  ]
+ },
+ "N:مُتَّقي": {
+  "anlam": "Allah'a karşı gelmekten sakınan, takva sahibi; korunan",
+  "akraba": [
+   "muttaki",
+   "takva"
+  ]
+ },
+ "V:كَتَبَ": {
+  "anlam": "farz kılmak; yazmak; takdir etmek",
+  "akraba": [
+   "kitap",
+   "kâtip",
+   "mektup",
+   "mektep"
+  ],
+  "not": "Kendisine farz kılınanı bildiren 'üzerine' edatıyla gelince bir şeyi birine farz kılmak anlamı verir: size oruç farz kılındı."
+ },
+ "V:تَرَكَ": {
+  "anlam": "bırakmak; terk etmek",
+  "akraba": [
+   "terk",
+   "metruk",
+   "tereke"
+  ]
+ },
+ "N:مَعْرُوف": {
+  "anlam": "örfe uygun olan, iyi ve güzel olan; bilinen, tanınan",
+  "akraba": [
+   "maruf",
+   "örf",
+   "marifet",
+   "tarif"
+  ]
+ },
+ "N:حِين": {
+  "anlam": "zaman, vakit; bir süre"
+ },
+ "N:زَكاة": {
+  "anlam": "zekât; arınma, temizlik",
+  "akraba": [
+   "zekât",
+   "tezkiye"
+  ]
+ },
+ "N:عَهْد": {
+  "anlam": "ahit, söz, antlaşma",
+  "akraba": [
+   "ahit",
+   "taahhüt",
+   "müteahhit",
+   "veliaht"
+  ]
+ },
+ "V:خافَ": {
+  "anlam": "endişe duymak; korkmak",
+  "akraba": [
+   "havf"
+  ]
+ },
+ "N:آخَر": {
+  "anlam": "diğer, başka",
+  "akraba": [
+   "tehir",
+   "âhiret",
+   "âhir"
+  ],
+  "not": "Ortadaki harfi üstünle okunan bu kelime 'başka, diğer' demektir; esreyle okunan âhir ise 'son' anlamındadır."
+ },
+ "V:شَهِدَ": {
+  "anlam": "hazır bulunmak, idrak etmek; şahitlik etmek; görmek",
+  "akraba": [
+   "şahit",
+   "şehadet",
+   "şehit",
+   "müşahede"
+  ]
+ },
+ "V:أَصْلَحَ": {
+  "anlam": "arayı düzeltmek; ıslah etmek, iyileştirmek",
+  "akraba": [
+   "ıslah",
+   "sulh",
+   "salih",
+   "maslahat"
+  ]
+ },
+ "V:اسْتَجابَ": {
+  "anlam": "kabul etmek, çağrıya karşılık vermek",
+  "akraba": [
+   "cevap",
+   "icabet",
+   "müstecap"
+  ]
+ },
+ "N:قَرِيب": {
+  "anlam": "yakın",
+  "akraba": [
+   "akraba",
+   "takribi",
+   "kurban"
+  ]
+ },
+ "N:طَعام": {
+  "anlam": "doyurma, yedirme; yiyecek, yemek",
+  "akraba": [
+   "taam"
+  ],
+  "simge": "yemek"
+ },
+ "N:مِسْكِين": {
+  "anlam": "düşkün, yoksul",
+  "akraba": [
+   "miskin",
+   "sükûn",
+   "mesken",
+   "sakin"
+  ],
+  "not": "Türkçedeki 'miskin' (uyuşuk, tembel) anlamı yoktur; Kur'an'da geçimini sağlayamayan yoksul demektir."
+ },
+ "N:نِساء": {
+  "anlam": "kadınlar; eşler"
+ },
+ "V:قاتَلَ": {
+  "anlam": "savaşmak, çarpışmak",
+  "akraba": [
+   "katil",
+   "katliam",
+   "mukatele",
+   "maktul"
+  ],
+  "not": "Karşılıklılık bildiren kalıptır: tek taraflı öldürmek değil, karşılıklı savaşmak anlamındadır."
+ },
+ "V:ابْتَغَى": {
+  "anlam": "dilemek, istemek; aramak"
+ },
+ "V:عَفا": {
+  "anlam": "affetmek, bağışlamak; silip gidermek",
+  "akraba": [
+   "af",
+   "muaf",
+   "afiyet"
+  ]
+ },
+ "N:باب": {
+  "anlam": "kapı",
+  "akraba": [
+   "bab"
+  ],
+  "simge": "kapi"
+ },
+ "V:أَفْلَحَ": {
+  "anlam": "muradına ermek; kurtuluşa ermek",
+  "akraba": [
+   "felah",
+   "fellah"
+  ]
+ },
+ "N:باطِل": {
+  "anlam": "haksızlık, haksız yol; boş ve geçersiz olan, batıl",
+  "akraba": [
+   "batıl",
+   "iptal",
+   "butlan"
+  ]
+ },
+ "V:أَحَلَّ": {
+  "anlam": "helal kılmak; bir yere indirmek, yerleştirmek",
+  "akraba": [
+   "helal",
+   "mahal",
+   "mahalle",
+   "tahlil"
+  ]
+ },
+ "V:رَجَعَ": {
+  "anlam": "dönmek, geri dönmek",
+  "akraba": [
+   "müracaat",
+   "merci",
+   "rücu",
+   "ricat"
+  ]
+ },
+ "V:أَلْقَى": {
+  "anlam": "atmak; bırakmak, ulaştırmak",
+  "akraba": [
+   "mülakat",
+   "telakki"
+  ]
+ },
+ "N:جَزاء": {
+  "anlam": "ceza; karşılık",
+  "akraba": [
+   "ceza",
+   "cezai",
+   "mücazat"
+  ],
+  "not": "Türkçedeki cezadan farklı olarak iyi işlerin karşılığı, yani mükâfat için de kullanılır."
+ },
+ "V:بَلَغَ": {
+  "anlam": "ulaşmak, varmak; erişmek, ergenliğe ermek",
+  "akraba": [
+   "tebliğ",
+   "baliğ",
+   "mübalağa",
+   "meblağ"
+  ]
+ },
+ "N:مُحْسِن": {
+  "anlam": "iyi iş yapan, işini güzel yapan; iyilik eden",
+  "akraba": [
+   "ihsan",
+   "muhsin",
+   "tahsin"
+  ]
+ },
+ "N:فِتْنَة": {
+  "anlam": "fitne, kargaşa; deneme, sınama; dinden döndürmek için yapılan baskı",
+  "akraba": [
+   "fitne",
+   "fettan",
+   "meftun"
+  ],
+  "not": "Asıl anlamı altını ateşe sokup ayarını denemektir; sınama, baskı ve kargaşa anlamları buradan gelir."
+ },
+ "N:أَشَدّ": {
+  "anlam": "daha kötü, daha ağır; daha şiddetli, daha güçlü",
+  "akraba": [
+   "şiddet",
+   "şedit"
+  ]
+ },
+ "N:شَهْر": {
+  "anlam": "ay (otuz günlük süre)",
+  "akraba": [
+   "şöhret",
+   "meşhur",
+   "teşhir"
+  ]
+ },
+ "N:ذِكْر": {
+  "anlam": "anma, zikir; hatırlama; öğüt",
+  "akraba": [
+   "zikir",
+   "tezkere",
+   "müzakere",
+   "mezkûr"
+  ]
+ },
+ "V:اسْتَغْفَرَ": {
+  "anlam": "mağfiret dilemek, bağışlanma dilemek",
+  "akraba": [
+   "istiğfar",
+   "mağfiret"
+  ]
+ },
+ "N:حِساب": {
+  "anlam": "hesap; sayı, ölçü",
+  "akraba": [
+   "hesap",
+   "muhasebe",
+   "mahsup"
+  ]
+ },
+ "N:حَسَنَة": {
+  "anlam": "iyilik, güzel olan; nimet; sevap",
+  "akraba": [
+   "hasene",
+   "ihsan",
+   "hüsün"
+  ]
+ },
+ "N:جُناح": {
+  "anlam": "engel, sakınca; günah, vebal",
+  "akraba": [
+   "cenah"
+  ],
+  "not": "Çoğunlukla 'size bir günah yoktur' kalıbında gelir ve o işte sakınca olmadığını bildirir."
+ },
+ "N:نَصِيب": {
+  "anlam": "pay, hisse",
+  "akraba": [
+   "nasip"
+  ]
+ },
+ "N:تَقْوَى": {
+  "anlam": "Allah korkusu, takva; sakınma, korunma",
+  "akraba": [
+   "takva",
+   "muttaki"
+  ]
+ },
+ "N:أَلْباب": {
+  "anlam": "akıllar; öz, iç (tekili lübb)"
+ },
+ "V:أَهْلَكَ": {
+  "anlam": "yok etmek, helak etmek",
+  "akraba": [
+   "helak",
+   "tehlike",
+   "müstehlik",
+   "istihlak"
+  ]
+ },
+ "N:عَدُوّ": {
+  "anlam": "düşman",
+  "akraba": [
+   "adavet"
+  ]
+ },
+ "V:حَشَرَ": {
+  "anlam": "toplamak, bir araya getirmek; diriltip mahşerde toplamak",
+  "akraba": [
+   "haşir",
+   "mahşer",
+   "haşere"
+  ]
+ },
+ "V:سَعَى": {
+  "anlam": "çabalamak, koşup çalışmak; koşmak",
+  "akraba": [
+   "sa'y",
+   "mesai"
+  ]
+ },
+ "V:أَفْسَدُ": {
+  "anlam": "bozgunculuk yapmak, bozmak",
+  "akraba": [
+   "fesat",
+   "ifsat",
+   "müfsit",
+   "fasit"
+  ]
+ },
+ "N:ابْتِغاء": {
+  "anlam": "kazanmayı isteme, arama; dileme"
+ },
+ "N:حَرْث": {
+  "anlam": "ekin; tarla; ekip biçme",
+  "simge": "ekin"
+ },
+ "N:رَءُوف": {
+  "anlam": "Raûf; çok şefkatli",
+  "akraba": [
+   "Rauf"
+  ]
+ },
+ "V:مَسَّ": {
+  "anlam": "başa gelmek, uğratmak (sıkıntı); dokunmak, el sürmek",
+  "akraba": [
+   "temas"
+  ]
+ },
+ "V:حَسِبَ": {
+  "anlam": "zannetmek, sanmak",
+  "akraba": [
+   "hesap"
+  ]
+ },
+ "N:إِذْن": {
+  "anlam": "izin; bilgi, irade",
+  "akraba": [
+   "izin",
+   "ezan",
+   "müezzin"
+  ]
+ },
+ "N:واحِدَة": {
+  "anlam": "bir, tek (dişil)",
+  "akraba": [
+   "vahdet",
+   "tevhit",
+   "ittihat"
+  ]
+ },
+ "N:ماذا": {
+  "anlam": "ne, neyi"
+ },
+ "V:زَيَّنَ": {
+  "anlam": "güzel göstermek, süslemek",
+  "akraba": [
+   "ziynet",
+   "tezyinat",
+   "müzeyyen"
+  ]
+ },
+ "V:خَلا": {
+  "anlam": "gelip geçmek; yalnız kalmak, baş başa kalmak; boş olmak",
+  "akraba": [
+   "halvet",
+   "tahliye",
+   "hela"
+  ]
+ },
+ "V:بَدَّلَ": {
+  "anlam": "değiştirmek; yerine başkasını koymak",
+  "akraba": [
+   "bedel",
+   "tebdil",
+   "mübadele"
+  ]
+ },
+ "V:اسْتَطاعَ": {
+  "anlam": "gücü yetmek",
+  "akraba": [
+   "itaat",
+   "istitaat"
+  ]
+ },
+ "N:كَبِير": {
+  "anlam": "büyük; ağır (günah için); yaşlı",
+  "akraba": [
+   "kibir",
+   "tekbir",
+   "kebir",
+   "kibar"
+  ]
+ },
+ "V:رَدَّ": {
+  "anlam": "döndürmek, geri çevirmek; reddetmek",
+  "akraba": [
+   "ret",
+   "irtidat",
+   "mürtet",
+   "tereddüt"
+  ]
+ },
+ "V:عَسَى": {
+  "anlam": "ihtimal ki, umulur ki; olabilir ki",
+  "not": "Çekimi eksik bir fiildir; mastarı yoktur ve 'ihtimal ki, umulur ki' anlamıyla ümit ya da olasılık bildirir."
+ },
+ "N:شَرّ": {
+  "anlam": "kötülük, kötü; şer",
+  "akraba": [
+   "şer"
+  ]
+ },
+ "V:جاهَدَ": {
+  "anlam": "cihat etmek; var gücüyle çabalamak",
+  "akraba": [
+   "cihat",
+   "mücahit",
+   "içtihat",
+   "müçtehit"
+  ]
+ },
+ "N:أَكْبَر": {
+  "anlam": "daha büyük; en büyük",
+  "akraba": [
+   "tekbir",
+   "kibir",
+   "kebir"
+  ]
+ },
+ "V:يَرْجُوا۟": {
+  "anlam": "ummak; beklemek",
+  "akraba": [
+   "rica",
+   "reca"
+  ]
+ },
+ "N:يَمِين": {
+  "anlam": "yemin, ant; sağ, sağ el; güç",
+  "akraba": [
+   "yemin",
+   "meymenet"
+  ]
+ },
+ "V:تَذَكَّرَ": {
+  "anlam": "ibret almak, öğüt almak; hatırlamak, düşünmek",
+  "akraba": [
+   "tezekkür",
+   "zikir",
+   "müzakere"
+  ]
+ },
+ "N:مَغْفِرَة": {
+  "anlam": "mağfiret, bağışlama",
+  "akraba": [
+   "mağfiret",
+   "istiğfar"
+  ]
+ },
+ "N:مُؤْمِنَة": {
+  "anlam": "inanan kadın, mümin kadın",
+  "akraba": [
+   "mümin",
+   "iman",
+   "emniyet",
+   "emanet"
+  ]
+ },
+ "N:أَنَّى": {
+  "anlam": "nasıl, ne şekilde; nereden; ne zaman"
+ },
+ "V:قَدَّمَ": {
+  "anlam": "önceden hazırlamak, önden göndermek; öne almak",
+  "akraba": [
+   "takdim",
+   "mukaddime",
+   "kadim",
+   "kademe"
+  ]
+ },
+ "N:يَتِيم": {
+  "anlam": "yetim, öksüz",
+  "akraba": [
+   "yetim",
+   "yetimhane"
+  ]
+ },
+ "N:مُفْسِد": {
+  "anlam": "bozan, bozguncu",
+  "akraba": [
+   "müfsit",
+   "fesat",
+   "ifsat"
+  ]
+ },
+ "V:ظَنَّ": {
+  "anlam": "sanmak, zannetmek; kesin bilmek, inanmak",
+  "akraba": [
+   "zan",
+   "zanlı",
+   "hüsnüzan",
+   "suizan"
+  ],
+  "not": "Bağlama göre 'sanmak' ya da 'kesin olarak bilmek' anlamına gelir; bu cüzdeki 'Allah'a kavuşacaklarını bilenler' ifadesinde ikinci anlamdadır."
+ },
+ "N:رِجال": {
+  "anlam": "erkekler; yayalar (tekili racül)",
+  "akraba": [
+   "rical",
+   "irticalen"
+  ]
+ },
+ "N:مَرَّة": {
+  "anlam": "defa, kez"
+ },
+ "N:دَرَجَة": {
+  "anlam": "derece, mertebe",
+  "akraba": [
+   "derece",
+   "tedricen"
+  ]
+ },
+ "V:اعْتَدَى": {
+  "anlam": "çiğneyip bozmak, aşmak (sınırları); haddi aşmak, saldırmak"
+ },
+ "N:حَلِيم": {
+  "anlam": "Halîm; acele ile cezalandırmayan, yumuşak davranan",
+  "akraba": [
+   "halim",
+   "hilm"
+  ]
+ },
+ "N:حُدُود": {
+  "anlam": "yasalar, Allah'ın koyduğu sınırlar; sınırlar (tekili hadd)",
+  "akraba": [
+   "had",
+   "hudut",
+   "tahdit",
+   "mahdut"
+  ]
+ },
+ "V:نَكَحَ": {
+  "anlam": "evlenmek, nikâhlanmak",
+  "akraba": [
+   "nikâh"
+  ]
+ },
+ "N:رِزْق": {
+  "anlam": "yiyecek; rızık, geçimlik",
+  "akraba": [
+   "rızık",
+   "Rezzak",
+   "merzuk"
+  ]
+ },
+ "N:أَجَل": {
+  "anlam": "belirli süre, müddet; sürenin sonu, ecel",
+  "akraba": [
+   "ecel",
+   "tecil",
+   "müeccel"
+  ],
+  "not": "Türkçedeki ecel yalnız ölüm vaktini anlatır; Kur'an'da her şey için belirlenmiş süre ya da o sürenin sonu anlamında da kullanılır."
+ },
+ "N:حِكْمَة": {
+  "anlam": "hikmet; doğru bilgi ve isabetli hüküm",
+  "akraba": [
+   "hikmet",
+   "hüküm",
+   "hakim",
+   "mahkeme"
+  ]
+ },
+ "V:أَمْسَكَ": {
+  "anlam": "tutmak, alıkoymak; elinde tutmak",
+  "akraba": [
+   "imsak",
+   "imsakiye"
+  ]
+ },
+ "N:حَوْل": {
+  "anlam": "yıl; etraf, çevre",
+  "akraba": [
+   "havale",
+   "tahvil",
+   "tahavvül",
+   "havali"
+  ]
+ },
+ "V:أَتَمَّ": {
+  "anlam": "tamamlamak",
+  "akraba": [
+   "tamam",
+   "tam",
+   "itmam"
+  ]
+ },
+ "V:وَعَظْ": {
+  "anlam": "öğüt vermek",
+  "akraba": [
+   "vaaz",
+   "vaiz"
+  ]
+ },
+ "N:هُزُو": {
+  "anlam": "alay, alay konusu; eğlence",
+  "akraba": [
+   "istihza"
+  ]
+ },
+ "V:يَذَرَ": {
+  "anlam": "bırakmak, geride bırakmak",
+  "not": "Geçmiş zaman biçimi kullanılmaz; Kur'an'da yalnız şimdiki zaman ve emir biçimleriyle gelir."
+ },
+ "N:خَبِير": {
+  "anlam": "Habîr; her şeyden haberdar olan",
+  "akraba": [
+   "haber",
+   "muhabir",
+   "ihbar",
+   "istihbarat"
+  ]
+ },
+ "N:مَتاع": {
+  "anlam": "faydalanılacak şey, geçimlik; eşya; geçici fayda",
+  "akraba": [
+   "meta",
+   "temettü"
+  ]
+ },
+ "V:نَسِيَ": {
+  "anlam": "unutmak; terk etmek, ihmal etmek",
+  "akraba": [
+   "nisyan"
+  ]
+ },
+ "V:تَوَفَّى": {
+  "anlam": "ölmek, vefat etmek (edilgen biçimiyle); canını almak; eksiksiz almak",
+  "akraba": [
+   "vefat",
+   "vefa",
+   "ifa"
+  ],
+  "not": "Etken biçimi 'canını almak', edilgen biçimi 'vefat etmek' demektir; kökteki anlam bir şeyi eksiksiz teslim almaktır."
+ },
+ "N:أَقْرَب": {
+  "anlam": "daha uygun; daha yakın",
+  "akraba": [
+   "akraba",
+   "takribi",
+   "kurban"
+  ]
+ },
+ "V:مَتَّعْ": {
+  "anlam": "faydalandırmak, yararlandırmak",
+  "akraba": [
+   "meta",
+   "temettü"
+  ]
+ },
+ "V:تَرَبَّصْ": {
+  "anlam": "beklemek; gözetleyip beklemek"
+ },
+ "V:قامَ": {
+  "anlam": "durmak, ayakta durmak; kalkmak; bir işi yerine getirmek",
+  "akraba": [
+   "kıyam",
+   "kıyamet",
+   "makam",
+   "kaim"
+  ]
+ },
+ "N:حَسَن": {
+  "anlam": "güzel, iyi",
+  "akraba": [
+   "hüsün",
+   "ihsan",
+   "tahsin",
+   "Hasan"
+  ]
+ },
+ "V:أَمِنَ": {
+  "anlam": "güvene kavuşmak, güvende olmak; güvenmek",
+  "akraba": [
+   "emin",
+   "emniyet",
+   "emanet",
+   "eman"
+  ]
+ },
+ "V:بَسَطَ": {
+  "anlam": "bollaştırmak, genişletmek; açmak, yaymak, uzatmak",
+  "akraba": [
+   "basit",
+   "mebsut"
+  ]
+ },
+ "N:أَلْف": {
+  "anlam": "bin; binler (çoğulu)",
+  "akraba": [
+   "telif",
+   "müellif",
+   "ülfet"
+  ]
+ },
+ "N:ضِعْف": {
+  "anlam": "kat, misil (çoğulu: kat kat)",
+  "akraba": [
+   "zayıf",
+   "zaaf",
+   "muzaaf"
+  ]
+ },
+ "N:كَثِيرَة": {
+  "anlam": "çok, pek çok",
+  "akraba": [
+   "kesret",
+   "ekseriyet",
+   "teksir",
+   "Kevser"
+  ]
+ },
+ "V:يُضاعِفُ": {
+  "anlam": "kat kat artırmak, katlamak",
+  "akraba": [
+   "muzaaf",
+   "zaaf"
+  ]
+ },
+ "V:زادَ": {
+  "anlam": "artırmak; artmak",
+  "akraba": [
+   "ziyade",
+   "müzayede",
+   "zait",
+   "izdiyat"
+  ]
+ },
+ "V:حَمَلَ": {
+  "anlam": "taşımak; yüklenmek",
+  "akraba": [
+   "hamal",
+   "hamile",
+   "tahammül",
+   "hamule"
+  ]
+ },
+ "N:مَلَأ": {
+  "anlam": "ileri gelenler, eşraf; topluluk"
+ },
+ "N:آل": {
+  "anlam": "aile, soy; taraftarlar, yakın çevre"
+ },
+ "N:مَلِك": {
+  "anlam": "hükümdar, kral",
+  "akraba": [
+   "mülk",
+   "memleket",
+   "malik",
+   "melik"
+  ]
+ },
+ "N:قِتال": {
+  "anlam": "savaş, çarpışma",
+  "akraba": [
+   "kıtal",
+   "mukatele",
+   "katil",
+   "katliam"
+  ]
+ },
+ "V:اصْطَفَى": {
+  "anlam": "seçmek",
+  "akraba": [
+   "Mustafa",
+   "tasfiye",
+   "safi",
+   "safa"
+  ]
+ },
+ "N:أَحَقّ": {
+  "anlam": "daha lâyık, daha çok hak sahibi",
+  "akraba": [
+   "hak",
+   "hukuk",
+   "istihkak",
+   "müstahak"
+  ]
+ },
+ "N:مُرْسَل": {
+  "anlam": "gönderilen peygamber, elçi; gönderilmiş",
+  "akraba": [
+   "resul",
+   "risale",
+   "irsaliye",
+   "mürsel"
+  ]
+ },
+ "N:جُند": {
+  "anlam": "ordu, asker topluluğu"
+ },
+ "N:كَم": {
+  "anlam": "nice, ne kadar çok; kaç",
+  "akraba": [
+   "kemiyet"
+  ]
+ },
+ "N:صابِر": {
+  "anlam": "sabreden, sabırlı",
+  "akraba": [
+   "sabır",
+   "Sabri"
+  ]
+ },
+ "N:صَبْر": {
+  "anlam": "sabır; dayanma, direnç",
+  "akraba": [
+   "sabır",
+   "Sabri"
+  ]
+ },
+ "V:شَرِبَ": {
+  "anlam": "içmek",
+  "akraba": [
+   "şarap",
+   "şerbet",
+   "meşrubat",
+   "meşrep"
+  ]
+ },
+ "V:غَلَبُ": {
+  "anlam": "galip gelmek, üstün gelmek, yenmek",
+  "akraba": [
+   "galip",
+   "mağlup",
+   "galebe",
+   "galiba"
+  ]
+ },
+ "N:فِئَة": {
+  "anlam": "topluluk, bölük"
+ },
+ "N:حَيّ": {
+  "anlam": "diri, Hayy; canlı",
+  "akraba": [
+   "hayat",
+   "hayvan",
+   "ihya"
+  ]
+ },
+ "V:رَفَعَ": {
+  "anlam": "yükseltmek; kaldırmak",
+  "akraba": [
+   "terfi",
+   "irtifa",
+   "merfu"
+  ]
+ },
+ "N:خَلْف": {
+  "anlam": "arka, ard; sonra",
+  "akraba": [
+   "halef",
+   "halife",
+   "muhalif"
+  ]
+ },
+ "N:رُوح": {
+  "anlam": "ruh, Ruhu'l-Kudüs; can; vahiy",
+  "akraba": [
+   "ruh",
+   "ruhani"
+  ],
+  "not": "Ruhu'l-Kudüs, müfessirlerin çoğuna göre Cebrail'dir."
+ },
+ "V:كَلَّمَ": {
+  "anlam": "hitap etmek, konuşmak; söz söylemek",
+  "akraba": [
+   "kelam",
+   "kelime",
+   "tekellüm",
+   "mükâleme"
+  ]
+ },
+ "V:تَبَيَّنَ": {
+  "anlam": "iyice ayrılmak, açıkça belli olmak; anlaşılmak",
+  "akraba": [
+   "beyan",
+   "beyyine",
+   "mübin"
+  ]
+ },
+ "V:فَضَّلَ": {
+  "anlam": "üstün kılmak; üstün tutmak",
+  "akraba": [
+   "fazilet",
+   "fazla"
+  ]
+ },
+ "V:أَحاطَ": {
+  "anlam": "kavramak, bilgiyle kuşatmak; çepeçevre sarmak",
+  "akraba": [
+   "muhit",
+   "ihata",
+   "ihtiyat"
+  ]
+ },
+ "N:كَيْف": {
+  "anlam": "nasıl",
+  "akraba": [
+   "keyfiyet"
+  ]
+ },
+ "N:قَرْيَة": {
+  "anlam": "kasaba, şehir; köy; bir yerin halkı"
+ },
+ "N:نُور": {
+  "anlam": "aydınlık, nur; ışık",
+  "akraba": [
+   "nur",
+   "nurani",
+   "münevver",
+   "tenvir"
+  ],
+  "simge": "isik"
+ },
+ "N:شَمْس": {
+  "anlam": "güneş",
+  "akraba": [
+   "şemsiye",
+   "şemsi"
+  ],
+  "simge": "gunes"
+ },
+ "V:لَبِثَ": {
+  "anlam": "kalmak; bir yerde durup beklemek"
+ },
+ "N:عَرْش": {
+  "anlam": "çatı; taht, Arş; çardak",
+  "akraba": [
+   "Arş"
+  ],
+  "not": "Bu ayette evlerin çatısı, başka ayetlerde Allah'ın Arşı anlamında kullanılır."
+ },
+ "N:ظُلُمَة": {
+  "anlam": "karanlık",
+  "akraba": [
+   "zulmet"
+  ],
+  "simge": "karanlik"
+ },
+ "V:أَماتَ": {
+  "anlam": "öldürmek, can almak",
+  "akraba": [
+   "memat",
+   "mevta"
+  ]
+ },
+ "V:أَرَيْ": {
+  "anlam": "göstermek; bildirmek, tanıtmak",
+  "akraba": [
+   "riya",
+   "rüya",
+   "rey"
+  ]
+ },
+ "N:جَبَل": {
+  "anlam": "dağ",
+  "simge": "dag"
+ },
+ "V:يَحْزُن": {
+  "anlam": "üzülmek, kederlenmek",
+  "akraba": [
+   "hüzün",
+   "hazin",
+   "mahzun"
+  ]
+ },
+ "N:خَوْف": {
+  "anlam": "korku"
+ },
+ "V:قَدَرَ": {
+  "anlam": "güç yetirmek, elde edebilmek; ölçüp takdir etmek; rızkı daraltmak",
+  "akraba": [
+   "kader",
+   "kudret",
+   "takdir",
+   "kadir"
+  ]
+ },
+ "N:غَنِيّ": {
+  "anlam": "müstağni, hiçbir şeye muhtaç olmayan; zengin",
+  "akraba": [
+   "müstağni",
+   "istiğna",
+   "gani"
+  ]
+ },
+ "N:سَبْع": {
+  "anlam": "yedi"
+ },
+ "N:طَيْر": {
+  "anlam": "kuşlar, kuş",
+  "akraba": [
+   "tayyare"
+  ],
+  "simge": "kus"
+ },
+ "V:وَعَدَ": {
+  "anlam": "vaat etmek, söz vermek; korkutmak, tehdit etmek",
+  "akraba": [
+   "vaat",
+   "vade"
+  ],
+  "not": "Hem iyilik hem kötülük için kullanılır; kötülükle kullanılınca korkutmak, tehdit etmek anlamı verir."
+ },
+ "N:تَحْت": {
+  "anlam": "alt; altında"
+ },
+ "N:ذُرِّيَّة": {
+  "anlam": "çocuklar, nesil; soy, zürriyet",
+  "akraba": [
+   "zürriyet"
+  ]
+ },
+ "N:ثَمَرَة": {
+  "anlam": "meyve; ürün",
+  "akraba": [
+   "semere"
+  ],
+  "simge": "meyve"
+ },
+ "V:وَدَّ": {
+  "anlam": "istemek, arzu etmek; sevmek"
+ },
+ "V:يَتَفَكَّرُ": {
+  "anlam": "düşünmek, tefekkür etmek",
+  "akraba": [
+   "fikir",
+   "tefekkür",
+   "mütefekkir",
+   "efkâr"
+  ]
+ },
+ "N:حَمِيد": {
+  "anlam": "övülmeye layık, Hamîd; övülen",
+  "akraba": [
+   "hamd",
+   "Hamit",
+   "Muhammed",
+   "Mahmut"
+  ]
+ },
+ "N:عِنَب": {
+  "anlam": "üzüm"
+ },
+ "N:سَيِّئَة": {
+  "anlam": "kötülük; günah; başa gelen kötü şey",
+  "akraba": [
+   "suizan",
+   "suiistimal"
+  ]
+ },
+ "V:نِعْمَ": {
+  "anlam": "ne güzel; ne iyi",
+  "akraba": [
+   "nimet"
+  ],
+  "not": "Övgü fiilidir ve çekimlenmez; zıddı ne kötü anlamındaki bi'se fiilidir."
+ },
+ "V:أُخْفِيَ": {
+  "anlam": "gizlemek, saklamak",
+  "akraba": [
+   "hafiye",
+   "ihfa"
+  ]
+ },
+ "V:وَفَّى": {
+  "anlam": "eksiksiz vermek, tam ödemek",
+  "akraba": [
+   "vefa",
+   "ifa"
+  ]
+ },
+ "V:يُبْدِيَ": {
+  "anlam": "açığa vurmak, açıkça yapmak; ortaya çıkarmak"
+ },
+ "V:كَفَّرَ": {
+  "anlam": "örtüp silmek, günahları bağışlamak; kapatmak",
+  "akraba": [
+   "kefaret"
+  ]
+ },
+ "N:صَدَقَة": {
+  "anlam": "sadaka; zekât",
+  "akraba": [
+   "sadaka",
+   "sadakat",
+   "tasdik"
+  ]
+ },
+ "N:فَقِير": {
+  "anlam": "yoksul, fakir; muhtaç",
+  "akraba": [
+   "fakir",
+   "fukara"
+  ]
+ },
+ "V:أَذِنَ": {
+  "anlam": "bilmek, haberdar olmak; izin vermek; kulak vermek",
+  "akraba": [
+   "izin",
+   "ezan",
+   "müezzin"
+  ],
+  "not": "Bi edatıyla bilmek, haberdar olmak; li edatıyla izin vermek demektir."
+ },
+ "N:رَأْس": {
+  "anlam": "ana, asıl; baş",
+  "akraba": [
+   "reis",
+   "riyaset",
+   "resen"
+  ],
+  "not": "Malların başları ifadesi ana mal, yani sermaye demektir."
+ },
+ "V:عادَ": {
+  "anlam": "dönmek, geri dönmek; tekrar yapmak",
+  "akraba": [
+   "iade",
+   "avdet"
+  ]
+ },
+ "V:انتَهَى": {
+  "anlam": "geri durmak, vazgeçmek; sona ermek",
+  "akraba": [
+   "nihayet",
+   "intiha",
+   "münteha"
+  ]
+ },
+ "N:مَوْعِظَة": {
+  "anlam": "öğüt, nasihat",
+  "akraba": [
+   "vaaz",
+   "vaiz"
+  ]
+ },
+ "N:بَيْع": {
+  "anlam": "alışveriş; satış",
+  "akraba": [
+   "bayi",
+   "biat",
+   "mübayaa"
+  ]
+ },
+ "N:رِبا": {
+  "anlam": "faiz, riba; artış, fazlalık"
+ },
+ "N:أَثِيم": {
+  "anlam": "günahkâr, günaha dalmış"
+ },
+ "N:رَجُل": {
+  "anlam": "erkek; adam, kişi",
+  "akraba": [
+   "rical"
+  ]
+ },
+ "N:شَهادَة": {
+  "anlam": "şahitlik, tanıklık; görünen âlem",
+  "akraba": [
+   "şahadet",
+   "şahit",
+   "şehit",
+   "müşahede"
+  ]
+ },
+ "N:امْرَأَت": {
+  "anlam": "kadın; eş, karı",
+  "not": "Bir isme tamlamayla bağlanınca o kişinin karısı demektir; İmran'ın karısı gibi."
+ },
+ "N:مُسَمًّى": {
+  "anlam": "belirli, belirlenmiş; adı konmuş",
+  "akraba": [
+   "müsemma",
+   "isim",
+   "esma"
+  ]
+ },
+ "V:ذُكِّرَ": {
+  "anlam": "hatırlatmak; öğüt vermek",
+  "akraba": [
+   "zikir",
+   "tezkere",
+   "müzakere"
+  ]
+ },
+ "N:عَدْل": {
+  "anlam": "adalet, doğruluk; denk, eş değer; fidye",
+  "akraba": [
+   "adalet",
+   "adil",
+   "itidal",
+   "muadil"
+  ]
+ },
+ "V:أَبَى": {
+  "anlam": "çekinmek, yanaşmamak; kabul etmemek, diretmek"
+ },
+ "N:أَدْنَى": {
+  "anlam": "daha yakın, daha elverişli; daha aşağı, daha az",
+  "akraba": [
+   "dünya",
+   "dünyevi"
+  ],
+  "not": "Dişil biçimi dünyadır; daha yakın ve daha aşağı olan hayat anlamına gelir."
+ },
+ "V:أَطاعَ": {
+  "anlam": "itaat etmek, boyun eğmek",
+  "akraba": [
+   "itaat",
+   "taat",
+   "mutî"
+  ]
+ },
+ "V:عَذَّبَ": {
+  "anlam": "azap etmek, cezalandırmak",
+  "akraba": [
+   "azap"
+  ]
+ },
+ "N:مَصِير": {
+  "anlam": "dönüş, varılacak yer; son, akıbet"
+ },
+ "V:رَحِمَ": {
+  "anlam": "acımak, merhamet etmek",
+  "akraba": [
+   "rahmet",
+   "merhamet",
+   "merhum",
+   "Rahman"
+  ]
+ },
+ "N:مَوْلَى": {
+  "anlam": "Mevla, sahip ve yardımcı; dost; efendi",
+  "akraba": [
+   "Mevla",
+   "Mevlana",
+   "veli",
+   "velayet"
+  ]
+ },
+ "V:فَرَّقُ": {
+  "anlam": "ayırt etmek, ayrım yapmak; ayırmak",
+  "akraba": [
+   "fark",
+   "tefrika",
+   "fırka",
+   "Furkan"
+  ]
+ },
+ "V:يُؤاخِذُ": {
+  "anlam": "sorumlu tutmak, hesaba çekmek; cezalandırmak",
+  "akraba": [
+   "muaheze"
+  ]
+ },
+ "N:سَفَر": {
+  "anlam": "yolculuk, sefer",
+  "akraba": [
+   "sefer",
+   "misafir",
+   "sefaret"
+  ]
+ },
+ "N:أُمّ": {
+  "anlam": "temel, asıl; ana, anne",
+  "akraba": [
+   "ümmet",
+   "ümmi"
+  ],
+  "not": "Kitabın anası ifadesi, Kitab'ın temeli ve aslı demektir."
+ },
+ "V:وَهَبَ": {
+  "anlam": "bağışlamak, hibe etmek; vermek",
+  "akraba": [
+   "hibe",
+   "vehbi",
+   "Vahhab"
+  ]
+ },
+ "N:مُصَدِّق": {
+  "anlam": "doğrulayan, tasdik eden",
+  "akraba": [
+   "tasdik",
+   "musaddak",
+   "sadık"
+  ]
+ },
+ "N:رَيْب": {
+  "anlam": "şüphe, kuşku; tereddüt"
+ },
+ "N:لَدُن": {
+  "anlam": "kat, yan; huzur",
+  "akraba": [
+   "ledün"
+  ]
+ },
+ "N:تَأْوِيل": {
+  "anlam": "yorum, te'vil; bir şeyin varacağı son, gerçek anlamı",
+  "akraba": [
+   "tevil"
+  ]
+ },
+ "V:أَخْلَفُ": {
+  "anlam": "sözünden caymak, sözünü tutmamak",
+  "akraba": [
+   "hilaf",
+   "muhalif"
+  ]
+ },
+ "N:أَرْحام": {
+  "anlam": "ana rahimleri; akrabalık bağları, akrabalar",
+  "akraba": [
+   "rahim",
+   "rahmet",
+   "merhamet"
+  ]
+ },
+ "N:عَيْن": {
+  "anlam": "göz; pınar, kaynak; bir şeyin kendisi",
+  "akraba": [
+   "aynı",
+   "muayene",
+   "tayin"
+  ],
+  "simge": "goz"
+ },
+ "N:بَصَر": {
+  "anlam": "göz; görme; anlayış, basiret",
+  "akraba": [
+   "basiret",
+   "basir"
+  ],
+  "simge": "goz"
+ },
+ "V:نَبَّأَ": {
+  "anlam": "haber vermek, bildirmek",
+  "akraba": [
+   "nebi",
+   "nübüvvet"
+  ]
+ },
+ "N:ذَنب": {
+  "anlam": "günah, suç"
+ },
+ "N:نَعَم": {
+  "anlam": "davarlar, sürü hayvanları; deve, sığır, koyun ve keçi",
+  "not": "Çoğulu en'amdır ve deve, sığır, koyun ile keçiyi kapsar; En'am suresi adını buradan alır."
+ },
+ "V:أَغْنَتْ": {
+  "anlam": "bir şey sağlamak, fayda vermek; zengin kılmak",
+  "akraba": [
+   "gani",
+   "müstağni"
+  ]
+ },
+ "N:نَصْر": {
+  "anlam": "yardım; zafer",
+  "akraba": [
+   "nusret",
+   "ensar",
+   "mansur"
+  ]
+ },
+ "N:عِقاب": {
+  "anlam": "cezalandırma, ceza; azap",
+  "akraba": [
+   "ukubet",
+   "akıbet"
+  ]
+ },
+ "V:أَسْلَمَ": {
+  "anlam": "kendini vermek, teslim olmak; Müslüman olmak",
+  "akraba": [
+   "İslam",
+   "Müslüman",
+   "teslim",
+   "selam"
+  ]
+ },
+ "N:قائِم": {
+  "anlam": "yerine getiren, ayakta tutan; ayakta duran; gözeten",
+  "akraba": [
+   "kaymakam",
+   "kıyam",
+   "ikamet"
+  ]
+ },
+ "V:وَقَى": {
+  "anlam": "korumak; sakındırmak",
+  "akraba": [
+   "takva",
+   "muttaki"
+  ]
+ },
+ "N:قِسْط": {
+  "anlam": "adalet, hakkaniyet; pay",
+  "akraba": [
+   "kıstas",
+   "taksit"
+  ]
+ },
+ "N:بَلاغ": {
+  "anlam": "tebliğ, duyurma; ulaştırma; yeterli olan",
+  "akraba": [
+   "tebliğ",
+   "belagat",
+   "mübalağa",
+   "baliğ"
+  ]
+ },
+ "V:حاجَّ": {
+  "anlam": "tartışmaya girişmek, delil getirerek çekişmek",
+  "akraba": [
+   "hüccet"
+  ]
+ },
+ "V:حَبِطَ": {
+  "anlam": "boşa çıkmak, heba olmak"
+ },
+ "N:بَغْي": {
+  "anlam": "ihtiras, kıskançlık; haddi aşma, zulüm"
+ },
+ "V:افْتَرَى": {
+  "anlam": "uydurmak, iftira etmek",
+  "akraba": [
+   "iftira",
+   "müfteri"
+  ]
+ },
+ "N:صَدْر": {
+  "anlam": "iç, gönül; göğüs; baş, ön taraf",
+  "akraba": [
+   "sadrazam"
+  ]
+ },
+ "V:جَمَعَ": {
+  "anlam": "toplamak, bir araya getirmek",
+  "akraba": [
+   "cemaat",
+   "cami",
+   "cemiyet",
+   "mecmua"
+  ]
+ },
+ "N:مُعْرِض": {
+  "anlam": "yüz çeviren, dönüp giden",
+  "akraba": [
+   "itiraz",
+   "maruz"
+  ]
+ },
+ "V:غَرَّ": {
+  "anlam": "yanıltmak, aldatmak",
+  "akraba": [
+   "gurur",
+   "mağrur"
+  ]
+ },
+ "V:نَزَعَ": {
+  "anlam": "çekip almak; söküp çıkarmak",
+  "akraba": [
+   "niza"
+  ]
+ },
+ "V:يُولِجُ": {
+  "anlam": "geçirmek, içine sokmak"
+ },
+ "N:مَعْدُودَة": {
+  "anlam": "sayılı, az",
+  "akraba": [
+   "adet",
+   "müteaddit",
+   "tadat"
+  ]
+ },
+ "N:سُوء": {
+  "anlam": "kötülük; kötü, fena",
+  "akraba": [
+   "suiistimal",
+   "suikast",
+   "suizan"
+  ]
+ },
+ "N:بَعِيد": {
+  "anlam": "uzak",
+  "akraba": [
+   "ebat"
+  ]
+ },
+ "N:أُنثَى": {
+  "anlam": "kız, dişi; kadın",
+  "akraba": [
+   "müennes"
+  ]
+ },
+ "V:وَضَعَ": {
+  "anlam": "doğurmak; koymak, bırakmak; indirmek, kaldırmak",
+  "akraba": [
+   "vaziyet",
+   "mevzu",
+   "tevazu",
+   "vazgeçmek"
+  ]
+ },
+ "N:ذَكَر": {
+  "anlam": "erkek",
+  "akraba": [
+   "müzekker"
+  ]
+ },
+ "N:بَطْن": {
+  "anlam": "karın; iç, batın",
+  "akraba": [
+   "batın",
+   "batıni"
+  ]
+ },
+ "V:أَنۢبَتَ": {
+  "anlam": "yetiştirmek; bitki bitirmek",
+  "akraba": [
+   "nebat",
+   "nebati",
+   "nebatat"
+  ]
+ },
+ "N:كُلَّما": {
+  "anlam": "her ... -dığında; -dıkça",
+  "akraba": [
+   "küllî",
+   "külliyat"
+  ],
+  "not": "Tekrar bildirir; ardından gelen geçmiş zaman fiili her ... -dığında diye çevrilir."
+ },
+ "V:أَوْحَى": {
+  "anlam": "vahyetmek; gizlice bildirmek, ilham etmek; işaretle anlatmak",
+  "akraba": [
+   "vahiy"
+  ]
+ },
+ "N:غَيْب": {
+  "anlam": "gayb; görünmeyen, bilinmeyen",
+  "akraba": [
+   "gaip",
+   "gıybet",
+   "gaybubet"
+  ]
+ },
+ "V:نادَى": {
+  "anlam": "seslenmek, çağırmak",
+  "akraba": [
+   "nida",
+   "münadi"
+  ]
+ },
+ "V:سَبَّحَ": {
+  "anlam": "tesbih etmek, yüceltip anmak; Allah'ı her eksiklikten uzak tutmak",
+  "akraba": [
+   "tesbih",
+   "sübhan",
+   "tesbihat"
+  ]
+ },
+ "V:سَجَدَ": {
+  "anlam": "secde etmek; boyun eğmek",
+  "akraba": [
+   "secde",
+   "mescit",
+   "seccade"
+  ]
+ },
+ "N:نَبَأ": {
+  "anlam": "haber, önemli haber",
+  "akraba": [
+   "nebi"
+  ]
+ },
+ "N:دُعاء": {
+  "anlam": "dua; çağırma, çağrı",
+  "akraba": [
+   "dua",
+   "davet",
+   "dava",
+   "iddia"
+  ]
+ },
+ "N:لَدَى": {
+  "anlam": "yanında, katında"
+ },
+ "N:بَشَر": {
+  "anlam": "insan, beşer; insanlar",
+  "akraba": [
+   "beşer",
+   "beşeri",
+   "beşeriyet"
+  ]
+ },
+ "V:نَفَخَ": {
+  "anlam": "üflemek"
+ },
+ "N:طِين": {
+  "anlam": "çamur, balçık",
+  "akraba": [
+   "tıynet"
+  ]
+ },
+ "N:مَهْد": {
+  "anlam": "beşik; döşek"
+ },
+ "N:حَوارِيّ": {
+  "anlam": "havari; İsa'nın yardımcısı, samimi dostu",
+  "akraba": [
+   "havari"
+  ]
+ },
+ "V:أَحَسَّ": {
+  "anlam": "sezmek, hissetmek; fark etmek",
+  "akraba": [
+   "his",
+   "hassas",
+   "ihsas",
+   "hissiyat"
+  ]
+ },
+ "N:كاذِب": {
+  "anlam": "yalancı",
+  "akraba": [
+   "tekzip"
+  ]
+ },
+ "V:مَكَرَ": {
+  "anlam": "hile yapmak, tuzak kurmak; gizlice plan kurmak",
+  "akraba": [
+   "mekkâr"
+  ],
+  "not": "Allah'a nispet edildiğinde, hile yapanların tuzağını boşa çıkarıp onları cezalandırması demektir."
+ },
+ "N:شاهِد": {
+  "anlam": "şahit, tanık; hazır bulunan",
+  "akraba": [
+   "şahit",
+   "şahadet",
+   "müşahede",
+   "şehit"
+  ]
+ },
+ "N:تُراب": {
+  "anlam": "toprak",
+  "akraba": [
+   "türbe"
+  ],
+  "simge": "toprak"
+ },
+ "N:مَرْجِع": {
+  "anlam": "dönüş; dönülecek yer",
+  "akraba": [
+   "merci",
+   "müracaat",
+   "rücu"
+  ]
+ },
+ "N:لَعْنَة": {
+  "anlam": "lanet; rahmetten uzaklaştırma",
+  "akraba": [
+   "lanet",
+   "melun"
+  ]
+ },
+ "N:ناصِر": {
+  "anlam": "yardımcı",
+  "akraba": [
+   "nusret",
+   "ensar",
+   "mansur"
+  ]
+ },
+ "V:تَعالَ": {
+  "anlam": "gelmek; haydi gel",
+  "akraba": [
+   "teâlâ",
+   "ulvi",
+   "âli"
+  ],
+  "not": "Yalnızca emir biçiminde kullanılır; aslı yukarıya, yanıma gel demektir."
+ },
+ "V:أَضَلَّ": {
+  "anlam": "saptırmak, yoldan çıkarmak",
+  "akraba": [
+   "dalalet"
+  ]
+ },
+ "N:سَواء": {
+  "anlam": "müşterek, ortak; eşit, aynı; orta",
+  "akraba": [
+   "müsavi",
+   "seviye",
+   "istiva",
+   "tesviye"
+  ]
+ },
+ "V:يَشْعُرُ": {
+  "anlam": "farkına varmak, sezmek; anlamak",
+  "akraba": [
+   "şuur",
+   "şiir",
+   "şair"
+  ]
+ },
+ "N:طائِفَة": {
+  "anlam": "takım, grup; bölük",
+  "akraba": [
+   "taife",
+   "tayfa",
+   "tavaf"
+  ]
+ },
+ "N:حَنِيف": {
+  "anlam": "doğruya yönelen, hanif; batıldan yüz çevirip hakka yönelen",
+  "akraba": [
+   "hanif"
+  ]
+ },
+ "N:أَوْلَى": {
+  "anlam": "en yakın, daha yakın; daha layık",
+  "akraba": [
+   "evla",
+   "veli",
+   "evleviyet"
+  ]
+ },
+ "N:قَصَص": {
+  "anlam": "anlatılan olaylar, kıssa; anlatma",
+  "akraba": [
+   "kıssa"
+  ]
+ },
+ "N:كَذِب": {
+  "anlam": "yalan",
+  "akraba": [
+   "tekzip"
+  ]
+ },
+ "V:اشْتَرَى": {
+  "anlam": "değişmek, karşılığında almak; satın almak",
+  "akraba": [
+   "müşteri"
+  ]
+ },
+ "V:أَوْفَى": {
+  "anlam": "yerine getirmek; tam vermek",
+  "akraba": [
+   "vefa",
+   "ifa"
+  ]
+ },
+ "V:زَكَّى": {
+  "anlam": "temize çıkarmak, arındırmak; övmek",
+  "akraba": [
+   "zekât",
+   "tezkiye"
+  ]
+ },
+ "N:ثَمَن": {
+  "anlam": "değer, bedel; fiyat"
+ },
+ "V:لَبَسْ": {
+  "anlam": "karıştırmak; örtüp gizlemek",
+  "akraba": [
+   "iltibas",
+   "telbis"
+  ],
+  "not": "Üstünlü okunan bu fiil karıştırmak, esreli okunan ise giymek anlamındadır."
+ },
+ "V:تَبِعَ": {
+  "anlam": "uymak; ardından gitmek",
+  "akraba": [
+   "tebaa",
+   "tabiiyet",
+   "tâbi"
+  ]
+ },
+ "N:واسِع": {
+  "anlam": "her şeyi kaplayan, geniş; lütfu bol",
+  "akraba": [
+   "vüsat",
+   "tevsiat"
+  ]
+ },
+ "N:فاسِق": {
+  "anlam": "fasık, itaatten çıkan; yoldan çıkan",
+  "akraba": [
+   "fasık",
+   "fısk"
+  ]
+ },
+ "N:حُكْم": {
+  "anlam": "hüküm; hikmet, doğru karar verme; yönetim",
+  "akraba": [
+   "hüküm",
+   "hakim",
+   "hükümet",
+   "mahkeme"
+  ]
+ },
+ "N:مِيثاق": {
+  "anlam": "ahit, kesin söz; antlaşma",
+  "akraba": [
+   "misak",
+   "vesika"
+  ]
+ },
+ "N:لِسان": {
+  "anlam": "dil; lisan, konuşma",
+  "akraba": [
+   "lisan"
+  ]
+ },
+ "V:بَغَى": {
+  "anlam": "arzu etmek, istemek; aramak; haddi aşmak"
+ },
+ "N:نُبُوَّة": {
+  "anlam": "peygamberlik, nübüvvet",
+  "akraba": [
+   "nübüvvet",
+   "nebi"
+  ]
+ },
+ "V:دَرَسُ": {
+  "anlam": "okumak, ders almak; okuyup öğrenmek",
+  "akraba": [
+   "ders",
+   "medrese",
+   "müderris",
+   "tedris"
+  ]
+ },
+ "N:كَرْه": {
+  "anlam": "istemeyerek, zorla; hoşlanmama",
+  "akraba": [
+   "kerih",
+   "ikrah",
+   "mekruh",
+   "kerahet"
+  ]
+ },
+ "N:أَجْمَع": {
+  "anlam": "hepsi, bütün; tamamı",
+  "akraba": [
+   "icma",
+   "cemaat",
+   "mecmu"
+  ]
+ },
+ "N:ضالّ": {
+  "anlam": "sapık, yolunu şaşırmış",
+  "akraba": [
+   "dalalet"
+  ]
+ },
+ "V:يُنظَرُ": {
+  "anlam": "geciktirmek, mühlet vermek; ertelemek",
+  "akraba": [
+   "intizar",
+   "nazar"
+  ]
+ },
+ "V:يَقْبَلُ": {
+  "anlam": "kabul etmek",
+  "akraba": [
+   "kabul",
+   "makbul",
+   "mukabele"
+  ]
+ },
+ "V:خَفَّفَ": {
+  "anlam": "hafifletmek",
+  "akraba": [
+   "hafif",
+   "tahfif"
+  ]
+ },
+ "N:ذَهَب": {
+  "anlam": "altın",
+  "simge": "altin"
+ },
+ "V:ازْدادُ": {
+  "anlam": "aşırı gitmek, artmak; çoğalmak",
+  "akraba": [
+   "ziyade",
+   "mezat",
+   "müzayede"
+  ]
+ },
+ "V:افْتَدَى": {
+  "anlam": "fidye vermek; fidye vererek kurtulmak",
+  "akraba": [
+   "fidye",
+   "feda",
+   "fedakâr"
+  ]
+ },
+ "N:أَوَّل": {
+  "anlam": "ilk, birinci; önce",
+  "akraba": [
+   "evvel",
+   "evvela",
+   "evveliyat"
+  ]
+ },
+ "V:صَدَّ": {
+  "anlam": "çevirmek, alıkoymak; engellemek; yüz çevirmek"
+ },
+ "N:آمِن": {
+  "anlam": "güvenlik içinde olan, emin; güvenli",
+  "akraba": [
+   "emin",
+   "emniyet",
+   "iman",
+   "mümin"
+  ]
+ },
+ "N:مِلَّة": {
+  "anlam": "din, inanç yolu; şeriat",
+  "akraba": [
+   "millet",
+   "milli"
+  ],
+  "not": "Bugünkü millet kelimesi buradan gelir; Kur'an'da ise din, inanç yolu anlamındadır."
+ },
+ "V:صَدَقَ": {
+  "anlam": "doğru söylemek; sözünde durmak",
+  "akraba": [
+   "sadakat",
+   "sadık",
+   "sıdk",
+   "tasdik"
+  ]
+ },
+ "N:مَقام": {
+  "anlam": "makam, durulan yer; konum, mertebe",
+  "akraba": [
+   "makam",
+   "ikamet",
+   "mukim"
+  ]
+ },
+ "V:يَنالُ": {
+  "anlam": "erişmek, ulaşmak; elde etmek",
+  "akraba": [
+   "nail"
+  ]
+ },
+ "N:عِوَج": {
+  "anlam": "eğrilik, eğri; sapma"
+ },
+ "V:ذاقُ": {
+  "anlam": "tatmak; acısını çekmek, başından geçirmek",
+  "akraba": [
+   "zevk"
+  ]
+ },
+ "V:نَهَى": {
+  "anlam": "men etmek, yasaklamak; alıkoymak"
+ },
+ "V:أَصْبَحَ": {
+  "anlam": "hâline gelmek, olmak; sabahlamak",
+  "akraba": [
+   "sabah"
+  ],
+  "not": "Eksik fiil olarak 'bir hâle gelmek, olmak' anlamında kullanılır; asıl anlamı sabaha çıkmaktır."
+ },
+ "N:ظُلْم": {
+  "anlam": "zulüm, haksızlık; bir şeyi yerli yerine koymamak",
+  "akraba": [
+   "zulüm",
+   "zalim",
+   "mazlum"
+  ]
+ },
+ "N:مُنكَر": {
+  "anlam": "fenalık, kötülük; aklın ve dinin çirkin gördüğü iş",
+  "akraba": [
+   "münker",
+   "inkâr"
+  ],
+  "not": "Zıddı ma'ruf'tur; iyiliği emredip kötülükten men etmek kalıbında birlikte geçer."
+ },
+ "N:مُفْلِح": {
+  "anlam": "kurtuluşa eren, başarıya ulaşan",
+  "akraba": [
+   "felah",
+   "iflah"
+  ]
+ },
+ "V:تَفَرَّقَ": {
+  "anlam": "ayrılmak, ayrılığa düşmek; dağılmak",
+  "akraba": [
+   "fark",
+   "tefrika",
+   "fırka"
+  ]
+ },
+ "N:حَبْل": {
+  "anlam": "ip; ahit, bağ",
+  "not": "Allah'ın ipi, müfessirlere göre Kur'an, İslam ya da Allah'ın ahdi demektir."
+ },
+ "V:عَصا": {
+  "anlam": "karşı gelmek, isyan etmek",
+  "akraba": [
+   "isyan",
+   "asi",
+   "masiyet"
+  ]
+ },
+ "V:يَضُرَّ": {
+  "anlam": "zarar vermek",
+  "akraba": [
+   "zarar",
+   "zaruret",
+   "muzır"
+  ]
+ },
+ "N:أَيْن": {
+  "anlam": "nerede; nereye"
+ },
+ "N:دُبُر": {
+  "anlam": "arka, sırt; bir şeyin sonu",
+  "akraba": [
+   "tedbir",
+   "idbar"
+  ]
+ },
+ "N:غَضَب": {
+  "anlam": "gazap, öfke",
+  "akraba": [
+   "gazap"
+  ]
+ },
+ "N:خَيْرَة": {
+  "anlam": "iyilik, hayırlı iş; iyi, hayırlı",
+  "akraba": [
+   "hayır",
+   "hayrat"
+  ]
+ },
+ "N:أَذًى": {
+  "anlam": "incitme, eziyet; sıkıntı veren şey",
+  "akraba": [
+   "eza",
+   "eziyet"
+  ]
+ },
+ "V:يُسارِعُ": {
+  "anlam": "koşmak, yarışırcasına koşmak; acele etmek",
+  "akraba": [
+   "sürat",
+   "seri"
+  ]
+ },
+ "V:ساءَ": {
+  "anlam": "fenasına gitmek, üzmek; kötü olmak",
+  "akraba": [
+   "suizan",
+   "suiistimal",
+   "suikast"
+  ]
+ },
+ "N:رِيح": {
+  "anlam": "rüzgâr; koku",
+  "akraba": [
+   "rayiha"
+  ],
+  "simge": "ruzgar"
+ },
+ "N:كَيْد": {
+  "anlam": "hile, tuzak; gizli plan"
+ },
+ "V:فَرِحَ": {
+  "anlam": "sevinmek; şımarmak",
+  "akraba": [
+   "ferah"
+  ]
+ },
+ "V:لَقُ": {
+  "anlam": "rastlamak, karşılaşmak; kavuşmak",
+  "akraba": [
+   "mülakat",
+   "telakki"
+  ]
+ },
+ "N:أَفْواه": {
+  "anlam": "ağızlar"
+ },
+ "V:بَدا": {
+  "anlam": "açığa çıkmak, taşmak; görünmek, belli olmak"
+ },
+ "N:مُحِيط": {
+  "anlam": "kuşatan, çepeçevre saran",
+  "akraba": [
+   "muhit",
+   "ihata"
+  ]
+ },
+ "V:تَوَكَّلْ": {
+  "anlam": "güvenmek, dayanmak, tevekkül etmek",
+  "akraba": [
+   "tevekkül",
+   "vekil",
+   "vekâlet"
+  ]
+ },
+ "V:أَعَدَّ": {
+  "anlam": "hazırlamak",
+  "akraba": [
+   "istidat",
+   "müstait"
+  ]
+ },
+ "N:بُشْرَى": {
+  "anlam": "müjde, sevinçli haber",
+  "akraba": [
+   "beşaret",
+   "tebşir",
+   "mübeşşir"
+  ]
+ },
+ "N:ثَلاثَة": {
+  "anlam": "üç",
+  "akraba": [
+   "teslis",
+   "müselles"
+  ]
+ },
+ "V:قُطِعَ": {
+  "anlam": "kesmek; koparmak, ayırmak",
+  "akraba": [
+   "katî",
+   "kıta",
+   "inkıta",
+   "maktu"
+  ]
+ },
+ "V:أَمَدَّ": {
+  "anlam": "yardım etmek, takviye etmek; uzatmak",
+  "akraba": [
+   "imdat",
+   "medet",
+   "müddet"
+  ]
+ },
+ "V:اطْمَأَنَّ": {
+  "anlam": "güven bulmak, yatışmak, huzura kavuşmak",
+  "akraba": [
+   "itminan",
+   "mutmain"
+  ]
+ },
+ "V:هَمَّ": {
+  "anlam": "yeltenmek, -mek üzere olmak; niyet etmek, kastetmek",
+  "akraba": [
+   "himmet",
+   "mühim",
+   "ehemmiyet"
+  ]
+ },
+ "N:عاقِبَة": {
+  "anlam": "son, akıbet; sonuç",
+  "akraba": [
+   "akıbet",
+   "takip",
+   "ukba"
+  ]
+ },
+ "N:مُكَذِّب": {
+  "anlam": "yalanlayan, yalan sayan",
+  "akraba": [
+   "tekzip"
+  ]
+ },
+ "N:فاحِشَة": {
+  "anlam": "kötülük, çirkin iş; hayâsızlık, zina",
+  "akraba": [
+   "fahiş",
+   "fuhuş"
+  ],
+  "not": "Türkçedeki 'fahişe' anlamıyla sınırlı değildir; çirkinliği aşırı olan her söz ve iş için kullanılır, bazı ayetlerde zinayı anlatır."
+ },
+ "N:سُنَّة": {
+  "anlam": "yasa, değişmez kural; yol, gidişat",
+  "akraba": [
+   "sünnet",
+   "sünni"
+  ],
+  "not": "Kur'an'da çoğunlukla Allah'ın toplumlar hakkındaki değişmez kanununu ya da geçmiş toplumların gidişatını anlatır; fıkıhtaki sünnet terimiyle karıştırılmamalıdır."
+ },
+ "V:سارَ": {
+  "anlam": "gezmek, dolaşmak; yürümek",
+  "akraba": [
+   "seyir",
+   "seyyar",
+   "siyer"
+  ]
+ },
+ "N:عامِل": {
+  "anlam": "çalışan, iş yapan",
+  "akraba": [
+   "amel",
+   "amil",
+   "amele",
+   "muamele"
+  ]
+ },
+ "N:ضَرّاء": {
+  "anlam": "darlık, sıkıntı; zarar",
+  "akraba": [
+   "zarar",
+   "zaruret"
+  ]
+ },
+ "N:غَيْظ": {
+  "anlam": "öfke, kızgınlık; içte tutulan şiddetli öfke"
+ },
+ "N:شاكِر": {
+  "anlam": "şükreden",
+  "akraba": [
+   "şükür",
+   "teşekkür",
+   "şakir"
+  ]
+ },
+ "N:حُسْن": {
+  "anlam": "güzellik, güzeli; iyilik",
+  "akraba": [
+   "hüsnüzan",
+   "ihsan",
+   "tahsin"
+  ]
+ },
+ "N:ثَواب": {
+  "anlam": "mükâfat, karşılık; sevap",
+  "akraba": [
+   "sevap",
+   "mesabe"
+  ]
+ },
+ "V:ثَبَّتْ": {
+  "anlam": "sağlam tutmak, sabit kılmak; sebat verdirmek",
+  "akraba": [
+   "sabit",
+   "sebat",
+   "ispat",
+   "tespit"
+  ]
+ },
+ "N:عَقِب": {
+  "anlam": "ökçe, topuk; arka",
+  "akraba": [
+   "akıbet",
+   "takip"
+  ]
+ },
+ "N:قَدَم": {
+  "anlam": "ayak; adım",
+  "akraba": [
+   "kadem",
+   "kademe"
+  ]
+ },
+ "N:كَأَيِّن": {
+  "anlam": "nice, nice nice; ne kadar çok"
+ },
+ "V:يَتَمَنَّ": {
+  "anlam": "arzulamak, temenni etmek, dilemek",
+  "akraba": [
+   "temenni"
+  ]
+ },
+ "N:وَعْد": {
+  "anlam": "söz, vaat",
+  "akraba": [
+   "vaat",
+   "vade",
+   "mevut"
+  ]
+ },
+ "N:سُلْطان": {
+  "anlam": "delil, kanıt; güç, egemenlik",
+  "akraba": [
+   "sultan",
+   "saltanat",
+   "musallat"
+  ],
+  "not": "Kur'an'da çoğunlukla 'delil, kanıt' anlamındadır; delil de karşısındakini susturan bir güç sayılır."
+ },
+ "N:مَأْوَى": {
+  "anlam": "gidilecek yer, varılacak yer; barınak, sığınak"
+ },
+ "V:صَرَفَ": {
+  "anlam": "geri çevirmek, döndürmek; uzaklaştırmak",
+  "akraba": [
+   "sarf",
+   "masraf",
+   "tasarruf"
+  ]
+ },
+ "N:مَثْوًى": {
+  "anlam": "varılacak yer, kalınacak yer; durak"
+ },
+ "V:ابْتَلَى": {
+  "anlam": "denemek, sınamak",
+  "akraba": [
+   "bela",
+   "iptila",
+   "mübtela"
+  ]
+ },
+ "V:تَنازَعُ": {
+  "anlam": "çekişmek, anlaşmazlığa düşmek",
+  "akraba": [
+   "niza",
+   "münazaa"
+  ]
+ },
+ "N:غَمّ": {
+  "anlam": "gam, keder, tasa",
+  "akraba": [
+   "gam"
+  ]
+ },
+ "N:ظَنّ": {
+  "anlam": "zan, sanı; kanaat",
+  "akraba": [
+   "zan",
+   "zanlı",
+   "hüsnüzan",
+   "suizan"
+  ]
+ },
+ "V:غَشِيَ": {
+  "anlam": "bürümek, sarmak, kaplamak"
+ },
+ "N:جَمْع": {
+  "anlam": "topluluk; toplama, bir araya getirme",
+  "akraba": [
+   "cem",
+   "cemaat",
+   "cemiyet",
+   "cami"
+  ]
+ },
+ "N:قَتْل": {
+  "anlam": "öldürülme, öldürme; ölüm",
+  "akraba": [
+   "katil",
+   "katliam",
+   "maktul"
+  ]
+ },
+ "N:حَسْرَة": {
+  "anlam": "dert, iç yanması; derin pişmanlık",
+  "akraba": [
+   "hasret"
+  ],
+  "not": "Türkçedeki 'özlem' anlamından farklı olarak, elden kaçan bir şey için duyulan derin üzüntü ve pişmanlıktır."
+ },
+ "V:الْتَقَى": {
+  "anlam": "karşılaşmak, buluşmak",
+  "akraba": [
+   "mülakat"
+  ]
+ },
+ "V:بَرَزَ": {
+  "anlam": "çıkıp varmak, çıkmak; ortaya çıkmak",
+  "akraba": [
+   "bariz",
+   "ibraz"
+  ]
+ },
+ "N:جاهِلِيَّة": {
+  "anlam": "cahiliye, İslam öncesi bilgisizlik dönemi",
+  "akraba": [
+   "cahiliye",
+   "cahil",
+   "cehalet",
+   "meçhul"
+  ]
+ },
+ "N:ضَلال": {
+  "anlam": "sapıklık, doğru yoldan sapma",
+  "akraba": [
+   "dalalet"
+  ]
+ },
+ "V:مَنَّ": {
+  "anlam": "lütufta bulunmak, iyilikte bulunmak; başa kakmak",
+  "akraba": [
+   "minnet",
+   "minnettar",
+   "memnun"
+  ]
+ },
+ "N:رِضْوان": {
+  "anlam": "rıza, hoşnutluk",
+  "akraba": [
+   "rıza",
+   "razı",
+   "rıdvan"
+  ]
+ },
+ "N:غالِب": {
+  "anlam": "yenen, üstün gelen, galip",
+  "akraba": [
+   "galip",
+   "mağlup",
+   "galebe"
+  ]
+ },
+ "N:مُصِيبَة": {
+  "anlam": "musibet, bela; başa gelen kötü şey",
+  "akraba": [
+   "musibet",
+   "isabet",
+   "musip"
+  ]
+ },
+ "N:غَلِيظ": {
+  "anlam": "katı, sert; kaba",
+  "akraba": [
+   "galiz"
+  ]
+ },
+ "V:باءَ": {
+  "anlam": "uğramak, hak edip yüklenmek; bir şeyle dönmek"
+ },
+ "V:غَلَّ": {
+  "anlam": "ganimete hıyanet etmek, ganimetten gizlice almak"
+ },
+ "N:وَكِيل": {
+  "anlam": "vekil; işleri kendisine bırakılan, koruyup gözeten",
+  "akraba": [
+   "vekil",
+   "vekâlet",
+   "tevekkül"
+  ]
+ },
+ "V:أَحْسَنَ": {
+  "anlam": "iyilik etmek, güzel davranmak; bir işi güzel yapmak",
+  "akraba": [
+   "ihsan",
+   "muhsin",
+   "tahsin"
+  ]
+ },
+ "V:قَعَدَ": {
+  "anlam": "oturmak; savaştan geri kalmak",
+  "akraba": [
+   "kaide",
+   "mütekait"
+  ]
+ },
+ "N:حَسْب": {
+  "anlam": "yeter, yeterli"
+ },
+ "V:أَضاعُ": {
+  "anlam": "zayi etmek, boşa çıkarmak",
+  "akraba": [
+   "zayi",
+   "zayiat"
+  ]
+ },
+ "V:يَسْتَبْشِرُ": {
+  "anlam": "müjdeyle sevinmek; müjdelemek istemek",
+  "akraba": [
+   "beşaret",
+   "tebşir"
+  ],
+  "not": "Kelimenin asıl anlamı müjdeli haberle sevinmektir; Diyanet meali bu ayette 'müjdelemek isterler' diye çevirmiştir."
+ },
+ "N:فَرِح": {
+  "anlam": "sevinçli, sevinen; şımarık",
+  "akraba": [
+   "ferah"
+  ]
+ },
+ "V:دَفَعْ": {
+  "anlam": "savunmak; defetmek, uzaklaştırmak; teslim etmek",
+  "akraba": [
+   "müdafaa",
+   "defetmek"
+  ],
+  "not": "Bir şeyi birine 'ilâ' edatıyla yöneltince teslim etmek anlamı verir: mallarını kendilerine verin."
+ },
+ "N:طَيِّب": {
+  "anlam": "temiz, iyi; helal, hoş"
+ },
+ "N:مُهِين": {
+  "anlam": "küçültücü, alçaltıcı, horlayıcı"
+ },
+ "V:اجْتَبَى": {
+  "anlam": "seçmek, seçip kendine has kılmak"
+ },
+ "V:بَخِلَ": {
+  "anlam": "cimrilik etmek, esirgemek",
+  "akraba": [
+   "bahil"
+  ]
+ },
+ "N:خَبِيث": {
+  "anlam": "pis, kötü; murdar",
+  "akraba": [
+   "habis",
+   "habaset"
+  ]
+ },
+ "V:أَمْلَى": {
+  "anlam": "mühlet vermek, süre tanımak"
+ },
+ "N:حَظّ": {
+  "anlam": "pay, nasip"
+ },
+ "V:يُخَوِّفُ": {
+  "anlam": "korkutmak",
+  "akraba": [
+   "havf"
+  ]
+ },
+ "V:أُدْخِلَ": {
+  "anlam": "sokmak, içeri koymak",
+  "akraba": [
+   "dahil",
+   "ithal",
+   "müdahale",
+   "duhul"
+  ]
+ },
+ "N:غُرُور": {
+  "anlam": "aldatıcı şey; aldanma, aldatma",
+  "akraba": [
+   "gurur",
+   "mağrur"
+  ],
+  "not": "Türkçedeki 'kibir, övünme' anlamından farklı olarak aldanma ve insanı aldatan şey demektir."
+ },
+ "N:زُبُر": {
+  "anlam": "hikmetli sahifeler, kitaplar; yazılı levhalar"
+ },
+ "V:عَهِدَ": {
+  "anlam": "ahit vermek, kesin olarak emretmek; vasiyet etmek",
+  "akraba": [
+   "ahit",
+   "taahhüt",
+   "müteahhit",
+   "veliaht"
+  ]
+ },
+ "N:مُنِير": {
+  "anlam": "aydınlatıcı, ışık saçan",
+  "akraba": [
+   "nur",
+   "münevver",
+   "tenvir"
+  ]
+ },
+ "N:حَرِيق": {
+  "anlam": "yakıcı; yangın, yakma",
+  "akraba": [
+   "mahrukat"
+  ]
+ },
+ "N:ظَلّام": {
+  "anlam": "zulmedici, çok zulmeden",
+  "akraba": [
+   "zulüm",
+   "zalim"
+  ]
+ },
+ "N:عَزْم": {
+  "anlam": "azim, kararlılık; kesin karar",
+  "akraba": [
+   "azim",
+   "azimet"
+  ]
+ },
+ "N:وَراء": {
+  "anlam": "arka, geri; öte, ötesi",
+  "akraba": [
+   "mavera"
+  ]
+ },
+ "N:بَرّ": {
+  "anlam": "iyi, iyilik eden; sözüne bağlı, itaatkâr",
+  "akraba": [
+   "ebrar",
+   "mebrur"
+  ]
+ },
+ "N:ظَهْر": {
+  "anlam": "sırt, arka",
+  "akraba": [
+   "zahir",
+   "zuhur"
+  ]
+ },
+ "V:أَخْزَيْ": {
+  "anlam": "rezil etmek, rüsva etmek"
+ },
+ "V:نَبَذَ": {
+  "anlam": "atmak, fırlatıp atmak; umursamamak"
+ },
+ "N:جَنب": {
+  "anlam": "yan, böğür",
+  "akraba": [
+   "cenap",
+   "içtinap"
+  ]
+ },
+ "N:اخْتِلاف": {
+  "anlam": "birbiri ardınca gelme, gidip gelme; ayrılık, farklılık",
+  "akraba": [
+   "ihtilaf",
+   "halef",
+   "muhalif"
+  ]
+ },
+ "N:مِيعاد": {
+  "anlam": "verilen söz, vaat; buluşma vakti",
+  "akraba": [
+   "vaat",
+   "miat"
+  ]
+ },
+ "V:هاجَرَ": {
+  "anlam": "göç etmek, hicret etmek; terk etmek",
+  "akraba": [
+   "hicret",
+   "muhacir",
+   "hicri"
+  ]
+ },
+ "V:أُوذِيَ": {
+  "anlam": "eziyete uğramak, incitilmek; eziyet etmek",
+  "akraba": [
+   "eza",
+   "eziyet"
+  ]
+ },
+ "N:خاشِع": {
+  "anlam": "huşu duyan, saygıyla boyun eğen",
+  "akraba": [
+   "huşu"
+  ]
+ },
+ "N:بَلَد": {
+  "anlam": "ülke, diyar; şehir, belde",
+  "akraba": [
+   "belde",
+   "belediye"
+  ]
+ },
+ "N:سَرِيع": {
+  "anlam": "çabuk, hızlı",
+  "akraba": [
+   "sürat",
+   "seri"
+  ]
+ },
+ "N:نُزُل": {
+  "anlam": "konukluk, ikram; konuğa sunulan şey",
+  "akraba": [
+   "menzil",
+   "nüzul"
+  ]
+ },
+ "N:مِهاد": {
+  "anlam": "durak, yer; yatak, döşek"
+ },
+ "N:تَقَلُّب": {
+  "anlam": "gezip dolaşma, dönüp durma; hâlden hâle geçme",
+  "akraba": [
+   "inkılap",
+   "takallüp"
+  ]
+ },
+ "V:مَلَكَتْ": {
+  "anlam": "sahip olmak, malik olmak",
+  "akraba": [
+   "mülk",
+   "malik",
+   "memleket",
+   "temellük"
+  ],
+  "not": "'Ellerinizin sahip olduğu' ifadesi, o dönemde kişinin mülkiyetinde bulunan cariye ve köleleri anlatır."
+ },
+ "V:عَدَلَ": {
+  "anlam": "adaletli davranmak, adil olmak; denk tutmak",
+  "akraba": [
+   "adalet",
+   "adil",
+   "itidal",
+   "muadil"
+  ]
+ },
+ "V:يَتَساءَلُ": {
+  "anlam": "birbirinden istemek, dilekte bulunmak; birbirine sormak",
+  "akraba": [
+   "sual",
+   "mesele",
+   "mesul"
+  ]
+ },
+ "V:كَبُرَ": {
+  "anlam": "büyümek; büyük olmak, ağır gelmek",
+  "akraba": [
+   "kebir",
+   "tekbir",
+   "kibir"
+  ]
+ },
+ "N:سَفِيه": {
+  "anlam": "aklı ermez, beyinsiz; malını akılsızca harcayan",
+  "akraba": [
+   "sefih",
+   "sefahat"
+  ]
+ },
+ "V:أَشْهَدَ": {
+  "anlam": "şahit tutmak, şahit bulundurmak",
+  "akraba": [
+   "şahit",
+   "şahadet",
+   "müşahede"
+  ]
+ },
+ "N:رُشْد": {
+  "anlam": "olgunluk, akıl erginliği; doğru yol",
+  "akraba": [
+   "rüşt",
+   "reşit",
+   "irşat",
+   "mürşit"
+  ]
+ },
+ "V:بَثَّ": {
+  "anlam": "yaymak, üretip çoğaltmak; dağıtmak"
+ },
+ "N:قُرْبَى": {
+  "anlam": "yakınlar, akrabalık; yakınlık",
+  "akraba": [
+   "akraba",
+   "takarrüp",
+   "kurban"
+  ]
+ },
+ "N:سَعِير": {
+  "anlam": "çılgın alev, alevli ateş; cehennem"
+ },
+ "N:والِد": {
+  "anlam": "baba; ana baba",
+  "akraba": [
+   "valide",
+   "evlat",
+   "mevlit"
+  ]
+ },
+ "V:يَصْلَى": {
+  "anlam": "ateşe girmek, ateşte yanmak; ateşe atılmak"
+ },
+ "V:وَرِثَ": {
+  "anlam": "vâris olmak, mirasçı olmak",
+  "akraba": [
+   "miras",
+   "varis",
+   "veraset",
+   "irsi"
+  ]
+ },
+ "V:تَدْرِي": {
+  "anlam": "bilmek, farkına varmak",
+  "akraba": [
+   "dirayet"
+  ]
+ },
+ "N:نَفْع": {
+  "anlam": "fayda, yarar",
+  "akraba": [
+   "menfaat",
+   "intifa"
+  ]
+ },
+ "N:وَصِيَّة": {
+  "anlam": "vasiyet",
+  "akraba": [
+   "vasiyet",
+   "vasi",
+   "tavsiye"
+  ]
+ },
+ "N:شَرِيك": {
+  "anlam": "ortak",
+  "akraba": [
+   "şirket",
+   "iştirak",
+   "şerik"
+  ]
+ },
+ "N:فَوْز": {
+  "anlam": "kurtuluş, başarı; umduğuna erme"
+ },
+ "N:أُخْت": {
+  "anlam": "kız kardeş",
+  "akraba": [
+   "uhuvvet"
+  ]
+ },
+ "N:نِصْف": {
+  "anlam": "yarı, yarım",
+  "akraba": [
+   "nısıf",
+   "insaf"
+  ]
+ },
+ "N:ثُلُث": {
+  "anlam": "üçte bir",
+  "akraba": [
+   "sülüs"
+  ]
+ },
+ "N:دَيْن": {
+  "anlam": "borç",
+  "akraba": [
+   "medyun"
+  ]
+ },
+ "V:أَوْصا": {
+  "anlam": "vasiyet etmek; tavsiye etmek, emretmek",
+  "akraba": [
+   "vasiyet",
+   "vasi",
+   "tavsiye"
+  ]
+ },
+ "V:يَتَعَدَّ": {
+  "anlam": "aşmak, sınırı geçmek, çiğnemek"
+ },
+ "V:ذَهَبَ": {
+  "anlam": "alıp götürmek; gitmek",
+  "akraba": [
+   "mezhep"
+  ]
+ },
+ "V:أَعْرَضَ": {
+  "anlam": "vazgeçmek, bırakmak; yüz çevirmek",
+  "akraba": [
+   "itiraz",
+   "muarız"
+  ]
+ },
+ "V:كَرِهَ": {
+  "anlam": "hoşlanmamak, sevmemek; iğrenmek",
+  "akraba": [
+   "kerih",
+   "kerahet",
+   "mekruh",
+   "ikrah"
+  ]
+ },
+ "V:حَلَلْ": {
+  "anlam": "helal olmak; çözülmek; bir yere inmek",
+  "akraba": [
+   "helal",
+   "tahlil",
+   "mahal"
+  ]
+ },
+ "V:أَعْتَدَتْ": {
+  "anlam": "hazırlamak"
+ },
+ "N:تَوّاب": {
+  "anlam": "tövbeleri çok kabul eden; çok tövbe eden",
+  "akraba": [
+   "tövbe",
+   "tövbekâr"
+  ]
+ },
+ "N:آن": {
+  "anlam": "şimdi, şu an",
+  "akraba": [
+   "an",
+   "ani"
+  ]
+ },
+ "N:أَرْبَعَة": {
+  "anlam": "dört",
+  "akraba": [
+   "murabba",
+   "rubu",
+   "erbain"
+  ]
+ },
+ "N:مَكان": {
+  "anlam": "yer",
+  "akraba": [
+   "mekân"
+  ]
+ },
+ "N:بِنْت": {
+  "anlam": "kız, kız evlat"
+ },
+ "N:إِحْدَى": {
+  "anlam": "biri, bir tanesi"
+ },
+ "N:بُهْتان": {
+  "anlam": "iftira, bühtan",
+  "akraba": [
+   "bühtan"
+  ]
+ },
+ "N:مَقْت": {
+  "anlam": "iğrenç şey; şiddetli nefret, hışım"
+ },
+ "V:سَلَفَ": {
+  "anlam": "geçmek, önceden olup bitmek",
+  "akraba": [
+   "selef",
+   "eslaf"
+  ]
+ },
+ "V:أَرْضَعَتْ": {
+  "anlam": "emzirmek"
+ },
+ "N:قِنطار": {
+  "anlam": "yığınla mal, büyük miktar; kantar",
+  "akraba": [
+   "kantar"
+  ]
+ },
+ "N:مُحْصَنَة": {
+  "anlam": "evli kadın; iffetli kadın; hür kadın",
+  "akraba": [
+   "tahassun"
+  ],
+  "not": "Kökü kale gibi korunmuş olmayı anlatır; kadın evlilikle, iffetle ya da hürlükle korunmuş sayıldığı için bu üç anlamda kullanılır."
+ },
+ "N:فَرِيضَة": {
+  "anlam": "kararlaştırılmış pay, belirlenmiş miktar; farz, kesin hüküm",
+  "akraba": [
+   "farz",
+   "fariza"
+  ]
+ },
+ "V:اسْتَمْتَعَ": {
+  "anlam": "faydalanmak, yararlanmak",
+  "akraba": [
+   "meta",
+   "temettü"
+  ]
+ },
+ "V:أَحْصَنَتْ": {
+  "anlam": "evlenmek, evlilikle korunmak; korumak; iffetini korumak",
+  "akraba": [
+   "hisar"
+  ]
+ },
+ "N:طَوْل": {
+  "anlam": "güç yetirme, maddi imkân; zenginlik; lütuf, ihsan"
+ },
+ "N:مُتَّخِذ": {
+  "anlam": "edinen, tutan",
+  "akraba": [
+   "ahize",
+   "muaheze"
+  ]
+ },
+ "N:كَرِيم": {
+  "anlam": "şerefli, değerli; cömert, ikramı bol; güzel",
+  "akraba": [
+   "kerim",
+   "ikram",
+   "kerem",
+   "keramet"
+  ]
+ },
+ "N:يَسِير": {
+  "anlam": "kolay; az, önemsiz",
+  "akraba": [
+   "müyesser"
+  ]
+ },
+ "N:تِجارَة": {
+  "anlam": "ticaret, alım satım",
+  "akraba": [
+   "ticaret",
+   "tacir",
+   "ticari"
+  ]
+ },
+ "V:اجْتَنَبُ": {
+  "anlam": "kaçınmak, uzak durmak",
+  "akraba": [
+   "içtinap"
+  ]
+ },
+ "N:عُدْوان": {
+  "anlam": "aşırılık, haddi aşma; düşmanlık, saldırganlık",
+  "akraba": [
+   "adavet",
+   "teaddi"
+  ]
+ },
+ "N:ضَعِيف": {
+  "anlam": "zayıf, güçsüz",
+  "akraba": [
+   "zayıf",
+   "zaaf",
+   "zafiyet"
+  ]
+ },
+ "N:كَبِيرَة": {
+  "anlam": "büyük günah; büyük ve ağır gelen şey",
+  "akraba": [
+   "kebair",
+   "kebir",
+   "tekbir"
+  ]
+ },
+ "V:اكْتَسَبَ": {
+  "anlam": "kazanmak, elde etmek; işlemek, üstlenmek",
+  "akraba": [
+   "iktisap",
+   "müktesep"
+  ]
+ },
+ "N:إِحْسان": {
+  "anlam": "iyilik, iyilik etme; bir işi güzel yapma",
+  "akraba": [
+   "ihsan",
+   "muhsin",
+   "tahsin"
+  ]
+ },
+ "N:صاحِب": {
+  "anlam": "arkadaş, yoldaş; sahip; ehil, halk",
+  "akraba": [
+   "sahip",
+   "sahabe",
+   "sohbet",
+   "musahip"
+  ]
+ },
+ "N:عَلِيّ": {
+  "anlam": "yüce, Aliyy; yüksek, üstün",
+  "akraba": [
+   "âli",
+   "ulvi",
+   "teâlâ"
+  ]
+ },
+ "N:شِقاق": {
+  "anlam": "ayrılık, anlaşmazlık; muhalefet, karşı gelme"
+ },
+ "N:إِصْلاح": {
+  "anlam": "düzeltme, arayı bulma; iyileştirme, ıslah",
+  "akraba": [
+   "ıslah",
+   "sulh",
+   "salih",
+   "maslahat"
+  ]
+ },
+ "V:حَفِظَ": {
+  "anlam": "korumak, gözetip saklamak; gözetmek",
+  "akraba": [
+   "hafız",
+   "muhafaza",
+   "hıfz",
+   "muhafız"
+  ]
+ },
+ "V:اهْجُرْ": {
+  "anlam": "yalnız bırakmak, terk etmek; uzak durmak",
+  "akraba": [
+   "hicran",
+   "hicret"
+  ]
+ },
+ "N:جُنُب": {
+  "anlam": "uzak, yabancı; cünüp",
+  "akraba": [
+   "cünüp",
+   "içtinap"
+  ],
+  "not": "Tekil, çoğul, eril ve dişil için aynı biçimde kullanılır."
+ },
+ "N:حَدِيث": {
+  "anlam": "söz, haber; olay, kıssa",
+  "akraba": [
+   "hadis",
+   "hadise",
+   "muhaddis"
+  ],
+  "not": "Kur'an'da çoğunlukla söz ve haber anlamındadır; hadis ilmindeki terim anlamıyla sınırlı değildir."
+ },
+ "V:يَقْرَبُ": {
+  "anlam": "yaklaşmak, yakın olmak",
+  "akraba": [
+   "takarrüp",
+   "akraba",
+   "kurban"
+  ]
+ },
+ "N:مَرِيض": {
+  "anlam": "hasta",
+  "akraba": [
+   "maraz"
+  ]
+ },
+ "N:ضَلالَة": {
+  "anlam": "sapıklık, doğru yoldan sapma",
+  "akraba": [
+   "dalalet"
+  ]
+ },
+ "N:قَرِين": {
+  "anlam": "arkadaş, yoldaş; yanından ayrılmayan"
+ },
+ "N:مِثْقال": {
+  "anlam": "kadar, ağırlığınca miktar; ağırlık",
+  "akraba": [
+   "sıklet",
+   "miskal",
+   "sakil"
+  ]
+ },
+ "N:ذَرَّة": {
+  "anlam": "zerre, en küçük parça; küçük karınca",
+  "akraba": [
+   "zerre"
+  ]
+ },
+ "N:عَفُوّ": {
+  "anlam": "çok affeden, Afüvv; günahları silen",
+  "akraba": [
+   "af",
+   "muaf"
+  ]
+ },
+ "V:لَعَنَ": {
+  "anlam": "lanet etmek; rahmetinden uzaklaştırmak",
+  "akraba": [
+   "lanet",
+   "melun"
+  ]
+ },
+ "V:هادُ": {
+  "anlam": "Yahudi olmak; tövbe edip Allah'a dönmek",
+  "not": "Çoğunlukla geçmiş zaman çoğul biçimiyle 'Yahudi olanlar, Yahudiler' anlamındaki kalıpta geçer."
+ },
+ "N:طاغُوت": {
+  "anlam": "tağut, şeytan; put, Allah'tan başka tapılan şey; haddi aşan azgın",
+  "akraba": [
+   "tuğyan"
+  ]
+ },
+ "N:مَفْعُول": {
+  "anlam": "yapılmış, yerine getirilmiş; gerçekleşen",
+  "akraba": [
+   "fiil",
+   "fail",
+   "faaliyet"
+  ]
+ },
+ "N:أَهْدَى": {
+  "anlam": "daha doğru yolda olan; daha doğru",
+  "akraba": [
+   "hidayet"
+  ]
+ },
+ "N:سَبْت": {
+  "anlam": "cumartesi, Sebt günü; dinlenme günü"
+ },
+ "V:طُمِسَتْ": {
+  "anlam": "silmek, iz bırakmadan yok etmek; ışığını söndürmek"
+ },
+ "V:يُحَرِّفُ": {
+  "anlam": "değiştirmek, tahrif etmek; yerinden kaydırmak",
+  "akraba": [
+   "tahrif",
+   "inhiraf"
+  ]
+ },
+ "N:أَبَدًا": {
+  "anlam": "ebediyen, sonsuza dek; hiçbir zaman, asla",
+  "akraba": [
+   "ebedî",
+   "ebediyen",
+   "ebediyet"
+  ],
+  "not": "Olumsuz cümlede 'asla, hiçbir zaman' anlamı verir."
+ },
+ "N:ظِلّ": {
+  "anlam": "gölge; gölgelik"
+ },
+ "N:جُلُود": {
+  "anlam": "deriler; deri",
+  "akraba": [
+   "cilt",
+   "mücellit"
+  ]
+ },
+ "N:مُطَهَّرَة": {
+  "anlam": "tertemiz kılınmış, arındırılmış",
+  "akraba": [
+   "taharet",
+   "tahir",
+   "tathir"
+  ]
+ },
+ "V:يُؤَدِّ": {
+  "anlam": "teslim etmek, ödemek; yerine getirmek, eda etmek",
+  "akraba": [
+   "eda"
+  ]
+ },
+ "V:أُصْلِي": {
+  "anlam": "ateşe sokmak, ateşte yakmak"
+ },
+ "N:أَمانَة": {
+  "anlam": "emanet; güvenilirlik",
+  "akraba": [
+   "emanet",
+   "emin",
+   "emniyet"
+  ]
+ },
+ "V:حَسَدَ": {
+  "anlam": "çekememek, kıskanmak, haset etmek",
+  "akraba": [
+   "haset",
+   "hasut"
+  ]
+ },
+ "N:مُنافِق": {
+  "anlam": "münafık, ikiyüzlü",
+  "akraba": [
+   "münafık",
+   "nifak"
+  ]
+ },
+ "N:حَرَج": {
+  "anlam": "sıkıntı, darlık; güçlük, zorluk"
+ },
+ "V:زَعَمَ": {
+  "anlam": "iddia etmek, ileri sürmek; asılsız yere sanmak"
+ },
+ "V:حَلَفْ": {
+  "anlam": "yemin etmek, and içmek"
+ },
+ "V:سَلَّمَ": {
+  "anlam": "teslim olmak, boyun eğmek; selam vermek; kurtarmak",
+  "akraba": [
+   "teslim",
+   "teslimiyet",
+   "selam"
+  ]
+ },
+ "N:تَسْلِيم": {
+  "anlam": "teslim olma, boyun eğme; selam verme",
+  "akraba": [
+   "teslim",
+   "teslimiyet"
+  ]
+ },
+ "V:أَنْعَمَ": {
+  "anlam": "nimet vermek, iyilikte bulunmak",
+  "akraba": [
+   "nimet",
+   "inam"
+  ]
+ },
+ "V:نَفَرَ": {
+  "anlam": "savaşa çıkmak, topluca yola çıkmak; ürküp uzaklaşmak, nefret etmek",
+  "akraba": [
+   "nefir",
+   "nefer",
+   "nefret"
+  ]
+ },
+ "N:مَوَدَّة": {
+  "anlam": "sevgi, dostluk"
+ },
+ "N:صِدِّيق": {
+  "anlam": "dosdoğru olan, sıddık; çok sadık, tasdiki tam olan",
+  "akraba": [
+   "sıddık",
+   "sadakat",
+   "sadık",
+   "tasdik"
+  ]
+ },
+ "V:شَرَ": {
+  "anlam": "satmak, karşılığında vermek; satın almak",
+  "akraba": [
+   "müşteri"
+  ],
+  "not": "Hem satmak hem satın almak anlamına gelen kelimelerdendir; Kur'an'da satmak anlamında geçer, bu ayette dünya hayatını ahirete karşılık verenler anlatılır."
+ },
+ "V:فازَ": {
+  "anlam": "kazanmak, başarıya ulaşmak; kurtuluşa ermek"
+ },
+ "V:حَسُنَ": {
+  "anlam": "güzel olmak, iyi olmak",
+  "akraba": [
+   "hüsün",
+   "tahsin",
+   "ihsan"
+  ]
+ },
+ "N:حِذْر": {
+  "anlam": "korunma tedbiri, ihtiyat; sakınma"
+ },
+ "V:كادَ": {
+  "anlam": "-mek üzere olmak, az kalsın -mek; yaklaşmak",
+  "not": "Yaklaşma fiilidir, ardından muzâri fiil gelir; olumsuzu 'neredeyse hiç -memek' anlamı verir."
+ },
+ "V:يَفْقَهُ": {
+  "anlam": "anlamak, kavramak; derinlemesine anlamak",
+  "akraba": [
+   "fıkıh",
+   "fakih"
+  ],
+  "not": "Kur'an'da sözü ve gerçeği derinden kavramak anlamındadır; fıkıh ilminin terim anlamıyla sınırlı değildir."
+ },
+ "V:أَخَّرَ": {
+  "anlam": "ertelemek, geciktirmek, tehir etmek; geride bırakmak",
+  "akraba": [
+   "tehir",
+   "âhir",
+   "âhiret"
+  ]
+ },
+ "N:خَشْيَة": {
+  "anlam": "korku; saygı ile karışık korku",
+  "akraba": [
+   "haşyet"
+  ]
+ },
+ "V:كَفَّ": {
+  "anlam": "çekmek, el çekmek; alıkoymak, engellemek"
+ },
+ "N:وَلِيد": {
+  "anlam": "çocuk; yeni doğmuş bebek; genç, delikanlı",
+  "akraba": [
+   "veled",
+   "evlat",
+   "mevlit",
+   "valide"
+  ]
+ },
+ "V:أَدْرَكَ": {
+  "anlam": "yetişmek, ulaşmak; kavramak, idrak etmek",
+  "akraba": [
+   "idrak"
+  ]
+ },
+ "N:مُسْتَضْعَف": {
+  "anlam": "güçsüz, zavallı; zayıf düşürülmüş, ezilen",
+  "akraba": [
+   "zayıf",
+   "zaaf"
+  ]
+ },
+ "N:بَأْس": {
+  "anlam": "saldırı gücü, baskın; savaş; sıkıntı, zarar",
+  "akraba": [
+   "beis"
+  ]
+ },
+ "N:شَفاعَة": {
+  "anlam": "aracılık, birinin yanında yer alma; şefaat",
+  "akraba": [
+   "şefaat"
+  ]
+ },
+ "N:حَفِيظ": {
+  "anlam": "bekçi, gözetleyen; koruyan, Hafîz",
+  "akraba": [
+   "hafız",
+   "muhafaza",
+   "muhafız"
+  ]
+ },
+ "V:يُكَلِّفُ": {
+  "anlam": "yükümlü kılmak, sorumlu tutmak; güç bir iş yüklemek",
+  "akraba": [
+   "teklif",
+   "mükellef",
+   "tekellüf",
+   "külfet"
+  ]
+ },
+ "N:تَحِيَّة": {
+  "anlam": "selam, selamlama; esenlik dileği",
+  "akraba": [
+   "hayat",
+   "tahiyyat"
+  ]
+ },
+ "N:أَمْن": {
+  "anlam": "güven, güvenlik, emniyet",
+  "akraba": [
+   "emniyet",
+   "emin",
+   "eman"
+  ]
+ },
+ "V:يَشْفَعُ": {
+  "anlam": "aracılık etmek; şefaat etmek",
+  "akraba": [
+   "şefaat"
+  ]
+ },
+ "N:حَسِيب": {
+  "anlam": "hesap gören, hesaba çeken; yeterli olan",
+  "akraba": [
+   "hesap",
+   "muhasebe"
+  ]
+ },
+ "V:يَصِلُ": {
+  "anlam": "katılmak, bağlanmak; ulaşmak, varmak; birleştirmek",
+  "akraba": [
+   "vuslat",
+   "sıla",
+   "vasıl"
+  ]
+ },
+ "V:اعْتَزَلَ": {
+  "anlam": "uzak durmak, ayrılmak, çekilmek",
+  "akraba": [
+   "itizal",
+   "azil"
+  ]
+ },
+ "V:ثُقِفُ": {
+  "anlam": "bulmak, yakalamak; ele geçirmek"
+ },
+ "N:سَلَم": {
+  "anlam": "barış; teslimiyet, boyun eğme",
+  "akraba": [
+   "selamet",
+   "teslim"
+  ]
+ },
+ "N:سَلام": {
+  "anlam": "selam, selamlama; esenlik, barış",
+  "akraba": [
+   "selam",
+   "selamet",
+   "teslim"
+  ]
+ },
+ "N:رَقَبَة": {
+  "anlam": "köle, kişi; boyun",
+  "not": "Asıl anlamı boyundur; parçası söylenip bütünü kastedilerek köle ya da esir anlamında kullanılır."
+ },
+ "N:صِيام": {
+  "anlam": "oruç, oruç tutma",
+  "akraba": [
+   "savm"
+  ]
+ },
+ "N:تَوْبَة": {
+  "anlam": "tövbe, günahtan dönüş; tövbenin kabulü",
+  "akraba": [
+   "tövbe",
+   "tövbekâr"
+  ],
+  "not": "Kuldan olunca günahtan dönmek, Allah'tan olunca tövbeyi kabul edip affetmek anlamına gelir."
+ },
+ "V:تَصَدَّقَ": {
+  "anlam": "bağışlamak, hakkından vazgeçmek; sadaka vermek",
+  "akraba": [
+   "sadaka",
+   "tasadduk"
+  ]
+ },
+ "V:غَضِبَ": {
+  "anlam": "gazap etmek, öfkelenmek",
+  "akraba": [
+   "gazap"
+  ]
+ },
+ "N:عَرَض": {
+  "anlam": "geçici menfaat, dünya malı; gelip geçen şey",
+  "akraba": [
+   "arızi",
+   "araz"
+  ]
+ },
+ "N:تَحْرِير": {
+  "anlam": "azat etme, köleyi özgür bırakma",
+  "akraba": [
+   "hür",
+   "hürriyet"
+  ]
+ },
+ "V:اسْتَوَى": {
+  "anlam": "eşit olmak; doğrulmak, olgunluğa ermek; yerleşmek, istiva etmek",
+  "akraba": [
+   "müsavi",
+   "istiva",
+   "tesviye",
+   "seviye"
+  ]
+ },
+ "V:فَتَنُ": {
+  "anlam": "sıkıntıya sokmak, zarar vermek; sınamak, denemek; saptırmak",
+  "akraba": [
+   "fitne",
+   "fettan"
+  ],
+  "not": "Asıl anlamı altını ateşe sokup ayarını denemektir; sınamak ve sıkıntıya sokmak anlamları buradan çıkar."
+ },
+ "N:حُسْنَى": {
+  "anlam": "en güzel, güzel olan; güzel karşılık, cennet",
+  "akraba": [
+   "hüsün",
+   "hüsnüzan"
+  ],
+  "not": "'En güzel' anlamındaki sıfatın dişil biçimidir; bu ayette Diyanet mealinde cennet diye çevrilmiştir."
+ },
+ "V:وَقَعَ": {
+  "anlam": "düşmek, gerekmek; olmak, vuku bulmak; gelip çatmak",
+  "akraba": [
+   "vuku",
+   "vaka",
+   "vakıa"
+  ]
+ },
+ "N:قاعِد": {
+  "anlam": "oturan; savaştan geri kalan",
+  "akraba": [
+   "kaide",
+   "mütekait"
+  ]
+ },
+ "N:مُهاجِر": {
+  "anlam": "göç eden, hicret eden, muhacir",
+  "akraba": [
+   "muhacir",
+   "hicret"
+  ]
+ },
+ "N:سَعَة": {
+  "anlam": "genişlik, bolluk; zenginlik, imkân",
+  "akraba": [
+   "vüsat",
+   "tevsiat"
+  ]
+ },
+ "N:مُجاهِد": {
+  "anlam": "cihad eden, mücahit; var gücüyle çabalayan",
+  "akraba": [
+   "mücahit",
+   "cihat",
+   "içtihat"
+  ]
+ },
+ "V:صَلَّى": {
+  "anlam": "namaz kılmak; dua etmek; salat getirmek",
+  "akraba": [
+   "salat",
+   "salavat",
+   "musalla"
+  ]
+ },
+ "N:مَطَر": {
+  "anlam": "yağmur",
+  "simge": "yagmur"
+ },
+ "N:خَصِيم": {
+  "anlam": "savunucu, biri adına çekişen; hasım, düşman",
+  "akraba": [
+   "hasım",
+   "husumet"
+  ]
+ },
+ "V:وَهَنَ": {
+  "anlam": "gevşemek, gevşeklik göstermek; zayıf düşmek"
+ },
+ "N:قُعُود": {
+  "anlam": "oturma, oturur hâlde olma; oturanlar",
+  "akraba": [
+   "kaide",
+   "mütekait"
+  ]
+ },
+ "N:أَسْلِحَت": {
+  "anlam": "silahlar; silah",
+  "akraba": [
+   "silah",
+   "teslihat",
+   "müsellah"
+  ]
+ },
+ "V:يَمِيلُ": {
+  "anlam": "üzerine yüklenmek, saldırmak; meyletmek, bir yana eğilmek",
+  "akraba": [
+   "meyil",
+   "temayül",
+   "meyyal"
+  ],
+  "not": "'Alâ edatıyla gelince birinin üzerine çullanmak, saldırmak anlamı verir."
+ },
+ "V:يَأْلَمُ": {
+  "anlam": "acı çekmek, ağrı duymak",
+  "akraba": [
+   "elem",
+   "elim"
+  ]
+ },
+ "V:جادَلُ": {
+  "anlam": "çekişmek, uğraşmak; tartışmak, mücadele etmek",
+  "akraba": [
+   "mücadele",
+   "cedel",
+   "cidal"
+  ],
+  "not": "'An edatıyla gelince birinin adına çekişmek, onu savunmak anlamı verir."
+ },
+ "N:بَرِيء": {
+  "anlam": "suçsuz, masum; uzak, ilişiği olmayan",
+  "akraba": [
+   "beraat",
+   "teberri"
+  ]
+ },
+ "N:خَطِيئَة": {
+  "anlam": "hata, yanılma; günah, suç",
+  "akraba": [
+   "hata"
+  ]
+ },
+ "V:رَمَى": {
+  "anlam": "atmak, fırlatmak; suç yüklemek, itham etmek",
+  "akraba": [
+   "mermi"
+  ]
+ },
+ "V:بَيَّتَ": {
+  "anlam": "gece kurmak, geceleyin tasarlamak; gece baskını yapmak"
+ },
+ "V:يَسْتَخْفُ": {
+  "anlam": "gizlenmek, saklanmak; gizlemeye çalışmak",
+  "akraba": [
+   "hafiye",
+   "ihfa"
+  ]
+ },
+ "V:احْتَمَلَ": {
+  "anlam": "yüklenmek, üstlenmek; taşımak",
+  "akraba": [
+   "tahammül",
+   "hamal",
+   "hamile"
+  ]
+ },
+ "N:شَيْطان": {
+  "anlam": "şeytan; azgın, inatçı ve kötü olan",
+  "akraba": [
+   "şeytan"
+  ]
+ },
+ "N:أُذُن": {
+  "anlam": "kulak",
+  "akraba": [
+   "ezan",
+   "müezzin"
+  ],
+  "simge": "kulak"
+ },
+ "V:خَسِرَ": {
+  "anlam": "ziyana uğramak, kaybetmek",
+  "akraba": [
+   "hüsran",
+   "hasar"
+  ]
+ },
+ "N:نَجْوَى": {
+  "anlam": "gizli toplantı, gizli konuşma; fısıldaşma",
+  "akraba": [
+   "münacat"
+  ]
+ },
+ "V:شاقُّ": {
+  "anlam": "ayrılmak, karşı tarafa geçmek; karşı gelmek, düşmanlık etmek"
+ },
+ "N:مَرْضات": {
+  "anlam": "rıza, hoşnutluk",
+  "akraba": [
+   "rıza",
+   "razı"
+  ]
+ },
+ "N:مَحِيص": {
+  "anlam": "kaçacak yer, kurtuluş yolu; kaçış"
+ },
+ "V:يُغَيِّرُ": {
+  "anlam": "değiştirmek",
+  "akraba": [
+   "tağyir",
+   "tagayyür"
+  ]
+ },
+ "N:أُمْنِيَّت": {
+  "anlam": "kuruntu, boş umut; dilek, arzu",
+  "akraba": [
+   "temenni"
+  ]
+ },
+ "V:يَسْتَفْتُ": {
+  "anlam": "fetva istemek, hüküm sormak; görüş sormak",
+  "akraba": [
+   "fetva",
+   "müftü"
+  ]
+ },
+ "V:يُفْتِي": {
+  "anlam": "fetva vermek, hükmü açıklamak; görüş bildirmek",
+  "akraba": [
+   "fetva",
+   "müftü"
+  ]
+ },
+ "V:يَرْغَبُ": {
+  "anlam": "arzu etmek, istemek; yüz çevirmek",
+  "akraba": [
+   "rağbet",
+   "merğup"
+  ],
+  "not": "Fî edatıyla 'istemek, arzulamak', an edatıyla 'yüz çevirmek, istememek' anlamı verir."
+ },
+ "N:قِيل": {
+  "anlam": "söz",
+  "akraba": [
+   "kavil",
+   "makale"
+  ]
+ },
+ "N:خَلِيل": {
+  "anlam": "dost, candan dost"
+ },
+ "V:وَصَّى": {
+  "anlam": "tavsiye etmek, emretmek; vasiyet etmek",
+  "akraba": [
+   "vasiyet",
+   "vasi",
+   "tavsiye"
+  ]
+ },
+ "V:أَذْهَبَ": {
+  "anlam": "yok etmek, gidermek; alıp götürmek"
+ },
+ "N:بَعْل": {
+  "anlam": "koca, eş; bir putun adı"
+ },
+ "N:شُحّ": {
+  "anlam": "cimrilik, hırslı açgözlülük; kıskançlık"
+ },
+ "V:أَحْضَرَتْ": {
+  "anlam": "hazır etmek, hazırlamak; huzura getirmek",
+  "akraba": [
+   "hazır",
+   "huzur",
+   "ihzar"
+  ]
+ },
+ "V:حَرَصْ": {
+  "anlam": "çok istemek, uğraşmak; hırs göstermek",
+  "akraba": [
+   "hırs",
+   "haris"
+  ]
+ },
+ "V:اسْتُهْزِئَ": {
+  "anlam": "alay etmek, eğlenmek",
+  "akraba": [
+   "istihza",
+   "müstehzi"
+  ]
+ },
+ "N:عِزَّة": {
+  "anlam": "şeref, izzet; güç, kudret; böbürlenme, gurur",
+  "akraba": [
+   "izzet",
+   "aziz",
+   "muazzez"
+  ]
+ },
+ "N:هَواء": {
+  "anlam": "heves, nefsin arzusu; boşluk",
+  "akraba": [
+   "heva"
+  ]
+ },
+ "V:خاضُ": {
+  "anlam": "dalmak, boş söze dalmak; içine girmek"
+ },
+ "N:جامِع": {
+  "anlam": "toplayan, bir araya getiren",
+  "akraba": [
+   "cami",
+   "cemaat",
+   "cemiyet",
+   "mecmua"
+  ]
+ },
+ "V:يَلْ": {
+  "anlam": "eğip bükmek, eğriltmek; dönüp bakmak"
+ },
+ "N:قَوّام": {
+  "anlam": "ayakta tutan, gözetip yerine getiren; koruyup yöneten",
+  "akraba": [
+   "kıyam",
+   "kayyum"
+  ]
+ },
+ "V:مَنَعَ": {
+  "anlam": "korumak, savunmak; engellemek, men etmek",
+  "akraba": [
+   "men",
+   "mani",
+   "memnu"
+  ]
+ },
+ "N:فَتْح": {
+  "anlam": "zafer, fetih; açma; hüküm verme",
+  "akraba": [
+   "fetih",
+   "fatih",
+   "iftitah"
+  ]
+ },
+ "N:أَسْفَل": {
+  "anlam": "en alt, en aşağı; daha aşağı",
+  "akraba": [
+   "süflî",
+   "sefil"
+  ]
+ },
+ "V:اعْتَصَمُ": {
+  "anlam": "sarılmak, sımsıkı tutunmak; sığınıp korunmak",
+  "akraba": [
+   "ismet",
+   "masum"
+  ]
+ },
+ "N:ساجِد": {
+  "anlam": "secde eden; boyun eğen, alçakgönüllü olan",
+  "akraba": [
+   "secde",
+   "mescit",
+   "seccade"
+  ]
+ },
+ "N:عِجْل": {
+  "anlam": "buzağı"
+ },
+ "N:طُور": {
+  "anlam": "Tur Dağı; dağ",
+  "simge": "dag"
+ },
+ "N:صاعِقَة": {
+  "anlam": "yıldırım; helak eden korkunç ses, azap"
+ },
+ "N:جَهْر": {
+  "anlam": "açığa vurma, açıkça söyleme; sesi yükseltme",
+  "akraba": [
+   "cehrî"
+  ]
+ },
+ "N:جَهْرَة": {
+  "anlam": "apaçık, açıkça; göz önünde",
+  "akraba": [
+   "cehrî"
+  ],
+  "not": "Çoğunlukla zarf gibi kullanılır ve 'açıkça, göz önünde' anlamı verir."
+ },
+ "V:يَعْدُ": {
+  "anlam": "aşırı gitmek, haddi aşmak; ayrılıp geçmek",
+  "akraba": [
+   "teaddi",
+   "adavet"
+  ]
+ },
+ "N:شَكّ": {
+  "anlam": "şüphe, kuşku",
+  "akraba": [
+   "şek"
+  ]
+ },
+ "V:طَبَعَ": {
+  "anlam": "mühürlemek; damgalamak, basmak",
+  "akraba": [
+   "matbaa",
+   "tabiat"
+  ]
+ },
+ "N:مُقِيم": {
+  "anlam": "dosdoğru kılan, ayakta tutan; kalıcı, sürekli",
+  "akraba": [
+   "ikamet",
+   "mukim",
+   "istikamet"
+  ],
+  "not": "Namaz sözüyle birlikte 'namazı dosdoğru kılan' anlamı verir."
+ },
+ "N:يَقِين": {
+  "anlam": "kesin bilgi, kesinlik; şüphe götürmez gerçek"
+ },
+ "N:أَخْذ": {
+  "anlam": "alma; tutma, yakalama",
+  "akraba": [
+   "ahize",
+   "mehaz",
+   "muaheze"
+  ]
+ },
+ "N:أَكْل": {
+  "anlam": "yeme; yiyip tüketme"
+ },
+ "V:قَصَّ": {
+  "anlam": "anlatmak, haber vermek; izini sürmek",
+  "akraba": [
+   "kıssa"
+  ]
+ },
+ "N:مُنذِر": {
+  "anlam": "uyarıcı, uyaran"
+ },
+ "N:مُبَشِّر": {
+  "anlam": "müjdeleyici, müjdeci",
+  "akraba": [
+   "beşaret",
+   "mübeşşir"
+  ]
+ },
+ "N:حُجَّة": {
+  "anlam": "hüccet, delil; ileri sürülecek bahane",
+  "akraba": [
+   "hüccet"
+  ]
+ },
+ "N:أَسْباط": {
+  "anlam": "torunlar; oymaklar, kabileler",
+  "not": "Kur'an'da Yakub peygamberin soyundan gelen İsrailoğulları oymakları için kullanılır."
+ },
+ "N:طَرِيق": {
+  "anlam": "yol",
+  "akraba": [
+   "tarikat"
+  ],
+  "simge": "yol"
+ },
+ "V:اسْتَكْبَرَ": {
+  "anlam": "büyüklük taslamak, kibirlenmek",
+  "akraba": [
+   "kibir",
+   "tekebbür",
+   "müstekbir"
+  ]
+ },
+ "N:عِبادَت": {
+  "anlam": "kulluk, ibadet",
+  "akraba": [
+   "ibadet",
+   "mabet",
+   "âbit"
+  ]
+ },
+ "N:بُرْهان": {
+  "anlam": "açık delil, kesin kanıt",
+  "akraba": [
+   "burhan"
+  ]
+ },
+ "N:مُقَرَّب": {
+  "anlam": "yakınlaştırılmış, Allah'a yakın kılınmış; gözde",
+  "akraba": [
+   "mukarrep",
+   "akraba",
+   "kurban"
+  ]
+ },
+ "V:اسْتَنكَفُ": {
+  "anlam": "kibirlenip çekinmek, tenezzül etmemek",
+  "akraba": [
+   "istinkâf"
+  ]
+ },
+ "N:بِرّ": {
+  "anlam": "iyilik; itaat, hayır",
+  "akraba": [
+   "mebrur",
+   "ebrar"
+  ]
+ },
+ "N:اثْنَتَيْن": {
+  "anlam": "iki"
+ },
+ "N:هَدْي": {
+  "anlam": "kurbanlık; Kâbe'ye götürülen kurbanlık hayvan",
+  "akraba": [
+   "hediye"
+  ]
+ },
+ "N:إِخْوَة": {
+  "anlam": "kardeşler",
+  "akraba": [
+   "uhuvvet",
+   "ihvan"
+  ]
+ },
+ "N:أُنثَيَيْن": {
+  "anlam": "iki dişi; iki kadın",
+  "akraba": [
+   "müennes"
+  ]
+ },
+ "V:هَلَكَ": {
+  "anlam": "ölmek; yok olmak, helak olmak",
+  "akraba": [
+   "helak",
+   "tehlike",
+   "istihlak"
+  ]
+ },
+ "N:صَيْد": {
+  "anlam": "avlanma; av"
+ },
+ "N:شَعائِر": {
+  "anlam": "nişaneler, alametler; dinin simgeleri",
+  "akraba": [
+   "şiar"
+  ]
+ },
+ "N:لَحْم": {
+  "anlam": "et",
+  "akraba": [
+   "lahmacun"
+  ]
+ },
+ "N:دَم": {
+  "anlam": "kan"
+ },
+ "V:يَئِسَ": {
+  "anlam": "ümidini kesmek, umutsuzluğa düşmek",
+  "akraba": [
+   "yeis",
+   "meyus"
+  ]
+ },
+ "V:اضْطُرَّ": {
+  "anlam": "zorda kalmak, çaresiz kalmak; mecbur edilmek",
+  "akraba": [
+   "zaruret",
+   "muztar",
+   "zarar"
+  ]
+ },
+ "N:مَيْتَة": {
+  "anlam": "leş, kendiliğinden ölmüş hayvan; ölü",
+  "akraba": [
+   "meyyit",
+   "mevta",
+   "memat"
+  ]
+ },
+ "V:ذُبِحَ": {
+  "anlam": "boğazlamak, kesmek",
+  "akraba": [
+   "mezbaha"
+  ]
+ },
+ "N:خِنزِير": {
+  "anlam": "domuz",
+  "akraba": [
+   "hınzır"
+  ]
+ },
+ "N:حِلّ": {
+  "anlam": "helal, serbest",
+  "akraba": [
+   "helal"
+  ]
+ },
+ "N:رِجْل": {
+  "anlam": "ayak"
+ },
+ "V:طَهَّرَ": {
+  "anlam": "temizlemek, arındırmak",
+  "akraba": [
+   "taharet",
+   "tathir",
+   "tahir"
+  ]
+ },
+ "V:تَطَهَّرْ": {
+  "anlam": "temizlenmek, arınmak",
+  "akraba": [
+   "taharet",
+   "tahir"
+  ],
+  "not": "Bu ayetteki ittahharû biçiminde kalıbın baştaki te sesi tı sesine katılmıştır."
+ },
+ "V:لَمَسُ": {
+  "anlam": "dokunmak, el sürmek; yaklaşmak; yoklamak"
+ },
+ "N:صَعِيد": {
+  "anlam": "toprak; yeryüzü",
+  "simge": "toprak"
+ },
+ "V:تَيَمَّمُ": {
+  "anlam": "teyemmüm etmek; yönelmek, kastetmek",
+  "akraba": [
+   "teyemmüm"
+  ],
+  "not": "Asıl anlamı bir şeye yönelmektir; ayette 'temiz toprağa yönelin' denerek teyemmüm anlatılır."
+ },
+ "V:امْسَحُ": {
+  "anlam": "meshetmek, sıvazlamak; silmek",
+  "akraba": [
+   "mesh"
+  ]
+ },
+ "V:يَجْرِمَ": {
+  "anlam": "sürüklemek, yöneltmek; suç işlemek",
+  "akraba": [
+   "cürüm",
+   "mücrim",
+   "cereme"
+  ]
+ },
+ "N:جَحِيم": {
+  "anlam": "cehennem, Cahîm; şiddetle yanan ateş"
+ },
+ "N:اثْنَيْن": {
+  "anlam": "iki",
+  "not": "On sayısıyla birleşince 'on iki' anlamı verir."
+ },
+ "V:زالَت": {
+  "anlam": "sürekli olmak, hep devam etmek; ayrılmak",
+  "not": "Olumsuzluk edatıyla kullanılır ve 'hâlâ, durmadan, hep' anlamı verir."
+ },
+ "V:طَلَعَ": {
+  "anlam": "haberdar olmak, muttali olmak; bakıp görmek; doğmak",
+  "akraba": [
+   "muttali",
+   "ıttıla"
+  ]
+ },
+ "V:يَصْفَحُ": {
+  "anlam": "vazgeçmek, aldırmayıp geçmek; hoş görmek"
+ },
+ "V:أَقْرَضُ": {
+  "anlam": "borç vermek, ödünç vermek",
+  "akraba": [
+   "ikraz",
+   "istikraz"
+  ],
+  "not": "Allah'a güzel bir borç vermek, Allah yolunda gönül hoşluğuyla yapılan harcamayı anlatır."
+ },
+ "N:قَرْض": {
+  "anlam": "borç, ödünç",
+  "akraba": [
+   "ikraz",
+   "istikraz"
+  ]
+ },
+ "N:كَلِم": {
+  "anlam": "sözler, kelimeler",
+  "akraba": [
+   "kelime",
+   "kelam"
+  ]
+ },
+ "V:صَنَعُ": {
+  "anlam": "yapmak, işlemek",
+  "akraba": [
+   "sanat",
+   "sanayi",
+   "masnu"
+  ]
+ },
+ "N:عَداوَة": {
+  "anlam": "düşmanlık",
+  "akraba": [
+   "adavet"
+  ]
+ },
+ "N:بَغْضاء": {
+  "anlam": "kin, şiddetli nefret",
+  "akraba": [
+   "buğz"
+  ]
+ },
+ "N:جَبّار": {
+  "anlam": "zorba, baskıcı; çok güçlü, iradesini zorla yürüten",
+  "akraba": [
+   "cebir",
+   "cebren",
+   "mecbur"
+  ]
+ },
+ "N:بَشِير": {
+  "anlam": "müjdeci, müjdeleyen",
+  "akraba": [
+   "beşaret",
+   "mübeşşir"
+  ]
+ },
+ "V:ارْتَدَّ": {
+  "anlam": "geri dönmek; dinden dönmek",
+  "akraba": [
+   "irtidat",
+   "mürtet",
+   "ret"
+  ]
+ },
+ "N:وَيْل": {
+  "anlam": "yazık, vay hâline; helak, felaket",
+  "not": "Ünlem olarak kullanılır; yâ veyletâ 'vay başıma gelenler, yazıklar olsun bana' demektir."
+ },
+ "V:تَقَبَّلَ": {
+  "anlam": "kabul etmek, razı olarak kabul etmek",
+  "akraba": [
+   "kabul",
+   "makbul"
+  ]
+ },
+ "N:أَرْبَع": {
+  "anlam": "dört",
+  "akraba": [
+   "erbain",
+   "rubu",
+   "murabba"
+  ],
+  "not": "Sonuna -ûn ya da -în eki gelince 'kırk' anlamı verir: erbaîn."
+ },
+ "N:سَنَة": {
+  "anlam": "yıl",
+  "akraba": [
+   "sene"
+  ]
+ },
+ "V:دامُ": {
+  "anlam": "sürmek, devam etmek; kalmak",
+  "akraba": [
+   "devam",
+   "daima",
+   "müdavim",
+   "idame"
+  ],
+  "not": "Mâ ile birlikte 'oldukça, -dığı sürece' anlamı verir: mâ dâmû 'onlar oldukça'."
+ },
+ "N:سَوْءَة": {
+  "anlam": "ceset, ölü beden; açılması ayıp sayılan yer"
+ },
+ "V:فَرَقْ": {
+  "anlam": "ayırmak; ayırt etmek",
+  "akraba": [
+   "fark",
+   "tefrik",
+   "firak"
+  ]
+ },
+ "V:قَرَّبَ": {
+  "anlam": "sunmak, takdim etmek; yaklaştırmak",
+  "akraba": [
+   "kurban",
+   "mukarrep"
+  ]
+ },
+ "N:مُسْرِف": {
+  "anlam": "taşkınlık eden, haddi aşan; israf eden",
+  "akraba": [
+   "israf",
+   "müsrif"
+  ]
+ },
+ "V:قَطَّعَ": {
+  "anlam": "kesmek, parça parça kesmek; koparmak",
+  "akraba": [
+   "katî",
+   "kıta",
+   "inkıta",
+   "maktu"
+  ]
+ },
+ "N:خِزْى": {
+  "anlam": "rezillik, rüsvaylık; aşağılanma"
+ },
+ "N:فَساد": {
+  "anlam": "bozgunculuk, kargaşa; bozulma",
+  "akraba": [
+   "fesat",
+   "ifsat",
+   "müfsit"
+  ]
+ },
+ "N:خِلاف": {
+  "anlam": "karşı taraf, çaprazlama; aykırılık; ardında, arkasından",
+  "akraba": [
+   "muhalif",
+   "ihtilaf",
+   "muhalefet",
+   "hilaf"
+  ],
+  "not": "Min hılâfin 'çaprazlama', yani biri bir yandan öbürü öteki yandan demektir."
+ },
+ "V:قُتِّلُ": {
+  "anlam": "öldürmek; çokça ve şiddetle öldürmek",
+  "akraba": [
+   "katil",
+   "katliam",
+   "maktul"
+  ]
+ },
+ "V:يُصَلَّبُ": {
+  "anlam": "asmak, çarmıha germek",
+  "akraba": [
+   "salip"
+  ]
+ },
+ "V:يَحْذَرُ": {
+  "anlam": "sakınmak, çekinmek; kaçınmak"
+ },
+ "N:سَمّاع": {
+  "anlam": "çok dinleyen, kulak veren; başkası hesabına dinleyip söz taşıyan",
+  "akraba": [
+   "istima"
+  ]
+ },
+ "N:نَكال": {
+  "anlam": "ibret verici ceza; caydırıcı örnek"
+ },
+ "N:خارِج": {
+  "anlam": "çıkan, çıkacak olan; dışta olan",
+  "akraba": [
+   "hariç",
+   "harici",
+   "ihraç",
+   "mahreç"
+  ]
+ },
+ "N:مَواضِع": {
+  "anlam": "yerler",
+  "akraba": [
+   "mevzi",
+   "mevzu",
+   "vaziyet"
+  ]
+ },
+ "N:سارِق": {
+  "anlam": "hırsız, hırsızlık yapan"
+ },
+ "N:قِصاص": {
+  "anlam": "karşılıklı ödeşme; kısas, misliyle karşılık",
+  "akraba": [
+   "kısas"
+  ]
+ },
+ "N:أَحْبار": {
+  "anlam": "bilginler, din âlimleri; Yahudi din bilginleri"
+ },
+ "N:كَفّارَة": {
+  "anlam": "kefaret; günahı örten şey",
+  "akraba": [
+   "kefaret"
+  ]
+ },
+ "N:رَبّانِيِّن": {
+  "anlam": "Rabbe kul olanlar, Rabbânîler; Allah'a bağlı din bilginleri",
+  "akraba": [
+   "rabbani"
+  ]
+ },
+ "N:سُحْت": {
+  "anlam": "haram kazanç, haram mal; rüşvet"
+ },
+ "N:مُقْسِط": {
+  "anlam": "adaletli davranan, adil olan",
+  "not": "Aynı kökten kâsit ise tam tersine 'haktan sapan, zalim' anlamına gelir."
+ },
+ "V:بَلَوْ": {
+  "anlam": "denemek, sınamak",
+  "akraba": [
+   "bela",
+   "ibtila",
+   "mübtela"
+  ]
+ },
+ "N:أَثَر": {
+  "anlam": "iz; eser, nişane; ardı",
+  "akraba": [
+   "eser",
+   "tesir",
+   "asar",
+   "müessir"
+  ]
+ },
+ "V:يُوقِنُ": {
+  "anlam": "kesin olarak bilmek, şüphesiz inanmak"
+ },
+ "V:اسْتَبَقَ": {
+  "anlam": "yarışmak, yarışırcasına koşmak",
+  "akraba": [
+   "müsabaka",
+   "sabık"
+  ]
+ },
+ "V:قَفَّيْ": {
+  "anlam": "ardından göndermek, peşi sıra göndermek",
+  "akraba": [
+   "kafiye"
+  ]
+ },
+ "V:أَقْسَمُ": {
+  "anlam": "yemin etmek, and içmek",
+  "akraba": [
+   "kasem"
+  ]
+ },
+ "N:حِزْب": {
+  "anlam": "taraftarlar, yandaşlar; topluluk, grup",
+  "akraba": [
+   "hizip"
+  ]
+ },
+ "V:أَسَرَّ": {
+  "anlam": "gizlemek, içinde saklamak; gizlice söylemek",
+  "akraba": [
+   "sır",
+   "esrar"
+  ]
+ },
+ "N:مَرَض": {
+  "anlam": "hastalık; kalpteki şüphe, nifak",
+  "akraba": [
+   "maraz",
+   "marazi"
+  ]
+ },
+ "N:راكِع": {
+  "anlam": "rükû eden; eğilen, boyun eğen",
+  "akraba": [
+   "rükû",
+   "rekât"
+  ]
+ },
+ "N:لَعِب": {
+  "anlam": "oyun, eğlence"
+ },
+ "N:نادِم": {
+  "anlam": "pişman olan, pişman",
+  "akraba": [
+   "nedamet"
+  ]
+ },
+ "N:جَهْد": {
+  "anlam": "olanca güç, bütün gayret",
+  "akraba": [
+   "cehd",
+   "cihat",
+   "içtihat"
+  ],
+  "not": "Cehde eymânihim 'yeminlerinin olanca gücüyle', yani en ağır yeminlerle demektir."
+ },
+ "N:طُغْيان": {
+  "anlam": "azgınlık, taşkınlık; haddi aşma",
+  "akraba": [
+   "tuğyan"
+  ]
+ },
+ "N:أَضَلّ": {
+  "anlam": "daha çok sapmış, en çok sapmış",
+  "akraba": [
+   "dalalet"
+  ],
+  "not": "Üstünlük bildiren ism-i tafdîl kalıbıdır: 'daha çok ya da en çok sapmış'."
+ },
+ "V:أَوْقَدُ": {
+  "anlam": "yakmak, tutuşturmak"
+ },
+ "N:حَرْب": {
+  "anlam": "savaş",
+  "akraba": [
+   "harp",
+   "muharebe"
+  ]
+ },
+ "V:نَقَمُ": {
+  "anlam": "hoşlanmamak, kusur bulmak; kınamak",
+  "akraba": [
+   "intikam"
+  ]
+ },
+ "N:قِرَدَة": {
+  "anlam": "maymunlar"
+ },
+ "V:أَطْفَأَ": {
+  "anlam": "söndürmek",
+  "akraba": [
+   "itfaiye"
+  ]
+ },
+ "N:نَعِيم": {
+  "anlam": "nimet bolluğu, nimet; mutluluk, refah",
+  "akraba": [
+   "nimet",
+   "inam"
+  ]
+ },
+ "N:رِسالَة": {
+  "anlam": "elçilik görevi; gönderilen haber, mesaj",
+  "akraba": [
+   "risale",
+   "resul",
+   "irsaliye"
+  ]
+ },
+ "V:هَوَى": {
+  "anlam": "hoşlanmak, arzulamak; düşmek, aşağı inmek",
+  "akraba": [
+   "heva"
+  ]
+ },
+ "V:بَلَّغْ": {
+  "anlam": "tebliğ etmek, duyurmak; ulaştırmak",
+  "akraba": [
+   "tebliğ",
+   "meblağ",
+   "mübalağa",
+   "baliğ"
+  ]
+ },
+ "V:تَأْسَ": {
+  "anlam": "üzülmek, tasalanmak, kederlenmek"
+ },
+ "V:يَعْصِمُ": {
+  "anlam": "korumak, esirgemek",
+  "akraba": [
+   "masum",
+   "ismet"
+  ]
+ },
+ "V:أُفِكَ": {
+  "anlam": "döndürmek, haktan çevirmek"
+ },
+ "N:ضَرّ": {
+  "anlam": "zarar, kötülük; sıkıntı",
+  "akraba": [
+   "zarar",
+   "mazarrat",
+   "zaruret"
+  ]
+ },
+ "V:عَمِيَ": {
+  "anlam": "kör olmak; gerçeği görmemek",
+  "akraba": [
+   "âmâ"
+  ]
+ },
+ "N:رُهْبان": {
+  "anlam": "rahipler",
+  "akraba": [
+   "ruhban",
+   "rahip",
+   "rahibe"
+  ]
+ },
+ "V:أَطْعَمَ": {
+  "anlam": "yedirmek, doyurmak; yiyecek vermek",
+  "akraba": [
+   "taam"
+  ]
+ },
+ "N:رِجْس": {
+  "anlam": "pislik; iğrenç, kötü şey; azap"
+ },
+ "N:لَغْو": {
+  "anlam": "rastgele söylenen söz, boş söz; anlamsız, faydasız şey",
+  "akraba": [
+   "lağvetmek",
+   "ilga",
+   "mülga"
+  ]
+ },
+ "V:يَطْمَعُ": {
+  "anlam": "ummak, arzu etmek; göz dikmek, tamah etmek",
+  "akraba": [
+   "tamah",
+   "tamahkâr"
+  ]
+ },
+ "N:حَلال": {
+  "anlam": "helal, serbest olan; izin verilen",
+  "akraba": [
+   "helal",
+   "halletmek"
+  ]
+ },
+ "N:مُعْتَدي": {
+  "anlam": "aşırı giden, sınırı aşan; saldırgan",
+  "akraba": [
+   "adavet"
+  ]
+ },
+ "N:خَمْر": {
+  "anlam": "içki, şarap; sarhoş eden her şey",
+  "akraba": [
+   "mahmur"
+  ]
+ },
+ "N:مَيْسِر": {
+  "anlam": "kumar, şans oyunu"
+ },
+ "N:بالِغ": {
+  "anlam": "ulaşan, varan; erişkin, ergenlik çağına girmiş",
+  "akraba": [
+   "baliğ",
+   "tebliğ",
+   "meblağ"
+  ]
+ },
+ "V:انتَقَمْ": {
+  "anlam": "öç almak, intikam almak; cezalandırmak",
+  "akraba": [
+   "intikam"
+  ]
+ },
+ "V:طَعِمُ": {
+  "anlam": "tatmak; yemek, yiyip içmek",
+  "akraba": [
+   "taam"
+  ]
+ },
+ "N:انتِقام": {
+  "anlam": "öç alma, intikam",
+  "akraba": [
+   "intikam"
+  ]
+ },
+ "N:وَبال": {
+  "anlam": "ağır sonuç, vebal; ağırlık, ceza",
+  "akraba": [
+   "vebal"
+  ]
+ },
+ "N:بَحْر": {
+  "anlam": "deniz; büyük su",
+  "akraba": [
+   "bahriye"
+  ],
+  "simge": "deniz"
+ },
+ "V:أَعْجَبَ": {
+  "anlam": "hoşa gitmek, beğenilmek; hayran bırakmak, şaşırtmak",
+  "akraba": [
+   "acayip",
+   "acep",
+   "taaccüp"
+  ],
+  "not": "Beğenilen şey özne, beğenen kişi nesne olur: hoşuna giden şey fiilin öznesidir."
+ },
+ "N:سَيّارَة": {
+  "anlam": "yolcular, yolcu kafilesi; kervan",
+  "akraba": [
+   "seyir",
+   "seyyar",
+   "seyyare"
+  ],
+  "not": "Bugünkü Arapçada otomobil demektir; ayette ise yolculuk eden topluluk, kafile anlamındadır."
+ },
+ "V:ارْتابَ": {
+  "anlam": "şüphelenmek, kuşkuya düşmek"
+ },
+ "V:حَضَرَ": {
+  "anlam": "gelmek, çatmak; hazır bulunmak",
+  "akraba": [
+   "hazır",
+   "huzur",
+   "hazret",
+   "muhtazar"
+  ]
+ },
+ "N:آثِم": {
+  "anlam": "günahkâr, günah işleyen"
+ },
+ "N:سِحْر": {
+  "anlam": "büyü, sihir; göz boyayıcı aldatma",
+  "akraba": [
+   "sihir",
+   "sihirbaz",
+   "sahir"
+  ]
+ },
+ "V:أَيَّدَ": {
+  "anlam": "desteklemek, güçlendirmek",
+  "akraba": [
+   "teyit",
+   "müeyyide"
+  ]
+ },
+ "V:أُجِيبَت": {
+  "anlam": "cevap verilmek, karşılık verilmek; isteği kabul edilmek",
+  "akraba": [
+   "cevap",
+   "icabet"
+  ]
+ },
+ "N:قُدُس": {
+  "anlam": "kutsallık, temizlik, arılık",
+  "akraba": [
+   "mukaddes",
+   "takdis",
+   "kudsi"
+  ]
+ },
+ "N:عَلّام": {
+  "anlam": "çok iyi bilen, her şeyi bilen",
+  "akraba": [
+   "allame",
+   "ilim",
+   "malumat"
+  ]
+ },
+ "N:غُيُوب": {
+  "anlam": "gizli şeyler, görülmeyenler",
+  "akraba": [
+   "gayb",
+   "gaip",
+   "gaybubet"
+  ]
+ },
+ "N:والِدَة": {
+  "anlam": "anne, ana",
+  "akraba": [
+   "valide",
+   "evlat",
+   "mevlit"
+  ]
+ },
+ "V:نَفَعَ": {
+  "anlam": "fayda vermek, yararlı olmak",
+  "akraba": [
+   "menfaat",
+   "nafia",
+   "intifa"
+  ]
+ },
+ "N:صِدْق": {
+  "anlam": "doğruluk, doğru sözlülük; sadakat",
+  "akraba": [
+   "sıdk",
+   "sadık",
+   "sadakat",
+   "tasdik"
+  ]
+ },
+ "N:أ": {
+  "anlam": "mı, mi; soru edatı",
+  "not": "Cümlenin başına gelerek evet ya da hayır cevabı beklenen soru yapar."
+ },
+ "N:رازِق": {
+  "anlam": "rızık veren",
+  "akraba": [
+   "rızık",
+   "erzak"
+  ]
+ },
+ "N:رَقِيب": {
+  "anlam": "gözeten, gözetleyen; koruyup kollayan",
+  "akraba": [
+   "murakabe",
+   "murakıp"
+  ]
+ },
+ "N:حَمْد": {
+  "anlam": "övgü, hamd; şükürle övme",
+  "akraba": [
+   "hamd",
+   "hamdolsun"
+  ]
+ },
+ "N:قَرْن": {
+  "anlam": "nesil, kuşak; çağ, asır; boynuz"
+ },
+ "V:أَنشَأَ": {
+  "anlam": "yetiştirmek, meydana getirmek; yaratmak, var etmek",
+  "akraba": [
+   "inşa",
+   "inşaat",
+   "neşet"
+  ]
+ },
+ "V:مَكَّ": {
+  "anlam": "yerleştirmek, imkân vermek; güç ve iktidar vermek",
+  "akraba": [
+   "imkân",
+   "mümkün"
+  ]
+ },
+ "N:سِرّ": {
+  "anlam": "gizli şey, sır; iç",
+  "akraba": [
+   "sır",
+   "esrar",
+   "esrarengiz"
+  ]
+ },
+ "V:يَمْتَرُ": {
+  "anlam": "şüphe etmek, kuşkulanmak; çekişmek"
+ },
+ "N:مِدْرار": {
+  "anlam": "bol bol yağan, sağanak hâlinde"
+ },
+ "N:ضُرّ": {
+  "anlam": "sıkıntı, zarar; darlık, hastalık",
+  "akraba": [
+   "zarar",
+   "muzır",
+   "zaruret"
+  ]
+ },
+ "V:سَكَنَ": {
+  "anlam": "bulunmak, barınmak; durmak, sakin olmak; yerleşmek",
+  "akraba": [
+   "sakin",
+   "sükûn",
+   "mesken",
+   "iskân"
+  ]
+ },
+ "V:سَخِرَ": {
+  "anlam": "alay etmek, eğlenmek",
+  "akraba": [
+   "maskara"
+  ],
+  "not": "Alay edilen kişi min edatıyla gelir: sahira minhu, onunla alay etti."
+ },
+ "V:حاقَ": {
+  "anlam": "kuşatmak, çepeçevre sarmak; başına gelip mahvetmek",
+  "not": "Kur'an'da yalnızca kötülüğün ve azabın birini kuşatıp başına gelmesi için kullanılır."
+ },
+ "N:فاطِر": {
+  "anlam": "yoktan var eden, yaratan",
+  "akraba": [
+   "fıtrat",
+   "fıtri"
+  ]
+ },
+ "N:كاشِف": {
+  "anlam": "gideren, kaldıran; açan",
+  "akraba": [
+   "keşif",
+   "kâşif"
+  ]
+ },
+ "N:قاهِر": {
+  "anlam": "mutlak hâkim, her şeye üstün gelen; boyun eğdiren",
+  "akraba": [
+   "kahır",
+   "kahretmek"
+  ]
+ },
+ "V:أَنذَرَ": {
+  "anlam": "uyarmak, sonunu bildirip korkutmak"
+ },
+ "N:أَظْلَم": {
+  "anlam": "daha zalim, en zalim",
+  "akraba": [
+   "zulüm",
+   "zalim",
+   "mazlum"
+  ],
+  "not": "Üstünlük bildiren ism-i tafdîl kalıbıdır; men ezlemu 'kim daha zalimdir' soru kalıbıyla sık geçer."
+ },
+ "V:اسْتَمَعَ": {
+  "anlam": "dinlemek, kulak vermek",
+  "akraba": [
+   "istima",
+   "müstemi"
+  ]
+ },
+ "V:كَذَبَ": {
+  "anlam": "yalan söylemek",
+  "akraba": [
+   "kizb",
+   "tekzip"
+  ]
+ },
+ "N:أَساطِير": {
+  "anlam": "masallar, uydurma hikâyeler",
+  "akraba": [
+   "esatir",
+   "satır"
+  ],
+  "not": "Esâtîru'l-evvelîn 'öncekilerin masalları' kalıbı inkârcıların sözü olarak sık geçer."
+ },
+ "N:وَقْر": {
+  "anlam": "ağırlık; kulak ağırlığı, sağırlık",
+  "akraba": [
+   "vakar"
+  ]
+ },
+ "N:أَكِنَّة": {
+  "anlam": "örtüler, perdeler; kılıflar"
+ },
+ "V:نَأَى": {
+  "anlam": "uzaklaşmak, uzak durmak"
+ },
+ "N:ساعَة": {
+  "anlam": "kıyamet saati, kıyamet; saat, an",
+  "akraba": [
+   "saat"
+  ],
+  "not": "Belirlilik takısıyla es-sâ'a biçiminde çoğunlukla kıyamet anlamına gelir."
+ },
+ "N:لِقاء": {
+  "anlam": "kavuşma, karşılaşma; huzura çıkma",
+  "akraba": [
+   "mülakat",
+   "telakki"
+  ]
+ },
+ "N:بَغْتَة": {
+  "anlam": "ansızın, birdenbire; habersizce"
+ },
+ "N:وِزْر": {
+  "anlam": "ağırlık, yük; günah yükü, günah",
+  "akraba": [
+   "vezir"
+  ]
+ },
+ "V:جَحَدُ": {
+  "anlam": "bile bile inkâr etmek"
+ },
+ "N:جاهِل": {
+  "anlam": "bilmeyen, cahil; anlayışsız",
+  "akraba": [
+   "cahil",
+   "cehalet",
+   "meçhul"
+  ]
+ },
+ "N:لَهْو": {
+  "anlam": "oyalanma, eğlence; insanı asıl işinden alıkoyan şey"
+ },
+ "N:مَبْعُوث": {
+  "anlam": "diriltilen; gönderilen",
+  "akraba": [
+   "mebus",
+   "bais"
+  ]
+ },
+ "N:دابَّة": {
+  "anlam": "yürüyen hayvan, canlı; binek hayvanı"
+ },
+ "V:فَتَحَ": {
+  "anlam": "açmak; fethetmek; hüküm vermek",
+  "akraba": [
+   "fetih",
+   "miftah",
+   "iftitah"
+  ]
+ },
+ "N:قادِر": {
+  "anlam": "gücü yeten, kadir",
+  "akraba": [
+   "kudret",
+   "iktidar",
+   "muktedir"
+  ]
+ },
+ "V:كَشَفَ": {
+  "anlam": "gidermek, kaldırmak; açmak, ortaya çıkarmak",
+  "akraba": [
+   "keşif",
+   "keşfetmek",
+   "kâşif"
+  ]
+ },
+ "N:أَصَمّ": {
+  "anlam": "sağır, işitmeyen"
+ },
+ "N:جَناح": {
+  "anlam": "kanat; yan, taraf",
+  "akraba": [
+   "cenah"
+  ]
+ },
+ "N:أَبْكَم": {
+  "anlam": "dilsiz, konuşamayan"
+ },
+ "V:فَرَّط": {
+  "anlam": "eksik bırakmak, ihmal etmek; kusur etmek",
+  "akraba": [
+   "tefrit",
+   "ifrat"
+  ],
+  "not": "Bu II. kalıp kusur edip eksik bırakmaktır; IV. kalıbı ise aşırı gitmektir, ifrat ve tefrit ikilisi buradan gelir."
+ },
+ "N:سَمْع": {
+  "anlam": "işitme, işitme duyusu",
+  "akraba": [
+   "istima"
+  ]
+ },
+ "N:أَعْمَى": {
+  "anlam": "kör, görmeyen; gerçeği göremeyen",
+  "akraba": [
+   "âmâ"
+  ],
+  "not": "Kusur bildiren ef'al kalıbındadır; dişili amyâ, çoğulu umy ve umyân biçimindedir."
+ },
+ "V:فَسَقَ": {
+  "anlam": "yoldan çıkmak, itaatten ayrılmak; günah işlemek",
+  "akraba": [
+   "fasık",
+   "fısk"
+  ]
+ },
+ "N:عَشِيّ": {
+  "anlam": "akşam, akşamüstü",
+  "akraba": [
+   "işa"
+  ]
+ },
+ "V:صَرَّفْ": {
+  "anlam": "türlü türlü açıklamak; evirip çevirmek, değiştirmek",
+  "akraba": [
+   "sarf",
+   "masraf",
+   "tasrif"
+  ]
+ },
+ "N:شَفِيع": {
+  "anlam": "aracı, şefaatçi",
+  "akraba": [
+   "şefaat"
+  ]
+ },
+ "N:خَزائِن": {
+  "anlam": "hazineler",
+  "akraba": [
+   "hazine",
+   "hazne",
+   "mahzen"
+  ]
+ },
+ "V:خَتَمَ": {
+  "anlam": "mühürlemek, kapamak; sona erdirmek",
+  "akraba": [
+   "hatim",
+   "hitam",
+   "hatime"
+  ]
+ },
+ "N:مُجْرِم": {
+  "anlam": "suçlu, günahkâr",
+  "akraba": [
+   "cürüm",
+   "cerime",
+   "mücrim"
+  ]
+ },
+ "V:اسْتَعْجَلَ": {
+  "anlam": "acele istemek, çabuk olmasını istemek; acele etmek",
+  "akraba": [
+   "acele",
+   "acil",
+   "istical"
+  ]
+ },
+ "N:مُهْتَدي": {
+  "anlam": "doğru yolu bulan, doğru yolda olan",
+  "akraba": [
+   "hidayet",
+   "mühtedi"
+  ]
+ },
+ "V:فَصَّلَ": {
+  "anlam": "uzun uzun açıklamak, ayrıntılı açıklamak; bölümlere ayırmak",
+  "akraba": [
+   "tafsilat",
+   "mufassal",
+   "fasıl"
+  ]
+ },
+ "N:حَبَّة": {
+  "anlam": "tane, dane",
+  "akraba": [
+   "habbe",
+   "hap"
+  ]
+ },
+ "N:جَهالَة": {
+  "anlam": "bilgisizlik, cehalet; düşüncesizlik",
+  "akraba": [
+   "cehalet",
+   "cahil"
+  ]
+ },
+ "N:مَفاتِح": {
+  "anlam": "anahtarlar; hazineler",
+  "akraba": [
+   "miftah",
+   "fetih",
+   "iftitah"
+  ]
+ },
+ "V:سُقِطَ": {
+  "anlam": "düşmek",
+  "akraba": [
+   "sakat",
+   "sukut"
+  ]
+ },
+ "V:نَجَّى": {
+  "anlam": "kurtarmak, selamete çıkarmak",
+  "akraba": [
+   "necat",
+   "münci"
+  ]
+ },
+ "V:أَنجَى": {
+  "anlam": "kurtarmak, selamete çıkarmak",
+  "akraba": [
+   "necat"
+  ]
+ },
+ "N:ذِكْرَى": {
+  "anlam": "hatırlama; öğüt",
+  "akraba": [
+   "zikir",
+   "tezkere",
+   "müzakere"
+  ]
+ },
+ "V:أَذاقَ": {
+  "anlam": "tattırmak",
+  "akraba": [
+   "zevk"
+  ]
+ },
+ "N:شِيعَة": {
+  "anlam": "fırka, grup; taraftarlar topluluğu"
+ },
+ "N:مُسْتَقَرّ": {
+  "anlam": "gerçekleşme zamanı, varılacak son; karar yeri, durak",
+  "akraba": [
+   "karar",
+   "istikrar",
+   "mukarrer"
+  ],
+  "not": "İsm-i mef'ûl kalıbı burada yer ve zaman ismi gibi kullanılmıştır: bir şeyin karar kılacağı yer ya da zaman."
+ },
+ "V:أَنسَى": {
+  "anlam": "unutturmak",
+  "akraba": [
+   "nisyan",
+   "mensi"
+  ]
+ },
+ "N:كَرْب": {
+  "anlam": "sıkıntı, keder; büyük dert"
+ },
+ "N:حَمِيم": {
+  "anlam": "kaynar su, kızgın içecek; yakın dost",
+  "akraba": [
+   "hamam"
+  ]
+ },
+ "N:عالِم": {
+  "anlam": "bilen, âlim",
+  "akraba": [
+   "âlim",
+   "ilim",
+   "malum",
+   "muallim"
+  ]
+ },
+ "N:شَراب": {
+  "anlam": "içecek, içki",
+  "akraba": [
+   "şarap",
+   "şerbet",
+   "meşrubat"
+  ],
+  "not": "Türkçedeki şarap kelimesinin aslıdır ama Arapçada her türlü içecek demektir."
+ },
+ "N:صُور": {
+  "anlam": "sûr, üflenen boru; boynuz"
+ },
+ "N:أَب": {
+  "anlam": "baba; ata",
+  "akraba": [
+   "ebeveyn"
+  ]
+ },
+ "N:قَمَر": {
+  "anlam": "ay",
+  "akraba": [
+   "kamer",
+   "kameri"
+  ],
+  "simge": "ay"
+ },
+ "V:فَطَرَ": {
+  "anlam": "yaratmak, yoktan var etmek; yarmak",
+  "akraba": [
+   "fıtrat",
+   "fıtri"
+  ]
+ },
+ "V:وَسِعَ": {
+  "anlam": "kuşatmak, içine almak; genişlemek, sığmak",
+  "akraba": [
+   "vüsat",
+   "tevsi"
+  ]
+ },
+ "N:أَصْنام": {
+  "anlam": "putlar"
+ },
+ "N:مُوقِن": {
+  "anlam": "kesin olarak bilen, şüphesiz inanan",
+  "akraba": [
+   "yakinen"
+  ]
+ },
+ "N:كَوْكَب": {
+  "anlam": "yıldız; gezegen",
+  "simge": "yildiz"
+ },
+ "N:مَلَكُوت": {
+  "anlam": "hükümranlık, mutlak egemenlik",
+  "akraba": [
+   "mülk",
+   "malik",
+   "memleket"
+  ]
+ },
+ "V:يَلْعَبْ": {
+  "anlam": "oynamak; boş işle oyalanmak"
+ },
+ "N:مُبارَك": {
+  "anlam": "mübarek, bereketli, hayırlı",
+  "akraba": [
+   "mübarek",
+   "bereket",
+   "tebrik"
+  ]
+ },
+ "N:قَدْر": {
+  "anlam": "değer, kadir; ölçü, miktar",
+  "akraba": [
+   "kader",
+   "takdir",
+   "miktar"
+  ],
+  "not": "Mâ kaderullâhe hakka kadrihî 'Allah'ı gereği gibi değerlendiremediler' kalıbı Kur'an'da üç ayette geçer."
+ },
+ "V:تَقَطَّعَ": {
+  "anlam": "kopmak, parça parça kesilmek",
+  "akraba": [
+   "kat'i",
+   "kıta",
+   "inkıta"
+  ]
+ },
+ "V:يُحافِظُ": {
+  "anlam": "devam etmek, titizlikle korumak; gözetmek",
+  "akraba": [
+   "muhafaza",
+   "muhafız",
+   "hafıza"
+  ]
+ },
+ "N:باسِط": {
+  "anlam": "uzatan, açan; yayan",
+  "akraba": [
+   "basit",
+   "mebsut"
+  ]
+ },
+ "N:هُون": {
+  "anlam": "alçaklık, aşağılanma, zillet"
+ },
+ "V:خَوَّلَ": {
+  "anlam": "vermek, bahşetmek; sahip kılmak"
+ },
+ "N:جِنّ": {
+  "anlam": "cinler; gözle görülmeyen varlıklar",
+  "akraba": [
+   "cin",
+   "mecnun",
+   "cinnet",
+   "cenin"
+  ]
+ },
+ "V:تَعالَى": {
+  "anlam": "yüce olmak, yücelmek; her türlü eksiklikten uzak olmak",
+  "akraba": [
+   "Teâlâ",
+   "âli",
+   "ulvi"
+  ],
+  "not": "Allah için kullanıldığında yüce ve münezzeh olmak demektir; Allah Teâlâ sözü bu fiilden gelir."
+ },
+ "N:نَجْم": {
+  "anlam": "yıldız; gövdesiz bitki",
+  "akraba": [
+   "müneccim"
+  ],
+  "simge": "yildiz"
+ },
+ "V:يَصِفُ": {
+  "anlam": "nitelendirmek, vasıflandırmak; anlatmak",
+  "akraba": [
+   "vasıf",
+   "sıfat",
+   "tavsif"
+  ]
+ },
+ "N:نَخْل": {
+  "anlam": "hurma ağacı, hurmalık",
+  "simge": "agac"
+ },
+ "N:نَبات": {
+  "anlam": "bitki",
+  "akraba": [
+   "nebat",
+   "nebati"
+  ]
+ },
+ "N:حَبّ": {
+  "anlam": "tane, dane; tohum",
+  "akraba": [
+   "habbe",
+   "hap"
+  ]
+ },
+ "N:مُتَشابِه": {
+  "anlam": "birbirine benzeyen",
+  "akraba": [
+   "müteşabih",
+   "teşbih",
+   "şüphe"
+  ]
+ },
+ "V:أَبْصَرَ": {
+  "anlam": "görmek; basiret sahibi olmak",
+  "akraba": [
+   "basiret",
+   "basar"
+  ]
+ },
+ "N:فُؤاد": {
+  "anlam": "gönül, kalp"
+ },
+ "N:خالِق": {
+  "anlam": "yaratan, yaratıcı",
+  "akraba": [
+   "mahluk",
+   "hilkat",
+   "halk"
+  ]
+ },
+ "V:يَعْمَهُ": {
+  "anlam": "şaşkın şaşkın bocalamak; körü körüne dolaşıp durmak",
+  "not": "Benzer sesli a'mâ kökünden ayrıdır; göz körlüğü değil, şaşkınlıkla bocalayıp durmak demektir."
+ },
+ "N:لَطِيف": {
+  "anlam": "Latîf; en ince şeyleri bilen; lütufkâr, yumuşak davranan",
+  "akraba": [
+   "lütuf",
+   "latif",
+   "letafet"
+  ]
+ },
+ "N:بَصِيرَة": {
+  "anlam": "açık delil, göz açıcı belge; basiret, kalp gözü",
+  "akraba": [
+   "basiret",
+   "basar"
+  ]
+ },
+ "V:قَلَّبُ": {
+  "anlam": "çevirmek, evirip çevirmek; ters çevirmek",
+  "akraba": [
+   "inkılap",
+   "kalp",
+   "kalıp"
+  ]
+ },
+ "N:إِنس": {
+  "anlam": "insan, insanlar; insan türü",
+  "akraba": [
+   "insan",
+   "ünsiyet",
+   "insaniyet"
+  ]
+ },
+ "V:يَجْهَلُ": {
+  "anlam": "bilmemek; cahillik etmek, bilgisizce davranmak",
+  "akraba": [
+   "cahil",
+   "cehalet",
+   "meçhul"
+  ]
+ },
+ "N:مُمْتَري": {
+  "anlam": "şüpheye düşen, kuşku duyan"
+ },
+ "N:زُخْرُف": {
+  "anlam": "cazip, yaldızlı; süs, yaldız; altın",
+  "not": "Söz kelimesiyle tamlama kurduğunda dışı süslü, aldatıcı söz anlamı verir."
+ },
+ "V:اقْتَرَفْ": {
+  "anlam": "işlemek, kazanmak; suç işlemek"
+ },
+ "V:تَمَّ": {
+  "anlam": "tamamlanmak, tam olmak",
+  "akraba": [
+   "tamam",
+   "itmam",
+   "tamamen"
+  ]
+ },
+ "V:يَخْرُصُ": {
+  "anlam": "tahminde bulunmak, kafadan atmak; yalan uydurmak"
+ },
+ "N:حَكَم": {
+  "anlam": "hakem; hüküm veren",
+  "akraba": [
+   "hakem",
+   "hüküm",
+   "mahkeme"
+  ]
+ },
+ "V:مَشَ": {
+  "anlam": "yürümek"
+ },
+ "N:ظاهِر": {
+  "anlam": "açık, görünen; dış yüz",
+  "akraba": [
+   "zahir",
+   "tezahür",
+   "izhar"
+  ]
+ },
+ "N:مَيْت": {
+  "anlam": "ölü; cansız",
+  "akraba": [
+   "meyyit",
+   "mevta",
+   "memat"
+  ]
+ },
+ "V:أَجْرَمُ": {
+  "anlam": "suç işlemek, günah işlemek",
+  "akraba": [
+   "cürüm",
+   "mücrim"
+  ]
+ },
+ "N:فِسْق": {
+  "anlam": "yoldan çıkma; Allah'ın buyruğunun dışına çıkma, günah",
+  "akraba": [
+   "fasık",
+   "fısk"
+  ]
+ },
+ "N:باطِن": {
+  "anlam": "gizli, iç; iç yüz",
+  "akraba": [
+   "batın"
+  ]
+ },
+ "V:شَرَحَ": {
+  "anlam": "açmak, genişletmek; açıklamak",
+  "akraba": [
+   "şerh",
+   "şarih",
+   "teşrih"
+  ],
+  "not": "Göğüs ya da kalp kelimesiyle birlikte gönlü açmak, ferahlatmak anlamı verir."
+ },
+ "N:مَعْشَر": {
+  "anlam": "topluluk, cemaat",
+  "akraba": [
+   "aşiret",
+   "muaşeret"
+  ]
+ },
+ "V:اسْتَكْثَرْ": {
+  "anlam": "çok edinmek, çoğaltmak; çok görmek",
+  "akraba": [
+   "kesret",
+   "ekseriyet",
+   "teksir"
+  ]
+ },
+ "N:مُعْجِز": {
+  "anlam": "âciz bırakan; engelleyip önüne geçen",
+  "akraba": [
+   "mucize",
+   "âciz",
+   "acz"
+  ]
+ },
+ "N:آتِي": {
+  "anlam": "gelen, gelecek olan",
+  "akraba": [
+   "âti"
+  ]
+ },
+ "V:ذَرَأَ": {
+  "anlam": "yaratmak; yaratıp yaymak, çoğaltmak"
+ },
+ "N:مُهْلِك": {
+  "anlam": "helak eden, yok eden",
+  "akraba": [
+   "helak",
+   "tehlike"
+  ]
+ },
+ "V:اسْتَخْلَفَ": {
+  "anlam": "yerine getirmek, halef kılmak; halife yapmak",
+  "akraba": [
+   "halef",
+   "halife",
+   "hilafet"
+  ]
+ },
+ "N:مَكانَت": {
+  "anlam": "durum, hal; konum, yer; güç, imkân",
+  "akraba": [
+   "mekân"
+  ]
+ },
+ "V:أَرْدَى": {
+  "anlam": "helake sürüklemek, mahvetmek"
+ },
+ "N:زَرْع": {
+  "anlam": "ekin; ekme",
+  "akraba": [
+   "ziraat",
+   "zirai",
+   "mezra"
+  ],
+  "simge": "ekin"
+ },
+ "N:مُخْتَلِف": {
+  "anlam": "çeşit çeşit, farklı; ayrılığa düşen",
+  "akraba": [
+   "muhtelif",
+   "ihtilaf"
+  ]
+ },
+ "N:أُكُل": {
+  "anlam": "ürün, yemiş; yiyecek"
+ },
+ "V:أَسْرَفَ": {
+  "anlam": "israf etmek; aşırı gitmek, haddi aşmak",
+  "akraba": [
+   "israf",
+   "müsrif"
+  ]
+ },
+ "N:خالِصَة": {
+  "anlam": "yalnız birine ait, mahsus; halis, katışıksız",
+  "akraba": [
+   "halis",
+   "ihlas",
+   "muhlis"
+  ]
+ },
+ "N:خُطُوَة": {
+  "anlam": "adım"
+ },
+ "N:زَيْتُون": {
+  "anlam": "zeytin",
+  "akraba": [
+   "zeytin"
+  ]
+ },
+ "N:ثَمَر": {
+  "anlam": "meyve, ürün",
+  "akraba": [
+   "semere"
+  ],
+  "simge": "meyve"
+ },
+ "N:مُحَرَّم": {
+  "anlam": "haram kılınmış, yasaklanmış",
+  "akraba": [
+   "haram",
+   "mahrem",
+   "hürmet"
+  ]
+ },
+ "V:أُهِلَّ": {
+  "anlam": "başkasının adı anılarak boğazlanmak; sesi yükseltmek",
+  "akraba": [
+   "tehlil"
+  ],
+  "not": "Kök anlamı sesi yükseltmektir; hayvan kesilirken yüksek sesle bir adın anılmasını anlatır."
+ },
+ "N:ثَمانِيَة": {
+  "anlam": "sekiz"
+ },
+ "N:بَقَر": {
+  "anlam": "sığır; inek",
+  "simge": "inek"
+ },
+ "N:باغ": {
+  "anlam": "arzu edip isteyen; haddi aşan, saldıran"
+ },
+ "N:غَنَم": {
+  "anlam": "davar, koyun ve keçi"
+ },
+ "V:اخْتَلَطَ": {
+  "anlam": "karışmak, birbirine karışmak",
+  "akraba": [
+   "ihtilat",
+   "halita",
+   "muhtelit"
+  ]
+ },
+ "V:ظَهَرَ": {
+  "anlam": "açığa çıkmak, görünmek; üstün gelmek",
+  "akraba": [
+   "zuhur",
+   "zahir",
+   "tezahür"
+  ]
+ },
+ "N:واسِعَة": {
+  "anlam": "geniş, her şeyi kuşatan; bol",
+  "akraba": [
+   "vüsat",
+   "tevsi"
+  ]
+ },
+ "N:بالِغَة": {
+  "anlam": "üstün, kesin; son noktaya varan, tam",
+  "akraba": [
+   "baliğ",
+   "beliğ",
+   "mübalağa",
+   "tebliğ"
+  ]
+ },
+ "N:مِيزان": {
+  "anlam": "tartı, terazi; ölçü",
+  "akraba": [
+   "mizan",
+   "vezin",
+   "muvazene"
+  ]
+ },
+ "N:كَيْل": {
+  "anlam": "ölçü, ölçek; ölçme",
+  "akraba": [
+   "kile"
+  ]
+ },
+ "N:أَشُدّ": {
+  "anlam": "erginlik çağı, olgunluk; güçlü kuvvetli olma",
+  "akraba": [
+   "şiddet",
+   "şedit",
+   "şedde"
+  ],
+  "not": "Kur'an'da hep erişmek fiiliyle birlikte olgunluk çağına ermek anlamında geçer."
+ },
+ "N:وُسْع": {
+  "anlam": "güç, takat; genişlik, imkân",
+  "akraba": [
+   "vüsat"
+  ]
+ },
+ "N:تَفْصِيل": {
+  "anlam": "açıklama, ayrıntılı anlatma; ayırma",
+  "akraba": [
+   "tafsilat",
+   "fasıl",
+   "mufassal"
+  ]
+ },
+ "V:صَدَفَ": {
+  "anlam": "yüz çevirmek, uzak durmak; alıkoymak"
+ },
+ "N:خَلِيفَة": {
+  "anlam": "halife, yerine geçen; halef",
+  "akraba": [
+   "halife",
+   "halef",
+   "hilafet"
+  ]
+ },
+ "V:يَنتَظِرُ": {
+  "anlam": "beklemek, gözlemek",
+  "akraba": [
+   "intizar",
+   "nazar",
+   "manzara"
+  ]
+ },
+ "N:عَشْر": {
+  "anlam": "on; on kat",
+  "akraba": [
+   "öşür",
+   "aşure"
+  ]
+ },
+ "V:يَزِرُ": {
+  "anlam": "yük taşımak; günah yüklenmek",
+  "akraba": [
+   "vezir"
+  ]
+ },
+ "N:مُنتَظِر": {
+  "anlam": "bekleyen",
+  "akraba": [
+   "intizar",
+   "nazar"
+  ]
+ },
+ "N:وازِرَة": {
+  "anlam": "yük taşıyan; günah yükü taşıyan",
+  "akraba": [
+   "vezir"
+  ],
+  "not": "Kişi kelimesinin sıfatı olduğu için dişil gelir ve hiçbir kimse başkasının yükünü taşımaz kalıbında geçer."
+ },
+ "N:مَمات": {
+  "anlam": "ölüm; ölüm zamanı",
+  "akraba": [
+   "memat",
+   "mevta"
+  ]
+ },
+ "N:قائِل": {
+  "anlam": "öğle uykusunda olan, gündüz uyuyan",
+  "akraba": [
+   "kaylule"
+  ],
+  "not": "Söylemek kökünden gelen söyleyen kelimesiyle karıştırılmamalıdır; öğle vakti uyuyup dinlenen kimse demektir."
+ },
+ "V:صَوَّرَ": {
+  "anlam": "şekil vermek, biçimlendirmek",
+  "akraba": [
+   "suret",
+   "tasvir",
+   "tasavvur"
+  ]
+ },
+ "N:دَعْوَى": {
+  "anlam": "söz, yakarış; iddia; dua",
+  "akraba": [
+   "dava",
+   "iddia",
+   "davet"
+  ]
+ },
+ "V:ثَقُلَتْ": {
+  "anlam": "ağır gelmek, ağır basmak; ağırlaşmak",
+  "akraba": [
+   "sıklet",
+   "miskal"
+  ]
+ },
+ "N:بَيات": {
+  "anlam": "geceleyin, gece vakti; gece baskını"
+ },
+ "N:غائِب": {
+  "anlam": "uzak, orada bulunmayan; gizli olan",
+  "akraba": [
+   "gaip",
+   "gıyabi",
+   "gaybubet"
+  ]
+ },
+ "N:وَزْن": {
+  "anlam": "tartı, tartma; ağırlık",
+  "akraba": [
+   "vezin",
+   "mizan",
+   "muvazene"
+  ]
+ },
+ "V:خَفَّتْ": {
+  "anlam": "hafif gelmek, hafif olmak",
+  "akraba": [
+   "hafif",
+   "tahfif",
+   "istihfaf"
+  ]
+ },
+ "N:شَجَرَة": {
+  "anlam": "ağaç",
+  "akraba": [
+   "şecere"
+  ],
+  "simge": "agac"
+ },
+ "V:يَهْبِطُ": {
+  "anlam": "inmek"
+ },
+ "V:أَغْوَيْ": {
+  "anlam": "azdırmak, saptırmak"
+ },
+ "V:دَلَّ": {
+  "anlam": "sarkıtıp düşürmek, aldatıp aşağı indirmek; yanıltmak"
+ },
+ "N:مُنظَر": {
+  "anlam": "mühlet verilen, ertelenen"
+ },
+ "V:مُلِئَتْ": {
+  "anlam": "doldurmak"
+ },
+ "N:ناصِح": {
+  "anlam": "öğüt veren, iyiliğini isteyen",
+  "akraba": [
+   "nasihat"
+  ]
+ },
+ "N:صاغِر": {
+  "anlam": "alçalmış, aşağılanmış; küçük düşen",
+  "akraba": [
+   "asgari",
+   "tasgir"
+  ]
+ },
+ "V:حَقَّ": {
+  "anlam": "hak etmek; gerçekleşmek, kesinleşmek",
+  "akraba": [
+   "hak",
+   "hakikat",
+   "tahakkuk",
+   "istihkak"
+  ]
+ },
+ "V:بَدَأَ": {
+  "anlam": "ilk defa yaratmak, var etmek; başlamak",
+  "akraba": [
+   "bidayet",
+   "iptidai",
+   "mübtedi"
+  ]
+ },
+ "N:مُخْلِص": {
+  "anlam": "samimi, ihlaslı; halis kılan, katıksız yapan",
+  "akraba": [
+   "muhlis",
+   "ihlas",
+   "halis"
+  ]
+ },
+ "N:لِباس": {
+  "anlam": "elbise, giysi; örtü",
+  "akraba": [
+   "libas"
+  ],
+  "simge": "elbise"
+ },
+ "N:فَحْشاء": {
+  "anlam": "fenalık, çirkin iş; hayasızlık",
+  "akraba": [
+   "fuhuş",
+   "fahiş"
+  ]
+ },
+ "N:أَبَوان": {
+  "anlam": "ana baba, anne ve baba",
+  "akraba": [
+   "ebeveyn"
+  ],
+  "not": "Baba kelimesinin ikil biçimidir ve ana ile babayı birlikte anlatır."
+ },
+ "V:حَىَّ": {
+  "anlam": "yaşamak, diri olmak",
+  "akraba": [
+   "hayat",
+   "ihya",
+   "hayvan"
+  ]
+ },
+ "V:وُۥرِيَ": {
+  "anlam": "örtmek, gizlemek"
+ },
+ "N:زِينَة": {
+  "anlam": "güzel elbise, süslü giysi; süs, ziynet",
+  "akraba": [
+   "ziynet",
+   "tezyin",
+   "müzeyyen"
+  ]
+ },
+ "V:يَسْتَأْخِرُ": {
+  "anlam": "gecikmek, geri kalmak",
+  "akraba": [
+   "tehir",
+   "âhir"
+  ]
+ },
+ "V:يَسْتَقْدِمُ": {
+  "anlam": "öne geçmek, öne alınmak",
+  "akraba": [
+   "takdim",
+   "mukaddime",
+   "kadim"
+  ]
+ },
+ "V:أَوْرَثَ": {
+  "anlam": "mirasçı kılmak, miras olarak vermek",
+  "akraba": [
+   "miras",
+   "varis",
+   "veraset",
+   "irsî"
+  ]
+ },
+ "N:غِلّ": {
+  "anlam": "kin, gizli düşmanlık"
+ },
+ "V:ادّارَكَ": {
+  "anlam": "birbirine yetişmek, ardı ardına ulaşıp toplanmak",
+  "akraba": [
+   "idrak"
+  ],
+  "not": "Altıncı kalıbın baştaki te harfi kökün ilk harfiyle kaynaşarak bu biçimi almıştır; birbirine yetiştiler demektir."
+ },
+ "V:يَلِجَ": {
+  "anlam": "girmek, içine geçmek"
+ },
+ "N:غاشِيَة": {
+  "anlam": "örtü, üstü kaplayan şey; bürüyen felaket"
+ },
+ "V:أَغْنَى": {
+  "anlam": "fayda vermek, işe yaramak; zengin kılmak",
+  "akraba": [
+   "gani",
+   "istiğna",
+   "müstağni"
+  ],
+  "not": "Çoğunlukla olumsuz cümlede hiçbir fayda sağlamadı, kurtaramadı anlamında geçer."
+ },
+ "V:أَفاضَ": {
+  "anlam": "dökmek, akıtmak; akın akın ayrılmak; içine dalmak",
+  "akraba": [
+   "feyiz",
+   "feyezan"
+  ]
+ },
+ "N:حِجاب": {
+  "anlam": "perde; engel, örtü",
+  "akraba": [
+   "hicap"
+  ]
+ },
+ "N:سِيما": {
+  "anlam": "yüzdeki işaret, belirti; nişan",
+  "akraba": [
+   "sima"
+  ],
+  "not": "Türkçeye yüz, çehre anlamıyla geçmiştir; ayette yüzlerdeki belirti ve nişan demektir."
+ },
+ "V:أَذَّنَ": {
+  "anlam": "seslenmek, ilan etmek; duyurmak",
+  "akraba": [
+   "ezan",
+   "müezzin",
+   "izin"
+  ]
+ },
+ "N:تِلْقاء": {
+  "anlam": "yön, taraf; karşı",
+  "akraba": [
+   "telakki",
+   "mülakat"
+  ]
+ },
+ "N:سَحاب": {
+  "anlam": "bulut",
+  "simge": "bulut",
+  "not": "Topluluk bildiren bir isimdir; bu yüzden ayette sıfatı çoğul gelmiştir."
+ },
+ "V:تَبارَكَ": {
+  "anlam": "yüce olmak, şanı yüce olmak; hayrı ve bereketi bol olmak",
+  "akraba": [
+   "bereket",
+   "mübarek",
+   "tebrik"
+  ],
+  "not": "Kur'an'da yalnızca geçmiş zaman biçimiyle ve yalnızca Allah ya da O'nun adı hakkında kullanılır."
+ },
+ "N:سِتَّة": {
+  "anlam": "altı"
+ },
+ "V:سِيقَ": {
+  "anlam": "sürmek, sevk etmek; göndermek",
+  "akraba": [
+   "sevk",
+   "sevkiyat",
+   "saik"
+  ]
+ },
+ "N:ثَقِيل": {
+  "anlam": "ağır; yüklü",
+  "akraba": [
+   "sıklet",
+   "miskal"
+  ]
+ },
+ "V:أُغْشِيَتْ": {
+  "anlam": "bürümek, örtmek"
+ },
+ "N:طَمَع": {
+  "anlam": "umma, umut; istek, açgözlülük",
+  "akraba": [
+   "tamah",
+   "tamahkâr"
+  ],
+  "not": "Türkçedeki tamah kelimesi bundan gelir; ayette olumlu anlamda Allah'ın rahmetini ummak demektir."
+ },
+ "N:تَضَرُّع": {
+  "anlam": "yalvarma, boyun büküp yakarma",
+  "akraba": [
+   "tazarru"
+  ]
+ },
+ "N:فُلْك": {
+  "anlam": "gemi",
+  "not": "Tekil ve çoğul için aynı biçimde kullanılır."
+ },
+ "V:أُغْرِقُ": {
+  "anlam": "suda boğmak, batırmak",
+  "akraba": [
+   "gark"
+  ]
+ },
+ "V:عَجِبُ": {
+  "anlam": "şaşmak, hayret etmek",
+  "akraba": [
+   "acayip",
+   "taaccüp",
+   "acaba"
+  ]
+ },
+ "V:نَصَحُ": {
+  "anlam": "öğüt vermek, iyiliğini istemek",
+  "akraba": [
+   "nasihat"
+  ]
+ },
+ "N:آلاء": {
+  "anlam": "nimetler"
+ },
+ "N:أَمِين": {
+  "anlam": "güvenilir, emin",
+  "akraba": [
+   "emin",
+   "emanet",
+   "emniyet"
+  ]
+ },
+ "V:سَمَّى": {
+  "anlam": "ad koymak, adlandırmak",
+  "akraba": [
+   "isim",
+   "müsemma",
+   "tesmiye"
+  ]
+ },
+ "N:ناقَة": {
+  "anlam": "dişi deve"
+ },
+ "N:وَحْد": {
+  "anlam": "yalnız, tek başına; bir",
+  "akraba": [
+   "vahdet",
+   "tevhit",
+   "ittihat"
+  ],
+  "not": "Hep bir zamirle birlikte yalnız O, tek başına O anlamında kullanılır."
+ },
+ "N:دابِر": {
+  "anlam": "kök, son kalan; arkadan gelen"
+ },
+ "V:سَبَقَ": {
+  "anlam": "önce davranmak, önceden yapmak; geçmek, ileri geçmek",
+  "akraba": [
+   "sabık",
+   "müsabaka"
+  ]
+ },
+ "V:اسْتَضْعَفُ": {
+  "anlam": "hor görmek, zayıf saymak; ezmek",
+  "akraba": [
+   "zayıf",
+   "zaaf"
+  ]
+ },
+ "V:بَوَّأَ": {
+  "anlam": "yerleştirmek, yurt edindirmek"
+ },
+ "V:تَعْثَ": {
+  "anlam": "karışıklık çıkarmak, bozgunculuk yapmak"
+ },
+ "V:عَقَرَ": {
+  "anlam": "kesip devirmek, ayaklarını keserek öldürmek; yaralamak"
+ },
+ "V:عَتَ": {
+  "anlam": "baş kaldırmak; büyüklenip haddi aşmak"
+ },
+ "N:جاثِم": {
+  "anlam": "diz üstü çökmüş; yere yığılıp kalmış"
+ },
+ "V:أَبْلَغُ": {
+  "anlam": "bildirmek, ulaştırmak; tebliğ etmek",
+  "akraba": [
+   "tebliğ",
+   "baliğ"
+  ]
+ },
+ "N:غابِر": {
+  "anlam": "geride kalan; geçip giden"
+ },
+ "V:أُمْطِرَتْ": {
+  "anlam": "yağmur yağdırmak, yağdırmak"
+ },
+ "V:يَبْخَسْ": {
+  "anlam": "eksik vermek, eksiltmek; hakkını çiğnemek"
+ },
+ "N:جَواب": {
+  "anlam": "cevap",
+  "akraba": [
+   "cevap",
+   "icabet",
+   "müstecap"
+  ]
+ },
+ "N:حاكِم": {
+  "anlam": "hükmeden, hâkim",
+  "akraba": [
+   "hâkim",
+   "hüküm",
+   "mahkeme"
+  ]
+ }
+}

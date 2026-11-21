@@ -1,0 +1,108 @@
+{
+ "_aciklama": "kavram sesli anlatım kayıtları, cocuk profili (kadın sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "cocuk",
+ "ses": "kadin",
+ "motor": "ema-lightning",
+ "kayitlar": {
+  "tam": {
+   "baslik": "İslam'da Kavram Haritası: tam anlatım",
+   "sure": 1599.67,
+   "imza": "8b5884ddc1caebe6"
+  },
+  "kuran": {
+   "baslik": "Kur'an",
+   "sure": 72.92,
+   "imza": "7ff9d5a0a8023447"
+  },
+  "sunnet-kaynak": {
+   "baslik": "Sünnet",
+   "sure": 85.05,
+   "imza": "32f4c22155314433"
+  },
+  "icma": {
+   "baslik": "İcmâ",
+   "sure": 66.17,
+   "imza": "76f34091a1559fd7"
+  },
+  "kiyas": {
+   "baslik": "Kıyas",
+   "sure": 88.14,
+   "imza": "6f9e44f8aeff8119"
+  },
+  "farz": {
+   "baslik": "Farz",
+   "sure": 111.38,
+   "imza": "bd95d5bd6c14d0e7"
+  },
+  "vacip": {
+   "baslik": "Vacip",
+   "sure": 67.21,
+   "imza": "7802a8d34bd52c0e"
+  },
+  "sunnet": {
+   "baslik": "Sünnet",
+   "sure": 94.81,
+   "imza": "f4d7d52bf1c7a6fa"
+  },
+  "mustehab": {
+   "baslik": "Müstehab",
+   "sure": 73.88,
+   "imza": "c9c8fe1114f08703"
+  },
+  "mubah": {
+   "baslik": "Mubah",
+   "sure": 101.14,
+   "imza": "550288d1b69e8011"
+  },
+  "mekruh-tenzihen": {
+   "baslik": "Mekruh (tenzîhen)",
+   "sure": 67.88,
+   "imza": "61672951509f3129"
+  },
+  "mekruh-tahrimen": {
+   "baslik": "Mekruh (tahrîmen)",
+   "sure": 78.24,
+   "imza": "a07164ce03e8e97b"
+  },
+  "haram": {
+   "baslik": "Haram",
+   "sure": 112.98,
+   "imza": "05e4c3587c54e9eb"
+  },
+  "helal": {
+   "baslik": "Helal",
+   "sure": 76.98,
+   "imza": "9807dcf99e2bb9a9"
+  },
+  "supheli": {
+   "baslik": "Şüpheli",
+   "sure": 59.97,
+   "imza": "708306c5a8b718e0"
+  },
+  "niyet": {
+   "baslik": "Niyet",
+   "sure": 77.33,
+   "imza": "f2b4fc45fd64b5be"
+  },
+  "ibaha": {
+   "baslik": "Asıl olan serbestliktir",
+   "sure": 83.7,
+   "imza": "70fa8f678266c11c"
+  },
+  "guc": {
+   "baslik": "Güç yetirme ve sorumluluk",
+   "sure": 94.39,
+   "imza": "bdbcddf53c7eeff5"
+  },
+  "ruhsat": {
+   "baslik": "Ruhsat ve azimet",
+   "sure": 96.14,
+   "imza": "ba743b5f33107153"
+  },
+  "zaruret": {
+   "baslik": "Zaruret",
+   "sure": 79.71,
+   "imza": "cf01a365f69d3c03"
+  }
+ }
+}

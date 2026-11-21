@@ -1,0 +1,83 @@
+{
+ "_aciklama": "mucizeler sesli anlatım kayıtları, cocuk profili (kadın sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "cocuk",
+ "ses": "kadin",
+ "motor": "ema-lightning",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Kur’an’dan Mucizeler: tam anlatım",
+   "sure": 1030.97,
+   "imza": "b974564d8bee856e"
+  },
+  "giris": {
+   "baslik": "Kur’an’dan Mucizeler",
+   "sure": 46.72,
+   "imza": "6fc684bf8ceda9e5"
+  },
+  "01-rum": {
+   "baslik": "Rumların zaferi",
+   "sure": 82.41,
+   "imza": "094105f0637525b3"
+  },
+  "02-ebuleheb": {
+   "baslik": "Ebu Leheb",
+   "sure": 71.32,
+   "imza": "acecfa31dbb8345b"
+  },
+  "03-bedir": {
+   "baslik": "Bedir’deki bozgun",
+   "sure": 55.33,
+   "imza": "5a08e558ca99aede"
+  },
+  "04-mescid": {
+   "baslik": "Mescid-i Haram’a giriş",
+   "sure": 76.03,
+   "imza": "bbc098a774c4eb91"
+  },
+  "05-koruma": {
+   "baslik": "Kur’an’ın korunması",
+   "sure": 52.41,
+   "imza": "89ed844f39a56c5d"
+  },
+  "06-benzeri": {
+   "baslik": "Benzeri getirilemez",
+   "sure": 85.82,
+   "imza": "a6eccd5786066f60"
+  },
+  "07-yaratilis": {
+   "baslik": "Ana rahminde yaratılış",
+   "sure": 89.54,
+   "imza": "4d8c565965ca5c56"
+  },
+  "08-ay": {
+   "baslik": "Ay’ın evreleri ve yörüngeler",
+   "sure": 102.15,
+   "imza": "3247d37dc68fc45e"
+  },
+  "09-daglar": {
+   "baslik": "Dağların hareketi",
+   "sure": 83.59,
+   "imza": "196fca54d722db68"
+  },
+  "10-genisleme": {
+   "baslik": "Evrenin genişlemesi",
+   "sure": 56.33,
+   "imza": "bf248cd32f75930d"
+  },
+  "11-denizler": {
+   "baslik": "İki deniz arasındaki engel",
+   "sure": 91.0,
+   "imza": "3ba264c89f738900"
+  },
+  "12-ayrilma": {
+   "baslik": "Göklerin ve yerin ayrılması",
+   "sure": 71.81,
+   "imza": "77d6f48180ed67bd"
+  },
+  "olcu": {
+   "baslik": "Ölçü",
+   "sure": 60.01,
+   "imza": "8826d04d3f89465a"
+  }
+ }
+}

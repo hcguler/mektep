@@ -1,0 +1,5512 @@
+{
+ "_aciklama": "Esmâ-ül Hüsnâ sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). İsim okunuşuyla söylenir; Arapça ayet metni seslendirilmez, meali okunur. Bu dosya tools/esma-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Esmâ-ül Hüsnâ: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-allah",
+   "02-er-rahman",
+   "03-er-rahim",
+   "04-el-melik",
+   "05-el-kuddus",
+   "06-es-selam",
+   "07-el-mumin",
+   "08-el-muheymin",
+   "09-el-aziz",
+   "10-el-cebbar",
+   "11-el-mutekebbir",
+   "12-el-halık",
+   "13-el-bari",
+   "14-el-musavvir",
+   "15-el-gaffar",
+   "16-el-kahhar",
+   "17-el-vehhab",
+   "18-er-rezzak",
+   "19-el-fettah",
+   "20-el-alim",
+   "21-el-kabız",
+   "22-el-basıt",
+   "23-el-hafıd",
+   "24-er-rafi",
+   "25-el-muiz",
+   "26-el-muzil",
+   "27-es-semi",
+   "28-el-basir",
+   "29-el-hakem",
+   "30-el-adl",
+   "31-el-latif",
+   "32-el-habir",
+   "33-el-halim",
+   "34-el-azim",
+   "35-el-gafur",
+   "36-es-sekur",
+   "37-el-aliyy",
+   "38-el-kebir",
+   "39-el-hafiz",
+   "40-el-mukit",
+   "41-el-hasib",
+   "42-el-celil",
+   "43-el-kerim",
+   "44-er-rakib",
+   "45-el-mucib",
+   "46-el-vasi",
+   "47-el-hakim",
+   "48-el-vedud",
+   "49-el-mecid",
+   "50-el-bais",
+   "51-es-sehid",
+   "52-el-hak",
+   "53-el-vekil",
+   "54-el-kaviyy",
+   "55-el-metin",
+   "56-el-veliyy",
+   "57-el-hamid",
+   "58-el-muhsi",
+   "59-el-mubdi",
+   "60-el-muid",
+   "61-el-muhyi",
+   "62-el-mumit",
+   "63-el-hayy",
+   "64-el-kayyum",
+   "65-el-vacid",
+   "66-el-macid",
+   "67-el-vahid",
+   "68-es-samed",
+   "69-el-kadir",
+   "70-el-muktedir",
+   "71-el-mukaddim",
+   "72-el-muahhir",
+   "73-el-evvel",
+   "74-el-ahir",
+   "75-ez-zahir",
+   "76-el-batın",
+   "77-el-vali",
+   "78-el-muteali",
+   "79-el-berr",
+   "80-et-tevvab",
+   "81-el-muntekim",
+   "82-el-afuvv",
+   "83-er-rauf",
+   "84-malikul-mulk",
+   "85-zul-celali-vel-ikram",
+   "86-el-muksit",
+   "87-el-cami",
+   "88-el-ganiyy",
+   "89-el-mugni",
+   "90-el-mani",
+   "91-ed-darr",
+   "92-en-nafi",
+   "93-en-nur",
+   "94-el-hadi",
+   "95-el-bedi",
+   "96-el-baki",
+   "97-el-varis",
+   "98-er-resid",
+   "99-es-sabur"
+  ],
+  "parcalar": [
+   [
+    "Esmâ-ül Hüsnâ. Allah’ın güzel isimleri.",
+    0.8
+   ],
+   "Peygamberimiz şöyle buyurmuştur.",
+   "Allah’ın doksan dokuz, yüzden bir eksik ismi vardır.",
+   "Kim onları sayarsa, ezberleyip anlamınca yaşarsa, cennete girer.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.6
+   ],
+   "İsimlerin sırası Tirmizî’nin rivayetindeki listeye göredir.",
+   "İsimlerin tek tek sayıldığı bu liste yalnızca Tirmizî’nin rivayetinde geçer.",
+   "Tirmizî rivayeti garîb olarak niteler; hadis âlimlerinin çoğu, Ahmed Şâkir, Elbânî ve başkaları, bu sıralamayı zayıf sayar ve isimlerin ravilerden biri tarafından derlenmiş olabileceğini belirtir.",
+   [
+    "Listedeki isimlerin çoğu Kur’an’da geçer; liste İslam dünyasında yaygın olarak kullanılır.",
+    1.6
+   ],
+   [
+    "Birinci isim. Allah.",
+    0.7
+   ],
+   "Anlamı: bütün güzel isimlerin sahibi, ibadete lâyık tek ilah.",
+   [
+    "Allah, yüce yaratıcının özel adıdır; diğer isimlerin hepsi O’nun sıfatlarını anlatır.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+   "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır.",
+   [
+    "O, acıyıcı olandır, acıyandır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her işe O’nun adıyla başla.",
+    1.6
+   ],
+   [
+    "İkinci isim. er-Rahmân.",
+    0.7
+   ],
+   "Anlamı: dünyada bütün varlıklara merhamet eden.",
+   [
+    "Rahmeti inanan, inanmayan bütün yaratılmışları kuşatır; nefes, rızık ve sağlık O’nun rahmetindendir.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+   "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır.",
+   [
+    "O, acıyıcı olandır, acıyandır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Merhametli ol; merhamet Rahmân’ın kullarına yakışır.",
+    1.6
+   ],
+   [
+    "Üçüncü isim. er-Rahîm.",
+    0.7
+   ],
+   "Anlamı: müminlere sonsuz merhamet eden.",
+   [
+    "Âlimlerin yaygın açıklamasına göre Rahîm, rahmetin âhirette müminlere özel olarak tecelli etmesini anlatır.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+   "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır.",
+   [
+    "O, acıyıcı olandır, acıyandır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Rahmetinden ümidini kesme.",
+    1.6
+   ],
+   [
+    "Dördüncü isim. el-Melik.",
+    0.7
+   ],
+   "Anlamı: mülkün gerçek sahibi, bütün varlığın hükümdarı.",
+   [
+    "Her şeyin gerçek sahibi O’dur; insana verilen her şey emanettir.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sahip olduklarını emanet bil.",
+    1.6
+   ],
+   [
+    "Beşinci isim. el-Kuddûs.",
+    0.7
+   ],
+   "Anlamı: her türlü eksiklikten uzak, tertemiz.",
+   [
+    "Allah her kusurdan, eksiklikten ve yaratılmışlara benzemekten münezzehtir.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kalbini ve dilini temiz tut.",
+    1.6
+   ],
+   [
+    "Altıncı isim. es-Selâm.",
+    0.7
+   ],
+   "Anlamı: esenlik veren, esenliğin kaynağı.",
+   [
+    "Her türlü afetten uzak olan ve kullarına esenlik veren O’dur; Müslümanların selamı da bu isme dayanır.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Selamı yay; insanlara esenlik ol.",
+    1.6
+   ],
+   [
+    "Yedinci isim. el-Mü’min.",
+    0.7
+   ],
+   "Anlamı: güven veren, vaadine güvenilen.",
+   [
+    "Kullarına emniyet veren, sözünde duran ve kendisine sığınanı koruyan O’dur.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güvenilir insan ol.",
+    1.6
+   ],
+   [
+    "Sekizinci isim. el-Müheymin.",
+    0.7
+   ],
+   "Anlamı: her şeyi gözetip koruyan.",
+   [
+    "Bütün varlıkları her an gözetir, korur ve yönetir.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gözetildiğini bilerek yaşa.",
+    1.6
+   ],
+   [
+    "Dokuzuncu isim. el-Azîz.",
+    0.7
+   ],
+   "Anlamı: mutlak güç sahibi, yenilmeyen.",
+   [
+    "Hiçbir güç O’na galip gelemez; izzet ve şeref O’na aittir.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Onuru Allah’ın yanında ara.",
+    1.6
+   ],
+   [
+    "Onuncu isim. el-Cebbâr.",
+    0.7
+   ],
+   "Anlamı: dilediğini yaptırabilen, kırıkları onaran.",
+   [
+    "İradesi her şeye geçer; kırılan kalpleri ve bozulan işleri onaran da O’dur.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kırgınlıkta O’na sığın.",
+    1.6
+   ],
+   [
+    "On birinci isim. el-Mütekebbir.",
+    0.7
+   ],
+   "Anlamı: büyüklükte eşi olmayan.",
+   [
+    "Büyüklük yalnızca O’na yakışır; bu yüzden kul için kibir kötü bir haldir.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+   [
+    "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Büyüklük O’nundur; sen alçak gönüllü ol.",
+    1.6
+   ],
+   [
+    "On ikinci isim. el-Hâlık.",
+    0.7
+   ],
+   "Anlamı: yoktan var eden, yaratan.",
+   [
+    "Her şeyi ölçüyle ve yoktan yaratan yalnızca O’dur.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+   "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır.",
+   "Göklerde ve yerde olanlar O'nu tesbih ederler.",
+   [
+    "O güçlüdür, Hakim'dir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yaratılanlara saygı göster.",
+    1.6
+   ],
+   [
+    "On üçüncü isim. el-Bâri’.",
+    0.7
+   ],
+   "Anlamı: kusursuz ve uyumlu yaratan.",
+   [
+    "Varlıkları birbiriyle uyumlu, kusursuz bir düzen içinde var eder.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+   "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır.",
+   "Göklerde ve yerde olanlar O'nu tesbih ederler.",
+   [
+    "O güçlüdür, Hakim'dir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yaratılıştaki düzene hayran ol.",
+    1.6
+   ],
+   [
+    "On dördüncü isim. el-Musavvir.",
+    0.7
+   ],
+   "Anlamı: her varlığa şekil ve suret veren.",
+   [
+    "Her varlığa kendine has bir şekil ve güzellik veren O’dur.",
+    0.6
+   ],
+   "Haşr Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+   "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır.",
+   "Göklerde ve yerde olanlar O'nu tesbih ederler.",
+   [
+    "O güçlüdür, Hakim'dir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hiçbir yaratılmışın şeklini küçümseme.",
+    1.6
+   ],
+   [
+    "On beşinci isim. el-Gaffâr.",
+    0.7
+   ],
+   "Anlamı: günahları çokça bağışlayan.",
+   [
+    "Kulunun günahlarını tekrar tekrar bağışlar ve örter.",
+    0.6
+   ],
+   "Nûh Suresi, onuncu ve on birinci ayetlerin anlamı şöyledir.",
+   "Dedim ki: Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır.",
+   [
+    "Size gökten bol bol yağmur indirsin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bağışlanmayı iste; sen de bağışla.",
+    1.6
+   ],
+   [
+    "On altıncı isim. el-Kahhâr.",
+    0.7
+   ],
+   "Anlamı: her şeye galip gelen.",
+   [
+    "Her şey O’nun kudretine boyun eğer; O’na karşı konulamaz.",
+    0.6
+   ],
+   "Ra‘d Suresi, on altıncı ayetin anlamı şöyledir.",
+   "De ki: Göklerin ve yerin Rabbi kimdir?, Allah'tır de.",
+   "Onu bırakıp, kendilerine bir fayda ve zararı olmayan dostlar mı edindiniz? de.",
+   "Kör ile gören bir olur mu?",
+   "Veya karanlıkla aydınlık bir midir? de.",
+   "Yoksa Allah'a, Allah gibi yaratması olan ortaklar buldular da, yaratmaları birbirine mi benzettiler?",
+   "De ki: Her şeyi yaratan Allah'tır.",
+   [
+    "O, her şeye üstün gelen tek Tanrı'dır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nefsine galip gel.",
+    1.6
+   ],
+   [
+    "On yedinci isim. el-Vehhâb.",
+    0.7
+   ],
+   "Anlamı: karşılıksız bol bol veren.",
+   [
+    "Hiçbir karşılık beklemeden nimet veren O’dur.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, sekizinci ayetin anlamı şöyledir.",
+   "Rabbimiz!",
+   [
+    "Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Karşılık beklemeden ver.",
+    1.6
+   ],
+   [
+    "On sekizinci isim. er-Rezzâk.",
+    0.7
+   ],
+   "Anlamı: bütün canlıların rızkını veren.",
+   [
+    "Her canlının rızkını yaratan ve ulaştıran O’dur.",
+    0.6
+   ],
+   "Zâriyât Suresi, elli sekizinci ayetin anlamı şöyledir.",
+   [
+    "Şüphesiz rızıklandıran da, güç ve kuvvet sahibi olan da Allah'tır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Rızık için çalış, rızkı veren O’dur.",
+    1.6
+   ],
+   [
+    "On dokuzuncu isim. el-Fettâh.",
+    0.7
+   ],
+   "Anlamı: kapıları açan, hak ile hükmeden.",
+   [
+    "Kapalı kapıları açar, zorlukları giderir ve kullar arasında hak ile hükmeder.",
+    0.6
+   ],
+   "Sebe’ Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+   "De ki: Rabbimiz sonunda hepimizi toplar, sonra aramızda adaletle hükmeder.",
+   [
+    "Adaletle hükmeden, bilen ancak O'dur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kapı kapalıysa O’na yönel.",
+    1.6
+   ],
+   [
+    "Yirminci isim. el-Alîm.",
+    0.7
+   ],
+   "Anlamı: her şeyi bilen.",
+   [
+    "Gizliyi de açığı da, olmuşu da olacağı da bilir.",
+    0.6
+   ],
+   "Bakara Suresi, otuz ikinci ayetin anlamı şöyledir.",
+   "Cevap verdiler: Sen münezzehsin, öğrettiğinden başka bizim bir bilgimiz yoktur.",
+   [
+    "Şüphesiz Sen hem bilensin, hem Hakim'sin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bilinmediğini sandığın da bilinir.",
+    1.6
+   ],
+   [
+    "Yirmi birinci isim. el-Kâbız.",
+    0.7
+   ],
+   "Anlamı: dilediğine daraltan.",
+   [
+    "Rızkı ve imkânı hikmetiyle daraltan O’dur.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz kırk beşinci ayetin anlamı şöyledir.",
+   "Allah'a, kat kat karşılığını arttıracağı güzel bir ödünç takdiminde kim bulunur?",
+   "Allah hem darlaştırır, hem bollaştırır; O'na döneceksiniz.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Darlıkta sabret; O dilerse genişletir.",
+    1.6
+   ],
+   [
+    "Yirmi ikinci isim. el-Bâsıt.",
+    0.7
+   ],
+   "Anlamı: dilediğine genişleten.",
+   [
+    "Rızkı, imkânı ve gönlü genişleten O’dur.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz kırk beşinci ayetin anlamı şöyledir.",
+   "Allah'a, kat kat karşılığını arttıracağı güzel bir ödünç takdiminde kim bulunur?",
+   "Allah hem darlaştırır, hem bollaştırır; O'na döneceksiniz.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bollukta şükret.",
+    1.6
+   ],
+   [
+    "Yirmi üçüncü isim. el-Hâfıd.",
+    0.7
+   ],
+   "Anlamı: dilediğini alçaltan.",
+   [
+    "Haddini aşanı alçaltan O’dur.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kibirlenme; yükselten de alçaltan da O’dur.",
+    1.6
+   ],
+   [
+    "Yirmi dördüncü isim. er-Râfi’.",
+    0.7
+   ],
+   "Anlamı: dilediğini yükselten.",
+   [
+    "Dilediğini dereceler hâlinde yükseltir.",
+    0.6
+   ],
+   "En‘âm Suresi, seksen üçüncü ayetin anlamı şöyledir.",
+   "Bu, İbrahim'e, milletine karşı verdiğimiz hüccetimizdir.",
+   "Dilediğimizi derecelerle yükseltiriz.",
+   "Doğrusu Rabbin Hakim'dir, Bilen'dir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yükselmek istersen alçak gönüllü ol.",
+    1.6
+   ],
+   [
+    "Yirmi beşinci isim. el-Muiz.",
+    0.7
+   ],
+   "Anlamı: izzet ve şeref veren.",
+   [
+    "Dilediğini aziz ve şerefli kılar.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+   "De ki: Mülkün sahibi olan Allah'ım!",
+   "Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir.",
+   "Doğrusu Sen, her şeye Kadir'sin.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şerefi Allah katında ara.",
+    1.6
+   ],
+   [
+    "Yirmi altıncı isim. el-Müzil.",
+    0.7
+   ],
+   "Anlamı: dilediğini zillete düşüren.",
+   [
+    "Dilediğini hikmetiyle zillete düşürür.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+   "De ki: Mülkün sahibi olan Allah'ım!",
+   "Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir.",
+   "Doğrusu Sen, her şeye Kadir'sin.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kimseyi küçük düşürme.",
+    1.6
+   ],
+   [
+    "Yirmi yedinci isim. es-Semî’.",
+    0.7
+   ],
+   "Anlamı: her şeyi işiten.",
+   [
+    "Sesli ve sessiz her duayı, her sözü işitir.",
+    0.6
+   ],
+   "Şûrâ Suresi, on birinci ayetin anlamı şöyledir.",
+   "Göklerin ve yerin yaratanı, size içinizden eşler, çift çift hayvanlar var etmiştir.",
+   "Bu suretle, çoğalmanızı sağlamıştır.",
+   "O'nun benzeri hiçbir şey yoktur.",
+   [
+    "O, işitendir, görendir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sözüne dikkat et; işitiliyor.",
+    1.6
+   ],
+   [
+    "Yirmi sekizinci isim. el-Basîr.",
+    0.7
+   ],
+   "Anlamı: her şeyi gören.",
+   [
+    "Gizli ve açık her şeyi görür.",
+    0.6
+   ],
+   "Şûrâ Suresi, on birinci ayetin anlamı şöyledir.",
+   "Göklerin ve yerin yaratanı, size içinizden eşler, çift çift hayvanlar var etmiştir.",
+   "Bu suretle, çoğalmanızı sağlamıştır.",
+   "O'nun benzeri hiçbir şey yoktur.",
+   [
+    "O, işitendir, görendir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her an görüldüğünü bil.",
+    1.6
+   ],
+   [
+    "Yirmi dokuzuncu isim. el-Hakem.",
+    0.7
+   ],
+   "Anlamı: hak ile hükmeden, son hükmü veren.",
+   [
+    "Kullar arasında son ve doğru hükmü veren O’dur.",
+    0.6
+   ],
+   "En‘âm Suresi, yüz on dördüncü ayetin anlamı şöyledir.",
+   "Allah size Kitap'ı açık açık indirmişken O'ndan başka bir hakem mi isteyeyim?",
+   "Kendilerine Kitap verdiklerimiz, onun gerçekten Rableri katından indirilmiş olduğunu bilirler.",
+   [
+    "Öyleyse, sen şüpheye düşenlerden olma.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hükmederken adil ol.",
+    1.6
+   ],
+   [
+    "Otuzuncu isim. el-Adl.",
+    0.7
+   ],
+   "Anlamı: mutlak adalet sahibi.",
+   [
+    "Hiç kimseye zerre kadar haksızlık etmez.",
+    0.6
+   ],
+   "En‘âm Suresi, yüz on beşinci ayetin anlamı şöyledir.",
+   "Rabbinin sözü, doğruluk ve adaletle tamamlandı.",
+   "O'nun sözlerini değiştirebilecek yoktur.",
+   "O, işitir ve bilir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Herkese hakkını ver.",
+    1.6
+   ],
+   [
+    "Otuz birinci isim. el-Latîf.",
+    0.7
+   ],
+   "Anlamı: en ince işleri bilen, lütufkâr.",
+   [
+    "En gizli işleri bilir ve kullarına fark ettirmeden lütfeder.",
+    0.6
+   ],
+   "En‘âm Suresi, yüz üçüncü ayetin anlamı şöyledir.",
+   "Gözler O'nu görmez, O bütün gözleri görür.",
+   [
+    "O Latif'tir, haberdardır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İyiliği incelikle yap.",
+    1.6
+   ],
+   [
+    "Otuz ikinci isim. el-Habîr.",
+    0.7
+   ],
+   "Anlamı: her şeyin iç yüzünden haberdar.",
+   [
+    "Her şeyin gizli yönünü ve iç yüzünü bilir.",
+    0.6
+   ],
+   "En‘âm Suresi, yüz üçüncü ayetin anlamı şöyledir.",
+   "Gözler O'nu görmez, O bütün gözleri görür.",
+   [
+    "O Latif'tir, haberdardır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Niyetin de bilinir.",
+    1.6
+   ],
+   [
+    "Otuz üçüncü isim. el-Halîm.",
+    0.7
+   ],
+   "Anlamı: cezada acele etmeyen, yumuşak davranan.",
+   [
+    "Hatalara karşı hemen cezalandırmaz, kuluna dönüş için zaman tanır.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz yirmi beşinci ayetin anlamı şöyledir.",
+   "Allah sizi rastgele yeminlerinizden dolayı değil, fakat kalblerinizin kasdettiği yeminlerden dolayı sorumlu tutar.",
+   [
+    "Allah bağışlayandır, Halim'dir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hemen öfkelenme, yumuşak ol.",
+    1.6
+   ],
+   [
+    "Otuz dördüncü isim. el-Azîm.",
+    0.7
+   ],
+   "Anlamı: büyüklüğü sınırsız olan.",
+   [
+    "Büyüklüğü akılların kavrayamayacağı kadar yücedir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+   "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+   "Göklerde olan ve yerde olan ancak O'nundur.",
+   "O'nun izni olmadan katında şefaat edecek kimdir?",
+   "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+   "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+   [
+    "O yücedir, büyüktür.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dertlerini büyük olana anlat.",
+    1.6
+   ],
+   [
+    "Otuz beşinci isim. el-Gafûr.",
+    0.7
+   ],
+   "Anlamı: bağışlaması çok olan.",
+   [
+    "Günahları bağışlar ve kusurları örter.",
+    0.6
+   ],
+   "Bürûc Suresi, on dördüncü ve on beşinci ayetlerin anlamı şöyledir.",
+   [
+    "Yüce arşın sahibi, çok seven, bağışlayan O'dur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kusurları ört, ifşa etme.",
+    1.6
+   ],
+   [
+    "Otuz altıncı isim. eş-Şekûr.",
+    0.7
+   ],
+   "Anlamı: az iyiliğe çok karşılık veren.",
+   [
+    "Kulunun küçük bir iyiliğini bile kat kat karşılıksız bırakmaz.",
+    0.6
+   ],
+   "Fâtır Suresi, otuzuncu ayetin anlamı şöyledir.",
+   "Çünkü Allah bu kimselerin ecirlerini tam verir ve lütfu ile arttırır.",
+   [
+    "Doğrusu O, bağışlayandır, şükrün karşılığını bol bol verendir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Küçük iyiliği küçümseme.",
+    1.6
+   ],
+   [
+    "Otuz yedinci isim. el-Aliyy.",
+    0.7
+   ],
+   "Anlamı: yüceler yücesi.",
+   [
+    "Zatı ve sıfatlarıyla her şeyin üstündedir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+   "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+   "Göklerde olan ve yerde olan ancak O'nundur.",
+   "O'nun izni olmadan katında şefaat edecek kimdir?",
+   "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+   "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+   [
+    "O yücedir, büyüktür.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gönlünü yüce şeylere bağla.",
+    1.6
+   ],
+   [
+    "Otuz sekizinci isim. el-Kebîr.",
+    0.7
+   ],
+   "Anlamı: büyüklüğü her şeyi aşan.",
+   [
+    "Her şeyden büyüktür; namazdaki Allahu ekber bu büyüklüğü dile getirir.",
+    0.6
+   ],
+   "Hac Suresi, altmış ikinci ayetin anlamı şöyledir.",
+   "Keza Hak yalnız Allah'tır; O'nu bırakıp taptıkları sadece batıldır.",
+   [
+    "Doğrusu Allah yücedir büyüktür.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allahu ekber de; dert de dünya da küçülür.",
+    1.6
+   ],
+   [
+    "Otuz dokuzuncu isim. el-Hafîz.",
+    0.7
+   ],
+   "Anlamı: her şeyi koruyup gözeten.",
+   [
+    "Varlıkları korur, yapılan her işi kaybolmadan saklar.",
+    0.6
+   ],
+   "Şûrâ Suresi, altıncı ayetin anlamı şöyledir.",
+   "Allah'ı bırakıp da dostlar edinenlerin işlediklerini Allah gözetlemektedir.",
+   [
+    "Sen, onlara vekil olmağa memur değilsin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Emaneti koru.",
+    1.6
+   ],
+   [
+    "Kırkıncı isim. el-Mukît.",
+    0.7
+   ],
+   "Anlamı: her canlının gıdasını veren, her şeye gücü yeten.",
+   [
+    "Bedenin ve ruhun ihtiyacını veren O’dur.",
+    0.6
+   ],
+   "Nisâ Suresi, seksen beşinci ayetin anlamı şöyledir.",
+   "Kim iyi bir işte aracılık ederse, ona onun sevabından bir pay vardır; kim de kötü bir şeyde aracılık yaparsa, ona o kötülükten bir hisse vardır.",
+   [
+    "Allah, her şeyin karşılığını verir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sofrandaki her lokmaya şükret.",
+    1.6
+   ],
+   [
+    "Kırk birinci isim. el-Hasîb.",
+    0.7
+   ],
+   "Anlamı: her şeyin hesabını gören, kuluna yeten.",
+   [
+    "Her şeyin hesabını bilir; kendisine güvenene yeter.",
+    0.6
+   ],
+   "Nisâ Suresi, altıncı ayetin anlamı şöyledir.",
+   "Yetimleri, evlenme çağına gelene kadar deneyin; onlarda olgunlaşma görürseniz mallarını kendilerine verin; büyüyecekler de geri alacaklar diye onları israf ederek ve tez elden yemeyin.",
+   "Zengin olan, iffetli olmağa çalışsın, yoksul olan uygun bir şekilde yesin.",
+   "Mallarını kendilerine verdiğiniz zaman, yanlarında şahid bulundurun.",
+   [
+    "Hesap sormak için Allah yeter.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hesaba çekilmeden kendini hesaba çek.",
+    1.6
+   ],
+   [
+    "Kırk ikinci isim. el-Celîl.",
+    0.7
+   ],
+   "Anlamı: celâl ve azamet sahibi.",
+   [
+    "Celâl, yani büyüklük ve heybet O’na aittir.",
+    0.6
+   ],
+   "Rahmân Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+   "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Saygıyı Allah’a ve O’nun emirlerine göster.",
+    1.6
+   ],
+   [
+    "Kırk üçüncü isim. el-Kerîm.",
+    0.7
+   ],
+   "Anlamı: cömertliği sınırsız.",
+   [
+    "İstemeden verir, verdiğini başa kakmaz.",
+    0.6
+   ],
+   "İnfitâr Suresi, altıncı ve sekizinci ayetlerin anlamı şöyledir.",
+   "Ey insanoğlu!",
+   [
+    "Seni yaratıp sonra şekil veren, düzenleyen, mütenasip kılan, istediği şekilde seni terkip eden, çok cömert olan Rabbine karşı seni aldatan nedir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Cömert ol, verdiğini başa kakma.",
+    1.6
+   ],
+   [
+    "Kırk dördüncü isim. er-Rakîb.",
+    0.7
+   ],
+   "Anlamı: her an gözetleyen.",
+   [
+    "Kullarının her hâlini bir an bile gözden kaçırmaz.",
+    0.6
+   ],
+   "Nisâ Suresi, birinci ayetin anlamı şöyledir.",
+   "Ey İnsanlar!",
+   "Sizi bir tek nefisten yaratan, ondan eşini var eden ve ikisinden pek çok erkek ve kadın meydana getiren Rabb'inize hürmetsizlikten sakının.",
+   "Kendisi adına birbirinizden dilekte bulunduğunuz Allah'ın ve akrabanın haklarına riayetsizliktende sakının.",
+   [
+    "Allah şüphesiz hepinizi görüp gözetmektedir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yalnızken de gözetildiğini bil.",
+    1.6
+   ],
+   [
+    "Kırk beşinci isim. el-Mücîb.",
+    0.7
+   ],
+   "Anlamı: dualara karşılık veren.",
+   [
+    "Kendisine yalvaranın duasına karşılık verir.",
+    0.6
+   ],
+   "Hûd Suresi, altmış birinci ayetin anlamı şöyledir.",
+   "Semud milletine kardeşleri Salih'i gönderdik.",
+   "Ey milletim!",
+   "Allah'a kulluk edin; O'ndan başka tanrınız yoktur; sizi yeryüzünde yaratıp orayı imar etmenizi dileyen O'dur.",
+   "Öyleyse O'ndan mağfiret dileyin, sonra da O'na tevbe edin.",
+   [
+    "Doğrusu Rabbim size yakın ve duaları kabul edendir dedi.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dua et; karşılık veren O’dur.",
+    1.6
+   ],
+   [
+    "Kırk altıncı isim. el-Vâsi’.",
+    0.7
+   ],
+   "Anlamı: ilmi ve rahmeti her şeyi kuşatan.",
+   [
+    "Rahmeti, ilmi ve lütfu sınırsızdır.",
+    0.6
+   ],
+   "Bakara Suresi, yüz on beşinci ayetin anlamı şöyledir.",
+   "Doğu da batı da Allah'ındır, nereye dönerseniz Allah'ın yönü orasıdır.",
+   [
+    "Doğrusu Allah her yeri kaplar ve her şeyi bilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gönlünü geniş tut.",
+    1.6
+   ],
+   [
+    "Kırk yedinci isim. el-Hakîm.",
+    0.7
+   ],
+   "Anlamı: her işi yerinde ve hikmetli olan.",
+   [
+    "Yaptığı her şeyin bir hikmeti vardır; hiçbir işi boş değildir.",
+    0.6
+   ],
+   "Bakara Suresi, otuz ikinci ayetin anlamı şöyledir.",
+   "Cevap verdiler: Sen münezzehsin, öğrettiğinden başka bizim bir bilgimiz yoktur.",
+   [
+    "Şüphesiz Sen hem bilensin, hem Hakim'sin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Anlamadığında da hikmet olduğunu bil.",
+    1.6
+   ],
+   [
+    "Kırk sekizinci isim. el-Vedûd.",
+    0.7
+   ],
+   "Anlamı: kullarını seven, sevilmeye lâyık olan.",
+   [
+    "İyi kullarını sever ve onları sevdirir.",
+    0.6
+   ],
+   "Bürûc Suresi, on dördüncü ve on beşinci ayetlerin anlamı şöyledir.",
+   [
+    "Yüce arşın sahibi, çok seven, bağışlayan O'dur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sevgiyi büyüt; sevilecek iş yap.",
+    1.6
+   ],
+   [
+    "Kırk dokuzuncu isim. el-Mecîd.",
+    0.7
+   ],
+   "Anlamı: şanı yüce, cömertliği bol.",
+   [
+    "Şanı, şerefi ve cömertliği sonsuzdur.",
+    0.6
+   ],
+   "Hûd Suresi, yetmiş üçüncü ayetin anlamı şöyledir.",
+   "Ey evin hanımı!",
+   "Allah'ın rahmeti ve bereketleri üzerinize olmuşken, nasıl Allah'ın işine şaşarsın?",
+   [
+    "O, övülmeye layıktır, yücelerin yücesidir dediler.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "O’nu övmeyi dilinden düşürme.",
+    1.6
+   ],
+   [
+    "Ellinci isim. el-Bâis.",
+    0.7
+   ],
+   "Anlamı: ölüleri dirilten, peygamber gönderen.",
+   [
+    "Ölüleri diriltecek ve insanlara peygamberler gönderen O’dur.",
+    0.6
+   ],
+   "Hac Suresi, altıncı ve yedinci ayetlerin anlamı şöyledir.",
+   "Bunlar, yalnız Allah'ın gerçek olduğunu, ölüleri dirilttiğini, gücünün herşeye yettiğini, şüphe götürmeyen kıyamet saatinin geleceğini, Allah'ın kabirlerde olanı dirilteceğini gösterir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dirilişe hazırlıklı yaşa.",
+    1.6
+   ],
+   [
+    "Elli birinci isim. eş-Şehîd.",
+    0.7
+   ],
+   "Anlamı: her şeye şahit olan.",
+   [
+    "Her şeyi görür ve her şeye şahittir.",
+    0.6
+   ],
+   "Nisâ Suresi, yetmiş dokuzuncu ayetin anlamı şöyledir.",
+   "Sana ne iyilik gelirse Allah'tandır, sana ne kötülük dokunursa kendindendir.",
+   [
+    "Seni insanlara peygamber gönderdik, şahid olarak Allah yeter.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şahitliğini doğru yap.",
+    1.6
+   ],
+   [
+    "Elli ikinci isim. el-Hak.",
+    0.7
+   ],
+   "Anlamı: varlığı gerçek ve değişmeyen.",
+   [
+    "Varlığı hiç değişmeyen gerçeğin kendisidir.",
+    0.6
+   ],
+   "Hac Suresi, altıncı ve yedinci ayetlerin anlamı şöyledir.",
+   [
+    "Bunlar, yalnız Allah'ın gerçek olduğunu, ölüleri dirilttiğini, gücünün herşeye yettiğini, şüphe götürmeyen kıyamet saatinin geleceğini, Allah'ın kabirlerde olanı dirilteceğini gösterir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Haktan yana ol.",
+    1.6
+   ],
+   [
+    "Elli üçüncü isim. el-Vekîl.",
+    0.7
+   ],
+   "Anlamı: kendisine güvenilen, işleri üstlenen.",
+   [
+    "Kendisine dayanan kulunun işlerini en güzel şekilde üstlenir.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+   "İnsanlar onlara: Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun dediler.",
+   "Bu, onların imanını artırdı da: Allah bize yeter.",
+   [
+    "O ne güzel Vekil'dir dediler.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Çalış ve O’na dayan.",
+    1.6
+   ],
+   [
+    "Elli dördüncü isim. el-Kaviyy.",
+    0.7
+   ],
+   "Anlamı: kuvvet sahibi.",
+   [
+    "Gücü hiç tükenmez.",
+    0.6
+   ],
+   "Şûrâ Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+   "Allah, kullarına lütufta bulunandır.",
+   "Dilediğini rızıklandırır.",
+   [
+    "Kuvvetli olan da güçlü olan da O'dur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gücünü iyilik için kullan.",
+    1.6
+   ],
+   [
+    "Elli beşinci isim. el-Metîn.",
+    0.7
+   ],
+   "Anlamı: gücü sarsılmaz.",
+   [
+    "Kuvveti hiçbir şekilde azalmaz, sarsılmaz.",
+    0.6
+   ],
+   "Zâriyât Suresi, elli sekizinci ayetin anlamı şöyledir.",
+   [
+    "Şüphesiz rızıklandıran da, güç ve kuvvet sahibi olan da Allah'tır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğru yolda sağlam dur.",
+    1.6
+   ],
+   [
+    "Elli altıncı isim. el-Veliyy.",
+    0.7
+   ],
+   "Anlamı: müminlerin dostu ve yardımcısı.",
+   [
+    "İnananların dostudur; onları karanlıktan aydınlığa çıkarır.",
+    0.6
+   ],
+   "Şûrâ Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+   "Umutsuzluğa düşmelerinin ardından yağmuru indiren, rahmetini yayan O'dur.",
+   [
+    "O, övülmeğe layık olan dosttur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dostluğunu Allah için kur.",
+    1.6
+   ],
+   [
+    "Elli yedinci isim. el-Hamîd.",
+    0.7
+   ],
+   "Anlamı: övülmeye lâyık olan.",
+   [
+    "Bütün övgüler O’na aittir; her durumda övülmeye lâyıktır.",
+    0.6
+   ],
+   "Şûrâ Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+   "Umutsuzluğa düşmelerinin ardından yağmuru indiren, rahmetini yayan O'dur.",
+   [
+    "O, övülmeğe layık olan dosttur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Elhamdülillah de.",
+    1.6
+   ],
+   [
+    "Elli sekizinci isim. el-Muhsî.",
+    0.7
+   ],
+   "Anlamı: her şeyi tek tek sayan, bilen.",
+   [
+    "Her şeyin sayısını, miktarını tek tek bilir.",
+    0.6
+   ],
+   "Cin Suresi, yirmi yedinci ve yirmi sekizinci ayetlerin anlamı şöyledir.",
+   "Ancak peygamberlerden, bildirmek istediği bunun dışındadır.",
+   "Rablerinin bildirilerini tebliğ etmelerini ortaya koymak için her peygamberin önünden ve ardından gözcüler salar; onların yaptıklarını ilmiyle kuşatır ve herşeyi bir bir sayar.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yaptığın hiçbir şey kaybolmaz.",
+    1.6
+   ],
+   [
+    "Elli dokuzuncu isim. el-Mübdi’.",
+    0.7
+   ],
+   "Anlamı: örneksiz ilk kez yaratan.",
+   [
+    "Varlıkları hiçbir örnek olmadan ilk defa yaratır.",
+    0.6
+   ],
+   "Bürûc Suresi, on üçüncü ayetin anlamı şöyledir.",
+   "Önce yaratıp sonra bunu tekrar eden O'dur.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yaratılışı düşün.",
+    1.6
+   ],
+   [
+    "Altmışıncı isim. el-Muîd.",
+    0.7
+   ],
+   "Anlamı: yeniden yaratan.",
+   [
+    "Öldükten sonra yeniden diriltecek olan O’dur.",
+    0.6
+   ],
+   "Bürûc Suresi, on üçüncü ayetin anlamı şöyledir.",
+   "Önce yaratıp sonra bunu tekrar eden O'dur.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dönüş O’nadır.",
+    1.6
+   ],
+   [
+    "Altmış birinci isim. el-Muhyî.",
+    0.7
+   ],
+   "Anlamı: hayat veren.",
+   [
+    "Hayatı yaratan, ölü toprağa bile can veren O’dur.",
+    0.6
+   ],
+   "Rûm Suresi, ellinci ayetin anlamı şöyledir.",
+   "Allah'ın rahmetinin belirtilerine bir bak, yeryüzünü ölümünden sonra nasıl diriltiyor?",
+   "Şüphesiz ölüleri O diriltir.",
+   [
+    "O her şeye Kadir'dir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bir hayata dokun, can ver.",
+    1.6
+   ],
+   [
+    "Altmış ikinci isim. el-Mümît.",
+    0.7
+   ],
+   "Anlamı: ölümü yaratan.",
+   [
+    "Her canlının ölüm vaktini belirleyen O’dur.",
+    0.6
+   ],
+   "Hicr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "Doğrusu dirilten ve öldüren Biziz; hepsinin gerisinde de Biz kalırız.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ölümü hatırla, hayatı güzel yaşa.",
+    1.6
+   ],
+   [
+    "Altmış üçüncü isim. el-Hayy.",
+    0.7
+   ],
+   "Anlamı: diri, ölümsüz.",
+   [
+    "Hayatı başlangıçsız ve sonsuzdur.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+   "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+   "Göklerde olan ve yerde olan ancak O'nundur.",
+   "O'nun izni olmadan katında şefaat edecek kimdir?",
+   "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+   "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+   [
+    "O yücedir, büyüktür.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ölümsüz olana güven.",
+    1.6
+   ],
+   [
+    "Altmış dördüncü isim. el-Kayyûm.",
+    0.7
+   ],
+   "Anlamı: her şeyi ayakta tutan.",
+   [
+    "Kendi varlığıyla ayakta olan ve her şeyi ayakta tutan O’dur.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+   "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+   "Göklerde olan ve yerde olan ancak O'nundur.",
+   "O'nun izni olmadan katında şefaat edecek kimdir?",
+   "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+   "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+   [
+    "O yücedir, büyüktür.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dayanak arıyorsan O’na dayan.",
+    1.6
+   ],
+   [
+    "Altmış beşinci isim. el-Vâcid.",
+    0.7
+   ],
+   "Anlamı: dilediğini bulan, hiçbir şeye muhtaç olmayan.",
+   [
+    "Dilediği her şeyi dilediği anda bulur; hiçbir şeyden yoksun değildir.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Aradığını O’nda ara.",
+    1.6
+   ],
+   [
+    "Altmış altıncı isim. el-Mâcid.",
+    0.7
+   ],
+   "Anlamı: şanı ve şerefi yüce.",
+   [
+    "Şeref ve cömertlik O’nun sıfatıdır.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şerefli iş yap.",
+    1.6
+   ],
+   [
+    "Altmış yedinci isim. el-Vâhid.",
+    0.7
+   ],
+   "Anlamı: tek ve bir.",
+   [
+    "Zatında, sıfatlarında ve işlerinde eşi ve ortağı yoktur.",
+    0.6
+   ],
+   "Ra‘d Suresi, on altıncı ayetin anlamı şöyledir.",
+   "De ki: Göklerin ve yerin Rabbi kimdir?, Allah'tır de.",
+   "Onu bırakıp, kendilerine bir fayda ve zararı olmayan dostlar mı edindiniz? de.",
+   "Kör ile gören bir olur mu?",
+   "Veya karanlıkla aydınlık bir midir? de.",
+   "Yoksa Allah'a, Allah gibi yaratması olan ortaklar buldular da, yaratmaları birbirine mi benzettiler?",
+   "De ki: Her şeyi yaratan Allah'tır.",
+   [
+    "O, her şeye üstün gelen tek Tanrı'dır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kalbini birine, Bir olana bağla.",
+    1.6
+   ],
+   [
+    "Altmış sekizinci isim. es-Samed.",
+    0.7
+   ],
+   "Anlamı: hiçbir şeye muhtaç olmayan, her şeyin o’na muhtaç olduğu.",
+   [
+    "Her şey O’na muhtaçtır; O ise hiçbir şeye muhtaç değildir.",
+    0.6
+   ],
+   "İhlâs Suresi, ikinci ayetin anlamı şöyledir.",
+   [
+    "Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İhtiyacını O’na arz et.",
+    1.6
+   ],
+   [
+    "Altmış dokuzuncu isim. el-Kâdir.",
+    0.7
+   ],
+   "Anlamı: her şeye gücü yeten.",
+   [
+    "Dilediği her şeye gücü yeter.",
+    0.6
+   ],
+   "En‘âm Suresi, altmış beşinci ayetin anlamı şöyledir.",
+   "De ki: Üstünüzden ve altınızdan size azab göndermeğe, sizi fırka fırka yapıp kiminize kiminizin hıncını tattırmağa Kadir olan O'dur.",
+   [
+    "Anlasınlar diye ayetleri nasıl yerli yerince açıkladığımıza bak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İmkânsız görünende ümidini kesme.",
+    1.6
+   ],
+   [
+    "Yetmişinci isim. el-Muktedir.",
+    0.7
+   ],
+   "Anlamı: kudretini dilediği gibi kullanan.",
+   [
+    "Gücünü dilediği gibi ve dilediği anda kullanır.",
+    0.6
+   ],
+   "Kamer Suresi, kırk ikinci ayetin anlamı şöyledir.",
+   "Mucizelerimizin hepsini yalanladılar.",
+   [
+    "Bunun üzerine onları güç ve kuvvet sahibi olana yakışır bir şekilde yakaladık.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gücün yettiği iyiliği erteleme.",
+    1.6
+   ],
+   [
+    "Yetmiş birinci isim. el-Mukaddim.",
+    0.7
+   ],
+   "Anlamı: dilediğini öne alan.",
+   [
+    "Dilediğini öne alır, dilediğine öncelik verir.",
+    0.6
+   ],
+   "Kāf Suresi, yirmi sekizinci ve yirmi dokuzuncu ayetlerin anlamı şöyledir.",
+   "Allah: Benim katımda çekişmeyin; size bunu önceden bildirmiştim.",
+   "Benim katımda söz değişmez; Ben kullara asla zulmetmem der.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Öncelikleri doğru sırala.",
+    1.6
+   ],
+   [
+    "Yetmiş ikinci isim. el-Muahhir.",
+    0.7
+   ],
+   "Anlamı: dilediğini geriye bırakan.",
+   [
+    "Dilediğini erteler, geriye bırakır; ertelemesi de hikmetlidir.",
+    0.6
+   ],
+   "İbrâhîm Suresi, kırk ikinci ayetin anlamı şöyledir.",
+   "Sakın Allah'ı, zalimlerin yaptıklarından habersiz sanma; gözlerin dışarı fırlayacağı bir güne kadar onları ertelemektedir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gecikende hayır ara.",
+    1.6
+   ],
+   [
+    "Yetmiş üçüncü isim. el-Evvel.",
+    0.7
+   ],
+   "Anlamı: başlangıcı olmayan.",
+   [
+    "Her şeyden öncedir; varlığının başlangıcı yoktur.",
+    0.6
+   ],
+   "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+   "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+   [
+    "O her şeyi bilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her işe O’nunla başla.",
+    1.6
+   ],
+   [
+    "Yetmiş dördüncü isim. el-Âhir.",
+    0.7
+   ],
+   "Anlamı: sonu olmayan.",
+   [
+    "Her şeyden sonra da var olacaktır; varlığının sonu yoktur.",
+    0.6
+   ],
+   "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+   "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+   [
+    "O her şeyi bilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sonu düşünerek yaşa.",
+    1.6
+   ],
+   [
+    "Yetmiş beşinci isim. ez-Zâhir.",
+    0.7
+   ],
+   "Anlamı: varlığı apaçık olan.",
+   [
+    "Varlığı, eserleriyle apaçık görünür.",
+    0.6
+   ],
+   "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+   "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+   [
+    "O her şeyi bilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her şeyde O’nun izini gör.",
+    1.6
+   ],
+   [
+    "Yetmiş altıncı isim. el-Bâtın.",
+    0.7
+   ],
+   "Anlamı: zatı gizli olan, her şeyin içini bilen.",
+   [
+    "Zatı akıllarca kavranamaz; her şeyin iç yüzünü bilir.",
+    0.6
+   ],
+   "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+   "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+   [
+    "O her şeyi bilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İçini de dışın gibi temiz tut.",
+    1.6
+   ],
+   [
+    "Yetmiş yedinci isim. el-Vâlî.",
+    0.7
+   ],
+   "Anlamı: her şeyi yöneten.",
+   [
+    "Bütün varlığı tek başına yönetir.",
+    0.6
+   ],
+   "Ra‘d Suresi, on birinci ayetin anlamı şöyledir.",
+   "Ardında ve önünde insanoğlunu takip edenler vardır; Allah'ın emriyle onu gözetirler.",
+   "Bir millet kendini bozmadıkça Allah onların durumunu değiştirmez.",
+   "Allah bir milletin fenalığını dileyince artık onun önüne geçilmez.",
+   [
+    "Onlar için Allah'tan başka hamide bulunmaz.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sorumlu olduğunu adaletle yönet.",
+    1.6
+   ],
+   [
+    "Yetmiş sekizinci isim. el-Müteâlî.",
+    0.7
+   ],
+   "Anlamı: yüceliği her şeyin üstünde.",
+   [
+    "Yaratılmışlara yakıştırılan her eksiklikten çok yücedir.",
+    0.6
+   ],
+   "Ra‘d Suresi, dokuzuncu ve onuncu ayetlerin anlamı şöyledir.",
+   [
+    "Görüleni de görülmeyeni de bilen, yücelerin yücesi büyük Allah'a göre, aranızdan sözü gizleyen ile, açığa vuran ve geceye bürünerek gizlenip gündüzün ortaya çıkan arasında fark yoktur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "O’nu yaratılmışlara benzetme.",
+    1.6
+   ],
+   [
+    "Yetmiş dokuzuncu isim. el-Berr.",
+    0.7
+   ],
+   "Anlamı: iyiliği bol.",
+   [
+    "Kullarına iyiliği ve lütfu çoktur.",
+    0.6
+   ],
+   "Tûr Suresi, yirmi altıncı ve yirmi sekizinci ayetlerin anlamı şöyledir.",
+   [
+    "Doğrusu bundan önce ailemizin yanında bile korku içindeydik; Allah lütfedip bizi kavurucu azabdan korudu; doğrusu bundan önce de O'na yalvarıyorduk; şüphesiz O, iyilik yapandır, acıyandır derler.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İyilik yap, iyiliği yay.",
+    1.6
+   ],
+   [
+    "Sekseninci isim. et-Tevvâb.",
+    0.7
+   ],
+   "Anlamı: tövbeleri kabul eden.",
+   [
+    "Tövbe edeni tekrar tekrar kabul eder.",
+    0.6
+   ],
+   "Bakara Suresi, otuz yedinci ayetin anlamı şöyledir.",
+   "Adem, Rabbi'nden emirler aldı; onları yerine getirdi.",
+   "Rabb'i de bunun üzerine tevbesini kabul etti.",
+   [
+    "Şüphesiz o tevbeleri daima kabul edendir, merhametli olandır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hata ettiğinde hemen dön.",
+    1.6
+   ],
+   [
+    "Seksen birinci isim. el-Müntekim.",
+    0.7
+   ],
+   "Anlamı: suçluyu cezalandıran.",
+   [
+    "Zulmedenleri ve isyanda ısrar edenleri adaletle cezalandırır.",
+    0.6
+   ],
+   "Secde Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+   "Rabbinin ayetleri kendisine hatırlatılıp da onlardan yüz çeviren kimseden daha zalim var mıdır?",
+   "Şüphesiz suçlulardan öç alacağız.",
+   [
+    "Ayette çoğul azamet kalıbıyla, Biz… intikam alırız şeklinde geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zulme ortak olma.",
+    1.6
+   ],
+   [
+    "Seksen ikinci isim. el-Afüvv.",
+    0.7
+   ],
+   "Anlamı: affı çok olan.",
+   [
+    "Günahları yalnızca bağışlamakla kalmaz, izini de siler.",
+    0.6
+   ],
+   "Nisâ Suresi, doksan dokuzuncu ayetin anlamı şöyledir.",
+   "İşte Allah'ın bunları affetmesi umulur.",
+   [
+    "Allah Affedendir, Bağışlayan'dır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Affet ki affedilesin.",
+    1.6
+   ],
+   [
+    "Seksen üçüncü isim. er-Raûf.",
+    0.7
+   ],
+   "Anlamı: çok şefkatli.",
+   [
+    "Kullarına karşı şefkati ve merhameti çok fazladır.",
+    0.6
+   ],
+   "Bakara Suresi, yüz kırk üçüncü ayetin anlamı şöyledir.",
+   "Böylece sizi insanlara şahid ve örnek olmanız için tam ortada bulunan bir ümmet kıldık.",
+   "Peygamber de size şahid ve örnektir.",
+   "Senin yöneldiğin yönü, Peygambere uyanları, cayacaklardan ayırdetmek için kıble yaptık.",
+   "Doğrusu Allah'ın yola koyduğu kimselerden başkasına bu ağır bir şeydir.",
+   "Allah ibadetlerinizi boşa çıkaracak değildir.",
+   [
+    "Doğrusu Allah insanlara şefkat gösterir, merhamet eder.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şefkatli ol.",
+    1.6
+   ],
+   [
+    "Seksen dördüncü isim. Mâlikü’l-mülk.",
+    0.7
+   ],
+   "Anlamı: mülkün sahibi.",
+   [
+    "Mülkü dilediğine verir, dilediğinden alır.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+   "De ki: Mülkün sahibi olan Allah'ım!",
+   "Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir.",
+   [
+    "Doğrusu Sen, her şeye Kadir'sin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Elindekine güvenme, O’na güven.",
+    1.6
+   ],
+   [
+    "Seksen beşinci isim. Zü’l-celâli ve’l-ikrâm.",
+    0.7
+   ],
+   "Anlamı: celâl ve ikram sahibi.",
+   [
+    "Hem büyüklük ve heybet hem de lütuf ve ikram O’na aittir.",
+    0.6
+   ],
+   "Rahmân Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+   [
+    "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hem saygıyla hem sevgiyle an.",
+    1.6
+   ],
+   [
+    "Seksen altıncı isim. el-Muksit.",
+    0.7
+   ],
+   "Anlamı: adaletle hükmeden.",
+   [
+    "Hükmünde ve dağıtımında tam adalet sahibidir.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ölçüde ve sözde adil ol.",
+    1.6
+   ],
+   [
+    "Seksen yedinci isim. el-Câmi’.",
+    0.7
+   ],
+   "Anlamı: toplayan, bir araya getiren.",
+   [
+    "Bütün insanları hesap günü bir araya toplayacak olan O’dur.",
+    0.6
+   ],
+   "Âl-i İmrân Suresi, dokuzuncu ayetin anlamı şöyledir.",
+   "Rabbimiz!",
+   "Doğrusu geleceği şüphe götürmeyen günde, insanları toplayacak olan Sensin.",
+   [
+    "Şüphesiz ki Allah verdiği sözden caymaz.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kalpleri birleştir, ayırma.",
+    1.6
+   ],
+   [
+    "Seksen sekizinci isim. el-Ganiyy.",
+    0.7
+   ],
+   "Anlamı: hiçbir şeye muhtaç olmayan.",
+   [
+    "Her şeyden müstağnidir; ibadetlere de muhtaç değildir.",
+    0.6
+   ],
+   "Bakara Suresi, iki yüz altmış yedinci ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Kazandıklarınızın temizlerinden ve size yerden çıkardıklarımızdan sarfedin; iğrenmeden alamıyacağınız pis şeyleri vermeye kalkmayın.",
+   [
+    "Allah'ın müstağni ve övülmeye layık olduğunu bilin.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İnsanlara değil, Allah’a muhtaç ol.",
+    1.6
+   ],
+   [
+    "Seksen dokuzuncu isim. el-Muğnî.",
+    0.7
+   ],
+   "Anlamı: dilediğini zengin kılan.",
+   [
+    "Dilediğini lütfuyla zengin eder, ihtiyaçtan kurtarır.",
+    0.6
+   ],
+   "Tevbe Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+   "Ey inananlar!",
+   "Doğrusu puta tapanlar pistirler, bu sebeple, bu yıllardan sonra Mescidi Haram'a yaklaşmasınlar.",
+   "Eğer fakirlikten korkarsanız, bilin ki Allah dilerse sizi bol nimetiyle zenginleştirecektir.",
+   "Allah şüphesiz bilendir, hakimdir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zenginliği O’ndan iste.",
+    1.6
+   ],
+   [
+    "Doksanıncı isim. el-Mâni’.",
+    0.7
+   ],
+   "Anlamı: dilediğine engel olan.",
+   [
+    "Hikmetiyle dilediğini engeller; engellemesi de bir korumadır.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Olmayanda da hayır ara.",
+    1.6
+   ],
+   [
+    "Doksan birinci isim. ed-Dârr.",
+    0.7
+   ],
+   "Anlamı: dilediğine zarar dokunduran.",
+   [
+    "Zararı da faydayı da yaratan O’dur; O’nun izni olmadan hiçbir şey zarar veremez.",
+    0.6
+   ],
+   "En‘âm Suresi, on yedinci ayetin anlamı şöyledir.",
+   "Allah sana bir sıkıntı verirse, O'ndan başkası gideremez.",
+   "Sana bir iyilik verirse başkası onu engelleyemez.",
+   "O, her şeye Kadir'dir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zarardan O’na sığın.",
+    1.6
+   ],
+   [
+    "Doksan ikinci isim. en-Nâfi’.",
+    0.7
+   ],
+   "Anlamı: fayda veren.",
+   [
+    "Faydayı ve hayrı yaratan O’dur.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İnsanlara faydalı ol.",
+    1.6
+   ],
+   [
+    "Doksan üçüncü isim. en-Nûr.",
+    0.7
+   ],
+   "Anlamı: nur, aydınlatan.",
+   [
+    "Göklerin ve yerin nurudur; kalpleri iman ile aydınlatır.",
+    0.6
+   ],
+   "Nûr Suresi, otuz beşinci ayetin anlamı şöyledir.",
+   "Allah göklerin ve yerin Nur'udur.",
+   "O'nun nuru, içinde ışık bulunan bir kandil yuvasına benzer.",
+   "O ışık bir cam içindedir, cam ise, sanki inci gibi parlayan bir yıldızdır; bu ne yalnız doğuda ve ne de yalnız batıda bulunan bereketli zeytin ağacından yakılır.",
+   "Ateş değmese bile, nerdeyse yağın kendisi aydınlatacak!",
+   "Nur üstüne nurdur.",
+   "Allah dilediğini nuruna kavuşturur.",
+   "Allah insanlara misaller verir.",
+   [
+    "O, herşeyi bilir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Karanlığa ışık ol.",
+    1.6
+   ],
+   [
+    "Doksan dördüncü isim. el-Hâdî.",
+    0.7
+   ],
+   "Anlamı: doğru yolu gösteren.",
+   [
+    "İnananları doğru yola ileten O’dur.",
+    0.6
+   ],
+   "Hac Suresi, elli dördüncü ayetin anlamı şöyledir.",
+   "Bu, kendilerine ilim verilenlerin Kuran'ın, senin Rabbin'den bir gerçek olduğunu bilip de ona inanmaları ve gönüllerini bağlamaları içindir.",
+   [
+    "Allah inananları şüphesiz doğru yola eriştirir.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hidayeti O’ndan iste.",
+    1.6
+   ],
+   [
+    "Doksan beşinci isim. el-Bedî’.",
+    0.7
+   ],
+   "Anlamı: eşsiz ve örneksiz yaratan.",
+   [
+    "Gökleri ve yeri örneksiz, eşsiz bir güzellikte yaratmıştır.",
+    0.6
+   ],
+   "Bakara Suresi, yüz on yedinci ayetin anlamı şöyledir.",
+   "Gökleri ve yeri yoktan var eden Allah'tır.",
+   [
+    "O, bir işin olmasını dilerse, ona ancak ol der ve olur.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güzelliklere bak, Yaratanı an.",
+    1.6
+   ],
+   [
+    "Doksan altıncı isim. el-Bâkî.",
+    0.7
+   ],
+   "Anlamı: varlığı sonsuz olan.",
+   [
+    "Her şey yok olur, yalnız O baki kalır.",
+    0.6
+   ],
+   "Rahmân Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+   "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+   [
+    "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kalıcı olana yatırım yap.",
+    1.6
+   ],
+   [
+    "Doksan yedinci isim. el-Vâris.",
+    0.7
+   ],
+   "Anlamı: her şeyin asıl sahibi olarak kalan.",
+   [
+    "Her şey yok olduktan sonra her şeyin sahibi olarak kalan O’dur.",
+    0.6
+   ],
+   "Hicr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+   "Doğrusu dirilten ve öldüren Biziz; hepsinin gerisinde de Biz kalırız.",
+   [
+    "Ayette çoğul azamet kalıbıyla, vâris olan Biziz şeklinde geçer.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Geride iyilik bırak.",
+    1.6
+   ],
+   [
+    "Doksan sekizinci isim. er-Reşîd.",
+    0.7
+   ],
+   "Anlamı: doğru yola yönelten.",
+   [
+    "Bütün işleri doğru ve yerli yerinde olan, kullarını doğruya yönelten O’dur.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğruluktan ayrılma.",
+    1.6
+   ],
+   [
+    "Doksan dokuzuncu isim. es-Sabûr.",
+    0.7
+   ],
+   "Anlamı: çok sabırlı.",
+   [
+    "Cezalandırmada acele etmez, her şeyi vaktinde yapar.",
+    0.6
+   ],
+   [
+    "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sabırlı ol.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Esmâ-ül Hüsnâ",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Esmâ-ül Hüsnâ. Allah’ın güzel isimleri.",
+     0.8
+    ],
+    "Peygamberimiz şöyle buyurmuştur.",
+    "Allah’ın doksan dokuz, yüzden bir eksik ismi vardır.",
+    "Kim onları sayarsa, ezberleyip anlamınca yaşarsa, cennete girer.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.6
+    ],
+    "İsimlerin sırası Tirmizî’nin rivayetindeki listeye göredir.",
+    "İsimlerin tek tek sayıldığı bu liste yalnızca Tirmizî’nin rivayetinde geçer.",
+    "Tirmizî rivayeti garîb olarak niteler; hadis âlimlerinin çoğu, Ahmed Şâkir, Elbânî ve başkaları, bu sıralamayı zayıf sayar ve isimlerin ravilerden biri tarafından derlenmiş olabileceğini belirtir.",
+    [
+     "Listedeki isimlerin çoğu Kur’an’da geçer; liste İslam dünyasında yaygın olarak kullanılır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-allah",
+   "baslik": "Allah",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Birinci isim. Allah.",
+     0.7
+    ],
+    "Anlamı: bütün güzel isimlerin sahibi, ibadete lâyık tek ilah.",
+    [
+     "Allah, yüce yaratıcının özel adıdır; diğer isimlerin hepsi O’nun sıfatlarını anlatır.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+    "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır.",
+    [
+     "O, acıyıcı olandır, acıyandır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her işe O’nun adıyla başla.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-er-rahman",
+   "baslik": "er-Rahmân",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "İkinci isim. er-Rahmân.",
+     0.7
+    ],
+    "Anlamı: dünyada bütün varlıklara merhamet eden.",
+    [
+     "Rahmeti inanan, inanmayan bütün yaratılmışları kuşatır; nefes, rızık ve sağlık O’nun rahmetindendir.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+    "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır.",
+    [
+     "O, acıyıcı olandır, acıyandır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Merhametli ol; merhamet Rahmân’ın kullarına yakışır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-er-rahim",
+   "baslik": "er-Rahîm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Üçüncü isim. er-Rahîm.",
+     0.7
+    ],
+    "Anlamı: müminlere sonsuz merhamet eden.",
+    [
+     "Âlimlerin yaygın açıklamasına göre Rahîm, rahmetin âhirette müminlere özel olarak tecelli etmesini anlatır.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+    "O, görüleni de görülmeyeni de bilen, kendisinden başka tanrı olmayan Allah'tır.",
+    [
+     "O, acıyıcı olandır, acıyandır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Rahmetinden ümidini kesme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-el-melik",
+   "baslik": "el-Melik",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Dördüncü isim. el-Melik.",
+     0.7
+    ],
+    "Anlamı: mülkün gerçek sahibi, bütün varlığın hükümdarı.",
+    [
+     "Her şeyin gerçek sahibi O’dur; insana verilen her şey emanettir.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sahip olduklarını emanet bil.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-el-kuddus",
+   "baslik": "el-Kuddûs",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Beşinci isim. el-Kuddûs.",
+     0.7
+    ],
+    "Anlamı: her türlü eksiklikten uzak, tertemiz.",
+    [
+     "Allah her kusurdan, eksiklikten ve yaratılmışlara benzemekten münezzehtir.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalbini ve dilini temiz tut.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-es-selam",
+   "baslik": "es-Selâm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altıncı isim. es-Selâm.",
+     0.7
+    ],
+    "Anlamı: esenlik veren, esenliğin kaynağı.",
+    [
+     "Her türlü afetten uzak olan ve kullarına esenlik veren O’dur; Müslümanların selamı da bu isme dayanır.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Selamı yay; insanlara esenlik ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-el-mumin",
+   "baslik": "el-Mü’min",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yedinci isim. el-Mü’min.",
+     0.7
+    ],
+    "Anlamı: güven veren, vaadine güvenilen.",
+    [
+     "Kullarına emniyet veren, sözünde duran ve kendisine sığınanı koruyan O’dur.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güvenilir insan ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-el-muheymin",
+   "baslik": "el-Müheymin",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Sekizinci isim. el-Müheymin.",
+     0.7
+    ],
+    "Anlamı: her şeyi gözetip koruyan.",
+    [
+     "Bütün varlıkları her an gözetir, korur ve yönetir.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gözetildiğini bilerek yaşa.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-el-aziz",
+   "baslik": "el-Azîz",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Dokuzuncu isim. el-Azîz.",
+     0.7
+    ],
+    "Anlamı: mutlak güç sahibi, yenilmeyen.",
+    [
+     "Hiçbir güç O’na galip gelemez; izzet ve şeref O’na aittir.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Onuru Allah’ın yanında ara.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-el-cebbar",
+   "baslik": "el-Cebbâr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Onuncu isim. el-Cebbâr.",
+     0.7
+    ],
+    "Anlamı: dilediğini yaptırabilen, kırıkları onaran.",
+    [
+     "İradesi her şeye geçer; kırılan kalpleri ve bozulan işleri onaran da O’dur.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kırgınlıkta O’na sığın.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-el-mutekebbir",
+   "baslik": "el-Mütekebbir",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On birinci isim. el-Mütekebbir.",
+     0.7
+    ],
+    "Anlamı: büyüklükte eşi olmayan.",
+    [
+     "Büyüklük yalnızca O’na yakışır; bu yüzden kul için kibir kötü bir haldir.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "O, kendisinden başka tanrı olmayan, hükümran, çok kutsal; esenlik veren, güvenlik veren, görüp gözeten, güçlü, buyruğunu herşeye geçiren, ulu olan, Allah'tır.",
+    [
+     "Allah onların koştukları eşlerden, ortaklardan, münezzehtir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Büyüklük O’nundur; sen alçak gönüllü ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-el-halık",
+   "baslik": "el-Hâlık",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On ikinci isim. el-Hâlık.",
+     0.7
+    ],
+    "Anlamı: yoktan var eden, yaratan.",
+    [
+     "Her şeyi ölçüyle ve yoktan yaratan yalnızca O’dur.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+    "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır.",
+    "Göklerde ve yerde olanlar O'nu tesbih ederler.",
+    [
+     "O güçlüdür, Hakim'dir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yaratılanlara saygı göster.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-el-bari",
+   "baslik": "el-Bâri’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On üçüncü isim. el-Bâri’.",
+     0.7
+    ],
+    "Anlamı: kusursuz ve uyumlu yaratan.",
+    [
+     "Varlıkları birbiriyle uyumlu, kusursuz bir düzen içinde var eder.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+    "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır.",
+    "Göklerde ve yerde olanlar O'nu tesbih ederler.",
+    [
+     "O güçlüdür, Hakim'dir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yaratılıştaki düzene hayran ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-el-musavvir",
+   "baslik": "el-Musavvir",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On dördüncü isim. el-Musavvir.",
+     0.7
+    ],
+    "Anlamı: her varlığa şekil ve suret veren.",
+    [
+     "Her varlığa kendine has bir şekil ve güzellik veren O’dur.",
+     0.6
+    ],
+    "Haşr Suresi, yirmi dördüncü ayetin anlamı şöyledir.",
+    "O, vareden, güzel yaratan, yarattıklarına şekil veren, en güzel adlar kendisinin olan Allah'tır.",
+    "Göklerde ve yerde olanlar O'nu tesbih ederler.",
+    [
+     "O güçlüdür, Hakim'dir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hiçbir yaratılmışın şeklini küçümseme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-el-gaffar",
+   "baslik": "el-Gaffâr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On beşinci isim. el-Gaffâr.",
+     0.7
+    ],
+    "Anlamı: günahları çokça bağışlayan.",
+    [
+     "Kulunun günahlarını tekrar tekrar bağışlar ve örter.",
+     0.6
+    ],
+    "Nûh Suresi, onuncu ve on birinci ayetlerin anlamı şöyledir.",
+    "Dedim ki: Rabbinizden bağışlanma dileyin; doğrusu O, çok bağışlayandır.",
+    [
+     "Size gökten bol bol yağmur indirsin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bağışlanmayı iste; sen de bağışla.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "16-el-kahhar",
+   "baslik": "el-Kahhâr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On altıncı isim. el-Kahhâr.",
+     0.7
+    ],
+    "Anlamı: her şeye galip gelen.",
+    [
+     "Her şey O’nun kudretine boyun eğer; O’na karşı konulamaz.",
+     0.6
+    ],
+    "Ra‘d Suresi, on altıncı ayetin anlamı şöyledir.",
+    "De ki: Göklerin ve yerin Rabbi kimdir?, Allah'tır de.",
+    "Onu bırakıp, kendilerine bir fayda ve zararı olmayan dostlar mı edindiniz? de.",
+    "Kör ile gören bir olur mu?",
+    "Veya karanlıkla aydınlık bir midir? de.",
+    "Yoksa Allah'a, Allah gibi yaratması olan ortaklar buldular da, yaratmaları birbirine mi benzettiler?",
+    "De ki: Her şeyi yaratan Allah'tır.",
+    [
+     "O, her şeye üstün gelen tek Tanrı'dır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nefsine galip gel.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "17-el-vehhab",
+   "baslik": "el-Vehhâb",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On yedinci isim. el-Vehhâb.",
+     0.7
+    ],
+    "Anlamı: karşılıksız bol bol veren.",
+    [
+     "Hiçbir karşılık beklemeden nimet veren O’dur.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, sekizinci ayetin anlamı şöyledir.",
+    "Rabbimiz!",
+    [
+     "Bizi doğru yola erdirdikten sonra kalblerimizi eğriltme, katından bize rahmet bağışla; şüphesiz Sen sonsuz bağışta bulunansın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Karşılık beklemeden ver.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "18-er-rezzak",
+   "baslik": "er-Rezzâk",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On sekizinci isim. er-Rezzâk.",
+     0.7
+    ],
+    "Anlamı: bütün canlıların rızkını veren.",
+    [
+     "Her canlının rızkını yaratan ve ulaştıran O’dur.",
+     0.6
+    ],
+    "Zâriyât Suresi, elli sekizinci ayetin anlamı şöyledir.",
+    [
+     "Şüphesiz rızıklandıran da, güç ve kuvvet sahibi olan da Allah'tır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Rızık için çalış, rızkı veren O’dur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "19-el-fettah",
+   "baslik": "el-Fettâh",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "On dokuzuncu isim. el-Fettâh.",
+     0.7
+    ],
+    "Anlamı: kapıları açan, hak ile hükmeden.",
+    [
+     "Kapalı kapıları açar, zorlukları giderir ve kullar arasında hak ile hükmeder.",
+     0.6
+    ],
+    "Sebe’ Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+    "De ki: Rabbimiz sonunda hepimizi toplar, sonra aramızda adaletle hükmeder.",
+    [
+     "Adaletle hükmeden, bilen ancak O'dur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kapı kapalıysa O’na yönel.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "20-el-alim",
+   "baslik": "el-Alîm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirminci isim. el-Alîm.",
+     0.7
+    ],
+    "Anlamı: her şeyi bilen.",
+    [
+     "Gizliyi de açığı da, olmuşu da olacağı da bilir.",
+     0.6
+    ],
+    "Bakara Suresi, otuz ikinci ayetin anlamı şöyledir.",
+    "Cevap verdiler: Sen münezzehsin, öğrettiğinden başka bizim bir bilgimiz yoktur.",
+    [
+     "Şüphesiz Sen hem bilensin, hem Hakim'sin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bilinmediğini sandığın da bilinir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "21-el-kabız",
+   "baslik": "el-Kâbız",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi birinci isim. el-Kâbız.",
+     0.7
+    ],
+    "Anlamı: dilediğine daraltan.",
+    [
+     "Rızkı ve imkânı hikmetiyle daraltan O’dur.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz kırk beşinci ayetin anlamı şöyledir.",
+    "Allah'a, kat kat karşılığını arttıracağı güzel bir ödünç takdiminde kim bulunur?",
+    "Allah hem darlaştırır, hem bollaştırır; O'na döneceksiniz.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Darlıkta sabret; O dilerse genişletir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "22-el-basıt",
+   "baslik": "el-Bâsıt",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi ikinci isim. el-Bâsıt.",
+     0.7
+    ],
+    "Anlamı: dilediğine genişleten.",
+    [
+     "Rızkı, imkânı ve gönlü genişleten O’dur.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz kırk beşinci ayetin anlamı şöyledir.",
+    "Allah'a, kat kat karşılığını arttıracağı güzel bir ödünç takdiminde kim bulunur?",
+    "Allah hem darlaştırır, hem bollaştırır; O'na döneceksiniz.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bollukta şükret.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "23-el-hafıd",
+   "baslik": "el-Hâfıd",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi üçüncü isim. el-Hâfıd.",
+     0.7
+    ],
+    "Anlamı: dilediğini alçaltan.",
+    [
+     "Haddini aşanı alçaltan O’dur.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kibirlenme; yükselten de alçaltan da O’dur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "24-er-rafi",
+   "baslik": "er-Râfi’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi dördüncü isim. er-Râfi’.",
+     0.7
+    ],
+    "Anlamı: dilediğini yükselten.",
+    [
+     "Dilediğini dereceler hâlinde yükseltir.",
+     0.6
+    ],
+    "En‘âm Suresi, seksen üçüncü ayetin anlamı şöyledir.",
+    "Bu, İbrahim'e, milletine karşı verdiğimiz hüccetimizdir.",
+    "Dilediğimizi derecelerle yükseltiriz.",
+    "Doğrusu Rabbin Hakim'dir, Bilen'dir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yükselmek istersen alçak gönüllü ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "25-el-muiz",
+   "baslik": "el-Muiz",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi beşinci isim. el-Muiz.",
+     0.7
+    ],
+    "Anlamı: izzet ve şeref veren.",
+    [
+     "Dilediğini aziz ve şerefli kılar.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+    "De ki: Mülkün sahibi olan Allah'ım!",
+    "Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir.",
+    "Doğrusu Sen, her şeye Kadir'sin.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şerefi Allah katında ara.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "26-el-muzil",
+   "baslik": "el-Müzil",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi altıncı isim. el-Müzil.",
+     0.7
+    ],
+    "Anlamı: dilediğini zillete düşüren.",
+    [
+     "Dilediğini hikmetiyle zillete düşürür.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+    "De ki: Mülkün sahibi olan Allah'ım!",
+    "Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir.",
+    "Doğrusu Sen, her şeye Kadir'sin.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kimseyi küçük düşürme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "27-es-semi",
+   "baslik": "es-Semî’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi yedinci isim. es-Semî’.",
+     0.7
+    ],
+    "Anlamı: her şeyi işiten.",
+    [
+     "Sesli ve sessiz her duayı, her sözü işitir.",
+     0.6
+    ],
+    "Şûrâ Suresi, on birinci ayetin anlamı şöyledir.",
+    "Göklerin ve yerin yaratanı, size içinizden eşler, çift çift hayvanlar var etmiştir.",
+    "Bu suretle, çoğalmanızı sağlamıştır.",
+    "O'nun benzeri hiçbir şey yoktur.",
+    [
+     "O, işitendir, görendir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sözüne dikkat et; işitiliyor.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "28-el-basir",
+   "baslik": "el-Basîr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi sekizinci isim. el-Basîr.",
+     0.7
+    ],
+    "Anlamı: her şeyi gören.",
+    [
+     "Gizli ve açık her şeyi görür.",
+     0.6
+    ],
+    "Şûrâ Suresi, on birinci ayetin anlamı şöyledir.",
+    "Göklerin ve yerin yaratanı, size içinizden eşler, çift çift hayvanlar var etmiştir.",
+    "Bu suretle, çoğalmanızı sağlamıştır.",
+    "O'nun benzeri hiçbir şey yoktur.",
+    [
+     "O, işitendir, görendir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her an görüldüğünü bil.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "29-el-hakem",
+   "baslik": "el-Hakem",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yirmi dokuzuncu isim. el-Hakem.",
+     0.7
+    ],
+    "Anlamı: hak ile hükmeden, son hükmü veren.",
+    [
+     "Kullar arasında son ve doğru hükmü veren O’dur.",
+     0.6
+    ],
+    "En‘âm Suresi, yüz on dördüncü ayetin anlamı şöyledir.",
+    "Allah size Kitap'ı açık açık indirmişken O'ndan başka bir hakem mi isteyeyim?",
+    "Kendilerine Kitap verdiklerimiz, onun gerçekten Rableri katından indirilmiş olduğunu bilirler.",
+    [
+     "Öyleyse, sen şüpheye düşenlerden olma.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hükmederken adil ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "30-el-adl",
+   "baslik": "el-Adl",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuzuncu isim. el-Adl.",
+     0.7
+    ],
+    "Anlamı: mutlak adalet sahibi.",
+    [
+     "Hiç kimseye zerre kadar haksızlık etmez.",
+     0.6
+    ],
+    "En‘âm Suresi, yüz on beşinci ayetin anlamı şöyledir.",
+    "Rabbinin sözü, doğruluk ve adaletle tamamlandı.",
+    "O'nun sözlerini değiştirebilecek yoktur.",
+    "O, işitir ve bilir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Herkese hakkını ver.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "31-el-latif",
+   "baslik": "el-Latîf",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz birinci isim. el-Latîf.",
+     0.7
+    ],
+    "Anlamı: en ince işleri bilen, lütufkâr.",
+    [
+     "En gizli işleri bilir ve kullarına fark ettirmeden lütfeder.",
+     0.6
+    ],
+    "En‘âm Suresi, yüz üçüncü ayetin anlamı şöyledir.",
+    "Gözler O'nu görmez, O bütün gözleri görür.",
+    [
+     "O Latif'tir, haberdardır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyiliği incelikle yap.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "32-el-habir",
+   "baslik": "el-Habîr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz ikinci isim. el-Habîr.",
+     0.7
+    ],
+    "Anlamı: her şeyin iç yüzünden haberdar.",
+    [
+     "Her şeyin gizli yönünü ve iç yüzünü bilir.",
+     0.6
+    ],
+    "En‘âm Suresi, yüz üçüncü ayetin anlamı şöyledir.",
+    "Gözler O'nu görmez, O bütün gözleri görür.",
+    [
+     "O Latif'tir, haberdardır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Niyetin de bilinir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "33-el-halim",
+   "baslik": "el-Halîm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz üçüncü isim. el-Halîm.",
+     0.7
+    ],
+    "Anlamı: cezada acele etmeyen, yumuşak davranan.",
+    [
+     "Hatalara karşı hemen cezalandırmaz, kuluna dönüş için zaman tanır.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz yirmi beşinci ayetin anlamı şöyledir.",
+    "Allah sizi rastgele yeminlerinizden dolayı değil, fakat kalblerinizin kasdettiği yeminlerden dolayı sorumlu tutar.",
+    [
+     "Allah bağışlayandır, Halim'dir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hemen öfkelenme, yumuşak ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "34-el-azim",
+   "baslik": "el-Azîm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz dördüncü isim. el-Azîm.",
+     0.7
+    ],
+    "Anlamı: büyüklüğü sınırsız olan.",
+    [
+     "Büyüklüğü akılların kavrayamayacağı kadar yücedir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+    "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+    "Göklerde olan ve yerde olan ancak O'nundur.",
+    "O'nun izni olmadan katında şefaat edecek kimdir?",
+    "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+    "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+    [
+     "O yücedir, büyüktür.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dertlerini büyük olana anlat.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "35-el-gafur",
+   "baslik": "el-Gafûr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz beşinci isim. el-Gafûr.",
+     0.7
+    ],
+    "Anlamı: bağışlaması çok olan.",
+    [
+     "Günahları bağışlar ve kusurları örter.",
+     0.6
+    ],
+    "Bürûc Suresi, on dördüncü ve on beşinci ayetlerin anlamı şöyledir.",
+    [
+     "Yüce arşın sahibi, çok seven, bağışlayan O'dur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kusurları ört, ifşa etme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "36-es-sekur",
+   "baslik": "eş-Şekûr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz altıncı isim. eş-Şekûr.",
+     0.7
+    ],
+    "Anlamı: az iyiliğe çok karşılık veren.",
+    [
+     "Kulunun küçük bir iyiliğini bile kat kat karşılıksız bırakmaz.",
+     0.6
+    ],
+    "Fâtır Suresi, otuzuncu ayetin anlamı şöyledir.",
+    "Çünkü Allah bu kimselerin ecirlerini tam verir ve lütfu ile arttırır.",
+    [
+     "Doğrusu O, bağışlayandır, şükrün karşılığını bol bol verendir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Küçük iyiliği küçümseme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "37-el-aliyy",
+   "baslik": "el-Aliyy",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz yedinci isim. el-Aliyy.",
+     0.7
+    ],
+    "Anlamı: yüceler yücesi.",
+    [
+     "Zatı ve sıfatlarıyla her şeyin üstündedir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+    "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+    "Göklerde olan ve yerde olan ancak O'nundur.",
+    "O'nun izni olmadan katında şefaat edecek kimdir?",
+    "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+    "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+    [
+     "O yücedir, büyüktür.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gönlünü yüce şeylere bağla.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "38-el-kebir",
+   "baslik": "el-Kebîr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz sekizinci isim. el-Kebîr.",
+     0.7
+    ],
+    "Anlamı: büyüklüğü her şeyi aşan.",
+    [
+     "Her şeyden büyüktür; namazdaki Allahu ekber bu büyüklüğü dile getirir.",
+     0.6
+    ],
+    "Hac Suresi, altmış ikinci ayetin anlamı şöyledir.",
+    "Keza Hak yalnız Allah'tır; O'nu bırakıp taptıkları sadece batıldır.",
+    [
+     "Doğrusu Allah yücedir büyüktür.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allahu ekber de; dert de dünya da küçülür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "39-el-hafiz",
+   "baslik": "el-Hafîz",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Otuz dokuzuncu isim. el-Hafîz.",
+     0.7
+    ],
+    "Anlamı: her şeyi koruyup gözeten.",
+    [
+     "Varlıkları korur, yapılan her işi kaybolmadan saklar.",
+     0.6
+    ],
+    "Şûrâ Suresi, altıncı ayetin anlamı şöyledir.",
+    "Allah'ı bırakıp da dostlar edinenlerin işlediklerini Allah gözetlemektedir.",
+    [
+     "Sen, onlara vekil olmağa memur değilsin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Emaneti koru.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "40-el-mukit",
+   "baslik": "el-Mukît",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırkıncı isim. el-Mukît.",
+     0.7
+    ],
+    "Anlamı: her canlının gıdasını veren, her şeye gücü yeten.",
+    [
+     "Bedenin ve ruhun ihtiyacını veren O’dur.",
+     0.6
+    ],
+    "Nisâ Suresi, seksen beşinci ayetin anlamı şöyledir.",
+    "Kim iyi bir işte aracılık ederse, ona onun sevabından bir pay vardır; kim de kötü bir şeyde aracılık yaparsa, ona o kötülükten bir hisse vardır.",
+    [
+     "Allah, her şeyin karşılığını verir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sofrandaki her lokmaya şükret.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "41-el-hasib",
+   "baslik": "el-Hasîb",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk birinci isim. el-Hasîb.",
+     0.7
+    ],
+    "Anlamı: her şeyin hesabını gören, kuluna yeten.",
+    [
+     "Her şeyin hesabını bilir; kendisine güvenene yeter.",
+     0.6
+    ],
+    "Nisâ Suresi, altıncı ayetin anlamı şöyledir.",
+    "Yetimleri, evlenme çağına gelene kadar deneyin; onlarda olgunlaşma görürseniz mallarını kendilerine verin; büyüyecekler de geri alacaklar diye onları israf ederek ve tez elden yemeyin.",
+    "Zengin olan, iffetli olmağa çalışsın, yoksul olan uygun bir şekilde yesin.",
+    "Mallarını kendilerine verdiğiniz zaman, yanlarında şahid bulundurun.",
+    [
+     "Hesap sormak için Allah yeter.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hesaba çekilmeden kendini hesaba çek.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "42-el-celil",
+   "baslik": "el-Celîl",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk ikinci isim. el-Celîl.",
+     0.7
+    ],
+    "Anlamı: celâl ve azamet sahibi.",
+    [
+     "Celâl, yani büyüklük ve heybet O’na aittir.",
+     0.6
+    ],
+    "Rahmân Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+    "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Saygıyı Allah’a ve O’nun emirlerine göster.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "43-el-kerim",
+   "baslik": "el-Kerîm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk üçüncü isim. el-Kerîm.",
+     0.7
+    ],
+    "Anlamı: cömertliği sınırsız.",
+    [
+     "İstemeden verir, verdiğini başa kakmaz.",
+     0.6
+    ],
+    "İnfitâr Suresi, altıncı ve sekizinci ayetlerin anlamı şöyledir.",
+    "Ey insanoğlu!",
+    [
+     "Seni yaratıp sonra şekil veren, düzenleyen, mütenasip kılan, istediği şekilde seni terkip eden, çok cömert olan Rabbine karşı seni aldatan nedir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Cömert ol, verdiğini başa kakma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "44-er-rakib",
+   "baslik": "er-Rakîb",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk dördüncü isim. er-Rakîb.",
+     0.7
+    ],
+    "Anlamı: her an gözetleyen.",
+    [
+     "Kullarının her hâlini bir an bile gözden kaçırmaz.",
+     0.6
+    ],
+    "Nisâ Suresi, birinci ayetin anlamı şöyledir.",
+    "Ey İnsanlar!",
+    "Sizi bir tek nefisten yaratan, ondan eşini var eden ve ikisinden pek çok erkek ve kadın meydana getiren Rabb'inize hürmetsizlikten sakının.",
+    "Kendisi adına birbirinizden dilekte bulunduğunuz Allah'ın ve akrabanın haklarına riayetsizliktende sakının.",
+    [
+     "Allah şüphesiz hepinizi görüp gözetmektedir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yalnızken de gözetildiğini bil.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "45-el-mucib",
+   "baslik": "el-Mücîb",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk beşinci isim. el-Mücîb.",
+     0.7
+    ],
+    "Anlamı: dualara karşılık veren.",
+    [
+     "Kendisine yalvaranın duasına karşılık verir.",
+     0.6
+    ],
+    "Hûd Suresi, altmış birinci ayetin anlamı şöyledir.",
+    "Semud milletine kardeşleri Salih'i gönderdik.",
+    "Ey milletim!",
+    "Allah'a kulluk edin; O'ndan başka tanrınız yoktur; sizi yeryüzünde yaratıp orayı imar etmenizi dileyen O'dur.",
+    "Öyleyse O'ndan mağfiret dileyin, sonra da O'na tevbe edin.",
+    [
+     "Doğrusu Rabbim size yakın ve duaları kabul edendir dedi.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dua et; karşılık veren O’dur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "46-el-vasi",
+   "baslik": "el-Vâsi’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk altıncı isim. el-Vâsi’.",
+     0.7
+    ],
+    "Anlamı: ilmi ve rahmeti her şeyi kuşatan.",
+    [
+     "Rahmeti, ilmi ve lütfu sınırsızdır.",
+     0.6
+    ],
+    "Bakara Suresi, yüz on beşinci ayetin anlamı şöyledir.",
+    "Doğu da batı da Allah'ındır, nereye dönerseniz Allah'ın yönü orasıdır.",
+    [
+     "Doğrusu Allah her yeri kaplar ve her şeyi bilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gönlünü geniş tut.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "47-el-hakim",
+   "baslik": "el-Hakîm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk yedinci isim. el-Hakîm.",
+     0.7
+    ],
+    "Anlamı: her işi yerinde ve hikmetli olan.",
+    [
+     "Yaptığı her şeyin bir hikmeti vardır; hiçbir işi boş değildir.",
+     0.6
+    ],
+    "Bakara Suresi, otuz ikinci ayetin anlamı şöyledir.",
+    "Cevap verdiler: Sen münezzehsin, öğrettiğinden başka bizim bir bilgimiz yoktur.",
+    [
+     "Şüphesiz Sen hem bilensin, hem Hakim'sin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Anlamadığında da hikmet olduğunu bil.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "48-el-vedud",
+   "baslik": "el-Vedûd",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk sekizinci isim. el-Vedûd.",
+     0.7
+    ],
+    "Anlamı: kullarını seven, sevilmeye lâyık olan.",
+    [
+     "İyi kullarını sever ve onları sevdirir.",
+     0.6
+    ],
+    "Bürûc Suresi, on dördüncü ve on beşinci ayetlerin anlamı şöyledir.",
+    [
+     "Yüce arşın sahibi, çok seven, bağışlayan O'dur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sevgiyi büyüt; sevilecek iş yap.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "49-el-mecid",
+   "baslik": "el-Mecîd",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Kırk dokuzuncu isim. el-Mecîd.",
+     0.7
+    ],
+    "Anlamı: şanı yüce, cömertliği bol.",
+    [
+     "Şanı, şerefi ve cömertliği sonsuzdur.",
+     0.6
+    ],
+    "Hûd Suresi, yetmiş üçüncü ayetin anlamı şöyledir.",
+    "Ey evin hanımı!",
+    "Allah'ın rahmeti ve bereketleri üzerinize olmuşken, nasıl Allah'ın işine şaşarsın?",
+    [
+     "O, övülmeye layıktır, yücelerin yücesidir dediler.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "O’nu övmeyi dilinden düşürme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "50-el-bais",
+   "baslik": "el-Bâis",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Ellinci isim. el-Bâis.",
+     0.7
+    ],
+    "Anlamı: ölüleri dirilten, peygamber gönderen.",
+    [
+     "Ölüleri diriltecek ve insanlara peygamberler gönderen O’dur.",
+     0.6
+    ],
+    "Hac Suresi, altıncı ve yedinci ayetlerin anlamı şöyledir.",
+    "Bunlar, yalnız Allah'ın gerçek olduğunu, ölüleri dirilttiğini, gücünün herşeye yettiğini, şüphe götürmeyen kıyamet saatinin geleceğini, Allah'ın kabirlerde olanı dirilteceğini gösterir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dirilişe hazırlıklı yaşa.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "51-es-sehid",
+   "baslik": "eş-Şehîd",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli birinci isim. eş-Şehîd.",
+     0.7
+    ],
+    "Anlamı: her şeye şahit olan.",
+    [
+     "Her şeyi görür ve her şeye şahittir.",
+     0.6
+    ],
+    "Nisâ Suresi, yetmiş dokuzuncu ayetin anlamı şöyledir.",
+    "Sana ne iyilik gelirse Allah'tandır, sana ne kötülük dokunursa kendindendir.",
+    [
+     "Seni insanlara peygamber gönderdik, şahid olarak Allah yeter.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şahitliğini doğru yap.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "52-el-hak",
+   "baslik": "el-Hak",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli ikinci isim. el-Hak.",
+     0.7
+    ],
+    "Anlamı: varlığı gerçek ve değişmeyen.",
+    [
+     "Varlığı hiç değişmeyen gerçeğin kendisidir.",
+     0.6
+    ],
+    "Hac Suresi, altıncı ve yedinci ayetlerin anlamı şöyledir.",
+    [
+     "Bunlar, yalnız Allah'ın gerçek olduğunu, ölüleri dirilttiğini, gücünün herşeye yettiğini, şüphe götürmeyen kıyamet saatinin geleceğini, Allah'ın kabirlerde olanı dirilteceğini gösterir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Haktan yana ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "53-el-vekil",
+   "baslik": "el-Vekîl",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli üçüncü isim. el-Vekîl.",
+     0.7
+    ],
+    "Anlamı: kendisine güvenilen, işleri üstlenen.",
+    [
+     "Kendisine dayanan kulunun işlerini en güzel şekilde üstlenir.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yüz yetmiş üçüncü ayetin anlamı şöyledir.",
+    "İnsanlar onlara: Düşmanınız olan insanlar size karşı bir ordu topladılar, onlardan korkun dediler.",
+    "Bu, onların imanını artırdı da: Allah bize yeter.",
+    [
+     "O ne güzel Vekil'dir dediler.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Çalış ve O’na dayan.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "54-el-kaviyy",
+   "baslik": "el-Kaviyy",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli dördüncü isim. el-Kaviyy.",
+     0.7
+    ],
+    "Anlamı: kuvvet sahibi.",
+    [
+     "Gücü hiç tükenmez.",
+     0.6
+    ],
+    "Şûrâ Suresi, on dokuzuncu ayetin anlamı şöyledir.",
+    "Allah, kullarına lütufta bulunandır.",
+    "Dilediğini rızıklandırır.",
+    [
+     "Kuvvetli olan da güçlü olan da O'dur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gücünü iyilik için kullan.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "55-el-metin",
+   "baslik": "el-Metîn",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli beşinci isim. el-Metîn.",
+     0.7
+    ],
+    "Anlamı: gücü sarsılmaz.",
+    [
+     "Kuvveti hiçbir şekilde azalmaz, sarsılmaz.",
+     0.6
+    ],
+    "Zâriyât Suresi, elli sekizinci ayetin anlamı şöyledir.",
+    [
+     "Şüphesiz rızıklandıran da, güç ve kuvvet sahibi olan da Allah'tır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğru yolda sağlam dur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "56-el-veliyy",
+   "baslik": "el-Veliyy",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli altıncı isim. el-Veliyy.",
+     0.7
+    ],
+    "Anlamı: müminlerin dostu ve yardımcısı.",
+    [
+     "İnananların dostudur; onları karanlıktan aydınlığa çıkarır.",
+     0.6
+    ],
+    "Şûrâ Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+    "Umutsuzluğa düşmelerinin ardından yağmuru indiren, rahmetini yayan O'dur.",
+    [
+     "O, övülmeğe layık olan dosttur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dostluğunu Allah için kur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "57-el-hamid",
+   "baslik": "el-Hamîd",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli yedinci isim. el-Hamîd.",
+     0.7
+    ],
+    "Anlamı: övülmeye lâyık olan.",
+    [
+     "Bütün övgüler O’na aittir; her durumda övülmeye lâyıktır.",
+     0.6
+    ],
+    "Şûrâ Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+    "Umutsuzluğa düşmelerinin ardından yağmuru indiren, rahmetini yayan O'dur.",
+    [
+     "O, övülmeğe layık olan dosttur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Elhamdülillah de.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "58-el-muhsi",
+   "baslik": "el-Muhsî",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli sekizinci isim. el-Muhsî.",
+     0.7
+    ],
+    "Anlamı: her şeyi tek tek sayan, bilen.",
+    [
+     "Her şeyin sayısını, miktarını tek tek bilir.",
+     0.6
+    ],
+    "Cin Suresi, yirmi yedinci ve yirmi sekizinci ayetlerin anlamı şöyledir.",
+    "Ancak peygamberlerden, bildirmek istediği bunun dışındadır.",
+    "Rablerinin bildirilerini tebliğ etmelerini ortaya koymak için her peygamberin önünden ve ardından gözcüler salar; onların yaptıklarını ilmiyle kuşatır ve herşeyi bir bir sayar.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yaptığın hiçbir şey kaybolmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "59-el-mubdi",
+   "baslik": "el-Mübdi’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Elli dokuzuncu isim. el-Mübdi’.",
+     0.7
+    ],
+    "Anlamı: örneksiz ilk kez yaratan.",
+    [
+     "Varlıkları hiçbir örnek olmadan ilk defa yaratır.",
+     0.6
+    ],
+    "Bürûc Suresi, on üçüncü ayetin anlamı şöyledir.",
+    "Önce yaratıp sonra bunu tekrar eden O'dur.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yaratılışı düşün.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "60-el-muid",
+   "baslik": "el-Muîd",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmışıncı isim. el-Muîd.",
+     0.7
+    ],
+    "Anlamı: yeniden yaratan.",
+    [
+     "Öldükten sonra yeniden diriltecek olan O’dur.",
+     0.6
+    ],
+    "Bürûc Suresi, on üçüncü ayetin anlamı şöyledir.",
+    "Önce yaratıp sonra bunu tekrar eden O'dur.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dönüş O’nadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "61-el-muhyi",
+   "baslik": "el-Muhyî",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış birinci isim. el-Muhyî.",
+     0.7
+    ],
+    "Anlamı: hayat veren.",
+    [
+     "Hayatı yaratan, ölü toprağa bile can veren O’dur.",
+     0.6
+    ],
+    "Rûm Suresi, ellinci ayetin anlamı şöyledir.",
+    "Allah'ın rahmetinin belirtilerine bir bak, yeryüzünü ölümünden sonra nasıl diriltiyor?",
+    "Şüphesiz ölüleri O diriltir.",
+    [
+     "O her şeye Kadir'dir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bir hayata dokun, can ver.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "62-el-mumit",
+   "baslik": "el-Mümît",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış ikinci isim. el-Mümît.",
+     0.7
+    ],
+    "Anlamı: ölümü yaratan.",
+    [
+     "Her canlının ölüm vaktini belirleyen O’dur.",
+     0.6
+    ],
+    "Hicr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "Doğrusu dirilten ve öldüren Biziz; hepsinin gerisinde de Biz kalırız.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ölümü hatırla, hayatı güzel yaşa.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "63-el-hayy",
+   "baslik": "el-Hayy",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış üçüncü isim. el-Hayy.",
+     0.7
+    ],
+    "Anlamı: diri, ölümsüz.",
+    [
+     "Hayatı başlangıçsız ve sonsuzdur.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+    "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+    "Göklerde olan ve yerde olan ancak O'nundur.",
+    "O'nun izni olmadan katında şefaat edecek kimdir?",
+    "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+    "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+    [
+     "O yücedir, büyüktür.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ölümsüz olana güven.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "64-el-kayyum",
+   "baslik": "el-Kayyûm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış dördüncü isim. el-Kayyûm.",
+     0.7
+    ],
+    "Anlamı: her şeyi ayakta tutan.",
+    [
+     "Kendi varlığıyla ayakta olan ve her şeyi ayakta tutan O’dur.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz elli beşinci ayetin anlamı şöyledir.",
+    "Allah, O'ndan başka tanrı olmayan, kendisini uyuklama ve uyku tutmayan, diri, her an yaratıklarını gözetip durandır.",
+    "Göklerde olan ve yerde olan ancak O'nundur.",
+    "O'nun izni olmadan katında şefaat edecek kimdir?",
+    "Onların işlediklerini ve işleyeceklerini bilir, dilediğinden başka ilminden hiçbir şeyi kavrayamazlar.",
+    "Hükümranlığı gökleri ve yeri kaplamıştır, onların gözetilmesi O'na ağır gelmez.",
+    [
+     "O yücedir, büyüktür.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dayanak arıyorsan O’na dayan.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "65-el-vacid",
+   "baslik": "el-Vâcid",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış beşinci isim. el-Vâcid.",
+     0.7
+    ],
+    "Anlamı: dilediğini bulan, hiçbir şeye muhtaç olmayan.",
+    [
+     "Dilediği her şeyi dilediği anda bulur; hiçbir şeyden yoksun değildir.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Aradığını O’nda ara.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "66-el-macid",
+   "baslik": "el-Mâcid",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış altıncı isim. el-Mâcid.",
+     0.7
+    ],
+    "Anlamı: şanı ve şerefi yüce.",
+    [
+     "Şeref ve cömertlik O’nun sıfatıdır.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şerefli iş yap.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "67-el-vahid",
+   "baslik": "el-Vâhid",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış yedinci isim. el-Vâhid.",
+     0.7
+    ],
+    "Anlamı: tek ve bir.",
+    [
+     "Zatında, sıfatlarında ve işlerinde eşi ve ortağı yoktur.",
+     0.6
+    ],
+    "Ra‘d Suresi, on altıncı ayetin anlamı şöyledir.",
+    "De ki: Göklerin ve yerin Rabbi kimdir?, Allah'tır de.",
+    "Onu bırakıp, kendilerine bir fayda ve zararı olmayan dostlar mı edindiniz? de.",
+    "Kör ile gören bir olur mu?",
+    "Veya karanlıkla aydınlık bir midir? de.",
+    "Yoksa Allah'a, Allah gibi yaratması olan ortaklar buldular da, yaratmaları birbirine mi benzettiler?",
+    "De ki: Her şeyi yaratan Allah'tır.",
+    [
+     "O, her şeye üstün gelen tek Tanrı'dır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalbini birine, Bir olana bağla.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "68-es-samed",
+   "baslik": "es-Samed",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış sekizinci isim. es-Samed.",
+     0.7
+    ],
+    "Anlamı: hiçbir şeye muhtaç olmayan, her şeyin o’na muhtaç olduğu.",
+    [
+     "Her şey O’na muhtaçtır; O ise hiçbir şeye muhtaç değildir.",
+     0.6
+    ],
+    "İhlâs Suresi, ikinci ayetin anlamı şöyledir.",
+    [
+     "Allah her şeyden müstağni ve her şey O'na muhtaçtır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İhtiyacını O’na arz et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "69-el-kadir",
+   "baslik": "el-Kâdir",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Altmış dokuzuncu isim. el-Kâdir.",
+     0.7
+    ],
+    "Anlamı: her şeye gücü yeten.",
+    [
+     "Dilediği her şeye gücü yeter.",
+     0.6
+    ],
+    "En‘âm Suresi, altmış beşinci ayetin anlamı şöyledir.",
+    "De ki: Üstünüzden ve altınızdan size azab göndermeğe, sizi fırka fırka yapıp kiminize kiminizin hıncını tattırmağa Kadir olan O'dur.",
+    [
+     "Anlasınlar diye ayetleri nasıl yerli yerince açıkladığımıza bak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İmkânsız görünende ümidini kesme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "70-el-muktedir",
+   "baslik": "el-Muktedir",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmişinci isim. el-Muktedir.",
+     0.7
+    ],
+    "Anlamı: kudretini dilediği gibi kullanan.",
+    [
+     "Gücünü dilediği gibi ve dilediği anda kullanır.",
+     0.6
+    ],
+    "Kamer Suresi, kırk ikinci ayetin anlamı şöyledir.",
+    "Mucizelerimizin hepsini yalanladılar.",
+    [
+     "Bunun üzerine onları güç ve kuvvet sahibi olana yakışır bir şekilde yakaladık.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gücün yettiği iyiliği erteleme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "71-el-mukaddim",
+   "baslik": "el-Mukaddim",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş birinci isim. el-Mukaddim.",
+     0.7
+    ],
+    "Anlamı: dilediğini öne alan.",
+    [
+     "Dilediğini öne alır, dilediğine öncelik verir.",
+     0.6
+    ],
+    "Kāf Suresi, yirmi sekizinci ve yirmi dokuzuncu ayetlerin anlamı şöyledir.",
+    "Allah: Benim katımda çekişmeyin; size bunu önceden bildirmiştim.",
+    "Benim katımda söz değişmez; Ben kullara asla zulmetmem der.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Öncelikleri doğru sırala.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "72-el-muahhir",
+   "baslik": "el-Muahhir",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş ikinci isim. el-Muahhir.",
+     0.7
+    ],
+    "Anlamı: dilediğini geriye bırakan.",
+    [
+     "Dilediğini erteler, geriye bırakır; ertelemesi de hikmetlidir.",
+     0.6
+    ],
+    "İbrâhîm Suresi, kırk ikinci ayetin anlamı şöyledir.",
+    "Sakın Allah'ı, zalimlerin yaptıklarından habersiz sanma; gözlerin dışarı fırlayacağı bir güne kadar onları ertelemektedir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gecikende hayır ara.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "73-el-evvel",
+   "baslik": "el-Evvel",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş üçüncü isim. el-Evvel.",
+     0.7
+    ],
+    "Anlamı: başlangıcı olmayan.",
+    [
+     "Her şeyden öncedir; varlığının başlangıcı yoktur.",
+     0.6
+    ],
+    "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+    "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+    [
+     "O her şeyi bilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her işe O’nunla başla.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "74-el-ahir",
+   "baslik": "el-Âhir",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş dördüncü isim. el-Âhir.",
+     0.7
+    ],
+    "Anlamı: sonu olmayan.",
+    [
+     "Her şeyden sonra da var olacaktır; varlığının sonu yoktur.",
+     0.6
+    ],
+    "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+    "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+    [
+     "O her şeyi bilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sonu düşünerek yaşa.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "75-ez-zahir",
+   "baslik": "ez-Zâhir",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş beşinci isim. ez-Zâhir.",
+     0.7
+    ],
+    "Anlamı: varlığı apaçık olan.",
+    [
+     "Varlığı, eserleriyle apaçık görünür.",
+     0.6
+    ],
+    "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+    "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+    [
+     "O her şeyi bilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her şeyde O’nun izini gör.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "76-el-batın",
+   "baslik": "el-Bâtın",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş altıncı isim. el-Bâtın.",
+     0.7
+    ],
+    "Anlamı: zatı gizli olan, her şeyin içini bilen.",
+    [
+     "Zatı akıllarca kavranamaz; her şeyin iç yüzünü bilir.",
+     0.6
+    ],
+    "Hadîd Suresi, üçüncü ayetin anlamı şöyledir.",
+    "O her şeyden öncedir; kendisinden sonraya hiçbir şeyin kalmayacağı son'dur; varlığı aşikardır; gerçek mahiyeti insan için gizlidir.",
+    [
+     "O her şeyi bilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İçini de dışın gibi temiz tut.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "77-el-vali",
+   "baslik": "el-Vâlî",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş yedinci isim. el-Vâlî.",
+     0.7
+    ],
+    "Anlamı: her şeyi yöneten.",
+    [
+     "Bütün varlığı tek başına yönetir.",
+     0.6
+    ],
+    "Ra‘d Suresi, on birinci ayetin anlamı şöyledir.",
+    "Ardında ve önünde insanoğlunu takip edenler vardır; Allah'ın emriyle onu gözetirler.",
+    "Bir millet kendini bozmadıkça Allah onların durumunu değiştirmez.",
+    "Allah bir milletin fenalığını dileyince artık onun önüne geçilmez.",
+    [
+     "Onlar için Allah'tan başka hamide bulunmaz.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sorumlu olduğunu adaletle yönet.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "78-el-muteali",
+   "baslik": "el-Müteâlî",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş sekizinci isim. el-Müteâlî.",
+     0.7
+    ],
+    "Anlamı: yüceliği her şeyin üstünde.",
+    [
+     "Yaratılmışlara yakıştırılan her eksiklikten çok yücedir.",
+     0.6
+    ],
+    "Ra‘d Suresi, dokuzuncu ve onuncu ayetlerin anlamı şöyledir.",
+    [
+     "Görüleni de görülmeyeni de bilen, yücelerin yücesi büyük Allah'a göre, aranızdan sözü gizleyen ile, açığa vuran ve geceye bürünerek gizlenip gündüzün ortaya çıkan arasında fark yoktur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "O’nu yaratılmışlara benzetme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "79-el-berr",
+   "baslik": "el-Berr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Yetmiş dokuzuncu isim. el-Berr.",
+     0.7
+    ],
+    "Anlamı: iyiliği bol.",
+    [
+     "Kullarına iyiliği ve lütfu çoktur.",
+     0.6
+    ],
+    "Tûr Suresi, yirmi altıncı ve yirmi sekizinci ayetlerin anlamı şöyledir.",
+    [
+     "Doğrusu bundan önce ailemizin yanında bile korku içindeydik; Allah lütfedip bizi kavurucu azabdan korudu; doğrusu bundan önce de O'na yalvarıyorduk; şüphesiz O, iyilik yapandır, acıyandır derler.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyilik yap, iyiliği yay.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "80-et-tevvab",
+   "baslik": "et-Tevvâb",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Sekseninci isim. et-Tevvâb.",
+     0.7
+    ],
+    "Anlamı: tövbeleri kabul eden.",
+    [
+     "Tövbe edeni tekrar tekrar kabul eder.",
+     0.6
+    ],
+    "Bakara Suresi, otuz yedinci ayetin anlamı şöyledir.",
+    "Adem, Rabbi'nden emirler aldı; onları yerine getirdi.",
+    "Rabb'i de bunun üzerine tevbesini kabul etti.",
+    [
+     "Şüphesiz o tevbeleri daima kabul edendir, merhametli olandır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hata ettiğinde hemen dön.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "81-el-muntekim",
+   "baslik": "el-Müntekim",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen birinci isim. el-Müntekim.",
+     0.7
+    ],
+    "Anlamı: suçluyu cezalandıran.",
+    [
+     "Zulmedenleri ve isyanda ısrar edenleri adaletle cezalandırır.",
+     0.6
+    ],
+    "Secde Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+    "Rabbinin ayetleri kendisine hatırlatılıp da onlardan yüz çeviren kimseden daha zalim var mıdır?",
+    "Şüphesiz suçlulardan öç alacağız.",
+    [
+     "Ayette çoğul azamet kalıbıyla, Biz… intikam alırız şeklinde geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zulme ortak olma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "82-el-afuvv",
+   "baslik": "el-Afüvv",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen ikinci isim. el-Afüvv.",
+     0.7
+    ],
+    "Anlamı: affı çok olan.",
+    [
+     "Günahları yalnızca bağışlamakla kalmaz, izini de siler.",
+     0.6
+    ],
+    "Nisâ Suresi, doksan dokuzuncu ayetin anlamı şöyledir.",
+    "İşte Allah'ın bunları affetmesi umulur.",
+    [
+     "Allah Affedendir, Bağışlayan'dır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Affet ki affedilesin.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "83-er-rauf",
+   "baslik": "er-Raûf",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen üçüncü isim. er-Raûf.",
+     0.7
+    ],
+    "Anlamı: çok şefkatli.",
+    [
+     "Kullarına karşı şefkati ve merhameti çok fazladır.",
+     0.6
+    ],
+    "Bakara Suresi, yüz kırk üçüncü ayetin anlamı şöyledir.",
+    "Böylece sizi insanlara şahid ve örnek olmanız için tam ortada bulunan bir ümmet kıldık.",
+    "Peygamber de size şahid ve örnektir.",
+    "Senin yöneldiğin yönü, Peygambere uyanları, cayacaklardan ayırdetmek için kıble yaptık.",
+    "Doğrusu Allah'ın yola koyduğu kimselerden başkasına bu ağır bir şeydir.",
+    "Allah ibadetlerinizi boşa çıkaracak değildir.",
+    [
+     "Doğrusu Allah insanlara şefkat gösterir, merhamet eder.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şefkatli ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "84-malikul-mulk",
+   "baslik": "Mâlikü’l-mülk",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen dördüncü isim. Mâlikü’l-mülk.",
+     0.7
+    ],
+    "Anlamı: mülkün sahibi.",
+    [
+     "Mülkü dilediğine verir, dilediğinden alır.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+    "De ki: Mülkün sahibi olan Allah'ım!",
+    "Mülkü dilediğine verirsin; dilediğinden çekip alırsın; dilediğini aziz kılar, dilediğini alçaltırsın; iyilik elindedir.",
+    [
+     "Doğrusu Sen, her şeye Kadir'sin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Elindekine güvenme, O’na güven.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "85-zul-celali-vel-ikram",
+   "baslik": "Zü’l-celâli ve’l-ikrâm",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen beşinci isim. Zü’l-celâli ve’l-ikrâm.",
+     0.7
+    ],
+    "Anlamı: celâl ve ikram sahibi.",
+    [
+     "Hem büyüklük ve heybet hem de lütuf ve ikram O’na aittir.",
+     0.6
+    ],
+    "Rahmân Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+    [
+     "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hem saygıyla hem sevgiyle an.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "86-el-muksit",
+   "baslik": "el-Muksit",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen altıncı isim. el-Muksit.",
+     0.7
+    ],
+    "Anlamı: adaletle hükmeden.",
+    [
+     "Hükmünde ve dağıtımında tam adalet sahibidir.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ölçüde ve sözde adil ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "87-el-cami",
+   "baslik": "el-Câmi’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen yedinci isim. el-Câmi’.",
+     0.7
+    ],
+    "Anlamı: toplayan, bir araya getiren.",
+    [
+     "Bütün insanları hesap günü bir araya toplayacak olan O’dur.",
+     0.6
+    ],
+    "Âl-i İmrân Suresi, dokuzuncu ayetin anlamı şöyledir.",
+    "Rabbimiz!",
+    "Doğrusu geleceği şüphe götürmeyen günde, insanları toplayacak olan Sensin.",
+    [
+     "Şüphesiz ki Allah verdiği sözden caymaz.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalpleri birleştir, ayırma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "88-el-ganiyy",
+   "baslik": "el-Ganiyy",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen sekizinci isim. el-Ganiyy.",
+     0.7
+    ],
+    "Anlamı: hiçbir şeye muhtaç olmayan.",
+    [
+     "Her şeyden müstağnidir; ibadetlere de muhtaç değildir.",
+     0.6
+    ],
+    "Bakara Suresi, iki yüz altmış yedinci ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Kazandıklarınızın temizlerinden ve size yerden çıkardıklarımızdan sarfedin; iğrenmeden alamıyacağınız pis şeyleri vermeye kalkmayın.",
+    [
+     "Allah'ın müstağni ve övülmeye layık olduğunu bilin.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnsanlara değil, Allah’a muhtaç ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "89-el-mugni",
+   "baslik": "el-Muğnî",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Seksen dokuzuncu isim. el-Muğnî.",
+     0.7
+    ],
+    "Anlamı: dilediğini zengin kılan.",
+    [
+     "Dilediğini lütfuyla zengin eder, ihtiyaçtan kurtarır.",
+     0.6
+    ],
+    "Tevbe Suresi, yirmi sekizinci ayetin anlamı şöyledir.",
+    "Ey inananlar!",
+    "Doğrusu puta tapanlar pistirler, bu sebeple, bu yıllardan sonra Mescidi Haram'a yaklaşmasınlar.",
+    "Eğer fakirlikten korkarsanız, bilin ki Allah dilerse sizi bol nimetiyle zenginleştirecektir.",
+    "Allah şüphesiz bilendir, hakimdir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zenginliği O’ndan iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "90-el-mani",
+   "baslik": "el-Mâni’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksanıncı isim. el-Mâni’.",
+     0.7
+    ],
+    "Anlamı: dilediğine engel olan.",
+    [
+     "Hikmetiyle dilediğini engeller; engellemesi de bir korumadır.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Olmayanda da hayır ara.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "91-ed-darr",
+   "baslik": "ed-Dârr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan birinci isim. ed-Dârr.",
+     0.7
+    ],
+    "Anlamı: dilediğine zarar dokunduran.",
+    [
+     "Zararı da faydayı da yaratan O’dur; O’nun izni olmadan hiçbir şey zarar veremez.",
+     0.6
+    ],
+    "En‘âm Suresi, on yedinci ayetin anlamı şöyledir.",
+    "Allah sana bir sıkıntı verirse, O'ndan başkası gideremez.",
+    "Sana bir iyilik verirse başkası onu engelleyemez.",
+    "O, her şeye Kadir'dir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zarardan O’na sığın.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "92-en-nafi",
+   "baslik": "en-Nâfi’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan ikinci isim. en-Nâfi’.",
+     0.7
+    ],
+    "Anlamı: fayda veren.",
+    [
+     "Faydayı ve hayrı yaratan O’dur.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İnsanlara faydalı ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "93-en-nur",
+   "baslik": "en-Nûr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan üçüncü isim. en-Nûr.",
+     0.7
+    ],
+    "Anlamı: nur, aydınlatan.",
+    [
+     "Göklerin ve yerin nurudur; kalpleri iman ile aydınlatır.",
+     0.6
+    ],
+    "Nûr Suresi, otuz beşinci ayetin anlamı şöyledir.",
+    "Allah göklerin ve yerin Nur'udur.",
+    "O'nun nuru, içinde ışık bulunan bir kandil yuvasına benzer.",
+    "O ışık bir cam içindedir, cam ise, sanki inci gibi parlayan bir yıldızdır; bu ne yalnız doğuda ve ne de yalnız batıda bulunan bereketli zeytin ağacından yakılır.",
+    "Ateş değmese bile, nerdeyse yağın kendisi aydınlatacak!",
+    "Nur üstüne nurdur.",
+    "Allah dilediğini nuruna kavuşturur.",
+    "Allah insanlara misaller verir.",
+    [
+     "O, herşeyi bilir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Karanlığa ışık ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "94-el-hadi",
+   "baslik": "el-Hâdî",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan dördüncü isim. el-Hâdî.",
+     0.7
+    ],
+    "Anlamı: doğru yolu gösteren.",
+    [
+     "İnananları doğru yola ileten O’dur.",
+     0.6
+    ],
+    "Hac Suresi, elli dördüncü ayetin anlamı şöyledir.",
+    "Bu, kendilerine ilim verilenlerin Kuran'ın, senin Rabbin'den bir gerçek olduğunu bilip de ona inanmaları ve gönüllerini bağlamaları içindir.",
+    [
+     "Allah inananları şüphesiz doğru yola eriştirir.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hidayeti O’ndan iste.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "95-el-bedi",
+   "baslik": "el-Bedî’",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan beşinci isim. el-Bedî’.",
+     0.7
+    ],
+    "Anlamı: eşsiz ve örneksiz yaratan.",
+    [
+     "Gökleri ve yeri örneksiz, eşsiz bir güzellikte yaratmıştır.",
+     0.6
+    ],
+    "Bakara Suresi, yüz on yedinci ayetin anlamı şöyledir.",
+    "Gökleri ve yeri yoktan var eden Allah'tır.",
+    [
+     "O, bir işin olmasını dilerse, ona ancak ol der ve olur.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güzelliklere bak, Yaratanı an.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "96-el-baki",
+   "baslik": "el-Bâkî",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan altıncı isim. el-Bâkî.",
+     0.7
+    ],
+    "Anlamı: varlığı sonsuz olan.",
+    [
+     "Her şey yok olur, yalnız O baki kalır.",
+     0.6
+    ],
+    "Rahmân Suresi, yirmi yedinci ayetin anlamı şöyledir.",
+    "Ancak, yüce ve cömert olan Rabbinin varlığı bakidir.",
+    [
+     "Bu isim ayette isim olarak değil, aynı kökten bir fiil ya da kelime olarak geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kalıcı olana yatırım yap.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "97-el-varis",
+   "baslik": "el-Vâris",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan yedinci isim. el-Vâris.",
+     0.7
+    ],
+    "Anlamı: her şeyin asıl sahibi olarak kalan.",
+    [
+     "Her şey yok olduktan sonra her şeyin sahibi olarak kalan O’dur.",
+     0.6
+    ],
+    "Hicr Suresi, yirmi üçüncü ayetin anlamı şöyledir.",
+    "Doğrusu dirilten ve öldüren Biziz; hepsinin gerisinde de Biz kalırız.",
+    [
+     "Ayette çoğul azamet kalıbıyla, vâris olan Biziz şeklinde geçer.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Geride iyilik bırak.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "98-er-resid",
+   "baslik": "er-Reşîd",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan sekizinci isim. er-Reşîd.",
+     0.7
+    ],
+    "Anlamı: doğru yola yönelten.",
+    [
+     "Bütün işleri doğru ve yerli yerinde olan, kullarını doğruya yönelten O’dur.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğruluktan ayrılma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "99-es-sabur",
+   "baslik": "es-Sabûr",
+   "tur": "İsim",
+   "parcalar": [
+    [
+     "Doksan dokuzuncu isim. es-Sabûr.",
+     0.7
+    ],
+    "Anlamı: çok sabırlı.",
+    [
+     "Cezalandırmada acele etmez, her şeyi vaktinde yapar.",
+     0.6
+    ],
+    [
+     "Bu isim Kur’an’da bu kalıpta geçmez; Tirmizî’nin rivayet ettiği listede yer alır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabırlı ol.",
+     1
+    ]
+   ]
+  }
+ ]
+}

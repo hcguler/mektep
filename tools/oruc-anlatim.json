@@ -1,0 +1,3734 @@
+{
+ "_aciklama": "Oruç Rehberi sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça metin ve okunuş seslendirilmez; ayetin Diyanet meali ve duanın anlamı okunur. Bu dosya tools/oruc-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Oruç Rehberi: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-farz-olusu",
+   "02-oruc-kalkandir",
+   "03-ramazan-ayi",
+   "04-kime-farz",
+   "05-niyet",
+   "06-imsak-iftar",
+   "07-sahur",
+   "08-iftar",
+   "09-iftar-duasi",
+   "10-bilerek-yemek",
+   "11-cinsel-iliski",
+   "12-sigara",
+   "13-su-kacmasi",
+   "14-kasten-kusmak",
+   "15-vakit-yanilmasi",
+   "16-mutat-olmayan",
+   "17-hayiz-nifas",
+   "18-unutarak",
+   "19-kendiliginden-kusmak",
+   "20-dis-fircalamak",
+   "21-igne-asi",
+   "22-astim-spreyi",
+   "23-damlalar",
+   "24-dis-tedavisi",
+   "25-kan-vermek",
+   "26-cunup-sabahlamak",
+   "27-yikanmak",
+   "28-tatmak",
+   "29-gucsuz-dusurmek",
+   "30-yolcu",
+   "31-hasta",
+   "32-hamile-emzikli",
+   "33-yasli",
+   "34-cocuk",
+   "35-kaza",
+   "36-kefaret",
+   "37-fidye",
+   "38-sevval",
+   "39-arefe",
+   "40-asure",
+   "41-uc-gun",
+   "42-pazartesi-persembe",
+   "43-davud-orucu",
+   "44-muharrem-saban",
+   "45-bayram-gunleri",
+   "46-yalniz-cuma",
+   "47-sek-gunu",
+   "48-visal",
+   "49-teravih",
+   "50-itikaf",
+   "51-kadir-gecesi",
+   "52-fitir-sadakasi"
+  ],
+  "parcalar": [
+   [
+    "Oruç Rehberi.",
+    0.8
+   ],
+   [
+    "Ramazan orucunu ve nafile oruçları, kaynağıyla birlikte öğreneceğiz.",
+    0.6
+   ],
+   "Her konuda önce hükmü, sonra kısa açıklamayı, varsa ayetin mealini ve Peygamberimizin sahih hadisini dinleyeceksiniz.",
+   "Hükümler Diyanet İşleri Başkanlığının yayınlarına ve Din İşleri Yüksek Kurulunun kararlarına dayanır.",
+   [
+    "Kendi durumunuz için müftülüğe, sağlıkla ilgili konularda doktorunuza danışın.",
+    1.6
+   ],
+   [
+    "Giriş.",
+    0.8
+   ],
+   [
+    "Oruç farzdır.",
+    0.5
+   ],
+   [
+    "Hükmü: farzdır.",
+    0.6
+   ],
+   "Oruç, imsak vaktinden iftar vaktine kadar Allah rızası için yemekten, içmekten ve cinsel ilişkiden uzak durmaktır.",
+   "Ramazan orucu hicretten bir buçuk yıl sonra farz kılınmıştır ve İslam’ın beş şartından biridir.",
+   [
+    "Ayet, orucun bizden önceki ümmetlere de farz kılındığını ve amacının takva, yani Allah’a karşı gelmekten sakınmak olduğunu bildirir.",
+    0.8
+   ],
+   "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+   "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+   "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+   "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+   [
+    "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Kim inanarak ve sevabını Allah’tan umarak Ramazan orucunu tutarsa geçmiş günahları bağışlanır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Oruç aç kalmak değil, Allah için kendini tutmaktır.",
+    1.6
+   ],
+   [
+    "Oruç bir kalkandır.",
+    0.5
+   ],
+   "Peygamberimiz orucu, insanı kötülüklerden koruyan bir kalkana benzetmiştir.",
+   "Oruçlu kimse kötü söz söylemez, kavga etmez; biri ona sataşırsa yalnızca Ben oruçluyum der.",
+   [
+    "Yalanı ve kötü davranışı bırakmayan kimsenin aç ve susuz kalmasının bir anlamı olmadığı da bildirilmiştir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   "Oruç bir kalkandır.",
+   "Oruçlu kimse çirkin söz söylemesin, cahillik etmesin.",
+   "Biri onunla kavga eder ya da ona söverse iki kez Ben oruçluyum desin.",
+   "Allah buyurur: O, yemesini, içmesini ve arzusunu benim için bıraktı.",
+   [
+    "Oruç benim içindir, onun karşılığını ben veririm.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Yalan sözü ve onunla iş görmeyi bırakmayan kimsenin yemesini, içmesini bırakmasına Allah’ın ihtiyacı yoktur.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Oruç, dilin ve elin de orucudur.",
+    1.6
+   ],
+   [
+    "Ramazan ayı.",
+    0.5
+   ],
+   "Ramazan, Kur’an’ın insanlara yol gösterici olarak indirildiği aydır; ayet, bu aya ulaşanın oruç tutmasını emreder.",
+   "Kamerî aylar yirmi dokuz ya da otuz gün çeker.",
+   "Diyanet, Ramazan’ın başlangıcını ve bayramı astronomik hesaba dayanan takvimle ilan eder; hesap yöntemi meşrudur.",
+   [
+    "Oruç ayetlerinin arasında Allah’ın kullarına yakın olduğu ve duaya cevap verdiği de bildirilir.",
+    0.8
+   ],
+   "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+   "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+   "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+   "Allah size kolaylık ister, zorluk istemez.",
+   [
+    "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+    0.8
+   ],
+   "Bakara Suresi, yüz seksen altıncı ayetin anlamı şöyledir.",
+   "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım.",
+   "Benden isteyenin, dua ettiğinde duasını kabul ederim.",
+   [
+    "Artık onlar da davetimi kabul edip Bana inansınlar ki doğru yolda yürüyenlerden olsunlar.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Ramazan ayı girince göğün kapıları açılır, cehennemin kapıları kapanır ve şeytanlar zincire vurulur.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ramazan, Kur’an’ın ayıdır.",
+    1.6
+   ],
+   [
+    "Farzları ve şartları.",
+    0.8
+   ],
+   [
+    "Kime farzdır?",
+    0.5
+   ],
+   [
+    "Hükmü: farzdır.",
+    0.6
+   ],
+   "Ramazan orucu müslüman, akıllı ve ergenlik çağına ulaşmış, âkil-bâliğ, her kişiye farzdır.",
+   "Orucu o gün tutmak için ayrıca oruca gücü yetiyor olmak ve yolcu olmamak gerekir; hasta ve yolcu tutamadığını sonra kaza eder.",
+   "Kadın, âdet ve lohusalık hâlinde oruç tutmaz; temizlenince kaza eder.",
+   [
+    "Ergenlik çağına girmemiş çocuğa oruç farz değildir; alıştırılır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Akıl, ergenlik ve İslam: orucun üç şartı.",
+    1.6
+   ],
+   [
+    "Niyet.",
+    0.5
+   ],
+   [
+    "Hükmü: farzdır.",
+    0.6
+   ],
+   "Niyet orucun şartıdır; kalben niyet etmek yeterli, dille söylemek güzeldir.",
+   "Sahura kalkmak da niyet sayılır.",
+   "Ramazan orucu, belli güne adanmış oruç ve nafile oruç için niyet vakti güneşin batışından ertesi gün öğle vaktinin girmesinden az öncesine kadardır; imsaktan sonra niyet edecek kimse o vakte kadar bir şey yememiş olmalıdır.",
+   "Kaza, kefaret ve belli bir güne bağlanmamış adak oruçlarına en geç imsaka kadar ve hangi oruç olduğu belirtilerek niyet edilir.",
+   [
+    "Ramazan’ın her günü için ayrı niyet edilir.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre nafile dışındaki bütün oruçlara geceden niyet edilmelidir; imsaka kadar niyet edilmemişse o günün orucu geçerli olmaz.",
+    0.6
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Ömer.",
+   [
+    "Ameller ancak niyetlere göredir; herkese niyet ettiğinin karşılığı vardır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Oruç, kalpteki niyetle başlar.",
+    1.6
+   ],
+   [
+    "İmsak ve iftar vakti.",
+    0.5
+   ],
+   [
+    "Hükmü: farzdır.",
+    0.6
+   ],
+   "İmsak, fecr-i sâdık denilen tan yerinin ağarmasıyla başlar; iftar vakti güneşin batmasıdır.",
+   "Diyanet, imsak vaktini güneşin ufkun on sekiz derece altına yaklaştığı ana göre belirler.",
+   "Sabah ezanı imsakla okunduğu için ezan başlayınca yeme içme bırakılır; ağızdaki lokmayı yutmakta sakınca yoktur.",
+   [
+    "Vakitler bulunulan yere göre değişir; yolculukta da bulunulan yerin vakti esas alınır.",
+    0.8
+   ],
+   "Bakara Suresi, yüz seksen yedinci ayetin anlamı şöyledir.",
+   "Oruç tuttuğunuz günlerin gecesi kadınlarınıza yaklaşmanız size helal kılındı, onlar sizin örtünüz, siz de onların örtülerisiniz.",
+   "Allah, nefsinize güvenemiyeceğinizi biliyordu, bu sebeple tevbenizi kabul edip sizi affetti; artık onlara yaklaşabilirsiniz.",
+   "Allah'ın sizin için takdir ettiğini dileyin.",
+   "Tan yerinde, beyaz iplik siyah iplikten sizce ayırdedilinceye kadar, yiyin için, sonra orucu geceye kadar tamamlayın.",
+   "Mescidlerde itikafa çekildiğinizde kadınlarınıza yaklaşmayın.",
+   [
+    "Allah insanlara yasaklardan sakınsınlar diye ayetlerini böylece apaçık bildirir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Ömer.",
+   [
+    "Gece şu taraftan gelip gündüz şu taraftan çekilince ve güneş batınca oruçlu iftar eder.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Tan ağarınca başlar, güneş batınca biter.",
+    1.6
+   ],
+   [
+    "Sahur ve iftar.",
+    0.8
+   ],
+   [
+    "Sahur.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Sahur, imsaktan az önceki seher vaktinde yenen yemektir.",
+   "Sahura kalkmak hem oruca güç verir hem de bir sünneti yerine getirir.",
+   [
+    "Bir yudum su ile de olsa sahur yapmak ve sahuru imsaka yakın bir vakte bırakmak uygundur.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Enes bin Mâlik.",
+   [
+    "Sahur yapın; çünkü sahurda bereket vardır.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Zeyd bin Sâbit.",
+   "Zeyd bin Sâbit anlatır: Peygamberimizle sahur yaptık, sonra namaza kalktı.",
+   [
+    "Sahur ile ezan arasında ne kadar vakit olduğu sorulunca Elli ayet okuyacak kadar dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sahurda bereket vardır.",
+    1.6
+   ],
+   [
+    "İftar.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Peygamberimiz iftarın vakit girer girmez yapılmasını teşvik etmiştir.",
+   "Akşam namazı yemekten önce kılınacaksa önce bir hurma ya da biraz su ile oruç açılır, sonra namaz kılınır.",
+   [
+    "İmkânı olanların, özellikle ihtiyaç sahiplerine iftar yedirmesi güzel ve sevaplı bir davranıştır.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Sehl bin Saad.",
+   [
+    "İnsanlar iftarı acele ettikçe hayır üzere olmaya devam ederler.",
+    0.8
+   ],
+   "Ebû Dâvûd rivayet eder. Râvi Enes bin Mâlik.",
+   "Peygamberimiz akşam namazından önce birkaç taze hurma ile iftar ederdi; taze hurma yoksa kuru hurma ile, o da yoksa birkaç yudum su ile iftar ederdi.",
+   [
+    "Elbânî hasen sahih, Şuayb el-Arnaût sahih saymıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Vakit girince iftarı geciktirme.",
+    1.6
+   ],
+   [
+    "İftar duası.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Oruç açılırken dua etmek sünnettir; belirli bir söz şart değildir, herkes içinden geldiği gibi şükrünü ve isteğini dile getirebilir.",
+   "Peygamberimizin iftar ederken söylediği dua Ebû Dâvûd’da hasen bir senedle rivayet edilmiştir; Arapçası, okunuşu ve anlamı bu sayfadadır.",
+   "Diyanet İlmihali, öteden beri yaygın olan şu duayı örnek verir: Allah’ım!",
+   "Senin rızanı kazanmak için oruç tuttum, senin verdiğin rızıkla orucumu açtım.",
+   "Sana inanıp güvendim.",
+   "Ey lütuf ve ikramı geniş olan Rabbim!",
+   [
+    "Beni bağışla.",
+    0.8
+   ],
+   "Duanın anlamı şöyledir.",
+   [
+    "Susuzluk gitti, damarlar ıslandı; Allah dilerse sevap da kesinleşti.",
+    0.8
+   ],
+   "Bu dua Ebû Dâvûd tarafından rivayet edilmiştir.",
+   [
+    "Elbânî ve Şuayb el-Arnaût hasen saymıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İftar, şükür ve dua anıdır.",
+    1.6
+   ],
+   [
+    "Orucu bozanlar.",
+    0.8
+   ],
+   [
+    "Bilerek yemek, içmek.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar; kaza ile birlikte kefaret de gerektirir.",
+    0.6
+   ],
+   "Ramazan’da oruçlu olduğunu bildiği hâlde mazeretsiz olarak yiyip içen kimsenin orucu bozulur; Hanefîlere göre kaza ile birlikte kefaret ve tövbe gerekir.",
+   "Gıda ya da ilaç cinsinden bir şeyi su ile ya da susuz yutmak da böyledir.",
+   "Ancak orucu bozmayı mübah kılacak bir hastalık yüzünden ilaç alınmışsa yalnız kaza gerekir.",
+   [
+    "İmsak vaktinin girdiğini anladığı hâlde yemeye devam etmek de kefaret gerektirir.",
+    0.8
+   ],
+   [
+    "Örnek: Ramazan’da öğle sıcağında canı çektiği için bilerek su içmek.",
+    0.6
+   ],
+   [
+    "Şâfiî mezhebine göre yiyip içerek bozulan oruç için kefaret gerekmez, yalnız kaza gerekir; kefaret yalnız cinsel ilişkiyle bozulan oruçtadır.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ramazan orucu bilerek bozulmaz; bozulursa kaza da kefaret de gerekir.",
+    1.6
+   ],
+   [
+    "Cinsel ilişki.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar; kaza ile birlikte kefaret de gerektirir.",
+    0.6
+   ],
+   "Ramazan günü oruçlu iken bilerek ve isteyerek cinsel ilişkide bulunmak, bütün mezheplere göre hem kaza hem kefaret gerektirir.",
+   "Peygamberimiz oruç kefaretinin hükmünü böyle bir olay üzerine bildirmiştir.",
+   [
+    "Gecesi ise ayetle helal kılınmıştır.",
+    0.8
+   ],
+   "Bakara Suresi, yüz seksen yedinci ayetin anlamı şöyledir.",
+   "Oruç tuttuğunuz günlerin gecesi kadınlarınıza yaklaşmanız size helal kılındı, onlar sizin örtünüz, siz de onların örtülerisiniz.",
+   "Allah, nefsinize güvenemiyeceğinizi biliyordu, bu sebeple tevbenizi kabul edip sizi affetti; artık onlara yaklaşabilirsiniz.",
+   "Allah'ın sizin için takdir ettiğini dileyin.",
+   "Tan yerinde, beyaz iplik siyah iplikten sizce ayırdedilinceye kadar, yiyin için, sonra orucu geceye kadar tamamlayın.",
+   "Mescidlerde itikafa çekildiğinizde kadınlarınıza yaklaşmayın.",
+   [
+    "Allah insanlara yasaklardan sakınsınlar diye ayetlerini böylece apaçık bildirir.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   "Bir adam gelip Mahvoldum, oruçluyken eşimle birlikte oldum dedi.",
+   "Peygamberimiz Bir köle azat edebilir misin?, İki ay peş peşe oruç tutabilir misin?, Altmış yoksulu doyurabilir misin? diye sordu.",
+   [
+    "Adam hepsine Hayır deyince Peygamberimiz ona bir sepet hurma verip sadaka olarak dağıtmasını söyledi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kefaretin hükmü bu olayla bildirilmiştir.",
+    1.6
+   ],
+   [
+    "Sigara ve nargile.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar; kaza ile birlikte kefaret de gerektirir.",
+    0.6
+   ],
+   "Sigara ve nargile gibi keyif veren tütün dumanı ile uyuşturucu ve tiryakilikle alınan her madde oruç yasakları kapsamındadır.",
+   [
+    "Ramazan orucunu tutarken bilerek sigara içen kimsenin orucu bozulur; yeme içme gibi kaza ile birlikte kefaret gerekir.",
+    0.8
+   ],
+   [
+    "Örnek: Oruçluyken bir tane bir şey olmaz diyerek sigara yakmak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Duman da oruç yasağına girer.",
+    1.6
+   ],
+   [
+    "Boğaza su kaçması.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar ve kaza gerektirir.",
+    0.6
+   ],
+   "Abdest alırken, yıkanırken ya da yüzerken oruçlu olduğu aklındayken istemeden boğaza su kaçarsa oruç bozulur ve yalnız kaza gerekir; buna hata denir.",
+   [
+    "Oruçlu olduğu aklında değilken su kaçarsa bu unutma hükmündedir ve oruç bozulmaz.",
+    0.8
+   ],
+   [
+    "Örnek: Abdest alırken ağzını çalkalarken boğazına su kaçtı.",
+    0.6
+   ],
+   [
+    "Şâfiî mezhebine göre orucu bozma kastı olmadığı için yanlışlıkla boğaza su kaçması orucu bozmaz.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İstemeden kaçan su: kaza var, kefaret yok.",
+    1.6
+   ],
+   [
+    "Kasten kusmak.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar ve kaza gerektirir.",
+    0.6
+   ],
+   "Kişinin kendi isteğiyle ağız dolusu kusması orucu bozar ve kaza gerektirir.",
+   [
+    "Kustuğu için orucunun bozulduğunu sanıp yemeye devam eden kimsenin de orucu bozulur; ona kefaret değil, kaza gerekir.",
+    0.8
+   ],
+   [
+    "Örnek: Midesi rahatlasın diye parmağıyla kendini kusturmak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İstemeden kusmak bozmaz, kasten kusmak bozar.",
+    1.6
+   ],
+   [
+    "Vakitte yanılmak.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar ve kaza gerektirir.",
+    0.6
+   ],
+   "İmsak vaktinin girip girmediğinden şüphe ederek yemeye devam eden kimse, o sırada imsakın girmiş olduğunu anlarsa orucu bozulur ve kaza gerekir.",
+   "Güneşin battığını sanarak iftar eden kimse, güneşin henüz batmadığını anlarsa yine kaza gerekir.",
+   [
+    "Bu yüzden güneşin battığından emin olmadan iftar edilmemelidir.",
+    0.8
+   ],
+   [
+    "Örnek: Bulutlu bir günde akşam oldu sanıp iftar etmek, sonra güneşin batmadığını görmek.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Şüphede iftar edilmez; vakti takvimden bil.",
+    1.6
+   ],
+   [
+    "Yenmesi alışılmamış şeyler.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar ve kaza gerektirir.",
+    0.6
+   ],
+   "Beslenme amacı taşımayan, yenip içilmesi alışılmış olmayan ya da insanın yemek istemeyeceği şeyleri yutmak orucu bozar; bunlar için kefaret değil, yalnız kaza gerekir.",
+   [
+    "Çiğ pirinç, çiğ hamur, un, ham meyve ya da toprak yemek, fındığı veya cevizi kabuğuyla yutmak bu türdendir.",
+    0.8
+   ],
+   [
+    "Örnek: Oruçluyken avucundaki çiğ pirinçten birkaç tane yutmak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Mideye giden her şey orucu bozar; kefaret yemek ve içmek içindir.",
+    1.6
+   ],
+   [
+    "Âdet ve lohusalık.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozar ve kaza gerektirir.",
+    0.6
+   ],
+   "Âdet ve lohusalık hâlindeki kadın oruç tutmaz, tutsa da geçerli olmaz; temizlendikten sonra tutamadığı günleri kaza eder.",
+   "Kılamadığı namazları ise kaza etmez.",
+   "Oruca niyet eden kadının gün içinde âdeti başlarsa orucu bozulur; o günü de sonra kaza eder.",
+   [
+    "Ramazan’a saygı için başkalarının yanında yiyip içmemesi uygun olur.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Hazreti Âişe.",
+   "Hazreti Âişe’ye âdet gören kadının neden orucu kaza edip namazı kaza etmediği soruldu.",
+   [
+    "O şöyle dedi: Biz bu hâli yaşardık; orucu kaza etmekle emrolunurduk, namazı kaza etmekle emrolunmazdık.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Oruç kaza edilir, namaz kaza edilmez.",
+    1.6
+   ],
+   [
+    "Orucu bozmayanlar.",
+    0.8
+   ],
+   [
+    "Unutarak yemek, içmek.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Oruçlu olduğunu unutarak yiyip içmek orucu bozmaz.",
+   "Hatırlayınca hemen ağzındakini çıkarır, ağzını yıkar ve orucuna devam eder.",
+   "Hatırladıktan sonra mideye bir şey inerse oruç bozulur.",
+   [
+    "Unutarak yedikten sonra Orucum bozuldu sanıp yemeye devam eden kimseye de kaza gerekir.",
+    0.8
+   ],
+   [
+    "Örnek: Oruçlu olduğunu unutup mutfakta bir bardak su içmek.",
+    0.6
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Oruçlu olduğunu unutarak yiyen ya da içen orucunu tamamlasın; çünkü onu Allah yedirmiş, içirmiştir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Unutarak yiyeni Allah doyurmuştur.",
+    1.6
+   ],
+   [
+    "Kendiliğinden kusmak.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Miktarı ne olursa olsun kendiliğinden gelen kusuntu orucu bozmaz.",
+   [
+    "Mideden ansızın ağza gelip geri dönen şeyler de oruca zarar vermez.",
+    0.8
+   ],
+   [
+    "Örnek: Yolda midesi bulanıp istemeden kusmak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Elinde olmayan şey orucunu bozmaz.",
+    1.6
+   ],
+   [
+    "Diş fırçalamak.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Boğaza su kaçırmadan ağzı çalkalamak gibi diş fırçalamak da orucu bozmaz; ağız ve diş temizliği aksatılmamalıdır.",
+   "Diş macunu ya da su boğaza kaçarsa oruç bozulur.",
+   [
+    "Bu yüzden dişleri imsaktan önce ve iftardan sonra fırçalamak, oruçluyken fırçalanacaksa macun kullanmamak uygun olur.",
+    0.8
+   ],
+   [
+    "Örnek: Öğle vakti dişlerini macunsuz fırçalamak ve suyu yutmamak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fırça bozmaz; yutulan macun bozar.",
+    1.6
+   ],
+   [
+    "İğne ve aşı.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Tedavi ya da aşı amacıyla yapılan, gıda ve keyif verici olmayan iğneler orucu bozmaz; şeker hastalarının insülin iğnesi de bu türdendir.",
+   "Gıda ve vitamin iğneleri, damardan serum ve vücuda kan verilmesi, kan nakli, ise orucu bozar; o gün kaza edilir.",
+   "Ağızdan alınan aşı da orucu bozar.",
+   [
+    "Tedavisi süren hasta, iyileşene kadar orucunu erteleyebilir; oruç tutmak isterse iğnesini iftardan sonra yaptırması yerinde olur.",
+    0.8
+   ],
+   [
+    "Örnek: Oruçluyken kas içine ağrı kesici iğne ya da grip aşısı yaptırmak.",
+    0.6
+   ],
+   [
+    "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Besleyen iğne bozar, tedavi eden iğne bozmaz.",
+    1.6
+   ],
+   [
+    "Astım spreyi.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Nefes darlığı dışında oruca engel bir sağlık sorunu olmayan astım hastası, nefesini rahatlatan spreyi ağzına püskürterek oruç tutabilir; bu sprey orucu bozmaz.",
+   "Bir kullanımda çok az ilaç ağza girer, büyük kısmı ağızda ve nefes yollarında emilir; mideye bir şey ulaşıp ulaşmadığı şüphelidir ve kesin olan şüpheyle bozulmaz.",
+   [
+    "Spreye sürekli muhtaç olup oruç tutamayan hasta iyileşince kaza eder; iyileşme ümidi yoksa her gün için fidye verir.",
+    0.8
+   ],
+   [
+    "Örnek: Gün içinde nefesi daralınca astım spreyini kullanmak.",
+    0.6
+   ],
+   [
+    "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nefes açan sprey orucu bozmaz.",
+    1.6
+   ],
+   [
+    "Göz, kulak ve burun damlası.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Göz damlası çok az miktardadır ve beslenme anlamı taşımaz; orucu bozmaz.",
+   "Kulak zarı ilacın boğaza geçmesine engel olduğundan kulak damlası da orucu bozmaz.",
+   "Kulak yıkatmak da bozmaz; ancak kulak zarı delikse ve su mideye ulaşırsa oruç bozulur.",
+   [
+    "Burun damlasının çok azı mideye ulaşır ve bu, orucu bozacak düzeyde görülmemiştir.",
+    0.8
+   ],
+   [
+    "Örnek: Gözü kızardığı için doktorun verdiği damlayı oruçluyken kullanmak.",
+    0.6
+   ],
+   [
+    "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Tedavi için bir damla, orucu bozmaz.",
+    1.6
+   ],
+   [
+    "Diş tedavisi.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Yalnızca diş tedavisi sebebiyle oruç bozulmaz; tedavinin ağrısız olması için yapılan uyuşturma iğnesi de beslenme amacı taşımadığı için bozmaz.",
+   "Tedavi sırasında boğaza su, kan ya da tedavide kullanılan bir madde kaçarsa oruç bozulur ve kaza gerekir.",
+   [
+    "Diş kanaması orucu bozmaz; ancak kan, karıştığı tükürüğe eşit ya da ondan fazlaysa ve yutulursa oruç bozulur.",
+    0.8
+   ],
+   [
+    "Örnek: Oruçluyken dişçide dolgu yaptırmak ve boğaza bir şey kaçırmamak.",
+    0.6
+   ],
+   [
+    "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dişçi koltuğu bozmaz, boğaza kaçan bozar.",
+    1.6
+   ],
+   [
+    "Kan tahlili ve kan vermek.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Oruçluyken kan vermek orucu bozmaz; tahlil için kan ya da doku, biyopsi, aldırmak da bozmaz.",
+   "Vücuda kan almak, yani kan nakli ise beslenme kapsamına girdiği için orucu bozar.",
+   [
+    "Oruçluyu güçsüz düşürecek kadar kan aldırmak, orucu bozmasa da mekruh sayılmıştır.",
+    0.8
+   ],
+   [
+    "Örnek: Sabah aç karnına kan tahlili için kan verdirmek.",
+    0.6
+   ],
+   [
+    "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+    0.6
+   ],
+   "Buhârî rivayet eder. Râvi İbn Abbâs.",
+   [
+    "Peygamberimiz ihramlıyken de oruçluyken de hacamat olup kan aldırmıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kan vermek bozmaz, kan almak bozar.",
+    1.6
+   ],
+   [
+    "Cünüp sabahlamak.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Cünüplük oruç tutmaya engel değildir; cünüplük oruçtan önce olmuş olsun ya da oruçluyken ihtilam gibi orucu bozmayan bir sebeple olsun, oruç geçerlidir.",
+   [
+    "Cünüp olan kimse bir an önce yıkanmalı; üzerinden bir namaz vakti geçirmemelidir.",
+    0.8
+   ],
+   [
+    "Örnek: Sahurdan sonra uyuyup cünüp olarak uyanmak.",
+    0.6
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Âişe ve Ümmü Seleme.",
+   [
+    "Hazreti Âişe ve Ümmü Seleme anlatır: Peygamberimiz bazen eşleriyle birlikte olduktan sonra cünüp olarak sabahlar, sonra yıkanır ve oruç tutardı.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Cünüplük oruca engel değil, namaza engeldir; hemen yıkan.",
+    1.6
+   ],
+   [
+    "Yıkanmak ve yüzmek.",
+    0.5
+   ],
+   [
+    "Bu durum orucu bozmaz.",
+    0.6
+   ],
+   "Ağız ve burundan su girip mideye ulaşmadıkça yıkanmak orucu bozmaz; denize girmek de bu şartla orucu bozmaz.",
+   [
+    "Yüzerken dalgayla su yutma ihtimali yüksek olduğu için oruçluyken denize girmekten kaçınmak daha ihtiyatlıdır.",
+    0.8
+   ],
+   [
+    "Örnek: İkindi vakti duş almak, ağzına ve burnuna su kaçırmamak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Su tende kalırsa bozmaz, mideye inerse bozar.",
+    1.6
+   ],
+   [
+    "Mekruh olanlar.",
+    0.8
+   ],
+   [
+    "Tatmak ve çiğnemek.",
+    0.5
+   ],
+   [
+    "Hükmü: mekruhtur, kaçınılması istenir.",
+    0.6
+   ],
+   "Oruçluyken bir şeyi tatmak ya da çiğnemek mekruhtur; çünkü ağza alınan şeyin yutulma tehlikesi vardır.",
+   [
+    "Tadılan ya da çiğnenen şeyden boğaza bir şey inerse oruç bozulur.",
+    0.8
+   ],
+   [
+    "Örnek: Pişen yemeğin tuzuna bakmak için kaşıkla tatmak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ağza alma ki boğaza kaçmasın.",
+    1.6
+   ],
+   [
+    "Güçsüz düşüren işler.",
+    0.5
+   ],
+   [
+    "Hükmü: mekruhtur, kaçınılması istenir.",
+    0.6
+   ],
+   "Orucu bozmamakla birlikte oruçlunun direncini kıran ve onu güçsüz düşüren, çok kan aldırmak gibi şeyler mekruhtur.",
+   [
+    "Yalnızca serinlemek için yıkanmak da oruç anlayışına uymadığı gerekçesiyle mekruh sayılmıştır; temizlik ya da gusül için yıkanmak ise mekruh değildir.",
+    0.8
+   ],
+   [
+    "Örnek: Oruçluyken halsiz bırakacak kadar çok kan aldırmak.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Orucu koru, kendini de yorma.",
+    1.6
+   ],
+   [
+    "Ruhsatlar.",
+    0.8
+   ],
+   [
+    "Yolcu.",
+    0.5
+   ],
+   [
+    "Bu durumda oruç tutmamaya ruhsat vardır.",
+    0.6
+   ],
+   "Ramazan’da sefer mesafesi olan en az doksan kilometrelik bir yere gidecek kimse geceden oruca niyet etmeyebilir; tutamadığı günleri sonra kaza eder.",
+   "Niyet ettikten sonra gündüz yola çıkan kimse başka bir mazereti yoksa orucunu bozmamalıdır; bozarsa kefaret değil, yalnız kaza gerekir.",
+   "Yolculukta bir sıkıntı çekmeyen ve zarar görmeyecek olanın oruç tutması daha faziletlidir.",
+   [
+    "Sürekli yola giden kaptan ve şoförler de yolcu hükmündedir.",
+    0.8
+   ],
+   [
+    "Şâfiî ve Hanbelî mezheplerine göre geceden niyet edilmiş oruç da yolculuk sırasında bozulabilir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+   "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+   "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+   "Allah size kolaylık ister, zorluk istemez.",
+   [
+    "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Hazreti Âişe.",
+   "Çok oruç tutan Hamza bin Amr el-Eslemî, yolculukta oruç tutup tutmayacağını sordu.",
+   [
+    "Peygamberimiz Dilersen tut, dilersen tutma buyurdu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yolculuk ruhsattır; kolaysa tutmak daha faziletlidir.",
+    1.6
+   ],
+   [
+    "Hasta.",
+    0.5
+   ],
+   [
+    "Bu durumda oruç tutmamaya ruhsat vardır.",
+    0.6
+   ],
+   "Oruç tuttuğunda hastalığının artmasından ya da uzamasından endişe eden, ya da hastalığı yüzünden oruçta zorlanan kimse oruç tutmayabilir; başladığı orucu da bozabilir.",
+   "Oruç tutarsa hasta olacağını doktorun bildirdiği kimse de hasta hükmündedir.",
+   "Hastalık geçiciyse iyileşince tutamadığı günleri kaza eder; kalıcıysa her gün için fidye verir.",
+   [
+    "Açlık ya da susuzluktan sağlığı ciddi zarar görecek kimse orucunu bozabilir; ölüm tehlikesi açıksa oruca devam etmesi haram olur.",
+    0.8
+   ],
+   [
+    "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+   "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+   "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+   "Allah size kolaylık ister, zorluk istemez.",
+   [
+    "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah kolaylık ister, zorluk istemez.",
+    1.6
+   ],
+   [
+    "Hamile ve emzikli.",
+    0.5
+   ],
+   [
+    "Bu durumda oruç tutmamaya ruhsat vardır.",
+    0.6
+   ],
+   "Hamile ya da emzikli kadın, oruç tutarsa kendisine ya da çocuğuna zarar gelmesinden korkarsa oruç tutmayabilir; zarar ihtimali kuvvetliyse tutmaması gerekir.",
+   "Kendisi dayanabilecek ve çocuk etkilenmeyecekse oruç tutabilir; bu konuda uzman bir hekime danışmak uygun olur.",
+   [
+    "Tutamadığı oruçları, durumu elverişli olunca kaza eder.",
+    0.8
+   ],
+   [
+    "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+    0.6
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Anne ve bebeğin sağlığı önce gelir; oruç sonra kaza edilir.",
+    1.6
+   ],
+   [
+    "Yaşlı.",
+    0.5
+   ],
+   [
+    "Bu durumda oruç tutmamaya ruhsat vardır.",
+    0.6
+   ],
+   "Oruç tutamayacak kadar yaşlı olan kimse oruç tutmaz; tutamadığı her gün için bir fidye verir.",
+   "İyileşme ümidi olmayan hasta da bu hükümdedir.",
+   "Uzun günlerde tutamayıp kısa günlerde tutabilen kimse fidye vermez, kısa günlerde kaza eder.",
+   [
+    "Fidye verecek gücü olmayan kimse Allah’tan af diler; kimse gücünün üstünde bir şeyle yükümlü değildir.",
+    0.8
+   ],
+   "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+   "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+   "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+   "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+   [
+    "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gücü yetmeyene fidye, gücü yetene oruç.",
+    1.6
+   ],
+   [
+    "Çocuk ve oruç.",
+    0.5
+   ],
+   "Ergenlik çağına girmemiş çocuk ibadetlerle yükümlü değildir; oruç ona farz değildir.",
+   "Çocuğu oruca ısındırmak için ara ara oruç tutmaya teşvik etmek güzeldir.",
+   "Diyanet İlmihali, bedeni elverdiği ölçüde çocuğun sekiz dokuz yaşından itibaren oruca alıştırılmasını uygun görür.",
+   [
+    "Çocuk henüz yükümlü olmadığı için tuttuğu oruç onun için güzel bir alıştırmadır; zorlanıp tamamlayamazsa günah işlemiş olmaz.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Rubeyyi binti Muavviz.",
+   "Rubeyyi binti Muavviz anlatır: Aşure günü biz oruç tutar, çocuklarımıza da oruç tuttururduk.",
+   [
+    "Onlara yünden oyuncaklar yapardık; biri yemek için ağlarsa iftar vaktine kadar o oyuncağı verirdik.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Çocuk için oruç bir borç değil, güzel bir alıştırmadır.",
+    1.6
+   ],
+   [
+    "Kaza, kefaret, fidye.",
+    0.8
+   ],
+   [
+    "Kaza orucu.",
+    0.5
+   ],
+   [
+    "Hükmü: farzdır.",
+    0.6
+   ],
+   "Ramazan’da tutulamayan ya da başlanıp bozulan her gün için sonra bir gün oruç tutulur; buna kaza denir ve kaza etmek de farzdır.",
+   "Kaza oruçlarının peş peşe tutulması gerekmez; bayram günleri dışında her zaman tutulabilir.",
+   "Kişi ne zaman öleceğini bilmediği için geciktirmemek uygun olur.",
+   "Çok sayıda kaza borcu olan Üzerimde borç olan ilk orucun kazasına diye niyet edebilir.",
+   [
+    "Şevval’de kazaya niyetle tutulan oruç kaza yerine geçer.",
+    0.8
+   ],
+   [
+    "Şâfiî mezhebine göre kaza bir sonraki Ramazan’a kadar tutulmalıdır; tutulmazsa kazaya ek olarak fidye de gerekir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+   "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+   "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+   "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+   [
+    "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bir güne bir gün; ne kadar erken, o kadar iyi.",
+    1.6
+   ],
+   [
+    "Oruç kefareti.",
+    0.5
+   ],
+   "Oruç kefareti, Ramazan orucunu mazeretsiz ve bilerek bozan kimsenin yerine getirmesi gereken telafidir.",
+   "Kefaret, iki kamerî ay ya da altmış gün ara vermeden oruç tutmaktır; buna gücü yetmeyen altmış yoksulu bir gün ya da bir yoksulu altmış gün doyurur.",
+   "Hanefîlere göre bu sıraya uyulur.",
+   "Kefaretin yanında bozulan günün kazası ve tövbe de gerekir.",
+   "Kadının âdet ve lohusalık hâli kefaret orucunun ardı ardınalığını bozmaz; temizlenince kaldığı yerden devam eder.",
+   [
+    "Aynı Ramazan’da birden fazla gün bozulmuşsa bir kefaret yeterli görülmüştür.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Ramazan’da orucunu bozan adama Peygamberimiz sırasıyla köle azat etmeyi, iki ay peş peşe oruç tutmayı ve altmış yoksulu doyurmayı sordu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kefaret: altmış gün oruç ya da altmış yoksula yemek.",
+    1.6
+   ],
+   [
+    "Oruç fidyesi.",
+    0.5
+   ],
+   "Fidye, oruç tutmaya gücü yetmeyen yaşlılar ile iyileşme ümidi olmayan hastaların tutamadıkları her gün için verdikleri bedeldir.",
+   "Bir günün fidyesi bir fıtır sadakası kadardır, yani bir kişiyi bir gün doyuracak yiyecek ya da bunun parasıdır.",
+   "Fidye Ramazan’ın başında, içinde ya da sonunda verilebilir; hepsi bir yoksula topluca ya da ayrı ayrı yoksullara verilebilir.",
+   "Kişinin anne babası, dede ve ninesi, çocukları ve torunları ile eşine verilmez.",
+   "Gücü yettiği hâlde oruç tutmayan ya da geçici bir mazeretle tutamayan kimse için fidye yoktur; o, orucunu kaza eder.",
+   "Fidye veren kimse sonradan oruç tutabilecek duruma gelirse Hanefîlere göre tutamadığı oruçları kaza eder ve verdiği fidye sadaka sayılır.",
+   [
+    "Fidye verecek gücü olmayan kimse Allah’tan bağışlanma diler.",
+    0.8
+   ],
+   [
+    "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir günlük oruç fidyesi için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+    0.6
+   ],
+   "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+   "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+   "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+   "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+   [
+    "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fidye, oruca gücü hiç yetmeyenin kolaylığıdır.",
+    1.6
+   ],
+   [
+    "Nafile oruçlar.",
+    0.8
+   ],
+   [
+    "Şevval’de altı gün.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Ramazan’dan sonra Şevval ayında altı gün oruç tutmak müstehaptır; bu günler peş peşe ya da ara verilerek tutulabilir.",
+   "Şevval’de nafile olarak tutulan oruç Ramazan’ın kazası yerine geçmez; kazaya niyet edilirse kaza orucu olur.",
+   "Bir oruçta hem kazaya hem nafileye niyet edilmez.",
+   [
+    "Bayramın birinci gününde oruç tutulmaz.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Eyyûb el-Ensârî.",
+   [
+    "Kim Ramazan orucunu tutar, ardından ona Şevval’den altı gün eklerse bütün yılı oruçlu geçirmiş gibi olur.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ramazan’ın ardından altı gün: bütün yıl gibi.",
+    1.6
+   ],
+   [
+    "Arefe günü.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Kurban Bayramı’ndan önceki gün olan Zilhicce’nin dokuzuncu günü Arefe günüdür; bu günde oruç tutmak tavsiye edilmiştir.",
+   "Zilhicce’nin ilk dokuz gününü oruçlu geçirmek de müstehaptır.",
+   [
+    "Hacda bulunanların ise güçsüz düşmemek için Arefe günü oruç tutmamaları uygun görülmüştür.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Katâde.",
+   [
+    "Arefe günü orucunun önceki ve sonraki birer yılın günahlarına kefaret olmasını Allah’tan umarım.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bir günlük oruç, iki yıllık umut.",
+    1.6
+   ],
+   [
+    "Aşure günü.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Muharrem ayının onuncu günü Aşure günüdür; Peygamberimiz bu günde oruç tutmayı tavsiye etmiştir.",
+   [
+    "Yahudiler yalnızca onuncu günü oruç tuttuğu için onlara benzememek amacıyla bir gün öncesi ya da sonrasıyla birlikte, yani dokuz ve on ya da on ve on bir Muharrem tutulması uygundur.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi İbn Abbâs.",
+   "Peygamberimiz Medine’ye geldiğinde Yahudilerin Aşure günü oruç tuttuğunu gördü.",
+   "Allah’ın Mûsâ’yı düşmanından kurtardığı gündür dediler.",
+   [
+    "Peygamberimiz Mûsâ’ya ben sizden daha yakınım buyurdu, o gün oruç tuttu ve tutulmasını emretti.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi İbn Abbâs.",
+   [
+    "Gelecek yıla yetişirsem dokuzuncu günü de mutlaka oruç tutacağım.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Katâde.",
+   [
+    "Aşure günü orucunun önceki yılın günahlarına kefaret olmasını Allah’tan umarım.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Aşure tek başına değil, yanına bir gün eklenerek tutulur.",
+    1.6
+   ],
+   [
+    "Her ay üç gün.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Her aydan üç gün oruç tutmak müstehaptır; bunu kamerî ayın on üç, on dört ve on beşinci günlerinde yapmak ayrıca tavsiye edilmiştir.",
+   "Bu günlere eyyâm-ı bîz denir.",
+   [
+    "İyiliğe on kat karşılık verildiği için her ay üç gün oruç bütün yıl oruç tutmak gibi sayılmıştır.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Dostum Peygamberimiz bana üç şeyi tavsiye etti: Her ay üç gün oruç tutmayı, iki rekât kuşluk namazını ve uyumadan önce vitir kılmayı.",
+    0.8
+   ],
+   "Tirmizî rivayet eder. Râvi Ebû Zer.",
+   "Ey Ebû Zer!",
+   "Her aydan üç gün oruç tutacaksan on üç, on dört ve on beşinci günleri tut.",
+   [
+    "Elbânî ve Ahmed Şâkir hasen sahih saymıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ayın dolunay günleri, orucun da güzel günleridir.",
+    1.6
+   ],
+   [
+    "Pazartesi ve perşembe.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Her hafta pazartesi ve perşembe günleri oruç tutmak teşvik edilmiş bir nafiledir.",
+   [
+    "Peygamberimiz pazartesinin doğduğu ve kendisine vahyin geldiği gün olduğunu söylemiş; amellerin pazartesi ve perşembe günleri Allah’a sunulduğunu, amelinin oruçluyken sunulmasını sevdiğini bildirmiştir.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Katâde.",
+   "Peygamberimize pazartesi orucu soruldu.",
+   [
+    "O gün doğdum ve o gün bana vahiy indirildi buyurdu.",
+    0.8
+   ],
+   "Tirmizî rivayet eder. Râvi Ebû Hüreyre.",
+   "Ameller pazartesi ve perşembe günleri Allah’a sunulur; amelimin oruçluyken sunulmasını severim.",
+   [
+    "Elbânî ve Ahmed Şâkir sahih saymıştır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Haftada iki gün, amelin oruçla sunulsun.",
+    1.6
+   ],
+   [
+    "Dâvûd orucu.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Gün aşırı oruç tutmak, yani bir gün tutup ertesi gün tutmamak Peygamberimiz tarafından Dâvûd aleyhisselamın orucu olarak anılmış ve en faziletli oruç olarak bildirilmiştir.",
+   [
+    "Peygamberimiz bundan daha faziletli bir oruç olmadığını bildirmiş ve daha fazlasını tutmaya çalışmamayı tavsiye etmiştir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Abdullah bin Amr.",
+   "Bir gün oruç tut, bir gün tutma.",
+   "Bu, Dâvûd peygamberin orucudur ve oruçların en faziletlisidir.",
+   [
+    "Bundan daha faziletlisi yoktur.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İbadette de ölçü: bir gün tut, bir gün dinlen.",
+    1.6
+   ],
+   [
+    "Muharrem ve Şaban.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Ramazan’dan sonra en faziletli oruç, Allah’ın ayı denilen Muharrem’de tutulan oruçtur.",
+   "Peygamberimiz Ramazan dışında en çok Şaban ayında oruç tutmuştur; fakat Ramazan’dan başka hiçbir ayın tamamını oruçlu geçirmemiştir.",
+   [
+    "Bu yüzden üç ayları aralıksız oruçla geçirmenin dinî bir dayanağı yoktur.",
+    0.8
+   ],
+   "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Ramazan’dan sonra en faziletli oruç, Allah’ın ayı Muharrem’de tutulan oruçtur.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+   [
+    "Peygamberimizin Ramazan dışında bir ayın tamamını oruçlu geçirdiğini görmedim; Şaban’dan daha çok oruç tuttuğu bir ay da görmedim.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nafile oruç gönülden tutulur, ölçüyü kaçırmadan.",
+    1.6
+   ],
+   [
+    "Tutulmayan günler.",
+    0.8
+   ],
+   [
+    "Bayram günleri.",
+    0.5
+   ],
+   "Ramazan Bayramı’nın birinci gününde ve Kurban Bayramı’nın dört gününde oruç tutmak yasaktır; Diyanet bunu tahrîmen mekruh olarak bildirir, İlmihal’de haram diye de geçer.",
+   "Bayramlar yeme, içme ve sevinç günleridir.",
+   "Ramazan Bayramı bir aylık orucun ardından verilen genel bir iftar sofrası gibidir; Kurban Bayramı da kurbanların kesildiği ziyafet günleridir.",
+   [
+    "Kaza orucu da bu günlerde tutulmaz.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Hazreti Ömer.",
+   [
+    "Hazreti Ömer bayram namazından sonra şöyle dedi: Resûlullah sallallahu aleyhi ve sellem bu iki günde oruç tutmayı yasakladı: Orucunuzu bitirdiğiniz bayram günü ve kurbanlarınızdan yediğiniz gün.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bayram, Allah’ın sofrasıdır; o gün oruç tutulmaz.",
+    1.6
+   ],
+   [
+    "Yalnız cuma günü.",
+    0.5
+   ],
+   [
+    "Hükmü: mekruhtur, kaçınılması istenir.",
+    0.6
+   ],
+   "Sadece cuma günü nafile oruç tutmak tenzîhen mekruhtur; çünkü cuma müslümanların haftalık bayramıdır.",
+   [
+    "Bir gün öncesi ya da sonrasıyla birlikte tutmakta, alışılmış orucun cumaya denk gelmesinde ya da cuma günü kaza ve adak orucu tutmakta sakınca yoktur.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Sizden biri, bir gün öncesinde ya da sonrasında da oruç tutmadıkça yalnız cuma günü oruç tutmasın.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Cumayı oruç için ayırma; yanına bir gün ekle.",
+    1.6
+   ],
+   [
+    "Şek günü.",
+    0.5
+   ],
+   [
+    "Hükmü: mekruhtur, kaçınılması istenir.",
+    0.6
+   ],
+   "Şaban’ın yirmi dokuzundan sonraki günün Şaban’a mı Ramazan’a mı ait olduğundan şüphe edilen güne şek günü denir.",
+   "Ramazan’ı karşılamak için ya da Ramazan girmiş olabilir diye bu günde oruç tutmak mekruhtur; Ramazan niyetiyle tutmak tahrîmen mekruhtur.",
+   "Alışkanlık hâline gelmiş orucu bu güne denk gelen kimsenin tutmasında sakınca yoktur.",
+   [
+    "Bugün Ramazan’ın başlangıcı Diyanet’in takvimiyle bilinir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Sizden biri Ramazan’dan bir ya da iki gün önce oruç tutmasın; ancak öteden beri tuttuğu oruç o güne denk gelen tutsun.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ramazan’ı tahminle değil, takvimle başlat.",
+    1.6
+   ],
+   [
+    "Visal orucu.",
+    0.5
+   ],
+   [
+    "Hükmü: mekruhtur, kaçınılması istenir.",
+    0.6
+   ],
+   "İki ya da daha fazla günü arada iftar etmeden birbirine ekleyerek oruç tutmaya visal orucu denir ve mekruhtur.",
+   [
+    "Peygamberimiz ümmetine acıdığı için visal orucunu yasaklamıştır.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Enes bin Mâlik.",
+   "Visal orucu tutmayın.",
+   "Ama sen tutuyorsun dediler.",
+   [
+    "Ben sizden biri gibi değilim; ben yedirilir ve içirilirim buyurdu.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her orucun bir iftarı vardır.",
+    1.6
+   ],
+   [
+    "Ramazan’ın ibadetleri.",
+    0.8
+   ],
+   [
+    "Teravih namazı.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "Teravih, Ramazan ayına mahsus olarak yatsı namazından sonra ve vitirden önce kılınan namazdır; kadın ve erkek için müekked sünnettir.",
+   "Orucun değil, Ramazan ayının sünnetidir.",
+   [
+    "Teravih yirmi rekâttır ve on selamla kılınır; cemaatle kılınması kifâye sünnetidir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Kim inanarak ve sevabını Allah’tan umarak Ramazan gecelerini namazla ihya ederse geçmiş günahları bağışlanır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ramazan’ın gündüzü oruçla, gecesi teravihle ihya edilir.",
+    1.6
+   ],
+   [
+    "İtikâf.",
+    0.5
+   ],
+   [
+    "Hükmü: sünnettir.",
+    0.6
+   ],
+   "İtikâf, ibadet niyetiyle bir mescitte belirli kurallara uyarak kalmaktır.",
+   "Peygamberimiz Ramazan’ın son on gününde itikâfa girerdi; Hanefîler bunu kifâye niteliğinde müekked sünnet saymıştır.",
+   "İtikâftaki kimse vaktini namaz, Kur’an, dua, zikir ve tefekkürle geçirir; zorunlu ihtiyaçları için dışarı çıkar ve hemen döner.",
+   [
+    "Kadınlar evlerinin bir odasında itikâfa girebilir.",
+    0.8
+   ],
+   "Bakara Suresi, yüz seksen yedinci ayetin anlamı şöyledir.",
+   "Oruç tuttuğunuz günlerin gecesi kadınlarınıza yaklaşmanız size helal kılındı, onlar sizin örtünüz, siz de onların örtülerisiniz.",
+   "Allah, nefsinize güvenemiyeceğinizi biliyordu, bu sebeple tevbenizi kabul edip sizi affetti; artık onlara yaklaşabilirsiniz.",
+   "Allah'ın sizin için takdir ettiğini dileyin.",
+   "Tan yerinde, beyaz iplik siyah iplikten sizce ayırdedilinceye kadar, yiyin için, sonra orucu geceye kadar tamamlayın.",
+   "Mescidlerde itikafa çekildiğinizde kadınlarınıza yaklaşmayın.",
+   [
+    "Allah insanlara yasaklardan sakınsınlar diye ayetlerini böylece apaçık bildirir.",
+    0.8
+   ],
+   "Buhârî ve Müslim rivayet eder. Râvi Hazreti Âişe.",
+   [
+    "Peygamberimiz vefat edinceye kadar Ramazan’ın son on gününde itikâfa girerdi; ondan sonra eşleri de itikâfa girdi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Son on gün, kalbi dünyadan bir süre ayırma vaktidir.",
+    1.6
+   ],
+   [
+    "Kadir Gecesi.",
+    0.5
+   ],
+   "Kadir Gecesi, Kur’an’ın indirildiği ve bin aydan hayırlı olduğu bildirilen gecedir.",
+   [
+    "Peygamberimiz bu geceyi Ramazan’ın son on gecesinin tek gecelerinde aramayı tavsiye etmiştir; bu yüzden son on gece ibadetle değerlendirilir.",
+    0.8
+   ],
+   "Kadr Suresi, birinci ve beşinci ayetlerin anlamı şöyledir.",
+   [
+    "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir Kadir gecesinin ne olduğunu sen bilir misin Kadir gecesi bin aydan hayırlıdır Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler O gece, tan yerinin ağarmasına kadar bir esenliktir.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+   [
+    "Kadir Gecesi’ni Ramazan’ın son on gününün tek gecelerinde arayın.",
+    0.8
+   ],
+   "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+   [
+    "Kim Kadir Gecesi’ni inanarak ve sevabını Allah’tan umarak ihya ederse geçmiş günahları bağışlanır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bin aydan hayırlı bir gece: son on gecede ara.",
+    1.6
+   ],
+   [
+    "Fıtır sadakası, fitre.",
+    0.5
+   ],
+   "Halk arasında fitre denen fıtır sadakası, dinen zengin olup Ramazan’ın sonuna ulaşan müslümanın vermesi vacip olan sadakadır.",
+   "Kişi kendisinin ve küçük çocuklarının fitresini verir.",
+   "Bayram namazından önce verilmesi müstehaptır; Ramazan’ın ilk günlerinde vermek de caizdir.",
+   "Kişinin bakmakla yükümlü olduğu yakınlarına ve eşine verilmez.",
+   [
+    "Fitrenin ve zekâtın ayrıntıları Zekât ve Sadaka Rehberi’ndedir.",
+    0.8
+   ],
+   [
+    "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir kişinin fıtır sadakası için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+    0.6
+   ],
+   "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+   [
+    "Peygamberimiz köle ya da hür, erkek ya da kadın, küçük ya da büyük her müslümana fıtır sadakası olarak bir sâ hurma ya da bir sâ arpa vermeyi farz kıldı ve insanlar bayram namazına çıkmadan önce verilmesini emretti.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Fitre, bayram sevincini yoksulla paylaşmaktır.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Oruç Rehberi",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Oruç Rehberi.",
+     0.8
+    ],
+    [
+     "Ramazan orucunu ve nafile oruçları, kaynağıyla birlikte öğreneceğiz.",
+     0.6
+    ],
+    "Her konuda önce hükmü, sonra kısa açıklamayı, varsa ayetin mealini ve Peygamberimizin sahih hadisini dinleyeceksiniz.",
+    "Hükümler Diyanet İşleri Başkanlığının yayınlarına ve Din İşleri Yüksek Kurulunun kararlarına dayanır.",
+    [
+     "Kendi durumunuz için müftülüğe, sağlıkla ilgili konularda doktorunuza danışın.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-farz-olusu",
+   "baslik": "Oruç farzdır",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Giriş.",
+     0.8
+    ],
+    [
+     "Oruç farzdır.",
+     0.5
+    ],
+    [
+     "Hükmü: farzdır.",
+     0.6
+    ],
+    "Oruç, imsak vaktinden iftar vaktine kadar Allah rızası için yemekten, içmekten ve cinsel ilişkiden uzak durmaktır.",
+    "Ramazan orucu hicretten bir buçuk yıl sonra farz kılınmıştır ve İslam’ın beş şartından biridir.",
+    [
+     "Ayet, orucun bizden önceki ümmetlere de farz kılındığını ve amacının takva, yani Allah’a karşı gelmekten sakınmak olduğunu bildirir.",
+     0.8
+    ],
+    "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+    "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+    "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+    "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+    [
+     "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Kim inanarak ve sevabını Allah’tan umarak Ramazan orucunu tutarsa geçmiş günahları bağışlanır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Oruç aç kalmak değil, Allah için kendini tutmaktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-oruc-kalkandir",
+   "baslik": "Oruç bir kalkandır",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Oruç bir kalkandır.",
+     0.5
+    ],
+    "Peygamberimiz orucu, insanı kötülüklerden koruyan bir kalkana benzetmiştir.",
+    "Oruçlu kimse kötü söz söylemez, kavga etmez; biri ona sataşırsa yalnızca Ben oruçluyum der.",
+    [
+     "Yalanı ve kötü davranışı bırakmayan kimsenin aç ve susuz kalmasının bir anlamı olmadığı da bildirilmiştir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    "Oruç bir kalkandır.",
+    "Oruçlu kimse çirkin söz söylemesin, cahillik etmesin.",
+    "Biri onunla kavga eder ya da ona söverse iki kez Ben oruçluyum desin.",
+    "Allah buyurur: O, yemesini, içmesini ve arzusunu benim için bıraktı.",
+    [
+     "Oruç benim içindir, onun karşılığını ben veririm.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Yalan sözü ve onunla iş görmeyi bırakmayan kimsenin yemesini, içmesini bırakmasına Allah’ın ihtiyacı yoktur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Oruç, dilin ve elin de orucudur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-ramazan-ayi",
+   "baslik": "Ramazan ayı",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Ramazan ayı.",
+     0.5
+    ],
+    "Ramazan, Kur’an’ın insanlara yol gösterici olarak indirildiği aydır; ayet, bu aya ulaşanın oruç tutmasını emreder.",
+    "Kamerî aylar yirmi dokuz ya da otuz gün çeker.",
+    "Diyanet, Ramazan’ın başlangıcını ve bayramı astronomik hesaba dayanan takvimle ilan eder; hesap yöntemi meşrudur.",
+    [
+     "Oruç ayetlerinin arasında Allah’ın kullarına yakın olduğu ve duaya cevap verdiği de bildirilir.",
+     0.8
+    ],
+    "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+    "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+    "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+    "Allah size kolaylık ister, zorluk istemez.",
+    [
+     "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+     0.8
+    ],
+    "Bakara Suresi, yüz seksen altıncı ayetin anlamı şöyledir.",
+    "Kullarım sana Beni sorarlarsa, bilsinler ki Ben, şüphesiz onlara yakınım.",
+    "Benden isteyenin, dua ettiğinde duasını kabul ederim.",
+    [
+     "Artık onlar da davetimi kabul edip Bana inansınlar ki doğru yolda yürüyenlerden olsunlar.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Ramazan ayı girince göğün kapıları açılır, cehennemin kapıları kapanır ve şeytanlar zincire vurulur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ramazan, Kur’an’ın ayıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-kime-farz",
+   "baslik": "Kime farzdır?",
+   "tur": "Farzları ve şartları",
+   "parcalar": [
+    [
+     "Farzları ve şartları.",
+     0.8
+    ],
+    [
+     "Kime farzdır?",
+     0.5
+    ],
+    [
+     "Hükmü: farzdır.",
+     0.6
+    ],
+    "Ramazan orucu müslüman, akıllı ve ergenlik çağına ulaşmış, âkil-bâliğ, her kişiye farzdır.",
+    "Orucu o gün tutmak için ayrıca oruca gücü yetiyor olmak ve yolcu olmamak gerekir; hasta ve yolcu tutamadığını sonra kaza eder.",
+    "Kadın, âdet ve lohusalık hâlinde oruç tutmaz; temizlenince kaza eder.",
+    [
+     "Ergenlik çağına girmemiş çocuğa oruç farz değildir; alıştırılır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Akıl, ergenlik ve İslam: orucun üç şartı.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-niyet",
+   "baslik": "Niyet",
+   "tur": "Farzları ve şartları",
+   "parcalar": [
+    [
+     "Niyet.",
+     0.5
+    ],
+    [
+     "Hükmü: farzdır.",
+     0.6
+    ],
+    "Niyet orucun şartıdır; kalben niyet etmek yeterli, dille söylemek güzeldir.",
+    "Sahura kalkmak da niyet sayılır.",
+    "Ramazan orucu, belli güne adanmış oruç ve nafile oruç için niyet vakti güneşin batışından ertesi gün öğle vaktinin girmesinden az öncesine kadardır; imsaktan sonra niyet edecek kimse o vakte kadar bir şey yememiş olmalıdır.",
+    "Kaza, kefaret ve belli bir güne bağlanmamış adak oruçlarına en geç imsaka kadar ve hangi oruç olduğu belirtilerek niyet edilir.",
+    [
+     "Ramazan’ın her günü için ayrı niyet edilir.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre nafile dışındaki bütün oruçlara geceden niyet edilmelidir; imsaka kadar niyet edilmemişse o günün orucu geçerli olmaz.",
+     0.6
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Ömer.",
+    [
+     "Ameller ancak niyetlere göredir; herkese niyet ettiğinin karşılığı vardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Oruç, kalpteki niyetle başlar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-imsak-iftar",
+   "baslik": "İmsak ve iftar vakti",
+   "tur": "Farzları ve şartları",
+   "parcalar": [
+    [
+     "İmsak ve iftar vakti.",
+     0.5
+    ],
+    [
+     "Hükmü: farzdır.",
+     0.6
+    ],
+    "İmsak, fecr-i sâdık denilen tan yerinin ağarmasıyla başlar; iftar vakti güneşin batmasıdır.",
+    "Diyanet, imsak vaktini güneşin ufkun on sekiz derece altına yaklaştığı ana göre belirler.",
+    "Sabah ezanı imsakla okunduğu için ezan başlayınca yeme içme bırakılır; ağızdaki lokmayı yutmakta sakınca yoktur.",
+    [
+     "Vakitler bulunulan yere göre değişir; yolculukta da bulunulan yerin vakti esas alınır.",
+     0.8
+    ],
+    "Bakara Suresi, yüz seksen yedinci ayetin anlamı şöyledir.",
+    "Oruç tuttuğunuz günlerin gecesi kadınlarınıza yaklaşmanız size helal kılındı, onlar sizin örtünüz, siz de onların örtülerisiniz.",
+    "Allah, nefsinize güvenemiyeceğinizi biliyordu, bu sebeple tevbenizi kabul edip sizi affetti; artık onlara yaklaşabilirsiniz.",
+    "Allah'ın sizin için takdir ettiğini dileyin.",
+    "Tan yerinde, beyaz iplik siyah iplikten sizce ayırdedilinceye kadar, yiyin için, sonra orucu geceye kadar tamamlayın.",
+    "Mescidlerde itikafa çekildiğinizde kadınlarınıza yaklaşmayın.",
+    [
+     "Allah insanlara yasaklardan sakınsınlar diye ayetlerini böylece apaçık bildirir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Ömer.",
+    [
+     "Gece şu taraftan gelip gündüz şu taraftan çekilince ve güneş batınca oruçlu iftar eder.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Tan ağarınca başlar, güneş batınca biter.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-sahur",
+   "baslik": "Sahur",
+   "tur": "Sahur ve iftar",
+   "parcalar": [
+    [
+     "Sahur ve iftar.",
+     0.8
+    ],
+    [
+     "Sahur.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Sahur, imsaktan az önceki seher vaktinde yenen yemektir.",
+    "Sahura kalkmak hem oruca güç verir hem de bir sünneti yerine getirir.",
+    [
+     "Bir yudum su ile de olsa sahur yapmak ve sahuru imsaka yakın bir vakte bırakmak uygundur.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Enes bin Mâlik.",
+    [
+     "Sahur yapın; çünkü sahurda bereket vardır.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Zeyd bin Sâbit.",
+    "Zeyd bin Sâbit anlatır: Peygamberimizle sahur yaptık, sonra namaza kalktı.",
+    [
+     "Sahur ile ezan arasında ne kadar vakit olduğu sorulunca Elli ayet okuyacak kadar dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sahurda bereket vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-iftar",
+   "baslik": "İftar",
+   "tur": "Sahur ve iftar",
+   "parcalar": [
+    [
+     "İftar.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Peygamberimiz iftarın vakit girer girmez yapılmasını teşvik etmiştir.",
+    "Akşam namazı yemekten önce kılınacaksa önce bir hurma ya da biraz su ile oruç açılır, sonra namaz kılınır.",
+    [
+     "İmkânı olanların, özellikle ihtiyaç sahiplerine iftar yedirmesi güzel ve sevaplı bir davranıştır.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Sehl bin Saad.",
+    [
+     "İnsanlar iftarı acele ettikçe hayır üzere olmaya devam ederler.",
+     0.8
+    ],
+    "Ebû Dâvûd rivayet eder. Râvi Enes bin Mâlik.",
+    "Peygamberimiz akşam namazından önce birkaç taze hurma ile iftar ederdi; taze hurma yoksa kuru hurma ile, o da yoksa birkaç yudum su ile iftar ederdi.",
+    [
+     "Elbânî hasen sahih, Şuayb el-Arnaût sahih saymıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Vakit girince iftarı geciktirme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-iftar-duasi",
+   "baslik": "İftar duası",
+   "tur": "Sahur ve iftar",
+   "parcalar": [
+    [
+     "İftar duası.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Oruç açılırken dua etmek sünnettir; belirli bir söz şart değildir, herkes içinden geldiği gibi şükrünü ve isteğini dile getirebilir.",
+    "Peygamberimizin iftar ederken söylediği dua Ebû Dâvûd’da hasen bir senedle rivayet edilmiştir; Arapçası, okunuşu ve anlamı bu sayfadadır.",
+    "Diyanet İlmihali, öteden beri yaygın olan şu duayı örnek verir: Allah’ım!",
+    "Senin rızanı kazanmak için oruç tuttum, senin verdiğin rızıkla orucumu açtım.",
+    "Sana inanıp güvendim.",
+    "Ey lütuf ve ikramı geniş olan Rabbim!",
+    [
+     "Beni bağışla.",
+     0.8
+    ],
+    "Duanın anlamı şöyledir.",
+    [
+     "Susuzluk gitti, damarlar ıslandı; Allah dilerse sevap da kesinleşti.",
+     0.8
+    ],
+    "Bu dua Ebû Dâvûd tarafından rivayet edilmiştir.",
+    [
+     "Elbânî ve Şuayb el-Arnaût hasen saymıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İftar, şükür ve dua anıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-bilerek-yemek",
+   "baslik": "Bilerek yemek, içmek",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Orucu bozanlar.",
+     0.8
+    ],
+    [
+     "Bilerek yemek, içmek.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar; kaza ile birlikte kefaret de gerektirir.",
+     0.6
+    ],
+    "Ramazan’da oruçlu olduğunu bildiği hâlde mazeretsiz olarak yiyip içen kimsenin orucu bozulur; Hanefîlere göre kaza ile birlikte kefaret ve tövbe gerekir.",
+    "Gıda ya da ilaç cinsinden bir şeyi su ile ya da susuz yutmak da böyledir.",
+    "Ancak orucu bozmayı mübah kılacak bir hastalık yüzünden ilaç alınmışsa yalnız kaza gerekir.",
+    [
+     "İmsak vaktinin girdiğini anladığı hâlde yemeye devam etmek de kefaret gerektirir.",
+     0.8
+    ],
+    [
+     "Örnek: Ramazan’da öğle sıcağında canı çektiği için bilerek su içmek.",
+     0.6
+    ],
+    [
+     "Şâfiî mezhebine göre yiyip içerek bozulan oruç için kefaret gerekmez, yalnız kaza gerekir; kefaret yalnız cinsel ilişkiyle bozulan oruçtadır.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ramazan orucu bilerek bozulmaz; bozulursa kaza da kefaret de gerekir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-cinsel-iliski",
+   "baslik": "Cinsel ilişki",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Cinsel ilişki.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar; kaza ile birlikte kefaret de gerektirir.",
+     0.6
+    ],
+    "Ramazan günü oruçlu iken bilerek ve isteyerek cinsel ilişkide bulunmak, bütün mezheplere göre hem kaza hem kefaret gerektirir.",
+    "Peygamberimiz oruç kefaretinin hükmünü böyle bir olay üzerine bildirmiştir.",
+    [
+     "Gecesi ise ayetle helal kılınmıştır.",
+     0.8
+    ],
+    "Bakara Suresi, yüz seksen yedinci ayetin anlamı şöyledir.",
+    "Oruç tuttuğunuz günlerin gecesi kadınlarınıza yaklaşmanız size helal kılındı, onlar sizin örtünüz, siz de onların örtülerisiniz.",
+    "Allah, nefsinize güvenemiyeceğinizi biliyordu, bu sebeple tevbenizi kabul edip sizi affetti; artık onlara yaklaşabilirsiniz.",
+    "Allah'ın sizin için takdir ettiğini dileyin.",
+    "Tan yerinde, beyaz iplik siyah iplikten sizce ayırdedilinceye kadar, yiyin için, sonra orucu geceye kadar tamamlayın.",
+    "Mescidlerde itikafa çekildiğinizde kadınlarınıza yaklaşmayın.",
+    [
+     "Allah insanlara yasaklardan sakınsınlar diye ayetlerini böylece apaçık bildirir.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    "Bir adam gelip Mahvoldum, oruçluyken eşimle birlikte oldum dedi.",
+    "Peygamberimiz Bir köle azat edebilir misin?, İki ay peş peşe oruç tutabilir misin?, Altmış yoksulu doyurabilir misin? diye sordu.",
+    [
+     "Adam hepsine Hayır deyince Peygamberimiz ona bir sepet hurma verip sadaka olarak dağıtmasını söyledi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kefaretin hükmü bu olayla bildirilmiştir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-sigara",
+   "baslik": "Sigara ve nargile",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Sigara ve nargile.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar; kaza ile birlikte kefaret de gerektirir.",
+     0.6
+    ],
+    "Sigara ve nargile gibi keyif veren tütün dumanı ile uyuşturucu ve tiryakilikle alınan her madde oruç yasakları kapsamındadır.",
+    [
+     "Ramazan orucunu tutarken bilerek sigara içen kimsenin orucu bozulur; yeme içme gibi kaza ile birlikte kefaret gerekir.",
+     0.8
+    ],
+    [
+     "Örnek: Oruçluyken bir tane bir şey olmaz diyerek sigara yakmak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Duman da oruç yasağına girer.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-su-kacmasi",
+   "baslik": "Boğaza su kaçması",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Boğaza su kaçması.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar ve kaza gerektirir.",
+     0.6
+    ],
+    "Abdest alırken, yıkanırken ya da yüzerken oruçlu olduğu aklındayken istemeden boğaza su kaçarsa oruç bozulur ve yalnız kaza gerekir; buna hata denir.",
+    [
+     "Oruçlu olduğu aklında değilken su kaçarsa bu unutma hükmündedir ve oruç bozulmaz.",
+     0.8
+    ],
+    [
+     "Örnek: Abdest alırken ağzını çalkalarken boğazına su kaçtı.",
+     0.6
+    ],
+    [
+     "Şâfiî mezhebine göre orucu bozma kastı olmadığı için yanlışlıkla boğaza su kaçması orucu bozmaz.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İstemeden kaçan su: kaza var, kefaret yok.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-kasten-kusmak",
+   "baslik": "Kasten kusmak",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Kasten kusmak.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar ve kaza gerektirir.",
+     0.6
+    ],
+    "Kişinin kendi isteğiyle ağız dolusu kusması orucu bozar ve kaza gerektirir.",
+    [
+     "Kustuğu için orucunun bozulduğunu sanıp yemeye devam eden kimsenin de orucu bozulur; ona kefaret değil, kaza gerekir.",
+     0.8
+    ],
+    [
+     "Örnek: Midesi rahatlasın diye parmağıyla kendini kusturmak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İstemeden kusmak bozmaz, kasten kusmak bozar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-vakit-yanilmasi",
+   "baslik": "Vakitte yanılmak",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Vakitte yanılmak.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar ve kaza gerektirir.",
+     0.6
+    ],
+    "İmsak vaktinin girip girmediğinden şüphe ederek yemeye devam eden kimse, o sırada imsakın girmiş olduğunu anlarsa orucu bozulur ve kaza gerekir.",
+    "Güneşin battığını sanarak iftar eden kimse, güneşin henüz batmadığını anlarsa yine kaza gerekir.",
+    [
+     "Bu yüzden güneşin battığından emin olmadan iftar edilmemelidir.",
+     0.8
+    ],
+    [
+     "Örnek: Bulutlu bir günde akşam oldu sanıp iftar etmek, sonra güneşin batmadığını görmek.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Şüphede iftar edilmez; vakti takvimden bil.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "16-mutat-olmayan",
+   "baslik": "Yenmesi alışılmamış şeyler",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Yenmesi alışılmamış şeyler.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar ve kaza gerektirir.",
+     0.6
+    ],
+    "Beslenme amacı taşımayan, yenip içilmesi alışılmış olmayan ya da insanın yemek istemeyeceği şeyleri yutmak orucu bozar; bunlar için kefaret değil, yalnız kaza gerekir.",
+    [
+     "Çiğ pirinç, çiğ hamur, un, ham meyve ya da toprak yemek, fındığı veya cevizi kabuğuyla yutmak bu türdendir.",
+     0.8
+    ],
+    [
+     "Örnek: Oruçluyken avucundaki çiğ pirinçten birkaç tane yutmak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Mideye giden her şey orucu bozar; kefaret yemek ve içmek içindir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "17-hayiz-nifas",
+   "baslik": "Âdet ve lohusalık",
+   "tur": "Orucu bozanlar",
+   "parcalar": [
+    [
+     "Âdet ve lohusalık.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozar ve kaza gerektirir.",
+     0.6
+    ],
+    "Âdet ve lohusalık hâlindeki kadın oruç tutmaz, tutsa da geçerli olmaz; temizlendikten sonra tutamadığı günleri kaza eder.",
+    "Kılamadığı namazları ise kaza etmez.",
+    "Oruca niyet eden kadının gün içinde âdeti başlarsa orucu bozulur; o günü de sonra kaza eder.",
+    [
+     "Ramazan’a saygı için başkalarının yanında yiyip içmemesi uygun olur.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Hazreti Âişe.",
+    "Hazreti Âişe’ye âdet gören kadının neden orucu kaza edip namazı kaza etmediği soruldu.",
+    [
+     "O şöyle dedi: Biz bu hâli yaşardık; orucu kaza etmekle emrolunurduk, namazı kaza etmekle emrolunmazdık.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Oruç kaza edilir, namaz kaza edilmez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "18-unutarak",
+   "baslik": "Unutarak yemek, içmek",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Orucu bozmayanlar.",
+     0.8
+    ],
+    [
+     "Unutarak yemek, içmek.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Oruçlu olduğunu unutarak yiyip içmek orucu bozmaz.",
+    "Hatırlayınca hemen ağzındakini çıkarır, ağzını yıkar ve orucuna devam eder.",
+    "Hatırladıktan sonra mideye bir şey inerse oruç bozulur.",
+    [
+     "Unutarak yedikten sonra Orucum bozuldu sanıp yemeye devam eden kimseye de kaza gerekir.",
+     0.8
+    ],
+    [
+     "Örnek: Oruçlu olduğunu unutup mutfakta bir bardak su içmek.",
+     0.6
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Oruçlu olduğunu unutarak yiyen ya da içen orucunu tamamlasın; çünkü onu Allah yedirmiş, içirmiştir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Unutarak yiyeni Allah doyurmuştur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "19-kendiliginden-kusmak",
+   "baslik": "Kendiliğinden kusmak",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Kendiliğinden kusmak.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Miktarı ne olursa olsun kendiliğinden gelen kusuntu orucu bozmaz.",
+    [
+     "Mideden ansızın ağza gelip geri dönen şeyler de oruca zarar vermez.",
+     0.8
+    ],
+    [
+     "Örnek: Yolda midesi bulanıp istemeden kusmak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Elinde olmayan şey orucunu bozmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "20-dis-fircalamak",
+   "baslik": "Diş fırçalamak",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Diş fırçalamak.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Boğaza su kaçırmadan ağzı çalkalamak gibi diş fırçalamak da orucu bozmaz; ağız ve diş temizliği aksatılmamalıdır.",
+    "Diş macunu ya da su boğaza kaçarsa oruç bozulur.",
+    [
+     "Bu yüzden dişleri imsaktan önce ve iftardan sonra fırçalamak, oruçluyken fırçalanacaksa macun kullanmamak uygun olur.",
+     0.8
+    ],
+    [
+     "Örnek: Öğle vakti dişlerini macunsuz fırçalamak ve suyu yutmamak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fırça bozmaz; yutulan macun bozar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "21-igne-asi",
+   "baslik": "İğne ve aşı",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "İğne ve aşı.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Tedavi ya da aşı amacıyla yapılan, gıda ve keyif verici olmayan iğneler orucu bozmaz; şeker hastalarının insülin iğnesi de bu türdendir.",
+    "Gıda ve vitamin iğneleri, damardan serum ve vücuda kan verilmesi, kan nakli, ise orucu bozar; o gün kaza edilir.",
+    "Ağızdan alınan aşı da orucu bozar.",
+    [
+     "Tedavisi süren hasta, iyileşene kadar orucunu erteleyebilir; oruç tutmak isterse iğnesini iftardan sonra yaptırması yerinde olur.",
+     0.8
+    ],
+    [
+     "Örnek: Oruçluyken kas içine ağrı kesici iğne ya da grip aşısı yaptırmak.",
+     0.6
+    ],
+    [
+     "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Besleyen iğne bozar, tedavi eden iğne bozmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "22-astim-spreyi",
+   "baslik": "Astım spreyi",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Astım spreyi.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Nefes darlığı dışında oruca engel bir sağlık sorunu olmayan astım hastası, nefesini rahatlatan spreyi ağzına püskürterek oruç tutabilir; bu sprey orucu bozmaz.",
+    "Bir kullanımda çok az ilaç ağza girer, büyük kısmı ağızda ve nefes yollarında emilir; mideye bir şey ulaşıp ulaşmadığı şüphelidir ve kesin olan şüpheyle bozulmaz.",
+    [
+     "Spreye sürekli muhtaç olup oruç tutamayan hasta iyileşince kaza eder; iyileşme ümidi yoksa her gün için fidye verir.",
+     0.8
+    ],
+    [
+     "Örnek: Gün içinde nefesi daralınca astım spreyini kullanmak.",
+     0.6
+    ],
+    [
+     "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nefes açan sprey orucu bozmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "23-damlalar",
+   "baslik": "Göz, kulak ve burun damlası",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Göz, kulak ve burun damlası.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Göz damlası çok az miktardadır ve beslenme anlamı taşımaz; orucu bozmaz.",
+    "Kulak zarı ilacın boğaza geçmesine engel olduğundan kulak damlası da orucu bozmaz.",
+    "Kulak yıkatmak da bozmaz; ancak kulak zarı delikse ve su mideye ulaşırsa oruç bozulur.",
+    [
+     "Burun damlasının çok azı mideye ulaşır ve bu, orucu bozacak düzeyde görülmemiştir.",
+     0.8
+    ],
+    [
+     "Örnek: Gözü kızardığı için doktorun verdiği damlayı oruçluyken kullanmak.",
+     0.6
+    ],
+    [
+     "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Tedavi için bir damla, orucu bozmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "24-dis-tedavisi",
+   "baslik": "Diş tedavisi",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Diş tedavisi.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Yalnızca diş tedavisi sebebiyle oruç bozulmaz; tedavinin ağrısız olması için yapılan uyuşturma iğnesi de beslenme amacı taşımadığı için bozmaz.",
+    "Tedavi sırasında boğaza su, kan ya da tedavide kullanılan bir madde kaçarsa oruç bozulur ve kaza gerekir.",
+    [
+     "Diş kanaması orucu bozmaz; ancak kan, karıştığı tükürüğe eşit ya da ondan fazlaysa ve yutulursa oruç bozulur.",
+     0.8
+    ],
+    [
+     "Örnek: Oruçluyken dişçide dolgu yaptırmak ve boğaza bir şey kaçırmamak.",
+     0.6
+    ],
+    [
+     "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dişçi koltuğu bozmaz, boğaza kaçan bozar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "25-kan-vermek",
+   "baslik": "Kan tahlili ve kan vermek",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Kan tahlili ve kan vermek.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Oruçluyken kan vermek orucu bozmaz; tahlil için kan ya da doku, biyopsi, aldırmak da bozmaz.",
+    "Vücuda kan almak, yani kan nakli ise beslenme kapsamına girdiği için orucu bozar.",
+    [
+     "Oruçluyu güçsüz düşürecek kadar kan aldırmak, orucu bozmasa da mekruh sayılmıştır.",
+     0.8
+    ],
+    [
+     "Örnek: Sabah aç karnına kan tahlili için kan verdirmek.",
+     0.6
+    ],
+    [
+     "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+     0.6
+    ],
+    "Buhârî rivayet eder. Râvi İbn Abbâs.",
+    [
+     "Peygamberimiz ihramlıyken de oruçluyken de hacamat olup kan aldırmıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kan vermek bozmaz, kan almak bozar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "26-cunup-sabahlamak",
+   "baslik": "Cünüp sabahlamak",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Cünüp sabahlamak.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Cünüplük oruç tutmaya engel değildir; cünüplük oruçtan önce olmuş olsun ya da oruçluyken ihtilam gibi orucu bozmayan bir sebeple olsun, oruç geçerlidir.",
+    [
+     "Cünüp olan kimse bir an önce yıkanmalı; üzerinden bir namaz vakti geçirmemelidir.",
+     0.8
+    ],
+    [
+     "Örnek: Sahurdan sonra uyuyup cünüp olarak uyanmak.",
+     0.6
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Âişe ve Ümmü Seleme.",
+    [
+     "Hazreti Âişe ve Ümmü Seleme anlatır: Peygamberimiz bazen eşleriyle birlikte olduktan sonra cünüp olarak sabahlar, sonra yıkanır ve oruç tutardı.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Cünüplük oruca engel değil, namaza engeldir; hemen yıkan.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "27-yikanmak",
+   "baslik": "Yıkanmak ve yüzmek",
+   "tur": "Orucu bozmayanlar",
+   "parcalar": [
+    [
+     "Yıkanmak ve yüzmek.",
+     0.5
+    ],
+    [
+     "Bu durum orucu bozmaz.",
+     0.6
+    ],
+    "Ağız ve burundan su girip mideye ulaşmadıkça yıkanmak orucu bozmaz; denize girmek de bu şartla orucu bozmaz.",
+    [
+     "Yüzerken dalgayla su yutma ihtimali yüksek olduğu için oruçluyken denize girmekten kaçınmak daha ihtiyatlıdır.",
+     0.8
+    ],
+    [
+     "Örnek: İkindi vakti duş almak, ağzına ve burnuna su kaçırmamak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Su tende kalırsa bozmaz, mideye inerse bozar.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "28-tatmak",
+   "baslik": "Tatmak ve çiğnemek",
+   "tur": "Mekruh olanlar",
+   "parcalar": [
+    [
+     "Mekruh olanlar.",
+     0.8
+    ],
+    [
+     "Tatmak ve çiğnemek.",
+     0.5
+    ],
+    [
+     "Hükmü: mekruhtur, kaçınılması istenir.",
+     0.6
+    ],
+    "Oruçluyken bir şeyi tatmak ya da çiğnemek mekruhtur; çünkü ağza alınan şeyin yutulma tehlikesi vardır.",
+    [
+     "Tadılan ya da çiğnenen şeyden boğaza bir şey inerse oruç bozulur.",
+     0.8
+    ],
+    [
+     "Örnek: Pişen yemeğin tuzuna bakmak için kaşıkla tatmak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ağza alma ki boğaza kaçmasın.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "29-gucsuz-dusurmek",
+   "baslik": "Güçsüz düşüren işler",
+   "tur": "Mekruh olanlar",
+   "parcalar": [
+    [
+     "Güçsüz düşüren işler.",
+     0.5
+    ],
+    [
+     "Hükmü: mekruhtur, kaçınılması istenir.",
+     0.6
+    ],
+    "Orucu bozmamakla birlikte oruçlunun direncini kıran ve onu güçsüz düşüren, çok kan aldırmak gibi şeyler mekruhtur.",
+    [
+     "Yalnızca serinlemek için yıkanmak da oruç anlayışına uymadığı gerekçesiyle mekruh sayılmıştır; temizlik ya da gusül için yıkanmak ise mekruh değildir.",
+     0.8
+    ],
+    [
+     "Örnek: Oruçluyken halsiz bırakacak kadar çok kan aldırmak.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Orucu koru, kendini de yorma.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "30-yolcu",
+   "baslik": "Yolcu",
+   "tur": "Ruhsatlar",
+   "parcalar": [
+    [
+     "Ruhsatlar.",
+     0.8
+    ],
+    [
+     "Yolcu.",
+     0.5
+    ],
+    [
+     "Bu durumda oruç tutmamaya ruhsat vardır.",
+     0.6
+    ],
+    "Ramazan’da sefer mesafesi olan en az doksan kilometrelik bir yere gidecek kimse geceden oruca niyet etmeyebilir; tutamadığı günleri sonra kaza eder.",
+    "Niyet ettikten sonra gündüz yola çıkan kimse başka bir mazereti yoksa orucunu bozmamalıdır; bozarsa kefaret değil, yalnız kaza gerekir.",
+    "Yolculukta bir sıkıntı çekmeyen ve zarar görmeyecek olanın oruç tutması daha faziletlidir.",
+    [
+     "Sürekli yola giden kaptan ve şoförler de yolcu hükmündedir.",
+     0.8
+    ],
+    [
+     "Şâfiî ve Hanbelî mezheplerine göre geceden niyet edilmiş oruç da yolculuk sırasında bozulabilir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+    "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+    "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+    "Allah size kolaylık ister, zorluk istemez.",
+    [
+     "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Hazreti Âişe.",
+    "Çok oruç tutan Hamza bin Amr el-Eslemî, yolculukta oruç tutup tutmayacağını sordu.",
+    [
+     "Peygamberimiz Dilersen tut, dilersen tutma buyurdu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yolculuk ruhsattır; kolaysa tutmak daha faziletlidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "31-hasta",
+   "baslik": "Hasta",
+   "tur": "Ruhsatlar",
+   "parcalar": [
+    [
+     "Hasta.",
+     0.5
+    ],
+    [
+     "Bu durumda oruç tutmamaya ruhsat vardır.",
+     0.6
+    ],
+    "Oruç tuttuğunda hastalığının artmasından ya da uzamasından endişe eden, ya da hastalığı yüzünden oruçta zorlanan kimse oruç tutmayabilir; başladığı orucu da bozabilir.",
+    "Oruç tutarsa hasta olacağını doktorun bildirdiği kimse de hasta hükmündedir.",
+    "Hastalık geçiciyse iyileşince tutamadığı günleri kaza eder; kalıcıysa her gün için fidye verir.",
+    [
+     "Açlık ya da susuzluktan sağlığı ciddi zarar görecek kimse orucunu bozabilir; ölüm tehlikesi açıksa oruca devam etmesi haram olur.",
+     0.8
+    ],
+    [
+     "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen beşinci ayetin anlamı şöyledir.",
+    "Ramazan ayı, ki onda Kuran, insanlara yol gösterici ve doğruyu yanlıştan ayırıcı belgeler olarak indirildi.",
+    "Sizden bu ayı idrak eden, onda oruç tutsun; hasta veya yolculukta olan, tutamadığı günlerin sayısınca diğer günlerde tutsun.",
+    "Allah size kolaylık ister, zorluk istemez.",
+    [
+     "Bu kolaylıkları, sayıyı tamamlamanız ve size yol gösterdiğine karşılık O'nu ululamanız için meşru kılmıştır; ola ki şükredersiniz.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah kolaylık ister, zorluk istemez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "32-hamile-emzikli",
+   "baslik": "Hamile ve emzikli",
+   "tur": "Ruhsatlar",
+   "parcalar": [
+    [
+     "Hamile ve emzikli.",
+     0.5
+    ],
+    [
+     "Bu durumda oruç tutmamaya ruhsat vardır.",
+     0.6
+    ],
+    "Hamile ya da emzikli kadın, oruç tutarsa kendisine ya da çocuğuna zarar gelmesinden korkarsa oruç tutmayabilir; zarar ihtimali kuvvetliyse tutmaması gerekir.",
+    "Kendisi dayanabilecek ve çocuk etkilenmeyecekse oruç tutabilir; bu konuda uzman bir hekime danışmak uygun olur.",
+    [
+     "Tutamadığı oruçları, durumu elverişli olunca kaza eder.",
+     0.8
+    ],
+    [
+     "Sağlıkla ilgili durumlarda doktorunuza ve müftülüğe danışın.",
+     0.6
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Anne ve bebeğin sağlığı önce gelir; oruç sonra kaza edilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "33-yasli",
+   "baslik": "Yaşlı",
+   "tur": "Ruhsatlar",
+   "parcalar": [
+    [
+     "Yaşlı.",
+     0.5
+    ],
+    [
+     "Bu durumda oruç tutmamaya ruhsat vardır.",
+     0.6
+    ],
+    "Oruç tutamayacak kadar yaşlı olan kimse oruç tutmaz; tutamadığı her gün için bir fidye verir.",
+    "İyileşme ümidi olmayan hasta da bu hükümdedir.",
+    "Uzun günlerde tutamayıp kısa günlerde tutabilen kimse fidye vermez, kısa günlerde kaza eder.",
+    [
+     "Fidye verecek gücü olmayan kimse Allah’tan af diler; kimse gücünün üstünde bir şeyle yükümlü değildir.",
+     0.8
+    ],
+    "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+    "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+    "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+    "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+    [
+     "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gücü yetmeyene fidye, gücü yetene oruç.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "34-cocuk",
+   "baslik": "Çocuk ve oruç",
+   "tur": "Ruhsatlar",
+   "parcalar": [
+    [
+     "Çocuk ve oruç.",
+     0.5
+    ],
+    "Ergenlik çağına girmemiş çocuk ibadetlerle yükümlü değildir; oruç ona farz değildir.",
+    "Çocuğu oruca ısındırmak için ara ara oruç tutmaya teşvik etmek güzeldir.",
+    "Diyanet İlmihali, bedeni elverdiği ölçüde çocuğun sekiz dokuz yaşından itibaren oruca alıştırılmasını uygun görür.",
+    [
+     "Çocuk henüz yükümlü olmadığı için tuttuğu oruç onun için güzel bir alıştırmadır; zorlanıp tamamlayamazsa günah işlemiş olmaz.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Rubeyyi binti Muavviz.",
+    "Rubeyyi binti Muavviz anlatır: Aşure günü biz oruç tutar, çocuklarımıza da oruç tuttururduk.",
+    [
+     "Onlara yünden oyuncaklar yapardık; biri yemek için ağlarsa iftar vaktine kadar o oyuncağı verirdik.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Çocuk için oruç bir borç değil, güzel bir alıştırmadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "35-kaza",
+   "baslik": "Kaza orucu",
+   "tur": "Kaza, kefaret, fidye",
+   "parcalar": [
+    [
+     "Kaza, kefaret, fidye.",
+     0.8
+    ],
+    [
+     "Kaza orucu.",
+     0.5
+    ],
+    [
+     "Hükmü: farzdır.",
+     0.6
+    ],
+    "Ramazan’da tutulamayan ya da başlanıp bozulan her gün için sonra bir gün oruç tutulur; buna kaza denir ve kaza etmek de farzdır.",
+    "Kaza oruçlarının peş peşe tutulması gerekmez; bayram günleri dışında her zaman tutulabilir.",
+    "Kişi ne zaman öleceğini bilmediği için geciktirmemek uygun olur.",
+    "Çok sayıda kaza borcu olan Üzerimde borç olan ilk orucun kazasına diye niyet edebilir.",
+    [
+     "Şevval’de kazaya niyetle tutulan oruç kaza yerine geçer.",
+     0.8
+    ],
+    [
+     "Şâfiî mezhebine göre kaza bir sonraki Ramazan’a kadar tutulmalıdır; tutulmazsa kazaya ek olarak fidye de gerekir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+    "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+    "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+    "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+    [
+     "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bir güne bir gün; ne kadar erken, o kadar iyi.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "36-kefaret",
+   "baslik": "Oruç kefareti",
+   "tur": "Kaza, kefaret, fidye",
+   "parcalar": [
+    [
+     "Oruç kefareti.",
+     0.5
+    ],
+    "Oruç kefareti, Ramazan orucunu mazeretsiz ve bilerek bozan kimsenin yerine getirmesi gereken telafidir.",
+    "Kefaret, iki kamerî ay ya da altmış gün ara vermeden oruç tutmaktır; buna gücü yetmeyen altmış yoksulu bir gün ya da bir yoksulu altmış gün doyurur.",
+    "Hanefîlere göre bu sıraya uyulur.",
+    "Kefaretin yanında bozulan günün kazası ve tövbe de gerekir.",
+    "Kadının âdet ve lohusalık hâli kefaret orucunun ardı ardınalığını bozmaz; temizlenince kaldığı yerden devam eder.",
+    [
+     "Aynı Ramazan’da birden fazla gün bozulmuşsa bir kefaret yeterli görülmüştür.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Ramazan’da orucunu bozan adama Peygamberimiz sırasıyla köle azat etmeyi, iki ay peş peşe oruç tutmayı ve altmış yoksulu doyurmayı sordu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kefaret: altmış gün oruç ya da altmış yoksula yemek.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "37-fidye",
+   "baslik": "Oruç fidyesi",
+   "tur": "Kaza, kefaret, fidye",
+   "parcalar": [
+    [
+     "Oruç fidyesi.",
+     0.5
+    ],
+    "Fidye, oruç tutmaya gücü yetmeyen yaşlılar ile iyileşme ümidi olmayan hastaların tutamadıkları her gün için verdikleri bedeldir.",
+    "Bir günün fidyesi bir fıtır sadakası kadardır, yani bir kişiyi bir gün doyuracak yiyecek ya da bunun parasıdır.",
+    "Fidye Ramazan’ın başında, içinde ya da sonunda verilebilir; hepsi bir yoksula topluca ya da ayrı ayrı yoksullara verilebilir.",
+    "Kişinin anne babası, dede ve ninesi, çocukları ve torunları ile eşine verilmez.",
+    "Gücü yettiği hâlde oruç tutmayan ya da geçici bir mazeretle tutamayan kimse için fidye yoktur; o, orucunu kaza eder.",
+    "Fidye veren kimse sonradan oruç tutabilecek duruma gelirse Hanefîlere göre tutamadığı oruçları kaza eder ve verdiği fidye sadaka sayılır.",
+    [
+     "Fidye verecek gücü olmayan kimse Allah’tan bağışlanma diler.",
+     0.8
+    ],
+    [
+     "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir günlük oruç fidyesi için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+     0.6
+    ],
+    "Bakara Suresi, yüz seksen üçüncü ve yüz seksen dördüncü ayetlerin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Oruç, sizden öncekilere farz kılındığı gibi, Allah'a karşı gelmekten sakınasınız diye, size sayılı günlerde farz kılındı.",
+    "İçinizden hasta olan veya yolculukta bulunan, tutamadığı günlerin sayısınca diğer günlerde tutar.",
+    "Oruca dayanamıyanlar, bir düşkünü doyuracak kadar fidye verir.",
+    "Kim gönülden iyilik yaparsa o iyilik kendisinedir.",
+    [
+     "Oruç tutmanız eğer bilirseniz sizin için hayırlıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fidye, oruca gücü hiç yetmeyenin kolaylığıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "38-sevval",
+   "baslik": "Şevval’de altı gün",
+   "tur": "Nafile oruçlar",
+   "parcalar": [
+    [
+     "Nafile oruçlar.",
+     0.8
+    ],
+    [
+     "Şevval’de altı gün.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Ramazan’dan sonra Şevval ayında altı gün oruç tutmak müstehaptır; bu günler peş peşe ya da ara verilerek tutulabilir.",
+    "Şevval’de nafile olarak tutulan oruç Ramazan’ın kazası yerine geçmez; kazaya niyet edilirse kaza orucu olur.",
+    "Bir oruçta hem kazaya hem nafileye niyet edilmez.",
+    [
+     "Bayramın birinci gününde oruç tutulmaz.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Eyyûb el-Ensârî.",
+    [
+     "Kim Ramazan orucunu tutar, ardından ona Şevval’den altı gün eklerse bütün yılı oruçlu geçirmiş gibi olur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ramazan’ın ardından altı gün: bütün yıl gibi.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "39-arefe",
+   "baslik": "Arefe günü",
+   "tur": "Nafile oruçlar",
+   "parcalar": [
+    [
+     "Arefe günü.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Kurban Bayramı’ndan önceki gün olan Zilhicce’nin dokuzuncu günü Arefe günüdür; bu günde oruç tutmak tavsiye edilmiştir.",
+    "Zilhicce’nin ilk dokuz gününü oruçlu geçirmek de müstehaptır.",
+    [
+     "Hacda bulunanların ise güçsüz düşmemek için Arefe günü oruç tutmamaları uygun görülmüştür.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Katâde.",
+    [
+     "Arefe günü orucunun önceki ve sonraki birer yılın günahlarına kefaret olmasını Allah’tan umarım.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bir günlük oruç, iki yıllık umut.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "40-asure",
+   "baslik": "Aşure günü",
+   "tur": "Nafile oruçlar",
+   "parcalar": [
+    [
+     "Aşure günü.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Muharrem ayının onuncu günü Aşure günüdür; Peygamberimiz bu günde oruç tutmayı tavsiye etmiştir.",
+    [
+     "Yahudiler yalnızca onuncu günü oruç tuttuğu için onlara benzememek amacıyla bir gün öncesi ya da sonrasıyla birlikte, yani dokuz ve on ya da on ve on bir Muharrem tutulması uygundur.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi İbn Abbâs.",
+    "Peygamberimiz Medine’ye geldiğinde Yahudilerin Aşure günü oruç tuttuğunu gördü.",
+    "Allah’ın Mûsâ’yı düşmanından kurtardığı gündür dediler.",
+    [
+     "Peygamberimiz Mûsâ’ya ben sizden daha yakınım buyurdu, o gün oruç tuttu ve tutulmasını emretti.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi İbn Abbâs.",
+    [
+     "Gelecek yıla yetişirsem dokuzuncu günü de mutlaka oruç tutacağım.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Katâde.",
+    [
+     "Aşure günü orucunun önceki yılın günahlarına kefaret olmasını Allah’tan umarım.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Aşure tek başına değil, yanına bir gün eklenerek tutulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "41-uc-gun",
+   "baslik": "Her ay üç gün",
+   "tur": "Nafile oruçlar",
+   "parcalar": [
+    [
+     "Her ay üç gün.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Her aydan üç gün oruç tutmak müstehaptır; bunu kamerî ayın on üç, on dört ve on beşinci günlerinde yapmak ayrıca tavsiye edilmiştir.",
+    "Bu günlere eyyâm-ı bîz denir.",
+    [
+     "İyiliğe on kat karşılık verildiği için her ay üç gün oruç bütün yıl oruç tutmak gibi sayılmıştır.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Dostum Peygamberimiz bana üç şeyi tavsiye etti: Her ay üç gün oruç tutmayı, iki rekât kuşluk namazını ve uyumadan önce vitir kılmayı.",
+     0.8
+    ],
+    "Tirmizî rivayet eder. Râvi Ebû Zer.",
+    "Ey Ebû Zer!",
+    "Her aydan üç gün oruç tutacaksan on üç, on dört ve on beşinci günleri tut.",
+    [
+     "Elbânî ve Ahmed Şâkir hasen sahih saymıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ayın dolunay günleri, orucun da güzel günleridir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "42-pazartesi-persembe",
+   "baslik": "Pazartesi ve perşembe",
+   "tur": "Nafile oruçlar",
+   "parcalar": [
+    [
+     "Pazartesi ve perşembe.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Her hafta pazartesi ve perşembe günleri oruç tutmak teşvik edilmiş bir nafiledir.",
+    [
+     "Peygamberimiz pazartesinin doğduğu ve kendisine vahyin geldiği gün olduğunu söylemiş; amellerin pazartesi ve perşembe günleri Allah’a sunulduğunu, amelinin oruçluyken sunulmasını sevdiğini bildirmiştir.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Katâde.",
+    "Peygamberimize pazartesi orucu soruldu.",
+    [
+     "O gün doğdum ve o gün bana vahiy indirildi buyurdu.",
+     0.8
+    ],
+    "Tirmizî rivayet eder. Râvi Ebû Hüreyre.",
+    "Ameller pazartesi ve perşembe günleri Allah’a sunulur; amelimin oruçluyken sunulmasını severim.",
+    [
+     "Elbânî ve Ahmed Şâkir sahih saymıştır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Haftada iki gün, amelin oruçla sunulsun.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "43-davud-orucu",
+   "baslik": "Dâvûd orucu",
+   "tur": "Nafile oruçlar",
+   "parcalar": [
+    [
+     "Dâvûd orucu.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Gün aşırı oruç tutmak, yani bir gün tutup ertesi gün tutmamak Peygamberimiz tarafından Dâvûd aleyhisselamın orucu olarak anılmış ve en faziletli oruç olarak bildirilmiştir.",
+    [
+     "Peygamberimiz bundan daha faziletli bir oruç olmadığını bildirmiş ve daha fazlasını tutmaya çalışmamayı tavsiye etmiştir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Abdullah bin Amr.",
+    "Bir gün oruç tut, bir gün tutma.",
+    "Bu, Dâvûd peygamberin orucudur ve oruçların en faziletlisidir.",
+    [
+     "Bundan daha faziletlisi yoktur.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İbadette de ölçü: bir gün tut, bir gün dinlen.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "44-muharrem-saban",
+   "baslik": "Muharrem ve Şaban",
+   "tur": "Nafile oruçlar",
+   "parcalar": [
+    [
+     "Muharrem ve Şaban.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Ramazan’dan sonra en faziletli oruç, Allah’ın ayı denilen Muharrem’de tutulan oruçtur.",
+    "Peygamberimiz Ramazan dışında en çok Şaban ayında oruç tutmuştur; fakat Ramazan’dan başka hiçbir ayın tamamını oruçlu geçirmemiştir.",
+    [
+     "Bu yüzden üç ayları aralıksız oruçla geçirmenin dinî bir dayanağı yoktur.",
+     0.8
+    ],
+    "Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Ramazan’dan sonra en faziletli oruç, Allah’ın ayı Muharrem’de tutulan oruçtur.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+    [
+     "Peygamberimizin Ramazan dışında bir ayın tamamını oruçlu geçirdiğini görmedim; Şaban’dan daha çok oruç tuttuğu bir ay da görmedim.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nafile oruç gönülden tutulur, ölçüyü kaçırmadan.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "45-bayram-gunleri",
+   "baslik": "Bayram günleri",
+   "tur": "Tutulmayan günler",
+   "parcalar": [
+    [
+     "Tutulmayan günler.",
+     0.8
+    ],
+    [
+     "Bayram günleri.",
+     0.5
+    ],
+    "Ramazan Bayramı’nın birinci gününde ve Kurban Bayramı’nın dört gününde oruç tutmak yasaktır; Diyanet bunu tahrîmen mekruh olarak bildirir, İlmihal’de haram diye de geçer.",
+    "Bayramlar yeme, içme ve sevinç günleridir.",
+    "Ramazan Bayramı bir aylık orucun ardından verilen genel bir iftar sofrası gibidir; Kurban Bayramı da kurbanların kesildiği ziyafet günleridir.",
+    [
+     "Kaza orucu da bu günlerde tutulmaz.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Hazreti Ömer.",
+    [
+     "Hazreti Ömer bayram namazından sonra şöyle dedi: Resûlullah sallallahu aleyhi ve sellem bu iki günde oruç tutmayı yasakladı: Orucunuzu bitirdiğiniz bayram günü ve kurbanlarınızdan yediğiniz gün.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bayram, Allah’ın sofrasıdır; o gün oruç tutulmaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "46-yalniz-cuma",
+   "baslik": "Yalnız cuma günü",
+   "tur": "Tutulmayan günler",
+   "parcalar": [
+    [
+     "Yalnız cuma günü.",
+     0.5
+    ],
+    [
+     "Hükmü: mekruhtur, kaçınılması istenir.",
+     0.6
+    ],
+    "Sadece cuma günü nafile oruç tutmak tenzîhen mekruhtur; çünkü cuma müslümanların haftalık bayramıdır.",
+    [
+     "Bir gün öncesi ya da sonrasıyla birlikte tutmakta, alışılmış orucun cumaya denk gelmesinde ya da cuma günü kaza ve adak orucu tutmakta sakınca yoktur.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Sizden biri, bir gün öncesinde ya da sonrasında da oruç tutmadıkça yalnız cuma günü oruç tutmasın.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Cumayı oruç için ayırma; yanına bir gün ekle.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "47-sek-gunu",
+   "baslik": "Şek günü",
+   "tur": "Tutulmayan günler",
+   "parcalar": [
+    [
+     "Şek günü.",
+     0.5
+    ],
+    [
+     "Hükmü: mekruhtur, kaçınılması istenir.",
+     0.6
+    ],
+    "Şaban’ın yirmi dokuzundan sonraki günün Şaban’a mı Ramazan’a mı ait olduğundan şüphe edilen güne şek günü denir.",
+    "Ramazan’ı karşılamak için ya da Ramazan girmiş olabilir diye bu günde oruç tutmak mekruhtur; Ramazan niyetiyle tutmak tahrîmen mekruhtur.",
+    "Alışkanlık hâline gelmiş orucu bu güne denk gelen kimsenin tutmasında sakınca yoktur.",
+    [
+     "Bugün Ramazan’ın başlangıcı Diyanet’in takvimiyle bilinir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Sizden biri Ramazan’dan bir ya da iki gün önce oruç tutmasın; ancak öteden beri tuttuğu oruç o güne denk gelen tutsun.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ramazan’ı tahminle değil, takvimle başlat.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "48-visal",
+   "baslik": "Visal orucu",
+   "tur": "Tutulmayan günler",
+   "parcalar": [
+    [
+     "Visal orucu.",
+     0.5
+    ],
+    [
+     "Hükmü: mekruhtur, kaçınılması istenir.",
+     0.6
+    ],
+    "İki ya da daha fazla günü arada iftar etmeden birbirine ekleyerek oruç tutmaya visal orucu denir ve mekruhtur.",
+    [
+     "Peygamberimiz ümmetine acıdığı için visal orucunu yasaklamıştır.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Enes bin Mâlik.",
+    "Visal orucu tutmayın.",
+    "Ama sen tutuyorsun dediler.",
+    [
+     "Ben sizden biri gibi değilim; ben yedirilir ve içirilirim buyurdu.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her orucun bir iftarı vardır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "49-teravih",
+   "baslik": "Teravih namazı",
+   "tur": "Ramazan’ın ibadetleri",
+   "parcalar": [
+    [
+     "Ramazan’ın ibadetleri.",
+     0.8
+    ],
+    [
+     "Teravih namazı.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "Teravih, Ramazan ayına mahsus olarak yatsı namazından sonra ve vitirden önce kılınan namazdır; kadın ve erkek için müekked sünnettir.",
+    "Orucun değil, Ramazan ayının sünnetidir.",
+    [
+     "Teravih yirmi rekâttır ve on selamla kılınır; cemaatle kılınması kifâye sünnetidir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Kim inanarak ve sevabını Allah’tan umarak Ramazan gecelerini namazla ihya ederse geçmiş günahları bağışlanır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ramazan’ın gündüzü oruçla, gecesi teravihle ihya edilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "50-itikaf",
+   "baslik": "İtikâf",
+   "tur": "Ramazan’ın ibadetleri",
+   "parcalar": [
+    [
+     "İtikâf.",
+     0.5
+    ],
+    [
+     "Hükmü: sünnettir.",
+     0.6
+    ],
+    "İtikâf, ibadet niyetiyle bir mescitte belirli kurallara uyarak kalmaktır.",
+    "Peygamberimiz Ramazan’ın son on gününde itikâfa girerdi; Hanefîler bunu kifâye niteliğinde müekked sünnet saymıştır.",
+    "İtikâftaki kimse vaktini namaz, Kur’an, dua, zikir ve tefekkürle geçirir; zorunlu ihtiyaçları için dışarı çıkar ve hemen döner.",
+    [
+     "Kadınlar evlerinin bir odasında itikâfa girebilir.",
+     0.8
+    ],
+    "Bakara Suresi, yüz seksen yedinci ayetin anlamı şöyledir.",
+    "Oruç tuttuğunuz günlerin gecesi kadınlarınıza yaklaşmanız size helal kılındı, onlar sizin örtünüz, siz de onların örtülerisiniz.",
+    "Allah, nefsinize güvenemiyeceğinizi biliyordu, bu sebeple tevbenizi kabul edip sizi affetti; artık onlara yaklaşabilirsiniz.",
+    "Allah'ın sizin için takdir ettiğini dileyin.",
+    "Tan yerinde, beyaz iplik siyah iplikten sizce ayırdedilinceye kadar, yiyin için, sonra orucu geceye kadar tamamlayın.",
+    "Mescidlerde itikafa çekildiğinizde kadınlarınıza yaklaşmayın.",
+    [
+     "Allah insanlara yasaklardan sakınsınlar diye ayetlerini böylece apaçık bildirir.",
+     0.8
+    ],
+    "Buhârî ve Müslim rivayet eder. Râvi Hazreti Âişe.",
+    [
+     "Peygamberimiz vefat edinceye kadar Ramazan’ın son on gününde itikâfa girerdi; ondan sonra eşleri de itikâfa girdi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Son on gün, kalbi dünyadan bir süre ayırma vaktidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "51-kadir-gecesi",
+   "baslik": "Kadir Gecesi",
+   "tur": "Ramazan’ın ibadetleri",
+   "parcalar": [
+    [
+     "Kadir Gecesi.",
+     0.5
+    ],
+    "Kadir Gecesi, Kur’an’ın indirildiği ve bin aydan hayırlı olduğu bildirilen gecedir.",
+    [
+     "Peygamberimiz bu geceyi Ramazan’ın son on gecesinin tek gecelerinde aramayı tavsiye etmiştir; bu yüzden son on gece ibadetle değerlendirilir.",
+     0.8
+    ],
+    "Kadr Suresi, birinci ve beşinci ayetlerin anlamı şöyledir.",
+    [
+     "Doğrusu, Biz, Kuran'ı kadir gecesinde indirmişizdir Kadir gecesinin ne olduğunu sen bilir misin Kadir gecesi bin aydan hayırlıdır Melekler ve Cebrail o gecede Rablerinin izniyle her türlü iş için inerler O gece, tan yerinin ağarmasına kadar bir esenliktir.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Hazreti Âişe.",
+    [
+     "Kadir Gecesi’ni Ramazan’ın son on gününün tek gecelerinde arayın.",
+     0.8
+    ],
+    "Buhârî rivayet eder. Râvi Ebû Hüreyre.",
+    [
+     "Kim Kadir Gecesi’ni inanarak ve sevabını Allah’tan umarak ihya ederse geçmiş günahları bağışlanır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bin aydan hayırlı bir gece: son on gecede ara.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "52-fitir-sadakasi",
+   "baslik": "Fıtır sadakası (fitre)",
+   "tur": "Ramazan’ın ibadetleri",
+   "parcalar": [
+    [
+     "Fıtır sadakası, fitre.",
+     0.5
+    ],
+    "Halk arasında fitre denen fıtır sadakası, dinen zengin olup Ramazan’ın sonuna ulaşan müslümanın vermesi vacip olan sadakadır.",
+    "Kişi kendisinin ve küçük çocuklarının fitresini verir.",
+    "Bayram namazından önce verilmesi müstehaptır; Ramazan’ın ilk günlerinde vermek de caizdir.",
+    "Kişinin bakmakla yükümlü olduğu yakınlarına ve eşine verilmez.",
+    [
+     "Fitrenin ve zekâtın ayrıntıları Zekât ve Sadaka Rehberi’ndedir.",
+     0.8
+    ],
+    [
+     "Din İşleri Yüksek Kurulu, yedi Ocak iki bin yirmi altı tarihinde bir kişinin fıtır sadakası için en az iki yüz kırk Türk lirası belirledi. Bu tutar iki bin yirmi altı Ramazan’ından iki bin yirmi yedi Ramazan’ına kadar geçerlidir.",
+     0.6
+    ],
+    "Buhârî rivayet eder. Râvi Abdullah bin Ömer.",
+    [
+     "Peygamberimiz köle ya da hür, erkek ya da kadın, küçük ya da büyük her müslümana fıtır sadakası olarak bir sâ hurma ya da bir sâ arpa vermeyi farz kıldı ve insanlar bayram namazına çıkmadan önce verilmesini emretti.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Fitre, bayram sevincini yoksulla paylaşmaktır.",
+     1
+    ]
+   ]
+  }
+ ]
+}

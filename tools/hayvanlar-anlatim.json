@@ -1,0 +1,2008 @@
+{
+ "_aciklama": "Kur’an’da Hayvanlar sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt (giris, her hayvan için <sıra>-<id>, merhamet). Her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça ayet metni ve okunuş seslendirilmez, meali okunur. Bu dosya tools/hayvanlar-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Kur’an’da Hayvanlar: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-karinca",
+   "02-hudhud",
+   "03-dortkus",
+   "04-balik",
+   "05-disideve",
+   "06-inek",
+   "07-kurt",
+   "08-kopek",
+   "09-karga",
+   "10-fil",
+   "11-ebabil",
+   "12-ari",
+   "13-orumcek",
+   "14-sivrisinek",
+   "15-deve",
+   "merhamet"
+  ],
+  "parcalar": [
+   [
+    "Kur’an’da Hayvanlar.",
+    0.8
+   ],
+   "Kur’an’da adı geçen on beş hayvanı tanıyacağız.",
+   [
+    "Onları üç bölümde dinleyeceğiz: peygamber kıssalarında, Kur’an’ın anlattığı olaylarda ve örnek ve ibretlerde.",
+    0.6
+   ],
+   "Her hayvanın hangi surede geçtiğini, ayetin ne anlattığını ve bize bıraktığı dersi öğreneceğiz.",
+   "Ayetlerin anlamı, Diyanet İşleri Başkanlığı mealinden okunur.",
+   "Ayetin söylemediği ayrıntıları anlatmayacağız; müfessirlerin farklı görüşleri olan yerlerde bunu ayrıca belirteceğiz.",
+   [
+    "Sonunda, hayvanlara merhamet üzerine Peygamberimizin hadislerini dinleyeceğiz.",
+    1.6
+   ],
+   [
+    "Peygamber kıssalarında.",
+    0.8
+   ],
+   [
+    "Karınca.",
+    0.7
+   ],
+   "Arkadaşlarını tehlikeye karşı uyaran küçük karınca.",
+   "Karınca, Neml suresinde geçer.",
+   [
+    "Bu, Hazreti Süleymân kıssasıdır.",
+    0.7
+   ],
+   "Neml Suresi, on sekizinci ve on dokuzuncu ayetlerin anlamı şöyledir.",
+   "Sonunda, karıncaların bulunduğu vadiye geldiklerinde bir dişi, kraliçe, karınca: Ey karıncalar!",
+   "Yuvalarınıza girin, Süleyman'ın ordusu farkına varmadan sizi ezmesin dedi.",
+   "Süleyman, onun sözüne hafifçe güldü ve: Rabbim!",
+   "Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl.",
+   [
+    "Rahmetinle, beni iyi kullarının arasına koy dedi.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Hazreti Süleymân ordusuyla birlikte karıncaların bulunduğu bir vadiye geldi.",
+   "Bir karınca ötekilere, Yuvalarınıza girin, Süleymân’ın ordusu farkına varmadan sizi ezmesin dedi.",
+   "Hazreti Süleymân karıncanın sözüne hafifçe güldü.",
+   "Kendisine ve anne babasına verilen nimete şükretmeyi, Allah’ın hoşnut olacağı işi yapmayı Rabbinden istedi.",
+   [
+    "Neml suresi adını bu ayette geçen neml, karınca, kelimesinden alır.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Peygamberimiz şöyle anlattı: Önceki peygamberlerden birini bir karınca ısırdı.",
+   "O da karınca yuvasının yakılmasını emretti.",
+   "Bunun üzerine Allah ona: Seni bir karınca ısırdı diye, Allah’ı tesbih eden ümmetlerden bir ümmeti mi yaktın? diye vahyetti.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Karıncalar da Allah’ı tesbih eden bir topluluktur; onlara gereksiz yere zarar verilmez.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Arkadaşını tehlikeye karşı uyarmak da, nimete şükretmek de güzel bir davranıştır.",
+    1.6
+   ],
+   [
+    "Hüdhüd kuşu.",
+    0.7
+   ],
+   "Hazreti Süleymân’a uzak bir ülkeden haber getiren kuş.",
+   "Hüdhüd kuşu, Neml suresinde geçer.",
+   [
+    "Bu, Hazreti Süleymân kıssasıdır.",
+    0.7
+   ],
+   "Neml Suresi, yirminci ile yirmi sekizinci ayetler arasının anlamı şöyledir.",
+   "Süleyman, kuşları araştırarak: Hüdhüd'ü niçin göremiyorum?",
+   "Yoksa kayıplarda mı?",
+   "Bana apaçık bir delil getirmelidir; yoksa onu ya şiddetli bir azaba uğratırım yahut keserim dedi.",
+   "Çok geçmeden Hüdhüd gelip Süleyman'a: Senin bilmediğin bir şeyi öğrendim.",
+   "Sana Sebe'den doğru bir haber getirdim.",
+   "Ora halkına hükmeden, herşeyden kendisine bolca verilen ve büyük bir tahta sahip olan bir kadın buldum; onun ve milletinin Allah'ı bırakıp güneşe secde ettiklerini gördüm.",
+   "Göklerde ve yerde gizli olanları ortaya koyan, gizlediğiniz ve açıkladığınız şeyleri bilen Allah'a secde etmemeleri için şeytan, kendilerine, yaptıklarını güzel göstermiş, onları doğru yoldan alıkoymuştur.",
+   "Bunun için, doğru yolu bulamazlar.",
+   "O çok büyük arşın sahibi olan Allah'tan başka tanrı yoktur dedi.",
+   "Süleyman şöyle söyledi: Doğru mu söylüyorsun, yoksa yalancılardan mısın, bakacağız.",
+   [
+    "Şu yazımı götür, onlara at, sonra bir yana çekil, varacakları sonuca bak.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Hazreti Süleymân kuşları yokladığında hüdhüdü göremedi.",
+   "Hüdhüd çok geçmeden geldi ve Sebe’den doğru bir haber getirdiğini söyledi: Orada halkı bir kadın yönetiyordu; o ve halkı Allah’ı bırakıp güneşe secde ediyordu.",
+   "Hazreti Süleymân haberi hemen kabul etmedi; Doğru mu söylüyorsun, yoksa yalancılardan mısın, bakacağız dedi.",
+   "Sonra hüdhüde bir mektup verip onu Sebe halkına götürmesini istedi.",
+   [
+    "Hüdhüd, başındaki tarak gibi tüyleriyle tanınan bir kuştur; Türkçede ibibik ya da çavuşkuşu da denir.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   [
+    "Hüdhüd hakkında anlatılan başka hikâyeler, adı, yer altındaki suyu görmesi gibi, Kur’an’da geçmez; burada yalnızca ayetlerde anlatılanlar yazılmıştır.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Haber getiren doğru söylemeli, haberi alan da araştırmalıdır.",
+    1.6
+   ],
+   [
+    "Dört kuş.",
+    0.7
+   ],
+   "Hazreti İbrâhîm’e ölülerin nasıl diriltildiğini gösteren dört kuş.",
+   "Dört kuş, Bakara suresinde geçer.",
+   [
+    "Bu, Hazreti İbrâhîm kıssasıdır.",
+    0.7
+   ],
+   "Bakara Suresi, iki yüz altmışıncı ayetin anlamı şöyledir.",
+   "İbrahim: Rabbim!",
+   "Ölüleri nasıl dirilttiğini bana göster dediğinde, İnanmıyor musun? deyince de, Hayır öyle değil, fakat kalbim iyice kansın demişti.",
+   "Öyleyse dört çeşit kuş al, onları kendine alıştır, sonra onları parçalayıp her dağın üzerine bir parça koy, sonra onları çağır; koşarak sana gelirler.",
+   [
+    "O halde Allah'ın güçlü ve Hakim olduğunu bil demişti.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Hazreti İbrâhîm, Rabbinden ölüleri nasıl dirilttiğini kendisine göstermesini istedi.",
+   "İnanmıyor musun? sorusuna, İnanıyorum, fakat kalbim iyice kansın diye cevap verdi.",
+   "Allah ona dört çeşit kuş almasını, onları kendine alıştırmasını, sonra parçalarını dağların üzerine koyup onları çağırmasını bildirdi; kuşlar koşarak ona gelecekti.",
+   [
+    "Ayet, Allah’ın güçlü ve hikmet sahibi olduğunu bil sözüyle biter.",
+    0.7
+   ],
+   [
+    "Görüş farkı.",
+    0.4
+   ],
+   "Diyanet meali ve müfessirlerin çoğu ayeti, kuşların kesilip parçalarının dağlara konduğu biçiminde anlar.",
+   "Ebû Müslim el-İsfahânî gibi bazı müfessirler ise ayette kuşların yalnızca alıştırılıp çağrıldığını söyler.",
+   [
+    "Kuşların hangi türden olduğunu ayet bildirmez.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Peygamberimiz şöyle buyurdu: Bir Müslüman bir ağaç diker ya da ekin eker de ondan bir kuş, bir insan ya da bir hayvan yerse, bu onun için mutlaka bir sadaka olur.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Kuşların ve hayvanların rızıklanmasına vesile olmak bile sevaptır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Soru sormak imanı zayıflatmaz; Hazreti İbrâhîm kalbi iyice kansın diye sordu.",
+    1.6
+   ],
+   [
+    "Balık.",
+    0.7
+   ],
+   "Hazreti Yûnus’u yutan balık.",
+   "Balık, Sâffât ve Enbiyâ surelerinde geçer.",
+   [
+    "Bu, Hazreti Yûnus kıssasıdır.",
+    0.7
+   ],
+   "Sâffât Suresi, yüz otuz dokuzuncu ile yüz kırk sekizinci ayetler arasının anlamı şöyledir.",
+   "Doğrusu Yunus da peygamberlerdendir.",
+   "Dolu bir gemiye kaçmıştı.",
+   "Gemide olanlarla karşılıklı kura çekmişti de yenilenlerden olmuştu, bu sebeple denize atılmıştı.",
+   "Kendini kınarken onu bir balık yutmuştu.",
+   "Eğer Allah'ı tesbih edenlerden olmasaydı, tekrar diriltilecek güne kadar balığın karnında kalacaktı.",
+   "Halsiz bir halde iken kendisini sahile çıkardık.",
+   "Onun için, geniş yapraklı bir bitki yetiştirdik.",
+   "Onu, yüzbin veya daha çok kişiye peygamber olarak gönderdik.",
+   [
+    "Sonunda ona inandılar, bunun üzerine Biz de onları bir süreye kadar geçindirdik.",
+    0.7
+   ],
+   "Enbiyâ Suresi, seksen yedinci ve seksen sekizinci ayetlerin anlamı şöyledir.",
+   "Zünnun, Balık Sahibi; Yunus, hakkında söylediğimizi de an.",
+   "O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslenmişti.",
+   [
+    "Biz de ona cevap verip, onu üzüntüden kurtarmıştık. inananları böyle kurtarırız.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Hazreti Yûnus kavminden öfkeyle ayrılıp dolu bir gemiye bindi.",
+   "Gemide çekilen kurada yenilenlerden oldu ve denize atıldı; onu bir balık yuttu.",
+   "Hazreti Yûnus karanlıklar içinde, Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslendi.",
+   "Allah onun duasını kabul edip onu üzüntüden kurtardı ve sahile çıkardı.",
+   "Allah’ı tesbih edenlerden olmasaydı, diriliş gününe kadar balığın karnında kalacaktı.",
+   "Kur’an ona Zünnûn, balık sahibi, da der.",
+   [
+    "Balığın türünü ayet bildirmez.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hatasını kabul edip Allah’a yönelen, sıkıntıdan kurtulur.",
+    1.6
+   ],
+   [
+    "Dişi deve.",
+    0.7
+   ],
+   "Semûd kavmine Allah’ın bir delili olarak gösterilen dişi deve.",
+   "Dişi deve, Şems ve Arâf surelerinde geçer.",
+   [
+    "Bu, Hazreti Sâlih kıssasıdır.",
+    0.7
+   ],
+   "Şems Suresi, on birinci ile on beşinci ayetler arasının anlamı şöyledir.",
+   "Semud milleti, içlerinden en azgını ileri atılınca, azgınlığı yüzünden peygamberleri yalanladı.",
+   "Allah'ın peygamberi onlara, Allah'ın devesini göstermiş ve: Allah'ın bu devesine ve onun su hakkına dokunmayın demişti.",
+   "Onu yalanladılar ve deveyi boğazladılar.",
+   "Bunun üzerine Rableri, suçlarından dolayı onların üzerine katmerli azap indirdi; yerle bir etti onları.",
+   [
+    "Bu işin sonundan O'nun korkusu yoktur.",
+    0.7
+   ],
+   "Arâf Suresi, yetmiş üçüncü ayetin anlamı şöyledir.",
+   "Semud milletine de kardeşleri Salih'i gönderdik.",
+   "Ey milletim!",
+   "Allah'a kulluk edin, O'ndan başka tanrınız yoktur.",
+   [
+    "Rabbinizden size bir belge geldi: Allah'ın bu dişi devesi size bir delildir, onu bırakın, Allah'ın toprağında otlasın; ona kötülük etmeyin, yoksa can yakıcı azaba uğrarsınız.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Hazreti Sâlih, Semûd kavmine peygamber olarak gönderildi.",
+   "Allah’ın bir delili olarak onlara bir dişi deve gösterildi.",
+   "Hazreti Sâlih kavmine, Onu bırakın, Allah’ın toprağında otlasın; ona kötülük etmeyin dedi.",
+   "Kavmine, devenin ve onun su içme hakkının korunması söylenmişti.",
+   "Fakat içlerinden en azgını ileri atıldı ve deveyi boğazladılar.",
+   "Bunun üzerine Rableri onları suçları yüzünden azaba uğrattı.",
+   [
+    "Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre Semûd kavmi, Suriye ile Hicaz arasındaki Hicr bölgesinde yaşıyordu.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Müslümanlar Peygamberimizle birlikte Semûd kavminin yurdu Hicr’de konakladılar; oranın kuyusundan su çekip onunla hamur yoğurdular.",
+   "Peygamberimiz çektikleri suyu dökmelerini, hamuru da develere yedirmelerini emretti; dişi devenin su içmeye geldiği kuyudan su almalarını söyledi.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Peygamberimiz, Tebük seferi sırasında Semûd’un yurdundan geçerken dişi devenin kuyusunu ayırdı.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah’ın korunmasını istediği canlıya dokunmamak, O’nun emrine saygıdır.",
+    1.6
+   ],
+   [
+    "İnek.",
+    0.7
+   ],
+   "Hazreti Mûsâ’nın kavmine kesilmesi emredilen inek.",
+   "İnek, Bakara suresinde geçer.",
+   [
+    "Bu, Hazreti Mûsâ kıssasıdır.",
+    0.7
+   ],
+   "Bakara Suresi, altmış yedinci ile yetmiş birinci ayetler arasının anlamı şöyledir.",
+   "Musa milletine: Allah muhakkak bir sığır boğazlamanızı buyuruyor demişti; Bizi alaya mı alıyorsun? dediklerinde de: Cahillerden olmaktan Allah'a sığınırım dedi.",
+   "Rabbine bizim adımıza yalvar da onun mahiyetini bize bildirsin dediler, O, onun ne pek kart, ne pek körpe, ikisi ortası bir sığır olduğunu söylüyor, size emrolunanı yapın dedi.",
+   "Rabbine bizim adımıza yalvar da ne renk olduğunu bize bildirsin dediler.",
+   "O, onun, bakanların içini açan parlak sarı renkli bir sığır olduğunu söylüyor dedi.",
+   "Rabbine bizim adımıza yalvar da, mahiyetini bize bildirsin, çünkü sığırlar, bizce, birbirine benzemektedir.",
+   "Allah dilerse biz şüphesiz doğruyu bulmuş oluruz dediler.",
+   "Yeri sürüp, ekini sulayarak boyunduruk altında ezilmemiş, kusursuz, alacasız bir sığır olduğunu söylüyor dedi.",
+   [
+    "Şimdi gerçeği bildirdin deyip sığırı boğazladılar; az kalsın bunu yapmayacaklardı.",
+    0.7
+   ],
+   "Bakara Suresi, yetmiş ikinci ve yetmiş üçüncü ayetlerin anlamı şöyledir.",
+   "Siz bir kimseyi öldürmüş ve bunu birbirinize atmıştınız; oysa Allah gizlemekte olduğunuzu ortaya çıkaracaktı.",
+   "Sığırın bir parçasıyla ona vurun dedik.",
+   [
+    "İşte böylece Allah ölüleri diriltir ve aklınızı kullanasınız diye size ayetlerini gösterir.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "İsrâiloğulları arasında bir kişi öldürülmüş, suç birbirlerinin üzerine atılıyordu.",
+   "Hazreti Mûsâ, Allah’ın onlara bir inek kesmelerini emrettiğini bildirdi.",
+   "Kavmi emri hemen yerine getirmedi; ineğin yaşını, rengini ve özelliklerini tekrar tekrar sordular.",
+   "Sonunda ineği kestiler; ama az kalsın bunu yapmayacaklardı.",
+   "Ardından ineğin bir parçasıyla öldürülen kişiye vurulması emredildi; ayet, Allah’ın gizlenen şeyi ortaya çıkardığını ve ölüleri böyle dirilttiğini bildirir.",
+   "Bakara suresi adını bu kıssadan alır; bakara inek, sığır demektir.",
+   [
+    "Diyanet meali bu ayetlerde sığır der.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Peygamberimiz şöyle buyurdu: Allah her şeyde iyiliği, ihsanı, emretmiştir.",
+   "Bir hayvan kestiğinizde onu güzel kesin.",
+   "Her biriniz bıçağını iyice bilesin ve kestiği hayvanı rahat ettirsin.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Kesilen hayvana bile acı çektirilmez; iyilik her işte gözetilir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Emri bahanelerle zorlaştırmak yerine güzelce yerine getirmek gerekir.",
+    1.6
+   ],
+   [
+    "Kurt.",
+    0.7
+   ],
+   "Hazreti Yûsuf’un kardeşlerinin suçu üzerine attığı kurt.",
+   "Kurt, Yûsuf suresinde geçer.",
+   [
+    "Bu, Hazreti Yûsuf kıssasıdır.",
+    0.7
+   ],
+   "Yûsuf Suresi, on üçüncü ile on sekizinci ayetler arasının anlamı şöyledir.",
+   "Babaları, Onu götürmeniz beni üzüyor; siz farkına varmadan onu kurdun yemesinden korkarım dedi.",
+   "And olsun ki, biz kuvvetli bir toplulukken kurt onu yerse, biz aciz sayılırız dediler.",
+   "Yusuf'u oturup bir kuyunun derinliklerine bırakmayı kararlaştırdılar.",
+   "Biz ona, kardeşlerinin bu işlerini kendileri farkına varmadan haber vereceksin, diye vahyettik.",
+   "Akşam üstü ağlayarak babalarına geldiklerinde: Ey babamız!",
+   "İnan olsun biz yarış yapıyorduk; Yusuf'u eşyamızın yanına bırakmıştık; bir kurt onu yedi.",
+   "Her ne kadar doğru söylüyorsak da sen bize inanmazsın dediler.",
+   "Üzerine başka bir kan bulaşmış olarak Yusuf'un gömleğini de getirmişlerdi.",
+   "Babaları: Sizi nefsiniz bir iş yapmaya sürükledi; artık bana güzelce sabır gerekir.",
+   [
+    "Anlattıklarınıza ancak Allah'tan yardım istenir dedi.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Hazreti Yakup, oğlu Yûsuf’u kardeşleriyle göndermek istemedi; onlar farkına varmadan onu kurdun yemesinden korktuğunu söyledi.",
+   "Kardeşleri, Biz kuvvetli bir topluluğuz diyerek onu götürdüler ve bir kuyunun derinliklerine bıraktılar.",
+   "Akşam ağlayarak babalarına geldiler ve Bir kurt onu yedi dediler; gömleğini de üzerine başka bir kan bulaşmış olarak getirdiler.",
+   "Hazreti Yakup, Sizi nefsiniz bir iş yapmaya sürükledi; artık bana güzelce sabır gerekir dedi.",
+   [
+    "Kurdun bu olayda bir suçu yoktu; söylenen bir yalandı.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kendi suçunu başkasının üzerine atmak, yalanı büyütür.",
+    1.6
+   ],
+   [
+    "Kur’an’ın anlattığı olaylarda.",
+    0.8
+   ],
+   [
+    "Köpek.",
+    0.7
+   ],
+   "Mağaradaki gençlerin yanında, eşikte uzanan köpek.",
+   "Köpek, Kehf suresinde geçer.",
+   [
+    "Bu, Ashâb-ı Kehf ile ilgili olaydır.",
+    0.7
+   ],
+   "Kehf Suresi, on sekizinci ayetin anlamı şöyledir.",
+   "Mağara ehli uykuda iken sen onları uyanık sanırdın.",
+   "Biz onları sağa ve sola döndürürdük.",
+   "Köpekleri dirseklerini eşiğe uzatmıştı.",
+   [
+    "Onları görsen, için korkuyla dolar, geri dönüp kaçardın.",
+    0.7
+   ],
+   "Kehf Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+   "Karanlığa taş atar gibi, Mağara ehli üçtür, dördüncüleri köpekleridir derler, yahut, Beştir, altıncıları köpekleridir derler, yahut Yedidir, sekizincileri köpekleridir derler.",
+   "De ki: Onların sayısını en iyi bilen Rabbim'dir.",
+   "Onları pek az kimseden başkası bilmez.",
+   [
+    "Bunun için, onlar hakkında, bu kısaca anlatılanın dışında, kimseyle tartışma ve onlar hakkında kimseden bir şey sorma.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Ashâb-ı Kehf, Mağara arkadaşları, Rablerine inanan ve inançlarını korumak için bir mağaraya sığınan gençlerdir.",
+   "Allah onları mağarada uzun süre uyuttu.",
+   "Ayet, onlar uyurken köpeklerinin dirseklerini, ön ayaklarını, mağaranın eşiğine uzatmış olduğunu bildirir.",
+   "İnsanlar onların sayısı hakkında farklı şeyler söylediler: üç, beş ya da yedi kişi oldukları ve köpeklerinin de onlarla birlikte olduğu.",
+   [
+    "Ayet, Onların sayısını en iyi bilen Rabbim’dir der.",
+    0.7
+   ],
+   [
+    "Görüş farkı.",
+    0.4
+   ],
+   "Bazı müfessirler, ayette son sayılan yedi kişi, sekizincisi köpekleri sözünü gerçeğe daha yakın görmüştür; ancak ayet sayıyı Allah’ın bildiğini söyler.",
+   [
+    "Köpeğin adı ve rengi gibi ayrıntılar Kur’an’da yoktur.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Peygamberimiz şöyle anlattı: Bir adam yolda giderken çok susadı.",
+   "Bir kuyuya inip su içti.",
+   "Çıkınca, susuzluktan dilini çıkarıp soluyan ve nemli toprağı yalayan bir köpek gördü.",
+   "Bu köpek de benim gibi susamış dedi.",
+   "Kuyuya yeniden inip ayakkabısını suyla doldurdu, onu ağzıyla tutarak yukarı çıktı ve köpeğe su verdi.",
+   "Allah bu iyiliğinin karşılığını verdi ve onu bağışladı.",
+   "Sahabiler, Ey Allah’ın Resûlü!",
+   "Hayvanlara yaptığımız iyilikte bize sevap var mı? diye sordular.",
+   "Peygamberimiz, Her canlıya yapılan iyilikte sevap vardır buyurdu.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Bir hayvana su vermek gibi küçük görünen bir iyilik, Allah katında büyük bir sevaptır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bir hayvana su vermek bile Allah katında büyük bir iyiliktir.",
+    1.6
+   ],
+   [
+    "Karga.",
+    0.7
+   ],
+   "Hazreti Âdem’in oğluna kardeşini nasıl gömeceğini gösteren karga.",
+   "Karga, Mâide suresinde geçer.",
+   [
+    "Bu, Hazreti Âdem’in iki oğlu kıssasıdır.",
+    0.7
+   ],
+   "Mâide Suresi, yirmi yedinci ile otuz birinci ayetler arasının anlamı şöyledir.",
+   "Onlara, Adem'in iki oğlunun kıssasını doğru olarak anlat: İkisi birer kurban sunmuşlar, birininki kabul edilmiş, diğerininki edilmemişti.",
+   "Kabul edilmeyen, And olsun seni öldüreceğim deyince, kardeşi: Allah ancak sakınanların takdimesini kabul eder demişti.",
+   "Beni öldürmek üzere elini bana uzatırsan, ben seni öldürmek için sana elimi uzatmam, çünkü ben, Alemlerin Rabbi olan Allah'tan korkarım.",
+   "Ben, hem benim hem de kendi günahını yüklenip cehennemliklerden olmanı isterim, zulmedenlerin cezası budur.",
+   "Bunun üzerine, kardeşini öldürmekte nefsine uydu ve onu öldürerek, zarara uğrayanlardan oldu.",
+   "Allah, kardeşinin ölüsünü nasıl gömeceğini göstermek üzere, ona yeri eşeleyen bir karga gönderdi.",
+   "Bana yazıklar olsun!",
+   [
+    "Kardeşimin ölüsünü örtmek için bu karga kadar olmaktan aciz kaldım dedi de ettiğine yananlardan oldu.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Kur’an, Hazreti Âdem’in iki oğlunun haberini anlatır.",
+   "İkisi birer kurban sundu; birininki kabul edildi, diğerininki edilmedi.",
+   "Kurbanı kabul edilmeyen kardeşini öldürmekle tehdit etti; kardeşi ise Sen beni öldürmek için elini uzatsan da ben seni öldürmek için elimi uzatmam dedi.",
+   "Sonunda kardeşini öldürdü ve zarara uğrayanlardan oldu.",
+   "Allah, ona kardeşinin cesedini nasıl gömeceğini göstermek için yeri eşeleyen bir karga gönderdi.",
+   "O da Bu karga kadar olmaktan aciz mi kaldım? diyerek yaptığına pişman oldu.",
+   [
+    "Kur’an bu iki kardeşin adlarını vermez; Hâbil ve Kâbil adları sonraki rivayetlerde geçer.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Öfkeye yenilmek insanı pişman eder; küçük bir karga bile insana ders olabilir.",
+    1.6
+   ],
+   [
+    "Fil.",
+    0.7
+   ],
+   "Kâbe’yi yıkmaya gelen ordunun fili.",
+   "Fil, Fîl suresinde geçer.",
+   [
+    "Bu, Fil sahipleri ile ilgili olaydır.",
+    0.7
+   ],
+   "Fîl Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+   "Fil sahiplerine Rabbinin ne ettiğini görmedin mi.",
+   "Onların düzenlerini boşa çıkarmadı mı.",
+   "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+   [
+    "Sonunda onları, yenilmiş ekin gibi yaptı.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Fîl suresi, Fil sahiplerine Rabbinin ne ettiğini görmedin mi? diye başlar.",
+   "Allah onların düzenlerini boşa çıkardı.",
+   "Tefsir ve siyer kaynaklarına göre fil sahipleri, Yemen’in Habeşli valisi Ebrehe ve ordusudur.",
+   "Ebrehe, Kâbe’yi yıkmak için fillerin de bulunduğu bir orduyla Mekke’ye yürüdü; ordusu amacına ulaşamadan helak oldu.",
+   "Araplar bu yıla Fil yılı dedi.",
+   [
+    "Peygamberimizin bu yıl doğduğu kabul edilir.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Mekke fethedilince Peygamberimiz insanların arasında ayağa kalktı; Allah’a hamd ve senadan sonra şöyle buyurdu: Şüphesiz Allah, fili Mekke’den alıkoydu; Resûlünü ve müminleri ise oraya hâkim kıldı.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Peygamberimiz Mekke’nin fethi günü Fil olayını hatırlattı.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güç ve kalabalık, Allah’ın koruduğu şeye karşı bir işe yaramaz.",
+    1.6
+   ],
+   [
+    "Ebâbîl kuşları.",
+    0.7
+   ],
+   "Fil sahiplerinin üzerine sürü sürü gönderilen kuşlar.",
+   "Ebâbîl kuşları, Fîl suresinde geçer.",
+   [
+    "Bu, Fil sahipleri ile ilgili olaydır.",
+    0.7
+   ],
+   "Fîl Suresi, üçüncü ve dördüncü ayetlerin anlamı şöyledir.",
+   [
+    "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Fîl suresinde Allah, fil sahiplerinin üzerine sert taşlar atan kuşları sürü sürü gönderdiğini bildirir.",
+   "Ebâbîl bir kuş türünün adı değildir; bölük bölük, sürü sürü demektir.",
+   "Ayet bu kuşların hangi türden olduğunu bildirmez.",
+   [
+    "Taşların siccîlden olduğu söylenir; bu kelime tuğla gibi taşlaşmış çamur diye açıklanır.",
+    0.7
+   ],
+   [
+    "Görüş farkı.",
+    0.4
+   ],
+   "Klasik tefsirler olayı bir mucize olarak anlatır.",
+   [
+    "Muhammed Abduh gibi bazı çağdaş âlimler olayı bulaşıcı bir hastalıkla açıklamış, ancak çağdaş müfessirlerin çoğu bu yorumu benimsememiştir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah dilediğini en küçük varlıklarla da gerçekleştirir.",
+    1.6
+   ],
+   [
+    "Örnek ve ibretlerde.",
+    0.8
+   ],
+   [
+    "Arı.",
+    0.7
+   ],
+   "Rabbinin gösterdiği yolda çalışan ve şifalı bal yapan arı.",
+   [
+    "Arı, Nahl suresinde geçer.",
+    0.7
+   ],
+   "Nahl Suresi, altmış sekizinci ve altmış dokuzuncu ayetlerin anlamı şöyledir.",
+   "Rabbin bal arısına: Dağlarda, ağaçlarda ve hazırlanmış kovanlarda yuva edin; sonra her çeşit üründen ye; sonra da Rabbinin işlemen için gösterdiği yollardan yürü diye öğretti.",
+   "Karınlarından insanlara şifa olan çeşitli renklerde bal çıkar.",
+   [
+    "Düşünen bir millet için bunda ibret vardır.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Ayette, Allah’ın bal arısına dağlarda, ağaçlarda ve kovanlarda yuva edinmesini, her çeşit üründen yemesini ve Rabbinin gösterdiği yollardan yürümesini öğrettiği bildirilir.",
+   "Ayetin Arapçasında vahyetti denir; Diyanet meali bunu öğretti diye çevirir.",
+   "Arıların karınlarından çeşitli renklerde, insanlara şifa olan bal çıkar.",
+   "Ayet, düşünen bir topluluk için bunda bir ibret olduğunu söyler.",
+   [
+    "Nahl suresi adını bu ayetlerde geçen nahl, bal arısı, kelimesinden alır.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   [
+    "Bal bir besindir; hastalıkta tedavi için doktora danışılır.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Bir adam Peygamberimize gelip kardeşinin karnından rahatsız olduğunu söyledi.",
+   "Peygamberimiz, Ona bal içir buyurdu.",
+   "Adam birkaç kez gelip durumu anlattı; Peygamberimiz her seferinde bal içirmesini söyledi ve Allah doğru söyledi, kardeşinin karnı ise yalan söyledi buyurdu.",
+   "Adam kardeşine bal içirdi ve kardeşi iyileşti.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Allah doğru söyledi sözü, Nahl suresindeki onda insanlara şifa vardır ayetine işaret eder.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Küçük bir arının yaptığı bal bile Allah’ın insanlara bir nimetidir; düşünen bunda ibret bulur.",
+    1.6
+   ],
+   [
+    "Örümcek.",
+    0.7
+   ],
+   "Yuvası evlerin en dayanıksızı olan örümcek.",
+   [
+    "Örümcek, Ankebût suresinde geçer.",
+    0.7
+   ],
+   "Ankebût Suresi, kırk birinci ayetin anlamı şöyledir.",
+   "Allah'tan başka dostlar edinenlerin durumu, kendine yuva yapan dişi örümceğin durumu gibidir.",
+   "Evlerin en dayanıksızı ise şüphesiz örümceğin yuvasıdır.",
+   [
+    "Keşke bilseler.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Allah, kendisini bırakıp başka dostlar edinenleri, kendine yuva yapan örümceğe benzetir.",
+   "Ayete göre evlerin en dayanıksızı örümceğin yuvasıdır.",
+   "Bu benzetme, Allah’tan başka dayanılan şeylerin örümcek ağı gibi zayıf ve güvenilmez olduğunu anlatır.",
+   [
+    "Ankebût suresi adını bu ayette geçen ankebût, örümcek, kelimesinden alır.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah’tan başkasına dayanmak, örümcek ağına yaslanmak gibidir.",
+    1.6
+   ],
+   [
+    "Sivrisinek.",
+    0.7
+   ],
+   "Allah’ın örnek vermekten çekinmediği küçücük canlı.",
+   [
+    "Sivrisinek, Bakara suresinde geçer.",
+    0.7
+   ],
+   "Bakara Suresi, yirmi altıncı ve yirmi yedinci ayetlerin anlamı şöyledir.",
+   "Allah sivrisineği ve onun üstününü misal olarak vermekten çekinmez.",
+   "İnananlar bunun Rablerinden bir gerçek olduğunu bilirler.",
+   "İnkar edenler ise Allah bu misalle neyi murad etti? derler, O, bu misalle birçoğunu saptırır, birçoğunu da yola getirir.",
+   "Onunla saptırdığı yalnız fasıklardır ki onlar Allah'la yapılan sözleşmeyi kabulden sonra bozarlar.",
+   [
+    "Allah'ın birleştirilmesini buyurduğu şeyi ayırırlar ve yeryüzünde bozgunculuk yaparlar; zarara uğrayanlar işte onlardır.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Ayette, Allah’ın sivrisineği ve onun üstündekini örnek olarak vermekten çekinmediği bildirilir.",
+   "İnananlar bu örneğin Rablerinden gelen bir gerçek olduğunu bilir; inkâr edenler ise Allah bu örnekle ne demek istedi? der.",
+   [
+    "Küçük görünen bir canlı da insana düşündürecek bir örnek olabilir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah’ın verdiği örnek küçük olsa da taşıdığı ders büyüktür.",
+    1.6
+   ],
+   [
+    "Deve.",
+    0.7
+   ],
+   "Devenin nasıl yaratıldığına bakmazlar mı? ayetindeki deve.",
+   [
+    "Deve, Gaşiye suresinde geçer.",
+    0.7
+   ],
+   "Gaşiye Suresi, on yedinci ile yirminci ayetler arasının anlamı şöyledir.",
+   [
+    "Bu insanlar, devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine, yerin nasıl yayıldığına bir bakmazlar mı.",
+    0.7
+   ],
+   [
+    "Ayet ne anlatıyor?",
+    0.5
+   ],
+   "Gaşiye suresinde Allah, insanları devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine ve yerin nasıl yayıldığına bakıp düşünmeye çağırır.",
+   "Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre bu surede, Allah’ın varlık ve kudretine inanmak için tabiatın incelenmesi tavsiye edilir.",
+   [
+    "Her gün görülen bir hayvan bile, dikkatle bakana bir ders verir.",
+    0.7
+   ],
+   [
+    "Bir hadis.",
+    0.5
+   ],
+   "Peygamberimiz şöyle buyurdu: Verimli bir yerde yolculuk ettiğinizde develere oradan paylarını verin.",
+   "Çorak bir yerde yolculuk ettiğinizde ise yürüyüşü hızlandırın.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Binek ve yük hayvanlarının yeme, dinlenme hakkı gözetilir; güçlerinin üstünde yorulmazlar.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Her gün gördüğümüz bir hayvan bile, dikkatle bakana Allah’ın kudretini gösterir.",
+    1.6
+   ],
+   [
+    "Hayvanlara merhamet.",
+    0.8
+   ],
+   "Peygamberimiz hayvanlara iyilik etmeyi öğütlemiş, onlara eziyet etmeyi yasaklamıştır.",
+   [
+    "Buhârî ve Müslim’deki şu hadisler bunu anlatır.",
+    0.8
+   ],
+   [
+    "Susamış köpeğe su veren adam.",
+    0.5
+   ],
+   "Peygamberimiz şöyle anlattı: Bir adam yolda giderken çok susadı.",
+   "Bir kuyuya inip su içti.",
+   "Çıkınca, susuzluktan dilini çıkarıp soluyan ve nemli toprağı yalayan bir köpek gördü.",
+   "Bu köpek de benim gibi susamış dedi.",
+   "Kuyuya yeniden inip ayakkabısını suyla doldurdu, onu ağzıyla tutarak yukarı çıktı ve köpeğe su verdi.",
+   "Allah bu iyiliğinin karşılığını verdi ve onu bağışladı.",
+   "Sahabiler, Ey Allah’ın Resûlü!",
+   "Hayvanlara yaptığımız iyilikte bize sevap var mı? diye sordular.",
+   "Peygamberimiz, Her canlıya yapılan iyilikte sevap vardır buyurdu.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Bir hayvana su vermek gibi küçük görünen bir iyilik, Allah katında büyük bir sevaptır.",
+    0.8
+   ],
+   [
+    "Kediyi aç bırakan kadın.",
+    0.5
+   ],
+   "Peygamberimiz şöyle buyurdu: Bir kadın, ölünceye kadar hapsettiği bir kedi yüzünden azaba uğradı ve bu yüzden cehenneme girdi.",
+   "Onu hapsettiğinde ne yedirdi ne içirdi; ne de yerdeki böcekleri yesin diye onu salıverdi.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Bakımını üstlendiğimiz bir hayvanı aç, susuz bırakmak ve ona eziyet etmek büyük günahtır.",
+    0.8
+   ],
+   [
+    "Karınca yuvası.",
+    0.5
+   ],
+   "Peygamberimiz şöyle anlattı: Önceki peygamberlerden birini bir karınca ısırdı.",
+   "O da karınca yuvasının yakılmasını emretti.",
+   "Bunun üzerine Allah ona: Seni bir karınca ısırdı diye, Allah’ı tesbih eden ümmetlerden bir ümmeti mi yaktın? diye vahyetti.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Karıncalar da Allah’ı tesbih eden bir topluluktur; onlara gereksiz yere zarar verilmez.",
+    0.8
+   ],
+   [
+    "Kuşun yediği ekin.",
+    0.5
+   ],
+   "Peygamberimiz şöyle buyurdu: Bir Müslüman bir ağaç diker ya da ekin eker de ondan bir kuş, bir insan ya da bir hayvan yerse, bu onun için mutlaka bir sadaka olur.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Kuşların ve hayvanların rızıklanmasına vesile olmak bile sevaptır.",
+    0.8
+   ],
+   [
+    "Yolculukta develerin hakkı.",
+    0.5
+   ],
+   "Peygamberimiz şöyle buyurdu: Verimli bir yerde yolculuk ettiğinizde develere oradan paylarını verin.",
+   "Çorak bir yerde yolculuk ettiğinizde ise yürüyüşü hızlandırın.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Binek ve yük hayvanlarının yeme, dinlenme hakkı gözetilir; güçlerinin üstünde yorulmazlar.",
+    0.8
+   ],
+   [
+    "Hayvanı rahat ettirerek kesmek.",
+    0.5
+   ],
+   "Peygamberimiz şöyle buyurdu: Allah her şeyde iyiliği, ihsanı, emretmiştir.",
+   "Bir hayvan kestiğinizde onu güzel kesin.",
+   "Her biriniz bıçağını iyice bilesin ve kestiği hayvanı rahat ettirsin.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Kesilen hayvana bile acı çektirilmez; iyilik her işte gözetilir.",
+    0.8
+   ],
+   [
+    "Canlıyı hedef yapmamak.",
+    0.5
+   ],
+   "Abdullah bin Ömer, bir tavuğu bağlayıp ona ok atan birkaç gencin yanından geçti.",
+   "Gençler onu görünce dağıldılar.",
+   "Abdullah bin Ömer, Bunu kim yaptı?",
+   "Peygamberimiz, canlı bir şeyi hedef yapana lanet etmiştir dedi.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.5
+   ],
+   [
+    "Hayvanlar oyun ya da eğlence için incitilmez.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Kur’an’da Hayvanlar",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Kur’an’da Hayvanlar.",
+     0.8
+    ],
+    "Kur’an’da adı geçen on beş hayvanı tanıyacağız.",
+    [
+     "Onları üç bölümde dinleyeceğiz: peygamber kıssalarında, Kur’an’ın anlattığı olaylarda ve örnek ve ibretlerde.",
+     0.6
+    ],
+    "Her hayvanın hangi surede geçtiğini, ayetin ne anlattığını ve bize bıraktığı dersi öğreneceğiz.",
+    "Ayetlerin anlamı, Diyanet İşleri Başkanlığı mealinden okunur.",
+    "Ayetin söylemediği ayrıntıları anlatmayacağız; müfessirlerin farklı görüşleri olan yerlerde bunu ayrıca belirteceğiz.",
+    [
+     "Sonunda, hayvanlara merhamet üzerine Peygamberimizin hadislerini dinleyeceğiz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-karinca",
+   "baslik": "Karınca",
+   "tur": "Peygamber kıssalarında",
+   "parcalar": [
+    [
+     "Peygamber kıssalarında.",
+     0.8
+    ],
+    [
+     "Karınca.",
+     0.7
+    ],
+    "Arkadaşlarını tehlikeye karşı uyaran küçük karınca.",
+    "Karınca, Neml suresinde geçer.",
+    [
+     "Bu, Hazreti Süleymân kıssasıdır.",
+     0.7
+    ],
+    "Neml Suresi, on sekizinci ve on dokuzuncu ayetlerin anlamı şöyledir.",
+    "Sonunda, karıncaların bulunduğu vadiye geldiklerinde bir dişi, kraliçe, karınca: Ey karıncalar!",
+    "Yuvalarınıza girin, Süleyman'ın ordusu farkına varmadan sizi ezmesin dedi.",
+    "Süleyman, onun sözüne hafifçe güldü ve: Rabbim!",
+    "Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl.",
+    [
+     "Rahmetinle, beni iyi kullarının arasına koy dedi.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Hazreti Süleymân ordusuyla birlikte karıncaların bulunduğu bir vadiye geldi.",
+    "Bir karınca ötekilere, Yuvalarınıza girin, Süleymân’ın ordusu farkına varmadan sizi ezmesin dedi.",
+    "Hazreti Süleymân karıncanın sözüne hafifçe güldü.",
+    "Kendisine ve anne babasına verilen nimete şükretmeyi, Allah’ın hoşnut olacağı işi yapmayı Rabbinden istedi.",
+    [
+     "Neml suresi adını bu ayette geçen neml, karınca, kelimesinden alır.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Peygamberimiz şöyle anlattı: Önceki peygamberlerden birini bir karınca ısırdı.",
+    "O da karınca yuvasının yakılmasını emretti.",
+    "Bunun üzerine Allah ona: Seni bir karınca ısırdı diye, Allah’ı tesbih eden ümmetlerden bir ümmeti mi yaktın? diye vahyetti.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Karıncalar da Allah’ı tesbih eden bir topluluktur; onlara gereksiz yere zarar verilmez.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Arkadaşını tehlikeye karşı uyarmak da, nimete şükretmek de güzel bir davranıştır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-hudhud",
+   "baslik": "Hüdhüd kuşu",
+   "tur": "Peygamber kıssalarında",
+   "parcalar": [
+    [
+     "Hüdhüd kuşu.",
+     0.7
+    ],
+    "Hazreti Süleymân’a uzak bir ülkeden haber getiren kuş.",
+    "Hüdhüd kuşu, Neml suresinde geçer.",
+    [
+     "Bu, Hazreti Süleymân kıssasıdır.",
+     0.7
+    ],
+    "Neml Suresi, yirminci ile yirmi sekizinci ayetler arasının anlamı şöyledir.",
+    "Süleyman, kuşları araştırarak: Hüdhüd'ü niçin göremiyorum?",
+    "Yoksa kayıplarda mı?",
+    "Bana apaçık bir delil getirmelidir; yoksa onu ya şiddetli bir azaba uğratırım yahut keserim dedi.",
+    "Çok geçmeden Hüdhüd gelip Süleyman'a: Senin bilmediğin bir şeyi öğrendim.",
+    "Sana Sebe'den doğru bir haber getirdim.",
+    "Ora halkına hükmeden, herşeyden kendisine bolca verilen ve büyük bir tahta sahip olan bir kadın buldum; onun ve milletinin Allah'ı bırakıp güneşe secde ettiklerini gördüm.",
+    "Göklerde ve yerde gizli olanları ortaya koyan, gizlediğiniz ve açıkladığınız şeyleri bilen Allah'a secde etmemeleri için şeytan, kendilerine, yaptıklarını güzel göstermiş, onları doğru yoldan alıkoymuştur.",
+    "Bunun için, doğru yolu bulamazlar.",
+    "O çok büyük arşın sahibi olan Allah'tan başka tanrı yoktur dedi.",
+    "Süleyman şöyle söyledi: Doğru mu söylüyorsun, yoksa yalancılardan mısın, bakacağız.",
+    [
+     "Şu yazımı götür, onlara at, sonra bir yana çekil, varacakları sonuca bak.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Hazreti Süleymân kuşları yokladığında hüdhüdü göremedi.",
+    "Hüdhüd çok geçmeden geldi ve Sebe’den doğru bir haber getirdiğini söyledi: Orada halkı bir kadın yönetiyordu; o ve halkı Allah’ı bırakıp güneşe secde ediyordu.",
+    "Hazreti Süleymân haberi hemen kabul etmedi; Doğru mu söylüyorsun, yoksa yalancılardan mısın, bakacağız dedi.",
+    "Sonra hüdhüde bir mektup verip onu Sebe halkına götürmesini istedi.",
+    [
+     "Hüdhüd, başındaki tarak gibi tüyleriyle tanınan bir kuştur; Türkçede ibibik ya da çavuşkuşu da denir.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    [
+     "Hüdhüd hakkında anlatılan başka hikâyeler, adı, yer altındaki suyu görmesi gibi, Kur’an’da geçmez; burada yalnızca ayetlerde anlatılanlar yazılmıştır.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Haber getiren doğru söylemeli, haberi alan da araştırmalıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-dortkus",
+   "baslik": "Dört kuş",
+   "tur": "Peygamber kıssalarında",
+   "parcalar": [
+    [
+     "Dört kuş.",
+     0.7
+    ],
+    "Hazreti İbrâhîm’e ölülerin nasıl diriltildiğini gösteren dört kuş.",
+    "Dört kuş, Bakara suresinde geçer.",
+    [
+     "Bu, Hazreti İbrâhîm kıssasıdır.",
+     0.7
+    ],
+    "Bakara Suresi, iki yüz altmışıncı ayetin anlamı şöyledir.",
+    "İbrahim: Rabbim!",
+    "Ölüleri nasıl dirilttiğini bana göster dediğinde, İnanmıyor musun? deyince de, Hayır öyle değil, fakat kalbim iyice kansın demişti.",
+    "Öyleyse dört çeşit kuş al, onları kendine alıştır, sonra onları parçalayıp her dağın üzerine bir parça koy, sonra onları çağır; koşarak sana gelirler.",
+    [
+     "O halde Allah'ın güçlü ve Hakim olduğunu bil demişti.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Hazreti İbrâhîm, Rabbinden ölüleri nasıl dirilttiğini kendisine göstermesini istedi.",
+    "İnanmıyor musun? sorusuna, İnanıyorum, fakat kalbim iyice kansın diye cevap verdi.",
+    "Allah ona dört çeşit kuş almasını, onları kendine alıştırmasını, sonra parçalarını dağların üzerine koyup onları çağırmasını bildirdi; kuşlar koşarak ona gelecekti.",
+    [
+     "Ayet, Allah’ın güçlü ve hikmet sahibi olduğunu bil sözüyle biter.",
+     0.7
+    ],
+    [
+     "Görüş farkı.",
+     0.4
+    ],
+    "Diyanet meali ve müfessirlerin çoğu ayeti, kuşların kesilip parçalarının dağlara konduğu biçiminde anlar.",
+    "Ebû Müslim el-İsfahânî gibi bazı müfessirler ise ayette kuşların yalnızca alıştırılıp çağrıldığını söyler.",
+    [
+     "Kuşların hangi türden olduğunu ayet bildirmez.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Peygamberimiz şöyle buyurdu: Bir Müslüman bir ağaç diker ya da ekin eker de ondan bir kuş, bir insan ya da bir hayvan yerse, bu onun için mutlaka bir sadaka olur.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Kuşların ve hayvanların rızıklanmasına vesile olmak bile sevaptır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Soru sormak imanı zayıflatmaz; Hazreti İbrâhîm kalbi iyice kansın diye sordu.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-balik",
+   "baslik": "Balık",
+   "tur": "Peygamber kıssalarında",
+   "parcalar": [
+    [
+     "Balık.",
+     0.7
+    ],
+    "Hazreti Yûnus’u yutan balık.",
+    "Balık, Sâffât ve Enbiyâ surelerinde geçer.",
+    [
+     "Bu, Hazreti Yûnus kıssasıdır.",
+     0.7
+    ],
+    "Sâffât Suresi, yüz otuz dokuzuncu ile yüz kırk sekizinci ayetler arasının anlamı şöyledir.",
+    "Doğrusu Yunus da peygamberlerdendir.",
+    "Dolu bir gemiye kaçmıştı.",
+    "Gemide olanlarla karşılıklı kura çekmişti de yenilenlerden olmuştu, bu sebeple denize atılmıştı.",
+    "Kendini kınarken onu bir balık yutmuştu.",
+    "Eğer Allah'ı tesbih edenlerden olmasaydı, tekrar diriltilecek güne kadar balığın karnında kalacaktı.",
+    "Halsiz bir halde iken kendisini sahile çıkardık.",
+    "Onun için, geniş yapraklı bir bitki yetiştirdik.",
+    "Onu, yüzbin veya daha çok kişiye peygamber olarak gönderdik.",
+    [
+     "Sonunda ona inandılar, bunun üzerine Biz de onları bir süreye kadar geçindirdik.",
+     0.7
+    ],
+    "Enbiyâ Suresi, seksen yedinci ve seksen sekizinci ayetlerin anlamı şöyledir.",
+    "Zünnun, Balık Sahibi; Yunus, hakkında söylediğimizi de an.",
+    "O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslenmişti.",
+    [
+     "Biz de ona cevap verip, onu üzüntüden kurtarmıştık. inananları böyle kurtarırız.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Hazreti Yûnus kavminden öfkeyle ayrılıp dolu bir gemiye bindi.",
+    "Gemide çekilen kurada yenilenlerden oldu ve denize atıldı; onu bir balık yuttu.",
+    "Hazreti Yûnus karanlıklar içinde, Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslendi.",
+    "Allah onun duasını kabul edip onu üzüntüden kurtardı ve sahile çıkardı.",
+    "Allah’ı tesbih edenlerden olmasaydı, diriliş gününe kadar balığın karnında kalacaktı.",
+    "Kur’an ona Zünnûn, balık sahibi, da der.",
+    [
+     "Balığın türünü ayet bildirmez.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hatasını kabul edip Allah’a yönelen, sıkıntıdan kurtulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-disideve",
+   "baslik": "Dişi deve",
+   "tur": "Peygamber kıssalarında",
+   "parcalar": [
+    [
+     "Dişi deve.",
+     0.7
+    ],
+    "Semûd kavmine Allah’ın bir delili olarak gösterilen dişi deve.",
+    "Dişi deve, Şems ve Arâf surelerinde geçer.",
+    [
+     "Bu, Hazreti Sâlih kıssasıdır.",
+     0.7
+    ],
+    "Şems Suresi, on birinci ile on beşinci ayetler arasının anlamı şöyledir.",
+    "Semud milleti, içlerinden en azgını ileri atılınca, azgınlığı yüzünden peygamberleri yalanladı.",
+    "Allah'ın peygamberi onlara, Allah'ın devesini göstermiş ve: Allah'ın bu devesine ve onun su hakkına dokunmayın demişti.",
+    "Onu yalanladılar ve deveyi boğazladılar.",
+    "Bunun üzerine Rableri, suçlarından dolayı onların üzerine katmerli azap indirdi; yerle bir etti onları.",
+    [
+     "Bu işin sonundan O'nun korkusu yoktur.",
+     0.7
+    ],
+    "Arâf Suresi, yetmiş üçüncü ayetin anlamı şöyledir.",
+    "Semud milletine de kardeşleri Salih'i gönderdik.",
+    "Ey milletim!",
+    "Allah'a kulluk edin, O'ndan başka tanrınız yoktur.",
+    [
+     "Rabbinizden size bir belge geldi: Allah'ın bu dişi devesi size bir delildir, onu bırakın, Allah'ın toprağında otlasın; ona kötülük etmeyin, yoksa can yakıcı azaba uğrarsınız.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Hazreti Sâlih, Semûd kavmine peygamber olarak gönderildi.",
+    "Allah’ın bir delili olarak onlara bir dişi deve gösterildi.",
+    "Hazreti Sâlih kavmine, Onu bırakın, Allah’ın toprağında otlasın; ona kötülük etmeyin dedi.",
+    "Kavmine, devenin ve onun su içme hakkının korunması söylenmişti.",
+    "Fakat içlerinden en azgını ileri atıldı ve deveyi boğazladılar.",
+    "Bunun üzerine Rableri onları suçları yüzünden azaba uğrattı.",
+    [
+     "Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre Semûd kavmi, Suriye ile Hicaz arasındaki Hicr bölgesinde yaşıyordu.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Müslümanlar Peygamberimizle birlikte Semûd kavminin yurdu Hicr’de konakladılar; oranın kuyusundan su çekip onunla hamur yoğurdular.",
+    "Peygamberimiz çektikleri suyu dökmelerini, hamuru da develere yedirmelerini emretti; dişi devenin su içmeye geldiği kuyudan su almalarını söyledi.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Peygamberimiz, Tebük seferi sırasında Semûd’un yurdundan geçerken dişi devenin kuyusunu ayırdı.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ın korunmasını istediği canlıya dokunmamak, O’nun emrine saygıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-inek",
+   "baslik": "İnek",
+   "tur": "Peygamber kıssalarında",
+   "parcalar": [
+    [
+     "İnek.",
+     0.7
+    ],
+    "Hazreti Mûsâ’nın kavmine kesilmesi emredilen inek.",
+    "İnek, Bakara suresinde geçer.",
+    [
+     "Bu, Hazreti Mûsâ kıssasıdır.",
+     0.7
+    ],
+    "Bakara Suresi, altmış yedinci ile yetmiş birinci ayetler arasının anlamı şöyledir.",
+    "Musa milletine: Allah muhakkak bir sığır boğazlamanızı buyuruyor demişti; Bizi alaya mı alıyorsun? dediklerinde de: Cahillerden olmaktan Allah'a sığınırım dedi.",
+    "Rabbine bizim adımıza yalvar da onun mahiyetini bize bildirsin dediler, O, onun ne pek kart, ne pek körpe, ikisi ortası bir sığır olduğunu söylüyor, size emrolunanı yapın dedi.",
+    "Rabbine bizim adımıza yalvar da ne renk olduğunu bize bildirsin dediler.",
+    "O, onun, bakanların içini açan parlak sarı renkli bir sığır olduğunu söylüyor dedi.",
+    "Rabbine bizim adımıza yalvar da, mahiyetini bize bildirsin, çünkü sığırlar, bizce, birbirine benzemektedir.",
+    "Allah dilerse biz şüphesiz doğruyu bulmuş oluruz dediler.",
+    "Yeri sürüp, ekini sulayarak boyunduruk altında ezilmemiş, kusursuz, alacasız bir sığır olduğunu söylüyor dedi.",
+    [
+     "Şimdi gerçeği bildirdin deyip sığırı boğazladılar; az kalsın bunu yapmayacaklardı.",
+     0.7
+    ],
+    "Bakara Suresi, yetmiş ikinci ve yetmiş üçüncü ayetlerin anlamı şöyledir.",
+    "Siz bir kimseyi öldürmüş ve bunu birbirinize atmıştınız; oysa Allah gizlemekte olduğunuzu ortaya çıkaracaktı.",
+    "Sığırın bir parçasıyla ona vurun dedik.",
+    [
+     "İşte böylece Allah ölüleri diriltir ve aklınızı kullanasınız diye size ayetlerini gösterir.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "İsrâiloğulları arasında bir kişi öldürülmüş, suç birbirlerinin üzerine atılıyordu.",
+    "Hazreti Mûsâ, Allah’ın onlara bir inek kesmelerini emrettiğini bildirdi.",
+    "Kavmi emri hemen yerine getirmedi; ineğin yaşını, rengini ve özelliklerini tekrar tekrar sordular.",
+    "Sonunda ineği kestiler; ama az kalsın bunu yapmayacaklardı.",
+    "Ardından ineğin bir parçasıyla öldürülen kişiye vurulması emredildi; ayet, Allah’ın gizlenen şeyi ortaya çıkardığını ve ölüleri böyle dirilttiğini bildirir.",
+    "Bakara suresi adını bu kıssadan alır; bakara inek, sığır demektir.",
+    [
+     "Diyanet meali bu ayetlerde sığır der.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Peygamberimiz şöyle buyurdu: Allah her şeyde iyiliği, ihsanı, emretmiştir.",
+    "Bir hayvan kestiğinizde onu güzel kesin.",
+    "Her biriniz bıçağını iyice bilesin ve kestiği hayvanı rahat ettirsin.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Kesilen hayvana bile acı çektirilmez; iyilik her işte gözetilir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Emri bahanelerle zorlaştırmak yerine güzelce yerine getirmek gerekir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-kurt",
+   "baslik": "Kurt",
+   "tur": "Peygamber kıssalarında",
+   "parcalar": [
+    [
+     "Kurt.",
+     0.7
+    ],
+    "Hazreti Yûsuf’un kardeşlerinin suçu üzerine attığı kurt.",
+    "Kurt, Yûsuf suresinde geçer.",
+    [
+     "Bu, Hazreti Yûsuf kıssasıdır.",
+     0.7
+    ],
+    "Yûsuf Suresi, on üçüncü ile on sekizinci ayetler arasının anlamı şöyledir.",
+    "Babaları, Onu götürmeniz beni üzüyor; siz farkına varmadan onu kurdun yemesinden korkarım dedi.",
+    "And olsun ki, biz kuvvetli bir toplulukken kurt onu yerse, biz aciz sayılırız dediler.",
+    "Yusuf'u oturup bir kuyunun derinliklerine bırakmayı kararlaştırdılar.",
+    "Biz ona, kardeşlerinin bu işlerini kendileri farkına varmadan haber vereceksin, diye vahyettik.",
+    "Akşam üstü ağlayarak babalarına geldiklerinde: Ey babamız!",
+    "İnan olsun biz yarış yapıyorduk; Yusuf'u eşyamızın yanına bırakmıştık; bir kurt onu yedi.",
+    "Her ne kadar doğru söylüyorsak da sen bize inanmazsın dediler.",
+    "Üzerine başka bir kan bulaşmış olarak Yusuf'un gömleğini de getirmişlerdi.",
+    "Babaları: Sizi nefsiniz bir iş yapmaya sürükledi; artık bana güzelce sabır gerekir.",
+    [
+     "Anlattıklarınıza ancak Allah'tan yardım istenir dedi.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Hazreti Yakup, oğlu Yûsuf’u kardeşleriyle göndermek istemedi; onlar farkına varmadan onu kurdun yemesinden korktuğunu söyledi.",
+    "Kardeşleri, Biz kuvvetli bir topluluğuz diyerek onu götürdüler ve bir kuyunun derinliklerine bıraktılar.",
+    "Akşam ağlayarak babalarına geldiler ve Bir kurt onu yedi dediler; gömleğini de üzerine başka bir kan bulaşmış olarak getirdiler.",
+    "Hazreti Yakup, Sizi nefsiniz bir iş yapmaya sürükledi; artık bana güzelce sabır gerekir dedi.",
+    [
+     "Kurdun bu olayda bir suçu yoktu; söylenen bir yalandı.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kendi suçunu başkasının üzerine atmak, yalanı büyütür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-kopek",
+   "baslik": "Köpek",
+   "tur": "Kur’an’ın anlattığı olaylarda",
+   "parcalar": [
+    [
+     "Kur’an’ın anlattığı olaylarda.",
+     0.8
+    ],
+    [
+     "Köpek.",
+     0.7
+    ],
+    "Mağaradaki gençlerin yanında, eşikte uzanan köpek.",
+    "Köpek, Kehf suresinde geçer.",
+    [
+     "Bu, Ashâb-ı Kehf ile ilgili olaydır.",
+     0.7
+    ],
+    "Kehf Suresi, on sekizinci ayetin anlamı şöyledir.",
+    "Mağara ehli uykuda iken sen onları uyanık sanırdın.",
+    "Biz onları sağa ve sola döndürürdük.",
+    "Köpekleri dirseklerini eşiğe uzatmıştı.",
+    [
+     "Onları görsen, için korkuyla dolar, geri dönüp kaçardın.",
+     0.7
+    ],
+    "Kehf Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+    "Karanlığa taş atar gibi, Mağara ehli üçtür, dördüncüleri köpekleridir derler, yahut, Beştir, altıncıları köpekleridir derler, yahut Yedidir, sekizincileri köpekleridir derler.",
+    "De ki: Onların sayısını en iyi bilen Rabbim'dir.",
+    "Onları pek az kimseden başkası bilmez.",
+    [
+     "Bunun için, onlar hakkında, bu kısaca anlatılanın dışında, kimseyle tartışma ve onlar hakkında kimseden bir şey sorma.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Ashâb-ı Kehf, Mağara arkadaşları, Rablerine inanan ve inançlarını korumak için bir mağaraya sığınan gençlerdir.",
+    "Allah onları mağarada uzun süre uyuttu.",
+    "Ayet, onlar uyurken köpeklerinin dirseklerini, ön ayaklarını, mağaranın eşiğine uzatmış olduğunu bildirir.",
+    "İnsanlar onların sayısı hakkında farklı şeyler söylediler: üç, beş ya da yedi kişi oldukları ve köpeklerinin de onlarla birlikte olduğu.",
+    [
+     "Ayet, Onların sayısını en iyi bilen Rabbim’dir der.",
+     0.7
+    ],
+    [
+     "Görüş farkı.",
+     0.4
+    ],
+    "Bazı müfessirler, ayette son sayılan yedi kişi, sekizincisi köpekleri sözünü gerçeğe daha yakın görmüştür; ancak ayet sayıyı Allah’ın bildiğini söyler.",
+    [
+     "Köpeğin adı ve rengi gibi ayrıntılar Kur’an’da yoktur.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Peygamberimiz şöyle anlattı: Bir adam yolda giderken çok susadı.",
+    "Bir kuyuya inip su içti.",
+    "Çıkınca, susuzluktan dilini çıkarıp soluyan ve nemli toprağı yalayan bir köpek gördü.",
+    "Bu köpek de benim gibi susamış dedi.",
+    "Kuyuya yeniden inip ayakkabısını suyla doldurdu, onu ağzıyla tutarak yukarı çıktı ve köpeğe su verdi.",
+    "Allah bu iyiliğinin karşılığını verdi ve onu bağışladı.",
+    "Sahabiler, Ey Allah’ın Resûlü!",
+    "Hayvanlara yaptığımız iyilikte bize sevap var mı? diye sordular.",
+    "Peygamberimiz, Her canlıya yapılan iyilikte sevap vardır buyurdu.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Bir hayvana su vermek gibi küçük görünen bir iyilik, Allah katında büyük bir sevaptır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bir hayvana su vermek bile Allah katında büyük bir iyiliktir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-karga",
+   "baslik": "Karga",
+   "tur": "Kur’an’ın anlattığı olaylarda",
+   "parcalar": [
+    [
+     "Karga.",
+     0.7
+    ],
+    "Hazreti Âdem’in oğluna kardeşini nasıl gömeceğini gösteren karga.",
+    "Karga, Mâide suresinde geçer.",
+    [
+     "Bu, Hazreti Âdem’in iki oğlu kıssasıdır.",
+     0.7
+    ],
+    "Mâide Suresi, yirmi yedinci ile otuz birinci ayetler arasının anlamı şöyledir.",
+    "Onlara, Adem'in iki oğlunun kıssasını doğru olarak anlat: İkisi birer kurban sunmuşlar, birininki kabul edilmiş, diğerininki edilmemişti.",
+    "Kabul edilmeyen, And olsun seni öldüreceğim deyince, kardeşi: Allah ancak sakınanların takdimesini kabul eder demişti.",
+    "Beni öldürmek üzere elini bana uzatırsan, ben seni öldürmek için sana elimi uzatmam, çünkü ben, Alemlerin Rabbi olan Allah'tan korkarım.",
+    "Ben, hem benim hem de kendi günahını yüklenip cehennemliklerden olmanı isterim, zulmedenlerin cezası budur.",
+    "Bunun üzerine, kardeşini öldürmekte nefsine uydu ve onu öldürerek, zarara uğrayanlardan oldu.",
+    "Allah, kardeşinin ölüsünü nasıl gömeceğini göstermek üzere, ona yeri eşeleyen bir karga gönderdi.",
+    "Bana yazıklar olsun!",
+    [
+     "Kardeşimin ölüsünü örtmek için bu karga kadar olmaktan aciz kaldım dedi de ettiğine yananlardan oldu.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Kur’an, Hazreti Âdem’in iki oğlunun haberini anlatır.",
+    "İkisi birer kurban sundu; birininki kabul edildi, diğerininki edilmedi.",
+    "Kurbanı kabul edilmeyen kardeşini öldürmekle tehdit etti; kardeşi ise Sen beni öldürmek için elini uzatsan da ben seni öldürmek için elimi uzatmam dedi.",
+    "Sonunda kardeşini öldürdü ve zarara uğrayanlardan oldu.",
+    "Allah, ona kardeşinin cesedini nasıl gömeceğini göstermek için yeri eşeleyen bir karga gönderdi.",
+    "O da Bu karga kadar olmaktan aciz mi kaldım? diyerek yaptığına pişman oldu.",
+    [
+     "Kur’an bu iki kardeşin adlarını vermez; Hâbil ve Kâbil adları sonraki rivayetlerde geçer.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Öfkeye yenilmek insanı pişman eder; küçük bir karga bile insana ders olabilir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-fil",
+   "baslik": "Fil",
+   "tur": "Kur’an’ın anlattığı olaylarda",
+   "parcalar": [
+    [
+     "Fil.",
+     0.7
+    ],
+    "Kâbe’yi yıkmaya gelen ordunun fili.",
+    "Fil, Fîl suresinde geçer.",
+    [
+     "Bu, Fil sahipleri ile ilgili olaydır.",
+     0.7
+    ],
+    "Fîl Suresi, birinci ile beşinci ayetler arasının anlamı şöyledir.",
+    "Fil sahiplerine Rabbinin ne ettiğini görmedin mi.",
+    "Onların düzenlerini boşa çıkarmadı mı.",
+    "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+    [
+     "Sonunda onları, yenilmiş ekin gibi yaptı.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Fîl suresi, Fil sahiplerine Rabbinin ne ettiğini görmedin mi? diye başlar.",
+    "Allah onların düzenlerini boşa çıkardı.",
+    "Tefsir ve siyer kaynaklarına göre fil sahipleri, Yemen’in Habeşli valisi Ebrehe ve ordusudur.",
+    "Ebrehe, Kâbe’yi yıkmak için fillerin de bulunduğu bir orduyla Mekke’ye yürüdü; ordusu amacına ulaşamadan helak oldu.",
+    "Araplar bu yıla Fil yılı dedi.",
+    [
+     "Peygamberimizin bu yıl doğduğu kabul edilir.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Mekke fethedilince Peygamberimiz insanların arasında ayağa kalktı; Allah’a hamd ve senadan sonra şöyle buyurdu: Şüphesiz Allah, fili Mekke’den alıkoydu; Resûlünü ve müminleri ise oraya hâkim kıldı.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Peygamberimiz Mekke’nin fethi günü Fil olayını hatırlattı.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güç ve kalabalık, Allah’ın koruduğu şeye karşı bir işe yaramaz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-ebabil",
+   "baslik": "Ebâbîl kuşları",
+   "tur": "Kur’an’ın anlattığı olaylarda",
+   "parcalar": [
+    [
+     "Ebâbîl kuşları.",
+     0.7
+    ],
+    "Fil sahiplerinin üzerine sürü sürü gönderilen kuşlar.",
+    "Ebâbîl kuşları, Fîl suresinde geçer.",
+    [
+     "Bu, Fil sahipleri ile ilgili olaydır.",
+     0.7
+    ],
+    "Fîl Suresi, üçüncü ve dördüncü ayetlerin anlamı şöyledir.",
+    [
+     "Onların üzerine, sert taşlar atan sürülerle kuşlar gönderdi.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Fîl suresinde Allah, fil sahiplerinin üzerine sert taşlar atan kuşları sürü sürü gönderdiğini bildirir.",
+    "Ebâbîl bir kuş türünün adı değildir; bölük bölük, sürü sürü demektir.",
+    "Ayet bu kuşların hangi türden olduğunu bildirmez.",
+    [
+     "Taşların siccîlden olduğu söylenir; bu kelime tuğla gibi taşlaşmış çamur diye açıklanır.",
+     0.7
+    ],
+    [
+     "Görüş farkı.",
+     0.4
+    ],
+    "Klasik tefsirler olayı bir mucize olarak anlatır.",
+    [
+     "Muhammed Abduh gibi bazı çağdaş âlimler olayı bulaşıcı bir hastalıkla açıklamış, ancak çağdaş müfessirlerin çoğu bu yorumu benimsememiştir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah dilediğini en küçük varlıklarla da gerçekleştirir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-ari",
+   "baslik": "Arı",
+   "tur": "Örnek ve ibretlerde",
+   "parcalar": [
+    [
+     "Örnek ve ibretlerde.",
+     0.8
+    ],
+    [
+     "Arı.",
+     0.7
+    ],
+    "Rabbinin gösterdiği yolda çalışan ve şifalı bal yapan arı.",
+    [
+     "Arı, Nahl suresinde geçer.",
+     0.7
+    ],
+    "Nahl Suresi, altmış sekizinci ve altmış dokuzuncu ayetlerin anlamı şöyledir.",
+    "Rabbin bal arısına: Dağlarda, ağaçlarda ve hazırlanmış kovanlarda yuva edin; sonra her çeşit üründen ye; sonra da Rabbinin işlemen için gösterdiği yollardan yürü diye öğretti.",
+    "Karınlarından insanlara şifa olan çeşitli renklerde bal çıkar.",
+    [
+     "Düşünen bir millet için bunda ibret vardır.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Ayette, Allah’ın bal arısına dağlarda, ağaçlarda ve kovanlarda yuva edinmesini, her çeşit üründen yemesini ve Rabbinin gösterdiği yollardan yürümesini öğrettiği bildirilir.",
+    "Ayetin Arapçasında vahyetti denir; Diyanet meali bunu öğretti diye çevirir.",
+    "Arıların karınlarından çeşitli renklerde, insanlara şifa olan bal çıkar.",
+    "Ayet, düşünen bir topluluk için bunda bir ibret olduğunu söyler.",
+    [
+     "Nahl suresi adını bu ayetlerde geçen nahl, bal arısı, kelimesinden alır.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    [
+     "Bal bir besindir; hastalıkta tedavi için doktora danışılır.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Bir adam Peygamberimize gelip kardeşinin karnından rahatsız olduğunu söyledi.",
+    "Peygamberimiz, Ona bal içir buyurdu.",
+    "Adam birkaç kez gelip durumu anlattı; Peygamberimiz her seferinde bal içirmesini söyledi ve Allah doğru söyledi, kardeşinin karnı ise yalan söyledi buyurdu.",
+    "Adam kardeşine bal içirdi ve kardeşi iyileşti.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Allah doğru söyledi sözü, Nahl suresindeki onda insanlara şifa vardır ayetine işaret eder.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Küçük bir arının yaptığı bal bile Allah’ın insanlara bir nimetidir; düşünen bunda ibret bulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-orumcek",
+   "baslik": "Örümcek",
+   "tur": "Örnek ve ibretlerde",
+   "parcalar": [
+    [
+     "Örümcek.",
+     0.7
+    ],
+    "Yuvası evlerin en dayanıksızı olan örümcek.",
+    [
+     "Örümcek, Ankebût suresinde geçer.",
+     0.7
+    ],
+    "Ankebût Suresi, kırk birinci ayetin anlamı şöyledir.",
+    "Allah'tan başka dostlar edinenlerin durumu, kendine yuva yapan dişi örümceğin durumu gibidir.",
+    "Evlerin en dayanıksızı ise şüphesiz örümceğin yuvasıdır.",
+    [
+     "Keşke bilseler.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Allah, kendisini bırakıp başka dostlar edinenleri, kendine yuva yapan örümceğe benzetir.",
+    "Ayete göre evlerin en dayanıksızı örümceğin yuvasıdır.",
+    "Bu benzetme, Allah’tan başka dayanılan şeylerin örümcek ağı gibi zayıf ve güvenilmez olduğunu anlatır.",
+    [
+     "Ankebût suresi adını bu ayette geçen ankebût, örümcek, kelimesinden alır.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’tan başkasına dayanmak, örümcek ağına yaslanmak gibidir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-sivrisinek",
+   "baslik": "Sivrisinek",
+   "tur": "Örnek ve ibretlerde",
+   "parcalar": [
+    [
+     "Sivrisinek.",
+     0.7
+    ],
+    "Allah’ın örnek vermekten çekinmediği küçücük canlı.",
+    [
+     "Sivrisinek, Bakara suresinde geçer.",
+     0.7
+    ],
+    "Bakara Suresi, yirmi altıncı ve yirmi yedinci ayetlerin anlamı şöyledir.",
+    "Allah sivrisineği ve onun üstününü misal olarak vermekten çekinmez.",
+    "İnananlar bunun Rablerinden bir gerçek olduğunu bilirler.",
+    "İnkar edenler ise Allah bu misalle neyi murad etti? derler, O, bu misalle birçoğunu saptırır, birçoğunu da yola getirir.",
+    "Onunla saptırdığı yalnız fasıklardır ki onlar Allah'la yapılan sözleşmeyi kabulden sonra bozarlar.",
+    [
+     "Allah'ın birleştirilmesini buyurduğu şeyi ayırırlar ve yeryüzünde bozgunculuk yaparlar; zarara uğrayanlar işte onlardır.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Ayette, Allah’ın sivrisineği ve onun üstündekini örnek olarak vermekten çekinmediği bildirilir.",
+    "İnananlar bu örneğin Rablerinden gelen bir gerçek olduğunu bilir; inkâr edenler ise Allah bu örnekle ne demek istedi? der.",
+    [
+     "Küçük görünen bir canlı da insana düşündürecek bir örnek olabilir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ın verdiği örnek küçük olsa da taşıdığı ders büyüktür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-deve",
+   "baslik": "Deve",
+   "tur": "Örnek ve ibretlerde",
+   "parcalar": [
+    [
+     "Deve.",
+     0.7
+    ],
+    "Devenin nasıl yaratıldığına bakmazlar mı? ayetindeki deve.",
+    [
+     "Deve, Gaşiye suresinde geçer.",
+     0.7
+    ],
+    "Gaşiye Suresi, on yedinci ile yirminci ayetler arasının anlamı şöyledir.",
+    [
+     "Bu insanlar, devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine, yerin nasıl yayıldığına bir bakmazlar mı.",
+     0.7
+    ],
+    [
+     "Ayet ne anlatıyor?",
+     0.5
+    ],
+    "Gaşiye suresinde Allah, insanları devenin nasıl yaratıldığına, göğün nasıl yükseltildiğine, dağların nasıl dikildiğine ve yerin nasıl yayıldığına bakıp düşünmeye çağırır.",
+    "Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre bu surede, Allah’ın varlık ve kudretine inanmak için tabiatın incelenmesi tavsiye edilir.",
+    [
+     "Her gün görülen bir hayvan bile, dikkatle bakana bir ders verir.",
+     0.7
+    ],
+    [
+     "Bir hadis.",
+     0.5
+    ],
+    "Peygamberimiz şöyle buyurdu: Verimli bir yerde yolculuk ettiğinizde develere oradan paylarını verin.",
+    "Çorak bir yerde yolculuk ettiğinizde ise yürüyüşü hızlandırın.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Binek ve yük hayvanlarının yeme, dinlenme hakkı gözetilir; güçlerinin üstünde yorulmazlar.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Her gün gördüğümüz bir hayvan bile, dikkatle bakana Allah’ın kudretini gösterir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "merhamet",
+   "baslik": "Hayvanlara merhamet",
+   "tur": "Hadisler",
+   "parcalar": [
+    [
+     "Hayvanlara merhamet.",
+     0.8
+    ],
+    "Peygamberimiz hayvanlara iyilik etmeyi öğütlemiş, onlara eziyet etmeyi yasaklamıştır.",
+    [
+     "Buhârî ve Müslim’deki şu hadisler bunu anlatır.",
+     0.8
+    ],
+    [
+     "Susamış köpeğe su veren adam.",
+     0.5
+    ],
+    "Peygamberimiz şöyle anlattı: Bir adam yolda giderken çok susadı.",
+    "Bir kuyuya inip su içti.",
+    "Çıkınca, susuzluktan dilini çıkarıp soluyan ve nemli toprağı yalayan bir köpek gördü.",
+    "Bu köpek de benim gibi susamış dedi.",
+    "Kuyuya yeniden inip ayakkabısını suyla doldurdu, onu ağzıyla tutarak yukarı çıktı ve köpeğe su verdi.",
+    "Allah bu iyiliğinin karşılığını verdi ve onu bağışladı.",
+    "Sahabiler, Ey Allah’ın Resûlü!",
+    "Hayvanlara yaptığımız iyilikte bize sevap var mı? diye sordular.",
+    "Peygamberimiz, Her canlıya yapılan iyilikte sevap vardır buyurdu.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Bir hayvana su vermek gibi küçük görünen bir iyilik, Allah katında büyük bir sevaptır.",
+     0.8
+    ],
+    [
+     "Kediyi aç bırakan kadın.",
+     0.5
+    ],
+    "Peygamberimiz şöyle buyurdu: Bir kadın, ölünceye kadar hapsettiği bir kedi yüzünden azaba uğradı ve bu yüzden cehenneme girdi.",
+    "Onu hapsettiğinde ne yedirdi ne içirdi; ne de yerdeki böcekleri yesin diye onu salıverdi.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Bakımını üstlendiğimiz bir hayvanı aç, susuz bırakmak ve ona eziyet etmek büyük günahtır.",
+     0.8
+    ],
+    [
+     "Karınca yuvası.",
+     0.5
+    ],
+    "Peygamberimiz şöyle anlattı: Önceki peygamberlerden birini bir karınca ısırdı.",
+    "O da karınca yuvasının yakılmasını emretti.",
+    "Bunun üzerine Allah ona: Seni bir karınca ısırdı diye, Allah’ı tesbih eden ümmetlerden bir ümmeti mi yaktın? diye vahyetti.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Karıncalar da Allah’ı tesbih eden bir topluluktur; onlara gereksiz yere zarar verilmez.",
+     0.8
+    ],
+    [
+     "Kuşun yediği ekin.",
+     0.5
+    ],
+    "Peygamberimiz şöyle buyurdu: Bir Müslüman bir ağaç diker ya da ekin eker de ondan bir kuş, bir insan ya da bir hayvan yerse, bu onun için mutlaka bir sadaka olur.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Kuşların ve hayvanların rızıklanmasına vesile olmak bile sevaptır.",
+     0.8
+    ],
+    [
+     "Yolculukta develerin hakkı.",
+     0.5
+    ],
+    "Peygamberimiz şöyle buyurdu: Verimli bir yerde yolculuk ettiğinizde develere oradan paylarını verin.",
+    "Çorak bir yerde yolculuk ettiğinizde ise yürüyüşü hızlandırın.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Binek ve yük hayvanlarının yeme, dinlenme hakkı gözetilir; güçlerinin üstünde yorulmazlar.",
+     0.8
+    ],
+    [
+     "Hayvanı rahat ettirerek kesmek.",
+     0.5
+    ],
+    "Peygamberimiz şöyle buyurdu: Allah her şeyde iyiliği, ihsanı, emretmiştir.",
+    "Bir hayvan kestiğinizde onu güzel kesin.",
+    "Her biriniz bıçağını iyice bilesin ve kestiği hayvanı rahat ettirsin.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Kesilen hayvana bile acı çektirilmez; iyilik her işte gözetilir.",
+     0.8
+    ],
+    [
+     "Canlıyı hedef yapmamak.",
+     0.5
+    ],
+    "Abdullah bin Ömer, bir tavuğu bağlayıp ona ok atan birkaç gencin yanından geçti.",
+    "Gençler onu görünce dağıldılar.",
+    "Abdullah bin Ömer, Bunu kim yaptı?",
+    "Peygamberimiz, canlı bir şeyi hedef yapana lanet etmiştir dedi.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.5
+    ],
+    [
+     "Hayvanlar oyun ya da eğlence için incitilmez.",
+     1
+    ]
+   ]
+  }
+ ]
+}

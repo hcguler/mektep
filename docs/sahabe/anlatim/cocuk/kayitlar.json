@@ -1,0 +1,78 @@
+{
+ "_aciklama": "sahabe sesli anlatım kayıtları, cocuk profili (kadın sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "cocuk",
+ "ses": "kadin",
+ "motor": "ema-lightning",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Sahabe Hayatları: tam anlatım",
+   "sure": 2118.47,
+   "imza": "25af422eef64c9df"
+  },
+  "giris": {
+   "baslik": "Sahabe Hayatları",
+   "sure": 31.36,
+   "imza": "6811ab57efaf401f"
+  },
+  "01-ebubekir": {
+   "baslik": "Hz. Ebû Bekir",
+   "sure": 252.77,
+   "imza": "853d8ec475c2a23f"
+  },
+  "02-omer": {
+   "baslik": "Hz. Ömer",
+   "sure": 165.21,
+   "imza": "65b032d4aaab5f47"
+  },
+  "03-osman": {
+   "baslik": "Hz. Osman",
+   "sure": 165.34,
+   "imza": "1c21e5d3dcb06f83"
+  },
+  "04-ali": {
+   "baslik": "Hz. Ali",
+   "sure": 119.76,
+   "imza": "4f948c1137f89990"
+  },
+  "05-hatice": {
+   "baslik": "Hz. Hatice",
+   "sure": 158.66,
+   "imza": "3ceebf5ec8cec133"
+  },
+  "06-aise": {
+   "baslik": "Hz. Âişe",
+   "sure": 215.63,
+   "imza": "aa6170ce344a7866"
+  },
+  "07-fatima": {
+   "baslik": "Hz. Fâtıma",
+   "sure": 158.69,
+   "imza": "0eb6ce4ddced7e56"
+  },
+  "08-bilal": {
+   "baslik": "Hz. Bilâl",
+   "sure": 142.42,
+   "imza": "420b127486a54ab2"
+  },
+  "09-musab": {
+   "baslik": "Hz. Mus‘ab bin Umeyr",
+   "sure": 111.36,
+   "imza": "33c23ba7ee817028"
+  },
+  "10-sad": {
+   "baslik": "Hz. Sa‘d bin Ebû Vakkās",
+   "sure": 238.12,
+   "imza": "d81d236eaa34ce5e"
+  },
+  "11-ibnmesud": {
+   "baslik": "Hz. Abdullah bin Mes‘ûd",
+   "sure": 182.16,
+   "imza": "97884180cca31425"
+  },
+  "12-ebuhureyre": {
+   "baslik": "Hz. Ebû Hüreyre",
+   "sure": 170.99,
+   "imza": "2ce7b7ac64dafb7d"
+  }
+ }
+}

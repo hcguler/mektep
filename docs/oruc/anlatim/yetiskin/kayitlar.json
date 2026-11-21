@@ -1,0 +1,278 @@
+{
+ "_aciklama": "oruc sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Oruç Rehberi: tam anlatım",
+   "sure": 2755.32,
+   "imza": "0b1b3ea837909bf1"
+  },
+  "giris": {
+   "baslik": "Oruç Rehberi",
+   "sure": 25.31,
+   "imza": "bbcefee2f283cc8e"
+  },
+  "01-farz-olusu": {
+   "baslik": "Oruç farzdır",
+   "sure": 76.5,
+   "imza": "7e4da3c65e91aa7c"
+  },
+  "02-oruc-kalkandir": {
+   "baslik": "Oruç bir kalkandır",
+   "sure": 58.28,
+   "imza": "f9728d9310b2b3bc"
+  },
+  "03-ramazan-ayi": {
+   "baslik": "Ramazan ayı",
+   "sure": 91.34,
+   "imza": "12fa64660b135839"
+  },
+  "04-kime-farz": {
+   "baslik": "Kime farzdır?",
+   "sure": 36.98,
+   "imza": "4e53b2a074602ef9"
+  },
+  "05-niyet": {
+   "baslik": "Niyet",
+   "sure": 59.46,
+   "imza": "16bd72c1b24ff39c"
+  },
+  "06-imsak-iftar": {
+   "baslik": "İmsak ve iftar vakti",
+   "sure": 86.13,
+   "imza": "c86ccc40b3f8beaa"
+  },
+  "07-sahur": {
+   "baslik": "Sahur",
+   "sure": 47.53,
+   "imza": "436212b8c8488c9a"
+  },
+  "08-iftar": {
+   "baslik": "İftar",
+   "sure": 52.59,
+   "imza": "6824a931fc6d1931"
+  },
+  "09-iftar-duasi": {
+   "baslik": "İftar duası",
+   "sure": 56.77,
+   "imza": "bbbfda35cb666c8a"
+  },
+  "10-bilerek-yemek": {
+   "baslik": "Bilerek yemek, içmek",
+   "sure": 56.14,
+   "imza": "38c5eee81eb4986e"
+  },
+  "11-cinsel-iliski": {
+   "baslik": "Cinsel ilişki",
+   "sure": 90.63,
+   "imza": "14a9e7bc49ffbbd9"
+  },
+  "12-sigara": {
+   "baslik": "Sigara ve nargile",
+   "sure": 30.85,
+   "imza": "7f2bc76d8872c54e"
+  },
+  "13-su-kacmasi": {
+   "baslik": "Boğaza su kaçması",
+   "sure": 39.12,
+   "imza": "e9122946c47793e2"
+  },
+  "14-kasten-kusmak": {
+   "baslik": "Kasten kusmak",
+   "sure": 28.12,
+   "imza": "12afc7264834f746"
+  },
+  "15-vakit-yanilmasi": {
+   "baslik": "Vakitte yanılmak",
+   "sure": 36.61,
+   "imza": "c7183a0020f2cd68"
+  },
+  "16-mutat-olmayan": {
+   "baslik": "Yenmesi alışılmamış şeyler",
+   "sure": 36.21,
+   "imza": "d6cc5248417b2510"
+  },
+  "17-hayiz-nifas": {
+   "baslik": "Âdet ve lohusalık",
+   "sure": 49.54,
+   "imza": "92cbe871099d34b4"
+  },
+  "18-unutarak": {
+   "baslik": "Unutarak yemek, içmek",
+   "sure": 44.59,
+   "imza": "92a28cbd8c7e3e5f"
+  },
+  "19-kendiliginden-kusmak": {
+   "baslik": "Kendiliğinden kusmak",
+   "sure": 20.96,
+   "imza": "dfd7403602dfe54c"
+  },
+  "20-dis-fircalamak": {
+   "baslik": "Diş fırçalamak",
+   "sure": 33.1,
+   "imza": "294affaa45d64c26"
+  },
+  "21-igne-asi": {
+   "baslik": "İğne ve aşı",
+   "sure": 47.8,
+   "imza": "0aba3ce9fbbb71f3"
+  },
+  "22-astim-spreyi": {
+   "baslik": "Astım spreyi",
+   "sure": 45.92,
+   "imza": "f7559b2473f9acb2"
+  },
+  "23-damlalar": {
+   "baslik": "Göz, kulak ve burun damlası",
+   "sure": 42.03,
+   "imza": "d6a9a0a4fe845943"
+  },
+  "24-dis-tedavisi": {
+   "baslik": "Diş tedavisi",
+   "sure": 43.43,
+   "imza": "a6a418ca616bdf78"
+  },
+  "25-kan-vermek": {
+   "baslik": "Kan tahlili ve kan vermek",
+   "sure": 45.1,
+   "imza": "c43965f33a7192d7"
+  },
+  "26-cunup-sabahlamak": {
+   "baslik": "Cünüp sabahlamak",
+   "sure": 44.06,
+   "imza": "60fdf9b9c74a7d70"
+  },
+  "27-yikanmak": {
+   "baslik": "Yıkanmak ve yüzmek",
+   "sure": 29.56,
+   "imza": "01c3b2c7ef501cf7"
+  },
+  "28-tatmak": {
+   "baslik": "Tatmak ve çiğnemek",
+   "sure": 27.27,
+   "imza": "716667ee335cd78d"
+  },
+  "29-gucsuz-dusurmek": {
+   "baslik": "Güçsüz düşüren işler",
+   "sure": 31.92,
+   "imza": "33918a12a4184138"
+  },
+  "30-yolcu": {
+   "baslik": "Yolcu",
+   "sure": 92.58,
+   "imza": "55845197f7b493d0"
+  },
+  "31-hasta": {
+   "baslik": "Hasta",
+   "sure": 76.57,
+   "imza": "eacdc74852fa9708"
+  },
+  "32-hamile-emzikli": {
+   "baslik": "Hamile ve emzikli",
+   "sure": 36.91,
+   "imza": "c657476f4ad4e434"
+  },
+  "33-yasli": {
+   "baslik": "Yaşlı",
+   "sure": 64.6,
+   "imza": "7b07a1f651bf282c"
+  },
+  "34-cocuk": {
+   "baslik": "Çocuk ve oruç",
+   "sure": 51.19,
+   "imza": "f3ad0018a9e7c3b4"
+  },
+  "35-kaza": {
+   "baslik": "Kaza orucu",
+   "sure": 80.04,
+   "imza": "7588d8005a1ce8fb"
+  },
+  "36-kefaret": {
+   "baslik": "Oruç kefareti",
+   "sure": 56.05,
+   "imza": "4e05f4a941a143c5"
+  },
+  "37-fidye": {
+   "baslik": "Oruç fidyesi",
+   "sure": 102.47,
+   "imza": "ea320017fa57b0bc"
+  },
+  "38-sevval": {
+   "baslik": "Şevval’de altı gün",
+   "sure": 43.72,
+   "imza": "54a17cc0523f52f5"
+  },
+  "39-arefe": {
+   "baslik": "Arefe günü",
+   "sure": 35.35,
+   "imza": "07d0774a1fe46a7d"
+  },
+  "40-asure": {
+   "baslik": "Aşure günü",
+   "sure": 62.03,
+   "imza": "01bf7b1070a9715e"
+  },
+  "41-uc-gun": {
+   "baslik": "Her ay üç gün",
+   "sure": 52.24,
+   "imza": "7f3037359e26a269"
+  },
+  "42-pazartesi-persembe": {
+   "baslik": "Pazartesi ve perşembe",
+   "sure": 50.3,
+   "imza": "1de3e112b045d5bb"
+  },
+  "43-davud-orucu": {
+   "baslik": "Dâvûd orucu",
+   "sure": 41.14,
+   "imza": "23ba7eb88576bde7"
+  },
+  "44-muharrem-saban": {
+   "baslik": "Muharrem ve Şaban",
+   "sure": 49.26,
+   "imza": "b829b2ebf9ec795b"
+  },
+  "45-bayram-gunleri": {
+   "baslik": "Bayram günleri",
+   "sure": 51.33,
+   "imza": "0da03ad983d0045c"
+  },
+  "46-yalniz-cuma": {
+   "baslik": "Yalnız cuma günü",
+   "sure": 38.84,
+   "imza": "db83834da2fafa73"
+  },
+  "47-sek-gunu": {
+   "baslik": "Şek günü",
+   "sure": 45.85,
+   "imza": "5a676aff75880d97"
+  },
+  "48-visal": {
+   "baslik": "Visal orucu",
+   "sure": 32.35,
+   "imza": "4712a0c7c8108016"
+  },
+  "49-teravih": {
+   "baslik": "Teravih namazı",
+   "sure": 40.98,
+   "imza": "6550a907fff7fa07"
+  },
+  "50-itikaf": {
+   "baslik": "İtikâf",
+   "sure": 87.32,
+   "imza": "83d335b233b1e06d"
+  },
+  "51-kadir-gecesi": {
+   "baslik": "Kadir Gecesi",
+   "sure": 59.33,
+   "imza": "da6cecf741af3069"
+  },
+  "52-fitir-sadakasi": {
+   "baslik": "Fıtır sadakası (fitre)",
+   "sure": 64.99,
+   "imza": "a29219bc37c3beb1"
+  }
+ }
+}

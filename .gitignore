@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editör
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Claude Code (yerel ayarlar)
+.claude/settings.local.json
+.claude/worktrees/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python (tools/tts)
+__pycache__/
+*.pyc
+.venv/
+
+# Geçici / üretim ara dosyaları
+*.log
+*.tmp
+.cache/
+tmp/

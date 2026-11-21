@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="yetiskin" data-mode="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08110e">
+<!-- PWA: Mektep (apps/manifest.webmanifest, apps/pwa.js) -->
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mektep">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="description" content="Kur’an’dan Mucizeler: Kur’an’ın önceden haber verip sonra gerçekleşen haberleri ve indiği gün bilinmeyen, bugün bilimle birlikte düşünülen ayetler; Diyanet meali ve klasik tefsirle.">
+<meta name="author" content="Hüseyin Cihad Güler">
+<title>Kur’an’dan Mucizeler</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80'><rect width='80' height='80' rx='18' fill='%230c1814'/><g fill='none' stroke='%23dab56d' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'><path d='M40 12l6 13 14 2-10 10 2.5 14L40 44l-12.5 7L30 37 20 27l14-2Z'/><path d='M22 66h36'/></g></svg>">
+<!-- Tema (çocuk / yetişkin) uygulama ana ekranıyla, renk (koyu / açık) siteyle ortaktır; ilk boyamadan önce uygulanır -->
+<script>
+(function(){var d=document.documentElement,t,m;try{t=localStorage.getItem('apps:tema');m=localStorage.getItem('theme')}catch(e){}
+if(t!=='cocuk'&&t!=='yetiskin')t='yetiskin';
+if(m!=='dark'&&m!=='light')m=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+d.setAttribute('data-theme',t);d.setAttribute('data-mode',m)})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600&family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mucizeler.css">
+<link rel="stylesheet" href="../anlatim.css">
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brandbox">
+      <a class="ibtn home" href="../" aria-label="Mektep ana ekranı" title="Mektep"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg></a>
+      <a class="brand" href="#/"><span>Kur’an’dan <em>Mucizeler</em></span><small>Gelecekten haberler, o gün bilinmeyenler</small></a>
+    </div>
+    <div class="hsub" id="hsub"></div>
+    <div class="tools">
+      <button type="button" class="ibtn" id="lookBtn" aria-label="Görünüm: tema ve renk"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"/><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"/></svg><span class="lbl">Görünüm</span></button>
+      <button type="button" class="ibtn" id="infoBtn" aria-label="Kaynaklar ve notlar"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="lbl">Kaynaklar</span></button>
+    </div>
+  </header>
+
+  <nav class="tabbar" id="tabbar" aria-label="Bölümler"></nav>
+
+  <main id="app" tabindex="-1">
+    <noscript><p class="noscript">Kur’an’dan Mucizeler’i kullanmak için tarayıcınızda JavaScript’i açın.</p></noscript>
+  </main>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="sheet-bg" id="sheetBg">
+  <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+    <div class="grab" aria-hidden="true"></div>
+    <button type="button" class="x" id="sheetX" aria-label="Kapat"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+    <div id="sheetBody"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="ayetler.js"></script>
+<script src="ifadeler.js"></script>
+<script src="../medya.js"></script>
+<script src="../anlatim.js"></script>
+<script src="mucizeler.js"></script>
+<script src="../pwa.js" defer></script>
+</body>
+</html>

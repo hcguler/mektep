@@ -1,0 +1,2900 @@
+{
+ "_aciklama": "Sahabe Hayatları sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt (giris ve her sahabi için <sıra>-<id>). Her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça ayet metni seslendirilmez, meali okunur. Bu dosya tools/sahabe-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Sahabe Hayatları: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-ebubekir",
+   "02-omer",
+   "03-osman",
+   "04-ali",
+   "05-hatice",
+   "06-aise",
+   "07-fatima",
+   "08-bilal",
+   "09-musab",
+   "10-sad",
+   "11-ibnmesud",
+   "12-ebuhureyre"
+  ],
+  "parcalar": [
+   [
+    "Sahabe Hayatları.",
+    0.8
+   ],
+   "Peygamberimizin on iki arkadaşını tanıyacağız.",
+   "Sahabe, Peygamberimizi görüp ona inanan ve Müslüman olarak vefat eden kişilerdir.",
+   [
+    "Sahabileri dört bölümde tanıyacağız: Dört halife, Peygamberimizin ev halkı, Mekke’nin ilk Müslümanları, Kur’an ve hadis öğretmenleri.",
+    0.6
+   ],
+   "Her birinin hayatından birkaç kesit anlatacağız.",
+   "Kesitler, Buhârî ve Müslim’deki sahih hadislere, ilgili ayetlere ve Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne dayanır.",
+   [
+    "Tarihlerde farklı rivayetler varsa ayrıca belirteceğiz.",
+    1.6
+   ],
+   [
+    "Dört halife.",
+    0.8
+   ],
+   [
+    "Hazreti Ebû Bekir, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Peygamberimizin hicret arkadaşı ve ilk halife.",
+    0.6
+   ],
+   "Doğumu: Fil olayından üç yıl kadar sonra, milâdî beş yüz yetmiş üç civarı, Mekke.",
+   "Müslüman oluşu: İlk Müslümanlardan; Peygamberimizin davetini hemen kabul etti.",
+   [
+    "Vefatı: hicrî on üç yılı, yirmi iki Cemâziyelâhir, milâdî yirmi üç Ağustos altı yüz otuz dört, Medine, altmış üç yaşında.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Doğru söyledi.",
+    0.6
+   ],
+   "Hazreti Ebû Bekir, Peygamberimizin davetini duyunca tereddüt etmeden kabul etti ve ilk Müslümanlardan oldu.",
+   [
+    "İnsanlar Peygamberimizi yalanlarken o, onu doğruladı; canıyla ve malıyla ona destek oldu.",
+    0.7
+   ],
+   "Ebü’d-Derdâ anlatıyor.",
+   "Peygamberimiz şöyle buyurdu: Allah beni size gönderdi; siz Yalan söylüyorsun dediniz, Ebû Bekir ise Doğru söyledi dedi ve canıyla, malıyla bana destek oldu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "İkinci kesit. Köleleri hürriyetine kavuşturdu.",
+    0.6
+   ],
+   "Mekke’de inandığı için işkence gören köleleri sahiplerinden kurtarıp azat etti.",
+   "Bunlardan biri Hazreti Bilâl’dir.",
+   [
+    "Hazreti Ömer bu iyiliği unutmaz, Hazreti Bilâl’i efendimiz diye anardı.",
+    0.7
+   ],
+   "Câbir bin Abdullah anlatıyor.",
+   "Hazreti Ömer şöyle derdi: Ebû Bekir efendimizdir; efendimizi de o azat etti.",
+   "Bununla Bilâl’i kastederdi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Mağaradaki iki kişiden biri.",
+    0.6
+   ],
+   "Hicrette Peygamberimizle birlikte Mekke’den çıktı ve Sevr mağarasında saklandı.",
+   "Müşrikler mağaranın yakınına kadar gelince endişelendi.",
+   [
+    "Peygamberimiz onu Üzülme, Allah bizimledir diyerek teselli etti.",
+    0.7
+   ],
+   "Tevbe Suresi, kırkıncı ayetin anlamı şöyledir.",
+   "Ona, Muhammed'e, yardım etmezseniz, bilin ki, inkar edenler onu Mekke'den çıkardıklarında mağarada bulunan iki kişiden biri olarak Allah ona yardım etmişti.",
+   "Arkadaşına, Ebu Bekir'e, Üzülme, Allah bizimledir diyordu; Allah da ona güven vermiş, görmediğiniz askerlerle onu desteklemiş, inkar edenlerin sözünü alçaltmıştı.",
+   "Ancak Allah'ın sözü yücedir.",
+   [
+    "Allah güçlüdür, hakimdir.",
+    0.6
+   ],
+   [
+    "Müfessirlere göre ayette geçen arkadaşı Hazreti Ebû Bekir’dir; Diyanet meali de bunu ayraç içinde belirtir.",
+    0.7
+   ],
+   "Hazreti Ebû Bekir anlatıyor.",
+   "Mağaradayken Peygamberimize: Biri ayaklarının dibine baksa bizi görür dedim.",
+   "Buyurdu ki: Ey Ebû Bekir!",
+   "Üçüncüsü Allah olan iki kişi hakkında ne düşünürsün?",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Affetti, yardımını kesmedi.",
+    0.6
+   ],
+   "Yoksul akrabası Mistah’ın geçimine yardım ederdi.",
+   "Mistah, Hazreti Âişe’ye atılan iftiraya katılınca Hazreti Ebû Bekir ona bir daha yardım etmeyeceğine yemin etti.",
+   [
+    "Bunun üzerine Nûr suresindeki ayet indi; Hazreti Ebû Bekir affetti ve yardımını sürdürdü.",
+    0.7
+   ],
+   "Nûr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+   "İçinizde lütuf ve servet sahibi olanlar, yakınlarına, düşkünlere ve Allah yolunda hicret edenlere, vermemek için yemin etmesinler, affetsinler, geçsinler.",
+   "Allah'ın sizi bağışlamasından hoşlanmaz mısınız?",
+   [
+    "Allah bağışlayandır, merhametli olandır.",
+    0.6
+   ],
+   [
+    "Ayetin bu olay üzerine indiğini Buhârî’deki rivayet bildirir.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Ayet inince Hazreti Ebû Bekir: Evet, vallahi Allah’ın beni bağışlamasını isterim dedi ve Mistah’a yaptığı yardımı yeniden başlattı.",
+   "Bunu ondan asla kesmeyeceğim dedi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Beşinci kesit. Peygamberimizin yerine namaz kıldırdı.",
+    0.6
+   ],
+   "Peygamberimiz son hastalığında cemaate namazı Hazreti Ebû Bekir’in kıldırmasını istedi.",
+   "Peygamberimiz vefat edince Hazreti Ebû Bekir, şaşkınlık içindeki ashâbı Âl-i İmrân suresinden bir ayet okuyarak teselli etti.",
+   [
+    "Ardından ilk halife oldu.",
+    0.7
+   ],
+   "Ebû Mûsâ el-Eşarî anlatıyor.",
+   "Peygamberimiz hastalığı ağırlaşınca: Ebû Bekir’e söyleyin, insanlara namaz kıldırsın buyurdu ve bunu tekrarladı.",
+   "Hazreti Ebû Bekir de Peygamberimiz hayattayken cemaate namaz kıldırdı.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Sadakat: Peygamberimize en zor günlerinde canıyla ve malıyla destek oldu; kendisini üzeni de affetti.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "İlk Müslüman olan kişinin kim olduğu konusunda farklı rivayetler vardır.",
+   [
+    "Peygamberimizin hastalığında kaç vakit namaz kıldırdığı da farklı rivayet edilir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Gerçek dost, zor günde yanında olandır.",
+    1.6
+   ],
+   [
+    "Hazreti Ömer, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Hakkı batıldan ayıran adaletiyle tanınan ikinci halife.",
+    0.6
+   ],
+   "Doğumu: Fil olayından on üç yıl kadar sonra, milâdî beş yüz seksen dört civarı, Mekke.",
+   "Müslüman oluşu: Peygamberliğin altıncı yılında, milâdî altı yüz on altı.",
+   [
+    "Vefatı: hicrî yirmi üç yılı, yirmi altı Zilhicce, milâdî üç Kasım altı yüz kırk dört, Medine, şehit.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Müslüman oluşu.",
+    0.6
+   ],
+   "Hazreti Ömer, peygamberliğin altıncı yılında Müslüman oldu.",
+   [
+    "Onun İslam’a girmesi, baskı altındaki Müslümanlara güç verdi.",
+    0.7
+   ],
+   "Abdullah bin Mesûd anlatıyor.",
+   "Ömer Müslüman olduğundan beri güçlü olduk.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "İkinci kesit. Dileğine uygun inen ayet.",
+    0.6
+   ],
+   "Hazreti Ömer, Kâbe’yi ziyaret edenlerin Makām-ı İbrâhîm’i namaz yeri edinmesini diledi.",
+   "Bakara suresindeki ayet bu doğrultuda indi.",
+   [
+    "Hazreti Ömer bunu, Rabbinin görüşüne uygun düşen üç konudan biri olarak anlatır.",
+    0.7
+   ],
+   "Bakara Suresi, yüz yirmi beşinci ayetin anlamı şöyledir.",
+   "Kabeyi, insanlar için toplanma ve güven yeri kılmıştık.",
+   "İbrahim'in makamını namaz yeri edinin, dedik.",
+   [
+    "Evimi ziyaret edenler, kendini ibadete verenler, rüku ve secde edenler için temiz tutun diye İbrahim ve İsmail'e ahd verdik.",
+    0.6
+   ],
+   [
+    "Ayetin bu konuda Hazreti Ömer’in dileğine uygun indiğini Buhârî’deki rivayet bildirir.",
+    0.7
+   ],
+   "Hazreti Ömer anlatıyor.",
+   "Rabbim üç konuda benim görüşüme uygun hüküm indirdi.",
+   "Ey Allah’ın Resûlü, Makām-ı İbrâhîm’i namaz yeri edinsek dedim; İbrâhîm’in makamını namaz yeri edinin ayeti indi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Haktan yana kararlılık.",
+    0.6
+   ],
+   "Hazreti Ömer, haktan yana sert ve kararlı biriydi.",
+   [
+    "Peygamberimiz onun bu hâlini, şeytanın bile onun yolundan çekildiğini söyleyerek anlattı.",
+    0.7
+   ],
+   "Saad bin Ebû Vakkās anlatıyor.",
+   "Ey Hattâb’ın oğlu!",
+   "Canımı elinde tutan Allah’a yemin ederim ki şeytan seni bir yolda yürürken görürse mutlaka senin yolundan başka bir yola girer.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Takvim hicretle başladı.",
+    0.6
+   ],
+   "Hazreti Ömer’in halifeliği sırasında, Hazreti Ali’nin önerisiyle hicrî on altı, milâdî altı yüz otuz yedi, yılında Müslümanların takviminin hicretle başlamasına karar verildi.",
+   [
+    "Muharrem ayı yılın ilk ayı kabul edildi.",
+    0.7
+   ],
+   "Sehl bin Saad anlatıyor.",
+   "Sahâbîler takvime başlangıç olarak Peygamberimizin peygamber olarak gönderildiği günü ya da vefat ettiği günü değil, Medine’ye geldiği günü esas aldılar.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Adalet ve kararlılık: Hakkı söylemekten çekinmedi.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   [
+    "Doğum yılı için iki rivayet vardır: Fil olayından on üç yıl kadar sonra ya da Büyük Ficâr savaşından dört yıl kadar önce.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güçlü olmak, hakkı savunmak içindir.",
+    1.6
+   ],
+   [
+    "Hazreti Osman, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Hayâsı ve cömertliğiyle tanınan, Kur’an nüshalarını çoğaltan üçüncü halife.",
+    0.6
+   ],
+   "Doğumu: Fil olayından altı yıl kadar sonra, milâdî beş yüz yetmiş altı civarı, Tâif.",
+   "Müslüman oluşu: İlk Müslümanlardan; Hazreti Ebû Bekir’in vesilesiyle.",
+   [
+    "Vefatı: hicrî otuz beş yılı, on sekiz Zilhicce, milâdî on yedi Haziran altı yüz elli altı, Medine, şehit.",
+    0.8
+   ],
+   [
+    "Birinci kesit. İki nurun sahibi.",
+    0.6
+   ],
+   "Hazreti Osman, Hazreti Ebû Bekir’in vesilesiyle ilk Müslümanlar arasına katıldı.",
+   "Peygamberimizin kızı Hazreti Rukıyye ile evlendi ve onunla birlikte Habeşistan’a hicret etti.",
+   [
+    "Hazreti Rukıyye’nin vefatından sonra Peygamberimizin diğer kızı Hazreti Ümmü Külsûm ile evlendi; bu yüzden iki nur sahibi anlamında Zinnûreyn diye anıldı.",
+    0.7
+   ],
+   [
+    "İkinci kesit. Bedir’de ve Hudeybiye’de.",
+    0.6
+   ],
+   "Eşi Hazreti Rukıyye hasta olduğu için Peygamberimizin izniyle Bedir’e katılmadı.",
+   [
+    "Hudeybiye’de Peygamberimiz onu elçi olarak Mekke’ye göndermişti; Rıdvan biatı o Mekke’deyken yapıldı ve Peygamberimiz onun adına da biat aldı.",
+    0.7
+   ],
+   "Abdullah bin Ömer anlatıyor.",
+   "Peygamberimiz ona: Bedir’e katılan birinin sevabı ve payı sana da vardır buyurdu.",
+   "Rıdvan biatında da sağ elini kaldırıp Bu, Osman’ın elidir dedi ve onu öbür eline vurarak Bu da Osman adına buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Tebük’te cömertlik.",
+    0.6
+   ],
+   "Tebük seferi sıcak ve kıtlık zamanında yapıldı.",
+   [
+    "Hazreti Osman, ordunun hazırlanmasına malıyla büyük destek verdi.",
+    0.7
+   ],
+   [
+    "Dördüncü kesit. Meleklerin hayâ ettiği kişi.",
+    0.6
+   ],
+   "Hazreti Osman çok hayâlı biriydi.",
+   "Bir gün Peygamberimiz rahat bir hâlde otururken Hazreti Osman içeri girmek için izin isteyince toparlandı ve elbisesini düzeltti.",
+   [
+    "Hazreti Âişe sebebini sorunca cevap verdi.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Meleklerin kendisinden hayâ ettiği bir kişiden ben hayâ etmeyeyim mi?",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Beşinci kesit. Kur’an nüshalarını çoğalttı.",
+    0.6
+   ],
+   "Hazreti Osman’ın halifeliği döneminde farklı bölgelerde Kur’an okuyuşunda ayrılık doğmasından endişe edildi.",
+   [
+    "Hazreti Osman, daha önce toplanıp Hazreti Hafsa’nın yanında saklanan sahifeleri getirtti, bir heyete çoğalttırdı ve nüshaları bölgelere gönderdi.",
+    0.7
+   ],
+   "Enes bin Mâlik anlatıyor.",
+   "Huzeyfe bin Yemân, Hazreti Osman’a gelip: Ey müminlerin emîri!",
+   "Yahudiler ve Hristiyanlar gibi Kitap hakkında ayrılığa düşmeden önce bu ümmete yetiş dedi.",
+   "Hazreti Osman, Hafsa’dan sahifeleri isteyip nüshalar hâlinde çoğalttırdı ve her bölgeye bir nüsha gönderdi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Hayâ ve cömertlik: İyiliği gösterişsiz yaptı.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   [
+    "Müslüman olduğu yıl kesin olarak bilinmez; ilk Müslümanlar arasında sayılır.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hayâ insanı güzelleştirir, cömertlik bereket getirir.",
+    1.6
+   ],
+   [
+    "Hazreti Ali, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Peygamberimizin evinde büyüyen, ilmi ve cesaretiyle tanınan dördüncü halife.",
+    0.6
+   ],
+   "Doğumu: altı yüz civarı, Mekke.",
+   "Müslüman oluşu: Çocukken; ilk inananlardan.",
+   [
+    "Vefatı: hicrî kırk yılının Ramazan ayı, milâdî Ocak altı yüz altmış bir, Kûfe, şehit.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Peygamberimizin evinde büyüdü.",
+    0.6
+   ],
+   "Mekke’de bir kıtlık yılında amcası Ebû Tâlib’in yükü ağırlaşınca Hazreti Ali, Peygamberimizin yanına alındı ve onun evinde büyüdü.",
+   [
+    "Peygamberimiz davete başladığında henüz çocuktu; ilk inananlar arasına katıldı.",
+    0.7
+   ],
+   [
+    "İkinci kesit. Hicret gecesi.",
+    0.6
+   ],
+   "Peygamberimiz Hazreti Ebû Bekir ile Mekke’den çıktığı gece Hazreti Ali Mekke’de kaldı.",
+   [
+    "Ardından o da Medine’ye hicret edip Peygamberimize kavuştu.",
+    0.7
+   ],
+   [
+    "Üçüncü kesit. Hayber’de sancak.",
+    0.6
+   ],
+   "Hayber kuşatmasında Peygamberimiz, sancağı Allah’ı ve Resûlünü seven bir kişiye vereceğini söyledi.",
+   [
+    "Sabah olunca sancağı Hazreti Ali’ye verdi.",
+    0.7
+   ],
+   "Sehl bin Saad anlatıyor.",
+   "Yarın bu sancağı, Allah’ın fethi onun eliyle nasip edeceği, Allah’ı ve Resûlünü seven, Allah’ın ve Resûlünün de sevdiği birine vereceğim.",
+   "Sabah olunca Peygamberimiz Ali nerede? diye sordu ve sancağı ona verdi.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Tebük’te Medine’de kaldı.",
+    0.6
+   ],
+   "Peygamberimiz Tebük seferine çıkarken Hazreti Ali’yi Medine’de yerine vekil bıraktı.",
+   [
+    "Hazreti Ali sefere katılamadığına üzülünce Peygamberimiz onu teselli etti.",
+    0.7
+   ],
+   "Saad bin Ebû Vakkās anlatıyor.",
+   "Hârûn’un Mûsâ’ya göre konumu neyse senin de bana göre öyle olmana razı olmaz mısın?",
+   "Ancak benden sonra peygamber yoktur.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Cesaret ve ilim: Küçük yaşta verdiği iman sözünü bir ömür korudu.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "İlk Müslümanların sırası konusunda âlimler farklı görüşlere sahiptir.",
+   [
+    "Burada Hazreti Ali hakkında yalnızca Buhârî ve Müslim’deki rivayetlere yer verilmiştir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Küçük yaşta verilen iman sözü, bir ömür sürer.",
+    1.6
+   ],
+   [
+    "Peygamberimizin ev halkı.",
+    0.8
+   ],
+   [
+    "Hazreti Hatice, radıyallahu anhâ.",
+    0.7
+   ],
+   [
+    "Peygamberimizin ilk eşi ve ona ilk inanan kişi.",
+    0.6
+   ],
+   "Doğumu: beş yüz elli altı civarı, Mekke.",
+   "Müslüman oluşu: Peygamberimize ilk inanan kişi.",
+   [
+    "Vefatı: on Ramazan, milâdî on dokuz Nisan altı yüz yirmi, hicretten üç yıl kadar önce, Mekke.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Güvenilir bir tüccar.",
+    0.6
+   ],
+   "Hazreti Hatice, Mekke’de ticaretle uğraşan ve iffetiyle tanınan bir hanımdı.",
+   [
+    "Peygamberimizin dürüstlüğünü duyunca ona evlenme teklif etti ve evlendiler.",
+    0.7
+   ],
+   [
+    "İkinci kesit. İlk inanan.",
+    0.6
+   ],
+   "Peygamberimiz Hira’da ilk vahyi alıp korku içinde eve döndüğünde Hazreti Hatice onu teselli etti ve amcasının oğlu Varaka bin Nevfel’e götürdü.",
+   [
+    "Peygamberimize ilk inanan o oldu.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Hazreti Hatice ona şöyle dedi: Allah seni asla utandırmaz.",
+   "Sen akrabanı gözetirsin, düşküne ve yoksula yardım edersin, misafiri ağırlarsın, hak yolunda başına sıkıntı gelene destek olursun.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Boykot yıllarında.",
+    0.6
+   ],
+   [
+    "Kureyş Hâşimoğullarını boykot ettiğinde Hazreti Hatice, Peygamberimizin yanında kaldı ve malını bu zor günlerde harcadı.",
+    0.7
+   ],
+   [
+    "Dördüncü kesit. Rabbinden selam.",
+    0.6
+   ],
+   [
+    "Cebrâil, Peygamberimize Hazreti Hatice’ye Rabbinden ve kendisinden selam getirdi ve onu cennette bir köşkle müjdeledi.",
+    0.7
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Cebrâil Peygamberimize geldi ve: Ey Allah’ın Resûlü!",
+   "İşte Hatice, içinde yemek ya da içecek bulunan bir kapla sana geliyor.",
+   "Yanına gelince ona Rabbinden ve benden selam söyle; onu cennette, içinde gürültü ve yorgunluk olmayan inciden bir köşkle müjdele dedi.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Beşinci kesit. Unutulmayan vefa.",
+    0.6
+   ],
+   "Hazreti Hatice, hicretten üç yıl kadar önce Mekke’de vefat etti.",
+   [
+    "Peygamberimiz onu hiç unutmadı; sık sık anar, koyun kestiğinde onun dostlarına et gönderirdi.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Peygamberimiz Hatice’yi çok anardı.",
+   "Bir koyun kestiğinde onu parçalara ayırır, Hatice’nin dostlarına gönderirdi.",
+   "Ben bazen Sanki dünyada Hatice’den başka kadın yok! deyince, O şöyle şöyleydi; çocuklarım ondandı buyururdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Destek olmak: Zor günde güven verdi, malını iyiliğe harcadı.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "Vefat tarihi Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göredir, milâdî on Ramazan, on dokuz Nisan altı yüz yirmi; bazı siyer kaynaklarında altı yüz on dokuz olarak geçer.",
+   [
+    "Evlendiğinde kaç yaşında olduğu da kesin değildir; maddeye göre muhtemelen kırk yaş civarındaydı.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güzel bir söz, korkan bir kalbe güven verir.",
+    1.6
+   ],
+   [
+    "Hazreti Âişe, radıyallahu anhâ.",
+    0.7
+   ],
+   [
+    "Peygamberimizin eşi; öğrendiklerini sonraki nesillere aktaran öğretmen.",
+    0.6
+   ],
+   "Doğumu: altı yüz on dört, peygamberliğin dördüncü yılı, Mekke.",
+   "Müslüman oluşu: Müslüman bir ailede doğdu; babası Hazreti Ebû Bekir.",
+   [
+    "Vefatı: hicrî elli sekiz yılı, on yedi Ramazan, milâdî on dört Temmuz altı yüz yetmiş sekiz, Medine.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Hicret.",
+    0.6
+   ],
+   "Hazreti Âişe, Hazreti Ebû Bekir’in kızıdır; Mekke’de, Müslüman bir ailede doğdu.",
+   [
+    "Ailesiyle birlikte Medine’ye hicret etti ve Medine’de Peygamberimizle evlendi.",
+    0.7
+   ],
+   [
+    "İkinci kesit. Teyemmüm ayeti.",
+    0.6
+   ],
+   "Bir yolculukta Hazreti Âişe’nin gerdanlığı kayboldu.",
+   "Onu ararken ordu susuz bir yerde kaldı ve sabah namazı için su bulunamadı.",
+   [
+    "Bunun üzerine teyemmümü bildiren ayet indi.",
+    0.7
+   ],
+   "Mâide Suresi, altıncı ayetin anlamı şöyledir.",
+   "Ey İnananlar!",
+   "Namaza kalktığınızda yüzlerinizi, dirseklere kadar ellerinizi, -başlarınızı meshedip- topuk kemiklerine kadar ayaklarınızı yıkayın.",
+   "Eğer cünüpseniz yıkanıp temizlenin; şayet hasta veya yolculukta iseniz veya ayak yolundan gelmişseniz yahut kadınlara yaklaşmışsanız ve su bulamamışsanız temiz bir toprağa teyemmüm edin, yüzlerinizi, ellerinizi onunla meshedin.",
+   [
+    "Allah sizi zorlamak istemez, Allah sizi arıtıp üzerinize olan nimetini tamamlamak ister ki şükredesiniz.",
+    0.6
+   ],
+   [
+    "Ayetin bu olay üzerine indiğini Buhârî’deki rivayet bildirir.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Su arandı ama bulunamadı; bunun üzerine Ey iman edenler!",
+   "Namaza kalktığınızda ayeti indi.",
+   "Üseyd bin Hudayr: Ey Ebû Bekir ailesi!",
+   "Allah sizin sayenizde insanlara bereket verdi dedi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. İftiradan temize çıkarıldı.",
+    0.6
+   ],
+   "Bir seferden dönerken münafıklar Hazreti Âişe’ye iftira attı.",
+   "Hazreti Âişe bu zor günlerde sabretti ve yalnızca Allah’a sığındı.",
+   [
+    "Allah, Nûr suresindeki ayetlerle iftiranın asılsız olduğunu bildirdi.",
+    0.7
+   ],
+   "Nûr Suresi, on birinci ayetin anlamı şöyledir.",
+   ", Peygamber'in eşi hakkında, o yalanı uyduranlar içinizden bir güruhtur.",
+   "Bunu kendiniz için kötü sanmayın, o sizin için hayırlı olmuştur.",
+   [
+    "O kimselerden her birine kazandığı günah karşılığı ceza vardır; içlerinden elebaşılık yapana ise büyük azap vardır.",
+    0.6
+   ],
+   [
+    "Nûr suresinin on birinci ve onu izleyen ayetlerin bu olay üzerine indiğini Buhârî’deki rivayet bildirir.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Vahiy sona erince Peygamberimiz gülümsüyordu; ilk sözü Âişe!",
+   "Allah seni temize çıkardı oldu.",
+   "Allah, O iftirayı uyduranlar içinizden bir gruptur diye başlayan ayetleri indirdi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Cebrâil’in selamı.",
+    0.6
+   ],
+   [
+    "Peygamberimiz bir gün Hazreti Âişe’ye Cebrâil’in ona selam gönderdiğini haber verdi.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Ey Âişe!",
+   "Bu Cebrâil, sana selam söylüyor.",
+   "Ben de: Allah’ın selamı, rahmeti ve bereketi onun da üzerine olsun.",
+   "Sen benim görmediğimi görüyorsun dedim.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Beşinci kesit. Ümmetin öğretmeni.",
+    0.6
+   ],
+   "Hazreti Âişe, Peygamberimizden öğrendiklerini sonraki nesillere aktardı.",
+   "Ondan iki bin iki yüz on hadis rivayet edilmiştir; binden fazla hadis rivayet eden sahâbîlerdendir.",
+   [
+    "Medine’de evi bir ilim merkezi oldu.",
+    0.7
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "İlim: Öğrendiğini sorarak derinleştirdi, öğreterek çoğalttı.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "Doğum yılı hakkında farklı görüşler vardır; Türkiye Diyanet Vakfı İslâm Ansiklopedisi peygamberliğin dördüncü yılını, milâdî altı yüz on dört, esas alır.",
+   [
+    "Vefat ettiğinde altmış beş ya da altmış altı yaşında olduğu kaydedilir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Öğrendiğini paylaşan, ilmini çoğaltır.",
+    1.6
+   ],
+   [
+    "Hazreti Fâtıma, radıyallahu anhâ.",
+    0.7
+   ],
+   [
+    "Peygamberimizin kızı; Hazreti Hasan ile Hazreti Hüseyin’in annesi.",
+    0.6
+   ],
+   "Doğumu: altı yüz dokuz civarı, bir görüşe göre altı yüz beş, Mekke.",
+   "Müslüman oluşu: Peygamberimizin evinde, İslam’la büyüdü.",
+   [
+    "Vefatı: hicrî on bir yılı, üç Ramazan, milâdî yirmi iki Kasım altı yüz otuz iki, Medine.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Babasının yanında.",
+    0.6
+   ],
+   "Mekke’de bir gün Peygamberimiz Kâbe’de namaz kılarken müşrikler, secdedeyken sırtına deve işkembesi koydu.",
+   [
+    "Peygamberimiz secdeden kalkmadı; Hazreti Fâtıma gelip onu babasının sırtından attı.",
+    0.7
+   ],
+   "Abdullah bin Mesûd anlatıyor.",
+   "Peygamberimiz secdede başını kaldırmadı; sonunda Fâtıma gelip onu sırtından attı.",
+   "Bunun üzerine başını kaldırdı.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "İkinci kesit. Hizmetçiden hayırlısı.",
+    0.6
+   ],
+   "Hazreti Fâtıma hicretin ikinci yılında Hazreti Ali ile evlendi.",
+   "El değirmeninde un öğütmek ellerini yorunca Peygamberimizden bir hizmetçi istemeye gitti.",
+   [
+    "Peygamberimiz akşam onların evine geldi ve onlara bir zikir öğretti.",
+    0.7
+   ],
+   "Hazreti Ali anlatıyor.",
+   "Size istediğinizden daha hayırlısını öğreteyim mi?",
+   "Yatağınıza girdiğinizde otuz dört kere Allahu ekber, otuz üç kere Sübhânallah, otuz üç kere Elhamdülillah deyin.",
+   "Bu sizin için bir hizmetçiden daha hayırlıdır.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Benden bir parça.",
+    0.6
+   ],
+   [
+    "Peygamberimiz kızı Hazreti Fâtıma’yı çok severdi; onu Hoş geldin kızım diye karşılar, yanına oturturdu.",
+    0.7
+   ],
+   "Misver bin Mahreme anlatıyor.",
+   "Fâtıma benden bir parçadır; onu kızdıran beni kızdırmış olur.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Son günlerde bir sır.",
+    0.6
+   ],
+   "Peygamberimiz son hastalığında Hazreti Fâtıma’ya gizlice bir şey söyledi, o ağladı; sonra yine bir şey söyledi, o güldü.",
+   "Hazreti Fâtıma bu sırrı ancak Peygamberimizin vefatından sonra anlattı.",
+   [
+    "Kendisi de birkaç ay sonra Medine’de vefat etti.",
+    0.7
+   ],
+   "Hazreti Âişe anlatıyor.",
+   "Hazreti Fâtıma sırrı şöyle anlattı: Peygamberimiz, Cebrâil her yıl Kur’an’ı benimle bir kez karşılıklı okurdu; bu yıl iki kez okudu.",
+   "Bunu ecelimin yaklaştığına yorumluyorum buyurdu ve ailesinden ona ilk kavuşacak kişinin ben olduğumu haber verdi.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Vefa ve kanaat: Babasının yanında durdu, zorluğa zikirle güç buldu.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "Doğum yılı için altı yüz beş ve altı yüz dokuz görüşleri vardır; Türkiye Diyanet Vakfı İslâm Ansiklopedisi altı yüz dokuz’u daha ağırlıklı görür.",
+   [
+    "Peygamberimizden kaç ay sonra vefat ettiği de farklı rivayet edilir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah’ı anmak, istediğimiz şeyden daha hayırlıdır.",
+    1.6
+   ],
+   [
+    "Mekke’nin ilk Müslümanları.",
+    0.8
+   ],
+   [
+    "Hazreti Bilâl, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "İnancı uğruna işkenceye katlanan, İslam’ın ilk müezzini.",
+    0.6
+   ],
+   "Doğumu: beş yüz seksen bir civarı, Mekke ya da Serât.",
+   "Müslüman oluşu: Mekke’de, köleyken.",
+   [
+    "Vefatı: hicrî yirmi, milâdî altı yüz kırk bir, Dımaşk.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Rabbim Allah’tır.",
+    0.6
+   ],
+   "Hazreti Bilâl, Ümeyye bin Halef’in kölesiydi.",
+   "Müslüman olunca sahibi onu öğle sıcağında yere yatırıp göğsüne büyük bir kaya koydurdu.",
+   "Hazreti Bilâl her defasında Rabbim Allah’tır, O birdir dedi.",
+   [
+    "Sonunda Hazreti Ebû Bekir onu kurtarıp azat etti.",
+    0.7
+   ],
+   "Câbir bin Abdullah anlatıyor.",
+   "Hazreti Ömer şöyle derdi: Ebû Bekir efendimizdir; efendimizi de o azat etti.",
+   "Bununla Bilâl’i kastederdi.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "İkinci kesit. İlk ezan.",
+    0.6
+   ],
+   "Medine’de Müslümanları namaza çağırmak için bir yol arandı.",
+   [
+    "Peygamberimiz bu görevi Hazreti Bilâl’e verdi; Hazreti Bilâl hicretin birinci ya da ikinci yılında İslam’daki ilk ezanı okudu.",
+    0.7
+   ],
+   "Abdullah bin Ömer anlatıyor.",
+   "Müslümanlar Medine’ye gelince namaz vaktini tahmin ederek toplanırlardı.",
+   "Bunu konuştular; kimi çan, kimi boru önerdi.",
+   "Hazreti Ömer namaza çağıracak birinin gönderilmesini teklif etti.",
+   "Peygamberimiz: Ey Bilâl, kalk ve namaza çağır buyurdu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Cennetteki ayak sesleri.",
+    0.6
+   ],
+   [
+    "Peygamberimiz, cennette önünde Hazreti Bilâl’in ayak seslerini duyduğunu söyleyip ona en çok umduğu ameli sordu.",
+    0.7
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Ey Bilâl!",
+   "Müslüman olduktan sonra yaptığın, en çok umduğun ameli bana söyle; çünkü cennette önümde ayak seslerini duydum.",
+   "Bilâl: Gece ya da gündüz ne zaman abdest alsam, o abdestle bana takdir edildiği kadar namaz kılarım; bundan başka bir şey yapmadım dedi.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Kâbe’nin üstünde ezan.",
+    0.6
+   ],
+   "Mekke fethedildiğinde Hazreti Bilâl, Peygamberimizin emriyle Kâbe’nin damına çıkıp ezan okudu.",
+   [
+    "Bir zamanlar işkence gördüğü şehirde Allah’ın birliğini ilan etti.",
+    0.7
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Sabır ve sebat: İşkence altında da inancından dönmedi.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "Vefat yeri olarak Dımaşk’ın yanında Halep ve Dâreyyâ da rivayet edilir.",
+   [
+    "İşkence ve fetih günü Kâbe’de ezan okuması siyer kaynaklarına dayanır.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Sabırla korunan inanç, bir gün en yüksekten duyurulur.",
+    1.6
+   ],
+   [
+    "Hazreti Musab bin Umeyr, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Medine’ye gönderilen ilk öğretmen; Uhud’da sancağı taşıdı.",
+    0.6
+   ],
+   "Doğumu: Bilinmiyor; Mekke, Abdüddâroğulları.",
+   "Müslüman oluşu: Mekke’de, ilk müminlerden.",
+   [
+    "Vefatı: hicrî üç, milâdî altı yüz yirmi beş, Uhud, şehit.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Rahat hayatı bıraktı.",
+    0.6
+   ],
+   "Hazreti Musab, Mekke’de varlıklı bir ailede büyüdü.",
+   "Müslüman olunca ailesi onu hapsedip dininden döndürmeye çalıştı; ama o inancından vazgeçmedi.",
+   [
+    "Peygamberliğin beşinci yılında ilk kafileyle Habeşistan’a hicret etti.",
+    0.7
+   ],
+   [
+    "İkinci kesit. Medine’nin ilk öğretmeni.",
+    0.6
+   ],
+   "Birinci Akabe biatından sonra Peygamberimiz onu, Medinelilere Kur’an ve İslam’ı öğretmek için Medine’ye gönderdi.",
+   [
+    "Onun davetiyle Üseyd bin Hudayr ve Saad bin Muâz gibi Medine’nin önde gelenleri Müslüman oldu.",
+    0.7
+   ],
+   "Berâ bin Âzib anlatıyor.",
+   "Bize Medine’ye ilk gelenler Musab bin Umeyr ile İbn Ümmi Mektûm’du; insanlara Kur’an öğretiyorlardı.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Sancaktar.",
+    0.6
+   ],
+   [
+    "Bedir’de muhacirlerin, Uhud’da bütün Müslümanların sancağını taşıdı.",
+    0.7
+   ],
+   [
+    "Dördüncü kesit. Bir hırkadan başka bir şey bırakmadı.",
+    0.6
+   ],
+   "Hazreti Musab Uhud’da şehit oldu.",
+   [
+    "Kefen olarak yalnızca bir hırkası vardı; dünyalık bir şey bırakmadı.",
+    0.7
+   ],
+   "Habbâb bin Eret anlatıyor.",
+   "Musab bin Umeyr Uhud günü şehit oldu.",
+   "Onu kefenlemek için hırkasından başka bir şey bulamadık.",
+   "Başını örttüğümüzde ayakları, ayaklarını örttüğümüzde başı açılıyordu.",
+   "Peygamberimiz başını örtmemizi, ayaklarının üzerine de izhir otu koymamızı emretti.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Fedakârlık: Rahatını Allah yolunda bıraktı, bildiğini öğretti.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   [
+    "Doğum tarihi ve Müslüman olduğu yıl kaynaklarda kesin olarak geçmez.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Asıl zenginlik, geride bıraktığın iyiliktir.",
+    1.6
+   ],
+   [
+    "Hazreti Saad bin Ebû Vakkās, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Gençken Müslüman olan, okçuluğuyla tanınan sahâbî.",
+    0.6
+   ],
+   "Doğumu: beş yüz doksan iki, Mekke.",
+   "Müslüman oluşu: On yedi ya da on dokuz yaşında, ilk Müslümanlardan.",
+   [
+    "Vefatı: hicrî elli beş, milâdî altı yüz yetmiş beş, Akīk, Medine yakını.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Genç yaşta Müslüman oldu.",
+    0.6
+   ],
+   "Hazreti Saad, on yedi ya da on dokuz yaşındayken Müslüman oldu ve ilk Müslümanlar arasına katıldı.",
+   [
+    "Kendisi bu günleri, bildiği kadarıyla Müslümanların ancak üç kişi olduğu günler olarak anlatır.",
+    0.7
+   ],
+   "Saad bin Ebû Vakkās anlatıyor.",
+   "Benim Müslüman olduğum günden önce kimse Müslüman olmadı.",
+   "Yedi gün boyunca İslam’ın üçte biri olarak kaldım.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "İkinci kesit. Annesine karşı da güzel davrandı.",
+    0.6
+   ],
+   "Hazreti Saad Müslüman olunca annesi onu dininden döndürmek için konuşmayacağına, yiyip içmeyeceğine yemin etti.",
+   "Hazreti Saad inancından vazgeçmedi.",
+   [
+    "Ankebût ve Lokmân surelerindeki ayetler, anne babaya iyiliği emrederken şirke zorlamalarında onlara uyulmamasını bildirdi.",
+    0.7
+   ],
+   "Ankebût Suresi, sekizinci ayetin anlamı şöyledir.",
+   "Biz, insana, ana ve babasına karşı iyi davranmasını tavsiye etmişizdir.",
+   "Eğer ana baba, seni bir şeyi körü körüne Bana ortak koşman için zorlarlarsa, o zaman onlara itaat etme.",
+   "Dönüşünüz Banadır.",
+   [
+    "Yaptıklarınızı size bildiririm.",
+    0.6
+   ],
+   "Lokmân Suresi, on beşinci ayetin anlamı şöyledir.",
+   "Ey insanoğlu!",
+   "Ana baba, seni, körü körüne Bana ortak koşman için zorlarlarsa, onlara itaat etme; dünya işlerinde onlarla güzel geçin; Bana yönelen kimsenin yoluna uy; sonunda dönüşünüz Bana'dır.",
+   [
+    "O zaman, yaptıklarınızı size bildiririm.",
+    0.6
+   ],
+   [
+    "Bu ayetlerin Hazreti Saad ve annesi hakkında indiğini Müslim’deki rivayet bildirir; Türkiye Diyanet Vakfı İslâm Ansiklopedisi de Lokmân suresindeki ayeti anar.",
+    0.7
+   ],
+   "Musab bin Saad, babasından anlatıyor.",
+   "Annesi, Saad dininden dönmedikçe onunla konuşmayacağına, yiyip içmeyeceğine yemin etti ve Allah sana anne babana iyi davranmanı emrediyor; ben de annenim ve sana bunu emrediyorum dedi.",
+   "Bunun üzerine Allah bu ayetleri indirdi.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Uhud’da okçu.",
+    0.6
+   ],
+   "Hazreti Saad usta bir okçuydu.",
+   [
+    "Uhud’da Peygamberimizin yanında ok attı; Peygamberimiz onu dualarla yüreklendirdi.",
+    0.7
+   ],
+   "Hazreti Ali anlatıyor.",
+   "Peygamberimizin Anam babam sana feda olsun sözünü Saad bin Mâlik’ten başka kimse için söylediğini duymadım.",
+   "Uhud günü ona: Ey Saad, at!",
+   "Anam babam sana feda olsun! diyordu.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Üçte biri de çoktur.",
+    0.6
+   ],
+   "Veda Haccı yılında Mekke’de ağır hastalandı; Peygamberimiz onu ziyaret etti.",
+   "Hazreti Saad malının çoğunu sadaka olarak vermek isteyince Peygamberimiz ona ölçüyü öğretti.",
+   [
+    "Hazreti Saad bu hastalıktan iyileşti ve uzun yıllar yaşadı.",
+    0.7
+   ],
+   "Saad bin Ebû Vakkās anlatıyor.",
+   "Malım çok, bir kızımdan başka mirasçım yok.",
+   "Malımın üçte ikisini sadaka olarak vereyim mi? dedim.",
+   "Hayır buyurdu.",
+   "Yarısını? dedim.",
+   "Hayır buyurdu ve ekledi: Üçte biri; üçte biri de çoktur.",
+   "Mirasçılarını zengin bırakman, onları insanlara el açan yoksullar olarak bırakmandan daha hayırlıdır.",
+   "Allah rızası için yaptığın her harcamaya, hanımının ağzına verdiğin lokmaya bile sevap alırsın.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Beşinci kesit. Kādisiye ve Kûfe.",
+    0.6
+   ],
+   "Hazreti Ömer döneminde Irak’taki İslam ordusunun komutanı oldu ve Kādisiye’de, milâdî altı yüz otuz altı, zafer kazandı.",
+   [
+    "Hazreti Ömer’in emriyle Kûfe şehrini kurdu.",
+    0.7
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Anne babaya iyilik ve inançta sebat.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "Vefat yılı için elli dört ve elli sekiz, milâdî altı yüz yetmiş sekiz, görüşleri de vardır.",
+   [
+    "Hastalanıp vasiyet sorduğu yıl Buhârî ve Müslim’de Veda Haccı yılı olarak geçer; Türkiye Diyanet Vakfı İslâm Ansiklopedisi Mekke’nin fethi yılı olduğunu söyleyenlerin de bulunduğunu belirtir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Anne babaya iyilik, Allah’a itaatle birlikte yürür.",
+    1.6
+   ],
+   [
+    "Kur’an ve hadis öğretmenleri.",
+    0.8
+   ],
+   [
+    "Hazreti Abdullah bin Mesûd, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Kur’an’ı Peygamberimizden öğrenip öğreten, onun hizmetinden ayrılmayan sahâbî.",
+    0.6
+   ],
+   "Doğumu: Bilinmiyor; Mekke.",
+   "Müslüman oluşu: İlk Müslümanlardan; kendisi altıncı Müslüman olduğunu söyler.",
+   [
+    "Vefatı: hicrî otuz iki, milâdî altı yüz elli iki ya da altı yüz elli üç, Medine.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Çobanlıktan Kur’an’a.",
+    0.6
+   ],
+   "Hazreti Abdullah bin Mesûd, çocukluğunda Mekke’de koyun güden yoksul bir gençti.",
+   "İlk Müslümanlardandır.",
+   [
+    "Peygamberimizden sonra Kâbe’de Kur’an’ı açıktan okuyan ilk sahâbî odur.",
+    0.7
+   ],
+   [
+    "İkinci kesit. Kovulmasın istenenler.",
+    0.6
+   ],
+   "Mekkeli müşrikler Peygamberimizden, yanındaki yoksul ve zayıf Müslümanları uzaklaştırmasını istedi.",
+   "Hazreti Abdullah bin Mesûd, Hazreti Bilâl ve Hazreti Saad da bu kişiler arasındaydı.",
+   [
+    "Bunun üzerine Enâm suresindeki ayet indi.",
+    0.7
+   ],
+   "Enâm Suresi, elli ikinci ayetin anlamı şöyledir.",
+   "Sabah akşam, Rabblerinin rızasını isteyerek O'na yalvaranları kovma.",
+   [
+    "Onların hesabından sana bir sorumluluk yoktur, senin hesabından da onlara bir sorumluluk yoktur ki onları kovarak zulmedenlerden olasın.",
+    0.6
+   ],
+   [
+    "Ayetin bu altı sahâbî hakkında indiğini Müslim’deki rivayet bildirir.",
+    0.7
+   ],
+   "Saad bin Ebû Vakkās anlatıyor.",
+   "Altı kişi Peygamberimizin yanındaydık.",
+   "Müşrikler: Bunları yanından kov, bize karşı cesaret bulmasınlar dediler.",
+   "Bu altı kişi ben, İbn Mesûd, Hüzeyl kabilesinden bir adam, Bilâl ve adlarını bilmediğim iki kişiydi.",
+   "Bunun üzerine Allah bu ayeti indirdi.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Peygamberimizin hizmetinde.",
+    0.6
+   ],
+   "Habeşistan’a ve Medine’ye hicret etti.",
+   [
+    "Peygamberimizin ayakkabılarını hazırlar, yolculukta önünde yürür, ibadet vaktinde onu uyandırırdı.",
+    0.7
+   ],
+   [
+    "Dördüncü kesit. Kur’an’ı ondan öğrenin.",
+    0.6
+   ],
+   "Hazreti Abdullah bin Mesûd, Kur’an’ın yetmişten fazla suresini Peygamberimizden öğrendi.",
+   [
+    "Peygamberimiz, Kur’an’ın öğrenileceği kişileri sayarken onun adını andı.",
+    0.7
+   ],
+   "Abdullah bin Amr anlatıyor.",
+   "Kur’an’ı dört kişiden öğrenin: Abdullah bin Mesûd, Ebû Huzeyfe’nin azatlısı Sâlim, Muâz bin Cebel ve Übey bin Kâb.",
+   [
+    "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Beşinci kesit. Peygamberimize Kur’an okudu.",
+    0.6
+   ],
+   "Peygamberimiz bir gün ondan Kur’an okumasını istedi.",
+   [
+    "Hazreti Abdullah Nisâ suresinden okudu; Peygamberimizin gözlerinden yaşlar aktı.",
+    0.7
+   ],
+   "Abdullah bin Mesûd anlatıyor.",
+   "Peygamberimiz bana: Bana Kur’an oku dedi.",
+   "Kur’an sana indirilmişken ben mi sana okuyayım? dedim.",
+   "Başkasından dinlemeyi severim buyurdu.",
+   "Nisâ suresini okudum; kırk birinci ayete gelince Dur dedi.",
+   "Bir de baktım, gözlerinden yaşlar akıyordu.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "Kur’an’ı öğrenmek ve öğretmek; tevazu ile hizmet.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "Kaçıncı Müslüman olduğu konusunda farklı rivayetler vardır; kendisi altıncı olduğunu söyler.",
+   [
+    "Kûfe’de vefat ettiği iddiası Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre yanlıştır; vefat yeri Medine’dir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kur’an’ı dinlemek de okumak kadar güzeldir.",
+    1.6
+   ],
+   [
+    "Hazreti Ebû Hüreyre, radıyallahu anh.",
+    0.7
+   ],
+   [
+    "Peygamberimizin yanından ayrılmayan, en çok hadis rivayet eden sahâbî.",
+    0.6
+   ],
+   "Doğumu: Bilinmiyor; Yemen, Devs kabilesi.",
+   "Müslüman oluşu: hicrî yedi, milâdî altı yüz yirmi sekiz, başlarında, Tufeyl bin Amr vesilesiyle.",
+   [
+    "Vefatı: hicrî elli sekiz, milâdî altı yüz yetmiş sekiz, Medine yakını, yetmiş sekiz yaşında.",
+    0.8
+   ],
+   [
+    "Birinci kesit. Devs’ten Hayber’e.",
+    0.6
+   ],
+   "Hazreti Ebû Hüreyre, Yemen’deki Devs kabilesindendir.",
+   "Kabilesinden Tufeyl bin Amr’ın vesilesiyle Müslüman oldu.",
+   [
+    "Hicretin yedinci yılında Medine’ye geldi ve Peygamberimize Hayber’de, fetihten sonra ulaştı.",
+    0.7
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Hayber fethedildikten sonra, Peygamberimiz Hayber’deyken yanına geldim.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "İkinci kesit. Suffe’nin misafiri.",
+    0.6
+   ],
+   "Mescid-i Nebevî’deki Suffe’de kalan, ailesi ve malı olmayan sahâbîlerdendi.",
+   "Bazen açlıktan karnına taş bağlardı.",
+   [
+    "Bir gün Peygamberimiz ona bir kap süt verip önce Suffe ehline dağıtmasını istedi.",
+    0.7
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Ebû Hirr!",
+   "Git, Suffe ehlini bana çağır.",
+   "Suffe ehli, ailesi, malı ve sığınacak kimsesi olmayan İslam’ın misafirleriydi.",
+   "Kabı sırayla hepsine verdim; hepsi kanıncaya kadar içti.",
+   "Sonra Peygamberimiz: Sen ve ben kaldık.",
+   "Otur ve iç buyurdu.",
+   "İçtim; o da İç dedikçe içtim.",
+   "En son kalanı kendisi içti.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Üçüncü kesit. Unutmayan hafıza.",
+    0.6
+   ],
+   [
+    "Muhacirler çarşıda, ensar tarlalarında çalışırken o, karnını doyuracak kadarıyla yetinip Peygamberimizin yanından ayrılmaz, duyduklarını ezberlerdi.",
+    0.7
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Peygamberimize: Senden birçok söz işitiyorum ama unutuyorum dedim.",
+   "Ridânı yay buyurdu.",
+   "Yaydım; elleriyle avuçlar gibi yapıp içine boşalttı ve Bunu üzerine sar dedi.",
+   "Sardım; ondan sonra hiçbir şey unutmadım.",
+   [
+    "Bu hadisi Buhârî rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Dördüncü kesit. Annesi için dua.",
+    0.6
+   ],
+   "Müşrik olan annesini İslam’a çağırıyordu.",
+   [
+    "Annesi Peygamberimiz hakkında hoşlanmadığı bir söz söyleyince ağlayarak Peygamberimize gitti ve dua istedi.",
+    0.7
+   ],
+   "Ebû Hüreyre anlatıyor.",
+   "Peygamberimiz: Allah’ım, Ebû Hüreyre’nin annesine hidayet ver diye dua etti.",
+   "Eve döndüğümde annem yıkanmış, giyinmişti; kapıyı açtı ve kelime-i şehadet getirdi.",
+   "Sevinçten ağlayarak Peygamberimize dönüp müjdeledim; o da Allah’a hamd etti.",
+   [
+    "Bu hadisi Müslim rivayet etmiştir.",
+    0.8
+   ],
+   [
+    "Örnek davranış.",
+    0.5
+   ],
+   [
+    "İlim için sabır ve anneye iyilik.",
+    0.7
+   ],
+   [
+    "Bir not.",
+    0.4
+   ],
+   "Asıl adı hakkında farklı rivayetler vardır; yaygın olanı Abdurrahman bin Sahr’dır.",
+   "Vefat yılı için elli yedi, milâdî altı yüz yetmiş yedi, ve elli dokuz, milâdî altı yüz yetmiş dokuz, görüşleri de vardır.",
+   [
+    "Vefatından önce Medine yakınındaki Akīk’teki evine çekildiği, cenazesinin Medine’ye getirildiği kaydedilir.",
+    0.7
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İlim, sabırla ve emekle kazanılır.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Sahabe Hayatları",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Sahabe Hayatları.",
+     0.8
+    ],
+    "Peygamberimizin on iki arkadaşını tanıyacağız.",
+    "Sahabe, Peygamberimizi görüp ona inanan ve Müslüman olarak vefat eden kişilerdir.",
+    [
+     "Sahabileri dört bölümde tanıyacağız: Dört halife, Peygamberimizin ev halkı, Mekke’nin ilk Müslümanları, Kur’an ve hadis öğretmenleri.",
+     0.6
+    ],
+    "Her birinin hayatından birkaç kesit anlatacağız.",
+    "Kesitler, Buhârî ve Müslim’deki sahih hadislere, ilgili ayetlere ve Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne dayanır.",
+    [
+     "Tarihlerde farklı rivayetler varsa ayrıca belirteceğiz.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-ebubekir",
+   "baslik": "Hz. Ebû Bekir",
+   "tur": "Dört halife",
+   "parcalar": [
+    [
+     "Dört halife.",
+     0.8
+    ],
+    [
+     "Hazreti Ebû Bekir, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Peygamberimizin hicret arkadaşı ve ilk halife.",
+     0.6
+    ],
+    "Doğumu: Fil olayından üç yıl kadar sonra, milâdî beş yüz yetmiş üç civarı, Mekke.",
+    "Müslüman oluşu: İlk Müslümanlardan; Peygamberimizin davetini hemen kabul etti.",
+    [
+     "Vefatı: hicrî on üç yılı, yirmi iki Cemâziyelâhir, milâdî yirmi üç Ağustos altı yüz otuz dört, Medine, altmış üç yaşında.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Doğru söyledi.",
+     0.6
+    ],
+    "Hazreti Ebû Bekir, Peygamberimizin davetini duyunca tereddüt etmeden kabul etti ve ilk Müslümanlardan oldu.",
+    [
+     "İnsanlar Peygamberimizi yalanlarken o, onu doğruladı; canıyla ve malıyla ona destek oldu.",
+     0.7
+    ],
+    "Ebü’d-Derdâ anlatıyor.",
+    "Peygamberimiz şöyle buyurdu: Allah beni size gönderdi; siz Yalan söylüyorsun dediniz, Ebû Bekir ise Doğru söyledi dedi ve canıyla, malıyla bana destek oldu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "İkinci kesit. Köleleri hürriyetine kavuşturdu.",
+     0.6
+    ],
+    "Mekke’de inandığı için işkence gören köleleri sahiplerinden kurtarıp azat etti.",
+    "Bunlardan biri Hazreti Bilâl’dir.",
+    [
+     "Hazreti Ömer bu iyiliği unutmaz, Hazreti Bilâl’i efendimiz diye anardı.",
+     0.7
+    ],
+    "Câbir bin Abdullah anlatıyor.",
+    "Hazreti Ömer şöyle derdi: Ebû Bekir efendimizdir; efendimizi de o azat etti.",
+    "Bununla Bilâl’i kastederdi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Mağaradaki iki kişiden biri.",
+     0.6
+    ],
+    "Hicrette Peygamberimizle birlikte Mekke’den çıktı ve Sevr mağarasında saklandı.",
+    "Müşrikler mağaranın yakınına kadar gelince endişelendi.",
+    [
+     "Peygamberimiz onu Üzülme, Allah bizimledir diyerek teselli etti.",
+     0.7
+    ],
+    "Tevbe Suresi, kırkıncı ayetin anlamı şöyledir.",
+    "Ona, Muhammed'e, yardım etmezseniz, bilin ki, inkar edenler onu Mekke'den çıkardıklarında mağarada bulunan iki kişiden biri olarak Allah ona yardım etmişti.",
+    "Arkadaşına, Ebu Bekir'e, Üzülme, Allah bizimledir diyordu; Allah da ona güven vermiş, görmediğiniz askerlerle onu desteklemiş, inkar edenlerin sözünü alçaltmıştı.",
+    "Ancak Allah'ın sözü yücedir.",
+    [
+     "Allah güçlüdür, hakimdir.",
+     0.6
+    ],
+    [
+     "Müfessirlere göre ayette geçen arkadaşı Hazreti Ebû Bekir’dir; Diyanet meali de bunu ayraç içinde belirtir.",
+     0.7
+    ],
+    "Hazreti Ebû Bekir anlatıyor.",
+    "Mağaradayken Peygamberimize: Biri ayaklarının dibine baksa bizi görür dedim.",
+    "Buyurdu ki: Ey Ebû Bekir!",
+    "Üçüncüsü Allah olan iki kişi hakkında ne düşünürsün?",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Affetti, yardımını kesmedi.",
+     0.6
+    ],
+    "Yoksul akrabası Mistah’ın geçimine yardım ederdi.",
+    "Mistah, Hazreti Âişe’ye atılan iftiraya katılınca Hazreti Ebû Bekir ona bir daha yardım etmeyeceğine yemin etti.",
+    [
+     "Bunun üzerine Nûr suresindeki ayet indi; Hazreti Ebû Bekir affetti ve yardımını sürdürdü.",
+     0.7
+    ],
+    "Nûr Suresi, yirmi ikinci ayetin anlamı şöyledir.",
+    "İçinizde lütuf ve servet sahibi olanlar, yakınlarına, düşkünlere ve Allah yolunda hicret edenlere, vermemek için yemin etmesinler, affetsinler, geçsinler.",
+    "Allah'ın sizi bağışlamasından hoşlanmaz mısınız?",
+    [
+     "Allah bağışlayandır, merhametli olandır.",
+     0.6
+    ],
+    [
+     "Ayetin bu olay üzerine indiğini Buhârî’deki rivayet bildirir.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Ayet inince Hazreti Ebû Bekir: Evet, vallahi Allah’ın beni bağışlamasını isterim dedi ve Mistah’a yaptığı yardımı yeniden başlattı.",
+    "Bunu ondan asla kesmeyeceğim dedi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Beşinci kesit. Peygamberimizin yerine namaz kıldırdı.",
+     0.6
+    ],
+    "Peygamberimiz son hastalığında cemaate namazı Hazreti Ebû Bekir’in kıldırmasını istedi.",
+    "Peygamberimiz vefat edince Hazreti Ebû Bekir, şaşkınlık içindeki ashâbı Âl-i İmrân suresinden bir ayet okuyarak teselli etti.",
+    [
+     "Ardından ilk halife oldu.",
+     0.7
+    ],
+    "Ebû Mûsâ el-Eşarî anlatıyor.",
+    "Peygamberimiz hastalığı ağırlaşınca: Ebû Bekir’e söyleyin, insanlara namaz kıldırsın buyurdu ve bunu tekrarladı.",
+    "Hazreti Ebû Bekir de Peygamberimiz hayattayken cemaate namaz kıldırdı.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Sadakat: Peygamberimize en zor günlerinde canıyla ve malıyla destek oldu; kendisini üzeni de affetti.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "İlk Müslüman olan kişinin kim olduğu konusunda farklı rivayetler vardır.",
+    [
+     "Peygamberimizin hastalığında kaç vakit namaz kıldırdığı da farklı rivayet edilir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Gerçek dost, zor günde yanında olandır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-omer",
+   "baslik": "Hz. Ömer",
+   "tur": "Dört halife",
+   "parcalar": [
+    [
+     "Hazreti Ömer, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Hakkı batıldan ayıran adaletiyle tanınan ikinci halife.",
+     0.6
+    ],
+    "Doğumu: Fil olayından on üç yıl kadar sonra, milâdî beş yüz seksen dört civarı, Mekke.",
+    "Müslüman oluşu: Peygamberliğin altıncı yılında, milâdî altı yüz on altı.",
+    [
+     "Vefatı: hicrî yirmi üç yılı, yirmi altı Zilhicce, milâdî üç Kasım altı yüz kırk dört, Medine, şehit.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Müslüman oluşu.",
+     0.6
+    ],
+    "Hazreti Ömer, peygamberliğin altıncı yılında Müslüman oldu.",
+    [
+     "Onun İslam’a girmesi, baskı altındaki Müslümanlara güç verdi.",
+     0.7
+    ],
+    "Abdullah bin Mesûd anlatıyor.",
+    "Ömer Müslüman olduğundan beri güçlü olduk.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "İkinci kesit. Dileğine uygun inen ayet.",
+     0.6
+    ],
+    "Hazreti Ömer, Kâbe’yi ziyaret edenlerin Makām-ı İbrâhîm’i namaz yeri edinmesini diledi.",
+    "Bakara suresindeki ayet bu doğrultuda indi.",
+    [
+     "Hazreti Ömer bunu, Rabbinin görüşüne uygun düşen üç konudan biri olarak anlatır.",
+     0.7
+    ],
+    "Bakara Suresi, yüz yirmi beşinci ayetin anlamı şöyledir.",
+    "Kabeyi, insanlar için toplanma ve güven yeri kılmıştık.",
+    "İbrahim'in makamını namaz yeri edinin, dedik.",
+    [
+     "Evimi ziyaret edenler, kendini ibadete verenler, rüku ve secde edenler için temiz tutun diye İbrahim ve İsmail'e ahd verdik.",
+     0.6
+    ],
+    [
+     "Ayetin bu konuda Hazreti Ömer’in dileğine uygun indiğini Buhârî’deki rivayet bildirir.",
+     0.7
+    ],
+    "Hazreti Ömer anlatıyor.",
+    "Rabbim üç konuda benim görüşüme uygun hüküm indirdi.",
+    "Ey Allah’ın Resûlü, Makām-ı İbrâhîm’i namaz yeri edinsek dedim; İbrâhîm’in makamını namaz yeri edinin ayeti indi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Haktan yana kararlılık.",
+     0.6
+    ],
+    "Hazreti Ömer, haktan yana sert ve kararlı biriydi.",
+    [
+     "Peygamberimiz onun bu hâlini, şeytanın bile onun yolundan çekildiğini söyleyerek anlattı.",
+     0.7
+    ],
+    "Saad bin Ebû Vakkās anlatıyor.",
+    "Ey Hattâb’ın oğlu!",
+    "Canımı elinde tutan Allah’a yemin ederim ki şeytan seni bir yolda yürürken görürse mutlaka senin yolundan başka bir yola girer.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Takvim hicretle başladı.",
+     0.6
+    ],
+    "Hazreti Ömer’in halifeliği sırasında, Hazreti Ali’nin önerisiyle hicrî on altı, milâdî altı yüz otuz yedi, yılında Müslümanların takviminin hicretle başlamasına karar verildi.",
+    [
+     "Muharrem ayı yılın ilk ayı kabul edildi.",
+     0.7
+    ],
+    "Sehl bin Saad anlatıyor.",
+    "Sahâbîler takvime başlangıç olarak Peygamberimizin peygamber olarak gönderildiği günü ya da vefat ettiği günü değil, Medine’ye geldiği günü esas aldılar.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Adalet ve kararlılık: Hakkı söylemekten çekinmedi.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    [
+     "Doğum yılı için iki rivayet vardır: Fil olayından on üç yıl kadar sonra ya da Büyük Ficâr savaşından dört yıl kadar önce.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güçlü olmak, hakkı savunmak içindir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-osman",
+   "baslik": "Hz. Osman",
+   "tur": "Dört halife",
+   "parcalar": [
+    [
+     "Hazreti Osman, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Hayâsı ve cömertliğiyle tanınan, Kur’an nüshalarını çoğaltan üçüncü halife.",
+     0.6
+    ],
+    "Doğumu: Fil olayından altı yıl kadar sonra, milâdî beş yüz yetmiş altı civarı, Tâif.",
+    "Müslüman oluşu: İlk Müslümanlardan; Hazreti Ebû Bekir’in vesilesiyle.",
+    [
+     "Vefatı: hicrî otuz beş yılı, on sekiz Zilhicce, milâdî on yedi Haziran altı yüz elli altı, Medine, şehit.",
+     0.8
+    ],
+    [
+     "Birinci kesit. İki nurun sahibi.",
+     0.6
+    ],
+    "Hazreti Osman, Hazreti Ebû Bekir’in vesilesiyle ilk Müslümanlar arasına katıldı.",
+    "Peygamberimizin kızı Hazreti Rukıyye ile evlendi ve onunla birlikte Habeşistan’a hicret etti.",
+    [
+     "Hazreti Rukıyye’nin vefatından sonra Peygamberimizin diğer kızı Hazreti Ümmü Külsûm ile evlendi; bu yüzden iki nur sahibi anlamında Zinnûreyn diye anıldı.",
+     0.7
+    ],
+    [
+     "İkinci kesit. Bedir’de ve Hudeybiye’de.",
+     0.6
+    ],
+    "Eşi Hazreti Rukıyye hasta olduğu için Peygamberimizin izniyle Bedir’e katılmadı.",
+    [
+     "Hudeybiye’de Peygamberimiz onu elçi olarak Mekke’ye göndermişti; Rıdvan biatı o Mekke’deyken yapıldı ve Peygamberimiz onun adına da biat aldı.",
+     0.7
+    ],
+    "Abdullah bin Ömer anlatıyor.",
+    "Peygamberimiz ona: Bedir’e katılan birinin sevabı ve payı sana da vardır buyurdu.",
+    "Rıdvan biatında da sağ elini kaldırıp Bu, Osman’ın elidir dedi ve onu öbür eline vurarak Bu da Osman adına buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Tebük’te cömertlik.",
+     0.6
+    ],
+    "Tebük seferi sıcak ve kıtlık zamanında yapıldı.",
+    [
+     "Hazreti Osman, ordunun hazırlanmasına malıyla büyük destek verdi.",
+     0.7
+    ],
+    [
+     "Dördüncü kesit. Meleklerin hayâ ettiği kişi.",
+     0.6
+    ],
+    "Hazreti Osman çok hayâlı biriydi.",
+    "Bir gün Peygamberimiz rahat bir hâlde otururken Hazreti Osman içeri girmek için izin isteyince toparlandı ve elbisesini düzeltti.",
+    [
+     "Hazreti Âişe sebebini sorunca cevap verdi.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Meleklerin kendisinden hayâ ettiği bir kişiden ben hayâ etmeyeyim mi?",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Beşinci kesit. Kur’an nüshalarını çoğalttı.",
+     0.6
+    ],
+    "Hazreti Osman’ın halifeliği döneminde farklı bölgelerde Kur’an okuyuşunda ayrılık doğmasından endişe edildi.",
+    [
+     "Hazreti Osman, daha önce toplanıp Hazreti Hafsa’nın yanında saklanan sahifeleri getirtti, bir heyete çoğalttırdı ve nüshaları bölgelere gönderdi.",
+     0.7
+    ],
+    "Enes bin Mâlik anlatıyor.",
+    "Huzeyfe bin Yemân, Hazreti Osman’a gelip: Ey müminlerin emîri!",
+    "Yahudiler ve Hristiyanlar gibi Kitap hakkında ayrılığa düşmeden önce bu ümmete yetiş dedi.",
+    "Hazreti Osman, Hafsa’dan sahifeleri isteyip nüshalar hâlinde çoğalttırdı ve her bölgeye bir nüsha gönderdi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Hayâ ve cömertlik: İyiliği gösterişsiz yaptı.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    [
+     "Müslüman olduğu yıl kesin olarak bilinmez; ilk Müslümanlar arasında sayılır.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hayâ insanı güzelleştirir, cömertlik bereket getirir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-ali",
+   "baslik": "Hz. Ali",
+   "tur": "Dört halife",
+   "parcalar": [
+    [
+     "Hazreti Ali, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Peygamberimizin evinde büyüyen, ilmi ve cesaretiyle tanınan dördüncü halife.",
+     0.6
+    ],
+    "Doğumu: altı yüz civarı, Mekke.",
+    "Müslüman oluşu: Çocukken; ilk inananlardan.",
+    [
+     "Vefatı: hicrî kırk yılının Ramazan ayı, milâdî Ocak altı yüz altmış bir, Kûfe, şehit.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Peygamberimizin evinde büyüdü.",
+     0.6
+    ],
+    "Mekke’de bir kıtlık yılında amcası Ebû Tâlib’in yükü ağırlaşınca Hazreti Ali, Peygamberimizin yanına alındı ve onun evinde büyüdü.",
+    [
+     "Peygamberimiz davete başladığında henüz çocuktu; ilk inananlar arasına katıldı.",
+     0.7
+    ],
+    [
+     "İkinci kesit. Hicret gecesi.",
+     0.6
+    ],
+    "Peygamberimiz Hazreti Ebû Bekir ile Mekke’den çıktığı gece Hazreti Ali Mekke’de kaldı.",
+    [
+     "Ardından o da Medine’ye hicret edip Peygamberimize kavuştu.",
+     0.7
+    ],
+    [
+     "Üçüncü kesit. Hayber’de sancak.",
+     0.6
+    ],
+    "Hayber kuşatmasında Peygamberimiz, sancağı Allah’ı ve Resûlünü seven bir kişiye vereceğini söyledi.",
+    [
+     "Sabah olunca sancağı Hazreti Ali’ye verdi.",
+     0.7
+    ],
+    "Sehl bin Saad anlatıyor.",
+    "Yarın bu sancağı, Allah’ın fethi onun eliyle nasip edeceği, Allah’ı ve Resûlünü seven, Allah’ın ve Resûlünün de sevdiği birine vereceğim.",
+    "Sabah olunca Peygamberimiz Ali nerede? diye sordu ve sancağı ona verdi.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Tebük’te Medine’de kaldı.",
+     0.6
+    ],
+    "Peygamberimiz Tebük seferine çıkarken Hazreti Ali’yi Medine’de yerine vekil bıraktı.",
+    [
+     "Hazreti Ali sefere katılamadığına üzülünce Peygamberimiz onu teselli etti.",
+     0.7
+    ],
+    "Saad bin Ebû Vakkās anlatıyor.",
+    "Hârûn’un Mûsâ’ya göre konumu neyse senin de bana göre öyle olmana razı olmaz mısın?",
+    "Ancak benden sonra peygamber yoktur.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Cesaret ve ilim: Küçük yaşta verdiği iman sözünü bir ömür korudu.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "İlk Müslümanların sırası konusunda âlimler farklı görüşlere sahiptir.",
+    [
+     "Burada Hazreti Ali hakkında yalnızca Buhârî ve Müslim’deki rivayetlere yer verilmiştir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Küçük yaşta verilen iman sözü, bir ömür sürer.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-hatice",
+   "baslik": "Hz. Hatice",
+   "tur": "Peygamberimizin ev halkı",
+   "parcalar": [
+    [
+     "Peygamberimizin ev halkı.",
+     0.8
+    ],
+    [
+     "Hazreti Hatice, radıyallahu anhâ.",
+     0.7
+    ],
+    [
+     "Peygamberimizin ilk eşi ve ona ilk inanan kişi.",
+     0.6
+    ],
+    "Doğumu: beş yüz elli altı civarı, Mekke.",
+    "Müslüman oluşu: Peygamberimize ilk inanan kişi.",
+    [
+     "Vefatı: on Ramazan, milâdî on dokuz Nisan altı yüz yirmi, hicretten üç yıl kadar önce, Mekke.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Güvenilir bir tüccar.",
+     0.6
+    ],
+    "Hazreti Hatice, Mekke’de ticaretle uğraşan ve iffetiyle tanınan bir hanımdı.",
+    [
+     "Peygamberimizin dürüstlüğünü duyunca ona evlenme teklif etti ve evlendiler.",
+     0.7
+    ],
+    [
+     "İkinci kesit. İlk inanan.",
+     0.6
+    ],
+    "Peygamberimiz Hira’da ilk vahyi alıp korku içinde eve döndüğünde Hazreti Hatice onu teselli etti ve amcasının oğlu Varaka bin Nevfel’e götürdü.",
+    [
+     "Peygamberimize ilk inanan o oldu.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Hazreti Hatice ona şöyle dedi: Allah seni asla utandırmaz.",
+    "Sen akrabanı gözetirsin, düşküne ve yoksula yardım edersin, misafiri ağırlarsın, hak yolunda başına sıkıntı gelene destek olursun.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Boykot yıllarında.",
+     0.6
+    ],
+    [
+     "Kureyş Hâşimoğullarını boykot ettiğinde Hazreti Hatice, Peygamberimizin yanında kaldı ve malını bu zor günlerde harcadı.",
+     0.7
+    ],
+    [
+     "Dördüncü kesit. Rabbinden selam.",
+     0.6
+    ],
+    [
+     "Cebrâil, Peygamberimize Hazreti Hatice’ye Rabbinden ve kendisinden selam getirdi ve onu cennette bir köşkle müjdeledi.",
+     0.7
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Cebrâil Peygamberimize geldi ve: Ey Allah’ın Resûlü!",
+    "İşte Hatice, içinde yemek ya da içecek bulunan bir kapla sana geliyor.",
+    "Yanına gelince ona Rabbinden ve benden selam söyle; onu cennette, içinde gürültü ve yorgunluk olmayan inciden bir köşkle müjdele dedi.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Beşinci kesit. Unutulmayan vefa.",
+     0.6
+    ],
+    "Hazreti Hatice, hicretten üç yıl kadar önce Mekke’de vefat etti.",
+    [
+     "Peygamberimiz onu hiç unutmadı; sık sık anar, koyun kestiğinde onun dostlarına et gönderirdi.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Peygamberimiz Hatice’yi çok anardı.",
+    "Bir koyun kestiğinde onu parçalara ayırır, Hatice’nin dostlarına gönderirdi.",
+    "Ben bazen Sanki dünyada Hatice’den başka kadın yok! deyince, O şöyle şöyleydi; çocuklarım ondandı buyururdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Destek olmak: Zor günde güven verdi, malını iyiliğe harcadı.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "Vefat tarihi Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göredir, milâdî on Ramazan, on dokuz Nisan altı yüz yirmi; bazı siyer kaynaklarında altı yüz on dokuz olarak geçer.",
+    [
+     "Evlendiğinde kaç yaşında olduğu da kesin değildir; maddeye göre muhtemelen kırk yaş civarındaydı.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güzel bir söz, korkan bir kalbe güven verir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-aise",
+   "baslik": "Hz. Âişe",
+   "tur": "Peygamberimizin ev halkı",
+   "parcalar": [
+    [
+     "Hazreti Âişe, radıyallahu anhâ.",
+     0.7
+    ],
+    [
+     "Peygamberimizin eşi; öğrendiklerini sonraki nesillere aktaran öğretmen.",
+     0.6
+    ],
+    "Doğumu: altı yüz on dört, peygamberliğin dördüncü yılı, Mekke.",
+    "Müslüman oluşu: Müslüman bir ailede doğdu; babası Hazreti Ebû Bekir.",
+    [
+     "Vefatı: hicrî elli sekiz yılı, on yedi Ramazan, milâdî on dört Temmuz altı yüz yetmiş sekiz, Medine.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Hicret.",
+     0.6
+    ],
+    "Hazreti Âişe, Hazreti Ebû Bekir’in kızıdır; Mekke’de, Müslüman bir ailede doğdu.",
+    [
+     "Ailesiyle birlikte Medine’ye hicret etti ve Medine’de Peygamberimizle evlendi.",
+     0.7
+    ],
+    [
+     "İkinci kesit. Teyemmüm ayeti.",
+     0.6
+    ],
+    "Bir yolculukta Hazreti Âişe’nin gerdanlığı kayboldu.",
+    "Onu ararken ordu susuz bir yerde kaldı ve sabah namazı için su bulunamadı.",
+    [
+     "Bunun üzerine teyemmümü bildiren ayet indi.",
+     0.7
+    ],
+    "Mâide Suresi, altıncı ayetin anlamı şöyledir.",
+    "Ey İnananlar!",
+    "Namaza kalktığınızda yüzlerinizi, dirseklere kadar ellerinizi, -başlarınızı meshedip- topuk kemiklerine kadar ayaklarınızı yıkayın.",
+    "Eğer cünüpseniz yıkanıp temizlenin; şayet hasta veya yolculukta iseniz veya ayak yolundan gelmişseniz yahut kadınlara yaklaşmışsanız ve su bulamamışsanız temiz bir toprağa teyemmüm edin, yüzlerinizi, ellerinizi onunla meshedin.",
+    [
+     "Allah sizi zorlamak istemez, Allah sizi arıtıp üzerinize olan nimetini tamamlamak ister ki şükredesiniz.",
+     0.6
+    ],
+    [
+     "Ayetin bu olay üzerine indiğini Buhârî’deki rivayet bildirir.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Su arandı ama bulunamadı; bunun üzerine Ey iman edenler!",
+    "Namaza kalktığınızda ayeti indi.",
+    "Üseyd bin Hudayr: Ey Ebû Bekir ailesi!",
+    "Allah sizin sayenizde insanlara bereket verdi dedi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. İftiradan temize çıkarıldı.",
+     0.6
+    ],
+    "Bir seferden dönerken münafıklar Hazreti Âişe’ye iftira attı.",
+    "Hazreti Âişe bu zor günlerde sabretti ve yalnızca Allah’a sığındı.",
+    [
+     "Allah, Nûr suresindeki ayetlerle iftiranın asılsız olduğunu bildirdi.",
+     0.7
+    ],
+    "Nûr Suresi, on birinci ayetin anlamı şöyledir.",
+    ", Peygamber'in eşi hakkında, o yalanı uyduranlar içinizden bir güruhtur.",
+    "Bunu kendiniz için kötü sanmayın, o sizin için hayırlı olmuştur.",
+    [
+     "O kimselerden her birine kazandığı günah karşılığı ceza vardır; içlerinden elebaşılık yapana ise büyük azap vardır.",
+     0.6
+    ],
+    [
+     "Nûr suresinin on birinci ve onu izleyen ayetlerin bu olay üzerine indiğini Buhârî’deki rivayet bildirir.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Vahiy sona erince Peygamberimiz gülümsüyordu; ilk sözü Âişe!",
+    "Allah seni temize çıkardı oldu.",
+    "Allah, O iftirayı uyduranlar içinizden bir gruptur diye başlayan ayetleri indirdi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Cebrâil’in selamı.",
+     0.6
+    ],
+    [
+     "Peygamberimiz bir gün Hazreti Âişe’ye Cebrâil’in ona selam gönderdiğini haber verdi.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Ey Âişe!",
+    "Bu Cebrâil, sana selam söylüyor.",
+    "Ben de: Allah’ın selamı, rahmeti ve bereketi onun da üzerine olsun.",
+    "Sen benim görmediğimi görüyorsun dedim.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Beşinci kesit. Ümmetin öğretmeni.",
+     0.6
+    ],
+    "Hazreti Âişe, Peygamberimizden öğrendiklerini sonraki nesillere aktardı.",
+    "Ondan iki bin iki yüz on hadis rivayet edilmiştir; binden fazla hadis rivayet eden sahâbîlerdendir.",
+    [
+     "Medine’de evi bir ilim merkezi oldu.",
+     0.7
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "İlim: Öğrendiğini sorarak derinleştirdi, öğreterek çoğalttı.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "Doğum yılı hakkında farklı görüşler vardır; Türkiye Diyanet Vakfı İslâm Ansiklopedisi peygamberliğin dördüncü yılını, milâdî altı yüz on dört, esas alır.",
+    [
+     "Vefat ettiğinde altmış beş ya da altmış altı yaşında olduğu kaydedilir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Öğrendiğini paylaşan, ilmini çoğaltır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-fatima",
+   "baslik": "Hz. Fâtıma",
+   "tur": "Peygamberimizin ev halkı",
+   "parcalar": [
+    [
+     "Hazreti Fâtıma, radıyallahu anhâ.",
+     0.7
+    ],
+    [
+     "Peygamberimizin kızı; Hazreti Hasan ile Hazreti Hüseyin’in annesi.",
+     0.6
+    ],
+    "Doğumu: altı yüz dokuz civarı, bir görüşe göre altı yüz beş, Mekke.",
+    "Müslüman oluşu: Peygamberimizin evinde, İslam’la büyüdü.",
+    [
+     "Vefatı: hicrî on bir yılı, üç Ramazan, milâdî yirmi iki Kasım altı yüz otuz iki, Medine.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Babasının yanında.",
+     0.6
+    ],
+    "Mekke’de bir gün Peygamberimiz Kâbe’de namaz kılarken müşrikler, secdedeyken sırtına deve işkembesi koydu.",
+    [
+     "Peygamberimiz secdeden kalkmadı; Hazreti Fâtıma gelip onu babasının sırtından attı.",
+     0.7
+    ],
+    "Abdullah bin Mesûd anlatıyor.",
+    "Peygamberimiz secdede başını kaldırmadı; sonunda Fâtıma gelip onu sırtından attı.",
+    "Bunun üzerine başını kaldırdı.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "İkinci kesit. Hizmetçiden hayırlısı.",
+     0.6
+    ],
+    "Hazreti Fâtıma hicretin ikinci yılında Hazreti Ali ile evlendi.",
+    "El değirmeninde un öğütmek ellerini yorunca Peygamberimizden bir hizmetçi istemeye gitti.",
+    [
+     "Peygamberimiz akşam onların evine geldi ve onlara bir zikir öğretti.",
+     0.7
+    ],
+    "Hazreti Ali anlatıyor.",
+    "Size istediğinizden daha hayırlısını öğreteyim mi?",
+    "Yatağınıza girdiğinizde otuz dört kere Allahu ekber, otuz üç kere Sübhânallah, otuz üç kere Elhamdülillah deyin.",
+    "Bu sizin için bir hizmetçiden daha hayırlıdır.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Benden bir parça.",
+     0.6
+    ],
+    [
+     "Peygamberimiz kızı Hazreti Fâtıma’yı çok severdi; onu Hoş geldin kızım diye karşılar, yanına oturturdu.",
+     0.7
+    ],
+    "Misver bin Mahreme anlatıyor.",
+    "Fâtıma benden bir parçadır; onu kızdıran beni kızdırmış olur.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Son günlerde bir sır.",
+     0.6
+    ],
+    "Peygamberimiz son hastalığında Hazreti Fâtıma’ya gizlice bir şey söyledi, o ağladı; sonra yine bir şey söyledi, o güldü.",
+    "Hazreti Fâtıma bu sırrı ancak Peygamberimizin vefatından sonra anlattı.",
+    [
+     "Kendisi de birkaç ay sonra Medine’de vefat etti.",
+     0.7
+    ],
+    "Hazreti Âişe anlatıyor.",
+    "Hazreti Fâtıma sırrı şöyle anlattı: Peygamberimiz, Cebrâil her yıl Kur’an’ı benimle bir kez karşılıklı okurdu; bu yıl iki kez okudu.",
+    "Bunu ecelimin yaklaştığına yorumluyorum buyurdu ve ailesinden ona ilk kavuşacak kişinin ben olduğumu haber verdi.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Vefa ve kanaat: Babasının yanında durdu, zorluğa zikirle güç buldu.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "Doğum yılı için altı yüz beş ve altı yüz dokuz görüşleri vardır; Türkiye Diyanet Vakfı İslâm Ansiklopedisi altı yüz dokuz’u daha ağırlıklı görür.",
+    [
+     "Peygamberimizden kaç ay sonra vefat ettiği de farklı rivayet edilir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah’ı anmak, istediğimiz şeyden daha hayırlıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-bilal",
+   "baslik": "Hz. Bilâl",
+   "tur": "Mekke’nin ilk Müslümanları",
+   "parcalar": [
+    [
+     "Mekke’nin ilk Müslümanları.",
+     0.8
+    ],
+    [
+     "Hazreti Bilâl, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "İnancı uğruna işkenceye katlanan, İslam’ın ilk müezzini.",
+     0.6
+    ],
+    "Doğumu: beş yüz seksen bir civarı, Mekke ya da Serât.",
+    "Müslüman oluşu: Mekke’de, köleyken.",
+    [
+     "Vefatı: hicrî yirmi, milâdî altı yüz kırk bir, Dımaşk.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Rabbim Allah’tır.",
+     0.6
+    ],
+    "Hazreti Bilâl, Ümeyye bin Halef’in kölesiydi.",
+    "Müslüman olunca sahibi onu öğle sıcağında yere yatırıp göğsüne büyük bir kaya koydurdu.",
+    "Hazreti Bilâl her defasında Rabbim Allah’tır, O birdir dedi.",
+    [
+     "Sonunda Hazreti Ebû Bekir onu kurtarıp azat etti.",
+     0.7
+    ],
+    "Câbir bin Abdullah anlatıyor.",
+    "Hazreti Ömer şöyle derdi: Ebû Bekir efendimizdir; efendimizi de o azat etti.",
+    "Bununla Bilâl’i kastederdi.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "İkinci kesit. İlk ezan.",
+     0.6
+    ],
+    "Medine’de Müslümanları namaza çağırmak için bir yol arandı.",
+    [
+     "Peygamberimiz bu görevi Hazreti Bilâl’e verdi; Hazreti Bilâl hicretin birinci ya da ikinci yılında İslam’daki ilk ezanı okudu.",
+     0.7
+    ],
+    "Abdullah bin Ömer anlatıyor.",
+    "Müslümanlar Medine’ye gelince namaz vaktini tahmin ederek toplanırlardı.",
+    "Bunu konuştular; kimi çan, kimi boru önerdi.",
+    "Hazreti Ömer namaza çağıracak birinin gönderilmesini teklif etti.",
+    "Peygamberimiz: Ey Bilâl, kalk ve namaza çağır buyurdu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Cennetteki ayak sesleri.",
+     0.6
+    ],
+    [
+     "Peygamberimiz, cennette önünde Hazreti Bilâl’in ayak seslerini duyduğunu söyleyip ona en çok umduğu ameli sordu.",
+     0.7
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Ey Bilâl!",
+    "Müslüman olduktan sonra yaptığın, en çok umduğun ameli bana söyle; çünkü cennette önümde ayak seslerini duydum.",
+    "Bilâl: Gece ya da gündüz ne zaman abdest alsam, o abdestle bana takdir edildiği kadar namaz kılarım; bundan başka bir şey yapmadım dedi.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Kâbe’nin üstünde ezan.",
+     0.6
+    ],
+    "Mekke fethedildiğinde Hazreti Bilâl, Peygamberimizin emriyle Kâbe’nin damına çıkıp ezan okudu.",
+    [
+     "Bir zamanlar işkence gördüğü şehirde Allah’ın birliğini ilan etti.",
+     0.7
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Sabır ve sebat: İşkence altında da inancından dönmedi.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "Vefat yeri olarak Dımaşk’ın yanında Halep ve Dâreyyâ da rivayet edilir.",
+    [
+     "İşkence ve fetih günü Kâbe’de ezan okuması siyer kaynaklarına dayanır.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Sabırla korunan inanç, bir gün en yüksekten duyurulur.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-musab",
+   "baslik": "Hz. Mus‘ab bin Umeyr",
+   "tur": "Mekke’nin ilk Müslümanları",
+   "parcalar": [
+    [
+     "Hazreti Musab bin Umeyr, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Medine’ye gönderilen ilk öğretmen; Uhud’da sancağı taşıdı.",
+     0.6
+    ],
+    "Doğumu: Bilinmiyor; Mekke, Abdüddâroğulları.",
+    "Müslüman oluşu: Mekke’de, ilk müminlerden.",
+    [
+     "Vefatı: hicrî üç, milâdî altı yüz yirmi beş, Uhud, şehit.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Rahat hayatı bıraktı.",
+     0.6
+    ],
+    "Hazreti Musab, Mekke’de varlıklı bir ailede büyüdü.",
+    "Müslüman olunca ailesi onu hapsedip dininden döndürmeye çalıştı; ama o inancından vazgeçmedi.",
+    [
+     "Peygamberliğin beşinci yılında ilk kafileyle Habeşistan’a hicret etti.",
+     0.7
+    ],
+    [
+     "İkinci kesit. Medine’nin ilk öğretmeni.",
+     0.6
+    ],
+    "Birinci Akabe biatından sonra Peygamberimiz onu, Medinelilere Kur’an ve İslam’ı öğretmek için Medine’ye gönderdi.",
+    [
+     "Onun davetiyle Üseyd bin Hudayr ve Saad bin Muâz gibi Medine’nin önde gelenleri Müslüman oldu.",
+     0.7
+    ],
+    "Berâ bin Âzib anlatıyor.",
+    "Bize Medine’ye ilk gelenler Musab bin Umeyr ile İbn Ümmi Mektûm’du; insanlara Kur’an öğretiyorlardı.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Sancaktar.",
+     0.6
+    ],
+    [
+     "Bedir’de muhacirlerin, Uhud’da bütün Müslümanların sancağını taşıdı.",
+     0.7
+    ],
+    [
+     "Dördüncü kesit. Bir hırkadan başka bir şey bırakmadı.",
+     0.6
+    ],
+    "Hazreti Musab Uhud’da şehit oldu.",
+    [
+     "Kefen olarak yalnızca bir hırkası vardı; dünyalık bir şey bırakmadı.",
+     0.7
+    ],
+    "Habbâb bin Eret anlatıyor.",
+    "Musab bin Umeyr Uhud günü şehit oldu.",
+    "Onu kefenlemek için hırkasından başka bir şey bulamadık.",
+    "Başını örttüğümüzde ayakları, ayaklarını örttüğümüzde başı açılıyordu.",
+    "Peygamberimiz başını örtmemizi, ayaklarının üzerine de izhir otu koymamızı emretti.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Fedakârlık: Rahatını Allah yolunda bıraktı, bildiğini öğretti.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    [
+     "Doğum tarihi ve Müslüman olduğu yıl kaynaklarda kesin olarak geçmez.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Asıl zenginlik, geride bıraktığın iyiliktir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-sad",
+   "baslik": "Hz. Sa‘d bin Ebû Vakkās",
+   "tur": "Mekke’nin ilk Müslümanları",
+   "parcalar": [
+    [
+     "Hazreti Saad bin Ebû Vakkās, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Gençken Müslüman olan, okçuluğuyla tanınan sahâbî.",
+     0.6
+    ],
+    "Doğumu: beş yüz doksan iki, Mekke.",
+    "Müslüman oluşu: On yedi ya da on dokuz yaşında, ilk Müslümanlardan.",
+    [
+     "Vefatı: hicrî elli beş, milâdî altı yüz yetmiş beş, Akīk, Medine yakını.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Genç yaşta Müslüman oldu.",
+     0.6
+    ],
+    "Hazreti Saad, on yedi ya da on dokuz yaşındayken Müslüman oldu ve ilk Müslümanlar arasına katıldı.",
+    [
+     "Kendisi bu günleri, bildiği kadarıyla Müslümanların ancak üç kişi olduğu günler olarak anlatır.",
+     0.7
+    ],
+    "Saad bin Ebû Vakkās anlatıyor.",
+    "Benim Müslüman olduğum günden önce kimse Müslüman olmadı.",
+    "Yedi gün boyunca İslam’ın üçte biri olarak kaldım.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "İkinci kesit. Annesine karşı da güzel davrandı.",
+     0.6
+    ],
+    "Hazreti Saad Müslüman olunca annesi onu dininden döndürmek için konuşmayacağına, yiyip içmeyeceğine yemin etti.",
+    "Hazreti Saad inancından vazgeçmedi.",
+    [
+     "Ankebût ve Lokmân surelerindeki ayetler, anne babaya iyiliği emrederken şirke zorlamalarında onlara uyulmamasını bildirdi.",
+     0.7
+    ],
+    "Ankebût Suresi, sekizinci ayetin anlamı şöyledir.",
+    "Biz, insana, ana ve babasına karşı iyi davranmasını tavsiye etmişizdir.",
+    "Eğer ana baba, seni bir şeyi körü körüne Bana ortak koşman için zorlarlarsa, o zaman onlara itaat etme.",
+    "Dönüşünüz Banadır.",
+    [
+     "Yaptıklarınızı size bildiririm.",
+     0.6
+    ],
+    "Lokmân Suresi, on beşinci ayetin anlamı şöyledir.",
+    "Ey insanoğlu!",
+    "Ana baba, seni, körü körüne Bana ortak koşman için zorlarlarsa, onlara itaat etme; dünya işlerinde onlarla güzel geçin; Bana yönelen kimsenin yoluna uy; sonunda dönüşünüz Bana'dır.",
+    [
+     "O zaman, yaptıklarınızı size bildiririm.",
+     0.6
+    ],
+    [
+     "Bu ayetlerin Hazreti Saad ve annesi hakkında indiğini Müslim’deki rivayet bildirir; Türkiye Diyanet Vakfı İslâm Ansiklopedisi de Lokmân suresindeki ayeti anar.",
+     0.7
+    ],
+    "Musab bin Saad, babasından anlatıyor.",
+    "Annesi, Saad dininden dönmedikçe onunla konuşmayacağına, yiyip içmeyeceğine yemin etti ve Allah sana anne babana iyi davranmanı emrediyor; ben de annenim ve sana bunu emrediyorum dedi.",
+    "Bunun üzerine Allah bu ayetleri indirdi.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Uhud’da okçu.",
+     0.6
+    ],
+    "Hazreti Saad usta bir okçuydu.",
+    [
+     "Uhud’da Peygamberimizin yanında ok attı; Peygamberimiz onu dualarla yüreklendirdi.",
+     0.7
+    ],
+    "Hazreti Ali anlatıyor.",
+    "Peygamberimizin Anam babam sana feda olsun sözünü Saad bin Mâlik’ten başka kimse için söylediğini duymadım.",
+    "Uhud günü ona: Ey Saad, at!",
+    "Anam babam sana feda olsun! diyordu.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Üçte biri de çoktur.",
+     0.6
+    ],
+    "Veda Haccı yılında Mekke’de ağır hastalandı; Peygamberimiz onu ziyaret etti.",
+    "Hazreti Saad malının çoğunu sadaka olarak vermek isteyince Peygamberimiz ona ölçüyü öğretti.",
+    [
+     "Hazreti Saad bu hastalıktan iyileşti ve uzun yıllar yaşadı.",
+     0.7
+    ],
+    "Saad bin Ebû Vakkās anlatıyor.",
+    "Malım çok, bir kızımdan başka mirasçım yok.",
+    "Malımın üçte ikisini sadaka olarak vereyim mi? dedim.",
+    "Hayır buyurdu.",
+    "Yarısını? dedim.",
+    "Hayır buyurdu ve ekledi: Üçte biri; üçte biri de çoktur.",
+    "Mirasçılarını zengin bırakman, onları insanlara el açan yoksullar olarak bırakmandan daha hayırlıdır.",
+    "Allah rızası için yaptığın her harcamaya, hanımının ağzına verdiğin lokmaya bile sevap alırsın.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Beşinci kesit. Kādisiye ve Kûfe.",
+     0.6
+    ],
+    "Hazreti Ömer döneminde Irak’taki İslam ordusunun komutanı oldu ve Kādisiye’de, milâdî altı yüz otuz altı, zafer kazandı.",
+    [
+     "Hazreti Ömer’in emriyle Kûfe şehrini kurdu.",
+     0.7
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Anne babaya iyilik ve inançta sebat.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "Vefat yılı için elli dört ve elli sekiz, milâdî altı yüz yetmiş sekiz, görüşleri de vardır.",
+    [
+     "Hastalanıp vasiyet sorduğu yıl Buhârî ve Müslim’de Veda Haccı yılı olarak geçer; Türkiye Diyanet Vakfı İslâm Ansiklopedisi Mekke’nin fethi yılı olduğunu söyleyenlerin de bulunduğunu belirtir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Anne babaya iyilik, Allah’a itaatle birlikte yürür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-ibnmesud",
+   "baslik": "Hz. Abdullah bin Mes‘ûd",
+   "tur": "Kur’an ve hadis öğretmenleri",
+   "parcalar": [
+    [
+     "Kur’an ve hadis öğretmenleri.",
+     0.8
+    ],
+    [
+     "Hazreti Abdullah bin Mesûd, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Kur’an’ı Peygamberimizden öğrenip öğreten, onun hizmetinden ayrılmayan sahâbî.",
+     0.6
+    ],
+    "Doğumu: Bilinmiyor; Mekke.",
+    "Müslüman oluşu: İlk Müslümanlardan; kendisi altıncı Müslüman olduğunu söyler.",
+    [
+     "Vefatı: hicrî otuz iki, milâdî altı yüz elli iki ya da altı yüz elli üç, Medine.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Çobanlıktan Kur’an’a.",
+     0.6
+    ],
+    "Hazreti Abdullah bin Mesûd, çocukluğunda Mekke’de koyun güden yoksul bir gençti.",
+    "İlk Müslümanlardandır.",
+    [
+     "Peygamberimizden sonra Kâbe’de Kur’an’ı açıktan okuyan ilk sahâbî odur.",
+     0.7
+    ],
+    [
+     "İkinci kesit. Kovulmasın istenenler.",
+     0.6
+    ],
+    "Mekkeli müşrikler Peygamberimizden, yanındaki yoksul ve zayıf Müslümanları uzaklaştırmasını istedi.",
+    "Hazreti Abdullah bin Mesûd, Hazreti Bilâl ve Hazreti Saad da bu kişiler arasındaydı.",
+    [
+     "Bunun üzerine Enâm suresindeki ayet indi.",
+     0.7
+    ],
+    "Enâm Suresi, elli ikinci ayetin anlamı şöyledir.",
+    "Sabah akşam, Rabblerinin rızasını isteyerek O'na yalvaranları kovma.",
+    [
+     "Onların hesabından sana bir sorumluluk yoktur, senin hesabından da onlara bir sorumluluk yoktur ki onları kovarak zulmedenlerden olasın.",
+     0.6
+    ],
+    [
+     "Ayetin bu altı sahâbî hakkında indiğini Müslim’deki rivayet bildirir.",
+     0.7
+    ],
+    "Saad bin Ebû Vakkās anlatıyor.",
+    "Altı kişi Peygamberimizin yanındaydık.",
+    "Müşrikler: Bunları yanından kov, bize karşı cesaret bulmasınlar dediler.",
+    "Bu altı kişi ben, İbn Mesûd, Hüzeyl kabilesinden bir adam, Bilâl ve adlarını bilmediğim iki kişiydi.",
+    "Bunun üzerine Allah bu ayeti indirdi.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Peygamberimizin hizmetinde.",
+     0.6
+    ],
+    "Habeşistan’a ve Medine’ye hicret etti.",
+    [
+     "Peygamberimizin ayakkabılarını hazırlar, yolculukta önünde yürür, ibadet vaktinde onu uyandırırdı.",
+     0.7
+    ],
+    [
+     "Dördüncü kesit. Kur’an’ı ondan öğrenin.",
+     0.6
+    ],
+    "Hazreti Abdullah bin Mesûd, Kur’an’ın yetmişten fazla suresini Peygamberimizden öğrendi.",
+    [
+     "Peygamberimiz, Kur’an’ın öğrenileceği kişileri sayarken onun adını andı.",
+     0.7
+    ],
+    "Abdullah bin Amr anlatıyor.",
+    "Kur’an’ı dört kişiden öğrenin: Abdullah bin Mesûd, Ebû Huzeyfe’nin azatlısı Sâlim, Muâz bin Cebel ve Übey bin Kâb.",
+    [
+     "Bu hadisi Buhârî ve Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Beşinci kesit. Peygamberimize Kur’an okudu.",
+     0.6
+    ],
+    "Peygamberimiz bir gün ondan Kur’an okumasını istedi.",
+    [
+     "Hazreti Abdullah Nisâ suresinden okudu; Peygamberimizin gözlerinden yaşlar aktı.",
+     0.7
+    ],
+    "Abdullah bin Mesûd anlatıyor.",
+    "Peygamberimiz bana: Bana Kur’an oku dedi.",
+    "Kur’an sana indirilmişken ben mi sana okuyayım? dedim.",
+    "Başkasından dinlemeyi severim buyurdu.",
+    "Nisâ suresini okudum; kırk birinci ayete gelince Dur dedi.",
+    "Bir de baktım, gözlerinden yaşlar akıyordu.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "Kur’an’ı öğrenmek ve öğretmek; tevazu ile hizmet.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "Kaçıncı Müslüman olduğu konusunda farklı rivayetler vardır; kendisi altıncı olduğunu söyler.",
+    [
+     "Kûfe’de vefat ettiği iddiası Türkiye Diyanet Vakfı İslâm Ansiklopedisi’ne göre yanlıştır; vefat yeri Medine’dir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kur’an’ı dinlemek de okumak kadar güzeldir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-ebuhureyre",
+   "baslik": "Hz. Ebû Hüreyre",
+   "tur": "Kur’an ve hadis öğretmenleri",
+   "parcalar": [
+    [
+     "Hazreti Ebû Hüreyre, radıyallahu anh.",
+     0.7
+    ],
+    [
+     "Peygamberimizin yanından ayrılmayan, en çok hadis rivayet eden sahâbî.",
+     0.6
+    ],
+    "Doğumu: Bilinmiyor; Yemen, Devs kabilesi.",
+    "Müslüman oluşu: hicrî yedi, milâdî altı yüz yirmi sekiz, başlarında, Tufeyl bin Amr vesilesiyle.",
+    [
+     "Vefatı: hicrî elli sekiz, milâdî altı yüz yetmiş sekiz, Medine yakını, yetmiş sekiz yaşında.",
+     0.8
+    ],
+    [
+     "Birinci kesit. Devs’ten Hayber’e.",
+     0.6
+    ],
+    "Hazreti Ebû Hüreyre, Yemen’deki Devs kabilesindendir.",
+    "Kabilesinden Tufeyl bin Amr’ın vesilesiyle Müslüman oldu.",
+    [
+     "Hicretin yedinci yılında Medine’ye geldi ve Peygamberimize Hayber’de, fetihten sonra ulaştı.",
+     0.7
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Hayber fethedildikten sonra, Peygamberimiz Hayber’deyken yanına geldim.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "İkinci kesit. Suffe’nin misafiri.",
+     0.6
+    ],
+    "Mescid-i Nebevî’deki Suffe’de kalan, ailesi ve malı olmayan sahâbîlerdendi.",
+    "Bazen açlıktan karnına taş bağlardı.",
+    [
+     "Bir gün Peygamberimiz ona bir kap süt verip önce Suffe ehline dağıtmasını istedi.",
+     0.7
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Ebû Hirr!",
+    "Git, Suffe ehlini bana çağır.",
+    "Suffe ehli, ailesi, malı ve sığınacak kimsesi olmayan İslam’ın misafirleriydi.",
+    "Kabı sırayla hepsine verdim; hepsi kanıncaya kadar içti.",
+    "Sonra Peygamberimiz: Sen ve ben kaldık.",
+    "Otur ve iç buyurdu.",
+    "İçtim; o da İç dedikçe içtim.",
+    "En son kalanı kendisi içti.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Üçüncü kesit. Unutmayan hafıza.",
+     0.6
+    ],
+    [
+     "Muhacirler çarşıda, ensar tarlalarında çalışırken o, karnını doyuracak kadarıyla yetinip Peygamberimizin yanından ayrılmaz, duyduklarını ezberlerdi.",
+     0.7
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Peygamberimize: Senden birçok söz işitiyorum ama unutuyorum dedim.",
+    "Ridânı yay buyurdu.",
+    "Yaydım; elleriyle avuçlar gibi yapıp içine boşalttı ve Bunu üzerine sar dedi.",
+    "Sardım; ondan sonra hiçbir şey unutmadım.",
+    [
+     "Bu hadisi Buhârî rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Dördüncü kesit. Annesi için dua.",
+     0.6
+    ],
+    "Müşrik olan annesini İslam’a çağırıyordu.",
+    [
+     "Annesi Peygamberimiz hakkında hoşlanmadığı bir söz söyleyince ağlayarak Peygamberimize gitti ve dua istedi.",
+     0.7
+    ],
+    "Ebû Hüreyre anlatıyor.",
+    "Peygamberimiz: Allah’ım, Ebû Hüreyre’nin annesine hidayet ver diye dua etti.",
+    "Eve döndüğümde annem yıkanmış, giyinmişti; kapıyı açtı ve kelime-i şehadet getirdi.",
+    "Sevinçten ağlayarak Peygamberimize dönüp müjdeledim; o da Allah’a hamd etti.",
+    [
+     "Bu hadisi Müslim rivayet etmiştir.",
+     0.8
+    ],
+    [
+     "Örnek davranış.",
+     0.5
+    ],
+    [
+     "İlim için sabır ve anneye iyilik.",
+     0.7
+    ],
+    [
+     "Bir not.",
+     0.4
+    ],
+    "Asıl adı hakkında farklı rivayetler vardır; yaygın olanı Abdurrahman bin Sahr’dır.",
+    "Vefat yılı için elli yedi, milâdî altı yüz yetmiş yedi, ve elli dokuz, milâdî altı yüz yetmiş dokuz, görüşleri de vardır.",
+    [
+     "Vefatından önce Medine yakınındaki Akīk’teki evine çekildiği, cenazesinin Medine’ye getirildiği kaydedilir.",
+     0.7
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İlim, sabırla ve emekle kazanılır.",
+     1
+    ]
+   ]
+  }
+ ]
+}

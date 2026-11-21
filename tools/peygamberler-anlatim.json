@@ -1,0 +1,2784 @@
+{
+ "_aciklama": "Peygamberler Yolculuğu sesli anlatım metinleri. Yalnızca seslendirme için yazılmıştır; uygulamada gösterilmez. Ses yalnızca bu bilgisayarda, yerel modellerle tools/tts/seslendir.py ile üretilir (yetişkin profili erkek sesi, çocuk profili kadın sesi); bulut TTS kullanılmaz. tam: bütün duraklar sırayla tek kayıtta; duraklar: her durak ayrı kayıt. Biçim tools/namaz-anlatim.json ile aynıdır: her kayıt sırayla seslendirilen parçalardan oluşur; parça ya bir metindir ya da [metin, duraklama] çiftidir (saniye). Arapça ayet metni seslendirilmez, meali okunur. Bu dosya tools/peygamberler-anlatim.mjs ile üretilir; elle düzenlemeyin.",
+ "tam": {
+  "dosya": "tam",
+  "baslik": "Peygamberler Yolculuğu: tam anlatım",
+  "tur": "Tam anlatım",
+  "duraklar": [
+   "giris",
+   "01-adem",
+   "02-idris",
+   "03-nuh",
+   "04-hud",
+   "05-salih",
+   "06-ibrahim",
+   "07-lut",
+   "08-ismail",
+   "09-ishak",
+   "10-yakup",
+   "11-yusuf",
+   "12-eyyub",
+   "13-suayb",
+   "14-musa",
+   "15-harun",
+   "16-zulkifl",
+   "17-davud",
+   "18-suleyman",
+   "19-ilyas",
+   "20-elyesa",
+   "21-yunus",
+   "22-zekeriyya",
+   "23-yahya",
+   "24-isa",
+   "25-muhammed"
+  ],
+  "parcalar": [
+   [
+    "Peygamberler Yolculuğu.",
+    0.8
+   ],
+   "Kur’an’da adı geçen yirmi beş peygamberi, Kur’an’ın anlattığı biçimde tanıyacağız.",
+   [
+    "Her bilgi bir ayete dayanır.",
+    0.6
+   ],
+   "Kur’an, kıssalarını anlattığı ve anlatmadığı peygamberler olduğunu bildirir; adı geçen yirmi beş peygamber, gönderilenlerin hepsi değildir.",
+   "Nisâ Suresi, yüz altmış dördüncü ve yüz altmış beşinci ayetlerin anlamı şöyledir.",
+   "Peygamberlerden sonra, insanların Allah'a karşı bir hüccetleri olmaması için, gönderilen müjdeci ve uyarıcı peygamberlerden bir kısmını daha önce sana anlatmış, bir kısmını da anlatmamıştık.",
+   "Allah, Musa'ya hitabetmişti.",
+   [
+    "Allah güçlüdür, Hakim'dir.",
+    0.8
+   ],
+   "Müminler, peygamberlerin hiçbirini diğerinden ayırmadan hepsine inanır.",
+   "Bakara Suresi, iki yüz seksen beşinci ayetin anlamı şöyledir.",
+   "Peygamber ve inananlar, ona Rabb'inden indirilene inandı.",
+   "Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı.",
+   "Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz!",
+   [
+    "Affını dileriz, dönüş Sanadır dediler.",
+    0.8
+   ],
+   "Peygamberlerin kıssaları akıl sahipleri için ibrettir.",
+   "Yûsuf Suresi, yüz on birinci ayetin anlamı şöyledir.",
+   "And olsun ki, peygamberlerin kıssalarında, aklı olanlar için ibretler vardır.",
+   "Kuran uydurulabilen bir söz değildir.",
+   [
+    "Fakat kendinden önceki Kitapları tasdik eden, inanan millete her şeyi açıklayan, doğru yolu gösteren bir rehber ve rahmettir.",
+    0.8
+   ],
+   [
+    "Sıralama, Hazreti Âdem’den Peygamberimize kadar yaygın sıralamadır. Kur’an bütün peygamberler için kesin bir tarih sırası vermez.",
+    1.6
+   ],
+   [
+    "Birinci durak. Hazreti Âdem.",
+    0.7
+   ],
+   [
+    "İlk insan; Allah’ın isimleri öğrettiği kul.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Allah, yeryüzünde bir halife yaratacağını meleklere bildirdi ve Âdem’e bütün isimleri öğretti.",
+   "Melekler ona secde etti; İblis ise kibirlenip secde etmedi.",
+   [
+    "Âdem ve eşi şeytana uyup yasak ağaca yaklaştılar; sonra hatalarını kabul edip tövbe ettiler ve Allah tövbelerini kabul etti.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Allah, yeryüzünde bir halife yaratacağını meleklere bildirdi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Âdem’e bütün isimler öğretildi.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Melekler secde etti, İblis kibirlenip direndi.",
+    0.6
+   ],
+   "Dördüncü olay.",
+   "Âdem ve eşi Rabbimiz!",
+   [
+    "Kendimize yazık ettik diyerek tövbe ettiler.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Bakara Suresi, otuz yedinci ayetin anlamı şöyledir.",
+   "Adem, Rabbi'nden emirler aldı; onları yerine getirdi.",
+   "Rabb'i de bunun üzerine tevbesini kabul etti.",
+   [
+    "Şüphesiz o tevbeleri daima kabul edendir, merhametli olandır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hata edince Âdem gibi dön: tövbenin kapısı açıktır.",
+    1.6
+   ],
+   [
+    "İkinci durak. Hazreti İdrîs.",
+    0.7
+   ],
+   [
+    "Çok doğru bir peygamber, yüce bir makama yükseltilen.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Kur’an, İdrîs’i çok doğru bir peygamber olarak anar ve Allah’ın onu yüce bir makama yükselttiğini bildirir.",
+   [
+    "Sabredenlerden ve salih kullardan sayılır.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Çok doğru bir peygamberdi; Allah onu yüce bir makama yükseltti.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "İsmâil ve Zülkifl ile birlikte sabredenlerden sayıldı.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Meryem Suresi, elli altıncı ve elli yedinci ayetlerin anlamı şöyledir.",
+   "Kitap'da İdris'i de zikret, çünkü o dosdoğru bir peygamberdi.",
+   [
+    "Biz onu yüce bir yere yükselttik.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğruluk, insanı yüceltir.",
+    1.6
+   ],
+   [
+    "Üçüncü durak. Hazreti Nûh.",
+    0.7
+   ],
+   "Kavmini yıllarca davet eden, gemiyi yapan peygamber.",
+   [
+    "Kavmi: Nûh kavmi.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Nûh, kavmini gece gündüz, gizli ve açık Allah’a davet etti.",
+   "Kavmi arasında bin yıldan elli yıl eksik kaldı; inananlar azdı.",
+   [
+    "Allah’ın emriyle bir gemi yaptı; tufanda inananlar gemiyle kurtuldu, oğlu ise dağa sığınmayı seçip boğulanlardan oldu.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Kavmini gece gündüz davet etti.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Kavmi arasında bin yıldan elli yıl eksik kaldı.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Allah’ın gözetimi altında gemiyi yaptı.",
+    0.6
+   ],
+   "Dördüncü olay.",
+   [
+    "Oğlu Dağa sığınırım dedi ve boğulanlardan oldu.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Nûh Suresi, beşinci ayetin anlamı şöyledir.",
+   "Nuh dedi ki: Rabbim!",
+   [
+    "Doğrusu ben, milletimi gece gündüz çağırdım.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Doğruya çağırmaktan yorulma; sonuç Allah’a aittir.",
+    1.6
+   ],
+   [
+    "Dördüncü durak. Hazreti Hûd.",
+    0.7
+   ],
+   "Güçleriyle övünen Âd kavmine gönderilen peygamber.",
+   "Kavmi: Âd kavmi.",
+   [
+    "Kur’an’da anılan yer: Ahkāf, kum tepeleri.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Hûd, kardeşleri olduğu Âd kavmine gönderildi ve onları yalnız Allah’a kulluğa çağırdı.",
+   [
+    "Âd kavmi Bizden daha güçlü kim var? diyerek büyüklük tasladı ve uyarıyı reddetti; sonunda dondurucu, şiddetli bir rüzgârla helak oldular.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Kavmi Bizden daha güçlü kim var? diyerek büyüklük tasladı.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Âd kavmi dondurucu, şiddetli bir rüzgârla helak oldu.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "A‘râf Suresi, altmış beşinci ayetin anlamı şöyledir.",
+   "Ad milletine de, kardeşleri Hud'u gönderdik Ey milletim!",
+   [
+    "Allah'a kulluk edin, O'ndan başka tanrınız yoktur, karşı gelmekten sakınmaz mısınız? dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güç Allah’ındır; güçle övünen kaybeder.",
+    1.6
+   ],
+   [
+    "Beşinci durak. Hazreti Sâlih.",
+    0.7
+   ],
+   "Semûd kavmine dişi deve mucizesiyle gönderilen peygamber.",
+   "Kavmi: Semûd kavmi.",
+   [
+    "Kur’an’da anılan yer: Hicr.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Sâlih, kardeşleri olduğu Semûd kavmine gönderildi.",
+   "Allah’ın bir mucizesi olarak dişi bir deve gösterildi ve ona dokunulmaması istendi.",
+   [
+    "Kavmi deveyi kesti ve Rablerinin emrine karşı geldi; sonra helak oldular.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Kavmine Allah’ın bir mucizesi olarak dişi bir deve gösterildi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Kavmi dağlarda kayaları oyarak evler yapıyordu.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Kavmi deveyi kesti ve emre karşı geldi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "A‘râf Suresi, yetmiş üçüncü ayetin anlamı şöyledir.",
+   "Semud milletine de kardeşleri Salih'i gönderdik.",
+   "Ey milletim!",
+   "Allah'a kulluk edin, O'ndan başka tanrınız yoktur.",
+   [
+    "Rabbinizden size bir belge geldi: Allah'ın bu dişi devesi size bir delildir, onu bırakın, Allah'ın toprağında otlasın; ona kötülük etmeyin, yoksa can yakıcı azaba uğrarsınız.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Emanete ve uyarıya saygı göster.",
+    1.6
+   ],
+   [
+    "Altıncı durak. Hazreti İbrâhîm.",
+    0.7
+   ],
+   [
+    "Allah’ın dostu; ateşin serin kılındığı peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "İbrâhîm, gökteki yıldız, ay ve güneşin batıp gittiğini göstererek yalnız Yaratan’a yöneldi.",
+   "Kavminin putlarını kırdı; Allah ateşe, ona karşı serin ve zararsız olmasını emretti.",
+   "Oğlu İsmâil ile Kâbe’nin temellerini yükseltti.",
+   [
+    "Allah onu dost edindi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Yıldızın, ayın ve güneşin batışını göstererek yalnız Yaratan’a yöneldi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Kavminin putlarını paramparça etti, büyüklerini sağlam bıraktı.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   "Allah ateşe Ey ateş!",
+   [
+    "İbrahim’e karşı serin ve zararsız ol dedi.",
+    0.6
+   ],
+   "Dördüncü olay.",
+   [
+    "Oğlu İsmâil ile Kâbe’nin temellerini yükseltti.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Nisâ Suresi, yüz yirmi beşinci ayetin anlamı şöyledir.",
+   "İyilik yaparak kendisini Allah'a teslim edip, hakka yönelen İbrahim'in dinine uyandan, din bakımından daha iyi kim olabilir?",
+   [
+    "Allah İbrahim'i dost edinmişti.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hakikati aramaktan vazgeçme; Allah’a güvenen için ateş bile serinler.",
+    1.6
+   ],
+   [
+    "Yedinci durak. Hazreti Lût.",
+    0.7
+   ],
+   [
+    "İbrâhîm’e inanan; kavmini hayasızlıktan sakındıran peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Lût, Hazreti İbrâhîm’e inandı.",
+   "Kavmini, daha önce kimsenin yapmadığı bir hayasızlıktan sakındırdı.",
+   [
+    "Kavmi onu dinlemedi; Lût ve ailesi, geride kalan eşi dışında kurtarıldı.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Hazreti İbrâhîm’e inandı.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Kavmini daha önce kimsenin yapmadığı hayasızlıktan sakındırdı.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Kendisi ve ailesi kurtarıldı; eşi geride kalanlardan oldu.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "A‘râf Suresi, sekseninci ve seksen birinci ayetlerin anlamı şöyledir.",
+   "Lut'u da gönderdik, milletine Dünyalarda hiç kimsenin sizden önce yapmadığı bir hayasızlığı mı yapıyorsunuz?",
+   [
+    "Siz kadınları bırakıp erkeklere yaklaşıyorsunuz, doğrusu çok aşırı giden bir milletsiniz dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kötülüğün karşısında yalnız da kalsan doğruyu söyle.",
+    1.6
+   ],
+   [
+    "Sekizinci durak. Hazreti İsmâil.",
+    0.7
+   ],
+   [
+    "Sözüne sadık; Kâbe’yi babasıyla yükselten peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Kur’an İsmâil’i sözünde doğru, gönderilmiş bir peygamber olarak anar; çevresindekilere namazı ve zekâtı emrederdi.",
+   [
+    "Babası İbrâhîm ile Kâbe’nin temellerini yükseltti ve sabredenlerden sayıldı.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Sözünde doğru bir peygamberdi; çevresindekilere namazı ve zekâtı emrederdi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Babası İbrâhîm ile Kâbe’nin temellerini yükseltti.",
+    0.6
+   ],
+   [
+    "Saffât yüz iki-yüz yedi’deki kurban kıssasında oğlun adı geçmez; âlimlerin çoğuna göre bu oğul Hazreti İsmâil’dir.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Meryem Suresi, elli dördüncü ayetin anlamı şöyledir.",
+   "Kitap'da İsmail'e dair anlattıklarımızı da an.",
+   [
+    "Çünkü o sözünde doğru bir kimse idi, tarafımızdan gönderilmiş bir peygamberdi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Söz ver, sonra sözünü tut.",
+    1.6
+   ],
+   [
+    "Dokuzuncu durak. Hazreti İshak.",
+    0.7
+   ],
+   [
+    "İbrâhîm’e müjdelenen salih peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "İshak, Hazreti İbrâhîm’e ve eşine, yaşlılıklarında müjdelenen salih bir peygamberdir.",
+   [
+    "Allah, İbrâhîm’e İshak’ı ve Yakup’u bağışladı ve her birini peygamber yaptı.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Salihlerden bir peygamber olarak müjdelendi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Melekler İbrâhîm’in eşine İshak’ı ve ardından Yakup’u müjdeledi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Meryem Suresi, kırk dokuzuncu ayetin anlamı şöyledir.",
+   [
+    "İbrahim onları Allah'tan başka taptıklarıyla başbaşa bırakıp çekilince ona İshak ve Yakub'u bahşettik ve her birini peygamber yaptık.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Müjde, sabredenlere gelir.",
+    1.6
+   ],
+   [
+    "Onuncu durak. Hazreti Yakup.",
+    0.7
+   ],
+   [
+    "Güzel sabrın örneği; derdini Allah’a açan peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Yakup, oğullarına Allah bu dini sizin için seçti; Müslüman olarak ölün diye vasiyet etti.",
+   [
+    "Oğlu Yûsuf’u kaybettiğinde güzel bir sabır gösterdi; üzüntüden gözleri ağardı ama Ben üzüntü ve tasamı yalnız Allah’a açarım dedi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Oğullarına Allah’ın seçtiği din üzere kalmalarını vasiyet etti.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Yûsuf kaybolunca güzel bir sabır dedi.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Ben üzüntü ve tasamı yalnız Allah’a açarım dedi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Yûsuf Suresi, seksen altıncı ayetin anlamı şöyledir.",
+   "Yakup: Ben üzüntü ve tasamı yalnız Allah'a açarım.",
+   [
+    "Allah katından, sizin bilmediklerinizi bilirim dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Derdini insanlara değil, Allah’a aç.",
+    1.6
+   ],
+   [
+    "On birinci durak. Hazreti Yûsuf.",
+    0.7
+   ],
+   "Kuyudan saraya; iffetin ve affın peygamberi.",
+   [
+    "Kur’an’da anılan yer: Mısır.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Yûsuf, çocukken on bir yıldızın, güneşin ve ayın kendisine secde ettiğini rüyasında gördü.",
+   "Kardeşleri onu kuyuya attı; Mısır’da satıldı, iffetini korudu ve haksız yere zindana girdi.",
+   [
+    "Allah ona rüya yorumunu öğretti; ülkenin hazinelerine yönetici oldu ve sonunda kendisine kötülük eden kardeşlerini affetti.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Rüyasında on bir yıldızın, güneşin ve ayın kendisine secde ettiğini gördü.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Kardeşleri onu bir kuyunun derinliklerine bıraktı.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   "İffetini korudu; Rabbim!",
+   [
+    "Hapis benim için daha iyidir dedi.",
+    0.6
+   ],
+   "Dördüncü olay.",
+   [
+    "Kardeşlerine Bugün azarlanacak değilsiniz, Allah sizi bağışlar diyerek onları affetti.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Yûsuf Suresi, doksan ikinci ve doksan üçüncü ayetlerin anlamı şöyledir.",
+   "Yusuf: Bugün azarlanacak değilsiniz, Allah sizi bağışlar.",
+   "O, merhametlilerin merhametlisidir.",
+   [
+    "Bu gömleğimi götürün, babamın yüzüne sürün, görmeğe başlar; bütün çoluk çocuğunuzla bana gelin dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Güç elindeyken affetmek, en büyük güçtür.",
+    1.6
+   ],
+   [
+    "On ikinci durak. Hazreti Eyyûb.",
+    0.7
+   ],
+   [
+    "Sabrın timsali; dertte bile Rabbine yönelen peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Eyyûb, başına gelen sıkıntıda Rabbine Başıma bir bela geldi; Sen merhametlilerin merhametlisisin diye seslendi.",
+   "Allah duasını kabul etti, derdini giderdi.",
+   [
+    "Kur’an onu sabırlı bulduğunu ve ne güzel bir kul olduğunu bildirir.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Başıma bir bela geldi; Sen merhametlilerin merhametlisisin diye dua etti.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Allah duasını kabul etti ve derdini giderdi.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Allah onu sabırlı buldu: ne güzel bir kul.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Sâd Suresi, kırk dördüncü ayetin anlamı şöyledir.",
+   "Ey Eyyub!",
+   "Eline bir demet sap alıp onunla vur, yeminini bozma demiştik.",
+   "Doğrusu Biz onu sabırlı bulmuştuk.",
+   [
+    "Ne iyi kuldu, daima Allah'a yönelirdi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Dertte de şükürde de Rabbine yönel.",
+    1.6
+   ],
+   [
+    "On üçüncü durak. Hazreti Şuayb.",
+    0.7
+   ],
+   "Ölçüde ve tartıda dürüstlüğü öğütleyen peygamber.",
+   [
+    "Kavmi: Medyen halkı.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Şuayb, kardeşleri olduğu Medyen halkına gönderildi.",
+   "Onlara ölçüyü ve tartıyı tam yapmalarını, insanların mallarını eksiltmemelerini ve yeryüzünde bozgunculuk yapmamalarını öğütledi.",
+   [
+    "Gücümün yettiği kadar ıslah etmekten başka bir dileğim yoktur dedi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Ölçüyü ve tartıyı tam yapmayı öğütledi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Gücümün yettiği kadar ıslah etmekten başka bir dileğim yoktur dedi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "A‘râf Suresi, seksen beşinci ayetin anlamı şöyledir.",
+   "Medyen halkına da kardeşleri Şuayb'ı gönderdik, onlara şöyle dedi: Ey milletim!",
+   "Allah'a kulluk edin, O'ndan başka tanrınız yoktur.",
+   "Rabbinizden size bir belge geldi.",
+   [
+    "Ölçü ve tartıyı tam yapın, insanların eşyasını eksik vermeyin, düzelttikten sonra yeryüzünde bozgunculuk etmeyin; inanıyorsanız bilin ki, bunlar sizin için hayırlıdır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Ticarette dürüstlük, imanın bir parçasıdır.",
+    1.6
+   ],
+   [
+    "On dördüncü durak. Hazreti Mûsâ.",
+    0.7
+   ],
+   "Allah’ın konuştuğu; Firavun’a gönderilen peygamber.",
+   [
+    "Kur’an’da anılan yer: Mısır.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Mûsâ bebekken, annesine bildirilen vahiyle suya bırakıldı ve Firavun’un sarayında büyüdü.",
+   "Allah onunla konuştu; kardeşi Hârûn ile birlikte Firavun’a gönderildi ve ona yumuşak söz söylemeleri emredildi.",
+   [
+    "Deniz yarıldı, İsrailoğulları kurtuldu; Mûsâ’ya Tevrat verildi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Annesine, korktuğunda onu suya bırakması bildirildi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Allah, Mûsâ ile konuştu.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Firavun’a kardeşiyle gidip yumuşak söz söylemesi emredildi.",
+    0.6
+   ],
+   "Dördüncü olay.",
+   [
+    "Değneğiyle denize vurdu; deniz ikiye ayrıldı.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Tâhâ Suresi, kırk üçüncü ve kırk dördüncü ayetlerin anlamı şöyledir.",
+   "Firavun'a gidin, doğrusu o azmıştır.",
+   [
+    "Ona yumuşak söz söyleyin, belki öğüt dinler veya korkar.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Zalime bile önce yumuşak sözle git.",
+    1.6
+   ],
+   [
+    "On beşinci durak. Hazreti Hârûn.",
+    0.7
+   ],
+   [
+    "Mûsâ’nın kardeşi ve yardımcısı.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Mûsâ, Rabbinden ailesinden kardeşi Hârûn’u kendisine yardımcı yapmasını istedi; çünkü Hârûn’un dili daha düzgündü.",
+   [
+    "Allah rahmetinden Hârûn’u bir peygamber olarak Mûsâ’ya bağışladı.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Allah, Mûsâ’ya Seni kardeşinle destekleyeceğiz dedi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Hârûn’un dili daha düzgündü.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Allah rahmetinden Hârûn’u bir peygamber olarak bağışladı.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Meryem Suresi, elli üçüncü ayetin anlamı şöyledir.",
+   [
+    "Rahmetimizden, kardeşi Harun'u bir peygamber olarak ona bağışladık.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "İyilikte kardeşine destek ol.",
+    1.6
+   ],
+   [
+    "On altıncı durak. Hazreti Zülkifl.",
+    0.7
+   ],
+   [
+    "Sabredenlerden ve hayırlılardan bir peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   [
+    "Kur’an Zülkifl’i yalnızca iki yerde, sabredenlerden, salihlerden ve hayırlılardan biri olarak anar; hayatına dair ayrıntı vermez.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "İsmâil ve İdrîs ile birlikte sabredenlerden sayıldı.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Hayırlılardan sayıldı.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Enbiyâ Suresi, seksen beşinci ayetin anlamı şöyledir.",
+   [
+    "İsmail, İdris ve Zülkifl hakkında anlattığımızı da an; onların her biri sabredenlerdendi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Az bilinmek, değersiz olmak değildir.",
+    1.6
+   ],
+   [
+    "On yedinci durak. Hazreti Dâvûd.",
+    0.7
+   ],
+   [
+    "Zebur verilen; demiri yumuşatan peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Dâvûd, Câlût’u öldürdü; Allah ona hükümranlık ve hikmet verdi.",
+   "Kendisine Zebur verildi.",
+   "Allah ona demiri yumuşattı ve zırh yapmayı öğretti; dağlar ve kuşlar onunla birlikte Allah’ı tesbih ederdi.",
+   [
+    "İnsanlar arasında hak ile hükmetmesi istendi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Câlût’u öldürdü; Allah ona hükümranlık ve hikmet verdi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Ona Zebur verildi.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Allah ona demiri yumuşattı ve zırh yapmasını öğretti.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Sâd Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+   "Ey Davud!",
+   "Seni şüphesiz yeryüzünde hükümran kıldık, o halde insanlar arasında adaletle hükmet, hevese uyma yoksa seni Allah'ın yolundan saptırır.",
+   [
+    "Doğrusu, Allah'ın yolundan sapanlara, onlara, hesap gününü unutmalarına karşılık çetin azap vardır.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Hükmederken hak ile hükmet.",
+    1.6
+   ],
+   [
+    "On sekizinci durak. Hazreti Süleymân.",
+    0.7
+   ],
+   [
+    "Kuş dili öğretilen; karıncayı duyan peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Süleymân, babası Dâvûd’a vâris oldu; kendisine kuş dili öğretildi.",
+   "Karıncanın sözüne hafifçe güldü ve Rabbim!",
+   "Bana ve ana babama verdiğin nimete şükürde beni muvaffak kıl dedi.",
+   [
+    "Hüdhüd kuşundan Sebe halkının haberini aldı.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Babası Dâvûd’a vâris oldu; kendisine kuş dili öğretildi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Karıncanın sözünü duydu ve Rabbine şükretti.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Hüdhüd kuşu ona Sebe’den haber getirdi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Neml Suresi, on sekizinci ve on dokuzuncu ayetlerin anlamı şöyledir.",
+   "Sonunda, karıncaların bulunduğu vadiye geldiklerinde bir dişi, kraliçe, karınca: Ey karıncalar!",
+   "Yuvalarınıza girin, Süleyman'ın ordusu farkına varmadan sizi ezmesin dedi.",
+   "Süleyman, onun sözüne hafifçe güldü ve: Rabbim!",
+   "Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl.",
+   [
+    "Rahmetinle, beni iyi kullarının arasına koy dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Nimet arttıkça şükür de artmalı.",
+    1.6
+   ],
+   [
+    "On dokuzuncu durak. Hazreti İlyâs.",
+    0.7
+   ],
+   [
+    "Kavmini Baal putuna tapmaktan sakındıran peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "İlyâs gönderilen peygamberlerdendir.",
+   "Kavmine Allah’a karşı gelmekten sakınmaz mısınız?",
+   [
+    "Biçim verenlerin en iyisi olan Allah’ı bırakıp da Baal putuna mı taparsınız? dedi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Kavmini Baal putuna tapmaktan sakındırdı.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Zekeriyyâ, Yahyâ ve Îsâ ile birlikte iyilerden sayıldı.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Sâffât Suresi, yüz yirmi üçüncü ile yüz yirmi altıncı ayetler arasının anlamı şöyledir.",
+   "Doğrusu İlyas da peygamberlerdendir.",
+   "Milletine: Allah'a karşı gelmekten sakınmaz mısınız?",
+   [
+    "Biçim verenlerin en iyisi olan, sizin de Rabbiniz, önceki babalarınızın da Rabbi bulunan Allah'ı bırakıp da Baal putuna mı taparsınız? demişti.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Yaratanı bırakıp yaratılmışa yönelme.",
+    1.6
+   ],
+   [
+    "Yirminci durak. Hazreti Elyesa‘.",
+    0.7
+   ],
+   [
+    "Âlemlere üstün kılınan hayırlılardan.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   [
+    "Kur’an Elyesa‘ı iki yerde, âlemlere üstün kılınan ve hayırlılardan olan peygamberler arasında anar; hayatına dair ayrıntı vermez.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "İsmâil, Yûnus ve Lût ile birlikte âlemlere üstün kılındı.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Hayırlılardan sayıldı.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "En‘âm Suresi, seksen dördüncü ile seksen altıncı ayetler arasının anlamı şöyledir.",
+   "Ona İshak'ı, Yakub'u bağışladık, her birini doğru yola eriştirdik.",
+   [
+    "Daha önce Nuh'u ve soyundan Davud'u, Süleyman'ı, Eyyub'u, Yusuf'u, Musa'yı ve Harun'u -ki işlerini iyi yapanlara böylece karşılık veririz-, Zekeriya'yı, Yahya'yı, İsa'yı ve İlyas'ı -ki hepsi iyilerdendir-, İsmail'i, Elyesa'ı, Yunus'u, Lut'u -ki hepsini dünyalara üstün kıldık- doğru yola eriştirdik.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Allah katında değer, iyi kul olmaktadır.",
+    1.6
+   ],
+   [
+    "Yirmi birinci durak. Hazreti Yûnus.",
+    0.7
+   ],
+   [
+    "Balığın karnında Rabbine yalvaran peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Yûnus, kavminden öfkeyle ayrılıp yüklü gemiye kaçtı; denize atıldı ve onu bir balık yuttu.",
+   "Karanlıklar içinde Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslendi; Allah onu kederden kurtardı.",
+   [
+    "Kavmi iman edince azaptan kurtuldu.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Balık onu yuttu.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslendi.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Kavmi iman edince azaptan kurtuldu.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Enbiyâ Suresi, seksen yedinci ayetin anlamı şöyledir.",
+   "Zünnun, Balık Sahibi; Yunus, hakkında söylediğimizi de an.",
+   [
+    "O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslenmişti.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "En derin karanlıkta bile dua bir çıkış kapısıdır.",
+    1.6
+   ],
+   [
+    "Yirmi ikinci durak. Hazreti Zekeriyyâ.",
+    0.7
+   ],
+   [
+    "Gizlice dua eden; Yahyâ ile müjdelenen peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Zekeriyyâ, Hazreti Meryem’in bakımını üstlendi.",
+   [
+    "Yaşlılığında Rabbine içinden yalvararak bir evlat istedi; Allah ona Yahyâ’yı müjdeledi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Meryem’in bakımını üstlendi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Rabbine içinden yalvardı.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Kendisine Yahyâ müjdelendi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Meryem Suresi, üçüncü ayetin anlamı şöyledir.",
+   [
+    "O Rabbine içinden yalvarmıştı.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Umudunu yitirme; dua et.",
+    1.6
+   ],
+   [
+    "Yirmi üçüncü durak. Hazreti Yahyâ.",
+    0.7
+   ],
+   [
+    "Kitaba kuvvetle sarılan; anne babasına iyi davranan peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Yahyâ’ya Kitaba kuvvetle sarıl denildi ve çocukken hikmet verildi.",
+   "Anne babasına iyi davranan, zorba ve isyankâr olmayan biriydi.",
+   [
+    "Doğduğu gün, öleceği gün ve diriltileceği gün ona selam olsun.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   "Kitaba kuvvetle sarıl denildi; çocukken hikmet verildi.",
+   [
+    "Anne babasına iyi davranırdı, baş kaldıran bir zorba değildi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Babası Zekeriyyâ’ya, daha önce kimseye verilmemiş bu adla müjdelendi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Meryem Suresi, on ikinci ile on beşinci ayetler arasının anlamı şöyledir.",
+   "Ey Yahya!",
+   "Kitaba kuvvetle sarıl deyip daha çocukken ona hikmet, katımızdan kalp yumuşaklığı ve safiyet verdik.",
+   "O, Allah'tan sakınan ve anasına babasına karşı iyi davranan bir kimse idi, baş kaldıran bir zorba değildi.",
+   [
+    "Doğduğu günde, öleceği günde ve dirileceği günde ona selam olsun.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Bilgiyi kuvvetle tut, anne babana iyi davran.",
+    1.6
+   ],
+   [
+    "Yirmi dördüncü durak. Hazreti Îsâ.",
+    0.7
+   ],
+   [
+    "Meryem oğlu; beşikte konuşan peygamber.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Îsâ, Allah’ın bir kelimesi olarak Meryem’e müjdelendi.",
+   "Beşikte konuşarak Ben Allah’ın kuluyum dedi.",
+   "Allah’ın izniyle mucizeler gösterdi; kendisine İncil verildi.",
+   [
+    "Kendisinden sonra adı Ahmed olan bir peygamberi müjdeledi.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Meryem’e, adı Meryem oğlu Mesih Îsâ olan bir kelime ile müjdelendi.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Beşikte konuştu: Ben Allah’ın kuluyum..",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Allah’ın izniyle mucizeler gösterdi.",
+    0.6
+   ],
+   "Dördüncü olay.",
+   [
+    "Adı Ahmed olan bir peygamberi müjdeledi.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Meryem Suresi, yirmi dokuzuncu ile otuz üçüncü ayetler arasının anlamı şöyledir.",
+   "Meryem çocuğu gösterdi.",
+   "Biz beşikteki çocukla nasıl konuşabiliriz? dediler.",
+   "Çocuk: Ben şüphesiz Allah'ın kuluyum.",
+   "Bana kitap verdi ve beni peygamber yaptı, nerede olursam olayım beni mübarek kıldı.",
+   "Yaşadığım müddetçe namaz kılmamı, zekat vermemi ve anneme iyi davranmamı emretti.",
+   "Beni bedbaht bir zorba kılmadı.",
+   [
+    "Doğduğum günde, öleceğim günde, dirileceğim günde bana selam olsun dedi.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Kulluk, en yüce şereftir.",
+    1.6
+   ],
+   [
+    "Yirmi beşinci durak. Hazreti Muhammed sallallahu aleyhi ve sellem.",
+    0.7
+   ],
+   [
+    "Peygamberlerin sonuncusu; âlemlere rahmet.",
+    0.6
+   ],
+   "Kur’an’a göre.",
+   "Muhammed, Allah’ın elçisi ve peygamberlerin sonuncusudur.",
+   [
+    "Âlemlere rahmet olarak gönderildi; Kur’an onun büyük bir ahlak üzere olduğunu bildirir.",
+    0.8
+   ],
+   [
+    "Kur’an’dan olaylar.",
+    0.5
+   ],
+   "Birinci olay.",
+   [
+    "Allah’ın elçisi ve peygamberlerin sonuncusudur.",
+    0.6
+   ],
+   "İkinci olay.",
+   [
+    "Âlemlere rahmet olarak gönderildi.",
+    0.6
+   ],
+   "Üçüncü olay.",
+   [
+    "Büyük bir ahlak üzeredir.",
+    0.6
+   ],
+   "Dördüncü olay.",
+   [
+    "Oku! emriyle başlayan ayetler Alak suresinin başındadır.",
+    0.6
+   ],
+   [
+    "Alak suresinin ilk ayetlerinin ilk inen ayetler olduğu hadislerle ve âlimlerin büyük çoğunluğunca bildirilir.",
+    0.6
+   ],
+   "Öne çıkan ayet.",
+   "Ahzâb Suresi, kırkıncı ayetin anlamı şöyledir.",
+   "Muhammed içinizden herhangi bir adamın babası değil, Allah'ın elçisi ve peygamberlerin sonuncusudur.",
+   [
+    "Allah her şeyi bilendir.",
+    0.8
+   ],
+   [
+    "Akılda kalsın.",
+    0.5
+   ],
+   [
+    "Onun ahlakı, Kur’an’ın yaşanmış hâlidir.",
+    1
+   ]
+  ]
+ },
+ "duraklar": [
+  {
+   "dosya": "giris",
+   "baslik": "Peygamberler Yolculuğu",
+   "tur": "Giriş",
+   "parcalar": [
+    [
+     "Peygamberler Yolculuğu.",
+     0.8
+    ],
+    "Kur’an’da adı geçen yirmi beş peygamberi, Kur’an’ın anlattığı biçimde tanıyacağız.",
+    [
+     "Her bilgi bir ayete dayanır.",
+     0.6
+    ],
+    "Kur’an, kıssalarını anlattığı ve anlatmadığı peygamberler olduğunu bildirir; adı geçen yirmi beş peygamber, gönderilenlerin hepsi değildir.",
+    "Nisâ Suresi, yüz altmış dördüncü ve yüz altmış beşinci ayetlerin anlamı şöyledir.",
+    "Peygamberlerden sonra, insanların Allah'a karşı bir hüccetleri olmaması için, gönderilen müjdeci ve uyarıcı peygamberlerden bir kısmını daha önce sana anlatmış, bir kısmını da anlatmamıştık.",
+    "Allah, Musa'ya hitabetmişti.",
+    [
+     "Allah güçlüdür, Hakim'dir.",
+     0.8
+    ],
+    "Müminler, peygamberlerin hiçbirini diğerinden ayırmadan hepsine inanır.",
+    "Bakara Suresi, iki yüz seksen beşinci ayetin anlamı şöyledir.",
+    "Peygamber ve inananlar, ona Rabb'inden indirilene inandı.",
+    "Hepsi Allah'a, meleklerine, kitaplarına, peygamberlerine inandı.",
+    "Peygamberleri arasından hiçbirini ayırdetmeyiz, işittik, itaat ettik, Rabbimiz!",
+    [
+     "Affını dileriz, dönüş Sanadır dediler.",
+     0.8
+    ],
+    "Peygamberlerin kıssaları akıl sahipleri için ibrettir.",
+    "Yûsuf Suresi, yüz on birinci ayetin anlamı şöyledir.",
+    "And olsun ki, peygamberlerin kıssalarında, aklı olanlar için ibretler vardır.",
+    "Kuran uydurulabilen bir söz değildir.",
+    [
+     "Fakat kendinden önceki Kitapları tasdik eden, inanan millete her şeyi açıklayan, doğru yolu gösteren bir rehber ve rahmettir.",
+     0.8
+    ],
+    [
+     "Sıralama, Hazreti Âdem’den Peygamberimize kadar yaygın sıralamadır. Kur’an bütün peygamberler için kesin bir tarih sırası vermez.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "01-adem",
+   "baslik": "Hz. Âdem",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Birinci durak. Hazreti Âdem.",
+     0.7
+    ],
+    [
+     "İlk insan; Allah’ın isimleri öğrettiği kul.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Allah, yeryüzünde bir halife yaratacağını meleklere bildirdi ve Âdem’e bütün isimleri öğretti.",
+    "Melekler ona secde etti; İblis ise kibirlenip secde etmedi.",
+    [
+     "Âdem ve eşi şeytana uyup yasak ağaca yaklaştılar; sonra hatalarını kabul edip tövbe ettiler ve Allah tövbelerini kabul etti.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Allah, yeryüzünde bir halife yaratacağını meleklere bildirdi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Âdem’e bütün isimler öğretildi.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Melekler secde etti, İblis kibirlenip direndi.",
+     0.6
+    ],
+    "Dördüncü olay.",
+    "Âdem ve eşi Rabbimiz!",
+    [
+     "Kendimize yazık ettik diyerek tövbe ettiler.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Bakara Suresi, otuz yedinci ayetin anlamı şöyledir.",
+    "Adem, Rabbi'nden emirler aldı; onları yerine getirdi.",
+    "Rabb'i de bunun üzerine tevbesini kabul etti.",
+    [
+     "Şüphesiz o tevbeleri daima kabul edendir, merhametli olandır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hata edince Âdem gibi dön: tövbenin kapısı açıktır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "02-idris",
+   "baslik": "Hz. İdrîs",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "İkinci durak. Hazreti İdrîs.",
+     0.7
+    ],
+    [
+     "Çok doğru bir peygamber, yüce bir makama yükseltilen.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Kur’an, İdrîs’i çok doğru bir peygamber olarak anar ve Allah’ın onu yüce bir makama yükselttiğini bildirir.",
+    [
+     "Sabredenlerden ve salih kullardan sayılır.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Çok doğru bir peygamberdi; Allah onu yüce bir makama yükseltti.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "İsmâil ve Zülkifl ile birlikte sabredenlerden sayıldı.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Meryem Suresi, elli altıncı ve elli yedinci ayetlerin anlamı şöyledir.",
+    "Kitap'da İdris'i de zikret, çünkü o dosdoğru bir peygamberdi.",
+    [
+     "Biz onu yüce bir yere yükselttik.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğruluk, insanı yüceltir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "03-nuh",
+   "baslik": "Hz. Nûh",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Üçüncü durak. Hazreti Nûh.",
+     0.7
+    ],
+    "Kavmini yıllarca davet eden, gemiyi yapan peygamber.",
+    [
+     "Kavmi: Nûh kavmi.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Nûh, kavmini gece gündüz, gizli ve açık Allah’a davet etti.",
+    "Kavmi arasında bin yıldan elli yıl eksik kaldı; inananlar azdı.",
+    [
+     "Allah’ın emriyle bir gemi yaptı; tufanda inananlar gemiyle kurtuldu, oğlu ise dağa sığınmayı seçip boğulanlardan oldu.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Kavmini gece gündüz davet etti.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Kavmi arasında bin yıldan elli yıl eksik kaldı.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Allah’ın gözetimi altında gemiyi yaptı.",
+     0.6
+    ],
+    "Dördüncü olay.",
+    [
+     "Oğlu Dağa sığınırım dedi ve boğulanlardan oldu.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Nûh Suresi, beşinci ayetin anlamı şöyledir.",
+    "Nuh dedi ki: Rabbim!",
+    [
+     "Doğrusu ben, milletimi gece gündüz çağırdım.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Doğruya çağırmaktan yorulma; sonuç Allah’a aittir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "04-hud",
+   "baslik": "Hz. Hûd",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Dördüncü durak. Hazreti Hûd.",
+     0.7
+    ],
+    "Güçleriyle övünen Âd kavmine gönderilen peygamber.",
+    "Kavmi: Âd kavmi.",
+    [
+     "Kur’an’da anılan yer: Ahkāf, kum tepeleri.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Hûd, kardeşleri olduğu Âd kavmine gönderildi ve onları yalnız Allah’a kulluğa çağırdı.",
+    [
+     "Âd kavmi Bizden daha güçlü kim var? diyerek büyüklük tasladı ve uyarıyı reddetti; sonunda dondurucu, şiddetli bir rüzgârla helak oldular.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Kavmi Bizden daha güçlü kim var? diyerek büyüklük tasladı.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Âd kavmi dondurucu, şiddetli bir rüzgârla helak oldu.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "A‘râf Suresi, altmış beşinci ayetin anlamı şöyledir.",
+    "Ad milletine de, kardeşleri Hud'u gönderdik Ey milletim!",
+    [
+     "Allah'a kulluk edin, O'ndan başka tanrınız yoktur, karşı gelmekten sakınmaz mısınız? dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güç Allah’ındır; güçle övünen kaybeder.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "05-salih",
+   "baslik": "Hz. Sâlih",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Beşinci durak. Hazreti Sâlih.",
+     0.7
+    ],
+    "Semûd kavmine dişi deve mucizesiyle gönderilen peygamber.",
+    "Kavmi: Semûd kavmi.",
+    [
+     "Kur’an’da anılan yer: Hicr.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Sâlih, kardeşleri olduğu Semûd kavmine gönderildi.",
+    "Allah’ın bir mucizesi olarak dişi bir deve gösterildi ve ona dokunulmaması istendi.",
+    [
+     "Kavmi deveyi kesti ve Rablerinin emrine karşı geldi; sonra helak oldular.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Kavmine Allah’ın bir mucizesi olarak dişi bir deve gösterildi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Kavmi dağlarda kayaları oyarak evler yapıyordu.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Kavmi deveyi kesti ve emre karşı geldi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "A‘râf Suresi, yetmiş üçüncü ayetin anlamı şöyledir.",
+    "Semud milletine de kardeşleri Salih'i gönderdik.",
+    "Ey milletim!",
+    "Allah'a kulluk edin, O'ndan başka tanrınız yoktur.",
+    [
+     "Rabbinizden size bir belge geldi: Allah'ın bu dişi devesi size bir delildir, onu bırakın, Allah'ın toprağında otlasın; ona kötülük etmeyin, yoksa can yakıcı azaba uğrarsınız.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Emanete ve uyarıya saygı göster.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "06-ibrahim",
+   "baslik": "Hz. İbrâhîm",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Altıncı durak. Hazreti İbrâhîm.",
+     0.7
+    ],
+    [
+     "Allah’ın dostu; ateşin serin kılındığı peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "İbrâhîm, gökteki yıldız, ay ve güneşin batıp gittiğini göstererek yalnız Yaratan’a yöneldi.",
+    "Kavminin putlarını kırdı; Allah ateşe, ona karşı serin ve zararsız olmasını emretti.",
+    "Oğlu İsmâil ile Kâbe’nin temellerini yükseltti.",
+    [
+     "Allah onu dost edindi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Yıldızın, ayın ve güneşin batışını göstererek yalnız Yaratan’a yöneldi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Kavminin putlarını paramparça etti, büyüklerini sağlam bıraktı.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    "Allah ateşe Ey ateş!",
+    [
+     "İbrahim’e karşı serin ve zararsız ol dedi.",
+     0.6
+    ],
+    "Dördüncü olay.",
+    [
+     "Oğlu İsmâil ile Kâbe’nin temellerini yükseltti.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Nisâ Suresi, yüz yirmi beşinci ayetin anlamı şöyledir.",
+    "İyilik yaparak kendisini Allah'a teslim edip, hakka yönelen İbrahim'in dinine uyandan, din bakımından daha iyi kim olabilir?",
+    [
+     "Allah İbrahim'i dost edinmişti.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hakikati aramaktan vazgeçme; Allah’a güvenen için ateş bile serinler.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "07-lut",
+   "baslik": "Hz. Lût",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Yedinci durak. Hazreti Lût.",
+     0.7
+    ],
+    [
+     "İbrâhîm’e inanan; kavmini hayasızlıktan sakındıran peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Lût, Hazreti İbrâhîm’e inandı.",
+    "Kavmini, daha önce kimsenin yapmadığı bir hayasızlıktan sakındırdı.",
+    [
+     "Kavmi onu dinlemedi; Lût ve ailesi, geride kalan eşi dışında kurtarıldı.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Hazreti İbrâhîm’e inandı.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Kavmini daha önce kimsenin yapmadığı hayasızlıktan sakındırdı.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Kendisi ve ailesi kurtarıldı; eşi geride kalanlardan oldu.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "A‘râf Suresi, sekseninci ve seksen birinci ayetlerin anlamı şöyledir.",
+    "Lut'u da gönderdik, milletine Dünyalarda hiç kimsenin sizden önce yapmadığı bir hayasızlığı mı yapıyorsunuz?",
+    [
+     "Siz kadınları bırakıp erkeklere yaklaşıyorsunuz, doğrusu çok aşırı giden bir milletsiniz dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kötülüğün karşısında yalnız da kalsan doğruyu söyle.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "08-ismail",
+   "baslik": "Hz. İsmâil",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Sekizinci durak. Hazreti İsmâil.",
+     0.7
+    ],
+    [
+     "Sözüne sadık; Kâbe’yi babasıyla yükselten peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Kur’an İsmâil’i sözünde doğru, gönderilmiş bir peygamber olarak anar; çevresindekilere namazı ve zekâtı emrederdi.",
+    [
+     "Babası İbrâhîm ile Kâbe’nin temellerini yükseltti ve sabredenlerden sayıldı.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Sözünde doğru bir peygamberdi; çevresindekilere namazı ve zekâtı emrederdi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Babası İbrâhîm ile Kâbe’nin temellerini yükseltti.",
+     0.6
+    ],
+    [
+     "Saffât yüz iki-yüz yedi’deki kurban kıssasında oğlun adı geçmez; âlimlerin çoğuna göre bu oğul Hazreti İsmâil’dir.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Meryem Suresi, elli dördüncü ayetin anlamı şöyledir.",
+    "Kitap'da İsmail'e dair anlattıklarımızı da an.",
+    [
+     "Çünkü o sözünde doğru bir kimse idi, tarafımızdan gönderilmiş bir peygamberdi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Söz ver, sonra sözünü tut.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "09-ishak",
+   "baslik": "Hz. İshak",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Dokuzuncu durak. Hazreti İshak.",
+     0.7
+    ],
+    [
+     "İbrâhîm’e müjdelenen salih peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "İshak, Hazreti İbrâhîm’e ve eşine, yaşlılıklarında müjdelenen salih bir peygamberdir.",
+    [
+     "Allah, İbrâhîm’e İshak’ı ve Yakup’u bağışladı ve her birini peygamber yaptı.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Salihlerden bir peygamber olarak müjdelendi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Melekler İbrâhîm’in eşine İshak’ı ve ardından Yakup’u müjdeledi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Meryem Suresi, kırk dokuzuncu ayetin anlamı şöyledir.",
+    [
+     "İbrahim onları Allah'tan başka taptıklarıyla başbaşa bırakıp çekilince ona İshak ve Yakub'u bahşettik ve her birini peygamber yaptık.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Müjde, sabredenlere gelir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "10-yakup",
+   "baslik": "Hz. Yakup",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Onuncu durak. Hazreti Yakup.",
+     0.7
+    ],
+    [
+     "Güzel sabrın örneği; derdini Allah’a açan peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Yakup, oğullarına Allah bu dini sizin için seçti; Müslüman olarak ölün diye vasiyet etti.",
+    [
+     "Oğlu Yûsuf’u kaybettiğinde güzel bir sabır gösterdi; üzüntüden gözleri ağardı ama Ben üzüntü ve tasamı yalnız Allah’a açarım dedi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Oğullarına Allah’ın seçtiği din üzere kalmalarını vasiyet etti.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Yûsuf kaybolunca güzel bir sabır dedi.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Ben üzüntü ve tasamı yalnız Allah’a açarım dedi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Yûsuf Suresi, seksen altıncı ayetin anlamı şöyledir.",
+    "Yakup: Ben üzüntü ve tasamı yalnız Allah'a açarım.",
+    [
+     "Allah katından, sizin bilmediklerinizi bilirim dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Derdini insanlara değil, Allah’a aç.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "11-yusuf",
+   "baslik": "Hz. Yûsuf",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On birinci durak. Hazreti Yûsuf.",
+     0.7
+    ],
+    "Kuyudan saraya; iffetin ve affın peygamberi.",
+    [
+     "Kur’an’da anılan yer: Mısır.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Yûsuf, çocukken on bir yıldızın, güneşin ve ayın kendisine secde ettiğini rüyasında gördü.",
+    "Kardeşleri onu kuyuya attı; Mısır’da satıldı, iffetini korudu ve haksız yere zindana girdi.",
+    [
+     "Allah ona rüya yorumunu öğretti; ülkenin hazinelerine yönetici oldu ve sonunda kendisine kötülük eden kardeşlerini affetti.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Rüyasında on bir yıldızın, güneşin ve ayın kendisine secde ettiğini gördü.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Kardeşleri onu bir kuyunun derinliklerine bıraktı.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    "İffetini korudu; Rabbim!",
+    [
+     "Hapis benim için daha iyidir dedi.",
+     0.6
+    ],
+    "Dördüncü olay.",
+    [
+     "Kardeşlerine Bugün azarlanacak değilsiniz, Allah sizi bağışlar diyerek onları affetti.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Yûsuf Suresi, doksan ikinci ve doksan üçüncü ayetlerin anlamı şöyledir.",
+    "Yusuf: Bugün azarlanacak değilsiniz, Allah sizi bağışlar.",
+    "O, merhametlilerin merhametlisidir.",
+    [
+     "Bu gömleğimi götürün, babamın yüzüne sürün, görmeğe başlar; bütün çoluk çocuğunuzla bana gelin dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Güç elindeyken affetmek, en büyük güçtür.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "12-eyyub",
+   "baslik": "Hz. Eyyûb",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On ikinci durak. Hazreti Eyyûb.",
+     0.7
+    ],
+    [
+     "Sabrın timsali; dertte bile Rabbine yönelen peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Eyyûb, başına gelen sıkıntıda Rabbine Başıma bir bela geldi; Sen merhametlilerin merhametlisisin diye seslendi.",
+    "Allah duasını kabul etti, derdini giderdi.",
+    [
+     "Kur’an onu sabırlı bulduğunu ve ne güzel bir kul olduğunu bildirir.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Başıma bir bela geldi; Sen merhametlilerin merhametlisisin diye dua etti.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Allah duasını kabul etti ve derdini giderdi.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Allah onu sabırlı buldu: ne güzel bir kul.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Sâd Suresi, kırk dördüncü ayetin anlamı şöyledir.",
+    "Ey Eyyub!",
+    "Eline bir demet sap alıp onunla vur, yeminini bozma demiştik.",
+    "Doğrusu Biz onu sabırlı bulmuştuk.",
+    [
+     "Ne iyi kuldu, daima Allah'a yönelirdi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Dertte de şükürde de Rabbine yönel.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "13-suayb",
+   "baslik": "Hz. Şuayb",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On üçüncü durak. Hazreti Şuayb.",
+     0.7
+    ],
+    "Ölçüde ve tartıda dürüstlüğü öğütleyen peygamber.",
+    [
+     "Kavmi: Medyen halkı.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Şuayb, kardeşleri olduğu Medyen halkına gönderildi.",
+    "Onlara ölçüyü ve tartıyı tam yapmalarını, insanların mallarını eksiltmemelerini ve yeryüzünde bozgunculuk yapmamalarını öğütledi.",
+    [
+     "Gücümün yettiği kadar ıslah etmekten başka bir dileğim yoktur dedi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Ölçüyü ve tartıyı tam yapmayı öğütledi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Gücümün yettiği kadar ıslah etmekten başka bir dileğim yoktur dedi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "A‘râf Suresi, seksen beşinci ayetin anlamı şöyledir.",
+    "Medyen halkına da kardeşleri Şuayb'ı gönderdik, onlara şöyle dedi: Ey milletim!",
+    "Allah'a kulluk edin, O'ndan başka tanrınız yoktur.",
+    "Rabbinizden size bir belge geldi.",
+    [
+     "Ölçü ve tartıyı tam yapın, insanların eşyasını eksik vermeyin, düzelttikten sonra yeryüzünde bozgunculuk etmeyin; inanıyorsanız bilin ki, bunlar sizin için hayırlıdır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Ticarette dürüstlük, imanın bir parçasıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "14-musa",
+   "baslik": "Hz. Mûsâ",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On dördüncü durak. Hazreti Mûsâ.",
+     0.7
+    ],
+    "Allah’ın konuştuğu; Firavun’a gönderilen peygamber.",
+    [
+     "Kur’an’da anılan yer: Mısır.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Mûsâ bebekken, annesine bildirilen vahiyle suya bırakıldı ve Firavun’un sarayında büyüdü.",
+    "Allah onunla konuştu; kardeşi Hârûn ile birlikte Firavun’a gönderildi ve ona yumuşak söz söylemeleri emredildi.",
+    [
+     "Deniz yarıldı, İsrailoğulları kurtuldu; Mûsâ’ya Tevrat verildi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Annesine, korktuğunda onu suya bırakması bildirildi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Allah, Mûsâ ile konuştu.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Firavun’a kardeşiyle gidip yumuşak söz söylemesi emredildi.",
+     0.6
+    ],
+    "Dördüncü olay.",
+    [
+     "Değneğiyle denize vurdu; deniz ikiye ayrıldı.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Tâhâ Suresi, kırk üçüncü ve kırk dördüncü ayetlerin anlamı şöyledir.",
+    "Firavun'a gidin, doğrusu o azmıştır.",
+    [
+     "Ona yumuşak söz söyleyin, belki öğüt dinler veya korkar.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Zalime bile önce yumuşak sözle git.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "15-harun",
+   "baslik": "Hz. Hârûn",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On beşinci durak. Hazreti Hârûn.",
+     0.7
+    ],
+    [
+     "Mûsâ’nın kardeşi ve yardımcısı.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Mûsâ, Rabbinden ailesinden kardeşi Hârûn’u kendisine yardımcı yapmasını istedi; çünkü Hârûn’un dili daha düzgündü.",
+    [
+     "Allah rahmetinden Hârûn’u bir peygamber olarak Mûsâ’ya bağışladı.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Allah, Mûsâ’ya Seni kardeşinle destekleyeceğiz dedi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Hârûn’un dili daha düzgündü.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Allah rahmetinden Hârûn’u bir peygamber olarak bağışladı.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Meryem Suresi, elli üçüncü ayetin anlamı şöyledir.",
+    [
+     "Rahmetimizden, kardeşi Harun'u bir peygamber olarak ona bağışladık.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "İyilikte kardeşine destek ol.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "16-zulkifl",
+   "baslik": "Hz. Zülkifl",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On altıncı durak. Hazreti Zülkifl.",
+     0.7
+    ],
+    [
+     "Sabredenlerden ve hayırlılardan bir peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    [
+     "Kur’an Zülkifl’i yalnızca iki yerde, sabredenlerden, salihlerden ve hayırlılardan biri olarak anar; hayatına dair ayrıntı vermez.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "İsmâil ve İdrîs ile birlikte sabredenlerden sayıldı.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Hayırlılardan sayıldı.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Enbiyâ Suresi, seksen beşinci ayetin anlamı şöyledir.",
+    [
+     "İsmail, İdris ve Zülkifl hakkında anlattığımızı da an; onların her biri sabredenlerdendi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Az bilinmek, değersiz olmak değildir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "17-davud",
+   "baslik": "Hz. Dâvûd",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On yedinci durak. Hazreti Dâvûd.",
+     0.7
+    ],
+    [
+     "Zebur verilen; demiri yumuşatan peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Dâvûd, Câlût’u öldürdü; Allah ona hükümranlık ve hikmet verdi.",
+    "Kendisine Zebur verildi.",
+    "Allah ona demiri yumuşattı ve zırh yapmayı öğretti; dağlar ve kuşlar onunla birlikte Allah’ı tesbih ederdi.",
+    [
+     "İnsanlar arasında hak ile hükmetmesi istendi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Câlût’u öldürdü; Allah ona hükümranlık ve hikmet verdi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Ona Zebur verildi.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Allah ona demiri yumuşattı ve zırh yapmasını öğretti.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Sâd Suresi, yirmi altıncı ayetin anlamı şöyledir.",
+    "Ey Davud!",
+    "Seni şüphesiz yeryüzünde hükümran kıldık, o halde insanlar arasında adaletle hükmet, hevese uyma yoksa seni Allah'ın yolundan saptırır.",
+    [
+     "Doğrusu, Allah'ın yolundan sapanlara, onlara, hesap gününü unutmalarına karşılık çetin azap vardır.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Hükmederken hak ile hükmet.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "18-suleyman",
+   "baslik": "Hz. Süleymân",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On sekizinci durak. Hazreti Süleymân.",
+     0.7
+    ],
+    [
+     "Kuş dili öğretilen; karıncayı duyan peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Süleymân, babası Dâvûd’a vâris oldu; kendisine kuş dili öğretildi.",
+    "Karıncanın sözüne hafifçe güldü ve Rabbim!",
+    "Bana ve ana babama verdiğin nimete şükürde beni muvaffak kıl dedi.",
+    [
+     "Hüdhüd kuşundan Sebe halkının haberini aldı.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Babası Dâvûd’a vâris oldu; kendisine kuş dili öğretildi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Karıncanın sözünü duydu ve Rabbine şükretti.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Hüdhüd kuşu ona Sebe’den haber getirdi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Neml Suresi, on sekizinci ve on dokuzuncu ayetlerin anlamı şöyledir.",
+    "Sonunda, karıncaların bulunduğu vadiye geldiklerinde bir dişi, kraliçe, karınca: Ey karıncalar!",
+    "Yuvalarınıza girin, Süleyman'ın ordusu farkına varmadan sizi ezmesin dedi.",
+    "Süleyman, onun sözüne hafifçe güldü ve: Rabbim!",
+    "Bana ve ana babama verdiğin nimete şükürde, hoşnut olacağın işi yapmakta beni muvaffak kıl.",
+    [
+     "Rahmetinle, beni iyi kullarının arasına koy dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Nimet arttıkça şükür de artmalı.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "19-ilyas",
+   "baslik": "Hz. İlyâs",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "On dokuzuncu durak. Hazreti İlyâs.",
+     0.7
+    ],
+    [
+     "Kavmini Baal putuna tapmaktan sakındıran peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "İlyâs gönderilen peygamberlerdendir.",
+    "Kavmine Allah’a karşı gelmekten sakınmaz mısınız?",
+    [
+     "Biçim verenlerin en iyisi olan Allah’ı bırakıp da Baal putuna mı taparsınız? dedi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Kavmini Baal putuna tapmaktan sakındırdı.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Zekeriyyâ, Yahyâ ve Îsâ ile birlikte iyilerden sayıldı.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Sâffât Suresi, yüz yirmi üçüncü ile yüz yirmi altıncı ayetler arasının anlamı şöyledir.",
+    "Doğrusu İlyas da peygamberlerdendir.",
+    "Milletine: Allah'a karşı gelmekten sakınmaz mısınız?",
+    [
+     "Biçim verenlerin en iyisi olan, sizin de Rabbiniz, önceki babalarınızın da Rabbi bulunan Allah'ı bırakıp da Baal putuna mı taparsınız? demişti.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Yaratanı bırakıp yaratılmışa yönelme.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "20-elyesa",
+   "baslik": "Hz. Elyesa‘",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Yirminci durak. Hazreti Elyesa‘.",
+     0.7
+    ],
+    [
+     "Âlemlere üstün kılınan hayırlılardan.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    [
+     "Kur’an Elyesa‘ı iki yerde, âlemlere üstün kılınan ve hayırlılardan olan peygamberler arasında anar; hayatına dair ayrıntı vermez.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "İsmâil, Yûnus ve Lût ile birlikte âlemlere üstün kılındı.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Hayırlılardan sayıldı.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "En‘âm Suresi, seksen dördüncü ile seksen altıncı ayetler arasının anlamı şöyledir.",
+    "Ona İshak'ı, Yakub'u bağışladık, her birini doğru yola eriştirdik.",
+    [
+     "Daha önce Nuh'u ve soyundan Davud'u, Süleyman'ı, Eyyub'u, Yusuf'u, Musa'yı ve Harun'u -ki işlerini iyi yapanlara böylece karşılık veririz-, Zekeriya'yı, Yahya'yı, İsa'yı ve İlyas'ı -ki hepsi iyilerdendir-, İsmail'i, Elyesa'ı, Yunus'u, Lut'u -ki hepsini dünyalara üstün kıldık- doğru yola eriştirdik.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Allah katında değer, iyi kul olmaktadır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "21-yunus",
+   "baslik": "Hz. Yûnus",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Yirmi birinci durak. Hazreti Yûnus.",
+     0.7
+    ],
+    [
+     "Balığın karnında Rabbine yalvaran peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Yûnus, kavminden öfkeyle ayrılıp yüklü gemiye kaçtı; denize atıldı ve onu bir balık yuttu.",
+    "Karanlıklar içinde Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslendi; Allah onu kederden kurtardı.",
+    [
+     "Kavmi iman edince azaptan kurtuldu.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Balık onu yuttu.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslendi.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Kavmi iman edince azaptan kurtuldu.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Enbiyâ Suresi, seksen yedinci ayetin anlamı şöyledir.",
+    "Zünnun, Balık Sahibi; Yunus, hakkında söylediğimizi de an.",
+    [
+     "O, öfkelenerek giderken, kendisini sıkıntıya sokmayacağımızı sanmıştı; fakat sonunda karanlıklar içinde: Senden başka tanrı yoktur, Sen münezzehsin, doğrusu ben haksızlık edenlerdenim diye seslenmişti.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "En derin karanlıkta bile dua bir çıkış kapısıdır.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "22-zekeriyya",
+   "baslik": "Hz. Zekeriyyâ",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Yirmi ikinci durak. Hazreti Zekeriyyâ.",
+     0.7
+    ],
+    [
+     "Gizlice dua eden; Yahyâ ile müjdelenen peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Zekeriyyâ, Hazreti Meryem’in bakımını üstlendi.",
+    [
+     "Yaşlılığında Rabbine içinden yalvararak bir evlat istedi; Allah ona Yahyâ’yı müjdeledi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Meryem’in bakımını üstlendi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Rabbine içinden yalvardı.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Kendisine Yahyâ müjdelendi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Meryem Suresi, üçüncü ayetin anlamı şöyledir.",
+    [
+     "O Rabbine içinden yalvarmıştı.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Umudunu yitirme; dua et.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "23-yahya",
+   "baslik": "Hz. Yahyâ",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Yirmi üçüncü durak. Hazreti Yahyâ.",
+     0.7
+    ],
+    [
+     "Kitaba kuvvetle sarılan; anne babasına iyi davranan peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Yahyâ’ya Kitaba kuvvetle sarıl denildi ve çocukken hikmet verildi.",
+    "Anne babasına iyi davranan, zorba ve isyankâr olmayan biriydi.",
+    [
+     "Doğduğu gün, öleceği gün ve diriltileceği gün ona selam olsun.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    "Kitaba kuvvetle sarıl denildi; çocukken hikmet verildi.",
+    [
+     "Anne babasına iyi davranırdı, baş kaldıran bir zorba değildi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Babası Zekeriyyâ’ya, daha önce kimseye verilmemiş bu adla müjdelendi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Meryem Suresi, on ikinci ile on beşinci ayetler arasının anlamı şöyledir.",
+    "Ey Yahya!",
+    "Kitaba kuvvetle sarıl deyip daha çocukken ona hikmet, katımızdan kalp yumuşaklığı ve safiyet verdik.",
+    "O, Allah'tan sakınan ve anasına babasına karşı iyi davranan bir kimse idi, baş kaldıran bir zorba değildi.",
+    [
+     "Doğduğu günde, öleceği günde ve dirileceği günde ona selam olsun.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Bilgiyi kuvvetle tut, anne babana iyi davran.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "24-isa",
+   "baslik": "Hz. Îsâ",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Yirmi dördüncü durak. Hazreti Îsâ.",
+     0.7
+    ],
+    [
+     "Meryem oğlu; beşikte konuşan peygamber.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Îsâ, Allah’ın bir kelimesi olarak Meryem’e müjdelendi.",
+    "Beşikte konuşarak Ben Allah’ın kuluyum dedi.",
+    "Allah’ın izniyle mucizeler gösterdi; kendisine İncil verildi.",
+    [
+     "Kendisinden sonra adı Ahmed olan bir peygamberi müjdeledi.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Meryem’e, adı Meryem oğlu Mesih Îsâ olan bir kelime ile müjdelendi.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Beşikte konuştu: Ben Allah’ın kuluyum..",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Allah’ın izniyle mucizeler gösterdi.",
+     0.6
+    ],
+    "Dördüncü olay.",
+    [
+     "Adı Ahmed olan bir peygamberi müjdeledi.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Meryem Suresi, yirmi dokuzuncu ile otuz üçüncü ayetler arasının anlamı şöyledir.",
+    "Meryem çocuğu gösterdi.",
+    "Biz beşikteki çocukla nasıl konuşabiliriz? dediler.",
+    "Çocuk: Ben şüphesiz Allah'ın kuluyum.",
+    "Bana kitap verdi ve beni peygamber yaptı, nerede olursam olayım beni mübarek kıldı.",
+    "Yaşadığım müddetçe namaz kılmamı, zekat vermemi ve anneme iyi davranmamı emretti.",
+    "Beni bedbaht bir zorba kılmadı.",
+    [
+     "Doğduğum günde, öleceğim günde, dirileceğim günde bana selam olsun dedi.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Kulluk, en yüce şereftir.",
+     1
+    ]
+   ]
+  },
+  {
+   "dosya": "25-muhammed",
+   "baslik": "Hz. Muhammed (s.a.v.)",
+   "tur": "Peygamber",
+   "parcalar": [
+    [
+     "Yirmi beşinci durak. Hazreti Muhammed sallallahu aleyhi ve sellem.",
+     0.7
+    ],
+    [
+     "Peygamberlerin sonuncusu; âlemlere rahmet.",
+     0.6
+    ],
+    "Kur’an’a göre.",
+    "Muhammed, Allah’ın elçisi ve peygamberlerin sonuncusudur.",
+    [
+     "Âlemlere rahmet olarak gönderildi; Kur’an onun büyük bir ahlak üzere olduğunu bildirir.",
+     0.8
+    ],
+    [
+     "Kur’an’dan olaylar.",
+     0.5
+    ],
+    "Birinci olay.",
+    [
+     "Allah’ın elçisi ve peygamberlerin sonuncusudur.",
+     0.6
+    ],
+    "İkinci olay.",
+    [
+     "Âlemlere rahmet olarak gönderildi.",
+     0.6
+    ],
+    "Üçüncü olay.",
+    [
+     "Büyük bir ahlak üzeredir.",
+     0.6
+    ],
+    "Dördüncü olay.",
+    [
+     "Oku! emriyle başlayan ayetler Alak suresinin başındadır.",
+     0.6
+    ],
+    [
+     "Alak suresinin ilk ayetlerinin ilk inen ayetler olduğu hadislerle ve âlimlerin büyük çoğunluğunca bildirilir.",
+     0.6
+    ],
+    "Öne çıkan ayet.",
+    "Ahzâb Suresi, kırkıncı ayetin anlamı şöyledir.",
+    "Muhammed içinizden herhangi bir adamın babası değil, Allah'ın elçisi ve peygamberlerin sonuncusudur.",
+    [
+     "Allah her şeyi bilendir.",
+     0.8
+    ],
+    [
+     "Akılda kalsın.",
+     0.5
+    ],
+    [
+     "Onun ahlakı, Kur’an’ın yaşanmış hâlidir.",
+     1
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "_aciklama": "peygamberler sesli anlatım kayıtları, yetiskin profili (erkek sesi). tools/tts/seslendir.py ile bu bilgisayarda, yerel modelle üretildi; elle düzenlemeyin. sure: saniye; imza: metin ve ses ayarlarının özeti.",
+ "profil": "yetiskin",
+ "ses": "erkek",
+ "motor": "antalia-mini",
+ "kayitlar": {
+  "tam": {
+   "baslik": "Peygamberler Yolculuğu: tam anlatım",
+   "sure": 1690.45,
+   "imza": "4a588c28d12f1885"
+  },
+  "giris": {
+   "baslik": "Peygamberler Yolculuğu",
+   "sure": 100.52,
+   "imza": "9de7bc6366eedca1"
+  },
+  "01-adem": {
+   "baslik": "Hz. Âdem",
+   "sure": 70.56,
+   "imza": "2b653a3505f22f92"
+  },
+  "02-idris": {
+   "baslik": "Hz. İdrîs",
+   "sure": 47.73,
+   "imza": "aa24fda4e8b075d8"
+  },
+  "03-nuh": {
+   "baslik": "Hz. Nûh",
+   "sure": 61.17,
+   "imza": "4de316e32c72a8ce"
+  },
+  "04-hud": {
+   "baslik": "Hz. Hûd",
+   "sure": 62.42,
+   "imza": "50092ccfc7a22aa6"
+  },
+  "05-salih": {
+   "baslik": "Hz. Sâlih",
+   "sure": 72.16,
+   "imza": "bd90d58b8db94766"
+  },
+  "06-ibrahim": {
+   "baslik": "Hz. İbrâhîm",
+   "sure": 73.0,
+   "imza": "d7bddc7642a144b4"
+  },
+  "07-lut": {
+   "baslik": "Hz. Lût",
+   "sure": 60.79,
+   "imza": "696c629e94825a18"
+  },
+  "08-ismail": {
+   "baslik": "Hz. İsmâil",
+   "sure": 61.5,
+   "imza": "fb846444794f7a1e"
+  },
+  "09-ishak": {
+   "baslik": "Hz. İshak",
+   "sure": 48.94,
+   "imza": "44f3ba30133200de"
+  },
+  "10-yakup": {
+   "baslik": "Hz. Yakup",
+   "sure": 56.01,
+   "imza": "6f96139a773c5290"
+  },
+  "11-yusuf": {
+   "baslik": "Hz. Yûsuf",
+   "sure": 83.37,
+   "imza": "7c3da56bf0d45ccb"
+  },
+  "12-eyyub": {
+   "baslik": "Hz. Eyyûb",
+   "sure": 60.91,
+   "imza": "db3e6e82b762e059"
+  },
+  "13-suayb": {
+   "baslik": "Hz. Şuayb",
+   "sure": 70.45,
+   "imza": "3daf1cab66a8ad26"
+  },
+  "14-musa": {
+   "baslik": "Hz. Mûsâ",
+   "sure": 67.53,
+   "imza": "3925d91d96ef224f"
+  },
+  "15-harun": {
+   "baslik": "Hz. Hârûn",
+   "sure": 47.63,
+   "imza": "8222a61ae37795a1"
+  },
+  "16-zulkifl": {
+   "baslik": "Hz. Zülkifl",
+   "sure": 43.65,
+   "imza": "6d4a0ea3fde8bd1d"
+  },
+  "17-davud": {
+   "baslik": "Hz. Dâvûd",
+   "sure": 66.75,
+   "imza": "8e184c97142c0074"
+  },
+  "18-suleyman": {
+   "baslik": "Hz. Süleymân",
+   "sure": 74.72,
+   "imza": "c8f6576f71521998"
+  },
+  "19-ilyas": {
+   "baslik": "Hz. İlyâs",
+   "sure": 58.82,
+   "imza": "b9cf7623cb2c6d83"
+  },
+  "20-elyesa": {
+   "baslik": "Hz. Elyesa‘",
+   "sure": 61.46,
+   "imza": "ba8eb7a13de058ac"
+  },
+  "21-yunus": {
+   "baslik": "Hz. Yûnus",
+   "sure": 72.31,
+   "imza": "ae0a50d70e472a3b"
+  },
+  "22-zekeriyya": {
+   "baslik": "Hz. Zekeriyyâ",
+   "sure": 41.47,
+   "imza": "3748d1d63fb1410a"
+  },
+  "23-yahya": {
+   "baslik": "Hz. Yahyâ",
+   "sure": 70.41,
+   "imza": "1c4cf433f09bfacd"
+  },
+  "24-isa": {
+   "baslik": "Hz. Îsâ",
+   "sure": 79.86,
+   "imza": "76d03a83f1c3184a"
+  },
+  "25-muhammed": {
+   "baslik": "Hz. Muhammed (s.a.v.)",
+   "sure": 63.82,
+   "imza": "4996a4737ef8cade"
+  }
+ }
+}
